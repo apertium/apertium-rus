@@ -55,6 +55,19 @@
       <e>       <p><l>ах</l><r><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
 
+    <pardef n="n_m_2a">
+      <e>       <p><l>ь</l><r><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l>я</l><r><s n="sg"/><s n="gen"/></r></p></e>
+      <e>       <p><l>ю</l><r><s n="sg"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ем</l><r><s n="sg"/><s n="ins"/></r></p></e>
+      <e>       <p><l>е</l><r><s n="sg"/><s n="prp"/></r></p></e>
+      <e>       <p><l>и</l><r><s n="pl"/><s n="nom"/></r></p></e>
+      <e>       <p><l>ей</l><r><s n="pl"/><s n="gen"/></r></p></e>
+      <e>       <p><l>ям</l><r><s n="pl"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ями</l><r><s n="pl"/><s n="ins"/></r></p></e>
+      <e>       <p><l>ях</l><r><s n="pl"/><s n="prp"/></r></p></e>
+    </pardef>
+
     <pardef n="n_f_1a">
       <e>       <p><l>а</l><r><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l>ы</l><r><s n="sg"/><s n="gen"/></r></p></e>
@@ -107,6 +120,13 @@
     <pardef n="мужчи́н/а__n_m_1a">
       <e>       <p><l></l><r>а<s n="n"/><s n="m"/><s n="aa"/></r></p><par n="n_f_1a"/></e>
     </pardef>
+
+    <pardef n="автомоби́л/ь__n_m_2a">
+      <e>       <p><l>ь</l><r>ь<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e>       <p><l>и</l><r>ь<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e>       <p><l></l><r>ь<s n="n"/><s n="m"/><s n="nn"/></r></p><par n="n_m_2a"/></e>
+    </pardef>
+
 
     <pardef n="ба́нд/а__n_f_1a">
       <e>       <p><l>ы</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
@@ -341,6 +361,9 @@
     <e lm="шокола́д"><i>шокола́д</i><par n="авто́бус__n_m_1a"/></e>
     <e lm="экза́мен"><i>экза́мен</i><par n="авто́бус__n_m_1a"/></e>
     <e lm="э́кспорт"><i>э́кспорт</i><par n="авто́бус__n_m_1a"/></e>
+
+    <e lm="автомоби́ль"><i>автомоби́л</i><par n="автомоби́л/ь__n_m_2a"/></e>
+    <e lm="апре́ль"><i>апре́л</i><par n="автомоби́л/ь__n_m_2a"/></e>
 
   </section>
 
