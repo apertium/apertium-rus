@@ -52,46 +52,52 @@
     </pardef>
 
     <pardef n="n_f_1a">
-      <e>       <p><l>а</l><r>а<s n="sg"/><s n="nom"/></r></p></e>
-      <e>       <p><l>ы</l><r>а<s n="sg"/><s n="gen"/></r></p></e>
-      <e>       <p><l>е</l><r>а<s n="sg"/><s n="dat"/></r></p></e>
-      <e>       <p><l>у</l><r>а<s n="sg"/><s n="acc"/></r></p></e>
-      <e>       <p><l>ой</l><r>а<s n="sg"/><s n="ins"/></r></p></e>
-      <e r="LR"><p><l>ою</l><r>а<s n="sg"/><s n="ins"/></r></p></e>
-      <e>       <p><l>е</l><r>а<s n="sg"/><s n="prp"/></r></p></e>
-      <e>       <p><l>ы</l><r>а<s n="pl"/><s n="nom"/></r></p></e>
-      <e>       <p><l></l><r>а<s n="pl"/><s n="gen"/></r></p></e>
-      <e>       <p><l>ам</l><r>а<s n="pl"/><s n="dat"/></r></p></e>
-      <e>       <p><l>ами</l><r>а<s n="pl"/><s n="ins"/></r></p></e>
-      <e>       <p><l>ах</l><r>а<s n="pl"/><s n="prp"/></r></p></e>
+      <e>       <p><l>а</l><r><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l>ы</l><r><s n="sg"/><s n="gen"/></r></p></e>
+      <e>       <p><l>е</l><r><s n="sg"/><s n="dat"/></r></p></e>
+      <e>       <p><l>у</l><r><s n="sg"/><s n="acc"/></r></p></e>
+      <e>       <p><l>ой</l><r><s n="sg"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>ою</l><r><s n="sg"/><s n="ins"/></r></p></e>
+      <e>       <p><l>е</l><r><s n="sg"/><s n="prp"/></r></p></e>
+      <e>       <p><l>ы</l><r><s n="pl"/><s n="nom"/></r></p></e>
+      <e>       <p><l></l><r><s n="pl"/><s n="gen"/></r></p></e>
+      <e>       <p><l>ам</l><r><s n="pl"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ами</l><r><s n="pl"/><s n="ins"/></r></p></e>
+      <e>       <p><l>ах</l><r><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
 
     <pardef n="авто́бус__n_m_1a">
-      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="nn"/></r></p><par n="n_m_1a"/></e>
       <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
       <e>       <p><l>ы</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="nn"/></r></p><par n="n_m_1a"/></e>
     </pardef>
 
     <pardef n="aэроп/о́рт__n_m_1a_п2">
-      <e>       <p><l>о́рт</l><r>о́рт</r></p><par n="авто́бус__n_m_1a"/></e>
+      <e>       <p><l>о́рт</l><r>о́рт<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
       <e>       <p><l>орту́</l><r>о́рт<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e>       <p><l>о́рты</l><r>о́рт<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e>       <p><l>о́рт</l><r>о́рт<s n="n"/><s n="m"/><s n="nn"/></r></p><par n="n_m_1a"/></e>
     </pardef>
 
     <pardef n="в/и́д__n_m_1a_п2_р2">
-      <e>       <p><l>и́д</l><r>и́д</r></p><par n="авто́бус__n_m_1a"/></e>
+      <e>       <p><l>и́д</l><r>и́д<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
       <e>       <p><l>иду́</l><r>и́д<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
       <e>       <p><l>и́ду</l><r>и́д<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="par"/></r></p></e>
+      <e>       <p><l>и́ды</l><r>и́д<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e>       <p><l>и́д</l><r>и́д<s n="n"/><s n="m"/><s n="nn"/></r></p><par n="n_m_1a"/></e>
     </pardef>
 
     <pardef n="компо́т__n_m_1a_р2">
-      <e>       <p><l></l><r></r></p><par n="авто́бус__n_m_1a"/></e>
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
       <e>       <p><l>у</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="par"/></r></p></e>
+      <e>       <p><l>ы</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="nn"/></r></p><par n="n_m_1a"/></e>
     </pardef>
 
     <pardef n="ветера́н__n_m_1a">
-      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="aa"/></r></p><par n="n_m_1a"/></e>
       <e>       <p><l>а</l><r><s n="n"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
       <e>       <p><l>ов</l><r><s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="aa"/></r></p><par n="n_m_1a"/></e>
     </pardef>
 
     <pardef n="мужчи́н/а__n_m_1a">
@@ -99,14 +105,14 @@
     </pardef>
 
     <pardef n="ба́нд/а__n_f_1a">
+      <e>       <p><l>ы</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
       <e>       <p><l></l><r>а<s n="n"/><s n="f"/><s n="nn"/></r></p><par n="n_f_1a"/></e>
-      <e>       <p><l>ы</l><r>а<s n="pl"/><s n="acc"/></r></p></e>
     </pardef>
 
     <pardef n="ма́м/а__n_f_1a">
-      <e>       <p><l></l><r>а<s n="n"/><s n="f"/><s n="nn"/></r></p><par n="n_f_1a"/></e>
-      <e>       <p><l></l><r>а<s n="pl"/><s n="acc"/></r></p></e>
-      <e>       <p><l></l><r>а<s n="sg"/><s n="voc"/></r></p></e>
+      <e>       <p><l></l><r>а<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e>       <p><l></l><r>а<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e>       <p><l></l><r>а<s n="n"/><s n="f"/><s n="aa"/></r></p><par n="n_f_1a"/></e>
     </pardef>
 
     <pardef n="ва́нн/ая__n_f_1a">
@@ -174,7 +180,7 @@
     <e lm="автома́т"><i>автома́т</i><par n="авто́бус__n_m_1a"/></e>
     <e lm="альбо́м"><i>альбо́м</i><par n="авто́бус__n_m_1a"/></e>
     <e lm="апельси́н"><i>апельси́н</i><par n="авто́бус__n_m_1a"/></e>
-    <e lm="аппети́т"><i>аппети́т</i><par n="авто́бус__n_m_1a"/></e>
+    <e lm="аппети́т"><i>аппети́т</i><par n="компо́т__n_m_1a_р2"/></e>
     <e lm="арбу́з"><i>арбу́з</i><par n="авто́бус__n_m_1a"/></e>
     <e lm="аэропо́рт"><i>аэроп</i><par n="aэроп/о́рт__n_m_1a_п2"/></e>
     <e lm="бадминто́н"><i>бадминто́н</i><par n="авто́бус__n_m_1a"/></e>
