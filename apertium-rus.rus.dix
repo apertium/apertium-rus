@@ -1,0 +1,81 @@
+<dictionary>
+  <alphabet>АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя</alphabet>
+  <sdefs>
+    <sdef n="n"          c="Noun"/>
+    <sdef n="cnjcoo"     c="Coordinating conjunction"/>
+    <sdef n="cnjsub"     c="Subordinating conjunction"/>
+
+    <sdef n="nom"        c="Nominative"/>
+    <sdef n="gen"        c="Genitive"/>
+    <sdef n="dat"        c="Dative"/>
+    <sdef n="acc"        c="Accusative"/>
+    <sdef n="ins"        c="Instrumental"/>
+    <sdef n="prp"        c="Prepositional"/>
+    <sdef n="loc"        c="Locative"/>
+
+    <sdef n="sent"       c="End-of-sentence marker"/>
+  </sdefs>
+
+  <pardefs>
+
+    <!-- Раздел: Союзы -->
+
+    <pardef n="а__cnjcoo">
+      <e>       <p><l></l><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
+
+    <pardef n="что__cnjsub">
+      <e>       <p><l></l><r><s n="cnjsub"/></r></p></e>
+    </pardef>
+
+    <!-- Раздел: Имя существителное -->
+
+    <pardef n="авто́бус__n_m_1a">
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l>а</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e>       <p><l>у</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e>       <p><l>ом</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e>       <p><l>е</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="prp"/></r></p></e>
+      <e>       <p><l>ы</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e>       <p><l>ов</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e>       <p><l>ам</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ы</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e>       <p><l>ами</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e>       <p><l>ах</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="prp"/></r></p></e>
+    </pardef>
+
+    <pardef n="aэроп/о́рт__n_m_1a_п2">
+      <e>       <p><l>о́рт</l><r>о́рт</r></p><par n="авто́бус__n_m_1a"/></e>
+      <e>       <p><l>орту́</l><r>о́рт<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
+    </pardef>
+
+  </pardefs>
+
+  <section id="main" type="standard">
+
+    <!-- Раздел: Союзы -->
+
+    <e lm="а"><i>а</i><par n="а__cnjcoo"/></e>
+    <e lm="и"><i>и</i><par n="а__cnjcoo"/></e>
+
+    <e lm="что"><i>что</i><par n="что__cnjsub"/></e>
+
+    <!-- Раздел: Имя существительное -->
+
+    <e lm="авто́бус"><i>авто́бус</i><par n="авто́бус__n_m_1a"/></e>
+    <e lm="автома́т"><i>автома́т</i><par n="авто́бус__n_m_1a"/></e>
+    <e lm="альбо́м"><i>альбо́м</i><par n="авто́бус__n_m_1a"/></e>
+    <e lm="апельси́н"><i>апельси́н</i><par n="авто́бус__n_m_1a"/></e>
+    <e lm="аппети́т"><i>аппети́т</i><par n="авто́бус__n_m_1a"/></e>
+    <e lm="арбу́з"><i>арбу́з</i><par n="авто́бус__n_m_1a"/></e>
+    <e lm="аэропо́рт"><i>аэроп</i><par n="aэроп/о́рт__n_m_1a_п2"/></e>
+
+  </section>
+
+  <section id="finals" type="inconditional">
+    <e><re>[.\?;:!]+</re><p><l></l><r><s n="sent"/></r></p></e>
+  </section>
+
+
+</dictionary>
