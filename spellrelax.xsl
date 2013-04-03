@@ -33,7 +33,8 @@
   <!--<xsl:apply-templates select="./*|text(),'а́','а'"/>-->
 
 <!--<l><xsl:value-of select="translate(./*|text(), 'а́э́е́и́о́у́ы́', 'аэеиоуы')" /></l>-->
-<l><xsl:value-of select="translate(./*|text(), 'а́', 'а')" /></l>
+<!--<l><xsl:value-of select="translate(./*|text(), 'а́', 'а')" /></l>-->
+<l><xsl:for-each select="*|text()"><xsl:choose><xsl:when test="./text()"><xsl:value-of select="translate(., 'а́', 'а')" /></xsl:when> <xsl:otherwise><xsl:copy-of select="." /></xsl:otherwise></xsl:choose></xsl:for-each></l>
 </xsl:template>
 
 <xsl:template match="r">
