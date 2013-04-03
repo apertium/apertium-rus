@@ -94,9 +94,7 @@
             <xsl:with-param name="name" select="."/>
           </xsl:call-template>
         </xsl:when>
-        <xsl:otherwise>
-          <xsl:apply-templates select="*"/>
-        </xsl:otherwise>
+        <xsl:otherwise> <xsl:copy-of select="."/> </xsl:otherwise>
       </xsl:choose>
     </xsl:for-each>
   </xsl:variable>
