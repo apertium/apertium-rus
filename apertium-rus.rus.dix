@@ -3,6 +3,7 @@
   <sdefs>
     <sdef n="n"          c="Имя существительное"/>
     <sdef n="pr"         c="Предлог"/>
+    <sdef n="prn"        c="Pronoun"/>
     <sdef n="adv"        c="Наречие"/>
     <sdef n="ij"         c="Междометие"/>
     <sdef n="cnjcoo"     c="Coordinating conjunction"/>
@@ -13,7 +14,9 @@
 
     <sdef n="m"          c="Masculine"/>
     <sdef n="f"          c="Feminine"/>
+    <sdef n="mf"         c="Masculine or feminine"/>
     <sdef n="nt"         c="Neuter"/>
+    <sdef n="mfn"        c="Masculine, feminine or neuter"/>
 
     <sdef n="nn"         c="Inanimate"/>
     <sdef n="aa"         c="Animate"/>
@@ -26,7 +29,9 @@
     <sdef n="prp"        c="Prepositional"/>
     <sdef n="loc"        c="Locative"/>
     <sdef n="par"        c="Partitive"/>
-    <sdef n="voc"        c="Partitive"/>
+    <sdef n="voc"        c="Vocative"/>
+
+    <sdef n="pers"       c="Personal"/>
 
     <sdef n="sent"       c="End-of-sentence marker"/>
     <sdef n="cm"         c="Comma"/>
@@ -80,6 +85,47 @@
     <pardef n="вдруг__adv">
       <e>       <p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
+
+    <!-- Раздел: Mестоимения -->
+
+    <pardef n="/я__prn">
+      <e>       <p><l>я</l><r>я<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l>меня</l><r>я<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e>       <p><l>мне</l><r>я<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e>       <p><l>меня</l><r>я<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e>       <p><l>мной</l><r>я<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e>       <p><l>мне</l><r>я<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="prp"/></r></p></e>
+    </pardef>
+
+    <!-- Раздел: Mестоимения -->
+
+    <!-- Раздел: Имя существителное -->
+
+    <pardef n="n_m_1a">
+      <e>       <p><l></l><r><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l>а</l><r><s n="sg"/><s n="gen"/></r></p></e>
+      <e>       <p><l>у</l><r><s n="sg"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ом</l><r><s n="sg"/><s n="ins"/></r></p></e>
+      <e>       <p><l>е</l><r><s n="sg"/><s n="prp"/></r></p></e>
+      <e>       <p><l>ы</l><r><s n="pl"/><s n="nom"/></r></p></e>
+      <e>       <p><l>ов</l><r><s n="pl"/><s n="gen"/></r></p></e>
+      <e>       <p><l>ам</l><r><s n="pl"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ами</l><r><s n="pl"/><s n="ins"/></r></p></e>
+      <e>       <p><l>ах</l><r><s n="pl"/><s n="prp"/></r></p></e>
+    </pardef>
+
+    <pardef n="n_m_1b">
+      <e>       <p><l>а́</l><r><s n="sg"/><s n="gen"/></r></p></e>
+      <e>       <p><l>у́</l><r><s n="sg"/><s n="dat"/></r></p></e>
+      <e>       <p><l>о́м</l><r><s n="sg"/><s n="ins"/></r></p></e>
+      <e>       <p><l>е́</l><r><s n="sg"/><s n="prp"/></r></p></e>
+      <e>       <p><l>ы́</l><r><s n="pl"/><s n="nom"/></r></p></e>
+      <e>       <p><l>о́в</l><r><s n="pl"/><s n="gen"/></r></p></e>
+      <e>       <p><l>а́м</l><r><s n="pl"/><s n="dat"/></r></p></e>
+      <e>       <p><l>а́ми</l><r><s n="pl"/><s n="ins"/></r></p></e>
+      <e>       <p><l>а́х</l><r><s n="pl"/><s n="prp"/></r></p></e>
+    </pardef>
+
 
     <!-- Раздел: Имя существителное -->
 
