@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<analysis-chars>
+<!-- Make apostrophe variants equal ' -->
+  <char value="'">
+    <equiv-char value="&#x2019;"/>
+    <equiv-char value="&#x2BC;"/>
+  </char>
+  <char value="&#183;">
+    <equiv-char value="."/>
+  </char>
+  <!-- Accented characters -->
+  <char value="о">
+    <equiv-char value="о"/>
+    <equiv-char value="o"/> <!-- Latn -->
+  </char>
+  <char value="ё">
+    <equiv-char value="е"/>
+  </char>
+  <!-- Common latin letters found in cyrillic texts -->
+  <char value="В">
+    <equiv-char value="B"/>
+  </char>
+  <char value="Т"> 
+    <equiv-char value="T"/>
+  </char>
+  <char value="К"> 
+    <equiv-char value="K"/>
+  </char>
+  <char value="А"> 
+    <equiv-char value="A"/>
+  </char>
+  <char value="М"> 
+    <equiv-char value="M"/>
+  </char>
+  <char value="О"> 
+    <equiv-char value="O"/>
+  </char>
+  <char value="Е"> 
+    <equiv-char value="E"/>
+  </char>
+  <char value="Ј"> 
+    <equiv-char value="J"/>
+  </char>
+  <char value="ј"> 
+    <equiv-char value="j"/>
+  </char>
+  <char value="а">
+    <equiv-char value="a"/>
+  </char>
+  <char value="е">
+    <equiv-char value="e"/>
+  </char>
+  <char value="ѐ">
+    <equiv-char value="é"/>
+    <equiv-char value="è"/>
+  </char>
+
+</analysis-chars>
