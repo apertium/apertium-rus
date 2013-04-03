@@ -37,6 +37,8 @@
 
     <sdef n="pers"       c="Personal"/>
 
+    <sdef n="comp"       c="Сравнительная степень"/>
+
     <sdef n="sent"       c="End-of-sentence marker"/>
     <sdef n="cm"         c="Comma"/>
     <sdef n="guio"       c="Hyphen"/>
@@ -574,6 +576,7 @@
     <e lm="да́же"><i>да́же</i><par n="вдруг__adv"/></e>
     <e lm="ещё"><i>ещё</i><par n="вдруг__adv"/></e>
     <e lm="здесь"><i>здесь</i><par n="вдруг__adv"/></e>
+    <e lm="тут"><i>тут</i><par n="вдруг__adv"/></e>
     <e lm="иногда́"><i>иногда́</i><par n="вдруг__adv"/></e>
     <e lm="сра́зу"><i>сра́зу</i><par n="вдруг__adv"/></e>
     <e lm="уже́"><i>уже́</i><par n="вдруг__adv"/></e>
