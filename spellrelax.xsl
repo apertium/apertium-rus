@@ -11,7 +11,7 @@
   <xsl:if test="$name">
     <xsl:variable name="first" select="substring($name,1,1)"/>
     <xsl:choose>
-      <xsl:when test="contains('аэеиоуыяю',$first) and (substring($name,2,1) = '&accent;')">
+      <xsl:when test="contains('АЭЕИОУЫЯЮаэеиоуыяю',$first) and (substring($name,2,1) = '&accent;')">
         <xsl:value-of select="$first"/>
         <xsl:call-template name="dropaccent">
           <xsl:with-param name="name" select="substring($name,3)"/>
