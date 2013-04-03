@@ -28,6 +28,7 @@
     <sdef n="voc"        c="Partitive"/>
 
     <sdef n="sent"       c="End-of-sentence marker"/>
+    <sdef n="cm"         c="Comma"/>
   </sdefs>
 
   <pardefs>
@@ -429,6 +430,7 @@
   </section>
 
   <section id="finals" type="inconditional">
+    <e><p><l>,</l><r>,<s n="cm"/></r></p></e>
     <e><re>[.\?;:!]+</re><p><l></l><r><s n="sent"/></r></p></e>
   </section>
 

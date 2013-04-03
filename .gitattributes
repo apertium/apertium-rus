@@ -2,3 +2,4 @@
 /apertium-rus.rus.dix -text
 dev/adjectives_zaliznjak.txt -text
 dev/stem-list.txt -text svneol=unset#application/octet-stream
+/spellrelax.xsl -text
