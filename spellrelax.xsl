@@ -53,9 +53,18 @@
 
 <xsl:template match="l">
   <xsl:variable name="leftout">
-    <xsl:call-template name="dropaccent">
-      <xsl:with-param name="name" select="./*|text()"/>
-    </xsl:call-template>
+    <xsl:for-each select="./*|text()">
+      <xsl:choose>
+        <xsl:when test="self::text()">
+          <xsl:call-template name="dropaccent">
+            <xsl:with-param name="name" select="."/>
+          </xsl:call-template>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates select="*"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:for-each>
   </xsl:variable>
 <l><xsl:value-of select="$leftout" /></l>
 </xsl:template>
@@ -78,9 +87,18 @@
 
 <xsl:template match="i">
   <xsl:variable name="leftout">
-    <xsl:call-template name="dropaccent">
-      <xsl:with-param name="name" select="./*|text()"/>
-    </xsl:call-template>
+    <xsl:for-each select="./*|text()">
+      <xsl:choose>
+        <xsl:when test="self::text()">
+          <xsl:call-template name="dropaccent">
+            <xsl:with-param name="name" select="."/>
+          </xsl:call-template>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates select="*"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:for-each>
   </xsl:variable>
   <p><l><xsl:value-of select="$leftout"/></l><r><xsl:apply-templates select="*|text()"/></r></p>
 </xsl:template>
