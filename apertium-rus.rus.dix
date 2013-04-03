@@ -86,6 +86,13 @@
       <e r="RL"><p><l><a/>в</l><r>в<s n="pr"/></r></p></e>
     </pardef>
 
+    <pardef n="/о__pr">
+      <e r="LR"><p><l>о</l><r>о<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>об</l><r>о<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>о́бо</l><r>о<s n="pr"/></r></p></e>
+      <e r="RL"><p><l><a/>о</l><r>о<s n="pr"/></r></p></e>
+    </pardef>
+
     <!-- Раздел: Наречия -->
 
     <pardef n="вдруг__adv">
@@ -478,6 +485,7 @@
     <e lm="а"><i>а</i><par n="а__cnjcoo"/></e>
     <e lm="и"><i>и</i><par n="а__cnjcoo"/></e>
     <e lm="и́ли"><i>и́ли</i><par n="а__cnjcoo"/></e>
+    <e lm="но"><i>но</i><par n="а__cnjcoo"/></e>
 
     <e lm="что"><i>что</i><par n="что__cnjsub"/></e>
 
@@ -486,6 +494,7 @@
     <e lm="к"><i></i><par n="/к__pr"/></e>
     <e lm="с"><i></i><par n="/с__pr"/></e>
     <e lm="в"><i></i><par n="/в__pr"/></e>
+    <e lm="о"><i></i><par n="/о__pr"/></e>
 
     <e lm="без"><i>без</i><par n="без__pr"/></e>
     <e lm="для"><i>для</i><par n="без__pr"/></e>
