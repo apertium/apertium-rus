@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
+<!DOCTYPE xsl:stylesheet [ <!ENTITY accent "&#x301;"> ]>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="xml" encoding="UTF-8"/>
 
 
   <xsl:preserve-space elements="*"/>
+
+<xsl:template name="dropaccent">
+  <xsl:param name="name"/>
+  <xsl:if test="$name">
+    <xsl:variable name="first" select="substring($name,1,1)"/>
+    <xsl:choose>
+      <xsl:when test="contains('аэеиоуыяю',$first) and (substring($name,2,1) = '&accent;')">
+        <xsl:value-of select="$first"/>
+        <xsl:call-template name="dropaccent">
+          <xsl:with-param name="name" select="substring($name,3)"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$first"/>
+        <xsl:call-template name="dropaccent">
+          <xsl:with-param name="name" select="substring($name,2)"/>
+        </xsl:call-template>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:if>
+</xsl:template>
 
 <xsl:template match="s">
   <s n="{./@n}"/>
@@ -30,10 +52,12 @@
 </xsl:template>
 
 <xsl:template match="l">
-  <!--<xsl:apply-templates select="./*|text(),'а́','а'"/>-->
-
-<l><xsl:value-of select="translate(./*|text(), 'а́', 'а')" /></l>
-<!--<l><xsl:for-each select="*|text()"><xsl:choose><xsl:when test="text()"><xsl:value-of select="translate(., 'а́', 'а')" /></xsl:when> <xsl:otherwise><xsl:copy-of select="." /></xsl:otherwise></xsl:choose></xsl:for-each></l>-->
+  <xsl:variable name="leftout">
+    <xsl:call-template name="dropaccent">
+      <xsl:with-param name="name" select="./*|text()"/>
+    </xsl:call-template>
+  </xsl:variable>
+<l><xsl:value-of select="$leftout" /></l>
 </xsl:template>
 
 <xsl:template match="r">
@@ -53,7 +77,12 @@
 </xsl:template>
 
 <xsl:template match="i">
-  <p><l><xsl:value-of select="translate(./*|text(), 'а́', 'а')"/></l><r><xsl:apply-templates select="*|text()"/></r></p>
+  <xsl:variable name="leftout">
+    <xsl:call-template name="dropaccent">
+      <xsl:with-param name="name" select="./*|text()"/>
+    </xsl:call-template>
+  </xsl:variable>
+  <p><l><xsl:value-of select="$leftout"/></l><r><xsl:apply-templates select="*|text()"/></r></p>
 </xsl:template>
 
 <xsl:template match="e | @*">
@@ -77,7 +106,7 @@
       <xsl:for-each select="./pardefs/pardef">
   <xsl:value-of select="string('&#xA;')"/>
 
-	<pardef n="{./@n}">
+  <pardef n="{./@n}">
 	  <xsl:apply-templates/>
 	</pardef>
       </xsl:for-each>
@@ -100,4 +129,3 @@
 
 
 </xsl:stylesheet>
-

@@ -29,6 +29,7 @@
 
     <sdef n="sent"       c="End-of-sentence marker"/>
     <sdef n="cm"         c="Comma"/>
+    <sdef n="guio"       c="Hyphen"/>
   </sdefs>
 
   <pardefs>
@@ -61,6 +62,12 @@
       <e r="RL"><p><l><a/>с</l><r>с<s n="pr"/></r></p></e>
     </pardef>
 
+    <pardef n="/в__pr">
+      <e r="LR"><p><l>в</l><r>в<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>во</l><r>в<s n="pr"/></r></p></e>
+      <e r="RL"><p><l><a/>в</l><r>в<s n="pr"/></r></p></e>
+    </pardef>
+
     <!-- Раздел: Наречия -->
 
     <pardef n="вдруг__adv">
@@ -80,6 +87,18 @@
       <e>       <p><l>ам</l><r><s n="pl"/><s n="dat"/></r></p></e>
       <e>       <p><l>ами</l><r><s n="pl"/><s n="ins"/></r></p></e>
       <e>       <p><l>ах</l><r><s n="pl"/><s n="prp"/></r></p></e>
+    </pardef>
+
+    <pardef n="n_m_1b">
+      <e>       <p><l>а́</l><r><s n="sg"/><s n="gen"/></r></p></e>
+      <e>       <p><l>у́</l><r><s n="sg"/><s n="dat"/></r></p></e>
+      <e>       <p><l>о́м</l><r><s n="sg"/><s n="ins"/></r></p></e>
+      <e>       <p><l>е́</l><r><s n="sg"/><s n="prp"/></r></p></e>
+      <e>       <p><l>ы́</l><r><s n="pl"/><s n="nom"/></r></p></e>
+      <e>       <p><l>о́в</l><r><s n="pl"/><s n="gen"/></r></p></e>
+      <e>       <p><l>а́м</l><r><s n="pl"/><s n="dat"/></r></p></e>
+      <e>       <p><l>а́ми</l><r><s n="pl"/><s n="ins"/></r></p></e>
+      <e>       <p><l>а́х</l><r><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
 
     <pardef n="n_m_2a">
@@ -146,6 +165,12 @@
 
     <pardef n="мужчи́н/а__n_m_1a">
       <e>       <p><l></l><r>а<s n="n"/><s n="m"/><s n="aa"/></r></p><par n="n_f_1a"/></e>
+    </pardef>
+
+    <pardef n="ст/о́л__n_m_1b">
+      <e>       <p><l>о́л</l><r>о́л<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l>о́л</l><r>о́л<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e>       <p><l>ол</l><r>о́л<s n="n"/><s n="m"/><s n="nn"/></r></p><par n="n_m_1b"/></e>
     </pardef>
 
     <pardef n="автомоби́л/ь__n_m_2a">
@@ -235,6 +260,7 @@
 
     <e lm="к"><i></i><par n="/к__pr"/></e>
     <e lm="с"><i></i><par n="/с__pr"/></e>
+    <e lm="в"><i></i><par n="/в__pr"/></e>
 
     <e lm="без"><i>без</i><par n="без__pr"/></e>
     <e lm="для"><i>для</i><par n="без__pr"/></e>
@@ -394,6 +420,7 @@
     <e lm="университе́т"><i>университе́т</i><par n="авто́бус__n_m_1a"/></e>
     <e lm="филиа́л"><i>филиа́л</i><par n="авто́бус__n_m_1a"/></e>
     <e lm="фи́льм"><i>фи́льм</i><par n="авто́бус__n_m_1a"/></e>
+    <e lm="фи́рма"><i>фи́рм</i><par n="ба́нд/а__n_f_1a"/></e>
     <e lm="фо́рма"><i>фо́рм</i><par n="ба́нд/а__n_f_1a"/></e>
     <e lm="фото́граф"><i>фото́граф</i><par n="ветера́н__n_m_1a"/></e>
     <e lm="фру́кт"><i>фру́кт</i><par n="авто́бус__n_m_1a"/></e>
@@ -410,6 +437,8 @@
 
     <e lm="автомоби́ль"><i>автомоби́л</i><par n="автомоби́л/ь__n_m_2a"/></e>
     <e lm="апре́ль"><i>апре́л</i><par n="автомоби́л/ь__n_m_2a"/></e>
+
+    <e lm="сто́л"><i>ст</i><par n="ст/о́л__n_m_1b"/></e>
 
     <!-- Раздел: Имя прилагательное -->
 
@@ -431,6 +460,7 @@
 
   <section id="finals" type="inconditional">
     <e><p><l>,</l><r>,<s n="cm"/></r></p></e>
+    <e><re>\-+</re><p><l></l><r><s n="guio"/></r></p></e>
     <e><re>[.\?;:!]+</re><p><l></l><r><s n="sent"/></r></p></e>
   </section>
 
