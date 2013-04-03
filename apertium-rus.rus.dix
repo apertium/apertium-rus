@@ -204,6 +204,22 @@
 
     <!-- Раздел: Имя существителное -->
 
+    <pardef n="indecl">
+      <e>       <p><l></l><r><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l></l><r><s n="sg"/><s n="gen"/></r></p></e>
+      <e>       <p><l></l><r><s n="sg"/><s n="dat"/></r></p></e>
+      <e>       <p><l></l><r><s n="sg"/><s n="acc"/></r></p></e>
+      <e>       <p><l></l><r><s n="sg"/><s n="ins"/></r></p></e>
+      <e>       <p><l></l><r><s n="sg"/><s n="prp"/></r></p></e>
+      <e>       <p><l></l><r><s n="pl"/><s n="nom"/></r></p></e>
+      <e>       <p><l></l><r><s n="pl"/><s n="gen"/></r></p></e>
+      <e>       <p><l></l><r><s n="pl"/><s n="dat"/></r></p></e>
+      <e>       <p><l></l><r><s n="pl"/><s n="acc"/></r></p></e>
+      <e>       <p><l></l><r><s n="pl"/><s n="ins"/></r></p></e>
+      <e>       <p><l></l><r><s n="pl"/><s n="prp"/></r></p></e>
+    </pardef>
+
+
     <pardef n="n_m_1a">
       <e>       <p><l></l><r><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l>а</l><r><s n="sg"/><s n="gen"/></r></p></e>
@@ -432,6 +448,10 @@
       <e>       <p><l>ах</l><r>о<s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
 
+    <pardef n="бюро́__n_nt_0">
+      <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="nn"/></r></p><par n="indecl"/></e>
+    </pardef>
+
     <pardef n="моро́жен/ое__n_nt_п1a">
       <e>       <p><l>ое</l><r>ое<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l>ого</l><r>ое<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -513,6 +533,7 @@
     <e lm="бока́л"><i>бока́л</i><par n="авто́бус__n_m_1a"/></e>
     <e lm="буке́т"><i>буке́т</i><par n="авто́бус__n_m_1a"/></e>
     <e lm="бутербро́д"><i>бутербро́д</i><par n="авто́бус__n_m_1a"/></e>
+    <e lm="бюро́"><i>бюро́</i><par n="бюро́__n_nt_0"/></e>
     <e lm="ваго́н"><i>ваго́н</i><par n="авто́бус__n_m_1a"/></e>
     <e lm="ва́за"><i>ва́з</i><par n="ба́нд/а__n_f_1a"/></e>
     <e lm="ва́нная"><i>ва́нн</i><par n="ва́нн/ая__n_f_1a"/></e>
