@@ -945,6 +945,16 @@
       <e>       <p><l>ьнее</l><r>ьный<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
     </pardef>
 
+    <pardef n="элега́нт/ный__adj_1*a">
+      <e>       <p><l>н</l><r>ный<s n="adj"/><s n="sint"/></r></p><par n="adj__1a"/></e>
+      <e>       <p><l>ен</l><r>ный<s n="adj"/><s n="sint"/><s n="short"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>на</l><r>ный<s n="adj"/><s n="sint"/><s n="short"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>но</l><r>ный<s n="adj"/><s n="sint"/><s n="short"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ны</l><r>ный<s n="adj"/><s n="sint"/><s n="short"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ней</l><r>ный<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
+    </pardef>
+
+
     <pardef n="бога́/тый__adj_1a">
       <e>       <p><l>т</l><r>тый<s n="adj"/><s n="sint"/></r></p><par n="adj__1a"/></e>
       <e>       <p><l>че</l><r>тый<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
@@ -1311,6 +1321,8 @@
     <e lm="моби́льный"><i>моби́л</i><par n="автомоби́л/ьный__adj_1*a"/></e>
     <e lm="музыка́льный"><i>музыка́л</i><par n="автомоби́л/ьный__adj_1*a"/></e>
     <e lm="отде́льный"><i>отде́л</i><par n="автомоби́л/ьный__adj_1*a"/></e>
+
+    <e lm="элега́нтьный"><i>элега́нт</i><par n="элега́нт/ный__adj_1*a"/></e>
 
     <e lm="креди́тный"><i>креди́т</i><par n="креди́т/ный__adj_1*a"/></e>
 
