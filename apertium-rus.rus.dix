@@ -4,11 +4,14 @@
     <sdef n="n"          c="Имя существительное"/>
     <sdef n="pr"         c="Предлог"/>
     <sdef n="prn"        c="Pronoun"/>
+    <sdef n="num"        c="Число"/>
     <sdef n="np"         c="Имя собственное"/>
     <sdef n="adv"        c="Наречие"/>
+    <sdef n="adj"        c="Имя прилагательное"/>
     <sdef n="ij"         c="Междометие"/>
     <sdef n="cnjcoo"     c="Coordinating conjunction"/>
     <sdef n="cnjsub"     c="Subordinating conjunction"/>
+    <sdef n="cnjadv"     c="Conjunctive adverb"/>
 
     <sdef n="sint"       c="Synthetic"/>
 
@@ -27,6 +30,7 @@
 
     <sdef n="nn"         c="Inanimate"/>
     <sdef n="aa"         c="Animate"/>
+    <sdef n="an"         c="Animate or inanimate"/>
 
     <sdef n="nom"        c="Nominative"/>
     <sdef n="gen"        c="Genitive"/>
@@ -42,6 +46,7 @@
     <sdef n="top"        c="Toponym"/>
 
     <sdef n="pers"       c="Personal"/>
+    <sdef n="ind"        c="Indefinite"/>
 
     <sdef n="comp"       c="Сравнительная степень"/>
 
@@ -68,6 +73,10 @@
       <e>       <p><l></l><r><s n="cnjsub"/></r></p></e>
     </pardef>
 
+    <pardef n="пото́м__cnjadv">
+      <e>       <p><l></l><r><s n="cnjadv"/></r></p></e>
+    </pardef>
+
     <!-- Раздел: Предлоги -->
 
     <pardef n="без__pr">
@@ -86,6 +95,12 @@
       <e r="RL"><p><l><a/>с</l><r>с<s n="pr"/></r></p></e>
     </pardef>
 
+    <pardef n="/над__pr">
+      <e r="LR"><p><l>над</l><r>над<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>надо</l><r>над<s n="pr"/></r></p></e>
+      <e r="RL"><p><l><a/>над</l><r>над<s n="pr"/></r></p></e>
+    </pardef>
+
     <pardef n="/в__pr">
       <e r="LR"><p><l>в</l><r>в<s n="pr"/></r></p></e>
       <e r="LR"><p><l>во</l><r>в<s n="pr"/></r></p></e>
@@ -101,13 +116,32 @@
 
     <!-- Раздел: Наречия -->
 
+    <pardef n="на́до__adv">
+      <e>       <p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
     <pardef n="вдру́г__adv">
       <e>       <p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
 
-    <pardef n="прия́тн/о__adv">
-      <e>       <p><l>о</l><r>о<s n="adv"/><s n="sint"/></r></p></e>
-      <e>       <p><l>ее</l><r>о<s n="adv"/><s n="sint"/><s n="comp"/></r></p></e>
+    <pardef n="/мно́го__adv">
+      <e>       <p><l>мно́го</l><r>мно́го<s n="adv"/><s n="sint"/></r></p></e>
+      <e>       <p><l>бо́льше</l><r>мно́го<s n="adv"/><s n="sint"/><s n="comp"/></r></p></e>
+    </pardef>
+
+    <pardef n="при/я́тно__adv">
+      <e>       <p><l>я́тно</l><r>я́тно<s n="adv"/><s n="sint"/></r></p></e>
+      <e>       <p><l>ятне́е</l><r>я́тно<s n="adv"/><s n="sint"/><s n="comp"/></r></p></e>
+    </pardef>
+
+    <pardef n="остор/о́жно__adv">
+      <e>       <p><l>о́жно</l><r>о́жно<s n="adv"/><s n="sint"/></r></p></e>
+      <e>       <p><l>ожне́е</l><r>о́жно<s n="adv"/><s n="sint"/><s n="comp"/></r></p></e>
+    </pardef>
+
+    <pardef n="норм/а́льно__adv">
+      <e>       <p><l>а́льно</l><r>а́льно<s n="adv"/><s n="sint"/></r></p></e>
+      <e>       <p><l>альне́е</l><r>а́льно<s n="adv"/><s n="sint"/><s n="comp"/></r></p></e>
     </pardef>
 
     <pardef n="до́л/го__adv">
@@ -244,7 +278,16 @@
       <e>       <p><l>них</l><r>они́<s n="prn"/><s n="pers"/><s n="p3"/><s n="mfn"/><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
 
+    <!-- Раздел: Числа -->
 
+    <pardef n="мно́г/о__num">
+      <e>       <p><l>о</l><r>о<s n="num"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e>       <p><l>их</l><r>о<s n="num"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e>       <p><l>им</l><r>о<s n="num"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ого</l><r>о<s n="num"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e>       <p><l>ими</l><r>о<s n="num"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e>       <p><l>их</l><r>о<s n="num"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="prp"/></r></p></e>
+    </pardef>
 
     <!-- Раздел: Имя существителное -->
 
@@ -776,6 +819,46 @@
       <e>       <p><l></l><r><s n="np"/><s n="top"/><s n="m"/></r></p><par n="n_m_3a_sg"/></e>
     </pardef>
 
+    <!-- Раздел: Имя прилагательное -->
+
+    <pardef n="adj_3aX~">
+      <e>       <p><l>ий</l><r><s n="m"/><s n="an"/><s n="nom"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ого</l><r><s n="m"/><s n="an"/><s n="gen"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ому</l><r><s n="m"/><s n="an"/><s n="dat"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ого</l><r><s n="m"/><s n="aa"/><s n="acc"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ий</l><r><s n="m"/><s n="nn"/><s n="acc"/><s n="sg"/></r></p></e>
+      <e>       <p><l>им</l><r><s n="m"/><s n="an"/><s n="ins"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ом</l><r><s n="m"/><s n="an"/><s n="prp"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ая</l><r><s n="f"/><s n="an"/><s n="nom"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ой</l><r><s n="f"/><s n="an"/><s n="gen"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ой</l><r><s n="f"/><s n="an"/><s n="dat"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ую</l><r><s n="f"/><s n="an"/><s n="acc"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ой</l><r><s n="f"/><s n="an"/><s n="ins"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ою</l><r><s n="f"/><s n="an"/><s n="ins"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ой</l><r><s n="f"/><s n="an"/><s n="prp"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ое</l><r><s n="nt"/><s n="an"/><s n="nom"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ого</l><r><s n="nt"/><s n="an"/><s n="gen"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ому</l><r><s n="nt"/><s n="an"/><s n="dat"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ое</l><r><s n="nt"/><s n="an"/><s n="acc"/><s n="sg"/></r></p></e>
+      <e>       <p><l>им</l><r><s n="nt"/><s n="an"/><s n="ins"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ом</l><r><s n="nt"/><s n="an"/><s n="prp"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ие</l><r><s n="mfn"/><s n="an"/><s n="nom"/><s n="pl"/></r></p></e>
+      <e>       <p><l>их</l><r><s n="mfn"/><s n="an"/><s n="gen"/><s n="pl"/></r></p></e>
+      <e>       <p><l>им</l><r><s n="mfn"/><s n="an"/><s n="dat"/><s n="pl"/></r></p></e>
+      <e>       <p><l>их</l><r><s n="mfn"/><s n="aa"/><s n="acc"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ие</l><r><s n="mfn"/><s n="nn"/><s n="acc"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ими</l><r><s n="mfn"/><s n="an"/><s n="ins"/><s n="pl"/></r></p></e>
+      <e>       <p><l>их</l><r><s n="mfn"/><s n="an"/><s n="prp"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="мно́г/ий__adj">
+      <e>       <p><l></l><r>ий<s n="adj"/></r></p><par n="adj_3aX~"/></e>
+    </pardef>
+
+    <pardef n="сове́тск/ий__adj">
+      <e>       <p><l></l><r>ий<s n="adj"/></r></p><par n="adj_3aX~"/></e>
+    </pardef>
+
   </pardefs>
 
   <section id="main" type="standard">
@@ -792,6 +875,10 @@
     <e lm="пока́"><i>пока́</i><par n="что__cnjsub"/></e>
     <e lm="е́сли"><i>е́сли</i><par n="что__cnjsub"/></e>
 
+    <e lm="пото́м"><i>пото́м</i><par n="пото́м__cnjadv"/></e>
+    <e lm="поэ́тому"><i>поэ́тому</i><par n="пото́м__cnjadv"/></e>
+    <e lm="пу́сть"><i>пу́сть</i><par n="пото́м__cnjadv"/></e>
+
     <!-- Раздел: Прелоги -->
 
     <e lm="к"><i></i><par n="/к__pr"/></e>
@@ -803,7 +890,7 @@
     <e lm="для"><i>для</i><par n="без__pr"/></e>
     <e lm="за"><i>за</i><par n="без__pr"/></e>
     <e lm="на"><i>на</i><par n="без__pr"/></e>
-    <e lm="над"><i>над</i><par n="без__pr"/></e>
+    <e lm="над"><i></i><par n="/над__pr"/></e>
     <e lm="от"><i>от</i><par n="без__pr"/></e>
     <e lm="по"><i>по</i><par n="без__pr"/></e>
     <e lm="под"><i>под</i><par n="без__pr"/></e>
@@ -824,6 +911,10 @@
     <e lm="мы"><i></i><par n="/мы__prn"/></e>
     <e lm="вы"><i>в</i><par n="в/ы__prn"/></e>
     <e lm="они́"><i></i><par n="/они́__prn"/></e>
+
+    <!-- Раздел: Mестоимения -->
+
+    <e lm="мно́го"><i>мно́г</i><par n="мно́г/о__num"/></e>
 
     <!-- Раздел: Имя существительное -->
 
@@ -1084,8 +1175,29 @@
 
     <!-- Раздел: Имя прилагательное -->
 
+    <e lm="мно́гий"><i>мно́г</i><par n="мно́г/ий__adj"/></e>
+
+    <e lm="сове́тский"><i>сове́тск</i><par n="сове́тск/ий__adj"/></e>
+    <e lm="америка́нский"><i>америка́нск</i><par n="сове́тск/ий__adj"/></e>
+    <e lm="англи́йский"><i>англи́йск</i><par n="сове́тск/ий__adj"/></e>
+    <e lm="да́тский"><i>да́тск</i><par n="сове́тск/ий__adj"/></e>
+    <e lm="класси́ческий"><i>класси́ческ</i><par n="сове́тск/ий__adj"/></e>
+    <e lm="неме́цкий"><i>неме́цк</i><par n="сове́тск/ий__adj"/></e>
+    <e lm="росси́йский"><i>росси́йск</i><par n="сове́тск/ий__adj"/></e>
+    <e lm="ру́сский"><i>ру́сск</i><par n="сове́тск/ий__adj"/></e>
+    <e lm="симфони́ческий"><i>симфони́ческ</i><par n="сове́тск/ий__adj"/></e>
+    <e lm="фи́нский"><i>фи́нск</i><par n="сове́тск/ий__adj"/></e>
+    <e lm="юриди́ческий"><i>юриди́ческ</i><par n="сове́тск/ий__adj"/></e>
+
     <!-- Раздел: Наречия -->
 
+    <e lm="на́до"><i>на́до</i><par n="на́до__adv"/></e>
+    <e lm="мо́жно"><i>мо́жно</i><par n="на́до__adv"/></e>
+
+    <e lm="мно́го"><i></i><par n="/мно́го__adv"/></e>
+
+    <e lm="пото́м"><i>пото́м</i><par n="вдру́г__adv"/></e>
+    <e lm="сли́шком"><i>сли́шком</i><par n="вдру́г__adv"/></e>
     <e lm="вдру́г"><i>вдру́г</i><par n="вдру́г__adv"/></e>
     <e lm="вме́сте"><i>вме́сте</i><par n="вдру́г__adv"/></e>
     <e lm="всегда́"><i>всегда́</i><par n="вдру́г__adv"/></e>
@@ -1107,9 +1219,11 @@
     <e lm="та́м"><i>та́м</i><par n="вдру́г__adv"/></e>
     <e lm="ла́дно"><i>ла́дно</i><par n="вдру́г__adv"/></e>
     <e lm="то́чно"><i>то́чно</i><par n="вдру́г__adv"/></e>
-    <e lm="прия́тно"><i>прия́тн</i><par n="прия́тн/о__adv"/></e>
-    <e lm="осторо́жно"><i>осторо́жн</i><par n="прия́тн/о__adv"/></e>
-    <e lm="норма́льно"><i>норма́льн</i><par n="прия́тн/о__adv"/></e>
+
+    <e lm="прия́тно"><i>при</i><par n="при/я́тно__adv"/></e>
+    <e lm="осторо́жно"><i>остор</i><par n="остор/о́жно__adv"/></e>
+    <e lm="норма́льно"><i>норма́льн</i><par n="норм/а́льно__adv"/></e>
+
     <e lm="до́лго"><i>до́л</i><par n="до́л/го__adv"/></e>
     <e lm="ра́но"><i>ра́н</i><par n="ра́н/о__adv"/></e>
     <e lm="по́здно"><i>по́з</i><par n="по́з/дно__adv"/></e>
@@ -1131,6 +1245,11 @@
     <e lm="ла́дно"><i>ла́дно</i><par n="алло́__ij"/></e>
     <e lm="то́чно"><i>то́чно</i><par n="алло́__ij"/></e>
     <e lm="осторо́жно"><i>осторо́жно</i><par n="алло́__ij"/></e>
+    <e lm="ве́дь"><i>ве́дь</i><par n="алло́__ij"/></e>
+    <e lm="да́"><i>да́</i><par n="алло́__ij"/></e>
+    <e lm="да"><i>да</i><par n="алло́__ij"/></e>
+    <e lm="не́т"><i>не́т</i><par n="алло́__ij"/></e>
+    <e lm="ну́"><i>ну́</i><par n="алло́__ij"/></e>
 
   </section>
 
