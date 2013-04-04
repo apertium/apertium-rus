@@ -340,6 +340,15 @@
       <e>       <p><l>а́х</l><r><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
 
+    <pardef n="n_m_1c1_pl">
+      <e>       <p><l>а́</l><r><s n="pl"/><s n="nom"/></r></p></e>
+      <e>       <p><l>о́в</l><r><s n="pl"/><s n="gen"/></r></p></e>
+      <e>       <p><l>а́м</l><r><s n="pl"/><s n="dat"/></r></p></e>
+      <e>       <p><l>а́</l><r><s n="pl"/><s n="acc"/></r></p></e>
+      <e>       <p><l>а́ми</l><r><s n="pl"/><s n="ins"/></r></p></e>
+      <e>       <p><l>а́х</l><r><s n="pl"/><s n="prp"/></r></p></e>
+    </pardef>
+
 
     <pardef n="n_f_1a">
       <e>       <p><l>а</l><r><s n="sg"/><s n="nom"/></r></p></e>
@@ -506,6 +515,11 @@
     <pardef n="фр/о́нт__n_m_1c">
       <e>       <p><l>о́нт</l><r>о́нт<s n="n"/><s n="m"/><s n="nn"/></r></p><par n="n_m_1c_sg"/></e>
       <e>       <p><l>онт</l><r>о́нт<s n="n"/><s n="m"/><s n="nn"/></r></p><par n="n_m_1c_pl"/></e>
+    </pardef>
+
+    <pardef n="п/о́езд__n_m_1c1">
+      <e>       <p><l>о́езд</l><r>о́езд<s n="n"/><s n="m"/><s n="nn"/></r></p><par n="n_m_1c_sg"/></e>
+      <e>       <p><l>оезд</l><r>о́езд<s n="n"/><s n="m"/><s n="nn"/></r></p><par n="n_m_1c1_pl"/></e>
     </pardef>
 
     <pardef n="яз/ы́к__n_m_3b">
@@ -1058,6 +1072,8 @@
     <e lm="фро́нт"><i>фр</i><par n="фр/о́нт__n_m_1c"/></e>
 
     <e lm="де́ло"><i>д</i><par n="д/е́ло__n_nt_1c"/></e>
+
+    <e lm="по́езд"><i>п</i><par n="п/о́езд__n_m_1c1"/></e>
 
     <!-- Имя собственное -->
 
