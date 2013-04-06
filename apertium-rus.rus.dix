@@ -284,21 +284,21 @@
       <e>       <p><l>ебе́</l><r>ы<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="prp"/></r></p></e>
     </pardef>
 
-    <pardef n="/он__prn">
-      <e>       <p><l>он</l><r>он<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e r="LR"><p><l>его́</l><r>он<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e r="LR"><p><l>него́</l><r>он<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e r="RL"><p><l><a/>его́</l><r>он<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e r="LR"><p><l>ему́</l><r>он<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e r="LR"><p><l>нему́</l><r>он<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e r="RL"><p><l><a/>ему́</l><r>он<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e r="LR"><p><l>его́</l><r>он<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e r="LR"><p><l>него́</l><r>он<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e r="RL"><p><l><a/>его́</l><r>он<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e r="LR"><p><l>им</l><r>он<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e r="LR"><p><l>ним</l><r>он<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e r="RL"><p><l><a/>им</l><r>он<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e>       <p><l>нём</l><r>он<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="prp"/></r></p></e>
+    <pardef n="/о́н__prn">
+      <e>       <p><l>о́н</l><r>о́н<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e r="LR"><p><l>его́</l><r>о́н<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>него́</l><r>о́н<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e r="RL"><p><l><a/>его́</l><r>о́н<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>ему́</l><r>о́н<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>нему́</l><r>о́н<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e r="RL"><p><l><a/>ему́</l><r>о́н<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e r="LR"><p><l>его́</l><r>о́н<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e r="LR"><p><l>него́</l><r>о́н<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e r="RL"><p><l><a/>его́</l><r>о́н<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e r="LR"><p><l>им</l><r>о́н<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>ним</l><r>о́н<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e r="RL"><p><l><a/>им</l><r>о́н<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e>       <p><l>нём</l><r>о́н<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="prp"/></r></p></e>
     </pardef>
 
     <pardef n="/она́__prn">
@@ -2050,7 +2050,7 @@
     <e lm="и́ли"><i>и́ли</i><par n="а__cnjcoo"/></e>
     <e lm="но"><i>но</i><par n="а__cnjcoo"/></e>
 
-    <e lm="что"><i>что</i><par n="что__cnjsub"/></e>
+    <e lm="что́"><i>что́</i><par n="что__cnjsub"/></e>
     <e lm="потому́ что"><i>потому́<b/>что</i><par n="что__cnjsub"/></e>
     <e lm="пока́"><i>пока́</i><par n="что__cnjsub"/></e>
     <e lm="е́сли"><i>е́сли</i><par n="что__cnjsub"/></e>
@@ -2088,7 +2088,7 @@
 
     <e lm="я"><i></i><par n="/я__prn"/></e>
     <e lm="ты"><i>т</i><par n="т/ы__prn"/></e>
-    <e lm="он"><i></i><par n="/он__prn"/></e>
+    <e lm="о́н"><i></i><par n="/о́н__prn"/></e>
     <e lm="она́"><i></i><par n="/она́__prn"/></e>
     <e lm="оно́"><i></i><par n="/оно́__prn"/></e>
     <e lm="мы"><i></i><par n="/мы__prn"/></e>
@@ -2594,7 +2594,6 @@
     <e lm="заче́м"><i>заче́м</i><par n="где́__adv"/></e>
 
     <e lm="где́"><i>где́</i><par n="ка́к__rel"/></e>
-    <e lm="почему́"><i>почему́</i><par n="ка́к__rel"/></e>
     <e lm="ка́к"><i>ка́к</i><par n="ка́к__rel"/></e>
     <e lm="куда́"><i>куда́</i><par n="ка́к__rel"/></e>
     <e lm="ско́лько"><i>ско́лько</i><par n="ка́к__rel"/></e>
@@ -2640,7 +2639,7 @@
     <e lm="сюда́"><i>сюда́</i><par n="вдру́г__adv"/></e>
     <e lm="отсюда́"><i>сюда́</i><par n="вдру́г__adv"/></e>
     <e lm="та́к"><i>та́к</i><par n="вдру́г__adv"/></e>
-    <e lm="да́льше"><i>да́льше</i><par n="вдру́г__adv"/></e>
+    <!--<e lm="да́льше"><i>да́льше</i><par n="вдру́г__adv"/></e>-->
     <e lm="домо́й"><i>домо́й</i><par n="вдру́г__adv"/></e>
     <e lm="никогда́"><i>никогда́</i><par n="вдру́г__adv"/></e>
 
