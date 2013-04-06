@@ -173,6 +173,11 @@
       <e>       <p><l>ьше</l><r>го<s n="adv"/><s n="sint"/><s n="comp"/></r></p></e>
     </pardef>
 
+    <pardef n="коке́тлив/о__adv">
+      <e>       <p><l>о</l><r>о<s n="adv"/><s n="sint"/></r></p></e>
+      <e>       <p><l>ее</l><r>о<s n="adv"/><s n="sint"/><s n="comp"/></r></p></e>
+    </pardef>
+
     <pardef n="го́р/ько__adv">
       <e>       <p><l>ько</l><r>ько<s n="adv"/><s n="sint"/></r></p></e>
       <e>       <p><l>ше</l><r>ько<s n="adv"/><s n="sint"/><s n="comp"/></r></p></e>
@@ -2078,6 +2083,18 @@
       <e>       <p><l>олодне́е</l><r>оло́дный<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
     </pardef>
 
+    <pardef n="кр/а́сный__adj_1*a/c">
+      <e>       <p><l>а́сн</l><r>а́сный<s n="adj"/><s n="sint"/></r></p><par n="adj__1a"/></e>
+      <e>       <p><l>а́сен</l><r>а́сный<s n="adj"/><s n="sint"/><s n="short"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>асна́</l><r>а́сный<s n="adj"/><s n="sint"/><s n="short"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>а́сно</l><r>а́сный<s n="adj"/><s n="sint"/><s n="short"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>асно́</l><r>а́сный<s n="adj"/><s n="sint"/><s n="short"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e>       <p><l>а́сны</l><r>а́сный<s n="adj"/><s n="sint"/><s n="short"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>асны́</l><r>а́сный<s n="adj"/><s n="sint"/><s n="short"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e>       <p><l>асне́е</l><r>а́сный<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
+    </pardef>
+
+
     <pardef n="апельси́нов/ый__adj_1a">
       <e>       <p><l></l><r>ый<s n="adj"/><s n="sint"/></r></p><par n="adj__1a"/></e>
     </pardef>
@@ -2152,6 +2169,7 @@
 
     <e lm="мо́й"><i>м</i><par n="м/о́й__det"/></e>
     <e lm="тво́й"><i>тв</i><par n="м/о́й__det"/></e>
+    <e lm="сво́й"><i>св</i><par n="м/о́й__det"/></e>
     <e lm="ва́ш"><i>ва́ш</i><par n="ва́ш__det"/></e>
     <e lm="на́ш"><i>на́ш</i><par n="ва́ш__det"/></e>
     <e lm="его́"><i>его́</i><par n="его́__det"/></e>
@@ -2622,6 +2640,7 @@
     <e lm="у́мный"><i></i><par n="/у́мный__adj_1*a/b"/></e>
 
     <e lm="холо́дный"><i>х</i><par n="х/оло́дный__adj_1a/c^"/></e>
+    <e lm="кра́сный"><i>кр</i><par n="кр/а́сный__adj_1*a/c"/></e>
 
     <e lm="бога́тый"><i>бога́</i><par n="бога́/тый__adj_1a"/></e>
 
@@ -2719,6 +2738,7 @@
     <e lm="го́рько"><i>го́р</i><par n="го́р/ько__adv"/></e>
     <e lm="далеко́"><i>д</i><par n="д/алеко́__adv"/></e>
     <e lm="недалеко́"><i>нед</i><par n="д/алеко́__adv"/></e>
+    <e lm="коке́тливо"><i>коке́тлив</i><par n="коке́тлив/о__adv"/></e>
 
     <!-- Раздел: Глаголы -->
 
