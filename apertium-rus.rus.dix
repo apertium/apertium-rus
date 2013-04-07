@@ -5,6 +5,7 @@
     <sdef n="pr"         c="Предлог"/>
     <sdef n="prn"        c="Pronoun"/>
     <sdef n="num"        c="Число"/>
+    <sdef n="vblex"      c="Глагол"/>
     <sdef n="vbser"      c="Глагол 'быть'"/>
     <sdef n="det"        c="Determiner"/>
     <sdef n="np"         c="Имя собственное"/>
@@ -15,35 +16,41 @@
     <sdef n="cnjsub"     c="Subordinating conjunction"/>
     <sdef n="cnjadv"     c="Conjunctive adverb"/>
 
+    <sdef n="tv"         c="Переходный"/>
+    <sdef n="iv"         c="Непереходный"/>
+
+    <sdef n="perf"       c="Perfective"/>
+    <sdef n="impf"       c="Imperfective"/>
+
     <sdef n="sint"       c="Synthetic"/>
     <sdef n="short"      c="Short form"/>
 
-    <sdef n="sg"         c="Singular"/>
-    <sdef n="pl"         c="Plural"/>
+    <sdef n="sg"         c="Единственное число"/>
+    <sdef n="pl"         c="Множественное число"/>
 
     <sdef n="p1"         c="1. лицо"/>
     <sdef n="p2"         c="2. лицо"/>
     <sdef n="p3"         c="3. лицо"/>
 
-    <sdef n="m"          c="Masculine"/>
-    <sdef n="f"          c="Feminine"/>
-    <sdef n="mf"         c="Masculine or feminine"/>
-    <sdef n="nt"         c="Neuter"/>
-    <sdef n="mfn"        c="Masculine, feminine or neuter"/>
+    <sdef n="m"          c="Мужской род"/>
+    <sdef n="f"          c="Женский род"/>
+    <sdef n="mf"         c="Мужской или женский род"/>
+    <sdef n="nt"         c="Средний род"/>
+    <sdef n="mfn"        c="Мужской, женский или средний род."/>
 
-    <sdef n="nn"         c="Inanimate"/>
-    <sdef n="aa"         c="Animate"/>
-    <sdef n="an"         c="Animate or inanimate"/>
+    <sdef n="nn"         c="Неодушевлённое"/>
+    <sdef n="aa"         c="Одушевлённое"/>
+    <sdef n="an"         c="Одушевлённое или неодушевлённое"/>
 
-    <sdef n="nom"        c="Nominative"/>
-    <sdef n="gen"        c="Genitive"/>
-    <sdef n="dat"        c="Dative"/>
-    <sdef n="acc"        c="Accusative"/>
-    <sdef n="ins"        c="Instrumental"/>
-    <sdef n="prp"        c="Prepositional"/>
-    <sdef n="loc"        c="Locative"/>
-    <sdef n="par"        c="Partitive"/>
-    <sdef n="voc"        c="Vocative"/>
+    <sdef n="nom"        c="Именительный падеж"/>
+    <sdef n="gen"        c="Родительный падеж"/>
+    <sdef n="dat"        c="Дательный падеж"/>
+    <sdef n="acc"        c="Винительный падеж"/>
+    <sdef n="ins"        c="Творительный падеж"/>
+    <sdef n="prp"        c="Предложный падеж"/>
+    <sdef n="loc"        c="Местный падеж"/>
+    <sdef n="par"        c="Разделительный падеж"/>
+    <sdef n="voc"        c="Звательный падеж"/>
 
     <sdef n="ant"        c="Anthroponym"/>
     <sdef n="top"        c="Toponym"/>
@@ -71,6 +78,7 @@
     <sdef n="ger"        c="Gerund"/>
 
     <sdef n="actv"       c="Active voice"/>
+    <sdef n="pasv"       c="Passive voice"/>
 
     <sdef n="comp"       c="Сравнительная степень"/>
 
