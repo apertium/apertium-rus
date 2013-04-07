@@ -1300,8 +1300,8 @@
 
     <pardef n="мужчи́н/а__n_m_1a">
       <e>       <p><l></l><r>а<s n="n"/><s n="m"/><s n="aa"/></r></p><par n="n_f_1a"/></e>
-      <e>       <p><l></l><r>а<s n="n"/><s n="m"/><a n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e>       <p><l></l><r>а<s n="n"/><s n="m"/><a n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e>       <p><l></l><r>а<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e>       <p><l></l><r>а<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
     </pardef>
 
     <pardef n="го́лод__n_m_1a-">
@@ -1717,19 +1717,19 @@
 
     <pardef n="ба́нд/а__n_f_1a">
       <e>       <p><l>ы</l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e>       <p><l></l><r>а<s n="n"/><s n="f"/><a n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e>       <p><l></l><r>а<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
       <e>       <p><l></l><r>а<s n="n"/><s n="f"/><s n="nn"/></r></p><par n="n_f_1a"/></e>
     </pardef>
 
     <pardef n="ры́б/а__n_f_1a">
       <e>       <p><l></l><r>а<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e>       <p><l></l><r>а<s n="n"/><s n="f"/><a n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e>       <p><l></l><r>а<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
       <e>       <p><l></l><r>а<s n="n"/><s n="f"/><s n="aa"/></r></p><par n="n_f_1a"/></e>
     </pardef>
 
     <pardef n="ма́м/а__n_f_1a">
       <e>       <p><l></l><r>а<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e>       <p><l></l><r>а<s n="n"/><s n="f"/><a n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e>       <p><l></l><r>а<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
       <e>       <p><l></l><r>а<s n="n"/><s n="f"/><s n="aa"/><s n="sg"/><s n="voc"/></r></p></e>
       <e>       <p><l></l><r>а<s n="n"/><s n="f"/><s n="aa"/></r></p><par n="n_f_1a"/></e>
     </pardef>
@@ -3850,7 +3850,7 @@
     <e lm="хорошо́"><i></i><par n="/хорошо́__adv"/></e>
     <e lm="пло́хо"><i></i><par n="/пло́хо__adv"/></e>
 
-    <!-- У этих наречий наверно есть справительние формы ~FMT -->
+    <!-- У этих наречий наверно есть справительние формы :FMT -->
     <e lm="наве́рно"><i>наве́рно</i><par n="вдру́г__adv"/></e>
     <e lm="хо́лодно"><i>хо́лодно</i><par n="вдру́г__adv"/></e>
     <e lm="ую́тно"><i>ую́тно</i><par n="вдру́г__adv"/></e>
