@@ -3377,7 +3377,10 @@
       <e>       <p><l>бы́ло</l><r>бы́ть<s n="vbser"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
       <e>       <p><l>бы́ли</l><r>бы́ть<s n="vbser"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
 
+      <e>       <p><l>не́<b/>был</l><r>не́<s n="adv"/><j/>бы́ть<s n="vbser"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>не<b/>была́</l><r>не<s n="adv"/><j/>бы́ть<s n="vbser"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>не́<b/>было</l><r>не́<s n="adv"/><j/>бы́ть<s n="vbser"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e>       <p><l>не́<b/>были</l><r>не́<s n="adv"/><j/>бы́ть<s n="vbser"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>бу́ду</l><r>бы́ть<s n="vbser"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>бу́дешь</l><r>бы́ть<s n="vbser"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
