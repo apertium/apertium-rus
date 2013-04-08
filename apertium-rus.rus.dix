@@ -4411,8 +4411,12 @@
     <e lm="стоя́ть"><i>ст</i><par n="ст/оя́ть__vblex_impf_iv_5b"/></e>
     <e lm="ду́мать"><i>ду́ма</i><par n="ду́ма/ть__vblex_impf_tv_1a"/></e>
     <e lm="зна́ть"><i>зна́</i><par n="ду́ма/ть__vblex_impf_tv_1a"/></e>
+    <e lm="начина́ть"><i>начина́</i><par n="ду́ма/ть__vblex_impf_tv_1a"/></e>
+    <e lm="чита́ть"><i>чита́</i><par n="ду́ма/ть__vblex_impf_tv_1a"/></e>
     <e lm="де́лать"><i>де́ла</i><par n="ду́ма/ть__vblex_impf_tv_1a"/></e>
     <e lm="чу́вствовать"><i>чу́вств</i><par n="чу́вств/овать__vblex_impf_tv_2a"/></e>
+    <e lm="фотографи́ровать"><i>фотографи́р</i><par n="чу́вств/овать__vblex_impf_tv_2a"/></e>
+    <e lm="импорти́ровать"><i>импорти́р</i><par n="чу́вств/овать__vblex_impf_tv_2a"/></e>
     <e lm="гото́вить"><i>гото́в</i><par n="гото́в/ить__vblex_impf_tv_4a"/></e>
     <e lm="тра́тить"><i>тра́</i><par n="тра́/тить__vblex_impf_tv_4a"/></e>
     <e lm="ви́деть"><i>ви́</i><par n="ви́/деть__vblex_impf_tv_5a"/></e>
