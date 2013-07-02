@@ -2,6 +2,7 @@
 /Makefile -text
 /apertium-rus.rus.acx -text
 /apertium-rus.rus.dix -text
+dev/MiPListAlpha.csv -text
 dev/adjectives_zaliznjak.txt -text
 dev/dump.txt -text
 dev/stem-list.txt -text svneol=unset#application/octet-stream
