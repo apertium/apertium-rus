@@ -8,6 +8,7 @@
 /apertium-rus.post-rus.dix -text
 /apertium-rus.rus.acx -text
 /apertium-rus.rus.dix -text
+/apertium-rus.rus.rlx -text
 dev/MiPListAlpha.csv -text
 dev/adjectives_zaliznjak.txt -text
 dev/dump.txt -text
