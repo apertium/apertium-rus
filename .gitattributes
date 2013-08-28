@@ -2,13 +2,16 @@
 /AUTHORS -text
 /COPYING -text
 /ChangeLog -text
-/Makefile -text
+/Makefile.am -text
 /NEWS -text
 /README -text
+/apertium-rus-0.1.pc.in -text
 /apertium-rus.post-rus.dix -text
 /apertium-rus.rus.acx -text
 /apertium-rus.rus.dix -text
 /apertium-rus.rus.rlx -text
+/autogen.sh -text
+/configure.ac -text
 dev/MiPListAlpha.csv -text
 dev/adjectives_zaliznjak.txt -text
 dev/dump.txt -text
@@ -18,4 +21,5 @@ dev/syn_sem_RUS.txt -text
 dev/text1.txt -text svneol=unset#application/octet-stream
 dev/text1.verbs -text
 dev/verbs-z.txt -text
+/modes.xml -text
 /spellrelax.xsl -text
