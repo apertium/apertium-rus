@@ -12,6 +12,7 @@
 /apertium-rus.rus.rlx -text
 /autogen.sh -text
 /configure.ac -text
+/deaccent.pl -text
 dev/MiPListAlpha.csv -text
 dev/adjectives_zaliznjak.txt -text
 dev/dump.txt -text
