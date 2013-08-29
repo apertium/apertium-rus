@@ -284,7 +284,7 @@ REMOVE Gen IF (0C N) (0 ACC-OR-GEN) (NOT *-1C N + NOTGEN BARRIER NPNHA) (NOT *-1
     ## Если мы не будем так смотреть, то, хотя мы и разобьём врага, через 30 лет снова возникнет коммунистическая опасность.
     ## Услугами детских садов пользуются 135 тысяч работающих матерей.
 
-REMOVE Acc IF (0C ACC-OR-GEN) (*-1C Num LINK 1C Gen BARRIER NOTGEN);
+REMOVE Acc IF (0C ACC-OR-GEN) (*-1C Num BARRIER NOTGEN LINK 1C Gen);
     ## Услугами детских садов пользуются 135 тысяч работающих матерей.
 
 REMOVE Nom + $$NUMBER (0 NOM-OR-ACC) (*1C V-FIN BARRIER S-BOUNDARY) (NOT *1C V-FIN + $$NUMBER BARRIER S-BOUNDARY) (NOT 1 CC LINK 1 Nom);
