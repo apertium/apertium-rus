@@ -12,9 +12,9 @@
 /apertium-rus.rus.rlx -text
 /autogen.sh -text
 /configure.ac -text
-/deaccent.pl -text
 dev/MiPListAlpha.csv -text
 dev/adjectives_zaliznjak.txt -text
+dev/deaccent.pl -text
 dev/dump.txt -text
 dev/questions.txt -text
 dev/stem-list.txt -text svneol=unset#application/octet-stream
