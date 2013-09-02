@@ -1266,11 +1266,11 @@
     </pardef>
 
     <pardef n="n_f_4d_pl">
-      <e>       <p><l>и</l><r><s n="sg"/><s n="nom"/></r></p></e>
-      <e>       <p><l></l><r><s n="sg"/><s n="gen"/></r></p></e>
-      <e>       <p><l>ам</l><r><s n="sg"/><s n="dat"/></r></p></e>
-      <e>       <p><l>ами</l><r><s n="sg"/><s n="ins"/></r></p></e>
-      <e>       <p><l>ах</l><r><s n="sg"/><s n="prp"/></r></p></e>
+      <e>       <p><l>и</l><r><s n="pl"/><s n="nom"/></r></p></e>
+      <e>       <p><l></l><r><s n="pl"/><s n="gen"/></r></p></e>
+      <e>       <p><l>ам</l><r><s n="pl"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ами</l><r><s n="pl"/><s n="ins"/></r></p></e>
+      <e>       <p><l>ах</l><r><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
 
     <pardef n="n_f_3a_pl">
