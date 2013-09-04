@@ -2097,9 +2097,12 @@
 
     <pardef n="с/естра́__n_f_1*d^">
       <e>       <p><l>естр</l><r>естра́<s n="n"/><s n="f"/><s n="aa"/></r></p><par n="n_f_1b"/></e>
-      <e>       <p><l>естёр</l><r>естра́<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e>       <p><l>ёстры</l><r>естра́<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>естёр</l><r>естра́<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e>       <p><l>ёстр</l><r>естра́<s n="n"/><s n="f"/><s n="aa"/></r></p><par n="n_f_1d_pl"/></e>
+      <e>       <p><l>естёр</l><r>естра́<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e>       <p><l>ёстрам</l><r>естра́<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e>       <p><l>ёстрами</l><r>естра́<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e>       <p><l>ёстрах</l><r>естра́<s n="n"/><s n="f"/><s n="aa"/><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
 
     <pardef n="ба́буш/ка__n_f_3*a">
