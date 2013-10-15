@@ -62,7 +62,7 @@ apertium_rus_DATA=$(LANG1).automorf.bin $(LANG1).autogen.bin $(LANG1).autopgen.b
 		    $(LANG1).rlx.bin modes
 
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = $(BASENAME)-$(RELEASE).pc
+pkgconfig_DATA = $(BASENAME).pc
 
 install-data-local:
 	if [ ! -d $(DESTDIR)$(apertium_rus_srcdir) ]; then mkdir -p $(DESTDIR)$(apertium_rus_srcdir); fi
