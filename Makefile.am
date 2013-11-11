@@ -11,17 +11,23 @@ TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).autogen.bin $(LANG1).autopgen.bi
 	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
         $(LANG1).rlx.bin
 
+# Use this goal for creating .deps, otherwise make -j2 will give problems:
+.deps/.d:
+	if [ ! -d .deps ]; then mkdir .deps; fi
+	touch $@
+
+# Prevent the .d file from being removed automatically:
+.PRECIOUS: .deps/.d
+
 ###############################################################################
 ## Russian transducer
 ###############################################################################
 
-$(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix
-	if [ ! -d .deps ]; then mkdir .deps; fi
+$(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix .deps/.d
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@ $(BASENAME).$(LANG1).acx
 
-$(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix
-	if [ ! -d .deps ]; then mkdir .deps; fi
+$(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix .deps/.d
 	xsltproc spellrelax.xsl apertium-rus.rus.dix > .deps/apertium-rus.rus.dix
 	apertium-validate-dictionary .deps/apertium-rus.rus.dix
 	lt-comp lr .deps/apertium-rus.rus.dix $@ $(BASENAME).$(LANG1).acx
