@@ -28,10 +28,9 @@ $(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix .deps/.d
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@ $(BASENAME).$(LANG1).acx
 
-$(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix .deps/.d
-	xsltproc spellrelax.xsl apertium-rus.rus.dix > .deps/apertium-rus.rus.dix
-	apertium-validate-dictionary .deps/apertium-rus.rus.dix
-	lt-comp lr .deps/apertium-rus.rus.dix $@ $(BASENAME).$(LANG1).acx
+$(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix
+	apertium-validate-dictionary $<
+	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
 
 $(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 	lt-comp lr $< $@ 
@@ -57,7 +56,6 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 	   $(BASENAME).$(LANG1).acx \
 	   $(BASENAME).$(LANG1).rlx \
 	   $(LANG1).prob \
-	   spellrelax.xsl \
 	   modes.xml
 
 ###############################################################################
