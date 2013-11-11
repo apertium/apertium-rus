@@ -8,6 +8,7 @@
 /apertium-rus.pc.in -text
 /apertium-rus.post-rus.dix -text
 /apertium-rus.rus.acx -text
+/apertium-rus.rus.dix -text
 /apertium-rus.rus.rlx -text
 /autogen.sh -text
 /configure.ac -text
