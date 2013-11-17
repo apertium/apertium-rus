@@ -1,0 +1,22 @@
+<dictionary>
+  <alphabet/>
+  <pardefs>
+    <pardef n="гласные">
+      <e><p><l>а</l><r>а</r></p></e>
+      <e><p><l>е</l><r>е</r></p></e>
+      <e><p><l>и</l><r>и</r></p></e>
+      <e><p><l>о</l><r>о</r></p></e>
+      <e><p><l>у</l><r>у</r></p></e>
+   </pardef>
+   <pardef n="prn_н">
+      <e><p><l><a/>и́х</l><r>ни́х</r></p></e>
+      <e><p><l><a/>и́м</l><r>ни́м</r></p></e>
+      <e><p><l><a/>её</l><r>неё</r></p></e>
+      <e><p><l><a/>его́</l><r>него́</r></p></e>
+   </pardef>
+  </pardefs>
+  <section id="main" type="standard">
+     <!-- ~с ~и́м  -->
+     <e><p><l><a/>с<b/></l><r>с<b/></r></p><par n="prn_н"/></e>
+  </section>
+</dictionary>
