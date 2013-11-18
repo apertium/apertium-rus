@@ -17,6 +17,7 @@ dev/adjectives_zaliznjak.txt -text
 dev/apertium-rus.post-rus.dix -text
 dev/apertium-rus.rus.acx -text
 dev/apertium-rus.rus.dix -text
+dev/apertium-rus.rus.dix.new -text
 dev/apertium-rus.rus.dix.withstress -text
 dev/deaccent.pl -text
 dev/dump.txt -text
