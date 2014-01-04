@@ -21,6 +21,7 @@ dev/apertium-rus.rus.dix.new -text
 dev/apertium-rus.rus.dix.withstress -text
 dev/deaccent.pl -text
 dev/dump.txt -text
+dev/gci2013/GCI.txt -text
 dev/questions.txt -text
 dev/spellrelax.xsl -text
 dev/stem-list.txt -text svneol=unset#application/octet-stream
