@@ -10639,6 +10639,7 @@
  
     <pardef n="выве/сти__vblex_perf">
       <e><p><l>сти</l><r>сти<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
+      <e><p><l>ди</l><r>сти<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>дите</l><r>сти<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>дя</l><r>сти<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p><l>дш</l><r>сти<s n="vblex"/><s n="perf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
@@ -11030,6 +11031,7 @@
  
     <pardef n="помн/ить__vblex_impf">
       <e><p><l>ить</l><r>ить<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>и</l><r>ить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ите</l><r>ить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ивш</l><r>ить<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p><l>ил</l><r>ить<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -11167,6 +11169,7 @@
  
     <pardef n="укра/сть__vblex_perf">
       <e><p><l>сть</l><r>сть<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
+      <e><p><l>ди</l><r>сть<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>дите</l><r>сть<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>в</l><r>сть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p><l>денн</l><r>сть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
@@ -11606,6 +11609,7 @@
  
     <pardef n="пл/евать__vblex_impf">
       <e><p><l>евать</l><r>евать<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>юй</l><r>евать<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>юйте</l><r>евать<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>евавш</l><r>евать<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p><l>евал</l><r>евать<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -11780,6 +11784,7 @@
  
     <pardef n="бо/яться__vblex_impf">
       <e><p><l>яться</l><r>яться<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>итесь</l><r>яться<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>итесь</l><r>яться<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>явш</l><r>яться<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/><p><l>ся</l><r></r></p></e>
       <e><p><l>ялся</l><r>яться<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -11946,6 +11951,7 @@
  
     <pardef n="п/ить__vblex_impf">
       <e><p><l>ить</l><r>ить<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>ей</l><r>ить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ейте</l><r>ить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ивш</l><r>ить<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p><l>ил</l><r>ить<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -12058,6 +12064,7 @@
  
     <pardef n="кол/оть__vblex_impf">
       <e><p><l>оть</l><r>оть<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>и</l><r>оть<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ите</l><r>оть<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ол</l><r>оть<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ола</l><r>оть<s n="vblex"/><s n="impf"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
@@ -12483,6 +12490,7 @@
  
     <pardef n="рассып/аться__vblex_impf">
       <e><p><l>аться</l><r>аться<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>ьтесь</l><r>аться<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ьтесь</l><r>аться<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>авшись</l><r>аться<s n="vblex"/><s n="impf"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p><l>авш</l><r>аться<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/><p><l>ся</l><r></r></p></e>
@@ -12862,6 +12870,7 @@
  
     <pardef n="дыш/ать__vblex_impf">
       <e><p><l>ать</l><r>ать<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>и</l><r>ать<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ите</l><r>ать<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>авш</l><r>ать<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p><l>ал</l><r>ать<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -12898,6 +12907,7 @@
  
     <pardef n="выда/ть__vblex_perf">
       <e><p><l>ть</l><r>ть<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
+      <e><p><l>й</l><r>ть<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>йте</l><r>ть<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>в</l><r>ть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p><l>вш</l><r>ть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
@@ -12977,6 +12987,7 @@
  
     <pardef n="нач/аться__vblex_perf">
       <e><p><l>аться</l><r>аться<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
+      <e><p><l>нитесь</l><r>аться<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>нитесь</l><r>аться<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>авшись</l><r>аться<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p><l>авш</l><r>аться<s n="vblex"/><s n="perf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/><p><l>ся</l><r></r></p></e>
@@ -13325,6 +13336,7 @@
  
     <pardef n="выступ/ить__vblex_perf">
       <e><p><l>ить</l><r>ить<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
+      <e><p><l>и</l><r>ить<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ите</l><r>ить<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ив</l><r>ить<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p><l>ивш</l><r>ить<s n="vblex"/><s n="perf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
@@ -13420,6 +13432,7 @@
  
     <pardef n="упа/сть__vblex_perf">
       <e><p><l>сть</l><r>сть<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
+      <e><p><l>ди</l><r>сть<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>дите</l><r>сть<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>в</l><r>сть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p><l>вш</l><r>сть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
@@ -13456,7 +13469,9 @@
  
     <pardef n="подожд/ать__vblex_perf">
       <e><p><l>ать</l><r>ать<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
+      <e><p><l>и</l><r>ать<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>и</l><r>ать<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>и</l><r>ать<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ите</l><r>ать<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ав</l><r>ать<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p><l>авши</l><r>ать<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
@@ -13534,6 +13549,7 @@
  
     <pardef n="нач/ать__vblex_perf">
       <e><p><l>ать</l><r>ать<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
+      <e><p><l>ни</l><r>ать<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ните</l><r>ать<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ав</l><r>ать<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p><l>авши</l><r>ать<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
@@ -13829,6 +13845,7 @@
  
     <pardef n="кля/сться__vblex_impf">
       <e><p><l>сться</l><r>сться<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>нитесь</l><r>сться<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>нитесь</l><r>сться<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>вш</l><r>сться<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/><p><l>ся</l><r></r></p></e>
 
@@ -13868,6 +13885,7 @@
  
     <pardef n="зап/ереть__vblex_perf">
       <e><p><l>ереть</l><r>ереть<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
+      <e><p><l>ри</l><r>ереть<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>рите</l><r>ереть<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ерев</l><r>ереть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p><l>ерт</l><r>ереть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
@@ -13886,6 +13904,7 @@
  
     <pardef n="г/нать__vblex_impf">
       <e><p><l>нать</l><r>нать<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>они</l><r>нать<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>оните</l><r>нать<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>навш</l><r>нать<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p><l>нал</l><r>нать<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -14081,6 +14100,7 @@
  
     <pardef n="сто/ить__vblex_impf">
       <e><p><l>ить</l><r>ить<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>й</l><r>ить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>йте</l><r>ить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ил</l><r>ить<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ила</l><r>ить<s n="vblex"/><s n="impf"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
@@ -14098,6 +14118,7 @@
  
     <pardef n="п/еть__vblex_impf">
       <e><p><l>еть</l><r>еть<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>ой</l><r>еть<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ойте</l><r>еть<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>евш</l><r>еть<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p><l>ел</l><r>еть<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -14294,7 +14315,27 @@
       <e><p><l>ожжёт</l><r>жечь<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ожгут</l><r>жечь<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
+  
+    <pardef n="уточня/ть__vblex_impf">
+      <e><p><l>ть</l><r>ть<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>й</l><r>ть<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>йте</l><r>ть<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>в</l><r>ть<s n="vblex"/><s n="impf"/><s n="pp"/><s n="adv"/></r></p></e>
+      <e><p><l>нн</l><r>ть<s n="vblex"/><s n="impf"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
+      <e><p><l>вш</l><r>ть<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
+      <e><p><l>л</l><r>ть<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ла</l><r>ть<s n="vblex"/><s n="impf"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ло</l><r>ть<s n="vblex"/><s n="impf"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>ли</l><r>ть<s n="vblex"/><s n="impf"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e><p><l>ю</l><r>ть<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ем</l><r>ть<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ешь</l><r>ть<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ете</l><r>ть<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ет</l><r>ть<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ют</l><r>ть<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
  
+
     <pardef n="почита/ть__vblex_perf">
       <e><p><l>ть</l><r>ть<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
       <e><p><l>й</l><r>ть<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -14306,12 +14347,12 @@
       <e><p><l>ла</l><r>ть<s n="vblex"/><s n="perf"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ло</l><r>ть<s n="vblex"/><s n="perf"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>ли</l><r>ть<s n="vblex"/><s n="perf"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
-      <e><p><l>ю</l><r>ть<s n="vblex"/><s n="perf"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ем</l><r>ть<s n="vblex"/><s n="perf"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>ешь</l><r>ть<s n="vblex"/><s n="perf"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ете</l><r>ть<s n="vblex"/><s n="perf"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>ет</l><r>ть<s n="vblex"/><s n="perf"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>ют</l><r>ть<s n="vblex"/><s n="perf"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ю</l><r>ть<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ем</l><r>ть<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ешь</l><r>ть<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ете</l><r>ть<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ет</l><r>ть<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ют</l><r>ть<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
  
     <pardef n="подч/ёркивать__vblex_impf">
@@ -14518,6 +14559,7 @@
  
     <pardef n="вы/йти__vblex_perf">
       <e><p><l>йти</l><r>йти<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
+      <e><p><l>йди</l><r>йти<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>йдите</l><r>йти<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>йдя</l><r>йти<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p><l>шедш</l><r>йти<s n="vblex"/><s n="perf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
@@ -14573,6 +14615,7 @@
  
     <pardef n="тян/уться__vblex_impf">
       <e><p><l>уться</l><r>уться<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>итесь</l><r>уться<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>итесь</l><r>уться<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>yвш</l><r>yться<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/><p><l>ся</l><r></r></p></e>
 
@@ -14876,6 +14919,7 @@
  
     <pardef n="р/асти__vblex_impf">
       <e><p><l>асти</l><r>асти<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>асти</l><r>асти<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>астите</l><r>асти<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ос</l><r>асти<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>осла</l><r>асти<s n="vblex"/><s n="impf"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
@@ -14984,6 +15028,7 @@
  
     <pardef n="ле/теть__vblex_impf">
       <e><p><l>теть</l><r>теть<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>ти</l><r>теть<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>тите</l><r>теть<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>тевш</l><r>теть<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p><l>тел</l><r>теть<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -15002,6 +15047,7 @@
  
     <pardef n="з/вать__vblex_impf">
       <e><p><l>вать</l><r>вать<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>ови</l><r>вать<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>овите</l><r>вать<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>вавш</l><r>вать<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p><l>вал</l><r>вать<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -15112,6 +15158,7 @@
  
     <pardef n="/слать__vblex_impf">
       <e><p><l>слать</l><r>слать<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>шли</l><r>слать<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>шлите</l><r>слать<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>слал</l><r>слать<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>слала</l><r>слать<s n="vblex"/><s n="impf"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
@@ -15321,6 +15368,7 @@
  
     <pardef n="ви/сеть__vblex_impf">
       <e><p><l>сеть</l><r>сеть<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>си</l><r>сеть<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>сите</l><r>сеть<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>севш</l><r>сеть<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p><l>сел</l><r>сеть<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -15339,6 +15387,7 @@
  
     <pardef n="сп/ать__vblex_impf">
       <e><p><l>ать</l><r>ать<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>и</l><r>ать<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ите</l><r>ать<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>авш</l><r>ать<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p><l>ал</l><r>ать<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -15496,6 +15545,7 @@
  
     <pardef n="ез/дить__vblex_impf">
       <e><p><l>дить</l><r>дить<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>ди</l><r>дить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>дите</l><r>дить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>дивш</l><r>дить<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p><l>дил</l><r>дить<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -15533,6 +15583,7 @@
  
     <pardef n="попа/сться__vblex_perf">
       <e><p><l>сться</l><r>сться<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
+      <e><p><l>дитесь</l><r>сться<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>дитесь</l><r>сться<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>вшись</l><r>сться<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p><l>вш</l><r>сться<s n="vblex"/><s n="perf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/><p><l>ся</l><r></r></p></e>
@@ -15671,6 +15722,7 @@
  
     <pardef n="гля/деть__vblex_impf">
       <e><p><l>деть</l><r>деть<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>ди</l><r>деть<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>дите</l><r>деть<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>девш</l><r>деть<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p><l>дел</l><r>деть<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -15826,6 +15878,7 @@
  
     <pardef n="вр/ать__vblex_impf">
       <e><p><l>ать</l><r>ать<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>и</l><r>ать<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ите</l><r>ать<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>авш</l><r>ать<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p><l>ал</l><r>ать<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -16124,6 +16177,7 @@
  
     <pardef n="б/ить__vblex_impf">
       <e><p><l>ить</l><r>ить<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>ей</l><r>ить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ейте</l><r>ить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ивш</l><r>ить<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p><l>ил</l><r>ить<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -16207,6 +16261,7 @@
  
     <pardef n="тян/уть__vblex_impf">
       <e><p><l>уть</l><r>уть<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>и</l><r>уть<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ите</l><r>уть<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>увш</l><r>уть<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p><l>ул</l><r>уть<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -16337,6 +16392,7 @@
  
     <pardef n="знач/ить__vblex_impf">
       <e><p><l>ить</l><r>ить<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>ь</l><r>ить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ьте</l><r>ить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ивш</l><r>ить<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p><l>ил</l><r>ить<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -16472,6 +16528,7 @@
  
     <pardef n="л/ечь__vblex_perf">
       <e><p><l>ечь</l><r>ечь<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
+      <e><p><l>яг</l><r>ечь<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ягте</l><r>ечь<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ёгши</l><r>ечь<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p><l>ёгш</l><r>ечь<s n="vblex"/><s n="perf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
@@ -16700,6 +16757,7 @@
  
     <pardef n="ж/евать__vblex_impf">
       <e><p><l>евать</l><r>евать<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>уй</l><r>евать<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>уйте</l><r>евать<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>евавш</l><r>евать<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
       <e><p><l>евал</l><r>евать<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -16738,6 +16796,7 @@
  
     <pardef n="посмотр/еть__vblex_perf">
       <e><p><l>еть</l><r>еть<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
+      <e><p><l>и</l><r>еть<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ите</l><r>еть<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ев</l><r>еть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p><l>евши</l><r>еть<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
@@ -16942,6 +17001,7 @@
  
     <pardef n="держ/аться__vblex_impf">
       <e><p><l>аться</l><r>аться<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>итесь</l><r>аться<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>итесь</l><r>аться<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>авш</l><r>аться<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/><p><l>ся</l><r></r></p></e>
       <e><p><l>ался</l><r>аться<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
@@ -27997,7 +28057,7 @@
 <e lm="усложнить"><i>усложни</i><par n="ста/ть__vblex_perf"/></e>  
 <e lm="осложнять"><i>осложня</i><par n="почита/ть__vblex_perf"/></e>  
 <e lm="утеплить"><i>утепли</i><par n="ста/ть__vblex_perf"/></e>  
-<e lm="уточнять"><i>уточня</i><par n="почита/ть__vblex_perf"/></e>  
+<e lm="уточнять"><i>уточня</i><par n="уточня/ть__vblex_impf"/></e>  
 <e lm="удержать"><i>удержа</i><par n="ста/ть__vblex_perf"/></e>  
 <e lm="удержаться"><i>удержа</i><par n="счита/ться__vblex_perf"/></e>  
 <e lm="удерживаться"><i>удержива</i><par n="ката/ться__vblex_impf"/></e>  
@@ -28035,7 +28095,6 @@
 <e lm="осложнять"><i>осложня</i><par n="почита/ть__vblex_perf"/></e>  
 <e lm="образовать"><i>образова</i><par n="ста/ть__vblex_perf"/></e>  
 <e lm="утеплить"><i>утепли</i><par n="ста/ть__vblex_perf"/></e>  
-<e lm="уточнять"><i>уточня</i><par n="почита/ть__vblex_perf"/></e>  
 <e lm="удержать"><i>удержа</i><par n="ста/ть__vblex_perf"/></e>  
 <e lm="удержаться"><i>удержа</i><par n="счита/ться__vblex_perf"/></e>  
 <e lm="удерживаться"><i>удержива</i><par n="ката/ться__vblex_impf"/></e>  
