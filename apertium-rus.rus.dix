@@ -10468,7 +10468,47 @@
       <e><p><l>йте</l><r>ть<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>л</l><r>ть<s n="vblex"/><s n="impf"/><s n="past"/></r></p><par n="BASE__ска/зал"/></e>
     </pardef>
-  
+   
+    <pardef n="отдал/ять__vblex_impf">
+      <e><p><l>ять</l><r>ять<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>яющ</l><r>ять<s n="vblex"/><s n="impf"/><s n="pprs"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
+      <e><p><l>яемый</l><r>ять<s n="vblex"/><s n="impf"/><s n="pprs"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
+      <e><p><l>яя</l><r>ять<s n="vblex"/><s n="impf"/><s n="pprs"/><s n="adv"/></r></p></e>
+      <e><p><l>явш</l><r>ять<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
+      <e><p><l>ённ</l><r>ять<s n="vblex"/><s n="impf"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
+      <e><p><l>яв</l><r>ять<s n="vblex"/><s n="impf"/><s n="pp"/><s n="adv"/></r></p></e>
+      <e><p><l>яю</l><r>ять<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>яем</l><r>ять<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>яешь</l><r>ять<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>яете</l><r>ять<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>яет</l><r>ять<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>яют</l><r>ять<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>яй</l><r>ять<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>яйте</l><r>ять<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ял</l><r>ять<s n="vblex"/><s n="impf"/><s n="past"/></r></p><par n="BASE__ска/зал"/></e>
+    </pardef>
+
+    <pardef n="дово/дить__vblex_impf">
+      <e>       <p><l>дить</l><r>дить<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e>       <p><l>дивш</l><r>дить<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
+      <e>       <p><l>дящ</l><r>дить<s n="vblex"/><s n="impf"/><s n="pprs"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
+      <e>       <p><l>дим</l><r>дить<s n="vblex"/><s n="impf"/><s n="pprs"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
+      <e>       <p><l>дя</l><r>дить<s n="vblex"/><s n="impf"/><s n="pp"/><s n="adv"/></r></p></e>
+
+      <e>       <p><l>жу</l><r>дить<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>дишь</l><r>дить<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>дит</l><r>дить<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>дим</l><r>дить<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>дите</l><r>дить<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>дят</l><r>дить<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>дил</l><r>дить<s n="vblex"/><s n="impf"/><s n="past"/></r></p><par n="BASE__ска/зал"/></e>
+
+      <e>       <p><l>ди</l><r>дить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>дите</l><r>дить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
     <pardef n="спас/ать__vblex_impf">
       <e><p><l>ать</l><r>ать<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
       <e><p><l>ающ</l><r>ать<s n="vblex"/><s n="impf"/><s n="pprs"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
@@ -12806,27 +12846,27 @@
     </pardef>
  
     <pardef n="возобнов/ить__vblex_impf">
-      <e><p><l>ить</l><r>ить<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
+      <e><p><l>ить</l><r>ить<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
 
-      <e><p><l>ящ</l><r>ить<s n="vblex"/><s n="impf"/><s n="pprs"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
-      <e><p><l>ивш</l><r>ить<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
-      <e><p><l>им</l><r>ить<s n="vblex"/><s n="impf"/><s n="pprs"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
-      <e><p><l>лённ</l><r>ить<s n="vblex"/><s n="impf"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
+      <e><p><l>ящ</l><r>ить<s n="vblex"/><s n="perf"/><s n="pprs"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
+      <e><p><l>ивш</l><r>ить<s n="vblex"/><s n="perf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
+      <e><p><l>им</l><r>ить<s n="vblex"/><s n="perf"/><s n="pprs"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
+      <e><p><l>лённ</l><r>ить<s n="vblex"/><s n="perf"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
 
-      <e><p><l>лю</l><r>ить<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>им</l><r>ить<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>ишь</l><r>ить<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ите</l><r>ить<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>ит</l><r>ить<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>ят</l><r>ить<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>лю</l><r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>им</l><r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ишь</l><r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ите</l><r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ит</l><r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ят</l><r>ить<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
 
-      <e><p><l>ил</l><r>ить<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ила</l><r>ить<s n="vblex"/><s n="impf"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ило</l><r>ить<s n="vblex"/><s n="impf"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>или</l><r>ить<s n="vblex"/><s n="impf"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e><p><l>ил</l><r>ить<s n="vblex"/><s n="perf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ила</l><r>ить<s n="vblex"/><s n="perf"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ило</l><r>ить<s n="vblex"/><s n="perf"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>или</l><r>ить<s n="vblex"/><s n="perf"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
 
-      <e><p><l>и</l><r>ить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ите</l><r>ить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>и</l><r>ить<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ите</l><r>ить<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
     </pardef>
   
     <pardef n="дав/ить__vblex_impf">
@@ -27591,7 +27631,7 @@
 <e lm="вбивать"><i>вбива</i><par n="сбега/ть__vblex_impf"/></e> 
 <e lm="вбить"><i>вб</i><par n="уб/ить__vblex_perf"/></e> 
 <e lm="вводить"><i>вво</i><par n="во/дить__vblex_impf"/></e> 
-<e lm="извиниться"><i>извин</i><par n="сн/иться__vblex_impf"/></e> 
+<!--<e lm="извиниться"><i>извин</i><par n="сн/иться__vblex_impf"/></e> perf-->
 <e lm="отвоевать"><i>отвоева</i><par n="да/ть__vblex_perf"/></e> 
 <e lm="выстраивать"><i>выстраива</i><par n="дела/ть__vblex_impf"/></e> 
 <e lm="выстроить"><i>выстрои</i><par n="наде/ть__vblex_perf"/></e> 
@@ -27602,7 +27642,7 @@
 <e lm="вывозить"><i>вывоз</i><par n="уточн/ить__vblex_perf"/></e> 
 <e lm="выучивать"><i>выучив</i><par n="дрем/ать__vblex_impf"/></e> 
 <e lm="выучить"><i>выуч</i><par n="науч/ить__vblex_perf"/></e> 
-<e lm="выглядывать"><i>выглядыва</i><par n="выда/ть__vblex_perf"/></e> 
+<!--<e lm="выглядывать"><i>выглядыва</i><par n="выда/ть__vblex_perf"/></e> impf -->
 <e lm="произносить"><i>произно</i><par n="выно/сить__vblex_impf"/></e> 
 <e lm="изготовить"><i>изготов</i><par n="выстав/ить__vblex_perf"/></e> 
 <e lm="изготовлять"><i>изготовля</i><par n="сия/ть__vblex_impf"/></e> 
@@ -27707,7 +27747,7 @@
 <e lm="горячить"><i>горяч</i><par n="друж/ить__vblex_impf"/></e>  
 <e lm="генерировать"><i>генерир</i><par n="риск/овать__vblex_impf"/></e>  
 <e lm="председательствовать"><i>председательств</i><par n="риск/овать__vblex_impf"/></e>  
-<e lm="отдалять"><i>отдал</i><par n="спас/ать__vblex_impf"/></e>  
+<e lm="отдалять"><i>отдал</i><par n="отдал/ять__vblex_impf"/></e>  
 <e lm="даровать"><i>дар</i><par n="риск/овать__vblex_impf"/></e>  
 <e lm="датировать"><i>датир</i><par n="риск/овать__vblex_impf"/></e>  
 <e lm="декларировать"><i>декларир</i><par n="риск/овать__vblex_impf"/></e>  
@@ -27722,7 +27762,7 @@
 <e lm="доказывать"><i>доказыва</i><par n="попада/ть__vblex_perf"/></e>  
 <e lm="доводить"><i>доводить</i><par n="хо/дить__vblex_impf"/></e>  
 <e lm="прибавлять"><i>прибавля</i><par n="почита/ть__vblex_perf"/></e>  
-<e lm="дозволить"><i>дозвол</i><par n="вал/ить__vblex_impf"/></e>  
+<e lm="дозволить"><i>дозвол</i><par n="удар/ить__vblex_perf"/></e>  
 <e lm="доехать"><i>дое</i><par n="уе/хать__vblex_perf"/></e>  
 <e lm="доконать"><i>докона</i><par n="попада/ть__vblex_perf"/></e>  
 <e lm="одолевать"><i>одолева</i><par n="меша/ть__vblex_impf"/></e>  
@@ -27741,6 +27781,7 @@
 <e lm="исследовать"><i>исслед</i><par n="организ/овать__vblex_dual"/></e>  
 <e lm="прислушаться"><i>прислуша</i><par n="уда/ться__vblex_perf"/></e>  
 <e lm="достичь"><i>дости</i><par n="смо/чь__vblex_perf"/></e>  
+<e lm="достичь взаимопонимания"><i>дости</i><par n="смо/чь__vblex_perf"/><p><l><b/>взаимопонимания</l><r><g><b/>взаимопонимания</g></r></p></e>  
 <e lm="соблюсти"><i>соблю</i><par n="выве/сти__vblex_perf"/></e>  
 <e lm="соблюдать"><i>соблюда</i><par n="дела/ть__vblex_impf"/></e>  
 <e lm="доходить"><i>дохо</i><par n="хо/дить__vblex_impf"/></e>  
@@ -27776,7 +27817,7 @@
 <e lm="обеспокоить"><i>обеспоко</i><par n="устро/ить__vblex_perf"/></e>  
 <e lm="занизить"><i>зани</i><par n="выра/зить__vblex_perf"/></e>  
 <e lm="поощрить"><i>поощр</i><par n="удар/ить__vblex_perf"/></e>  
-<e lm="поощрять"><i>поощря</i><par n="попада/ть__vblex_perf"/></e>  
+<!--<e lm="поощрять"><i>поощря</i><par n="попада/ть__vblex_perf"/></e>  impf-->
 <e lm="сберегать"><i>сберега</i><par n="попада/ть__vblex_perf"/></e>  
 <e lm="сберечь"><i>сбере</i><par n="смо/чь__vblex_perf"/></e>  
 <e lm="заверить"><i>завер</i><par n="повер/ить__vblex_perf"/></e>  
@@ -27831,7 +27872,7 @@
 <e lm="вспоминаться"><i>вспомина</i><par n="ката/ться__vblex_impf"/></e>  
 <e lm="осуществить"><i>осуществ</i><par n="выстав/ить__vblex_perf"/></e>  
 <e lm="осуществлять"><i>осуществл</i><par n="молч/ать__vblex_impf"/></e>  
-<e lm="осуществляться"><i>осуществля</i><par n="счита/ться__vblex_perf"/></e>  
+<!--<e lm="осуществляться"><i>осуществля</i><par n="счита/ться__vblex_perf"/></e>  impf-->
 <e lm="сэкономить"><i>сэконом</i><par n="вступ/ить__vblex_perf"/></e>  
 <e lm="сознаваться"><i>созна</i><par n="да/ваться__vblex_impf"/></e>  
 <e lm="сознаться"><i>созна</i><par n="уда/ться__vblex_perf"/></e>  
@@ -27990,9 +28031,7 @@
 <e lm="пикетировать"><i>пикетир</i><par n="риск/овать__vblex_impf"/></e>  
 <e lm="побить"><i>поб</i><par n="уб/ить__vblex_perf"/></e>  
 <e lm="побороть"><i>побор</i><par n="кол/оть__vblex_impf"/></e>  
-<e lm="поводить"><i>пово</i><par n="поса/дить__vblex_perf"/></e>  
-<e lm="поводить"><i>пово</i><par n="поса/дить__vblex_perf"/></e>  
-<e lm="поводить"><i>пово</i><par n="поса/дить__vblex_perf"/></e>  
+<!--<e lm="поводить"><i>пово</i><par n="поса/дить__vblex_perf"/></e>  impf-->
 <e lm="поводиться"><i>пово</i><par n="са/диться__vblex_impf"/></e>  
 <e lm="повториться"><i>повтор</i><par n="сн/иться__vblex_impf"/></e>  
 <e lm="повысить"><i>повы</i><par n="бро/сить__vblex_perf"/></e>  
@@ -28021,7 +28060,6 @@
 <e lm="претворяться"><i>претворя</i><par n="ката/ться__vblex_impf"/></e>  
 <e lm="проникаться"><i>проника</i><par n="ката/ться__vblex_impf"/></e>  
 <e lm="просматривать"><i>просматрива</i><par n="сия/ть__vblex_impf"/></e>  
-<e lm="разрушить"><i>разруш</i><par n="вскоч/ить__vblex_perf"/></e>  
 <e lm="рожать"><i>рожа</i><par n="сия/ть__vblex_impf"/></e>  
 <e lm="рожать"><i>рожа</i><par n="сия/ть__vblex_impf"/></e>  
 <e lm="сблизить"><i>сбли</i><par n="возра/зить__vblex_perf"/></e>  
@@ -28117,7 +28155,6 @@
 <e lm="явить"><i>яв</i><par n="остав/ить__vblex_perf"/></e>  
 <e lm="выяснять"><i>выясня</i><par n="попада/ть__vblex_perf"/></e>  
 <e lm="внедрять"><i>внедря</i><par n="почита/ть__vblex_perf"/></e>  
-<e lm="отдалять"><i>отдаля</i><par n="почита/ть__vblex_perf"/></e>  
 <e lm="доводить"><i>довово/дить__vblex_impf</i><par n="во/дить__vblex_impf"/></e>  
 <e lm="внедрять"><i>внедря</i><par n="почита/ть__vblex_perf"/></e>  
 <e lm="заинтересовать"><i>заинтерес</i><par n="посовет/овать__vblex_perf"/></e>  
@@ -28132,11 +28169,11 @@
 <e lm="поделить"><i>подел</i><par n="смен/ить__vblex_perf"/></e>  
 <e lm="разделиться"><i>раздели</i><par n="уда/ться__vblex_perf"/></e>  
 <e lm="лишать"><i>лиша</i><par n="меша/ть__vblex_impf"/></e>  
-<e lm="лишиться"><i>лиш</i><par n="уч/иться__vblex_impf"/></e>  
+<!--<e lm="лишиться"><i>лиш</i><par n="уч/иться__vblex_impf"/></e>  perf-->
 <e lm="пометить"><i>поме</i><par n="отме/тить__vblex_perf"/></e>  
 <e lm="осведомить"><i>осведом</i><par n="повер/ить__vblex_perf"/></e>  
 <e lm="покарать"><i>покара</i><par n="уста/ть__vblex_perf"/></e>  
-<e lm="выкрикивать"><i>выкрикива</i><par n="почита/ть__vblex_perf"/></e>  
+<!--<e lm="выкрикивать"><i>выкрикива</i><par n="почита/ть__vblex_perf"/></e>  impf-->
 <e lm="улучшить"><i>улучш</i><par n="спеш/ить__vblex_impf"/></e>  
 <e lm="покрывать"><i>покрыва</i><par n="сбега/ть__vblex_impf"/></e>  
 <e lm="облегчить"><i>облегч</i><par n="выступ/ить__vblex_perf"/></e>  
@@ -28149,7 +28186,7 @@
 <e lm="перчить"><i>перч</i><par n="спеш/ить__vblex_impf"/></e>  
 <e lm="популяризовать"><i>популяриз</i><par n="нарис/овать__vblex_perf"/></e>  
 <e lm="поранить"><i>поран</i><par n="смен/ить__vblex_perf"/></e>  
-<e lm="сравнивать"><i>сравнива</i><par n="почита/ть__vblex_perf"/></e>  
+<!--<e lm="сравнивать"><i>сравнива</i><par n="почита/ть__vblex_perf"/></e>  impf-->
 <e lm="сровнять"><i>сровня</i><par n="заста/ть__vblex_perf"/></e>  
 <e lm="порождать"><i>порожда</i><par n="почита/ть__vblex_perf"/></e>  
 <e lm="нарушить"><i>наруш</i><par n="вступ/ить__vblex_perf"/></e>  
@@ -28286,6 +28323,8 @@
 <e lm="тикать"><i>тика</i><par n="дела/ть__vblex_impf"/></e>  
 <e lm="травмировать"><i>травмир</i><par n="вор/овать__vblex_impf"/></e>  
 <e lm="уверить"><i>увер</i><par n="урон/ить__vblex_perf"/></e>  
+
+    <e lm="доводить"><i>дово</i><par n="дово/дить__vblex_impf"/></e>
 
 
 
