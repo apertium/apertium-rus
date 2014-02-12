@@ -8644,6 +8644,7 @@
       <e><p><l>на</l><r>ный<s n="adj"/><s n="short"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>но</l><r>ный<s n="adj"/><s n="short"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>ны</l><r>ный<s n="adj"/><s n="short"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e><p><l>но</l><r>ный<s n="adj"/><s n="cmp"/></r></p></e>
     </pardef>
   
     <pardef n="школ/ьный__adj">
@@ -8678,6 +8679,7 @@
       <e><p><l>ьна</l><r>ьный<s n="adj"/><s n="short"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ьно</l><r>ьный<s n="adj"/><s n="short"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>ьны</l><r>ьный<s n="adj"/><s n="short"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e><p><l>ьно</l><r>ьный<s n="adj"/><s n="cmp"/></r></p></e>
     </pardef>
 
 
@@ -8713,6 +8715,7 @@
       <e><p>          <l>на</l><r>ный<s n="adj"/><s n="short"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p>          <l>но</l><r>ный<s n="adj"/><s n="short"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p>          <l>ны</l><r>ный<s n="adj"/><s n="short"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e><p><l>но</l><r>ный<s n="adj"/><s n="cmp"/></r></p></e>
     </pardef>
     <pardef n="опас/ный__adj">
       <e><p>          <l>ного</l><r>ный<s n="adj"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -8746,6 +8749,7 @@
       <e><p>          <l>на</l><r>ный<s n="adj"/><s n="short"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p>          <l>но</l><r>ный<s n="adj"/><s n="short"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p>          <l>ны</l><r>ный<s n="adj"/><s n="short"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e><p><l>но</l><r>ный<s n="adj"/><s n="cmp"/></r></p></e>
     </pardef>
     <pardef n="ча/стый__adj">
       <e><p>          <l>стого</l><r>стый<s n="adj"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -8780,6 +8784,7 @@
       <e><p>          <l>ста</l><r>стый<s n="adj"/><s n="short"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p>          <l>сто</l><r>стый<s n="adj"/><s n="short"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p>          <l>сты</l><r>стый<s n="adj"/><s n="short"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e><p><l>сто</l><r>стый<s n="adj"/><s n="cmp"/></r></p></e>
     </pardef>
     <pardef n="нем/ой__adj">
       <e><p>          <l>ого</l><r>ой<s n="adj"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -24538,7 +24543,7 @@
     <e lm="чёткий"><i>чётк</i><par n="английск/ий__adj"/></e>
     <e lm="будущий"><i>будущ</i><par n="текущ/ий__adj"/></e>
     <e lm="руководящий"><i>руководящ</i><par n="текущ/ий__adj"/></e>
-    <e lm="внутренний"><i>внутренн</i><par n="английск/ий__adj"/></e>
+    <e lm="внутренний"><i>внутренн</i><par n="текущ/ий__adj"/></e>
     <e lm="лингвистический"><i>лингвистическ</i><par n="английск/ий__adj"/></e>
 
     <e lm="хороший" a="slasher"><i>хорош</i><par n="английск/ий__adj"/></e>
