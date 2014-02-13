@@ -10913,22 +10913,25 @@
  
     <pardef n="во/дить__vblex_impf">
       <e><p><l>дить</l><r>дить<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
-      <e><p><l>ди</l><r>дить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>дите</l><r>дить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>дивш</l><r>дить<s n="vblex"/><s n="impf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
-      <e><p><l>дил</l><r>дить<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>дила</l><r>дить<s n="vblex"/><s n="impf"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>дило</l><r>дить<s n="vblex"/><s n="impf"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>дили</l><r>дить<s n="vblex"/><s n="impf"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
       <e><p><l>дя</l><r>дить<s n="vblex"/><s n="impf"/><s n="pprs"/><s n="adv"/></r></p></e>
       <e><p><l>димый</l><r>дить<s n="vblex"/><s n="impf"/><s n="pprs"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
       <e><p><l>дящ</l><r>дить<s n="vblex"/><s n="impf"/><s n="pprs"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
+
       <e><p><l>жу</l><r>дить<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>дим</l><r>дить<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>дишь</l><r>дить<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>дите</l><r>дить<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>дит</l><r>дить<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>дят</l><r>дить<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>дил</l><r>дить<s n="vblex"/><s n="impf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>дила</l><r>дить<s n="vblex"/><s n="impf"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>дило</l><r>дить<s n="vblex"/><s n="impf"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>дили</l><r>дить<s n="vblex"/><s n="impf"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ди</l><r>дить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>дите</l><r>дить<s n="vblex"/><s n="impf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
     </pardef>
  
     <pardef n="усн/уть__vblex_perf">
@@ -26827,7 +26830,8 @@
     <e lm="переносить"><i>перено</i><par n="но/сить__vblex_impf"/></e>
     <e lm="переставать"><i>переста</i><par n="да/вать__vblex_impf"/></e>
     <e lm="перестать"><i>переста</i><par n="уста/ть__vblex_perf"/></e>
-    <e lm="переходить"><i>перехо</i><par n="хо/дить__vblex_impf"/></e>
+    <!--<e lm="переходить"><i>перехо</i><par n="хо/дить__vblex_impf"/></e>-->
+    <e lm="переходить"><i>перехо</i><par n="во/дить__vblex_impf"/></e>  
     <e lm="петь"><i>п</i><par n="п/еть__vblex_impf"/></e>
     <e lm="печатать"><i>печата</i><par n="веда/ть__vblex_impf"/></e>
     <e lm="писать"><i>пи</i><par n="пи/сать__vblex_impf"/></e>
@@ -28622,8 +28626,6 @@
 <e lm="переть"><i>п</i><par n="зап/ереть__vblex_perf"/></e>  
 <e lm="переубедить"><i>переубе</i><par n="поса/дить__vblex_perf"/></e>  
 <e lm="переубеждать"><i>переубежда</i><par n="суме/ть__vblex_perf"/></e>  
-<e lm="переходить"><i>перехо</i><par n="во/дить__vblex_impf"/></e>  
-<e lm="переходить"><i>перехо</i><par n="во/дить__vblex_impf"/></e>  
 <e lm="пикетировать"><i>пикетир</i><par n="риск/овать__vblex_impf"/></e>  
 <e lm="побить"><i>поб</i><par n="уб/ить__vblex_perf"/></e>  
 <e lm="побороть"><i>побор</i><par n="кол/оть__vblex_impf"/></e>  
