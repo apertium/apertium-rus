@@ -525,8 +525,8 @@
       <e><p><l>неё</l><r>она<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="acc"/><s n="pprep"/></r></p></e>
       <e><p><l>ей</l><r>она<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>ней</l><r>она<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="ins"/><s n="pprep"/></r></p></e>
-      <e><p><l>ею</l><r>она<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>нею</l><r>она<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="ins"/><s n="pprep"/></r></p></e>
+      <e r="LR"><p><l>ею</l><r>она<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e r="LR"><p><l>нею</l><r>она<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="ins"/><s n="pprep"/></r></p></e>
       <e><p><l>ней</l><r>она<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="prp"/></r></p></e>
 
       <e><p><l>оно</l><r>оно<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -27586,7 +27586,6 @@
 <e lm="биотопливо"><i>биотоплив</i><par n="лиц/о__n_nt_aa"/></e>
 <e lm="боб"><i>б</i><par n="л/об__n_m_nn"/></e>
 <e lm="бог"><i>бог</i><par n="сапог__n_m_nn"/></e>
-<e lm="боксёр"><i>бокс</i><par n="ков/ёр__n_m_nn"/></e>
 <e lm="сын"><i>сын</i><par n="сын__n_m_an"/></e>
 <e lm="борец"><i>бор</i><par n="стрел/ец__n_m_aa"/></e>
 <e lm="бортняк"><i>бортняк</i><par n="мак__n_m_nn"/></e>
