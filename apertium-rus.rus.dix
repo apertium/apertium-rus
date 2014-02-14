@@ -8603,6 +8603,10 @@
     </pardef>
       
     <!-- SECTION: Adjectives -->  
+ 
+    <pardef n="франко__adj">
+      <e><p><l></l><r><s n="adj"/><s n="cmp"/></r></p></e>
+    </pardef>
 
     <pardef n="счастлив/ый__adj"> 
     <!-- a="slasher" -->
@@ -25676,6 +25680,8 @@
     <e lm="южный"><i>юж</i><par n="яв/ный__adj"/></e>
 
 
+    <e lm="франко"><i>франко</i><par n="франко__adj"/></e>
+    <e lm="англо"><i>англо</i><par n="франко__adj"/></e>
       
     <!-- SECTION: Predicatives -->
     <e lm="можно"><i>можно</i><par n="можно__pred"/></e>
