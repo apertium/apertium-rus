@@ -141,8 +141,8 @@
 ^кругом/кругом<pr>/круг<n><m><nn><sg><ins>$
 ^появились/появиться<vblex><perf><past><mfn><pl>$
 ^в/в<pr>$
-^70/70<num>$^-/-<guio>$^х/*х$
-^годах/год:1<n><m><nn><pl><prp>$
+^70-х/70<num>$
+^годах/год¹<n><m><nn><pl><prp>$
 XIX
 ^века/век<n><m><nn><sg><gen>/век<n><m><nn><pl><acc>/век<n><m><nn><pl><nom>/веко<n><nt><nn><sg><gen>$
 ^./.<sent>$
