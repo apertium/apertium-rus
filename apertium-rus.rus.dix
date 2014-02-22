@@ -8299,7 +8299,16 @@
     <pardef n="Таджикистан__np_top">
       <e><p><l></l><r><s n="np"/><s n="top"/></r></p><par n="BASE__Таджикистан"/></e>
     </pardef>
-  
+   
+    <pardef n="Дагогн/и__np_top_m_pl">
+      <e><p><l>и</l><r>и<s n="np"/><s n="top"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>и</l><r>и<s n="np"/><s n="top"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ях</l><r>и<s n="np"/><s n="top"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>ям</l><r>и<s n="np"/><s n="top"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>ями</l><r>и<s n="np"/><s n="top"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>ях</l><r>и<s n="np"/><s n="top"/><s n="mfn"/><s n="pl"/><s n="prp"/></r></p></e>
+    </pardef>
+
     <pardef n="США__np_top_m_pl">
       <e><p><l></l><r><s n="np"/><s n="top"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="np"/><s n="top"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
@@ -17504,6 +17513,7 @@
     <e lm="лишь"><i>лишь</i><par n="когда__cnjsub"/></e>
     <e lm="чем"><i>чем</i><par n="когда__cnjsub"/></e>
     <e lm="как"><i>как</i><par n="как__cnjadv"/></e>
+    <e lm="до сих пор"><i>до<b/>сих<b/>пор</i><par n="как__cnjadv"/></e>
     <e lm="только что"><i>только<b/>что</i><par n="как__cnjadv"/></e>
     <e lm="иначе"><i>иначе</i><par n="как__cnjadv"/></e>
     <e lm="пока"><i>пока</i><par n="как__cnjadv"/></e>
@@ -24204,7 +24214,11 @@
 
     <e lm="Дербент"><i>Дербент</i><par n="Таджикистан__np_top"/></e>
     <e lm="Мурманск"><i>Мурманск</i><par n="Таджикистан__np_top"/></e>
+    <e lm="Избербаш"><i>Избербаш</i><par n="Таджикистан__np_top"/></e>
     <e lm="Буйнакск"><i>Буйнакск</i><par n="Таджикистан__np_top"/></e>
+    <e lm="Каспийск"><i>Каспийск</i><par n="Таджикистан__np_top"/></e>
+
+    <e lm="Дагогни"><i>Дагогн</i><par n="Дагогн/и__np_top_m_pl"/></e>
 
     <e lm="Вьетнам"><i>Вьетнам</i><par n="Таджикистан__np_top"/></e>
     <e lm="Таджикистан"><i>Таджикистан</i><par n="Таджикистан__np_top"/></e>
@@ -25996,7 +26010,6 @@
 
 
     <e lm="более"><i>более</i><par n="более__preadv"/></e>
-    <e lm="до сих пор"><i>до<b/>сих<b/>пор</i><par n="здесь__adv"/></e>
     <e lm="таким образом"><i>таким<b/>образом</i><par n="здесь__adv"/></e>
     <e lm="в силах" c="use/mt" r="RL"><i>в<b/>силах</i><par n="здесь__adv"/></e>
     <e lm="в начале"><i>в<b/>начале</i><par n="здесь__adv"/></e>
