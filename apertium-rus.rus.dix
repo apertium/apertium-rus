@@ -6378,7 +6378,7 @@
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l>а</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>у</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>у</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>у</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l>ом</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>е</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="prp"/></r></p></e>
@@ -8703,6 +8703,16 @@
       <e><p><l>ах</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
   
+    <pardef n="Динамо__np_al">
+      <e><p><l></l><r><s n="np"/><s n="al"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="al"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="al"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="al"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="al"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="al"/><s n="nt"/><s n="sg"/><s n="prp"/></r></p></e>
+    </pardef>
+      
+ 
     <pardef n="СМИ__np_al_mfn_pl">
       <e><p><l></l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
@@ -18656,7 +18666,6 @@
     <e lm="мир"><i>мир</i><par n="ад__n_m_nn"/></e>
     <e lm="миска"><i>мис</i><par n="юб/ка__n_f_nn"/></e>
     <e lm="мистер"><i>мистер</i><par n="шеф__n_m_aa"/></e>
-    <e lm="митинг"><i>митинг</i><par n="бык__n_m_aa"/></e>
     <e lm="младенец"><i>младен</i><par n="нем/ец__n_m_an"/></e>
     <e lm="мнение"><i>мнени</i><par n="звани/е__n_nt_nn"/></e>
     <e lm="множество"><i>множеств</i><par n="мыл/о__n_nt_nn"/></e>
@@ -19373,6 +19382,8 @@
     <e lm="санитар"><i>санитар</i><par n="шеф__n_m_aa"/></e>
     <e lm="сантиметр"><i>сантиметр</i><par n="ус__n_m_nn"/></e>
     <e lm="сапог"><i>сапог</i><par n="сапог__n_m_nn"/></e>
+    <e lm="митинг"><i>митинг</i><par n="шаг__n_m_nn"/></e>
+    <e lm="грэпплинг"><i>грэпплинг</i><par n="шаг__n_m_nn"/></e>
     <e lm="стерлинг"><i>стерлинг</i><par n="шаг__n_m_nn"/></e>
     <e lm="сарай"><i>сара</i><par n="во/й__n_m_nn"/></e>
     <e lm="сахар"><i>сахар</i><par n="ус__n_m_nn"/></e>
@@ -24301,6 +24312,7 @@
     <e lm="Ганс"><i>Ганс</i><par n="Олейник__np_cog"/></e>
     <e lm="Гош"><i>Гош</i><par n="Олейник__np_cog"/></e>
     <e lm="СМИ"><i>СМИ</i><par n="СМИ__np_al_mfn_pl"/></e>
+    <e lm="Динамо"><i>Динамо</i><par n="Динамо__np_al"/></e>
 
     <e lm="Волошин"><i>Волошин</i><par n="Волошин__np_cog"/></e>
 
