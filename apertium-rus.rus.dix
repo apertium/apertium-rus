@@ -8313,6 +8313,15 @@
       <e><p><l>ях</l><r>и<s n="np"/><s n="top"/><s n="mfn"/><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
 
+    <pardef n="РФ__np_top_f_sg">
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="prp"/></r></p></e>
+    </pardef>
+
     <pardef n="США__np_top_m_pl">
       <e><p><l></l><r><s n="np"/><s n="top"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="np"/><s n="top"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
@@ -8471,6 +8480,15 @@
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="prp"/></r></p></e>
+    </pardef>
+
+    <pardef n="Даггаз__np_al_m">
+      <e><p><l/><r><s n="np"/><s n="al"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="al"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="al"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="al"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="al"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="al"/><s n="m"/><s n="sg"/><s n="prp"/></r></p></e>
     </pardef>
 
     <pardef n="МВД__np_al_nt">
@@ -19596,6 +19614,7 @@
     <e lm="структура"><i>структур</i><par n="вод/а__n_f_nn"/></e>
     <e lm="струя"><i>стру</i><par n="стру/я__n_f_nn"/></e>
     <e lm="студент"><i>студент</i><par n="шеф__n_m_aa"/></e>
+    <e lm="плут"><i>плут</i><par n="шеф__n_m_aa"/></e>
     <e lm="иммигрант"><i>иммигрант</i><par n="шеф__n_m_aa"/></e>
     <e lm="ферма"><i>ферм</i><par n="вод/а__n_f_nn"/></e>
     <e lm="фермер"><i>фермер</i><par n="шеф__n_m_aa"/></e>
@@ -24297,6 +24316,8 @@
     <e lm="Чернобыль"><i>Чернобыл</i><par n="Чернобыл/ь__np"/></e>
     <e lm="Сечь"><i>Сеч</i><par n="Сеч/ь__np"/></e>
 
+    <e lm="РФ"><i>РФ</i><par n="РФ__np_top_f_sg"/></e>
+
     <e lm="США"><i>США</i><par n="США__np_top_m_pl"/></e>
     <e lm="СССР"><i>СССР</i><par n="СССР__np_top"/></e>
     <e lm="ЕС"><i>ЕС</i><par n="СССР__np_top"/></e>
@@ -24377,10 +24398,12 @@
     <e lm="Михаил"><i>Михаил</i><par n="Марс__np_ant_m"/></e>
     <e lm="Николай"><i>Никола</i><par n="Андре/й__np_ant_m"/></e>
     <e lm="Олег"><i>Олег</i><par n="Олег__np_ant_m"/></e>
-    <e lm="Францис"><i>Францис</i><par n="Олег__np_ant_m"/></e>
-    <e lm="Мухтар"><i>Мухтар</i><par n="Олег__np_ant_m"/></e>
-    <e lm="Хусейн"><i>Хусейн</i><par n="Олег__np_ant_m"/></e>
-    <e lm="Газимухамад"><i>Газимухамад</i><par n="Олег__np_ant_m"/></e>
+    <e lm="Абдулхалик"><i>Абдулхалик</i><par n="Олег__np_ant_m"/></e>
+    <e lm="Францис"><i>Францис</i><par n="Марс__np_ant_m"/></e>
+    <e lm="Мухтар"><i>Мухтар</i><par n="Марс__np_ant_m"/></e>
+    <e lm="Хусейн"><i>Хусейн</i><par n="Марс__np_ant_m"/></e>
+    <e lm="Мухамадхусейн"><i>Мухамадхусейн</i><par n="Марс__np_ant_m"/></e>
+    <e lm="Газимухамад"><i>Газимухамад</i><par n="Марс__np_ant_m"/></e>
     <e lm="Рената"><i>Ренат</i><par n="Ирин/а__np_ant_f"/></e>
     <e lm="Ярина"><i>Ярин</i><par n="Ирин/а__np_ant_f"/></e>
     <e lm="Роман"><i>Роман</i><par n="Марс__np_ant_m"/></e>
@@ -24398,6 +24421,7 @@
 
     <e lm="Дагестангазсервис"><i>Дагестангазсервис</i><par n="Дагестангазсервис__np_al_m"/></e>
     <e lm="МВД"><i>МВД</i><par n="МВД__np_al_nt"/></e>
+    <e lm="Даггаз"><i>Даггаз</i><par n="Даггаз__np_al_m"/></e>
 
     <!-- SECTION: Adjectives -->
  
