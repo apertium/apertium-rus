@@ -27860,6 +27860,8 @@
     <e lm="кг"><i>кг</i><par n="км__abbr"/></e>
     <e lm="мг"><i>мг</i><par n="км__abbr"/></e>
     <e lm="млн"><i>млн</i><par n="км__abbr"/></e>
+    <e lm="и т. п."><i>и<b/>т.<b/>п.</i><par n="км__abbr"/></e>
+    <e lm="и т. п." r="RL"><p><l>и<b/>т.<b/>п.</l><r>и т. п</r></p><par n="км__abbr"/></e>
         
     <!-- SECTION: Punctuation -->
 
