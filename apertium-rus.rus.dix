@@ -6723,18 +6723,11 @@
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l>а</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>у</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>у</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>у</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l>ом</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>е</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="prp"/></r></p></e>
-      <e><p><l>у</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="prp"/></r></p></e>
-     
-    <!-- Below is content of a subsequent definition of свет__n_m_nn --><e><p><l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>а</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>у</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>ом</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>е</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="prp"/></r></p></e>
+
       <e><p><l>ы</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ы</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>ов</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
@@ -24333,6 +24326,9 @@
     <e lm="Динамо"><i>Динамо</i><par n="Динамо__np_al"/></e>
 
     <e lm="Волошин"><i>Волошин</i><par n="Волошин__np_cog"/></e>
+    <e lm="Путин"><i>Путин</i><par n="Волошин__np_cog"/></e>
+    <e lm="Сталин"><i>Сталин</i><par n="Волошин__np_cog"/></e>
+    <e lm="Ленин"><i>Ленин</i><par n="Волошин__np_cog"/></e>
 
     <e lm="Коваленко"><i>Коваленко</i><par n="Коваленко__np_cog"/></e>
     <e lm="Головко"><i>Головко</i><par n="Коваленко__np_cog"/></e>
@@ -24390,6 +24386,7 @@
     <e lm="Абдулхалик"><i>Абдулхалик</i><par n="Олег__np_ant_m"/></e>
     <e lm="Францис"><i>Францис</i><par n="Марс__np_ant_m"/></e>
     <e lm="Мухтар"><i>Мухтар</i><par n="Марс__np_ant_m"/></e>
+    <e lm="Иосиф"><i>Иосиф</i><par n="Марс__np_ant_m"/></e>
     <e lm="Хусейн"><i>Хусейн</i><par n="Марс__np_ant_m"/></e>
     <e lm="Мухамадхусейн"><i>Мухамадхусейн</i><par n="Марс__np_ant_m"/></e>
     <e lm="Газимухамад"><i>Газимухамад</i><par n="Марс__np_ant_m"/></e>
