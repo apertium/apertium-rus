@@ -95,6 +95,7 @@
   <pardefs>     
     <!-- SECTION: Punctuation -->  
     <pardef n="numeros">
+      <e><p><l>№</l><r>№</r></p><re>[0-9]+</re><p><l></l><r><s n="num"/></r></p></e>
       <e><re>[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
       <e><re>[0-9]+([.,][0-9]+)? ?%</re><p><l></l><r><s n="num"/></r></p></e>
       <e><re>[0-9]+([.,][0-9]+)?</re><i>-</i><re>[0-9]+([.,][0-9]+)?%?</re><p><l></l><r><s n="num"/></r></p></e>
