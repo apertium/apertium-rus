@@ -90,6 +90,7 @@
     <sdef n="rpar" 	c="Right parenthesis"/>
     <sdef n="lquot" 	c="Left quote"/>
     <sdef n="rquot" 	c="Right quote"/>
+    <sdef n="quot"      c="Quote"/>
     <sdef n="guio" 	c="Hyphen"/>    
   </sdefs>
   <pardefs>     
@@ -119,7 +120,7 @@
     </pardef>
   
     <pardef n="separa">
-      <e><re>[.\?;:!…]+</re><p><l></l><r><s n="sent"/></r></p></e>
+      <e><re>[.\?;:!…"]+</re><p><l></l><r><s n="sent"/></r></p></e>
     </pardef>
   
     <pardef n="quotes">
