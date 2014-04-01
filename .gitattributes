@@ -32,5 +32,7 @@ dev/verbs-z.txt -text
 /modes.xml -text
 /rus.prob -text
 texts/murmansk.ana.txt -text
+texts/murmansk.log.txt -text
 texts/murmansk.raw.txt -text svneol=unset#application/octet-stream
 texts/murmansk.tok.txt -text svneol=unset#application/octet-stream
+texts/update-log.sh -text
