@@ -1,21 +1,22 @@
-dt abr  1 20:43:13 CEST 2014	murmansk.ana.txt	2129	303	85.76	3108	1.45	127	5.96
-dt abr  1 20:57:10 CEST 2014	murmansk.ana.txt	2129	284	86.66	3096	1.45	129	6.05
-dt abr  1 20:59:36 CEST 2014	murmansk.ana.txt	2129	284	86.66	3094	1.45	132	6.20
-dt abr  1 21:05:51 CEST 2014	murmansk.ana.txt	2129	278	86.94	3076	1.44	140	6.57
-dt abr  1 21:12:27 CEST 2014	murmansk.ana.txt	2129	271	87.27	3060	1.43	143	6.71
-dc abr  2 13:20:33 CEST 2014	murmansk.ana.txt	2128	246	88.43	3037	1.42	148	6.95
-dc abr  2 14:19:26 CEST 2014	murmansk.ana.txt	2126	218	89.74	2990	1.40	160	7.52
-dc abr  2 15:27:02 CEST 2014	murmansk.ana.txt	2126	175	91.76	2961	1.39	174	8.18
-dc abr  2 16:23:39 CEST 2014	murmansk.ana.txt	2126	97	95.43	2886	1.35	208	9.78
-dc abr  2 17:16:11 CEST 2014	murmansk.ana.txt	2126	37	98.25	2874	1.35	222	10.44
-dc abr  2 17:36:17 CEST 2014	murmansk.ana.txt	2126	37	98.25	2833	1.33	265	12.46
-dc abr  2 18:32:54 CEST 2014	murmansk.ana.txt	2128	35	98.35	2790	1.31	317	14.89
-dj abr  3 00:29:14 CEST 2014	murmansk.ana.txt	2128	34	98.40	2742	1.28	421	19.78
-dj abr  3 00:44:25 CEST 2014	murmansk.ana.txt	2128	34	98.40	2740	1.28	496	23.30
-dj abr  3 01:02:03 CEST 2014	murmansk.ana.txt	2128	34	98.40	2729	1.28	510	23.96
-dj abr  3 01:16:22 CEST 2014	murmansk.ana.txt	2128	34	98.40	2725	1.28	525	24.67
-dj abr  3 09:22:14 CEST 2014	murmansk.ana.txt	2128	30	98.59	2726	1.28	530	24.90
-dj abr  3 10:45:41 CEST 2014	murmansk.ana.txt	2128	28	98.68	2728	1.28	530	24.90
-dj abr  3 11:29:23 CEST 2014	murmansk.ana.txt	2128	28	98.68	2713	1.27	593	27.86
-dj abr  3 11:45:22 CEST 2014	murmansk.ana.txt	2128	28	98.68	2711	1.27	604	28.38
-dj abr  3 13:31:08 CEST 2014	murmansk.ana.txt	2130	21	99.01	2640	1.23	727	34.13
+dt abr  1 20:43:13 CEST 2014	murmansk.ana.txt	2129	303	85.76	3108	1.45	127	5.96	108	0
+dt abr  1 20:57:10 CEST 2014	murmansk.ana.txt	2129	284	86.66	3096	1.45	129	6.05	108	0
+dt abr  1 20:59:36 CEST 2014	murmansk.ana.txt	2129	284	86.66	3094	1.45	132	6.20	108	0
+dt abr  1 21:05:51 CEST 2014	murmansk.ana.txt	2129	278	86.94	3076	1.44	140	6.57	108	0
+dt abr  1 21:12:27 CEST 2014	murmansk.ana.txt	2129	271	87.27	3060	1.43	143	6.71	108	0
+dc abr  2 13:20:33 CEST 2014	murmansk.ana.txt	2128	246	88.43	3037	1.42	148	6.95	108	0
+dc abr  2 14:19:26 CEST 2014	murmansk.ana.txt	2126	218	89.74	2990	1.40	160	7.52	108	0
+dc abr  2 15:27:02 CEST 2014	murmansk.ana.txt	2126	175	91.76	2961	1.39	174	8.18	108	0
+dc abr  2 16:23:39 CEST 2014	murmansk.ana.txt	2126	97	95.43	2886	1.35	208	9.78	108	0
+dc abr  2 17:16:11 CEST 2014	murmansk.ana.txt	2126	37	98.25	2874	1.35	222	10.44	108	0
+dc abr  2 17:36:17 CEST 2014	murmansk.ana.txt	2126	37	98.25	2833	1.33	265	12.46	108	0
+dc abr  2 18:32:54 CEST 2014	murmansk.ana.txt	2128	35	98.35	2790	1.31	317	14.89	108	0
+dj abr  3 00:29:14 CEST 2014	murmansk.ana.txt	2128	34	98.40	2742	1.28	421	19.78	108	0
+dj abr  3 00:44:25 CEST 2014	murmansk.ana.txt	2128	34	98.40	2740	1.28	496	23.30	108	0
+dj abr  3 01:02:03 CEST 2014	murmansk.ana.txt	2128	34	98.40	2729	1.28	510	23.96	108	0
+dj abr  3 01:16:22 CEST 2014	murmansk.ana.txt	2128	34	98.40	2725	1.28	525	24.67	108	0
+dj abr  3 09:22:14 CEST 2014	murmansk.ana.txt	2128	30	98.59	2726	1.28	530	24.90	108	0
+dj abr  3 10:45:41 CEST 2014	murmansk.ana.txt	2128	28	98.68	2728	1.28	530	24.90	108	0
+dj abr  3 11:29:23 CEST 2014	murmansk.ana.txt	2128	28	98.68	2713	1.27	593	27.86	108	0
+dj abr  3 11:45:22 CEST 2014	murmansk.ana.txt	2128	28	98.68	2711	1.27	604	28.38	108	0
+dj abr  3 13:31:08 CEST 2014	murmansk.ana.txt	2130	21	99.01	2640	1.23	727	34.13	108	0
+dj abr  3 13:53:05 CEST 2014	murmansk.ana.txt	2130	21	99.01	2640	1.23	835	39.20	108	8
