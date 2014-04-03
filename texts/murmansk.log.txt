@@ -15,3 +15,4 @@ dj abr  3 00:44:25 CEST 2014	murmansk.ana.txt	2128	34	98.40	2740	1.28	496	23.30
 dj abr  3 01:02:03 CEST 2014	murmansk.ana.txt	2128	34	98.40	2729	1.28	510	23.96
 dj abr  3 01:16:22 CEST 2014	murmansk.ana.txt	2128	34	98.40	2725	1.28	525	24.67
 dj abr  3 09:22:14 CEST 2014	murmansk.ana.txt	2128	30	98.59	2726	1.28	530	24.90
+dj abr  3 10:45:41 CEST 2014	murmansk.ana.txt	2128	28	98.68	2728	1.28	530	24.90
