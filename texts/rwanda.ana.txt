@@ -13,13 +13,13 @@
 ^1994/1994<num><@→N>$
 ^года/год<n><m><nn><sg><gen><@←ADVL>$
 ^был/быть<vbser><past><m><sg><@+FAUXV>$
-^совершен/*совершен$
+^совершен/совершить<vblex><perf><tv><pp><pasv><short><m><sg><@-FMAINV>$
 ^временным/временный<adj><nt><an><sg><ins><@→N>$
 ^правительством/правительство<n><nt><nn><sg><ins><@←ADVL>$
 ^,/,<cm>$
 ^пришедшим/прийти<vblex><perf><pp><actv><m><an><sg><ins>/прийти<vblex><perf><pp><actv><nt><an><sg><ins>/прийти<vblex><perf><pp><actv><mfn><an><pl><dat>$
 ^к/к<pr>$
-^власти/власть<n><f><nn><sg><gen>/власть<n><f><nn><sg><dat>/власть<n><f><nn><sg><prp>/власть<n><f><nn><pl><acc>/власть<n><f><nn><pl><nom>$
+^власти/власть<n><f><nn><sg><dat>$
 ^после/после<pr>$
 ^военного/военный<adj><m><an><sg><gen><@→N>$
 ^переворота/переворот<n><m><nn><sg><gen><@P←>$
@@ -35,7 +35,7 @@
 ^—/—<guio>$
 ^народности/народность<n><f><pl><acc><inan>/народность<n><f><pl><nom>/народность<n><f><sg><dat>/народность<n><f><sg><gen>/народность<n><f><sg><prp>$
 ^хуту/*хуту$
-^./.<sent>$
+^./.<sent><@X>$
 ¶
 ^Геноцид/геноцид<n><m><nn><sg><nom><@SUBJ→>$
 ^был/быть<vbser><past><m><sg>$
@@ -60,14 +60,14 @@
 ^,/,<cm>$
 ^направленные/направить<vblex><perf><pp><pasv><mfn><an><pl><nom>/направить<vblex><perf><pp><pasv><mfn><nn><pl><acc>/направленный<adj><mfn><nn><pl><acc>/направленный<adj><mfn><an><pl><nom>$
 ^на/на<pr>$
-^полное/полный<adj><nt><sg><acc>/полный<adj><nt><sg><nom>$
-^уничтожение/уничтожение<n><nt><nn><sg><acc>/уничтожение<n><nt><nn><sg><nom>$
+^полное/полный<adj><nt><sg><acc><@→N>$
+^уничтожение/уничтожение<n><nt><nn><sg><acc><@P←>$
 ^и/и<cnjcoo>$
 ^тех/тот<prn><dem><mfn><aa><pl><acc>/тот<prn><dem><mfn><an><pl><gen>/тот<prn><dem><mfn><an><pl><prp>/тот<det><dem><mfn><aa><pl><acc>/тот<det><dem><mfn><an><pl><gen>/тот<det><dem><mfn><an><pl><prp>$
 ^,/,<cm>$
 ^и/и<cnjcoo>$
 ^других/другой<det><ind><mfn><pl><gen>/другой<det><ind><mfn><pl><prp>/другой<det><ind><mfn><aa><pl><acc>$
-^;/;<sent>$
+^;/.<sent><@X>$
 ^а/а<cnjcoo>$
 ^также/также<adv>$
 ^,/,<cm>$
@@ -97,7 +97,7 @@
 ^исполнявших/исполнять<vblex><impf><pp><actv><mfn><an><pl><gen>/исполнять<vblex><impf><pp><actv><mfn><an><pl><prp>/исполнять<vblex><impf><pp><actv><mfn><aa><pl><acc>$
 ^убийства/убийство<n><nt><nn><sg><gen>/убийство<n><nt><nn><pl><acc>/убийство<n><nt><nn><pl><nom>$
 ^тутси/*тутси$
-^./.<sent>$
+^./.<sent><@X>$
 ¶
 ^Число/Число<n><nt><nn><sg><acc>/Число<n><nt><nn><sg><nom>$
 ^убитых/убитый<adj><mfn><an><pl><gen>/убитый<adj><mfn><an><pl><prp>/убитый<adj><mfn><aa><pl><acc>/убить<vblex><perf><pp><pasv><mfn><an><pl><gen>/убить<vblex><perf><pp><pasv><mfn><an><pl><prp>/убить<vblex><perf><pp><pasv><mfn><aa><pl><acc>$
@@ -122,14 +122,14 @@
 ^10 %/10<num><percent>$
 ^составили/составить<vblex><perf><past><mfn><pl>$
 ^хуту/*хуту$
-^./.<sent>$
+^./.<sent><@X>$
 ¶
 ^Со/С<pr>$
 ^стороны/сторона<n><f><nn><sg><gen>/сторона<n><f><nn><pl><acc>/сторона<n><f><nn><pl><nom>$
 ^тутси/*тутси$
 ^убийства/убийство<n><nt><nn><sg><gen>/убийство<n><nt><nn><pl><acc>/убийство<n><nt><nn><pl><nom>$
 ^осуществлялись/осуществлять<vblex><impf><tv><past><pl><pass>/осуществляться<vblex><impf><iv><past><pl>$
-^РПФ/*РПФ$
+^РПФ/*РПФ<np><acr>$
 ^и/и<cnjcoo>$
 ^,/,<cm>$
 ^вероятно/вероятно<adv>$
@@ -137,7 +137,7 @@
 ^военизированными/военизированный<adj><pl><ins>/военизировать<vblex><perf><tv><pp><pasv><pl><ins>$
 ^формированиями/формирование<n><nt><nn><pl><ins>$
 ^тутси/*тутси$
-^./.<sent>$
+^./.<sent><@X>$
 ¶¶
 ^Скорость/скорость<n><f><nn><sg><nom><@SUBJ→>$
 ^убийств/убийство<n><nt><nn><pl><gen><@N←>$
@@ -169,7 +169,7 @@
 ^патриотического/патриотический<adj><m><an><sg><gen><@→N>$
 ^фронта/фронт<n><m><nn><sg><gen><@N←>$
 ^тутси/*тутси$
-^./.<sent>$
+^./.<sent><@X>$
 ¶¶
 ^Хуту/*Хуту$
 ^и/и<cnjcoo><@CNP>$
@@ -178,17 +178,17 @@
 ^этно-социальные/этно-социальный<adj><mfn><an><pl><nom><@→N>$
 ^группы/группа<n><f><nn><pl><nom><@←SPRED>$
 ^,/,<cm>$
-^населяющие/населять<vblex><impf><iv><pprs><actv><pl><acc><inan>/населять<vblex><impf><iv><pprs><actv><pl><nom>/населять<vblex><impf><tv><pprs><actv><pl><acc><inan>/населять<vblex><impf><tv><pprs><actv><pl><nom>$
-^Руанду/*Руанду$
-^,/,<cm>$
-^Уганду/*Уганду$
-^,/,<cm>$
-^Бурунди/*Бурунди$
-^и/и<cnjcoo>$
-^некоторые/некоторый<det><ind><mfn><an><pl><nom>/некоторый<det><ind><mfn><nn><pl><acc>$
-^другие/другой<det><ind><mfn><pl><nom>/другой<det><ind><mfn><nn><pl><acc>$
-^страны/страна<n><f><nn><pl><acc>/страна<n><f><nn><pl><nom>$
-^./.<sent>$
+^населяющие/населять<vblex><impf><tv><pprs><actv><mfn><nn><pl><acc>$
+^Руанду/Руанда<np><top><f><sg><acc>$
+^,/,<cm><@CNP>$
+^Уганду/Уганда<np><top><f><sg><acc>$
+^,/,<cm><@CNP>$
+^Бурунди/Бурунди<np><top><nt><sg><acc>$
+^и/и<cnjcoo><@CNP>$
+^некоторые/некоторый<det><ind><mfn><nn><pl><acc><@→N>$
+^другие/другой<det><ind><mfn><nn><pl><acc><@→N>$
+^страны/страна<n><f><nn><pl><acc>$
+^./.<sent><@X>$
 ¶
 ^Коренной/коренной<adj><m><an><sg><nom>/коренной<adj><m><nn><sg><acc>$
 ^народ/народ<n><m><nn><sg><acc>/народ<n><m><nn><sg><nom>$
@@ -209,7 +209,7 @@
 ^1,5 %/1,5<num><percent>$
 ^населения/население<n><nt><nn><sg><gen><@Num←>$
 ^)/)<rpar>$
-^;/;<sent>$
+^;/.<sent><@X>$
 ^хуту/*хуту$
 ^,/,<cm>$
 ^занимавшие/занимать<vblex><impf><pp><actv><mfn><an><pl><nom>/занимать<vblex><impf><pp><actv><mfn><nn><pl><acc>$
@@ -230,7 +230,7 @@
 ^II/II<num><roman>$ 
 ^тысячелетия/тысячелетие<n><nt><nn><sg><gen>$
 ^н. э./н. э.<abbr>$
-^;/;<sent>$
+^;/.<sent><@X>$
 ^скотоводы/скотовод<n><m><pl><nom>$
 ^тутси/*тутси$
 ^,/,<cm>$
@@ -252,9 +252,9 @@
 ^создав/создать<vblex><perf><pp><adv>$
 ^свое/свой<det><pos><nt><an><sg><acc>/свой<det><pos><nt><an><sg><nom>$
 ^государство/государство<n><nt><nn><sg><acc>/государство<n><nt><nn><sg><nom>$
-^./.<sent>$
+^./.<sent><@X>$
 ¶
-^Тутси/*Тутси$
+^Тутси/тутси<n><m><aa><pl><nom><@SUBJ→>$
 ^составили/составить<vblex><perf><past><mfn><pl><@+FMAINV>$
 ^правящую/правящий<adj><f><an><sg><acc><@→N>$
 ^верхушку/верхушка<n><f><nn><sg><acc><@←OBJ>$
@@ -266,9 +266,9 @@
 ^,/,<cm>$
 ^обладавшую/обладать<vblex><impf><pp><actv><f><an><sg><acc>$
 ^одновременно/одновременно<adv>$
-^аристократической/аристократический<adj><f><an><sg><gen>/аристократический<adj><f><an><sg><dat>/аристократический<adj><f><an><sg><ins>/аристократический<adj><f><an><sg><prp>$
+^аристократической/аристократический<adj><f><an><sg><ins><@→N>$
 ^знатностью/знатность<n><f><sg><ins>$
-^./.<sent>$
+^./.<sent><@X>$
 ¶
 ^На/На<pr><@ADVL→>$
 ^тот/тот<det><dem><m><nn><sg><acc><@→N>$
@@ -289,8 +289,8 @@
 ^импузамугамби/*импузамугамби$
 ^—/—<guio>$
 ^использовали/использовать<vblex><dual><past><mfn><pl><@+FMAINV>$
-^различное/различный<adj><nt><sg><acc>/различный<adj><nt><sg><nom>$
-^оружие/оружие<n><nt><nn><sg><acc>/оружие<n><nt><nn><sg><nom>$
+^различное/различный<adj><nt><an><sg><acc><@→N>$
+^оружие/оружие<n><nt><nn><sg><acc><@←OBJ>$
 ^,/,<cm>$
 ^в/в<pr>$
 ^том/тот<det><dem><nt><an><sg><prp><@→N>$
@@ -302,7 +302,7 @@
 ^раздавали/раздавать<vblex><impf><past><mfn><pl><@+FMAINV>$
 ^солдаты/солдат<n><m><aa><pl><nom><@←SUBJ>$
 ^армии/армия<n><f><nn><sg><gen><@N←>$
-^./.<sent>$
+^./.<sent><@X>$
 ¶
 ^Но/Но<cnjcoo>$
 ^в/в<pr>$
@@ -349,7 +349,7 @@
 ^или/или<cnjcoo><@CVP>$
 ^разбивали/разбивать<vblex><impf><iv><past><pl>/разбивать<vblex><impf><tv><past><pl>$
 ^череп/череп<n><m><nn><sg><acc><@←OBJ>$
-^./.<sent>$
+^./.<sent><@X>$
 ¶
 ^Свидетели/Свидетель<n><m><aa><pl><nom><@SUBJ→>$
 ^рассказывали/рассказывать<vblex><impf><past><mfn><pl><@+FMAINV>$
@@ -375,7 +375,7 @@
 ^не/не<adv>$
 ^зарубили/зарубить<vblex><perf><iv><past><pl>/зарубить<vblex><perf><tv><past><pl>$
 ^мачете/мачете<n><m><pl><acc><inan>/мачете<n><m><pl><dat>/мачете<n><m><pl><gen>/мачете<n><m><pl><ins>/мачете<n><m><pl><nom>/мачете<n><m><pl><prp>/мачете<n><nt><sg><acc>/мачете<n><nt><sg><dat>/мачете<n><nt><sg><gen>/мачете<n><nt><sg><ins>/мачете<n><nt><sg><nom>/мачете<n><nt><sg><prp>$
-^./.<sent>$
+^./.<sent><@X>$
 ¶
 ^В случае/В случае<pr>$
 ^затруднений/затруднение<n><nt><pl><gen>$
@@ -390,7 +390,7 @@
 ^более/более<pr>/более<preadv>$
 ^тяжёлое/тяжелый<adj><nt><sg><acc>/тяжелый<adj><nt><sg><nom>$
 ^оружие/оружие<n><nt><nn><sg><acc>/оружие<n><nt><nn><sg><nom>$
-^:/:<sent>$
+^:/.<sent><@X>$
 ^взрывали/1взрывать<vblex><impf><iv><past><pl>/1взрывать<vblex><impf><tv><past><pl>/2взрывать<vblex><impf><iv><past><pl>/2взрывать<vblex><impf><tv><past><pl>$
 ^запертые/запереть<vblex><perf><pp><pasv><mfn><an><pl><nom>/запереть<vblex><perf><pp><pasv><mfn><nn><pl><acc>$
 ^двери/дверь<n><f><nn><sg><gen>/дверь<n><f><nn><sg><dat>/дверь<n><f><nn><sg><prp>/дверь<n><f><nn><pl><acc>/дверь<n><f><nn><pl><nom>$
@@ -398,7 +398,7 @@
 ^забрасывали/1забрасывать<vblex><impf><iv><past><pl>/1забрасывать<vblex><impf><tv><past><pl>/2забрасывать<vblex><impf><iv><past><pl>/2забрасывать<vblex><impf><tv><past><pl>$
 ^помещения/помещение<n><nt><nn><sg><gen>/помещение<n><nt><nn><pl><acc>/помещение<n><nt><nn><pl><nom>$
 ^гранатами/гранат<n><m><nn><pl><ins>/граната<n><f><nn><pl><ins>$
-^./.<sent>$
+^./.<sent><@X>$
 ¶
 ^Зачастую/зачастую<adv>$
 ^и/и<cnjcoo>$
@@ -420,7 +420,7 @@
 ^были/быть<vbser><past><mfn><pl><@+FMAINV>$
 ^крайне/крайне<adv>/крайний<adj><cmp>/крайний<adj><short><nt><sg>$
 ^жестоки/жестокий<adj><pl><pred>$
-^./.<sent>$
+^./.<sent><@X>$
 ¶
 ^Нападающие/1нападать<vblex><impf><iv><pprs><actv><pl><acc><inan>/1нападать<vblex><impf><iv><pprs><actv><pl><nom>/2нападать<vblex><impf><iv><pprs><actv><pl><acc><inan>/2нападать<vblex><impf><iv><pprs><actv><pl><nom>/нападающий<n><m><pl><nom>$
 ^выжигали/выжигать<vblex><impf><iv><past><pl>/выжигать<vblex><impf><tv><past><pl>$
@@ -432,7 +432,7 @@
 ^спрятаться/спрятаться<vblex><perf><inf><@-FMAINV>$
 ^их/их<det><pos>/они<prn><pers><p3><mfn><pl><gen>/они<prn><pers><p3><mfn><pl><acc>$
 ^жертвы/жертва<n><f><aa><sg><gen>/жертва<n><f><aa><pl><nom>/жертва<n><f><nn><sg><gen>/жертва<n><f><nn><pl><acc>/жертва<n><f><nn><pl><nom>$
-^:/:<sent>$
+^:/.<sent><@X>$
 ^дома/дома<adv>/дом<n><m><nn><sg><gen>/дом<n><m><nn><pl><acc>/дом<n><m><nn><pl><nom>$
 ^с/с<pr>$
 ^труднодоступными/труднодоступный<adj><pl><ins>$
@@ -457,7 +457,7 @@
 ^250/250<num>$
 ^тысяч/тысяча<num><f><nn><pl><gen>$
 ^женщин/женщина<n><f><aa><pl><gen>$
-^./.<sent>$
+^./.<sent><@X>$
 ¶¶
 ^По/По<pr><@ADVL→>$
 ^официальным/официальный<adj><mfn><an><pl><dat><@→N>$
@@ -481,7 +481,7 @@
 ^—/—<guio>$
 ^800/800<num>$
 ^тысяч/тысяча<num><f><nn><pl><gen>$
-^./.<sent>$
+^./.<sent><@X>$
 ¶
 ^В/В<pr>$
 ^целом/целое<n><m><sg><prp>/целый<adj><m><sg><prp>/целый<adj><nt><sg><prp>$
@@ -497,7 +497,7 @@
 ^1030/1030<num>$
 ^тысяч/тысяча<num><f><nn><pl><gen>$
 ^человек/человек<n><m><aa><sg><nom>$
-^./.<sent>$
+^./.<sent><@X>$
 ¶
 ^Мигрировало/мигрировать<vblex><impf><iv><past><nt><sg>/мигрировать<vblex><perf><iv><past><nt><sg>$
 ^несколько/несколько<adv>/несколько<num><mfn><pl><acc>/несколько<num><mfn><pl><nom>$
@@ -516,7 +516,7 @@
 ^спасаясь/спасаться<vblex><impf><iv><pprs><actv><adv>$
 ^от/от<pr>$
 ^гибели/гибель<n><f><nn><sg><gen><@P←>$
-^./.<sent>$
+^./.<sent><@X>$
 ¶
 ^В/В<pr><@ADVL→>$
 ^лагерях/лагерь<n><m><nn><pl><prp><@P←>$
@@ -540,7 +540,7 @@
 ^Для/Для<pr>$
 ^соседних/соседний<adj><pl><acc><anim>/соседний<adj><pl><gen>/соседний<adj><pl><prp>$
 ^с/с<pr>$
-^Руандой/*Руандой$
+^Руандой/Руанда<np><top><f><sg><ins>$
 ^государств/государство<n><nt><nn><pl><gen>$
 ^руандийские/*руандийские$
 ^события/событие<n><nt><nn><sg><gen>/событие<n><nt><nn><pl><acc>/событие<n><nt><nn><pl><nom>$
@@ -555,7 +555,7 @@
 ^число/число<n><nt><nn><sg><acc>/число<n><nt><nn><sg><nom>$
 ^прибывших/прибыть<vblex><perf><pp><actv><mfn><an><pl><gen>/прибыть<vblex><perf><pp><actv><mfn><an><pl><prp>/прибыть<vblex><perf><pp><actv><mfn><aa><pl><acc>$
 ^беженцев/беженец<n><m><pl><acc><anim>/беженец<n><m><pl><gen>$
-^./.<sent>$
+^./.<sent><@X>$
 ¶¶
 ^В/В<pr><@ADVL→>$
 ^ноябре/ноябрь<n><m><nn><sg><prp><@P←>$
@@ -579,7 +579,7 @@
 ^массового/массовый<adj><m><sg><acc><anim>/массовый<adj><m><sg><gen>/массовый<adj><nt><sg><gen>$
 ^уничтожения/уничтожение<n><nt><nn><sg><gen>/уничтожение<n><nt><nn><pl><acc>/уничтожение<n><nt><nn><pl><nom>$
 ^граждан/гражданин<n><m><aa><pl><gen>/гражданин<n><m><aa><pl><acc>$
-^Руанды/*Руанды$
+^Руанды/Руанда<np><top><f><sg><gen>$
 ^весной/весной<adv>/весна<n><f><nn><sg><ins>$
 ^1994/1994<num><@→N>$
 ^года/год<n><m><nn><sg><gen>$
@@ -593,7 +593,7 @@
 ^чиновники/чиновник<n><m><aa><pl><nom><@←SUBJ>$
 ^правящего/правящий<adj><m><an><sg><gen><@→N>$
 ^режима/режим<n><m><nn><sg><gen><@P←>$
-^./.<sent>$
+^./.<sent><@X>$
 ¶¶
 ^18/18<num><@→N>$
 ^декабря/декабрь<n><m><nn><sg><gen><@ADVL→>$
@@ -619,7 +619,7 @@
 ^преступления/преступление<n><nt><nn><sg><gen>/преступление<n><nt><nn><pl><acc>/преступление<n><nt><nn><pl><nom>$
 ^против/против<pr>$
 ^человечества/человечество<n><nt><nn><sg><gen>/человечество<n><nt><nn><pl><acc>/человечество<n><nt><nn><pl><nom>$
-^./.<sent>$
+^./.<sent><@X>$
 ¶
 ^Было/Быть<vbser><past><nt><sg>$
 ^установлено/установить<vblex><perf><tv><pp><pasv><nt><sg><pred>$
@@ -655,7 +655,7 @@
 ^произошедшие/произойти<vblex><perf><pp><actv><mfn><an><pl><nom>/произойти<vblex><perf><pp><actv><mfn><nn><pl><acc>$
 ^затем/затем<adv>$
 ^события/событие<n><nt><nn><sg><gen>/событие<n><nt><nn><pl><acc>/событие<n><nt><nn><pl><nom>$
-^./.<sent>$
+^./.<sent><@X>$
 ¶
 ^Также/Также<adv>$
 ^Багосора/*Багосора$
@@ -666,7 +666,7 @@
 ^«/«<lquot>$
 ^Интерахамве/*Интерахамве$
 ^»/»<rquot>$
-^./.<sent>$
+^./.<sent><@X>$
 ¶¶
 ^17/17<num><@→N>$
 ^мая/май<n><m><nn><sg><gen><@ADVL→>$
@@ -724,4 +724,4 @@
 ^100/100<num>$
 ^смертных/смертный<adj><mfn><an><pl><gen><@→N>$
 ^приговоров/приговор<n><m><nn><pl><gen>$
-^./.<sent>$ 
+^./.<sent><@X>$ 
