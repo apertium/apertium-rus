@@ -5,7 +5,7 @@ AM_INIT_AUTOMAKE([apertium-rus], [0.1.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 
-m4_define([required_apertium_version], [3.2.0])
+m4_define([required_apertium_version], [3.3.0])
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.2 >= required_apertium_version)])
                           
 
@@ -62,5 +62,6 @@ then
   AC_MSG_ERROR([You don't have pkg-config installed.])
 fi
 
+AP_MKINCLUDE
 
 AC_OUTPUT([Makefile apertium-rus.pc])
