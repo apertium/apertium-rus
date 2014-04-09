@@ -9,7 +9,6 @@
 /apertium-rus.post-rus.dix -text
 /apertium-rus.rus.acx -text
 /apertium-rus.rus.dix -text
-/apertium-rus.rus.rlx -text
 /autogen.sh -text
 /configure.ac -text
 dev/MiPListAlpha.csv -text
@@ -19,6 +18,7 @@ dev/apertium-rus.rus.acx -text
 dev/apertium-rus.rus.dix -text
 dev/apertium-rus.rus.dix.new -text
 dev/apertium-rus.rus.dix.withstress -text
+dev/archive/apertium-rus.rus.rlx -text
 dev/deaccent.pl -text
 dev/dump.txt -text
 dev/gci2013/GCI.txt -text
