@@ -5,3 +5,5 @@ dt abr  8 12:48:48 CEST 2014	rwanda.ana.txt	696	36	94.82	1003	1.44	213	30.60	32	
 dt abr  8 13:07:45 CEST 2014	rwanda.ana.txt	696	29	95.83	986	1.41	253	36.35	32	4
 dt abr  8 13:39:12 CEST 2014	rwanda.ana.txt	693	27	96.10	955	1.37	278	40.11	32	5
 dt abr  8 18:11:25 CEST 2014	rwanda.ana.txt	693	27	96.10	943	1.36	285	41.12	32	5
+dc abr  9 00:50:33 CEST 2014	rwanda.ana.txt	694	14	97.98	928	1.33	320	46.10	32	7
+dc abr  9 12:10:29 CEST 2014	rwanda.ana.txt	694	14	97.98	848	1.22	416	59.94	32	12
