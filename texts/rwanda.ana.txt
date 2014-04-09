@@ -1,7 +1,7 @@
-^20/20<num>$
+^20/20<num><@→Adv>$
 ^лет/год<n><m><nn><pl><gen><@Num←>$
 ^тому/тот<prn><dem><m><an><sg><dat>/тот<prn><dem><nt><an><sg><dat>$
-^назад/назад<adv>$
+^назад/назад<adv><@ADVL→>$
 ^начался/начаться<vblex><perf><past><m><sg><@+FMAINV>$
 ^геноцид/геноцид<n><m><nn><sg><nom><@←SUBJ>$
 ^в/в<pr><@←ADVL>$
@@ -134,7 +134,7 @@
 ^,/,<cm>$
 ^военизированными/военизированный<adj><mfn><an><pl><ins><@→N>$
 ^формированиями/формирование<n><nt><nn><pl><ins><@←ADVL>$
-^тутси/тутси<n><mf><sp><gen><@N←>$
+^тутси/тутси<n><mf><aa><sp><gen><@N←>$
 ^./.<sent><@X>$
 ¶¶
 ^Скорость/скорость<n><f><nn><sg><nom><@SUBJ→>$
@@ -208,7 +208,7 @@
 ^населения/население<n><nt><nn><sg><gen><@Num←>$
 ^)/)<rpar>$
 ^;/;<sent><@X>$
-^хуту/хуту<n><mf><pl><@SUBJ→>$
+^хуту/хуту<n><mf><aa><pl><@SUBJ→>$
 ^,/,<cm>$
 ^занимавшие/занимать<vblex><impf><pp><actv><mfn><an><pl><nom><@N←>$
 ^более/более<preadv><@→A>$
@@ -230,7 +230,7 @@
 ^н. э./н. э.<abbr>$
 ^;/;<sent><@X>$
 ^скотоводы/скотовод<n><m><pl><nom><@SUBJ→>$
-^тутси/тутси<n><mf><pl><@APP-N←>$
+^тутси/тутси<n><mf><aa><pl><@APP-N←>$
 ^,/,<cm>$
 ^пришедшие/прийти<vblex><perf><pp><actv><mfn><an><pl><nom><@N←>$
 ^с/с<pr><@←ADVL>$
@@ -243,9 +243,9 @@
 ^свою/свой<det><pos><f><an><sg><acc><@→N>$
 ^власть/власть<n><f><nn><sg><acc><@←OBJ>$
 ^на/на<pr><@←ADVL>$
-^хуту/хуту<n><mf><sp><acc><@P←>$
+^хуту/хуту<n><mf><aa><sp><acc><@P←>$
 ^и/и<cnjcoo><@CNP>$
-^тва/тва<n><mf><sp><acc><@P←>$
+^тва/тва<n><mf><aa><sp><acc><@P←>$
 ^,/,<cm>$
 ^создав/создать<vblex><perf><pp><adv><@←ADVL>$
 ^свое/свой<det><pos><nt><an><sg><acc><@→N>$
@@ -352,14 +352,14 @@
 ^Свидетели/Свидетель<n><m><aa><pl><nom><@SUBJ→>$
 ^рассказывали/рассказывать<vblex><impf><past><mfn><pl><@+FMAINV>$
 ^,/,<cm>$
-^что/что<cnjsub>$
+^что/что<cnjsub><@CVP>$
 ^часто/часто<adv><@ADVL>$
 ^жертвы/жертва<n><f><nn><pl><nom><@SUBJ→>$
-^просили/просить<vblex><impf><past><mfn><pl><@+FMAINV>$
+^просили/просить<vblex><impf><past><mfn><pl><@FS-ADVL>$
 ^своих/свой<det><pos><mfn><aa><pl><acc><@→N>$
 ^палачей/палач<n><m><aa><pl><acc><@←OBJ>$
 ^и/и<cnjcoo><@CVP>$
-^предлагали/предлагать<vblex><impf><past><mfn><pl><@+FMAINV>$
+^предлагали/предлагать<vblex><impf><past><mfn><pl><@FS-ADVL>$
 ^им/они<prn><pers><p3><mfn><pl><dat><@←ADVL>$
 ^деньги/деньги<n><f><nn><pl><acc><@←OBJ>$
 ^за/за<pr><@←ADVL>$
@@ -389,11 +389,11 @@
 ^тяжёлое/тяжелый<adj><nt><sg><acc><@→N>$
 ^оружие/оружие<n><nt><nn><sg><acc><@←OBJ>$
 ^:/:<sent><@X>$
-^взрывали/взрывать¹<vblex><impf><tv><past><mfn><pl>/взрывать²<vblex><impf><tv><past><mfn><pl>$
+^взрывали/взрывать¹<vblex><impf><tv><past><mfn><pl><@+FMAINV>$
 ^запертые/запереть<vblex><perf><pp><pasv><mfn><nn><pl><acc><@→N>$
 ^двери/дверь<n><f><nn><pl><acc><@←OBJ>$
 ^,/,<cm><@CVP>$
-^забрасывали/забрасывать¹<vblex><impf><tv><past><mfn><pl>/забрасывать²<vblex><impf><tv><past><mfn><pl>$
+^забрасывали/забрасывать¹<vblex><impf><tv><past><mfn><pl><@+FMAINV>$
 ^помещения/помещение<n><nt><nn><pl><acc><@←OBJ>$
 ^гранатами/граната<n><f><nn><pl><ins><@←ADVL>$
 ^./.<sent><@X>$
