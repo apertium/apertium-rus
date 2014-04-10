@@ -31,6 +31,8 @@ dev/text1.verbs -text
 dev/verbs-z.txt -text
 /modes.xml -text
 /rus.prob -text
+texts/cyprus.ana.txt -text
+texts/cyprus.log.txt -text
 texts/murmansk.ana.txt -text
 texts/murmansk.log.txt -text
 texts/murmansk.raw.txt -text svneol=unset#application/octet-stream
