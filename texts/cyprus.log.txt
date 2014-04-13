@@ -5,3 +5,5 @@ dj abr 10 01:38:34 CEST 2014	cyprus.ana.txt	612	11	98.20	1043	1.70	0	0	31	0
 dj abr 10 01:46:59 CEST 2014	cyprus.ana.txt	612	11	98.20	1036	1.69	8	1.30	31	0
 dj abr 10 02:09:01 CEST 2014	cyprus.ana.txt	612	8	98.69	984	1.60	8	1.30	31	0
 dj abr 10 11:50:38 CEST 2014	cyprus.ana.txt	612	3	99.50	986	1.61	8	1.30	31	0
+dt abr 13 03:12:49 CEST 2014	cyprus.ana.txt	613	3	99.51	986	1.60	10	1.63	31	0
+dt abr 13 03:35:18 CEST 2014	cyprus.ana.txt	613	3	99.51	980	1.59	10	1.63	31	0

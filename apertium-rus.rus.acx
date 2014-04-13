@@ -8,4 +8,10 @@
   <char value="&#183;">
     <equiv-char value="."/>
   </char>
+  <char value="ё">
+    <equiv-char value="е"/>
+  </char>
+  <char value="Ё">
+    <equiv-char value="Е"/>
+  </char>
 </analysis-chars>
