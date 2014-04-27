@@ -165,7 +165,7 @@
 ^,/,<cm><@Cm>$
 ^появились/появиться<vblex><perf><past><mfn><pl><@+FMAINV>$
 ^здесь/здесь<adv><@←ADVL>$
-^в/в<pr><@←ADVL>
+^в/в<pr><@←ADVL>$
 ^начале/начало<n><nt><nn><sg><prp><@P←>$
 ^II/II<num><roman><@→N>$
 ^тысячелетия/тысячелетие<n><nt><nn><sg><gen><@N←>$
@@ -416,7 +416,7 @@
 ^,/,<cm><@Cm>$
 ^по/по<pr><@ADVL→>$
 ^другим/другой<det><ind><mfn><pl><dat><@→N>$
-^данным/данные<n><mfn><nn><pl><dat><@P←>
+^данным/данные<n><mfn><nn><pl><dat><@P←>$
 ^,/,<cm><@Cm>$
 ^принятым/принять<vblex><perf><pp><pasv><mfn><an><pl><dat><@N←>$
 ^ООН/ООН<np><org><f><sg><ins>/ООН<np><org><f><sg><nom>$
@@ -504,7 +504,7 @@
 ^1994/1994<num><@N→>$
 ^года/год<n><m><nn><sg><gen><@N←>$
 ^в/в<pr><@ADVL→>$
-^Танзании/Танзания<np><top><f><sg><prp><@P←>
+^Танзании/Танзания<np><top><f><sg><prp><@P←>$
 ^начал/начать<vblex><perf><past><m><sg><@+FMAINV>$
 ^работу/работа<n><f><nn><sg><acc><@←OBJ>$
 ^Международный/Международный<adj><m><an><sg><nom><@→N>$
