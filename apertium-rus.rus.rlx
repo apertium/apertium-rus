@@ -1,0 +1,116 @@
+DELIMITERS = "<.>" "<..>" "<...>" "<!>" "<?>" "<¶>" ; 
+SOFT-DELIMITERS = "<,>" ;
+
+LIST BOS = (>>>) ; 
+LIST EOS = (<<<) ; 
+
+LIST N = n ; 
+LIST Pr = pr ; 
+LIST Pron = prn ;
+LIST Det = det ; 
+LIST Num = num ; 
+LIST A = adj ; 
+LIST Adv = adv ; 
+
+LIST Roman = roman ; 
+LIST Pprep = pprep ; 
+
+LIST Nom = nom ; 
+LIST Gen = gen ; 
+LIST Dat = dat ;
+LIST Acc = acc ;
+LIST Ins = ins ; 
+LIST Prp = prp ; 
+
+LIST Loc = loc ; 
+LIST Par = par ; 
+
+LIST Anim = aa an ; 
+LIST Inanim = nn an ; 
+
+LIST Inf = inf ; 
+
+LIST Pr/V = ("в" pr) ;
+LIST Pr/Na = ("на" pr) ;
+LIST Pr/Za = ("за" pr) ;
+LIST Pr/Po = ("по" pr) ;
+LIST Pr/S = ("с" pr) ;
+LIST Pr/Dlja = ("для" pr) ; 
+LIST Pr/Ot = ("от" pr) ;
+LIST Pr/Iz = ("из" pr) ;
+LIST Pr/Meždu = ("между" pr) ;
+LIST Pr/Iz-za = ("из-за" pr) ;
+LIST Pr/K = ("к" pr) ;
+LIST Pr/Protiv = ("против" pr) ;
+LIST Pr/Krome = ("кроме" pr) ;
+LIST Pr/O = ("о" pr) ;
+
+LIST I = "и" ;
+LIST No = "но" ; 
+LIST Samyj = "самый" ; 
+
+LIST Month = "январь" "февраль" "апрель" "май" "июнь" "июль" "сентябрь" "октябрь" "ноябрь" "декябрь" ; 
+LIST Year = "год" "год¹" ("г." abbr) ;
+LIST Century = "век" ; 
+
+SET NGDAIP = Nom | Gen | Dat | Acc | Ins | Prp ; 
+
+SECTION 
+
+## Non-sentences 
+
+SELECT Nom IF (-1 BOS) (0C N) (1 EOS) ; 
+
+## Safe operations at sentence boundaries
+
+REMOVE Prp IF (-1 BOS) ;
+
+REMOVE Pr IF (1 EOS) ;
+
+REMOVE Det IF (1 EOS) ;
+
+## Safe lexicalised operations
+
+SELECT Adv IF (0 I) (-1 No) ; 
+
+SELECT A + $$NGDAIP IF (-1C Samyj + $$NGDAIP) ;
+
+## Safe operations after prepositions
+
+REMOVE Nom IF (-1C Pr) ;
+
+REMOVE NGDAIP - Gen IF (-1C* Pr/Dlja OR Pr/Ot OR Pr/Iz OR Pr/Iz-za OR Pr/Krome OR Pr/Protiv CBARRIER (*) - Adv) ;
+
+REMOVE NGDAIP - Gen - Ins IF (-1C* Pr/S CBARRIER (*) - Adv) ;
+
+REMOVE NGDAIP - Acc - Prp IF (-1C* Pr/V OR Pr/Na CBARRIER (*) - Adv) ;
+
+REMOVE NGDAIP - Acc - Dat - Prp IF (-1C* Pr/Po CBARRIER (*) - Adv) ;
+
+REMOVE NGDAIP - Acc - Ins IF (-1C* Pr/Za CBARRIER (*) - Adv) ;
+
+REMOVE NGDAIP - Gen - Ins IF (-1C* Pr/Meždu CBARRIER (*) - Adv) ; 
+
+REMOVE NGDAIP - Dat IF (-1C* Pr/K CBARRIER (*) - Adv) ;
+
+REMOVE NGDAIP - Prp IF (-1C* Pr/O CBARRIER (*) - Adv) ;
+
+SELECT A + $$NGDAIP IF (-1C A + $$NGDAIP LINK -1C* Pr BARRIER (*) - A - Adv - Det) ; 
+
+REMOVE Pron IF (0C Pron OR Det) (NOT 0 Pprep) (-1C Pr); 
+
+## Safe operations with dates 
+
+SELECT Gen IF (0 Year) (-1 Num LINK -1 Month LINK -1 Pr/V) ;
+
+SELECT Gen IF (0 Year) (-1 Num LINK -1 Month + Gen LINK -1 Num) ; 
+
+SELECT Dat IF (0 Year) (-1 Num LINK -1 Pr/K) ;
+
+REMOVE NGDAIP - Gen - Loc IF (0 Year) (-1 Num LINK -1 Pr/V) ;
+
+# Safe operations with prepositional case
+
+REMOVE Prp IF (-1C Inf) ; 
+
+
