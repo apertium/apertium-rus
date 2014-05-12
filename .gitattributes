@@ -13,6 +13,7 @@
 /autogen.sh -text
 /configure.ac -text
 dev/MiPListAlpha.csv -text
+dev/MiPListAlpha_rus.csv -text
 dev/adjectives_zaliznjak.txt -text
 dev/apertium-rus.post-rus.dix -text
 dev/apertium-rus.rus.acx -text
