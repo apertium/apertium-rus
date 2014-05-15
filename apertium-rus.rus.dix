@@ -97,7 +97,7 @@
  
 <!-- PARDEFS SECTION BEGINS HERE -->
 
-    <!-- SECTION: Punctuation -->  
+    <!-- PARDEFS: Punctuation -->  
 
     <pardef n="numeros">
       <e><p><l>№</l><r>№</r></p><re>[0-9]+</re><p><l></l><r><s n="num"/></r></p></e>
@@ -140,7 +140,7 @@
       <e><re>[\)\]]</re><p><l></l><r><s n="rpar"/></r></p></e>
     </pardef>
        
-    <!-- SECTION: Base paradigms -->   
+    <!-- PARDEFS: Base paradigms -->   
 
     <pardef n="S__pprep">
       <e><p><l>него</l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -226,16 +226,7 @@
       <e><p><l>ом</l><r><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>е</l><r><s n="m"/><s n="sg"/><s n="prp"/></r></p></e>
     </pardef>
-  
-    <pardef n="Ла-Манш__np_hyd_m">
-      <e><p><l></l><r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>а</l><r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>у</l><r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l></l><r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>ем</l><r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>е</l><r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="prp"/></r></p></e>
-    </pardef>
- 
+   
     <pardef n="BASE__котор/ый">
       <e><p><l>ый</l><r><s n="m"/><s n="an"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ого</l><r><s n="m"/><s n="an"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -423,7 +414,7 @@
       <e><p><l>их</l><r><s n="mfn"/><s n="an"/><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
        
-    <!-- SECTION: Particles -->  
+    <!--PARDEFS: Particles -->  
 
     <pardef n="ли__part">
       <e><p><l></l><r><s n="part"/></r></p></e>
@@ -441,7 +432,7 @@
       <e r="RL"><p><l><a/>же</l><r>же<s n="part"/></r></p></e>
     </pardef>
       
-    <!-- SECTION: Conjunctions -->
+    <!-- PARDEFS: Conjunctions -->
   
     <pardef n="а__cnjcoo">
       <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
@@ -455,7 +446,7 @@
       <e><p><l></l><r><s n="cnjadv"/></r></p></e>
     </pardef>
       
-    <!-- SECTION: Prepositions --> 
+    <!-- PARDEFS: Prepositions --> 
 
     <pardef n="/с__pr">
       <e r="LR"><p><l>с</l><r>с<s n="pr"/></r></p></e>
@@ -545,7 +536,7 @@
       <e><p><l><b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
     </pardef>
       
-    <!-- SECTION: Pronouns -->  
+    <!-- PARDEFS: Pronouns -->  
 
     <pardef n="/prpers__prn">
       <e><p><l>я</l><r>я<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -907,7 +898,7 @@
       <e><p><l></l><r>ый<s n="prn"/><s n="ind"/></r></p><par n="BASE__котор/ый"/></e>
     </pardef>
       
-    <!-- SECTION: Determiners -->  
+    <!-- PARDEFS: Determiners -->  
 
     <pardef n="как/ой__det_itg">
       <e><p><l></l><r>ой<s n="det"/><s n="itg"/></r></p><par n="BASE__как/ой"/></e>
@@ -1360,7 +1351,7 @@
       <e><p><l>их</l><r>о<s n="det"/><s n="qnt"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
  
-    <!-- SECTION: Numerals -->  
+    <!-- PARDEFS: Numerals -->  
 
     <pardef n="од/ин__num">
       <e><p><l>ин</l><r>ин<s n="num"/><s n="m"/><s n="an"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -1648,7 +1639,7 @@
       <e><p><l>их</l><r>о<s n="num"/><s n="mfn"/><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
       
-    <!-- SECTION: Nouns -->  
+    <!-- PARDEFS: Nouns -->  
 
     <pardef n="/год__n_m_nn">
       <e><p><l>год</l><r>год<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -8265,7 +8256,7 @@
       <e><p><l>рах</l><r>ро<s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
        
-    <!-- SECTION: Proper nouns -->  
+    <!-- PARDEFS: Proper nouns -->  
 
     <pardef n="Ази/я__np">
       <e><p><l></l><r>я<s n="np"/><s n="top"/></r></p><par n="BASE__Ази/я"/></e>
@@ -8731,9 +8722,18 @@
       <e><p><l></l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
       <e><p><l></l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="pl"/><s n="prp"/></r></p></e>
  
+    <pardef n="Ла-Манш__np_hyd_m">
+      <e><p><l></l><r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>а</l><r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>у</l><r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ем</l><r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>е</l><r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="prp"/></r></p></e>
+    </pardef>
+
     </pardef>
       
-    <!-- SECTION: Adjectives -->  
+    <!-- PARDEFS: Adjectives -->  
  
     <pardef n="франко__adj">
       <e><p><l></l><r><s n="adj"/><s n="cmp"/></r></p></e>
@@ -10448,7 +10448,7 @@
           <e><p>          <l>ко</l><r>кий<s n="adj"/><s n="sint"/><s n="cmp"/></r></p></e>
     </pardef>
         
-    <!-- SECTION: Predicatives -->  
+    <!-- PARDEFS: Predicatives -->  
     <pardef n="можно__pred">
       <e><p><l></l><r><s n="pred"/></r></p></e>
     </pardef>
@@ -10460,7 +10460,7 @@
       <e><p><l>ны</l><r>ен<s n="pred"/><s n="mfn"/><s n="pl"/></r></p></e>
     </pardef>
       
-    <!-- SECTION: Adverbs -->  
+    <!-- PARDEFS: Adverbs -->  
     <pardef n="где__adv_itg">
       <e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
       <e><p><l></l><r><s n="adv"/><s n="rel"/></r></p></e>
@@ -10474,7 +10474,7 @@
       <e><p><l></l><r><s n="preadv"/></r></p></e>
     </pardef>
       
-    <!-- SECTION: Verbs -->  
+    <!-- PARDEFS: Verbs -->  
     <pardef n="BASE__ска/зал">
       <e><p><l></l><r><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>а</l><r><s n="f"/><s n="sg"/></r></p></e>
@@ -17485,12 +17485,14 @@
       <e><p><l>еют</l><r>еть<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
       
-    <!-- SECTION: Interjections -->  
+    <!-- PARDEFS: Interjections -->  
+
     <pardef n="да__ij">
       <e><p><l></l><r><s n="ij"/></r></p></e>
     </pardef>
       
-    <!-- SECTION: Abbreviations -->  
+    <!-- PARDEFS: Abbreviations -->  
+
     <pardef n="км__abbr">
       <e><p><l></l><r><s n="abbr"/></r></p></e>
     </pardef>
@@ -27870,6 +27872,7 @@
     <!-- SECTION: Punctuation -->
 
   </section>
+
   <section id="gci" type="standard">
 
 <e lm="аграрий"><i>аграри</i><par n="гени/й__n_m_aa"/></e>
@@ -29737,6 +29740,7 @@
 
 
   </section>
+
   <section id="multiwords" type="standard">
 
     <e><p><l>сберегательный<b/>банк</l><r>сберегательный<b/>банк<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
