@@ -1,0 +1,21 @@
+* previous-state.txt.gz
+	Result of the "lt-expand apertium-rus.rus.dix" command with the second
+	to last revision of apertium-rus.
+
+* current-state.txt.gz
+	Result of the "lt-expand apertium-rus.rus.dix" command with the last
+	revision of apertium-rus.
+
+------
+
+Basic workflow is like the following (IS talking to himself):
+	1) mv expanded/current-state.txt.gz expanded/previous-state.txt.gz,
+	2) fix what needs to be fixed (or added) in apertium-rus.rus.dix,
+	3) compile,
+	4) run ./qa.sh rus to see what consequences in the transducer your
+	   changes had,
+	5) if you are content with them, commit,
+	
+	repeat the cycle
+
+'./qa.sh rus' in apertium-rus/ gives a diff of "previous" and "current" states.

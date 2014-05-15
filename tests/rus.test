@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Expands apertium-rus.rus.dix and compares it to the expansion of the previous
+# state of the dictionary (before you made changes).
+# Both 'previous' and 'current' files are stored in ../expanded directory
+# sorted and compressed.
+
+lt-expand apertium-rus.rus.dix | sort | gzip -c > expanded/current-state.txt.gz &&
+
+diff -U0 <(zcat expanded/previous-state.txt.gz) <(zcat expanded/current-state.txt.gz) |
+dwdiff --diff-input | more
+
