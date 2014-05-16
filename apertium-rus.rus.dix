@@ -8721,7 +8721,8 @@
       <e><p><l></l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
       <e><p><l></l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
       <e><p><l></l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="pl"/><s n="prp"/></r></p></e>
- 
+    </pardef>
+
     <pardef n="Ла-Манш__np_hyd_m">
       <e><p><l></l><r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>а</l><r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -8731,7 +8732,6 @@
       <e><p><l>е</l><r><s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/><s n="prp"/></r></p></e>
     </pardef>
 
-    </pardef>
       
     <!-- PARDEFS: Adjectives -->  
  
