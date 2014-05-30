@@ -9824,34 +9824,36 @@
       <e><p>          <l>ны</l><r>ный<s n="adj"/><s n="sint"/><s n="short"/><s n="mfn"/><s n="pl"/></r></p></e>
           <e><p>          <l>но</l><r>ный<s n="adj"/><s n="sint"/><s n="cmp"/></r></p></e>
     </pardef>
+
     <pardef n="текущ/ий__adj">
-      <e><p>          <l>его</l><r>ий<s n="adj"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p>          <l>ий</l><r>ий<s n="adj"/><s n="m"/><s n="an"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p>          <l>его</l><r>ий<s n="adj"/><s n="m"/><s n="an"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p>          <l>ему</l><r>ий<s n="adj"/><s n="m"/><s n="an"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p>          <l>его</l><r>ий<s n="adj"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p>          <l>ий</l><r>ий<s n="adj"/><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p>          <l>им</l><r>ий<s n="adj"/><s n="m"/><s n="an"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p>          <l>ем</l><r>ий<s n="adj"/><s n="m"/><s n="an"/><s n="sg"/><s n="prp"/></r></p></e>
-      <e><p>          <l>ий</l><r>ий<s n="adj"/><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p>          <l>ая</l><r>ий<s n="adj"/><s n="f"/><s n="an"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p>          <l>ую</l><r>ий<s n="adj"/><s n="f"/><s n="an"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p>          <l>ей</l><r>ий<s n="adj"/><s n="f"/><s n="an"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p>          <l>ей</l><r>ий<s n="adj"/><s n="f"/><s n="an"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p>          <l>ую</l><r>ий<s n="adj"/><s n="f"/><s n="an"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p>          <l>ей</l><r>ий<s n="adj"/><s n="f"/><s n="an"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p>          <l>ей</l><r>ий<s n="adj"/><s n="f"/><s n="an"/><s n="sg"/><s n="prp"/></r></p></e>
       <e><p>          <l>ее</l><r>ий<s n="adj"/><s n="nt"/><s n="an"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p>          <l>ее</l><r>ий<s n="adj"/><s n="nt"/><s n="an"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p>          <l>его</l><r>ий<s n="adj"/><s n="nt"/><s n="an"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p>          <l>ему</l><r>ий<s n="adj"/><s n="nt"/><s n="an"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p>          <l>ее</l><r>ий<s n="adj"/><s n="nt"/><s n="an"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p>          <l>им</l><r>ий<s n="adj"/><s n="nt"/><s n="an"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p>          <l>ем</l><r>ий<s n="adj"/><s n="nt"/><s n="an"/><s n="sg"/><s n="prp"/></r></p></e>
-      <e><p>          <l>их</l><r>ий<s n="adj"/><s n="mfn"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p>          <l>ие</l><r>ий<s n="adj"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p>          <l>их</l><r>ий<s n="adj"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="gen"/></r></p></e>
       <e><p>          <l>им</l><r>ий<s n="adj"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p>          <l>их</l><r>ий<s n="adj"/><s n="mfn"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p>          <l>ие</l><r>ий<s n="adj"/><s n="mfn"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p>          <l>ими</l><r>ий<s n="adj"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="ins"/></r></p></e>
       <e><p>          <l>их</l><r>ий<s n="adj"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="prp"/></r></p></e>
-      <e><p>          <l>ие</l><r>ий<s n="adj"/><s n="mfn"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
     </pardef>
+
     <pardef n="поко/йный__adj">
       <e><p>          <l>йного</l><r>йный<s n="adj"/><s n="sint"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p>          <l>йный</l><r>йный<s n="adj"/><s n="sint"/><s n="m"/><s n="an"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -25514,7 +25516,7 @@
     <e lm="холодный"><i>холод</i><par n="яв/ный__adj"/></e>
     <e lm="холуйский"><i>холуйск</i><par n="английск/ий__adj"/></e>
     <e lm="хорватский"><i>хорватск</i><par n="английск/ий__adj"/></e>
-    <e lm="хороший" a="slasher"><i>хорош</i><par n="английск/ий__adj"/></e>
+    <e lm="хороший" a="slasher"><i>хорош</i><par n="текущ/ий__adj"/></e>
     <e lm="христианский"><i>христианск</i><par n="английск/ий__adj"/></e>
     <e lm="хронический"><i>хроническ</i><par n="английск/ий__adj"/></e>
     <e lm="художественный"><i>художествен</i><par n="священ/ный__adj"/></e>
