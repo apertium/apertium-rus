@@ -4,6 +4,9 @@ Entries below look like duplicated. Main issue are:
 
 A most likely correct ananlysis of them can be found in tat-rus.dix.
 
+Nouns
+=====
+
 признак<n><m><aa><sg><nom>/признак<n><m><nn><sg><nom>$
 лук<n><m><aa><sg><nom>/лук<n><m><nn><sg><nom>$
 существо<n><nt><aa><sg><nom>/существо<n><nt><nn><sg><nom>$
@@ -81,3 +84,9 @@ A most likely correct ananlysis of them can be found in tat-rus.dix.
 отдых<n><m><aa><sg><nom>/отдых<n><m><nn><sg><nom>$
 сирота<n><m><aa><sg><nom>/сирота<n><f><aa><sg><nom>$
 ящик<n><m><aa><sg><nom>/ящик<n><m><nn><sg><nom>$
+
+Adjectives
+==========
+
+караңгы:темный<adj><m><an><sg><nom>/тёмный<adj><m><an><sg><nom>
+федераль:федеральный<adj><m><an><sg><nom>/федеральный<adj><sint><m><an><sg><nom>
