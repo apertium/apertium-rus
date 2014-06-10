@@ -90,3 +90,14 @@ Adjectives
 
 караңгы:темный<adj><m><an><sg><nom>/тёмный<adj><m><an><sg><nom>
 федераль:федеральный<adj><m><an><sg><nom>/федеральный<adj><sint><m><an><sg><nom>
+
+Verbs
+=====
+
+булып чык<v><iv><inf>:выходить<vblex><impf><inf>/выходить<vblex><perf><inf>
+җит<v><iv><inf>:доходить<vblex><impf><inf>/доходить<vblex><perf><inf>
+куш<v><tv><inf>:велеть<vblex><impf><inf>/велеть<vblex><perf><inf>
+оештыр<v><tv><inf>:организовать<vblex><impf><inf>/организовать<vblex><perf><inf>/организовать<vblex><dual><inf>
+тап<v><tv><inf>:находить<vblex><impf><inf>/находить<vblex><perf><inf>
+ту<v><iv><inf>:родиться<vblex><impf><inf>/родиться<vblex><perf><inf>
+яхшырт<v><tv><inf>:улучшить<vblex><impf><inf>/улучшить<vblex><perf><inf>
