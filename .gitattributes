@@ -39,7 +39,7 @@ expanded/previous-state.txt.gz -text svneol=unset#unset
 /modes.xml -text
 /qa.sh -text
 /rus.prob -text
-tests/rus.test -text
+test-scripts/rus.test -text
 texts/cyprus.ana.txt -text
 texts/cyprus.log.txt -text
 texts/murmansk.ana.txt -text

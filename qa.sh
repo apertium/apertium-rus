@@ -12,4 +12,4 @@ else
     testToRun=$1.test
 fi
 
-bash "tests/$testToRun" "$2"
+bash "test-scripts/$testToRun" "$2"
