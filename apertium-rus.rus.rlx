@@ -14,6 +14,7 @@ LIST Adv = adv ;
 LIST CS = cnjsub ; 
 LIST CC = cnjcoo ; 
 LIST V = vblex vbser vbmod ; 
+LIST Guio = guio ; 
 
 LIST Percent = ("<[0-9]+%>"r) percent ; 
 LIST Roman = roman ; 
@@ -21,6 +22,7 @@ LIST Pprep = pprep ;
 LIST Pers = pers ;
 
 LIST Short = short ; # pred
+LIST Cmp = cmp ; 
 
 LIST TV = tv ; 
 LIST IV = iv ; 
@@ -200,6 +202,8 @@ REMOVE Acc IF (-1 BOS) (0C Nom OR Acc) (NOT 1* TV) ;
 
 SELECT N + $$NGDAIP IF (0 A OR N) (-1C A + $$NGDAIP LINK -1* Pr CBARRIER (*) - $$NGDAIP) (1C N) (NOT 1C N + $$NGDAIP) ; 
   # По официальным данным правительства Руанды, число погибших составило 937 тысяч человек.
+
+SELECT Cmp IF (0 Cmp OR Adv) (1 Guio LINK 1 A LINK 1 N) ; 
 
 ###############################################################################
 
