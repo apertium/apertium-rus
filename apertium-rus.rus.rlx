@@ -11,9 +11,16 @@ LIST Det = det ;
 LIST Num = num ; 
 LIST A = adj ; 
 LIST Adv = adv ; 
+LIST CS = cnjsub ; 
+LIST V = vblex vbser vbmod ; 
 
 LIST Roman = roman ; 
 LIST Pprep = pprep ; 
+LIST Pers = pers ;
+
+LIST Masc = m ; 
+LIST Fem = f ; 
+LIST Neut = nt ; 
 
 LIST Nom = nom ; 
 LIST Gen = gen ; 
@@ -30,6 +37,8 @@ LIST Inanim = nn an ;
 
 LIST Inf = inf ; 
 
+LIST Fin = past pres fut ; 
+
 LIST Pr/V = ("в" pr) ;
 LIST Pr/Na = ("на" pr) ;
 LIST Pr/Za = ("за" pr) ;
@@ -45,13 +54,19 @@ LIST Pr/Protiv = ("против" pr) ;
 LIST Pr/Krome = ("кроме" pr) ;
 LIST Pr/O = ("о" pr) ;
 
+LIST Cm = cm ; 
+
 LIST I = "и" ;
 LIST No = "но" ; 
 LIST Samyj = "самый" ; 
+LIST Posle = "после" ;
+LIST Čto = "что" ;
 
 LIST Month = "январь" "февраль" "апрель" "май" "июнь" "июль" "сентябрь" "октябрь" "ноябрь" "декябрь" ; 
 LIST Year = "год" "год¹" ("г." abbr) ;
 LIST Century = "век" ; 
+
+SET MascFemNeut = Masc | Fem | Neut ; 
 
 SET NGDAIP = Nom | Gen | Dat | Acc | Ins | Prp ; 
 
@@ -75,6 +90,18 @@ SELECT Adv IF (0 I) (-1 No) ;
 
 SELECT A + $$NGDAIP IF (-1C Samyj + $$NGDAIP) ;
 
+## Safe operations around punctuation
+
+REMOVE Pr IF (1C Cm) ;
+
+SELECT Posle IF (-1C Cm) ;
+
+## Safe operations with preposition/adverb ambiguities
+
+REMOVE Pr IF (0C Pr OR Adv) (1C Nom) ;
+
+REMOVE Pr IF (1C Fin) ; 
+
 ## Safe operations after prepositions
 
 REMOVE Nom IF (-1C Pr) ;
@@ -97,7 +124,8 @@ REMOVE NGDAIP - Prp IF (-1C* Pr/O CBARRIER (*) - Adv) ;
 
 SELECT A + $$NGDAIP IF (-1C A + $$NGDAIP LINK -1C* Pr BARRIER (*) - A - Adv - Det) ; 
 
-REMOVE Pron IF (0C Pron OR Det) (NOT 0 Pprep) (-1C Pr); 
+REMOVE Pers IF (0C Pers OR Det) (NOT 0 Pprep) (-1C Pr) ;
+  # Так что для меня вся моя университетская наука как бы для того только и существовала под конец, чтобы ...
 
 ## Safe operations with dates 
 
@@ -109,8 +137,23 @@ SELECT Dat IF (0 Year) (-1 Num LINK -1 Pr/K) ;
 
 REMOVE NGDAIP - Gen - Loc IF (0 Year) (-1 Num LINK -1 Pr/V) ;
 
-# Safe operations with prepositional case
+## Safe operations with prepositional case
 
-REMOVE Prp IF (-1C Inf) ; 
+REMOVE Prp IF (-1C Inf)  ; 
+
+REMOVE Prp IF (NOT -1* Pr)  ; 
+
+REMOVE Prp IF (-1C N) ; 
+
+## Heuristic operations 
+
+SELECT CS IF (0 Čto) (-1 Cm) (NOT 1* ("?")) ;
+
+REMOVE Fem IF (-1 BOS) (0C A) (0C Masc OR Fem) (1C N) (NOT 1 Fem);
+
+###############################################################################
+
+# над/надо
+# после/посол
 
 

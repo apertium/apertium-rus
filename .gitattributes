@@ -39,6 +39,7 @@ expanded/previous-state.txt.gz -text svneol=unset#unset
 /modes.xml -text
 /qa.sh -text
 /rus.prob -text
+scripts/evaluate-tagger.py -text
 test-scripts/rus.test -text
 texts/cyprus.ana.txt -text
 texts/cyprus.log.txt -text

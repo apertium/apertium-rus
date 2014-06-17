@@ -1,1 +1,3 @@
 dt mai 20 02:02:23 CEST 2014	son-smešnogo-čeloveka.ana.txt	8808	715	91.88	13672	1.55	0	0	354	0
+dv mai 23 11:18:53 CEST 2014	son-smešnogo-čeloveka.ana.txt	8808	38	99.56	14363	1.63	0	0	354	0
+dt jun 17 13:25:40 CEST 2014	son-smešnogo-čeloveka.ana.txt	8818	38	99.56	14349	1.62	32	.36	366	2
