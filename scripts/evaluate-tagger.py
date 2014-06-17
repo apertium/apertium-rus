@@ -3,9 +3,11 @@ import sys;
 skipUnknown = True;
 testFunc = False;
 
-# ^власти/власть<n><f><nn><sg><dat><@P←>$	^власти/власть<n><f><nn><sg><gen>/власть<n><f><nn><sg><dat>/власть<n><f><nn><sg><prp>/власть<n><f><nn><pl><acc>/власть<n><f><nn><pl><nom>$	^власти/власть<n><f><nn><sg><dat>$
+# src: ^власти/власть<n><f><nn><sg><gen>/власть<n><f><nn><sg><dat>/власть<n><f><nn><sg><prp>/власть<n><f><nn><pl><acc>/власть<n><f><nn><pl><nom>$
+# ref: ^власти/власть<n><f><nn><sg><dat><@P←>$	
+# tst: ^власти/власть<n><f><nn><sg><dat>$
 
-def readings(w): #{
+def readings(w, testFunc): #{
 	readings = [];
 	removed_readings = [];
 	reading = '';
@@ -18,7 +20,11 @@ def readings(w): #{
 			if reading[0] == '¬': #{
 				removed_readings.append(reading);
 			else: #{
-				readings.append(reading_lemma(reading) + reading_msd(reading) + reading_func(reading));
+				if testFunc:
+					readings.append(reading_lemma(reading) + reading_msd(reading) + reading_func(reading));
+				else:
+					readings.append(reading_lemma(reading) + reading_msd(reading));
+				
 			#}
 			reading = '';
 			continue;
@@ -110,6 +116,11 @@ tst_f = open(sys.argv[3]);
 
 n_unknown = 0;
 
+n_truepositive = 0;
+n_truenegative = 0;
+n_falsepositive = 0;
+n_falsenegative = 0;
+
 n_ref_readings = 0;
 n_src_readings = 0;
 n_tst_readings = 0;
@@ -158,13 +169,13 @@ for line in range(0, lines): #{
 
 
 	if tst_w.count('/*') < 1 and tst_w[0] == '^': #{
-		tst_readings, tst_removed = readings(tst_w);
+		tst_readings, tst_removed = readings(tst_w, testFunc);
 		tst_lema = reading_lemma(tst_readings[0]);
 		tst_pos = reading_pos(tst_readings[0]);
 		tst_func = reading_func(tst_readings[0]);
 		tst_msd = reading_msd(tst_readings[0]);
 
-		src_readings, src_removed = readings(src_w);
+		src_readings, src_removed = readings(src_w, testFunc);
 		src_lema = reading_lemma(src_readings[0]);
 		src_pos = reading_pos(src_readings[0]);
 		src_func = reading_func(src_readings[0]);
@@ -174,7 +185,7 @@ for line in range(0, lines): #{
 		n_tst_readings = n_tst_readings + len(tst_readings);
 	#}
 
-	ref_readings, ref_removed = readings(ref_w);
+	ref_readings, ref_removed = readings(ref_w, testFunc);
 	ref_lema = reading_lemma(ref_readings[0]);
 	ref_pos = reading_pos(ref_readings[0]);
 	ref_func = reading_func(ref_readings[0]);
@@ -187,6 +198,29 @@ for line in range(0, lines): #{
 	#}
 
 	n_ref_readings = n_ref_readings + 1;
+
+	for tst_reading in tst_readings: #{
+		if tst_reading not in ref_readings: #{
+			n_falsepositive = n_falsepositive + 1;
+		else: #{
+			n_truepositive = n_truepositive + 1;
+		#}
+	#}
+
+	for ref_reading in ref_readings: #{
+		if ref_reading not in tst_readings: #{
+			print('FALSENEG:', ref_reading, tst_readings);
+			n_falsenegative = n_falsenegative + 1;
+		#}
+	#}
+
+	for src_reading in src_readings: #{
+		if src_reading not in ref_readings and src_reading not in tst_readings: #{
+			n_truenegative = n_truenegative + 1;
+		#}
+	#}
+
+
 
 	if tst_lema == ref_lema and tst_msd == ref_msd: #{
 		print('=\t', tst_lema, tst_msd);
@@ -233,6 +267,25 @@ print('');
 
 print('unknown  :\t', n_unknown,'(', (float(n_unknown)/float(n_ref_readings))*100.0,')');
 print('notfound :\t', n_src_notfound, n_tst_notfound);
+
+print('');
+
+print('truepos  :\t', n_truepositive);
+print('trueneg  :\t', n_truenegative);
+print('falsepos :\t', n_falsepositive);
+print('falseneg :\t', n_falsenegative);
+
+precision = float(n_truepositive) / (float(n_truepositive + n_falsepositive));
+recall = float(n_truepositive) / (float(n_truepositive + n_falsenegative));
+accuracy = float(n_truepositive + n_truenegative) / (float(n_truepositive + n_falsenegative + n_truenegative + n_falsepositive));
+
+print('');
+
+print('precision:\t', precision);
+print('recall   :\t', recall);
+print('accuracy :\t', accuracy);
+
+print('');
 
 print('src_ambig:\t', float(n_src_readings)/float(n_ref_readings));
 print('tst_ambig:\t', float(n_tst_readings)/float(n_ref_readings));

@@ -196,9 +196,7 @@ REMOVE NGDAIP - Ins IF (0C A OR Det) (1C* N + Ins BARRIER NGDAIP - Ins);
 
 REMOVE Short (-1C Pr) ; 
 
-REMOVE Acc IF (-1 BOS) (0C Nom OR Acc) (NOT 1* TV) ; 
-
-# REMOVE Acc IF (0 Nom OR Acc) (NOT -1* TV) (NOT -1C* Pr) (NOT 1* TV) ;
+REMOVE Acc IF (-1* BOS BARRIER (*) - Nom) (0C Nom OR Acc) (NOT 1* TV) ; 
 
 SELECT N + $$NGDAIP IF (0 A OR N) (-1C A + $$NGDAIP LINK -1* Pr CBARRIER (*) - $$NGDAIP) (1C N) (NOT 1C N + $$NGDAIP) ; 
   # По официальным данным правительства Руанды, число погибших составило 937 тысяч человек.
@@ -210,4 +208,9 @@ SELECT Cmp IF (0 Cmp OR Adv) (1 Guio LINK 1 A LINK 1 N) ;
 # над/надо
 # после/посол
 
+
+# REMOVE Acc IF (0 Nom OR Acc) (NOT -1* TV) (NOT -1C* Pr) (NOT 1* TV) ;
+# REMOVE Acc IF (NOT -1* TV) (-1* IV LINK 0 Fin) (NOT 1* TV BARRIER Fin) ;
+
+  # Нападающие выжигали огнем места, где могли спрятаться их жертвы: дома с труднодоступными помещениями, церкви, леса, перелески и т. п.
 
