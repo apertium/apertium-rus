@@ -50,6 +50,7 @@ LIST Fin = past pres fut ;
 
 LIST Pr/V = ("в" pr) ;
 LIST Pr/Na = ("на" pr) ;
+LIST Pr/Nad = ("над" pr) ;
 LIST Pr/Za = ("за" pr) ;
 LIST Pr/Po = ("по" pr) ;
 LIST Pr/S = ("с" pr) ;
@@ -131,6 +132,8 @@ REMOVE NGDAIP - Dat IF (-1C* Pr/K CBARRIER (*) - Adv - DetIndecl) ;
 
 REMOVE NGDAIP - Prp IF (-1C* Pr/O CBARRIER (*) - Adv - DetIndecl) ;
 
+REMOVE NGDAIP - Ins IF (-1C* Pr/Nad CBARRIER (*) - Adv - DetIndecl) ;
+
 SELECT A + $$NGDAIP IF (-1C A + $$NGDAIP LINK -1C* Pr BARRIER (*) - A - Adv - Det) ; 
 
 REMOVE Pers IF (0C Pers OR Det) (NOT 0 Pprep) (-1C Pr) ;
@@ -172,7 +175,11 @@ SELECT CS IF (0 Čto) (-1 Cm) (NOT 1* ("?")) ;
 
 REMOVE Fem IF (-1 BOS) (0C A) (0C Masc OR Fem) (1C N) (NOT 1 Fem);
 
+REMOVE Masc IF (-1 BOS) (0C A) (0C Masc OR Neut) (1C N) (NOT 1 Masc);
+
 REMOVE NGDAIP - Prp IF (0C A OR Det) (1C* N + Prp BARRIER NGDAIP - Prp);
+
+REMOVE NGDAIP - Ins IF (0C A OR Det) (1C* N + Ins BARRIER NGDAIP - Ins);
 
 REMOVE Short (-1C Pr) ; 
 
