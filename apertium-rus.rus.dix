@@ -13271,21 +13271,21 @@
     </pardef>
  
     <pardef n="нач/аться__vblex_perf">
-      <e><p><l>аться</l><r>аться<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
-      <e><p><l>нитесь</l><r>аться<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>нитесь</l><r>аться<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>авшись</l><r>аться<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
-      <e><p><l>авш</l><r>аться<s n="vblex"/><s n="perf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/><p><l>ся</l><r></r></p></e>
-      <e><p><l>ался</l><r>аться<s n="vblex"/><s n="perf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>алась</l><r>аться<s n="vblex"/><s n="perf"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>алось</l><r>аться<s n="vblex"/><s n="perf"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>ались</l><r>аться<s n="vblex"/><s n="perf"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
-      <e><p><l>нусь</l><r>аться<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>нёмся</l><r>аться<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>нёшься</l><r>аться<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>нётесь</l><r>аться<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>нётся</l><r>аться<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>нутся</l><r>аться<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>аться</l><r>аться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
+      <e><p><l>нитесь</l><r>аться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>нитесь</l><r>аться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>авшись</l><r>аться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pp"/><s n="adv"/></r></p></e>
+      <e><p><l>авш</l><r>аться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/><p><l>ся</l><r></r></p></e>
+      <e><p><l>ался</l><r>аться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>алась</l><r>аться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>алось</l><r>аться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>ались</l><r>аться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e><p><l>нусь</l><r>аться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>нёмся</l><r>аться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>нёшься</l><r>аться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>нётесь</l><r>аться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>нётся</l><r>аться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>нутся</l><r>аться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
  
     <pardef n="нах/одить__vblex_perf">
@@ -18338,6 +18338,7 @@
     <e lm="бедро"><i>б</i><par n="в/едро__n_nt_nn"/></e>
     <e lm="безвинность"><i>безвинност</i><par n="ос/ь__n_f_nn"/></e>
     <e lm="безвредность"><i>безвредност</i><par n="ос/ь__n_f_nn"/></e>
+    <e lm="народность"><i>народност</i><par n="ос/ь__n_f_nn"/></e>
     <e lm="безвыходность"><i>безвыходност</i><par n="ос/ь__n_f_nn"/></e>
     <e lm="бездействие"><i>бездействи</i><par n="звани/е__n_nt_nn"/></e>
     <e lm="бездеятельность"><i>бездеятельност</i><par n="ос/ь__n_f_nn"/></e>
@@ -20354,6 +20355,7 @@
     <e lm="лепёшка"><i>лепёш</i><par n="бумаж/ка__n_f_nn"/></e>
     <e lm="лес"><i>лес</i><par n="лес__n_m_nn"/></e>
     <e lm="лесок"><i>лес</i><par n="меш/ок__n_m_nn"/></e>
+    <e lm="перелесок"><i>перелес</i><par n="меш/ок__n_m_nn"/></e>
     <e lm="лесопилка"><i>лесопил</i><par n="агит/ка__n_f_nn"/></e>
     <e lm="лесопильня"><i>лесопил</i><par n="лесопил/ьня__n_f_nn"/></e>
     <e lm="лестница"><i>лестниц</i><par n="виц/а__n_f_nn"/></e>

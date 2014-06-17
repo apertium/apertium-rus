@@ -29,6 +29,9 @@ LIST Masc = m ;
 LIST Fem = f ; 
 LIST Neut = nt ; 
 
+LIST Sg = sg ; 
+LIST Pl = pl ;
+
 LIST DetIndecl = ("её" det pos) ("его" det pos") ("их" det pos) ;
 
 LIST Nom = nom ; 
@@ -72,6 +75,9 @@ LIST Samyj = "самый" ;
 LIST Posle = "после" ;
 LIST Čto = "что" ;
 LIST Nazad = "назад" ;
+
+LIST Što = "што" "100" ; 
+LIST Tysjača = "тысяча" "1000" ; 
 
 LIST Month = "январь" "февраль" "апрель" "май" "июнь" "июль" "сентябрь" "октябрь" "ноябрь" "декябрь" ; 
 LIST Year = "год" "год¹" ("г." abbr) ;
@@ -156,7 +162,7 @@ SELECT Neut IF (0 Dat) (-1 Year) (1 Nazad) ;
 
 SELECT Gen IF (-1 Percent) ;
 
-SELECT Gen IF (-1 ("100")) ;
+SELECT Pl + Gen IF (-1 Što OR Tysjača) ;
 
 ## Safe operations with prepositional case
 
@@ -178,9 +184,9 @@ REMOVE Det IF (0 Det OR Pron) (1C* Fin BARRIER (*) - Adv) ;
 
 SELECT CS IF (0 Čto) (-1 Cm) (NOT 1* ("?")) ;
 
-REMOVE Fem IF (-1 BOS) (0C A) (0C Masc OR Fem) (1C N) (NOT 1 Fem);
+REMOVE Fem IF  (0C A) (0C Masc OR Fem) (1C N) (NOT 1 Fem);
 
-REMOVE Masc IF (-1 BOS) (0C A) (0C Masc OR Neut) (1C N) (NOT 1 Masc);
+REMOVE Masc IF (0C A) (0C Masc OR Neut) (1C N) (NOT 1 Masc);
 
 REMOVE NGDAIP - Prp IF (0C A OR Det) (1C* N + Prp BARRIER NGDAIP - Prp);
 
@@ -189,6 +195,8 @@ REMOVE NGDAIP - Ins IF (0C A OR Det) (1C* N + Ins BARRIER NGDAIP - Ins);
 REMOVE Short (-1C Pr) ; 
 
 REMOVE Acc IF (-1 BOS) (0C Nom OR Acc) (NOT 1* TV) ; 
+
+REMOVE Acc IF (0 Nom OR Acc) (NOT -1* TV) (NOT -1C* Pr) (NOT 1* TV) ;
 
 ###############################################################################
 

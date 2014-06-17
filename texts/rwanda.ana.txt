@@ -2,7 +2,7 @@
 ^лет/год<n><m><nn><pl><gen><@Num←>$
 ^тому/тот<prn><dem><nt><an><sg><dat><@→Adv>$
 ^назад/назад<adv><@ADVL→>$
-^начался/начаться<vblex><perf><past><m><sg><@+FMAINV>$
+^начался/начаться<vblex><perf><iv><past><m><sg><@+FMAINV>$
 ^геноцид/геноцид<n><m><nn><sg><nom><@←SUBJ>$
 ^в/в<pr><@N←>$
 ^Руанде/Руанда<np><top><f><sg><prp><@P←>$ 
