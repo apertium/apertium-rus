@@ -76,7 +76,7 @@ LIST Posle = "после" ;
 LIST Čto = "что" ;
 LIST Nazad = "назад" ;
 
-LIST Što = "што" "100" ; 
+LIST Sto = "сто" "100" ; 
 LIST Tysjača = "тысяча" "1000" ; 
 
 LIST Month = "январь" "февраль" "апрель" "май" "июнь" "июль" "сентябрь" "октябрь" "ноябрь" "декябрь" ; 
@@ -141,7 +141,7 @@ REMOVE NGDAIP - Prp IF (-1C* Pr/O CBARRIER (*) - Adv - DetIndecl) ;
 
 REMOVE NGDAIP - Ins IF (-1C* Pr/Nad CBARRIER (*) - Adv - DetIndecl) ;
 
-SELECT A + $$NGDAIP IF (-1C A + $$NGDAIP LINK -1C* Pr BARRIER (*) - A - Adv - Det) ; 
+SELECT A + $$NGDAIP IF (0C A) (-1C A + $$NGDAIP LINK -1C* Pr BARRIER (*) - A - Adv - Det) ; 
 
 REMOVE Pers IF (0C Pers OR Det) (NOT 0 Pprep) (-1C Pr) ;
   # Так что для меня вся моя университетская наука как бы для того только и существовала под конец, чтобы ...
@@ -162,7 +162,7 @@ SELECT Neut IF (0 Dat) (-1 Year) (1 Nazad) ;
 
 SELECT Gen IF (-1 Percent) ;
 
-SELECT Pl + Gen IF (-1 Što OR Tysjača) ;
+SELECT Pl + Gen IF (-1 Sto OR Tysjača) ;
 
 ## Safe operations with prepositional case
 
@@ -196,7 +196,10 @@ REMOVE Short (-1C Pr) ;
 
 REMOVE Acc IF (-1 BOS) (0C Nom OR Acc) (NOT 1* TV) ; 
 
-REMOVE Acc IF (0 Nom OR Acc) (NOT -1* TV) (NOT -1C* Pr) (NOT 1* TV) ;
+# REMOVE Acc IF (0 Nom OR Acc) (NOT -1* TV) (NOT -1C* Pr) (NOT 1* TV) ;
+
+SELECT N + $$NGDAIP IF (0 A OR N) (-1C A + $$NGDAIP LINK -1* Pr CBARRIER (*) - $$NGDAIP) (1C N) (NOT 1C N + $$NGDAIP) ; 
+  # По официальным данным правительства Руанды, число погибших составило 937 тысяч человек.
 
 ###############################################################################
 
