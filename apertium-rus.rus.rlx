@@ -27,6 +27,9 @@ LIST Cmp = cmp ;
 LIST TV = tv ; 
 LIST IV = iv ; 
 
+LIST Ant = ant ; 
+LIST Cog = cog ; 
+
 LIST Masc = m ; 
 LIST Fem = f ; 
 LIST Neut = nt ; 
@@ -181,6 +184,12 @@ REMOVE Det IF (0 Det OR Pron) (1C Fin OR CS OR Pr) ;
 REMOVE Det IF (0 Det OR Pron) (1 Cm LINK 1 CC OR CS) ; 
 
 REMOVE Det IF (0 Det OR Pron) (1C* Fin BARRIER (*) - Adv) ; 
+
+## Safe options with proper names 
+
+SELECT Ant + $$NGDAIP IF (1C Cog + $$NGDAIP) ; 
+
+SELECT Cog + $$NGDAIP IF (-1C Ant + $$NGDAIP) ; 
 
 ## Heuristic operations 
 
