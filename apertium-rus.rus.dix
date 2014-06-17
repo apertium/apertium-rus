@@ -478,49 +478,49 @@
       <e r="LR"><p><l>в</l><r>в<s n="pr"/></r></p></e>
       <e r="LR"><p><l>во</l><r>в<s n="pr"/></r></p></e>
       <e r="RL"><p><l><a/>в</l><r>в<s n="pr"/></r></p></e>
-      <e><p><l>в<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
+      <!--<e><p><l>в<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>-->
     </pardef>
   
     <pardef n="/пред__pr">
       <e r="LR"><p><l>пред</l><r>пред<s n="pr"/></r></p></e>
       <e r="LR"><p><l>предо</l><r>пред<s n="pr"/></r></p></e>
       <e r="RL"><p><l><a/>пред</l><r>пред<s n="pr"/></r></p></e>
-      <e><p><l>пред<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
+      <!--<e><p><l>пред<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>-->
     </pardef>
     
     <pardef n="/к__pr">
       <e r="LR"><p><l>к</l><r>к<s n="pr"/></r></p></e>
       <e r="LR"><p><l>ко</l><r>к<s n="pr"/></r></p></e>
       <e r="RL"><p><l><a/>к</l><r>к<s n="pr"/></r></p></e>
-      <e><p><l>к<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
+      <!--<e><p><l>к<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>-->
     </pardef>
   
     <pardef n="/из__pr">
       <e r="LR"><p><l>из</l><r>из<s n="pr"/></r></p></e>
       <e r="LR"><p><l>изо</l><r>из<s n="pr"/></r></p></e>
       <e r="RL"><p><l><a/>из</l><r>из<s n="pr"/></r></p></e>
-      <e><p><l>из<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
+      <!--<e><p><l>из<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>-->
     </pardef>
   
     <pardef n="/без__pr">
       <e r="LR"><p><l>без</l><r>без<s n="pr"/></r></p></e>
       <e r="LR"><p><l>безо</l><r>без<s n="pr"/></r></p></e>
       <e r="RL"><p><l><a/>без</l><r>без<s n="pr"/></r></p></e>
-      <e><p><l>без<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
+<!--      <e><p><l>без<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>-->
     </pardef>
   
     <pardef n="/над__pr">
       <e r="LR"><p><l>над</l><r>над<s n="pr"/></r></p></e>
       <e r="LR"><p><l>надо</l><r>над<s n="pr"/></r></p></e>
       <e r="RL"><p><l><a/>над</l><r>над<s n="pr"/></r></p></e>
-      <e><p><l>над<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
+<!--      <e><p><l>над<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>-->
     </pardef>
   
     <pardef n="/перед__pr">
       <e r="LR"><p><l>перед</l><r>перед<s n="pr"/></r></p></e>
       <e r="LR"><p><l>передо</l><r>перед<s n="pr"/></r></p></e>
       <e r="RL"><p><l><a/>перед</l><r>перед<s n="pr"/></r></p></e>
-      <e><p><l>перед<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
+<!--      <e><p><l>перед<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>-->
     </pardef>
   
     <pardef n="/о__pr">
@@ -528,12 +528,12 @@
       <e r="LR"><p><l>об</l><r>о<s n="pr"/></r></p></e>
       <e r="LR"><p><l>обо</l><r>о<s n="pr"/></r></p></e>
       <e r="RL"><p><l><a/>о</l><r>о<s n="pr"/></r></p></e>
-      <e><p><l>о<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
+<!--      <e><p><l>о<b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>-->
     </pardef>
     
     <pardef n="через__pr">
       <e><p><l></l><r><s n="pr"/></r></p></e>
-      <e><p><l><b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>
+<!--      <e><p><l><b/></l><r><s n="pr"/><j/></r></p><par n="S__pprep"/></e>-->
     </pardef>
       
     <!-- PARDEFS: Pronouns -->  

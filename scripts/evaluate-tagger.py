@@ -7,6 +7,7 @@ testFunc = False;
 
 def readings(w): #{
 	readings = [];
+	removed_readings = [];
 	reading = '';
 	seen = False;
 	for c in w: #{
@@ -14,7 +15,11 @@ def readings(w): #{
 			seen = True;
 			continue;
 		elif (c == '/' or c == '$') and seen: #{
-			readings.append(reading);
+			if reading[0] == '¬': #{
+				removed_readings.append(reading);
+			else: #{
+				readings.append(reading_lemma(reading) + reading_msd(reading));
+			#}
 			reading = '';
 			continue;
 		#}
@@ -22,7 +27,7 @@ def readings(w): #{
 			reading = reading + c;
 		#}
 	#}
-	return readings;
+	return (readings, removed_readings);
 #}
 
 def reading_lemma(r): #{
@@ -36,20 +41,24 @@ def reading_pos(r): #{
 def reading_msd(r): #{
 	msd = '';
 	seen = False;
+	tag = '';
 	for c in r: #{
 		if c == '<': #{
 			seen = True;
 		#}
-		if c == '@': #{
-			seen = False;
-			break;
+		if c == '>': #{
+			tag = tag + c;
+			if tag.count(':') > 0 or tag[1] == '@': #{
+				continue;
+			else: #{
+				msd = msd + tag;
+			#}
+			tag = '';
+			continue;
 		#}
 		if seen: #{
-			msd = msd + c;
+			tag = tag + c;
 		#}
-	#}
-	if msd[-1] == '<': #{
-		msd = msd[0:-1];
 	#}
 	return msd;
 #}
@@ -148,13 +157,13 @@ for line in range(0, lines): #{
 
 
 	if tst_w.count('/*') < 1 and tst_w[0] == '^': #{
-		tst_readings = readings(tst_w);
+		tst_readings, tst_removed = readings(tst_w);
 		tst_lema = reading_lemma(tst_readings[0]);
 		tst_pos = reading_pos(tst_readings[0]);
 		tst_func = reading_func(tst_readings[0]);
 		tst_msd = reading_msd(tst_readings[0]);
 
-		src_readings = readings(src_w);
+		src_readings, src_removed = readings(src_w);
 		src_lema = reading_lemma(src_readings[0]);
 		src_pos = reading_pos(src_readings[0]);
 		src_func = reading_func(src_readings[0]);
@@ -170,7 +179,7 @@ for line in range(0, lines): #{
 		continue;	
 	#}
 
-	ref_readings = readings(ref_w);
+	ref_readings, ref_removed = readings(ref_w);
 	ref_lema = reading_lemma(ref_readings[0]);
 	ref_pos = reading_pos(ref_readings[0]);
 	ref_func = reading_func(ref_readings[0]);
