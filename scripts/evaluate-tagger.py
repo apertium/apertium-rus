@@ -18,7 +18,7 @@ def readings(w): #{
 			if reading[0] == '¬': #{
 				removed_readings.append(reading);
 			else: #{
-				readings.append(reading_lemma(reading) + reading_msd(reading));
+				readings.append(reading_lemma(reading) + reading_msd(reading) + reading_func(reading));
 			#}
 			reading = '';
 			continue;
@@ -78,7 +78,8 @@ def reading_func(r): #{
 			func = func + c;
 		#}
 	#}
-	return '<' + func + '>';
+	func = '<' + func + '>';
+	return func.replace('<>', '');
 #}
 
 src_f = open(sys.argv[1]);
@@ -173,27 +174,27 @@ for line in range(0, lines): #{
 		n_tst_readings = n_tst_readings + len(tst_readings);
 	#}
 
-	if tst_w.count('/*') > 0 and skipUnknown == True: #{
-		print('-\t', tst_lema, tst_msd);
-		n_unknown = n_unknown + 1;
-		continue;	
-	#}
-
 	ref_readings, ref_removed = readings(ref_w);
 	ref_lema = reading_lemma(ref_readings[0]);
 	ref_pos = reading_pos(ref_readings[0]);
 	ref_func = reading_func(ref_readings[0]);
 	ref_msd = reading_msd(ref_readings[0]);
 
+	if tst_w.count('/*') > 0 and skipUnknown == True: #{
+		print('*\t', ref_lema, ref_msd);
+		n_unknown = n_unknown + 1;
+		continue;	
+	#}
+
 	n_ref_readings = n_ref_readings + 1;
 
 	if tst_lema == ref_lema and tst_msd == ref_msd: #{
 		print('=\t', tst_lema, tst_msd);
 	else: #{
-		print('ref:', ref_readings, file=sys.stderr);
-		print('-\t', ref_lema, ref_msd);
-		print('tst:', tst_readings, file=sys.stderr);
-		print('+\t', tst_lema, tst_msd);
+		#print('ref:', ref_readings, file=sys.stderr);
+		print('-\t', ref_lema, ref_msd, src_readings);
+		#print('tst:', tst_readings, file=sys.stderr);
+		print('+\t', tst_lema, tst_msd, tst_readings);
 	#}
 
 	if ref_lema+ref_msd not in tst_readings and ref_lema+ref_msd in src_readings: #{
@@ -215,9 +216,9 @@ for line in range(0, lines): #{
 	if tst_lema == ref_lema and tst_msd == ref_msd: n_tst_lemamsd_correct = n_tst_lemamsd_correct + 1;
 	if tst_pos == ref_pos: n_tst_pos_correct = n_tst_pos_correct + 1;
 	if tst_msd == ref_msd: n_tst_msd_correct = n_tst_msd_correct + 1;
-	if tst_func == ref_func: n_tst_func_correct = n_tst_func_correct + 1;
+	if tst_func == ref_func and ref_func != '': n_tst_func_correct = n_tst_func_correct + 1;
 
-	print("");
+#	print("");
 #}
 
 # Accuracy = number of correct analyses / number of analyses in ref;
@@ -227,6 +228,8 @@ for line in range(0, lines): #{
 # POS accuracy
 # MSD accuracy
 # Func accuracy
+
+print('');
 
 print('unknown:\t', n_unknown,'(', (float(n_unknown)/float(n_ref_readings))*100.0,')');
 print('notfound:\t', n_src_notfound, n_tst_notfound);
@@ -243,12 +246,12 @@ p_bas_msd_correct = float(n_bas_msd_correct)/float(n_ref_readings)*100.0;
 p_bas_lemamsd_correct = float(n_bas_lemamsd_correct)/float(n_ref_readings)*100.0;
 p_bas_func_correct = float(n_bas_func_correct)/float(n_ref_readings)*100.0;
 
-print('lem:\t',p_bas_lema_correct);
-print('pos:\t',p_bas_pos_correct);
+print('lem    :\t',p_bas_lema_correct);
+#print('pos:\t',p_bas_pos_correct);
 print('lem+pos:\t',p_bas_lemapos_correct);
-print('msd:\t',p_bas_msd_correct);
+#print('msd:\t',p_bas_msd_correct);
 print('lem+msd:\t',p_bas_lemamsd_correct);
-print('func:\t',p_bas_func_correct);
+print('func   :\t',p_bas_func_correct);
 
 print('');
 
@@ -259,11 +262,11 @@ p_tst_msd_correct = float(n_tst_msd_correct)/float(n_ref_readings)*100.0;
 p_tst_lemamsd_correct = float(n_tst_lemamsd_correct)/float(n_ref_readings)*100.0;
 p_tst_func_correct = float(n_tst_func_correct)/float(n_ref_readings)*100.0;
 
-print('lem:\t',p_tst_lema_correct, '(', p_tst_lema_correct-p_bas_lema_correct, ')');
-print('pos:\t',p_tst_pos_correct, '(', p_tst_pos_correct-p_bas_pos_correct, ')');
+print('lem    :\t',p_tst_lema_correct, '(', p_tst_lema_correct-p_bas_lema_correct, ')');
+#print('pos:\t',p_tst_pos_correct, '(', p_tst_pos_correct-p_bas_pos_correct, ')');
 print('lem+pos:\t',p_tst_lemapos_correct, '(', p_tst_lemapos_correct-p_bas_lemapos_correct, ')');
-print('msd:\t',p_tst_msd_correct, '(', p_tst_msd_correct-p_bas_msd_correct, ')');
+#print('msd:\t',p_tst_msd_correct, '(', p_tst_msd_correct-p_bas_msd_correct, ')');
 print('lem+msd:\t',p_tst_lemamsd_correct, '(', p_tst_lemamsd_correct-p_bas_lemamsd_correct, ')');
-print('func:\t',p_tst_func_correct, '(', p_tst_func_correct-p_bas_func_correct, ')');
+print('func   :\t',p_tst_func_correct, '(', p_tst_func_correct-p_bas_func_correct, ')');
 
 

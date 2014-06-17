@@ -29,6 +29,8 @@ LIST Masc = m ;
 LIST Fem = f ; 
 LIST Neut = nt ; 
 
+LIST DetIndecl = ("её" det pos) ("его" det pos") ("их" det pos) ;
+
 LIST Nom = nom ; 
 LIST Gen = gen ; 
 LIST Dat = dat ;
@@ -113,21 +115,21 @@ REMOVE Pr IF (1C Fin) ;
 
 REMOVE Nom IF (-1C Pr) ;
 
-REMOVE NGDAIP - Gen IF (-1C* Pr/Dlja OR Pr/Ot OR Pr/Iz OR Pr/Iz-za OR Pr/Krome OR Pr/Protiv CBARRIER (*) - Adv) ;
+REMOVE NGDAIP - Gen IF (-1C* Pr/Dlja OR Pr/Ot OR Pr/Iz OR Pr/Iz-za OR Pr/Krome OR Pr/Protiv CBARRIER (*) - Adv - DetIndecl) ;
 
-REMOVE NGDAIP - Gen - Ins IF (-1C* Pr/S CBARRIER (*) - Adv) ;
+REMOVE NGDAIP - Gen - Ins IF (-1C* Pr/S CBARRIER (*) - Adv - DetIndecl) ;
 
-REMOVE NGDAIP - Acc - Prp IF (-1C* Pr/V OR Pr/Na CBARRIER (*) - Adv) ;
+REMOVE NGDAIP - Acc - Prp IF (-1C* Pr/V OR Pr/Na CBARRIER (*) - Adv - DetIndecl) ;
 
-REMOVE NGDAIP - Acc - Dat - Prp IF (-1C* Pr/Po CBARRIER (*) - Adv) ;
+REMOVE NGDAIP - Acc - Dat - Prp IF (-1C* Pr/Po CBARRIER (*) - Adv - DetIndecl) ;
 
-REMOVE NGDAIP - Acc - Ins IF (-1C* Pr/Za CBARRIER (*) - Adv) ;
+REMOVE NGDAIP - Acc - Ins IF (-1C* Pr/Za CBARRIER (*) - Adv - DetIndecl) ;
 
-REMOVE NGDAIP - Gen - Ins IF (-1C* Pr/Meždu CBARRIER (*) - Adv) ; 
+REMOVE NGDAIP - Gen - Ins IF (-1C* Pr/Meždu CBARRIER (*) - Adv - DetIndecl) ; 
 
-REMOVE NGDAIP - Dat IF (-1C* Pr/K CBARRIER (*) - Adv) ;
+REMOVE NGDAIP - Dat IF (-1C* Pr/K CBARRIER (*) - Adv - DetIndecl) ;
 
-REMOVE NGDAIP - Prp IF (-1C* Pr/O CBARRIER (*) - Adv) ;
+REMOVE NGDAIP - Prp IF (-1C* Pr/O CBARRIER (*) - Adv - DetIndecl) ;
 
 SELECT A + $$NGDAIP IF (-1C A + $$NGDAIP LINK -1C* Pr BARRIER (*) - A - Adv - Det) ; 
 
@@ -147,6 +149,8 @@ REMOVE NGDAIP - Gen - Loc IF (0 Year) (-1 Num LINK -1 Pr/V) ;
 ## Safe operations in some numeral expressions
 
 SELECT Gen IF (-1 Percent) ;
+
+SELECT Gen IF (-1 ("100")) ;
 
 ## Safe operations with prepositional case
 
