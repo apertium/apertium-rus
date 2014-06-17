@@ -231,8 +231,8 @@ for line in range(0, lines): #{
 
 print('');
 
-print('unknown:\t', n_unknown,'(', (float(n_unknown)/float(n_ref_readings))*100.0,')');
-print('notfound:\t', n_src_notfound, n_tst_notfound);
+print('unknown  :\t', n_unknown,'(', (float(n_unknown)/float(n_ref_readings))*100.0,')');
+print('notfound :\t', n_src_notfound, n_tst_notfound);
 
 print('src_ambig:\t', float(n_src_readings)/float(n_ref_readings));
 print('tst_ambig:\t', float(n_tst_readings)/float(n_ref_readings));
@@ -246,12 +246,12 @@ p_bas_msd_correct = float(n_bas_msd_correct)/float(n_ref_readings)*100.0;
 p_bas_lemamsd_correct = float(n_bas_lemamsd_correct)/float(n_ref_readings)*100.0;
 p_bas_func_correct = float(n_bas_func_correct)/float(n_ref_readings)*100.0;
 
-print('lem    :\t',p_bas_lema_correct);
-#print('pos:\t',p_bas_pos_correct);
-print('lem+pos:\t',p_bas_lemapos_correct);
-#print('msd:\t',p_bas_msd_correct);
-print('lem+msd:\t',p_bas_lemamsd_correct);
-print('func   :\t',p_bas_func_correct);
+print('lem      :\t',p_bas_lema_correct);
+#print('pos      :\t',p_bas_pos_correct);
+print('lem+pos  :\t',p_bas_lemapos_correct);
+#print('msd      :\t',p_bas_msd_correct);
+print('lem+msd  :\t',p_bas_lemamsd_correct);
+print('func     :\t',p_bas_func_correct);
 
 print('');
 
@@ -262,11 +262,11 @@ p_tst_msd_correct = float(n_tst_msd_correct)/float(n_ref_readings)*100.0;
 p_tst_lemamsd_correct = float(n_tst_lemamsd_correct)/float(n_ref_readings)*100.0;
 p_tst_func_correct = float(n_tst_func_correct)/float(n_ref_readings)*100.0;
 
-print('lem    :\t',p_tst_lema_correct, '(', p_tst_lema_correct-p_bas_lema_correct, ')');
-#print('pos:\t',p_tst_pos_correct, '(', p_tst_pos_correct-p_bas_pos_correct, ')');
-print('lem+pos:\t',p_tst_lemapos_correct, '(', p_tst_lemapos_correct-p_bas_lemapos_correct, ')');
-#print('msd:\t',p_tst_msd_correct, '(', p_tst_msd_correct-p_bas_msd_correct, ')');
-print('lem+msd:\t',p_tst_lemamsd_correct, '(', p_tst_lemamsd_correct-p_bas_lemamsd_correct, ')');
-print('func   :\t',p_tst_func_correct, '(', p_tst_func_correct-p_bas_func_correct, ')');
+print('lem      :\t',p_tst_lema_correct, '(', p_tst_lema_correct-p_bas_lema_correct, ')');
+#print('pos      :\t',p_tst_pos_correct, '(', p_tst_pos_correct-p_bas_pos_correct, ')');
+print('lem+pos  :\t',p_tst_lemapos_correct, '(', p_tst_lemapos_correct-p_bas_lemapos_correct, ')');
+#print('msd      :\t',p_tst_msd_correct, '(', p_tst_msd_correct-p_bas_msd_correct, ')');
+print('lem+msd  :\t',p_tst_lemamsd_correct, '(', p_tst_lemamsd_correct-p_bas_lemamsd_correct, ')');
+print('func     :\t',p_tst_func_correct, '(', p_tst_func_correct-p_bas_func_correct, ')');
 
 
