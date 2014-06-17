@@ -71,6 +71,7 @@ LIST No = "но" ;
 LIST Samyj = "самый" ; 
 LIST Posle = "после" ;
 LIST Čto = "что" ;
+LIST Nazad = "назад" ;
 
 LIST Month = "январь" "февраль" "апрель" "май" "июнь" "июль" "сентябрь" "октябрь" "ноябрь" "декябрь" ; 
 LIST Year = "год" "год¹" ("г." abbr) ;
@@ -149,6 +150,8 @@ SELECT Dat IF (0 Year) (-1 Num LINK -1 Pr/K) ;
 
 REMOVE NGDAIP - Gen - Loc IF (0 Year) (-1 Num LINK -1 Pr/V) ;
 
+SELECT Neut IF (0 Dat) (-1 Year) (1 Nazad) ; 
+
 ## Safe operations in some numeral expressions
 
 SELECT Gen IF (-1 Percent) ;
@@ -159,7 +162,7 @@ SELECT Gen IF (-1 ("100")) ;
 
 REMOVE Prp IF (-1C Inf)  ; 
 
-REMOVE Prp IF (NOT -1* Pr)  ; 
+REMOVE Prp IF (NOT -1* Pr CBARRIER Gen)  ; 
 
 REMOVE Prp IF (-1C N) ; 
 
@@ -168,6 +171,8 @@ REMOVE Prp IF (-1C N) ;
 REMOVE Det IF (0 Det OR Pron) (1C Fin OR CS OR Pr) ; 
 
 REMOVE Det IF (0 Det OR Pron) (1 Cm LINK 1 CC OR CS) ; 
+
+REMOVE Det IF (0 Det OR Pron) (1C* Fin BARRIER (*) - Adv) ; 
 
 ## Heuristic operations 
 
