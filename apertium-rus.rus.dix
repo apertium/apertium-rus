@@ -86,6 +86,7 @@
     <sdef n="al" 	c="Altres"/>
     <sdef n="cm" 	c="Comma"/>
     <sdef n="percent" 	c="Percent"/>
+    <sdef n="roman" 	c="Roman numeral"/>
     <sdef n="sent" 	c="Sentence marker"/>
     <sdef n="lpar" 	c="Left parenthesis"/>
     <sdef n="rpar" 	c="Right parenthesis"/>
@@ -102,10 +103,12 @@
 
     <pardef n="numeros">
       <e><p><l>№</l><r>№</r></p><re>[0-9]+</re><p><l></l><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+([ ][0-9]+)+</re><p><l></l><r><s n="num"/></r></p></e>
       <e><re>[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
       <e><re>[0-9]+([.,][0-9]+)? ?%</re><p><l></l><r><s n="num"/><s n="percent"/></r></p></e>
       <e><re>[0-9]+([.,][0-9]+)?</re><i>-</i><re>[0-9]+([.,][0-9]+)?%?</re><p><l></l><r><s n="num"/></r></p></e>
       <e><re>[0-9]+([.,][0-9]+)?[:.][0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
+      <e><re>[IXV]+</re><p><l></l><r><s n="num"/><s n="roman"/></r></p></e>
     </pardef>
   
     <pardef n="quantitats">
@@ -143,25 +146,6 @@
        
     <!-- PARDEFS: Base paradigms -->   
 
-    <pardef n="S__pprep">
-      <e><p><l>него</l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>нему</l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>него</l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>ним</l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>неё</l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>ней</l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>неё</l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>ней</l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>него</l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>нему</l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>него</l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>ним</l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>них</l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>ним</l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e><p><l>них</l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e><p><l>ними</l><r>prpers<s n="prn"/><s n="pers"/><s n="p3"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
-    </pardef>
-  
     <pardef n="BASE__Саш/а">
       <e><p><l>а</l><r><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>и</l><r><s n="sg"/><s n="gen"/></r></p></e>
@@ -899,6 +883,10 @@
       <e><p><l></l><r>ый<s n="prn"/><s n="ind"/></r></p><par n="BASE__котор/ый"/></e>
     </pardef>
       
+    <pardef n="котор/ый__prn_rel">
+      <e><p><l></l><r>ый<s n="prn"/><s n="rel"/></r></p><par n="BASE__котор/ый"/></e>
+    </pardef>
+ 
     <!-- PARDEFS: Determiners -->  
 
     <pardef n="как/ой__det_itg">
@@ -2718,6 +2706,21 @@
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="dat"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="ins"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="prp"/></r></p></e>
+    </pardef>
+
+    <pardef n="тутси__n_mf_aa_indecl">
+      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="aa"/><s n="sg"/><s n="prp"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="aa"/><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
 
     <pardef n="леди__n_f_aa_indecl">
@@ -6010,7 +6013,8 @@
       <e><p><l>а</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>у</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l>ом</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>у</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="prp"/></r></p></e>
+      <e><p><l>е</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="prp"/></r></p></e>
+      <e><p><l>у</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
       <e><p><l>а</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>а</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
       <e><p><l>ов</l><r><s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
@@ -11058,6 +11062,30 @@
       <e><p><l>жит</l><r>жать<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>гут</l><r>жать<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
+ 
+    <pardef n="су/дить__vblex_impf_tv">
+      <e><p><l>дить</l><r>дить<s n="vblex"/><s n="impf"/><s n="tv"/><s n="inf"/></r></p></e>
+      <e><p><l>дивш</l><r>дить<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
+      <e><p><l>дя</l><r>дить<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+      <e><p><l>дим</l><r>дить<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pprs"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
+      <e><p><l>дящ</l><r>дить<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pprs"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
+
+      <e><p><l>жу</l><r>дить<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>дим</l><r>дить<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>дишь</l><r>дить<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>дите</l><r>дить<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>дит</l><r>дить<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>дят</l><r>дить<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>дил</l><r>дить<s n="vblex"/><s n="impf"/><s n="tv"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>дила</l><r>дить<s n="vblex"/><s n="impf"/><s n="tv"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>дило</l><r>дить<s n="vblex"/><s n="impf"/><s n="tv"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>дили</l><r>дить<s n="vblex"/><s n="impf"/><s n="tv"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ди</l><r>дить<s n="vblex"/><s n="impf"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>дите</l><r>дить<s n="vblex"/><s n="impf"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+    </pardef>
+ 
  
     <pardef n="во/дить__vblex_impf">
       <e><p><l>дить</l><r>дить<s n="vblex"/><s n="impf"/><s n="inf"/></r></p></e>
@@ -16781,22 +16809,22 @@
       <e><p><l>мутся</l><r>няться<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
  
-    <pardef n="спря/таться__vblex_perf">
-      <e><p><l>таться</l><r>таться<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
-      <e><p><l>чься</l><r>таться<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>чьтесь</l><r>таться<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>тавшись</l><r>таться<s n="vblex"/><s n="perf"/><s n="pp"/><s n="adv"/></r></p></e>
-      <e><p><l>тавш</l><r>таться<s n="vblex"/><s n="perf"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/><p><l>ся</l><r></r></p></e>
-      <e><p><l>тался</l><r>таться<s n="vblex"/><s n="perf"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>талась</l><r>таться<s n="vblex"/><s n="perf"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>талось</l><r>таться<s n="vblex"/><s n="perf"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>тались</l><r>таться<s n="vblex"/><s n="perf"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
-      <e><p><l>чусь</l><r>таться<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>чемся</l><r>таться<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>чешься</l><r>таться<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>четесь</l><r>таться<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>чется</l><r>таться<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>чутся</l><r>таться<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
+    <pardef n="спря/таться__vblex_perf_iv">
+      <e><p><l>таться</l><r>таться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
+      <e><p><l>чься</l><r>таться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>чьтесь</l><r>таться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>тавшись</l><r>таться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pp"/><s n="adv"/></r></p></e>
+      <e><p><l>тавш</l><r>таться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/><p><l>ся</l><r></r></p></e>
+      <e><p><l>тался</l><r>таться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>талась</l><r>таться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>талось</l><r>таться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>тались</l><r>таться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e><p><l>чусь</l><r>таться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>чемся</l><r>таться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>чешься</l><r>таться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>четесь</l><r>таться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>чется</l><r>таться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>чутся</l><r>таться<s n="vblex"/><s n="perf"/><s n="iv"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
  
     <pardef n="во/евать__vblex_impf">
@@ -17747,6 +17775,7 @@
     <e lm="это"><i>эт</i><par n="эт/о__prn"/></e>
     <e lm="тот"><i>т</i><par n="т/от__prn"/></e>
     <e lm="что-то"><i>ч</i><par n="ч/то-то__prn"/></e>
+    <e lm="который"><i>котор</i><par n="котор/ый__prn_rel"/></e>
       
     <!-- SECTION: Determiners -->
 
@@ -24165,6 +24194,7 @@
     <e lm="Георгий"><i>Георги</i><par n="Юри/й__np_ant_m"/></e>
     <e lm="Гульнара"><i>Гульнар</i><par n="Ирин/а__np_ant_f"/></e>
     <e lm="Джо"><i>Джо</i><par n="Джо__np_ant_m"/></e>
+    <e lm="Теонесте"><i>Теонесте</i><par n="Джо__np_ant_m"/></e>
     <e lm="Джудис"><i>Джудис</i><par n="Бритни__np_ant_f"/></e>
     <e lm="Дмитрий"><i>Дмитри</i><par n="Юри/й__np_ant_m"/></e>
     <e lm="Зиннат"><i>Зиннат</i><par n="Владимир__np_ant_m"/></e>
@@ -27515,7 +27545,7 @@
     <e lm="способствовать"><i>способств</i><par n="риск/овать__vblex_impf"/></e>
     <e lm="справиться"><i>справ</i><par n="избав/иться__vblex_perf"/></e>
     <e lm="спрятать"><i>спря</i><par n="спря/тать__vblex_perf"/></e>
-    <e lm="спрятаться"><i>спря</i><par n="спря/таться__vblex_perf"/></e>
+    <e lm="спрятаться"><i>спря</i><par n="спря/таться__vblex_perf_iv"/></e>
     <e lm="спускаться"><i>спуска</i><par n="ката/ться__vblex_impf"/></e>
     <e lm="спуститься"><i>спу</i><par n="спу/ститься__vblex_perf"/></e>
     <e lm="ставить"><i>став</i><par n="став/ить__vblex_impf"/></e>
@@ -27529,7 +27559,7 @@
     <e lm="стукнуть"><i>стукн</i><par n="крикн/уть__vblex_perf"/></e>
     <e lm="ступать"><i>ступа</i><par n="сия/ть__vblex_impf"/></e>
     <e lm="стучать"><i>стуч</i><par n="молч/ать__vblex_impf"/></e>
-    <e lm="судить"><i>су</i><par n="во/дить__vblex_impf"/></e>
+    <e lm="судить"><i>су</i><par n="су/дить__vblex_impf_tv"/></e>
     <e lm="суметь"><i>суме</i><par n="суме/ть__vblex_perf"/></e>
     <e lm="сунуть"><i>сун</i><par n="сун/уть__vblex_perf"/></e>
     <e lm="существовать"><i>существ</i><par n="риск/овать__vblex_impf"/></e>
@@ -28462,9 +28492,8 @@
 
     <e lm="зомби"><i>зомби</i><par n="зомби__n_m_aa_indecl"/></e>
     <e lm="атташе"><i>атташе</i><par n="зомби__n_m_aa_indecl"/></e>
-    <e lm="тутси"><i>тутси</i><par n="зомби__n_m_aa_indecl"/></e>
+    <e lm="тутси"><i>тутси</i><par n="тутси__n_mf_aa_indecl"/></e>
 
-    <e lm="тутси"><i>тутси</i><par n="леди__n_f_aa_indecl"/></e>
     <e lm="леди"><i>леди</i><par n="леди__n_f_aa_indecl"/></e>
     <e lm="мисс"><i>мисс</i><par n="леди__n_f_aa_indecl"/></e>
     <e lm="ма"><i>ма</i><par n="леди__n_f_aa_indecl"/></e>

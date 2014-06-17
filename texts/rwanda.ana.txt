@@ -56,7 +56,7 @@
 ^человек/человек<n><m><aa><pl><gen><@Num←>$
 ^,/,<cm><@CVP>$
 ^из/из<pr><@ADVL→>$
-^них/prpers<prn><pers><p3><mfn><pl><gen><pprep><@P←>$
+^них/они<prn><pers><p3><mfn><pl><gen><pprep><@P←>$
 ^примерно/примерно<adv><@ADVL→>$
 ^10 %/10 %<num><percent><@OBJ→>$
 ^составили/составить<vblex><perf><past><mfn><pl><@+FMAINV>$
@@ -110,9 +110,9 @@
 ^тутси/тутси<n><mf><aa><pl><gen><@N←>$
 ^./.<sent><@CLB>$
 ¶¶
-^Хуту/хуту<n><m><aa><sg><nom><@SUBJ→>$
+^Хуту/хуту<n><mf><aa><sg><nom><@SUBJ→>$
 ^и/и<cnjcoo><@CNP>$
-^тутси/тутси<n><m><aa><sg><nom><@SUBJ→>$
+^тутси/тутси<n><mf><aa><sg><nom><@SUBJ→>$
 ^—/—<guio><@+FMAINV>$
 ^этно-социальные/этно-социальный<adj><mfn><an><pl><nom><@→N>$
 ^группы/группа<n><f><nn><pl><nom><@←SPRED>$
@@ -194,7 +194,7 @@
 ^государство/государство<n><nt><nn><sg><acc><@←OBJ>$
 ^./.<sent><@CLB>$
 ¶
-^Тутси/тутси<n><m><aa><pl><nom><@SUBJ→>$
+^Тутси/тутси<n><mf><aa><pl><nom><@SUBJ→>$
 ^составили/составить<vblex><perf><past><mfn><pl><@+FMAINV>$
 ^правящую/правящий<adj><f><an><sg><acc><@→N>$
 ^верхушку/верхушка<n><f><nn><sg><acc><@←OBJ>$
@@ -449,7 +449,7 @@
 ^страны/страна<n><f><nn><sg><gen><@P←>$
 ^и/и<cnjcoo><@CVP>$
 ^множество/множество<n><nt><nn><sg><nom><@SUBJ→>$
-^людей/человек<n><m><aa><pl><gen><@N←>$
+^людей/люди<n><m><aa><pl><gen><@N←>$
 ^бежало/бежать<vblex><impf><past><nt><sg><@+FMAINV>$
 ^за/за<pr><@←ADVL>$
 ^ее/её<det><pos><@→N>$
