@@ -12,11 +12,18 @@ LIST Num = num ;
 LIST A = adj ; 
 LIST Adv = adv ; 
 LIST CS = cnjsub ; 
+LIST CC = cnjcoo ; 
 LIST V = vblex vbser vbmod ; 
 
+LIST Percent = ("<[0-9]+%>"r) percent ; 
 LIST Roman = roman ; 
 LIST Pprep = pprep ; 
 LIST Pers = pers ;
+
+LIST Short = short ; # pred
+
+LIST TV = tv ; 
+LIST IV = iv ; 
 
 LIST Masc = m ; 
 LIST Fem = f ; 
@@ -137,6 +144,10 @@ SELECT Dat IF (0 Year) (-1 Num LINK -1 Pr/K) ;
 
 REMOVE NGDAIP - Gen - Loc IF (0 Year) (-1 Num LINK -1 Pr/V) ;
 
+## Safe operations in some numeral expressions
+
+SELECT Gen IF (-1 Percent) ;
+
 ## Safe operations with prepositional case
 
 REMOVE Prp IF (-1C Inf)  ; 
@@ -145,11 +156,23 @@ REMOVE Prp IF (NOT -1* Pr)  ;
 
 REMOVE Prp IF (-1C N) ; 
 
+## Safe operations with determiners
+
+REMOVE Det IF (0 Det OR Pron) (1C Fin OR CS OR Pr) ; 
+
+REMOVE Det IF (0 Det OR Pron) (1 Cm LINK 1 CC OR CS) ; 
+
 ## Heuristic operations 
 
 SELECT CS IF (0 Čto) (-1 Cm) (NOT 1* ("?")) ;
 
 REMOVE Fem IF (-1 BOS) (0C A) (0C Masc OR Fem) (1C N) (NOT 1 Fem);
+
+REMOVE NGDAIP - Prp IF (0C A OR Det) (1C* N + Prp BARRIER NGDAIP - Prp);
+
+REMOVE Short (-1C Pr) ; 
+
+REMOVE Acc IF (-1 BOS) (0C Nom OR Acc) (NOT 1* TV) ; 
 
 ###############################################################################
 

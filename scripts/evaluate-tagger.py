@@ -118,6 +118,9 @@ n_bas_msd_correct = 0;
 n_bas_lemamsd_correct = 0;
 n_bas_func_correct = 0;
 
+n_src_notfound = 0;
+n_tst_notfound = 0;
+
 for line in range(0, lines): #{
 
 	src_w = src_f.readline();
@@ -183,6 +186,14 @@ for line in range(0, lines): #{
 		print('tst:', tst_readings, file=sys.stderr);
 		print('+\t', tst_lema, tst_msd);
 	#}
+
+	if ref_lema+ref_msd not in tst_readings and ref_lema+ref_msd in src_readings: #{
+		print('!\t', ref_lema+ref_msd, tst_readings);
+		n_tst_notfound = n_tst_notfound + 1;
+	#}
+	if ref_lema+ref_msd not in src_readings: #{
+		n_src_notfound = n_src_notfound + 1;
+	#}
 	
 	if src_lema == ref_lema: n_bas_lema_correct = n_bas_lema_correct + 1;
 	if src_lema == ref_lema and src_pos == ref_pos: n_bas_lemapos_correct = n_bas_lemapos_correct + 1;
@@ -201,7 +212,7 @@ for line in range(0, lines): #{
 #}
 
 # Accuracy = number of correct analyses / number of analyses in ref;
-
+# False positives
 
 # Lemma accuracy
 # POS accuracy
@@ -209,6 +220,7 @@ for line in range(0, lines): #{
 # Func accuracy
 
 print('unknown:\t', n_unknown,'(', (float(n_unknown)/float(n_ref_readings))*100.0,')');
+print('notfound:\t', n_src_notfound, n_tst_notfound);
 
 print('src_ambig:\t', float(n_src_readings)/float(n_ref_readings));
 print('tst_ambig:\t', float(n_tst_readings)/float(n_ref_readings));

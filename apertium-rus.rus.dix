@@ -11791,6 +11791,25 @@
       <e><p><l>ут</l><r>ти<s n="vblex"/><s n="impf"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
  
+    <pardef n="полож/ить__vblex_perf_tv">
+      <e><p><l>ить</l><r>ить<s n="vblex"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p></e>
+      <e><p><l>и</l><r>ить<s n="vblex"/><s n="perf"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ите</l><r>ить<s n="vblex"/><s n="perf"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ив</l><r>ить<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pp"/><s n="adv"/></r></p></e>
+      <e><p><l>енн</l><r>ить<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__счастлив/ый"/></e>
+      <e><p><l>ивш</l><r>ить<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pp"/><s n="actv"/></r></p><par n="BASE__английск/ий"/></e>
+      <e><p><l>ил</l><r>ить<s n="vblex"/><s n="perf"/><s n="tv"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ила</l><r>ить<s n="vblex"/><s n="perf"/><s n="tv"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ило</l><r>ить<s n="vblex"/><s n="perf"/><s n="tv"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>или</l><r>ить<s n="vblex"/><s n="perf"/><s n="tv"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e><p><l>у</l><r>ить<s n="vblex"/><s n="perf"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>им</l><r>ить<s n="vblex"/><s n="perf"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ишь</l><r>ить<s n="vblex"/><s n="perf"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ите</l><r>ить<s n="vblex"/><s n="perf"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ит</l><r>ить<s n="vblex"/><s n="perf"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ат</l><r>ить<s n="vblex"/><s n="perf"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+ 
     <pardef n="науч/ить__vblex_perf">
       <e><p><l>ить</l><r>ить<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
       <e><p><l>и</l><r>ить<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -27109,7 +27128,8 @@
     <e lm="полезть"><i>полез</i><par n="влез/ть__vblex_perf"/></e>
     <e lm="полететь"><i>поле</i><par n="уле/теть__vblex_perf"/></e>
     <e lm="ползти"><i>полз</i><par n="полз/ти__vblex_impf"/></e>
-    <e lm="положить"><i>полож</i><par n="науч/ить__vblex_perf"/></e>
+    <!--<e lm="положить"><i>полож</i><par n="науч/ить__vblex_perf"/></e>-->
+    <e lm="положить"><i>полож</i><par n="полож/ить__vblex_perf_tv"/></e>
     <e lm="получать"><i>получа</i><par n="веда/ть__vblex_impf"/></e>
     <e lm="получаться"><i>получа</i><par n="ката/ться__vblex_impf"/></e>
     <e lm="получить"><i>получ</i><par n="науч/ить__vblex_perf"/></e>
