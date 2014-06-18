@@ -163,6 +163,12 @@ for line in range(0, lines): #{
 	src_pos = '';
 	src_func = '';
 	src_msd = '';
+	ref_readings = [];
+	ref_lema = '';
+	ref_pos = '';
+	ref_func = '';
+	ref_msd = '';
+
 
 
 	if tst_w.count('/*') < 1 and tst_w[0] == '^': #{
@@ -182,11 +188,13 @@ for line in range(0, lines): #{
 		n_tst_readings = n_tst_readings + len(tst_readings);
 	#}
 
-	ref_readings, ref_removed = readings(ref_w, testFunc);
-	ref_lema = reading_lemma(ref_readings[0]);
-	ref_pos = reading_pos(ref_readings[0]);
-	ref_func = reading_func(ref_readings[0]);
-	ref_msd = reading_msd(ref_readings[0]);
+	if ref_w.count('/*') < 1 and ref_w[0] == '^': #{
+		ref_readings, ref_removed = readings(ref_w, testFunc);
+		ref_lema = reading_lemma(ref_readings[0]);
+		ref_pos = reading_pos(ref_readings[0]);
+		ref_func = reading_func(ref_readings[0]);
+		ref_msd = reading_msd(ref_readings[0]);
+	#}
 
 	if tst_w.count('/*') > 0 and skipUnknown == True: #{
 		print('*\t', ref_lema, ref_msd);

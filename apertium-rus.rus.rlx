@@ -65,6 +65,7 @@ LIST Pr/Po = ("по" pr) ;
 LIST Pr/S = ("с" pr) ;
 LIST Pr/Dlja = ("для" pr) ; 
 LIST Pr/Ot = ("от" pr) ;
+LIST Pr/Do = ("до" pr) ;
 LIST Pr/Iz = ("из" pr) ;
 LIST Pr/Meždu = ("между" pr) ;
 LIST Pr/Iz-za = ("из-за" pr) ;
@@ -140,9 +141,9 @@ REMOVE Pr IF (1C Fin) ;
 
 REMOVE Nom IF (-1C Pr) ;
 
-REMOVE NGDAIP - Gen IF (-1C* Pr/Dlja OR Pr/Ot OR Pr/Iz OR Pr/Iz-za OR Pr/Krome OR Pr/Protiv CBARRIER (*) - Adv - DetIndecl) ;
+REMOVE NGDAIP - Gen IF (-1C* Pr/Dlja OR Pr/Do OR Pr/Ot OR Pr/Iz OR Pr/Iz-za OR Pr/Krome OR Pr/Protiv CBARRIER (*) - Adv - DetIndecl) ;
 
-REMOVE NGDAIP - Gen - Ins IF (-1C* Pr/S CBARRIER (*) - Adv - DetIndecl) ;
+REMOVE NGDAIP - Gen - Ins - Acc IF (-1C* Pr/S CBARRIER (*) - Adv - DetIndecl) ;
 
 REMOVE NGDAIP - Acc - Prp IF (-1C* Pr/V OR Pr/Na CBARRIER (*) - Adv - DetIndecl) ;
 
