@@ -43,6 +43,9 @@ scripts/evaluate-tagger.py -text
 test-scripts/rus.test -text
 texts/cyprus.ana.txt -text
 texts/cyprus.log.txt -text
+texts/dva-samoubijstva.ana.txt -text
+texts/dva-samoubijstva.log.txt -text
+texts/dva-samoubijstva.raw.txt -text svneol=unset#application/octet-stream
 texts/murmansk.ana.txt -text
 texts/murmansk.log.txt -text
 texts/murmansk.raw.txt -text svneol=unset#application/octet-stream
