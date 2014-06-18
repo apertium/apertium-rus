@@ -12,6 +12,7 @@ LIST Num = num ;
 LIST A = adj ; 
 LIST Adv = adv ; 
 LIST CS = cnjsub ; 
+LIST Interj = ij ;
 LIST CC = cnjcoo ; 
 LIST V = vblex vbser vbmod ; 
 LIST Guio = guio ; 
@@ -74,6 +75,8 @@ LIST Pr/O = ("о" pr) ;
 
 LIST Cm = cm ; 
 
+LIST O = "о" ; 
+LIST Ja = "я" ; 
 LIST I = "и" ;
 LIST No = "но" ; 
 LIST Samyj = "самый" ; 
@@ -81,6 +84,7 @@ LIST Posle = "после" ;
 LIST Čto = "что" ;
 LIST Nazad = "назад" ;
 
+LIST Pjat = "пять" "5" ; 
 LIST Sto = "сто" "100" ; 
 LIST Tysjača = "тысяча" "1000" ; 
 
@@ -88,9 +92,14 @@ LIST Month = "январь" "февраль" "апрель" "май" "июнь" 
 LIST Year = "год" "год¹" ("г." abbr) ;
 LIST Century = "век" ; 
 
+LIST Majusc = ("<[А-Я]>"r) ;
+LIST Minusc = ("<[а-я]>"r) ;
+
 SET MascFemNeut = Masc | Fem | Neut ; 
 
 SET NGDAIP = Nom | Gen | Dat | Acc | Ins | Prp ; 
+
+SET SentNotExcl = (".") | ("...") | ("?") ; 
 
 SECTION 
 
@@ -117,6 +126,9 @@ SELECT A + $$NGDAIP IF (-1C Samyj + $$NGDAIP) ;
 REMOVE Pr IF (1C Cm) ;
 
 SELECT Posle IF (-1C Cm) ;
+
+REMOVE Interj IF (1 SentNotExcl) ; 
+  # Мне случилось говорить с одним из наших писателей о комизме в жизни, о трудности определить явление, назвать его настоящим словом.
 
 ## Safe operations with preposition/adverb ambiguities
 
@@ -167,7 +179,9 @@ SELECT Neut IF (0 Dat) (-1 Year) (1 Nazad) ;
 
 SELECT Gen IF (-1 Percent) ;
 
-SELECT Pl + Gen IF (-1 Sto OR Tysjača) ;
+SELECT Gen + Pl IF (-1 Sto OR Tysjača) ;
+
+SELECT Gen + Pl IF (-1* Pjat BARRIER (*) - Adv LINK 0 Nom OR Acc);
 
 ## Safe operations with prepositional case
 
@@ -190,6 +204,12 @@ REMOVE Det IF (0 Det OR Pron) (1C* Fin BARRIER (*) - Adv) ;
 SELECT Ant + $$NGDAIP IF (1C Cog + $$NGDAIP) ; 
 
 SELECT Cog + $$NGDAIP IF (-1C Ant + $$NGDAIP) ; 
+
+## Heuristic operations on single-character words 
+
+SELECT Pr (0 O) (1 Prp) ; 
+
+SELECT Pron IF (0 Ja) (-1 BOS OR CS) ; 
 
 ## Heuristic operations 
 
