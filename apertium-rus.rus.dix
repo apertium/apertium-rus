@@ -1443,6 +1443,15 @@
       <e><p><l>ью</l><r><s n="num"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
       <e><p><l>и</l><r><s n="num"/><s n="mfn"/><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
+
+    <pardef n="девяност/о__num">
+      <e><p><l>о</l><r>о<s n="num"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>а</l><r>о<s n="num"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>а</l><r>о<s n="num"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>о</l><r>о<s n="num"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>а</l><r>о<s n="num"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>а</l><r>о<s n="num"/><s n="mfn"/><s n="pl"/><s n="prp"/></r></p></e>
+    </pardef>
   
     <pardef n="с/то__num">
       <e><p><l>то</l><r>то<s n="num"/><s n="mfn"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -1483,16 +1492,7 @@
       <e><p><l>емястами</l><r>иста<s n="num"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
       <e><p><l>ёхстах</l><r>иста<s n="num"/><s n="mfn"/><s n="pl"/><s n="prp"/></r></p></e>
     </pardef>
-  
-    <pardef n="девяност/о__num">
-      <e><p><l>о</l><r>о<s n="num"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>а</l><r>о<s n="num"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>а</l><r>о<s n="num"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e><p><l>о</l><r>о<s n="num"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e><p><l>а</l><r>о<s n="num"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
-      <e><p><l>а</l><r>о<s n="num"/><s n="mfn"/><s n="pl"/><s n="prp"/></r></p></e>
-    </pardef>
-  
+    
     <pardef n="пят/ьсот__num">
       <e><p><l>ьсот</l><r>ьсот<s n="num"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>исот</l><r>ьсот<s n="num"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
@@ -1541,7 +1541,6 @@
       <e><p><l>тора</l><r>тора<s n="num"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l>утора</l><r>тора<s n="num"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>утора</l><r>тора<s n="num"/><s n="m"/><s n="sg"/><s n="prp"/></r></p></e>
-
       <e><p><l>тора</l><r>тора<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>утора</l><r>тора<s n="num"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>утора</l><r>тора<s n="num"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
@@ -17883,6 +17882,8 @@
     <e lm="тысяча"><i>тысяч</i><par n="тысяч/а__num"/></e>
     <e lm="миллион"><i>миллион</i><par n="миллион__num"/></e>
     <e lm="миллиард"><i>миллиард</i><par n="миллион__num"/></e>
+    <e lm="триллион"><i>триллион</i><par n="миллион__num"/></e>
+    <e lm="триллиард"><i>триллиард</i><par n="миллион__num"/></e>
     <e lm="несколько"><i>нескольк</i><par n="нескольк/о__num_mfn"/></e>
     <e lm="несколько десятков"><i>нескольк</i><par n="нескольк/о__num_mfn"/><p><l><b/>десятков</l><r><g><b/>десятков</g></r></p></e>
     <e lm="полтора"><i>пол</i><par n="пол/тора__num"/></e>
