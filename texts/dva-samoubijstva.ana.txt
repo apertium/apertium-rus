@@ -1232,14 +1232,14 @@
 ^эмигранта/эмигрант<n><m><aa><sg><gen>$
 ^./.<sent>$
 ¶
-^Но/но¹<cnjcoo>$
+^Но/но<cnjcoo>$
 ^какие/какой<det><itg><mfn><an><pl><nom>$
 ^,/,<cm>$
 ^однако же/однако же<cnjcoo>$
 ^,/,<cm>$
 ^два/два<num><nt><nom>$
 ^разные/разный<adj><mfn><an><pl><nom>$
-^создания/создание<n><nt><aa><pl><nom>/создание<n><nt><nn><pl><nom>$
+^создания/создание<n><nt><aa><sg><gen>/создание<n><nt><nn><sg><gen>$
 ^,/,<cm>$
 ^точно/точно<adv>/точно<cnjsub>/точно<part>/точный<adj><short><nt><sg>$
 ^обе/оба<num><f><nn><acc>/оба<num><f><nom>$
