@@ -3,3 +3,4 @@ dc jun 18 15:51:30 CEST 2014	dva-samoubijstva.ana.txt	1231	66	94.63	3842	3.12	0	
 dc jun 18 16:26:51 CEST 2014	dva-samoubijstva.ana.txt	1231	65	94.71	3726	3.02	0	0	48	0
 dc jun 18 20:50:19 CEST 2014	dva-samoubijstva.ana.txt	1230	64	94.79	2044	1.66	0	0	48	0
 dc jun 18 22:11:28 CEST 2014	dva-samoubijstva.ana.txt	1230	62	94.95	1990	1.61	0	0	48	0
+dj jun 19 00:06:38 CEST 2014	dva-samoubijstva.ana.txt	1230	61	95.04	1936	1.57	0	0	48	0
