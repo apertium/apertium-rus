@@ -33,6 +33,7 @@
     <sdef n="ins" 	c="Instrumental"/>
     <sdef n="prp" 	c="Prepositional"/>
     <sdef n="loc" 	c="Locative"/>
+    <sdef n="par" 	c="Partitive"/>
     <sdef n="short" 	c="Short form adjective"/>
     <sdef n="sint" 	c="Adjective with comparative"/>
     <sdef n="cmp" 	c="Compound form adjective"/>
@@ -1632,7 +1633,7 @@
     <pardef n="/год__n_m_nn">
       <e><p><l>год</l><r>год<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>года</l><r>год<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>году</l><r>год<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>году</l><r>год<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="par"/></r></p></e>
       <e><p><l>году</l><r>год<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l>год</l><r>год<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l>годом</l><r>год<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
