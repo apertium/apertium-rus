@@ -244,3 +244,4 @@ SELECT Cmp IF (0 Cmp OR Adv) (1 Guio LINK 1 A LINK 1 N) ;
 
   # Нападающие выжигали огнем места, где могли спрятаться их жертвы: дома с труднодоступными помещениями, церкви, леса, перелески и т. п.
 
+# Distinguishing between adj/participle: if it gets arguments, it's not an adjective.

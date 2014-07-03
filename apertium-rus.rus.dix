@@ -133,8 +133,8 @@
     </pardef>
   
     <pardef n="quotes">
-      <e><re>[«]+</re><p><l></l><r><s n="lquot"/></r></p></e>
-      <e><re>[»]+</re><p><l></l><r><s n="rquot"/></r></p></e>
+      <e><re>[«“]+</re><p><l></l><r><s n="lquot"/></r></p></e>
+      <e><re>[»”]+</re><p><l></l><r><s n="rquot"/></r></p></e>
     </pardef>
   
     <pardef n="paresq">
