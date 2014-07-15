@@ -9,7 +9,6 @@ BASENAME=apertium-$(LANG1)
 
 TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).autogen.bin $(LANG1).autopgen.bin \
 	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
-        $(LANG1).prob \
         $(LANG1).rlx.bin
 
 # This include defines goals for install-modes, .deps/.d and .mode files:
@@ -63,7 +62,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 apertium_rusdir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_rus_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_rus_DATA=$(TARGETS_COMMON)
+apertium_rus_DATA=$(TARGETS_COMMON) $(LANG1).prob
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
