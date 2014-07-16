@@ -20,7 +20,7 @@ def longest_common_subsequence(a,b): #{
 #}
 
 def shortest(ilist): #{
-
+	print('<!--shortest:',ilist);
 	if not ilist: #{
 		return -1;
 	#}
@@ -143,6 +143,7 @@ for line in sys.stdin.readlines(): #{
 		full_sig = '';			
 		full_left = '';
 		if len(lcs['full']) > 0: #{
+			print('lcs[full]:\t', lcs['full']);
 			full_left = shortest(lcs['full']);
 			replacer = re.compile('^' + full_left);
 			for j in full: #{
@@ -154,6 +155,7 @@ for line in sys.stdin.readlines(): #{
 		comp_sig = '';			
 		comp_left = '';
 		if sint == 'sint': #{
+			print('lcs[comp]:\t', lcs['comp']);
 			comp_left = shortest(lcs['comp']);
 			replacer = re.compile('^' + comp_left);
 			for j in comp: #{
@@ -165,6 +167,7 @@ for line in sys.stdin.readlines(): #{
 		shor_sig = '';			
 		shor_left = '';
 		if len(lcs['shor']) > 0: #{
+			print('lcs[shor]:\t', lcs['shor']);
 			shor_left = shortest(lcs['shor']);
 			replacer = re.compile('^' + shor_left);
 			for j in shor: #{
@@ -189,8 +192,12 @@ for line in sys.stdin.readlines(): #{
 			shor_paradigms[shor_sig] = [];
 		#}
 
-		lexicon[lemma] = (full_sig, comp_sig, shor_sig);
+
 		lefts[lemma] = (full_left, comp_left, shor_left);
+		true_left = shortest(lefts[lemma]);
+		left = lefts[lemma][0].replace(true_left, '');	
+
+		lexicon[lemma] = (full_sig, comp_sig, shor_sig, left);
 
 		sig = '';
 		forms = [];
@@ -276,18 +283,18 @@ for pardef in full_paradigms: #{
 
 for pardef in paradigms: #{
 	tag = 'adj';
-	if '%' in pardef[1]: #{
+	if ':' in pardef[1]: #{
 		tag = 'adj.sint';
 	#}
 	full = full_paradigms[pardef[0]][0];
 	name = assignment[pardef][0];
 	print('      <pardef n="' + name + '__adj">');
-	true_left = shortest(lefts[name]);
-	left = lefts[name][0].replace(true_left, '');	
+#	true_left = shortest(lefts[name]);
+#	left = lefts[name][0].replace(true_left, '');	
 	if pardef[0].strip() != '': #{
-		print('        <e><p><l>%s</l><r>%s</r></p><par n="S__%s"/></e>' % (left, symbolise(tag), full));
+		print('        <e><p><l>%s</l><r>%s</r></p><par n="S__%s"/></e>' % (pardef[3], symbolise(tag), full));
 	#}
-	if '%' in pardef[1]: #{
+	if ':' in pardef[1]: #{
 		for j in pardef[1].split('%'): #{
 			left = j.split(':')[1];
 			right = j.split(':')[0];
@@ -301,10 +308,9 @@ for pardef in paradigms: #{
 			else: #{
 				print('        <e><p><l>%s</l><r>%s%s</r></p></e>' % (left, symbolise(tag), symbolise(right)));	
 			#}
-
 		#}
 	#}
-	if '%' in pardef[2]: #{
+	if ':' in pardef[2]: #{
 		for j in pardef[2].split('%'): #{
 			left = j.split(':')[1];
 			right = j.split(':')[0];
@@ -332,7 +338,7 @@ for lemma in words: #{
 	left = shortest(lefts[lemma]);
 	sig = lexicon[lemma];
 	name = assignment[sig][0];
-#	print('<!--',lemma,'|||',lefts[lemma],'|||','-->');
+	print('<!--',lemma,'|||',lefts[lemma],'|||','-->');
 	print('    <e lm="%s"><p><l>%s</l><r>%s</r></p><par n="%s__adj"/></e>' % (lemma, left, lemma, name));
 #}
 
