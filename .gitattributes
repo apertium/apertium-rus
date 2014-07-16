@@ -24,6 +24,10 @@ dev/archive/apertium-rus.rus.rlx -text
 dev/deaccent.pl -text
 dev/dump.txt -text
 dev/gci2013/GCI.txt -text
+dev/giellatekno/conv.sh -text
+dev/giellatekno/export-to-apertium.sh -text
+dev/giellatekno/speling-autodix-adj.py -text
+dev/giellatekno/speling-autodix-n.py -text
 dev/questions.txt -text
 dev/spellrelax.xsl -text
 dev/stem-list.txt -text svneol=unset#application/octet-stream
