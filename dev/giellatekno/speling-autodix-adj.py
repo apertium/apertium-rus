@@ -20,7 +20,7 @@ def longest_common_subsequence(a,b): #{
 #}
 
 def shortest(ilist): #{
-	print('<!--shortest:',ilist);
+	#print('<!--shortest:',ilist);
 	if not ilist: #{
 		return -1;
 	#}
@@ -143,7 +143,7 @@ for line in sys.stdin.readlines(): #{
 		full_sig = '';			
 		full_left = '';
 		if len(lcs['full']) > 0: #{
-			print('lcs[full]:\t', lcs['full']);
+			#print('lcs[full]:\t', lcs['full']);
 			full_left = shortest(lcs['full']);
 			replacer = re.compile('^' + full_left);
 			for j in full: #{
@@ -155,7 +155,7 @@ for line in sys.stdin.readlines(): #{
 		comp_sig = '';			
 		comp_left = '';
 		if sint == 'sint': #{
-			print('lcs[comp]:\t', lcs['comp']);
+			#print('lcs[comp]:\t', lcs['comp']);
 			comp_left = shortest(lcs['comp']);
 			replacer = re.compile('^' + comp_left);
 			for j in comp: #{
@@ -167,7 +167,7 @@ for line in sys.stdin.readlines(): #{
 		shor_sig = '';			
 		shor_left = '';
 		if len(lcs['shor']) > 0: #{
-			print('lcs[shor]:\t', lcs['shor']);
+			#print('lcs[shor]:\t', lcs['shor']);
 			shor_left = shortest(lcs['shor']);
 			replacer = re.compile('^' + shor_left);
 			for j in shor: #{
@@ -338,7 +338,7 @@ for lemma in words: #{
 	left = shortest(lefts[lemma]);
 	sig = lexicon[lemma];
 	name = assignment[sig][0];
-	print('<!--',lemma,'|||',lefts[lemma],'|||','-->');
+#	print('<!--',lemma,'|||',lefts[lemma],'|||','-->');
 	print('    <e lm="%s"><p><l>%s</l><r>%s</r></p><par n="%s__adj"/></e>' % (lemma, left, lemma, name));
 #}
 

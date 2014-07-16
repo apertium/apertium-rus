@@ -13,6 +13,8 @@ cat /tmp/russian-adjectives | sed 's/<\(sg\|pl\)><\(gen\|prp\|dat\|ins\|nom\|loc
 mv /tmp/russian-adjectives.1 /tmp/russian-adjectives
 cat /tmp/russian-adjectives | sed 's/<adj>/; <adj> ; /g' | sed 's/:/; /g' | awk -F';' '{print $2"; "$1"; "$4"; "$3}' |  sed 's/></./g' | sed 's/[<>]//g' | LC_ALL=C sort -u  | sed 's/  */ /g' | sed 's/^ *//g' > /tmp/russian-adjectives.speling
 cat /tmp/russian-adjectives.speling | python3 speling-autodix-adj.py > /tmp/russian-adjectives.dix
+cat /tmp/russian-adjectives.dix | sed 's/<e r="LR">.*<s n="adj"\/>\(<s n="sint"\/>\)\?<s n="short"\/><s n="nt"\/><s n="sg"\/>.*/&\n        @@@&@@@/g' | sed 's/<s n="short"\/><s n="nt"\/><s n="sg"\/><\/r><\/p><\/e>@@@/<s n="cmp"\/><\/r><\/p><\/e>/g' | sed 's/@@@<e r="LR">/<e>/g' | sed 's/@@@<e>/<e>/g'  > /tmp/russian-adjectives.dix.1
+mv /tmp/russian-adjectives.dix.1 /tmp/russian-adjectives.dix
 
 echo "[ А | Б | В | Г | Д | Е | Ё | Ж | З | И | Й | К | Л | М | Н | О | П | Р | С | Т | У | Ф | Х | Ц | Ч | Ш | Щ | Ъ | Ы | Ь | Э | Ю | Я | а | б | в | г | д | е | ё | ж | з | и | й | к | л | м | н | о | п | р | с | т | у | ф | х | ц | ч | ш | щ | ъ | ы | ь | э | ю | я | ¹ | ² | ³ | ⁻ | %- ]* %<vblex%> ?*" | hfst-regexp2fst -S -o /tmp/regex
 hfst-compose-intersect -1 analyser-mt-apertium-desc.und.hfst -2 /tmp/regex | hfst-fst2strings > /tmp/russian-verbs

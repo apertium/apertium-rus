@@ -1,4 +1,7 @@
-#hfst-fst2txt analyser-mt-apertium-desc.und.hfst |\
+RUS=/home/fran/source/giellatekno/langs/rus
+
+pushd $RUS/tools/mt/apertium
+
 make analyser-mt-apertium-desc.tmp.hfst
 hfst-fst2txt analyser-mt-apertium-desc.tmp.hfst |\
   sed 's/а́/а/g' | sed 's/о́/о/g' |\
@@ -21,5 +24,7 @@ hfst-fst2txt analyser-mt-apertium-desc.tmp.hfst |\
  hfst-txt2fst | hfst-invert -o analyser-mt-apertium-desc.und.hfst
 
 hfst-fst2fst -O analyser-mt-apertium-desc.und.hfst -o analyser-mt-apertium-desc.und.ohfst
+
+popd
 
 #  sed 's/<gen2>/<par>/g' | sed 's/+CLB/<sent>/g' | awk -F'\t' ' OFS="\t" {print $0; if($4 == "ё") { $4="е"; print $0; } }' |
