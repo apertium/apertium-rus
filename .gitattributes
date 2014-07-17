@@ -38,8 +38,7 @@ dev/to_add.txt -text
 dev/to_check.txt -text
 dev/verbs-z.txt -text
 expanded/README -text
-expanded/current-state.txt.gz -text svneol=unset#unset
-expanded/previous-state.txt.gz -text svneol=unset#unset
+expanded/diff-previous-vs-current.txt -text
 /modes.xml -text
 /qa.sh -text
 /rus.prob -text

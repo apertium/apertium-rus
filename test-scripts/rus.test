@@ -3,10 +3,12 @@
 # Expands apertium-rus.rus.dix and compares it to the expansion of the previous
 # state of the dictionary (before you made changes).
 # Both 'previous' and 'current' files are stored in ../expanded directory
-# sorted and compressed.
+# sorted and compressed, but they are not tracked in svn. The only thing tracked
+# in svn is the diff between the two.
 
 lt-expand apertium-rus.rus.dix | sort | gzip -c > expanded/current-state.txt.gz &&
 
 diff -U0 <(zcat expanded/previous-state.txt.gz) <(zcat expanded/current-state.txt.gz) |
-dwdiff --diff-input | more
+dwdiff --diff-input > expanded/diff-previous-vs-current.txt
 
+less expanded/diff-previous-vs-current.txt
