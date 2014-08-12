@@ -28,6 +28,7 @@ dev/giellatekno/conv.sh -text
 dev/giellatekno/export-to-apertium.sh -text
 dev/giellatekno/speling-autodix-adj.py -text
 dev/giellatekno/speling-autodix-n.py -text
+dev/giellatekno/speling-autodix-vblex.py -text
 dev/questions.txt -text
 dev/spellrelax.xsl -text
 dev/stem-list.txt -text svneol=unset#application/octet-stream
