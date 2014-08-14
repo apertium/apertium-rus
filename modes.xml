@@ -17,6 +17,17 @@
     </pipeline>
   </mode>
 
+  <mode name="rus-tagger">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="rus.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="rus.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <mode name="rus-disam">
     <pipeline>
       <program name="lt-proc -w">
@@ -39,6 +50,5 @@
       </program>
     </pipeline>
   </mode>
-
 
 </modes>
