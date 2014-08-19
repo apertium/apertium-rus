@@ -1,3 +1,7 @@
+# Errors:
+##         "представительный" adj sint comp
+
+
 import sys, re;
 
 def longest_common_subsequence(a,b): #{
