@@ -8,19 +8,23 @@ LIST N = n ;
 LIST Pr = pr ; 
 LIST Pron = prn ;
 LIST Det = det ; 
-LIST Num = num ; 
+LIST Num = num "<[0-9]+>"r; 
 LIST A = adj ; 
 LIST Adv = adv ; 
 LIST CS = cnjsub ; 
 LIST Interj = ij ;
 LIST CC = cnjcoo ; 
 LIST V = vblex vbser vbmod ; 
-LIST Guio = guio ; 
+LIST Guio = guio "-" ; 
 
 LIST Percent = ("<[0-9]+%>"r) percent ; 
 LIST Roman = roman ; 
 LIST Pprep = pprep ; 
 LIST Pers = pers ;
+
+LIST Parens = lpar rpar par ;
+LIST Apos = apos ; 
+LIST Quot = lquot rquot quot ;
 
 LIST Short = short ; # pred
 LIST Cmp = cmp ; 
@@ -75,6 +79,9 @@ LIST Pr/Krome = ("кроме" pr) ;
 LIST Pr/O = ("о" pr) ;
 LIST Pr/Posle = ("после" pr) ;
 
+LIST N/Bukva = ("буква" n) ;
+LIST N/Goda = ("<года>" n) ;
+
 LIST Cm = cm ; 
 
 LIST O = "о" ; 
@@ -88,22 +95,33 @@ LIST Nazad = "назад" ;
 
 LIST NumNotNom = "<([0-9])*[023456789]>"r "<([0-9])*11>"r ;
 
+LIST LesserNum = "полтора" "два" "три" "четыре" "обо" "<([2-90]+)*[1-4]>"r ;
+
+LIST Poltora = "полтора" ; 
 LIST Pjat = "пять" "5" ; 
 LIST Sto = "сто" "100" ; 
 LIST Tysjača = "тысяча" "1000" ; 
 
-LIST Month = "январь" "февраль" "апрель" "май" "июнь" "июль" "сентябрь" "октябрь" "ноябрь" "декябрь" ; 
+LIST Day = "день" ; 
+LIST Month = "месяц" ;
+LIST Months = "январь" "февраль" "март" "апрель" "май" "июнь" "июль" "август" "сентябрь" "октябрь" "ноябрь" "декабрь" ; 
 LIST Year = "год" "год¹" ("г." abbr) ;
 LIST Century = "век" ; 
-LIST Season = "весна" "лето" "осень" "зима" ;
+LIST Season = "сезон" ; 
+LIST Seasons = "весна" "лето" "осень" "зима" ;
 LIST TimeOfDay = "день" "вечер" "утро" "ночь" ; 
+LIST Polovina = "половина" ;
+
+LIST Letters = ("же" n) ; # etc.
 
 LIST InsAdv = "часом" ; 
 
 LIST Majusc = ("<[А-Я]>"r) ;
 LIST Minusc = ("<[а-я]>"r) ;
 
-SET Sem/Time = Month | Year | Century | Season | TimeOfDay ;
+LIST Prob = prb ;
+
+SET Sem/Time = Month | Months | Year | Century | Season | Seasons | TimeOfDay | ("период") ; 
 
 SET Sem/Distance = ("километр") | ("метр") ; 
 
@@ -115,7 +133,7 @@ SET Sem/Unit = Sem/Time | Sem/Distance | Sem/Weight | Sem/Quantity ;
 
 SET MascFemNeut = Masc | Fem | Neut ; 
 
-SET NGDAIP = Nom | Gen | Dat | Acc | Ins | Prp ; 
+SET NGDAIP = Nom | Gen | Dat | Acc | Ins | Prp | Loc ;  
 
 SET SentNotExcl = (".") | ("...") | ("?") ; 
 
@@ -166,7 +184,7 @@ REMOVE NGDAIP - Gen IF (-1C* Pr/Dlja OR Pr/Do OR Pr/Ot OR Pr/Iz OR Pr/Iz-za OR P
 
 REMOVE NGDAIP - Gen - Ins - Acc IF (-1C* Pr/S CBARRIER (*) - Adv - DetIndecl) ;
 
-REMOVE NGDAIP - Acc - Prp IF (-1C* Pr/V OR Pr/Na CBARRIER (*) - Adv - DetIndecl) ;
+REMOVE NGDAIP - Acc - Prp - Loc IF (-1C* Pr/V OR Pr/Na CBARRIER (*) - Adv - DetIndecl) ;
 
 REMOVE NGDAIP - Acc - Dat - Prp IF (-1C* Pr/Po CBARRIER (*) - Adv - DetIndecl) ;
 
@@ -187,9 +205,9 @@ REMOVE Pers IF (0C Pers OR Det) (NOT 0 Pprep) (-1C Pr) ;
 
 ## Safe operations with dates 
 
-SELECT Gen IF (0 Year) (-1 Num LINK -1 Month LINK -1 Pr/V) ;
+SELECT Gen IF (0 Year) (-1 Num LINK -1 Months LINK -1 Pr/V) ;
 
-SELECT Gen IF (0 Year) (-1 Num LINK -1 Month + Gen LINK -1 Num) ; 
+SELECT Gen IF (0 Year) (-1 Num LINK -1 Months + Gen LINK -1 Num) ; 
 
 SELECT Dat IF (0 Year) (-1 Num LINK -1 Pr/K) ;
 
@@ -227,6 +245,8 @@ SELECT Ant + $$NGDAIP IF (1C Cog + $$NGDAIP) ;
 
 SELECT Cog + $$NGDAIP IF (-1C Ant + $$NGDAIP) ; 
 
+SECTION 
+
 ## Heuristic operations on single-character words 
 
 SELECT Pr (0 O) (1 Prp) ; 
@@ -247,23 +267,60 @@ REMOVE NGDAIP - Ins IF (0C A OR Det) (1C* N + Ins BARRIER NGDAIP - Ins);
 
 REMOVE Short (-1C Pr) ; 
 
-REMOVE Acc IF (-1* BOS BARRIER (*) - Nom) (0C Nom OR Acc) (NOT 1* TV) (NOT 0 Sem/Time) (NOT 0 Sem/Distance) ; 
-
-SELECT N + $$NGDAIP IF (0 A OR N) (-1C A + $$NGDAIP LINK -1* Pr CBARRIER (*) - $$NGDAIP) (1C N) (NOT 1C N + $$NGDAIP) ; 
-  # По официальным данным правительства Руанды, число погибших составило 937 тысяч человек.
+REMOVE Acc IF (-1* BOS BARRIER (*) - Nom) (0C Nom OR Acc) (NOT 1* TV) (NOT -1 Num LINK 1 Sem/Time OR Sem/Distance) (NOT 0 Sem/Time) (NOT 0 Sem/Distance) ; 
 
 REMOVE Cmp IF (0 Cmp OR Adv) (NOT 1 Guio) ; # (NOT 1 Guio LINK 1 A) ; 
 
 SELECT Cmp IF (0 Cmp OR Adv) (1 Guio LINK 1 A LINK 1 N) ; 
 
-REMOVE Nom IF (-1C NumNotNom) ;
-  #! Для соседних с Руандой государств руандийские события апреля - июля 1994 года вылились в огромное число прибывших беженцев.
-
 SELECT Adv IF (0C InsAdv) ;
 
 REMOVE Adv IF (0C N + Ins OR Adv) (NOT 0 InsAdv) ;
 
-REMOVE Acc (-1C Pr/S) (0 Sem/Unit) ; 
+REMOVE Acc (-1C Pr/S) (NOT 0 Sem/Unit) ; 
+
+REMOVE Letters (NOT -1 Quot OR Parens OR Apos) (NOT 1 Quot OR Parens OR Apos) (NOT -1 N/Bukva) (NOT -1 Pr); 
+
+REMOVE Nom IF (-1C NumNotNom) ;
+  #! Для соседних с Руандой государств руандийские события апреля - июля 1994 года вылились в огромное число прибывших беженцев.
+
+REMOVE Pl IF (0 N/Goda) (-1 LesserNum LINK NOT -1 Gen) ;
+
+SELECT Masc IF (-1C Pr) (0 LesserNum) (1 N/Goda) ;
+
+SELECT Gen IF (0 N/Goda) (-1 Num LINK -1 Seasons);
+
+SELECT Gen IF (0 N/Goda) (-1 Num LINK -1 Seasons OR Months LINK -1 Pr); 
+
+SELECT Gen IF (0 N/Goda) (-1 Num LINK -1 Seasons OR Months LINK -1 Guio LINK -1 Seasons OR Months LINK -1 Pr); 
+
+SELECT Gen IF (0 N/Goda) (-1 Num LINK -1 Months LINK -1 Num);
+
+SELECT Gen IF (0 N/Goda) (-1C Num) (1C EOS) ;
+
+SELECT Gen IF (0 N/Goda) (-1 Month OR Seasons OR Day) ; 
+
+SELECT Gen IF (0 N/Goda) (-1 A LINK -1 Month OR Seasons OR Day) ; 
+
+SELECT Gen IF (0 N/Goda) (-1 A LINK -1 Num LINK -1 Pr) ;
+
+SELECT Gen IF (0 N/Goda) (-1 Num LINK -1 Pr) ;
+
+REMOVE Fem IF (0C Num) (1C N + Masc + Sg + Gen)  ; 
+
+REMOVE Neut IF (0C Num) (1C N + Masc + Sg + Gen)  ; 
+
+SELECT Gen IF (0 N/Goda) (-1C LesserNum) (1 Nazad) ;
+
+REMOVE Prob ; 
+
+## Parts: половина, часть, протяжение, прошествие, течение, (начало, конец,)
+
+#REMOVE Pl IF (0 N/Goda) (NOT -1* Num BARRIER NGDAIP - Nom OR Acc)  
+
+#SELECT N + $$NGDAIP IF (0 A OR N) (-1C A + $$NGDAIP LINK -1* Pr CBARRIER (*) - $$NGDAIP) (1C N) (NOT 1C N + $$NGDAIP) ; 
+  # По официальным данным правительства Руанды, число погибших составило 937 тысяч человек.
+  #! Мать Кардуччи, умная и образованная женщина, противница всякого ханженства, внушила ему в ранние детские года горячий патриотизм и ненависть к немцам, и по трагедиям Альфьери и патриотическим одам Верни учила его азбуке.
 
 ###############################################################################
 
@@ -277,3 +334,6 @@ REMOVE Acc (-1C Pr/S) (0 Sem/Unit) ;
   # Нападающие выжигали огнем места, где могли спрятаться их жертвы: дома с труднодоступными помещениями, церкви, леса, перелески и т. п.
 
 # Distinguishing between adj/participle: if it gets arguments, it's not an adjective.
+
+
+
