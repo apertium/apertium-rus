@@ -288,7 +288,7 @@ REMOVE Pl IF (0 N/Goda) (-1 LesserNum LINK NOT -1 Gen) ;
 
 SELECT Masc IF (-1C Pr) (0 LesserNum) (1 N/Goda) ;
 
-SELECT Gen IF (0 N/Goda) (-1 Num LINK -1 Seasons);
+SELECT Gen IF (0 N/Goda) (-1 Num LINK -1 Seasons OR Months);
 
 SELECT Gen IF (0 N/Goda) (-1 Num LINK -1 Seasons OR Months LINK -1 Pr); 
 
