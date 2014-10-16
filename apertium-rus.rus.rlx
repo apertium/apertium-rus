@@ -78,9 +78,10 @@ LIST Pr/Protiv = ("против" pr) ;
 LIST Pr/Krome = ("кроме" pr) ;
 LIST Pr/O = ("о" pr) ;
 LIST Pr/Posle = ("после" pr) ;
+LIST Pr/Nado = ("<надо>"i pr) ;
 
 LIST N/Bukva = ("буква" n) ;
-LIST N/Goda = ("<года>" n) ;
+LIST N/Goda = ("<года>"i n) ;
 
 LIST Cm = cm ; 
 
@@ -92,6 +93,8 @@ LIST Samyj = "самый" ;
 LIST Posle = "после" ;
 LIST Čto = "что" ;
 LIST Nazad = "назад" ;
+
+LIST PrefixNado = "<[бвгджзйклмнпрстуфхцчшщъь][бвгджзйклмнпрстуфхцчшщъь].*>"r ; 
 
 LIST NumNotNom = "<([0-9])*[023456789]>"r "<([0-9])*11>"r ;
 
@@ -312,8 +315,6 @@ REMOVE Neut IF (0C Num) (1C N + Masc + Sg + Gen)  ;
 
 SELECT Gen IF (0 N/Goda) (-1C LesserNum) (1 Nazad) ;
 
-REMOVE Prob ; 
-
 ## Parts: половина, часть, протяжение, прошествие, течение, (начало, конец,)
 
 #REMOVE Pl IF (0 N/Goda) (NOT -1* Num BARRIER NGDAIP - Nom OR Acc)  
@@ -322,9 +323,12 @@ REMOVE Prob ;
   # По официальным данным правительства Руанды, число погибших составило 937 тысяч человек.
   #! Мать Кардуччи, умная и образованная женщина, противница всякого ханженства, внушила ему в ранние детские года горячий патриотизм и ненависть к немцам, и по трагедиям Альфьери и патриотическим одам Верни учила его азбуке.
 
+REMOVE Pr/Nad IF (0 Pr/Nado) (NOT 1 PrefixNado) ; 
+
+REMOVE Pr/Nad IF (1C Inf) ;
+
 ###############################################################################
 
-# над/надо
 # после/посол
 
 
@@ -335,5 +339,6 @@ REMOVE Prob ;
 
 # Distinguishing between adj/participle: if it gets arguments, it's not an adjective.
 
+SECTION 
 
-
+REMOVE Prob ; 
