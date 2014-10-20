@@ -15,18 +15,22 @@ LIST CS = cnjsub ;
 LIST Interj = ij ;
 LIST CC = cnjcoo ; 
 LIST V = vblex vbser vbmod ; 
+
 LIST Guio = guio "-" ; 
+LIST Cm = cm ; 
+LIST Excl = ("!") ;
 
 LIST Percent = ("<[0-9]+%>"r) percent ; 
-LIST Roman = roman ; 
+LIST Roman = roman ("<M{0,4}(CM|CD|D(C{0,3}))?(XC|XL|L(X{0,3}))?(IX|IV|V(I{0,3}))?>"ri num) ; 
 LIST Pprep = pprep ; 
 LIST Pers = pers ;
+LIST Paren = paren ; 
 
 LIST Parens = lpar rpar par ;
 LIST Apos = apos ; 
 LIST Quot = lquot rquot quot ;
 
-LIST Short = short ; # pred
+LIST Short = short (adj pred) ; # pred
 LIST Cmp = cmp ; 
 
 LIST TV = tv ; 
@@ -35,12 +39,14 @@ LIST IV = iv ;
 LIST Ant = ant ; 
 LIST Cog = cog ; 
 
-LIST Masc = m ; 
+LIST Msc = m ; 
 LIST Fem = f ; 
-LIST Neut = nt ; 
+LIST Neu = nt ; 
 
 LIST Sg = sg ; 
 LIST Pl = pl ;
+
+LIST Ord = ord ; 
 
 LIST DetIndecl = ("её" det pos) ("его" det pos") ("их" det pos) ;
 
@@ -58,8 +64,10 @@ LIST Anim = aa an ;
 LIST Inanim = nn an ; 
 
 LIST Inf = inf ; 
-
+LIST Imper = imp ; 
 LIST Fin = past pres fut ; 
+
+LIST Prn/Tebe = ("<тебе>"i prn) ;
 
 LIST Pr/V = ("в" pr) ;
 LIST Pr/Na = ("на" pr) ;
@@ -71,6 +79,7 @@ LIST Pr/Dlja = ("для" pr) ;
 LIST Pr/Ot = ("от" pr) ;
 LIST Pr/Do = ("до" pr) ;
 LIST Pr/Iz = ("из" pr) ;
+LIST Pr/Pod = ("под" pr) ;
 LIST Pr/Meždu = ("между" pr) ;
 LIST Pr/Iz-za = ("из-за" pr) ;
 LIST Pr/K = ("к" pr) ;
@@ -79,11 +88,28 @@ LIST Pr/Krome = ("кроме" pr) ;
 LIST Pr/O = ("о" pr) ;
 LIST Pr/Posle = ("после" pr) ;
 LIST Pr/Nado = ("<надо>"i pr) ;
+LIST Pr/Pered = ("перед"i pr) ;
 
 LIST N/Bukva = ("буква" n) ;
 LIST N/Goda = ("<года>"i n) ;
+LIST N/Potom = ("<потом>"i n) ;
+LIST N/Krov = ("кровь"i n) ;
+LIST N/Tomu = ("<тому>"i n) ;
+LIST N/Golova = ("голова"i n) ;
+LIST N/Denga = ("деньга"i n) ;
+LIST N/Voda = ("<вода>"i n) ; 
+LIST N/Beregu = ("<берегу>"i n) ;
+LIST N/Vek = ("век¹" n);
 
-LIST Cm = cm ; 
+LIST A/Malo = ("<мало>" adj) ;
+
+LIST V/Oblivatsja = ("обливаться" vblex) ;
+LIST V/Pahnut = ("пахнуть" vblex) ;
+LIST V/Isteč = ("истечь" vblex) ;
+LIST V/Vypuskat = ("выпускать" vblex) ;
+
+LIST Ij/Na = ("на" ij) ;
+
 
 LIST O = "о" ; 
 LIST Ja = "я" ; 
@@ -93,6 +119,8 @@ LIST Samyj = "самый" ;
 LIST Posle = "после" ;
 LIST Čto = "что" ;
 LIST Nazad = "назад" ;
+LIST Sliškom = "слишком" ; 
+LIST Našej = "<нашей>" ; 
 
 LIST PrefixNado = "<[бвгджзйклмнпрстуфхцчшщъь][бвгджзйклмнпрстуфхцчшщъь].*>"r ; 
 
@@ -114,13 +142,14 @@ LIST Season = "сезон" ;
 LIST Seasons = "весна" "лето" "осень" "зима" ;
 LIST TimeOfDay = "день" "вечер" "утро" "ночь" ; 
 LIST Polovina = "половина" ;
+LIST CardPoint = "западный" "южный" "юго-западный" ;
 
-LIST Letters = ("же" n) ; # etc.
+LIST Letters = ("же" n) ("у²" n) ("о²" n) ("и²" n) ("а²" n) ; # etc.
 
-LIST InsAdv = "часом" ; 
+LIST InsAdv = "часом" "потом" ; 
 
-LIST Majusc = ("<[А-Я]>"r) ;
-LIST Minusc = ("<[а-я]>"r) ;
+LIST Majusc = ("<[А-ЯA-Z]>"r) ;
+LIST Minusc = ("<[а-яa-z]>"r) ;
 
 LIST Prob = prb ;
 
@@ -134,7 +163,9 @@ SET Sem/Weight = ("килограмм") | ("грамм") ;
 
 SET Sem/Unit = Sem/Time | Sem/Distance | Sem/Weight | Sem/Quantity ; 
 
-SET MascFemNeut = Masc | Fem | Neut ; 
+SET MscFemNeu = Msc | Fem | Neu ; 
+
+SET Prep/Ins = Pr/S | Pr/Nad | Pr/Pod | Pr/Meždu | Pr/Pered ; 
 
 SET NGDAIP = Nom | Gen | Dat | Acc | Ins | Prp | Loc ;  
 
@@ -216,7 +247,7 @@ SELECT Dat IF (0 Year) (-1 Num LINK -1 Pr/K) ;
 
 REMOVE NGDAIP - Gen - Loc IF (0 Year) (-1 Num LINK -1 Pr/V) ;
 
-SELECT Neut IF (0 Dat) (-1 Year) (1 Nazad) ; 
+SELECT Neu IF (0 Dat) (-1 Year) (1 Nazad) ; 
 
 ## Safe operations in some numeral expressions
 
@@ -260,9 +291,9 @@ SELECT Pron IF (0 Ja) (-1 BOS OR CS) ;
 
 SELECT CS IF (0 Čto) (-1 Cm) (NOT 1* ("?")) ;
 
-REMOVE Fem IF  (0C A) (0C Masc OR Fem) (1C N) (NOT 1 Fem);
+REMOVE Fem IF  (0C A) (0C Msc OR Fem) (1C N) (NOT 1 Fem);
 
-REMOVE Masc IF (0C A) (0C Masc OR Neut) (1C N) (NOT 1 Masc);
+REMOVE Msc IF (0C A) (0C Msc OR Neu) (1C N) (NOT 1 Msc);
 
 REMOVE NGDAIP - Prp IF (0C A OR Det) (1C* N + Prp BARRIER NGDAIP - Prp);
 
@@ -289,7 +320,7 @@ REMOVE Nom IF (-1C NumNotNom) ;
 
 REMOVE Pl IF (0 N/Goda) (-1 LesserNum LINK NOT -1 Gen) ;
 
-SELECT Masc IF (-1C Pr) (0 LesserNum) (1 N/Goda) ;
+SELECT Msc IF (-1C Pr) (0 LesserNum) (1 N/Goda) ;
 
 SELECT Gen IF (0 N/Goda) (-1 Num LINK -1 Seasons OR Months);
 
@@ -309,9 +340,9 @@ SELECT Gen IF (0 N/Goda) (-1 A LINK -1 Num LINK -1 Pr) ;
 
 SELECT Gen IF (0 N/Goda) (-1 Num LINK -1 Pr) ;
 
-REMOVE Fem IF (0C Num) (1C N + Masc + Sg + Gen)  ; 
+REMOVE Fem IF (0C Num) (1C N + Msc + Sg + Gen)  ; 
 
-REMOVE Neut IF (0C Num) (1C N + Masc + Sg + Gen)  ; 
+REMOVE Neu IF (0C Num) (1C N + Msc + Sg + Gen)  ; 
 
 SELECT Gen IF (0 N/Goda) (-1C LesserNum) (1 Nazad) ;
 
@@ -327,6 +358,34 @@ REMOVE Pr/Nad IF (0 Pr/Nado) (NOT 1 PrefixNado) ;
 
 REMOVE Pr/Nad IF (1C Inf) ;
 
+SELECT N/Potom IF (-1 V/Oblivatsja OR V/Pahnut OR V/Isteč) ;
+
+SELECT N/Potom IF (1 CC LINK 1 N/Krov) ;
+
+REMOVE N/Potom IF (NOT -1 Prep/Ins OR A + Ins); 
+
+REMOVE N/Tomu IF (NOT -1* Pr/Po LINK -1* V/Vypuskat) ;
+
+REMOVE Msc IF (0C N/Golova) (0C Msc OR Fem) ;
+
+REMOVE A/Malo IF (1 Gen) ; 
+
+REMOVE A/Malo IF (-1 Sliškom) ; 
+
+REMOVE Imper IF (0 Našej) (NOT 1* Excl) ;
+
+REMOVE Interj IF (0 Ij/Na) (NOT 1* Excl) (NOT 1 Prn/Tebe) (NOT 1 Cm) ;
+
+SELECT Loc IF (0 N/Beregu) (-1* Pr/Na CBARRIER (*) - Prp) ;
+
+REMOVE Fin IF (-1C Pr/K) (0C Fin OR Dat) ;
+
+REMOVE Fin IF (-1C Pr/Na) (0C Fin OR Loc) ;
+
+SELECT Ord IF (0 Num OR Ord) (1C N/Vek) ;
+
+SELECT Paren IF (-1 Cm) (0 Paren OR Short) (1 Cm) ; 
+
 ###############################################################################
 
 # после/посол
@@ -341,4 +400,10 @@ REMOVE Pr/Nad IF (1C Inf) ;
 
 SECTION 
 
+REMOVE N/Denga ; 
+
+REMOVE Msc IF (0 N/Voda) ; 
+
 REMOVE Prob ; 
+
+SELECT Majusc IF (0C Roman) ;
