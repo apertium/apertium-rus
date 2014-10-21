@@ -5,6 +5,7 @@ LIST BOS = (>>>) ;
 LIST EOS = (<<<) ; 
 
 LIST N = n ; 
+LIST Prop = np prop ; 
 LIST Pr = pr ; 
 LIST Pron = prn ;
 LIST Det = det ; 
@@ -15,6 +16,8 @@ LIST CS = cnjsub ;
 LIST Interj = ij ;
 LIST CC = cnjcoo ; 
 LIST V = vblex vbser vbmod ; 
+
+LIST Cop = ("быть" vblex) ;
 
 LIST Guio = guio "-" ; 
 LIST Cm = cm ; 
@@ -183,9 +186,15 @@ SET MscFemNeu = Msc | Fem | Neu ;
 
 SET Prep/Ins = Pr/S | Pr/Nad | Pr/Pod | Pr/Meždu | Pr/Pered ; 
 
+SET Prep/Acc = Pr/V | Pr/Po ; # complete
+
+SET MFN = Msc | Fem | Neu ; 
+
 SET NGDAIP = Nom | Gen | Dat | Acc | Ins | Prp | Loc ;  
 
 SET SentNotExcl = (".") | ("...") | ("?") ; 
+
+SET CLB = Rel | CS ;
 
 SECTION 
 
@@ -424,6 +433,9 @@ SELECT Gen IF (0 N/Vek) (0C Sg + Gen OR Pl) (-1 A + Gen LINK -1 TimePart) ;
 
 # после/посол
 
+# SELECT Nom + $$MFN IF (0C Prop) (0C Acc OR Nom) (NOT -1C* Nom) (NOT 1C* Nom) (NOT -1* TV) (NOT 1* TV) (-1C* Cop + $$MFN) ;
+
+# SELECT Nom + $$MFN IF (0C Prop) (0C Acc OR Nom) (NOT -1C* Nom) (NOT 1C* Nom) (NOT -1* TV BARRIER CLB) (NOT 1* TV BARRIER CLB) (1C* Cop + $$MFN BARRIER CLB) ;
 
 # REMOVE Acc IF (0 Nom OR Acc) (NOT -1* TV) (NOT -1C* Pr) (NOT 1* TV) ;
 # REMOVE Acc IF (NOT -1* TV) (-1* IV LINK 0 Fin) (NOT 1* TV BARRIER Fin) ;
@@ -431,6 +443,12 @@ SELECT Gen IF (0 N/Vek) (0C Sg + Gen OR Pl) (-1 A + Gen LINK -1 TimePart) ;
   # Нападающие выжигали огнем места, где могли спрятаться их жертвы: дома с труднодоступными помещениями, церкви, леса, перелески и т. п.
 
 # Distinguishing between adj/participle: if it gets arguments, it's not an adjective.
+
+#SECTION
+
+#LIST @CLB = @CLB ;
+
+#MAP @CLB TARGET Cm IF (-1C* Fin) (1C* Fin) (NOT -1* CC OR CS) (NOT 1* CC OR CS);
 
 SECTION 
 
