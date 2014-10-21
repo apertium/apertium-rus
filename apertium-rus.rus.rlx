@@ -19,9 +19,11 @@ LIST V = vblex vbser vbmod ;
 LIST Guio = guio "-" ; 
 LIST Cm = cm ; 
 LIST Excl = ("!") ;
+LIST Ques = ("?") ;
 
 LIST Percent = ("<[0-9]+%>"r) percent ; 
-LIST Roman = roman ("<M{0,4}(CM|CD|D(C{0,3}))?(XC|XL|L(X{0,3}))?(IX|IV|V(I{0,3}))?>"ri num) ; 
+LIST Roman = roman ("<M{0,4}(CM|CD|D(C{0,3}))?(XC|XL|L(X{0,3}))?(IX|IV|V(I{0,3}))?>"ri num) ("<[MCDXLIVМСХ]+>"ri num) ;
+
 LIST Pprep = pprep ; 
 LIST Pers = pers ;
 LIST Paren = paren ; 
@@ -47,6 +49,8 @@ LIST Sg = sg ;
 LIST Pl = pl ;
 
 LIST Ord = ord ; 
+LIST Interr = itg ; 
+LIST Rel = rel ; 
 
 LIST DetIndecl = ("её" det pos) ("его" det pos") ("их" det pos) ;
 
@@ -68,6 +72,8 @@ LIST Imper = imp ;
 LIST Fin = past pres fut ; 
 
 LIST Prn/Tebe = ("<тебе>"i prn) ;
+LIST Prn/Komu = ("<кому>"i prn) ;
+LIST Prn/Tot = ("тот"i prn) ;
 
 LIST Pr/V = ("в" pr) ;
 LIST Pr/Na = ("на" pr) ;
@@ -93,20 +99,26 @@ LIST Pr/Pered = ("перед"i pr) ;
 LIST N/Bukva = ("буква" n) ;
 LIST N/Goda = ("<года>"i n) ;
 LIST N/Potom = ("<потом>"i n) ;
-LIST N/Krov = ("кровь"i n) ;
+LIST N/Krov = ("кровь" n) ;
 LIST N/Tomu = ("<тому>"i n) ;
-LIST N/Golova = ("голова"i n) ;
-LIST N/Denga = ("деньга"i n) ;
+LIST N/Golova = ("голова" n) ;
+LIST N/Denga = ("деньга" n) ;
 LIST N/Voda = ("<вода>"i n) ; 
 LIST N/Beregu = ("<берегу>"i n) ;
 LIST N/Vek = ("век¹" n);
+LIST N/Veko = ("веко" n) ;
+LIST N/Vtora = ("<второй>"i n); 
+LIST N/Mat = ("мать" n) ;
+LIST N/Mater = ("матерь" n) ;
 
 LIST A/Malo = ("<мало>" adj) ;
+LIST A/Božij = ("божий" adj) ;
 
 LIST V/Oblivatsja = ("обливаться" vblex) ;
 LIST V/Pahnut = ("пахнуть" vblex) ;
 LIST V/Isteč = ("истечь" vblex) ;
 LIST V/Vypuskat = ("выпускать" vblex) ;
+LIST V/Takaja = ("<такая>" vblex) ; 
 
 LIST Ij/Na = ("на" ij) ;
 
@@ -143,15 +155,19 @@ LIST Seasons = "весна" "лето" "осень" "зима" ;
 LIST TimeOfDay = "день" "вечер" "утро" "ночь" ; 
 LIST Polovina = "половина" ;
 LIST CardPoint = "западный" "южный" "юго-западный" ;
+LIST TimePart = "начало" "конец" "течение" "середина" "половина" ; 
 
 LIST Letters = ("же" n) ("у²" n) ("о²" n) ("и²" n) ("а²" n) ; # etc.
 
 LIST InsAdv = "часом" "потом" ; 
 
-LIST Majusc = ("<[А-ЯA-Z]>"r) ;
-LIST Minusc = ("<[а-яa-z]>"r) ;
+LIST Title = ("[А-ЯA-Z][а-яa-z]+"r) ;
+LIST Majusc = ("[А-ЯA-Z]+"r) ;
+LIST Minusc = ("[а-яa-z]+"r) ;
 
 LIST Prob = prb ;
+
+LIST Facul = fac ;
 
 SET Sem/Time = Month | Months | Year | Century | Season | Seasons | TimeOfDay | ("период") ; 
 
@@ -386,6 +402,18 @@ SELECT Ord IF (0 Num OR Ord) (1C N/Vek) ;
 
 SELECT Paren IF (-1 Cm) (0 Paren OR Short) (1 Cm) ; 
 
+SELECT N/Mater IF (0 N/Mat OR N/Mater) (-1 A/Božij) ;
+
+SELECT N/Mater IF (0 N/Mat OR N/Mater) (1 A/Božij) ;
+
+SELECT Interr IF (0 Prn/Komu) (NOT -1* Interr BARRIER Interr) (NOT 1* Interr BARRIER Interr) (1* Ques) ; 
+
+SELECT Rel IF (0 Prn/Komu) (-1 Cm LINK -1 Prn/Tot) ;
+
+SELECT N/Vek IF (0 N/Veko OR N/Vek) (-1 Roman LINK -1 TimePart)  ; 
+
+SELECT Gen IF (0 N/Vek) (0C Sg + Gen OR Pl) (-1 Roman LINK -1 TimePart) ;
+
 ###############################################################################
 
 # после/посол
@@ -404,6 +432,14 @@ REMOVE N/Denga ;
 
 REMOVE Msc IF (0 N/Voda) ; 
 
+SELECT Majusc IF (0C Roman) ;
+
+REMOVE V IF (0 V/Takaja) ; 
+
+REMOVE N IF (0 N/Vtora) ; 
+
+REMOVE N/Mater IF (0 N/Mat OR N/Mater) ; 
+
 REMOVE Prob ; 
 
-SELECT Majusc IF (0C Roman) ;
+REMOVE Facul ; 
