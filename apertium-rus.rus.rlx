@@ -412,7 +412,13 @@ SELECT Rel IF (0 Prn/Komu) (-1 Cm LINK -1 Prn/Tot) ;
 
 SELECT N/Vek IF (0 N/Veko OR N/Vek) (-1 Roman LINK -1 TimePart)  ; 
 
+SELECT N/Vek IF (0 N/Veko OR N/Vek) (-1 Roman LINK -1 Pr)  ; 
+
 SELECT Gen IF (0 N/Vek) (0C Sg + Gen OR Pl) (-1 Roman LINK -1 TimePart) ;
+
+SELECT Gen IF (0 N/Vek) (0C Sg + Gen OR Pl) (-1 Roman LINK -1 Guio LINK -1 Roman LINK -1 TimePart) ;
+
+SELECT Gen IF (0 N/Vek) (0C Sg + Gen OR Pl) (-1 A + Gen LINK -1 TimePart) ;
 
 ###############################################################################
 
