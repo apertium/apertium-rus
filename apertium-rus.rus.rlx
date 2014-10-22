@@ -91,7 +91,7 @@ LIST Pr/Dlja = ("для" pr) ;
 LIST Pr/Ot = ("от" pr) ;
 LIST Pr/Do = ("до" pr) ;
 LIST Pr/Iz = ("из" pr) ;
-LIST Pr/Pod = ("под" pr) ;
+LIST Pr/Pod = ("<под>"i pr) ;
 LIST Pr/Meždu = ("между" pr) ;
 LIST Pr/Iz-za = ("из-за" pr) ;
 LIST Pr/K = ("к" pr) ;
@@ -490,6 +490,8 @@ REMOVE V IF (0 V/Takaja) ;
 REMOVE N IF (0 N/Vtora) ; 
 
 REMOVE V IF (0 Pr/Dlja) ; 
+
+REMOVE N IF (0 Pr/Pod) ;
 
 REMOVE N/Mater IF (0 N/Mat OR N/Mater) ; 
 
