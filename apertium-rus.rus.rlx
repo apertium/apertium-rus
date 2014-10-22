@@ -100,7 +100,9 @@ LIST Pr/Krome = ("кроме" pr) ;
 LIST Pr/O = ("о" pr) ;
 LIST Pr/Posle = ("после" pr) ;
 LIST Pr/Nado = ("<надо>"i pr) ;
-LIST Pr/Pered = ("перед"i pr) ;
+LIST Pr/Pered = ("перед" pr) ;
+LIST Pr/Čerez = ("через" pr) ;
+LIST Pr/Blagodarja = ("благодаря" pr) ;
 
 LIST N/Bukva = ("буква" n) ;
 LIST N/Goda = ("<года>"i n) ;
@@ -110,12 +112,15 @@ LIST N/Tomu = ("<тому>"i n) ;
 LIST N/Golova = ("голова" n) ;
 LIST N/Denga = ("деньга" n) ;
 LIST N/Voda = ("<вода>"i n) ; 
+LIST N/Vode = ("<водe>"i n) ; 
 LIST N/Beregu = ("<берегу>"i n) ;
 LIST N/Vek = ("век¹" n);
 LIST N/Veko = ("веко" n) ;
 LIST N/Vtora = ("<второй>"i n); 
 LIST N/Mat = ("мать" n) ;
 LIST N/Mater = ("матерь" n) ;
+LIST N/Pomoč = ("помочь" n) ;
+LIST N/Polku = ("<полку>"i n); 
 
 LIST A/Malo = ("<мало>" adj) ;
 LIST A/Božij = ("божий" adj) ;
@@ -267,6 +272,10 @@ REMOVE NGDAIP - Prp IF (-1C* Pr/O CBARRIER (*) - Adv - DetIndecl) ;
 
 REMOVE NGDAIP - Ins IF (-1C* Pr/Nad CBARRIER (*) - Adv - DetIndecl) ;
 
+REMOVE NGDAIP - Acc IF (-1C* Pr/Čerez CBARRIER (*) - Adv - DetIndecl) ;
+
+REMOVE NGDAIP - Dat IF (-1C* Pr/Blagodarja CBARRIER (*) - Adv - DetIndecl) ;
+
 SELECT A + $$NGDAIP IF (0C A) (-1C A + $$NGDAIP LINK -1C* Pr BARRIER (*) - A - Adv - Det) ; 
 
 REMOVE Pers IF (0C Pers OR Det) (NOT 0 Pprep) (-1C Pr) ;
@@ -334,7 +343,7 @@ REMOVE NGDAIP - Prp IF (0C A OR Det) (1C* N + Prp BARRIER NGDAIP - Prp);
 
 REMOVE NGDAIP - Ins IF (0C A OR Det) (1C* N + Ins BARRIER NGDAIP - Ins);
 
-REMOVE Short (-1C Pr) ; 
+REMOVE Short IF (-1C Pr) ; 
 
 REMOVE Acc IF (-1* BOS BARRIER (*) - Nom) (0C Nom OR Acc) (NOT 1* TV) (NOT -1 Num LINK 1 Sem/Time OR Sem/Distance) (NOT 0 Sem/Time) (NOT 0 Sem/Distance) ; 
 
@@ -346,9 +355,9 @@ SELECT Adv IF (0C InsAdv) ;
 
 REMOVE Adv IF (0C N + Ins OR Adv) (NOT 0 InsAdv) ;
 
-REMOVE Acc (-1C Pr/S) (NOT 0 Sem/Unit) ; 
+REMOVE Acc IF (-1C Pr/S) (NOT 0 Sem/Unit) ; 
 
-REMOVE Letters (NOT -1 Quot OR Parens OR Apos) (NOT 1 Quot OR Parens OR Apos) (NOT -1 N/Bukva) (NOT -1 Pr); 
+REMOVE Letters IF (NOT -1 Quot OR Parens OR Apos) (NOT 1 Quot OR Parens OR Apos) (NOT -1 N/Bukva) (NOT -1 Pr); 
 
 REMOVE Nom IF (-1C NumNotNom) ;
   #! Для соседних с Руандой государств руандийские события апреля - июля 1994 года вылились в огромное число прибывших беженцев.
@@ -439,6 +448,9 @@ SELECT Gen IF (0 N/Vek) (0C Sg + Gen OR Pl) (-1 Roman LINK -1 Guio LINK -1 Roman
 
 SELECT Gen IF (0 N/Vek) (0C Sg + Gen OR Pl) (-1 A + Gen LINK -1 TimePart) ;
 
+SELECT Loc IF (-1 Pr/O) (0 N/Polku) ; 
+
+REMOVE Loc IF (NOT -1* Pr/V OR Pr/Na) ;
 
 ###############################################################################
 
@@ -467,9 +479,11 @@ SECTION
 
 REMOVE N/Denga ; 
 
-REMOVE Msc IF (0 N/Voda) ; 
+REMOVE Msc IF (0 N/Voda OR N/Vode) ; 
 
 SELECT Majusc IF (0C Roman) ;
+
+REMOVE N/Pomoč IF (0 N/Pomoč OR V) ;
 
 REMOVE V IF (0 V/Takaja) ; 
 
