@@ -16,6 +16,7 @@ LIST CS = cnjsub ;
 LIST Interj = ij ;
 LIST CC = cnjcoo ; 
 LIST V = vblex vbser vbmod ; 
+LIST Pred = pred ; 
 
 LIST Cop = ("быть" vblex) ;
 
@@ -78,6 +79,8 @@ LIST Prn/Tebe = ("<тебе>"i prn) ;
 LIST Prn/Komu = ("<кому>"i prn) ;
 LIST Prn/Tot = ("тот"i prn) ;
 
+LIST CS/Čto = ("что²" cnjsub)  ;
+
 LIST Pr/V = ("в" pr) ;
 LIST Pr/Na = ("на" pr) ;
 LIST Pr/Nad = ("над" pr) ;
@@ -117,6 +120,9 @@ LIST N/Mater = ("матерь" n) ;
 LIST A/Malo = ("<мало>" adj) ;
 LIST A/Božij = ("божий" adj) ;
 
+LIST Adv/I = ("и" adv) ; 
+LIST Adv/Ešë = ("ещё" adv) ; 
+
 LIST V/Oblivatsja = ("обливаться" vblex) ;
 LIST V/Pahnut = ("пахнуть" vblex) ;
 LIST V/Isteč = ("истечь" vblex) ;
@@ -124,6 +130,8 @@ LIST V/Vypuskat = ("выпускать" vblex) ;
 LIST V/Takaja = ("<такая>" vblex) ; 
 
 LIST Ij/Na = ("на" ij) ;
+LIST Ij/Ih = ("их²" ij) ;
+LIST Ij/I = ("и¹" ij) ;
 
 
 LIST O = "о" ; 
@@ -193,6 +201,8 @@ SET MFN = Msc | Fem | Neu ;
 SET NGDAIP = Nom | Gen | Dat | Acc | Ins | Prp | Loc ;  
 
 SET SentNotExcl = (".") | ("...") | ("?") ; 
+
+SET Punct = Guio | Cm | Excl | Ques ;
 
 SET CLB = Rel | CS ;
 
@@ -429,6 +439,7 @@ SELECT Gen IF (0 N/Vek) (0C Sg + Gen OR Pl) (-1 Roman LINK -1 Guio LINK -1 Roman
 
 SELECT Gen IF (0 N/Vek) (0C Sg + Gen OR Pl) (-1 A + Gen LINK -1 TimePart) ;
 
+
 ###############################################################################
 
 # после/посол
@@ -439,6 +450,8 @@ SELECT Gen IF (0 N/Vek) (0C Sg + Gen OR Pl) (-1 A + Gen LINK -1 TimePart) ;
 
 # REMOVE Acc IF (0 Nom OR Acc) (NOT -1* TV) (NOT -1C* Pr) (NOT 1* TV) ;
 # REMOVE Acc IF (NOT -1* TV) (-1* IV LINK 0 Fin) (NOT 1* TV BARRIER Fin) ;
+
+# REMOVE CS IF (0 CS/Čto) (NOT -1* V OR Pred) ;
 
   # Нападающие выжигали огнем места, где могли спрятаться их жертвы: дома с труднодоступными помещениями, церкви, леса, перелески и т. п.
 
@@ -462,7 +475,15 @@ REMOVE V IF (0 V/Takaja) ;
 
 REMOVE N IF (0 N/Vtora) ; 
 
+REMOVE V IF (0 Pr/Dlja) ; 
+
 REMOVE N/Mater IF (0 N/Mat OR N/Mater) ; 
+
+REMOVE Ij/Ih IF (NOT 1 Excl) ; 
+
+REMOVE Ij/I IF (NOT 1 Punct) ; 
+
+REMOVE Adv/I IF (NOT -1 Adv/Ešë) ;
 
 REMOVE Prob ; 
 
