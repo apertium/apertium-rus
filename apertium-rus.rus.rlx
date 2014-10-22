@@ -121,6 +121,8 @@ LIST N/Mat = ("мать" n) ;
 LIST N/Mater = ("матерь" n) ;
 LIST N/Pomoč = ("помочь" n) ;
 LIST N/Polku = ("<полку>"i n); 
+LIST N/Mire = ("<мире>"i n); 
+LIST N/Miro = ("миро" n); 
 
 LIST A/Malo = ("<мало>" adj) ;
 LIST A/Božij = ("божий" adj) ;
@@ -492,6 +494,8 @@ REMOVE N IF (0 N/Vtora) ;
 REMOVE V IF (0 Pr/Dlja) ; 
 
 REMOVE N IF (0 Pr/Pod) ;
+
+REMOVE N/Miro IF (0 N/Mire) ; 
 
 REMOVE N/Mater IF (0 N/Mat OR N/Mater) ; 
 
