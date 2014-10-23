@@ -5,7 +5,7 @@ LIST BOS = (>>>) ;
 LIST EOS = (<<<) ; 
 
 LIST N = n ; 
-LIST Prop = np prop ; 
+LIST Prop = np ;
 LIST Pr = pr ; 
 LIST Pron = prn ;
 LIST Det = det ; 
@@ -51,6 +51,13 @@ LIST Neu = nt ;
 
 LIST Sg = sg ; 
 LIST Pl = pl ;
+
+LIST Sg1 = (p1 sg) ; 
+LIST Sg2 = (p2 sg) ; 
+LIST Sg3 = (p3 sg) ; 
+LIST Pl1 = (p1 pl) ; 
+LIST Pl2 = (p2 pl) ; 
+LIST Pl3 = (p3 pl) ; 
 
 LIST Ord = ord ; 
 LIST Interr = itg ; 
