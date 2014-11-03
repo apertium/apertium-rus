@@ -59,6 +59,9 @@ LIST Pl1 = (p1 pl) ;
 LIST Pl2 = (p2 pl) ; 
 LIST Pl3 = (p3 pl) ; 
 
+LIST Impf = impf ; 
+LIST Perf = perf ; 
+
 LIST Ord = ord ; 
 LIST Interr = itg ; 
 LIST Rel = rel ; 
@@ -87,6 +90,8 @@ LIST Prn/Komu = ("<кому>"i prn) ;
 LIST Prn/Tot = ("тот"i prn) ;
 
 LIST CS/Čto = ("что²" cnjsub)  ;
+
+LIST Paren/Konečno = ("конечно" paren) ; 
 
 LIST Pr/V = ("в" pr) ;
 LIST Pr/Na = ("на" pr) ;
@@ -130,23 +135,38 @@ LIST N/Pomoč = ("помочь" n) ;
 LIST N/Polku = ("<полку>"i n); 
 LIST N/Mire = ("<мире>"i n); 
 LIST N/Miro = ("миро" n); 
+LIST N/Metr = ("метр" n) ("километр" n);
+LIST N/Primer = ("пример" n);
+LIST N/Delo = ("дело" n) ;
+LIST N/Pravilo¹ = ("правило¹" n) ;
+LIST N/Pravilo² = ("правило²" n) ;
 
 LIST A/Malo = ("<мало>" adj) ;
 LIST A/Božij = ("божий" adj) ;
+LIST A/Metrov = ("<метров>"i adj) ("<километров>"i adj) ;
+LIST A/Prišlij = ("пришлый" adj) ; 
 
 LIST Adv/I = ("и" adv) ; 
 LIST Adv/Ešë = ("ещё" adv) ; 
+LIST Adv/Krugom² = ("кругом²" adv) ; 
+LIST Adv/Celikom = ("целиком" adv) ; 
 
 LIST V/Oblivatsja = ("обливаться" vblex) ;
 LIST V/Pahnut = ("пахнуть" vblex) ;
 LIST V/Isteč = ("истечь" vblex) ;
 LIST V/Vypuskat = ("выпускать" vblex) ;
-LIST V/Takaja = ("<такая>" vblex) ; 
+LIST V/Takaja = ("<такая>"i vblex) ; 
+LIST V/Primer = ("<пример>"i vblex) ; 
+LIST V/Dela = ("<дела>"i vblex) ; 
+LIST V/Pisat = ("писать" vblex) ("написать" vblex) ("описать" vblex) ; 
+LIST V/Prijti = ("прийти" vblex) ; 
+LIST V/Stroit = ("строит" vblex) ; 
+LIST V/Vyhodit = ("выходить" vblex) ("выходить¹⁻²" vblex) ; 
+LIST V/Idjot = ("идти" vblex pres) ;
 
 LIST Ij/Na = ("на" ij) ;
 LIST Ij/Ih = ("их²" ij) ;
 LIST Ij/I = ("и¹" ij) ;
-
 
 LIST O = "о" ; 
 LIST Ja = "я" ; 
@@ -184,7 +204,7 @@ LIST TimePart = "начало" "конец" "течение" "середина" 
 
 LIST Letters = ("же" n) ("у²" n) ("о²" n) ("и²" n) ("а²" n) ; # etc.
 
-LIST InsAdv = "часом" "потом" ; 
+LIST InsAdv = "часом" "потом" "кругом" ; 
 
 LIST Title = ("[А-ЯA-Z][а-яa-z]+"r) ;
 LIST Majusc = ("[А-ЯA-Z]+"r) ;
@@ -467,6 +487,8 @@ SELECT Loc IF (-1 Pr/O) (0 N/Polku) ;
 
 REMOVE Nom IF (0C Pl + Nom OR Sg + Gen) (1 EOS) (-1* Fin BARRIER Fin) (NOT -1* Fin + Pl BARRIER Fin);
 
+SELECT Paren/Konečno IF (-1 Cm) (1 Cm) ; 
+
 ###############################################################################
 
 # после/посол
@@ -522,6 +544,29 @@ REMOVE Ij/I IF (NOT 1 Punct) ;
 
 REMOVE Adv/I IF (NOT -1 Adv/Ešë) ;
 
+REMOVE V/Primer IF (0 N/Primer) ; 
+
+REMOVE A/Metrov IF (0 N/Metr) ; 
+
+REMOVE V/Dela IF (0 N/Delo) ; 
+
+REMOVE A/Prišlij IF (0 V/Prijti) ; 
+
+REMOVE IV IF (0 V/Pisat) ; 
+
+REMOVE N/Pravilo² IF (0 N/Pravilo¹) ; 
+
+REMOVE Perf IF (0 V/Stroit) ; 
+
+REMOVE Perf IF (0 V/Vyhodit) ; 
+
+REMOVE Adv/Krugom² IF (NOT -1 V/Idjot LINK -1 N/Golova) ;
+
+SELECT Adv IF (0 Adv/Celikom) ; 
+
+# REMOVE A/Jazykovyj IF (0 A/Kazykovoj) ;
+
 REMOVE Prob ; 
 
 REMOVE Facul ; 
+
