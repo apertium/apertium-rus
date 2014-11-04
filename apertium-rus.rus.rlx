@@ -18,6 +18,8 @@ LIST CC = cnjcoo ;
 LIST V = vblex vbser vbmod ; 
 LIST Pred = pred ; 
 
+LIST Pass = pass pasv ;  # Check
+
 LIST Cop = ("быть" vblex) ;
 
 LIST Guio = guio "-" ; 
@@ -93,6 +95,8 @@ LIST CS/Čto = ("что²" cnjsub)  ;
 
 LIST Paren/Konečno = ("конечно" paren) ; 
 
+LIST Jest = ("<есть>"i) ;
+
 LIST Pr/V = ("в" pr) ;
 LIST Pr/Na = ("на" pr) ;
 LIST Pr/Nad = ("над" pr) ;
@@ -115,6 +119,7 @@ LIST Pr/Nado = ("<надо>"i pr) ;
 LIST Pr/Pered = ("перед" pr) ;
 LIST Pr/Čerez = ("через" pr) ;
 LIST Pr/Blagodarja = ("благодаря" pr) ;
+LIST Pr/Pri = ("при" pr) ;
 
 LIST N/Bukva = ("буква" n) ;
 LIST N/Goda = ("<года>"i n) ;
@@ -206,6 +211,8 @@ LIST Letters = ("же" n) ("у²" n) ("о²" n) ("и²" n) ("а²" n) ; # etc.
 
 LIST InsAdv = "часом" "потом" "кругом" ; 
 
+LIST AccAdv = "вечер" "день" "раз" "минута" "неделя" ;
+
 LIST Title = ("[А-ЯA-Z][а-яa-z]+"r) ;
 LIST Majusc = ("[А-ЯA-Z]+"r) ;
 LIST Minusc = ("[а-яa-z]+"r) ;
@@ -213,6 +220,8 @@ LIST Minusc = ("[а-яa-z]+"r) ;
 LIST Prob = prb ;
 
 LIST Facul = fac ;
+
+LIST V/Gen = "бояться" "выдерживать" "выражать" "давать" "добавлять" "добиваться" "добывать" "дожидаться" "допускать" "жаждать" "жалеть" "желать" "заменять" "засыпать" "избегать" "искать" "касаться" "колоть" "кушать" "лишать" "лишаться" "набирать" "наливать" "ожидать" "отдыхать" "покупать" "предвидеть" "прибавлять" "приносить" "просить" "проходить" "рекомендовать" "слушаться" "спрашивать" "стесняться" "стоит" "требовать" "тянуть" "удерживать" "хватит" "хоронить" "отсутствовать" "отговорить" "опасаться" "вспоминать" "хотеть" "требовать" ; 
 
 SET Sem/Time = Month | Months | Year | Century | Season | Seasons | TimeOfDay | ("период") ; 
 
@@ -226,7 +235,9 @@ SET Sem/Unit = Sem/Time | Sem/Distance | Sem/Weight | Sem/Quantity ;
 
 SET MscFemNeu = Msc | Fem | Neu ; 
 
-SET Prep/Ins = Pr/S | Pr/Nad | Pr/Pod | Pr/Meždu | Pr/Pered ; 
+SET Prep/Prp = Pr/Pri ; 
+
+SET Prep/Ins = Pr/S | Pr/Nad | Pr/Pod | Pr/Meždu | Pr/Pered ;
 
 SET Prep/Acc = Pr/V | Pr/Po ; # complete
 
@@ -316,6 +327,8 @@ REMOVE Pers IF (0C Pers OR Det) (NOT 0 Pprep) (-1C Pr) ;
 
 REMOVE Loc IF (NOT -1* Pr/V OR Pr/Na) ;
 
+SELECT Pr IF (0 Prep/Prp) (1C Prp) ; 
+
 ## Safe operations with dates 
 
 SELECT Gen IF (0 Year) (-1 Num LINK -1 Months LINK -1 Pr/V) ;
@@ -374,7 +387,7 @@ REMOVE Fem IF  (0C A) (0C Msc OR Fem) (1C N) (NOT 1 Fem);
 
 REMOVE Msc IF (0C A) (0C Msc OR Neu) (1C N) (NOT 1 Msc);
 
-REMOVE NGDAIP - Prp IF (0C A OR Det) (1C* N + Prp BARRIER NGDAIP - Prp);
+REMOVE NGDAIP - Prp IF (0C A OR Det) (1C* N + Prp BARRIER NGDAIP - Prp); 
 
 REMOVE NGDAIP - Ins IF (0C A OR Det) (1C* N + Ins BARRIER NGDAIP - Ins);
 
@@ -489,6 +502,10 @@ REMOVE Nom IF (0C Pl + Nom OR Sg + Gen) (1 EOS) (-1* Fin BARRIER Fin) (NOT -1* F
 
 SELECT Paren/Konečno IF (-1 Cm) (1 Cm) ; 
 
+REMOVE TV - Pass IF (NOT 1* Acc) (NOT -1* Acc) ; 
+
+REMOVE Gen IF (-1 BOS) (0 Title OR Majusc) (NOT 1* V/Gen);
+
 ###############################################################################
 
 # после/посол
@@ -542,7 +559,7 @@ REMOVE Ij/Ih IF (NOT 1 Excl) ;
 
 REMOVE Ij/I IF (NOT 1 Punct) ; 
 
-REMOVE Adv/I IF (NOT -1 Adv/Ešë) ;
+REMOVE Adv/I IF (NOT -1 Adv/Ešë OR Jest) ;
 
 REMOVE V/Primer IF (0 N/Primer) ; 
 
