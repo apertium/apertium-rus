@@ -145,6 +145,8 @@ LIST N/Primer = ("пример" n);
 LIST N/Delo = ("дело" n) ;
 LIST N/Pravilo¹ = ("правило¹" n) ;
 LIST N/Pravilo² = ("правило²" n) ;
+LIST N/Noga = ("нога" n) ;
+LIST N/Lob = ("лоб" n) ;
 
 LIST A/Malo = ("<мало>" adj) ;
 LIST A/Božij = ("божий" adj) ;
@@ -551,8 +553,6 @@ REMOVE V IF (0 Pr/Dlja) ;
 
 REMOVE N IF (0 Pr/Pod) ;
 
-REMOVE N/Miro IF (0 N/Mire) ; 
-
 REMOVE N/Mater IF (0 N/Mat OR N/Mater) ; 
 
 REMOVE Ij/Ih IF (NOT 1 Excl) ; 
@@ -581,7 +581,11 @@ REMOVE Adv/Krugom² IF (NOT -1 V/Idjot LINK -1 N/Golova) ;
 
 SELECT Adv IF (0 Adv/Celikom) ; 
 
-# REMOVE A/Jazykovyj IF (0 A/Kazykovoj) ;
+REMOVE N/Miro IF (NOT -1* N/Noga OR N/Lob) (NOT 1* N/Noga OR N/Lob) ;
+
+# REMOVE N/Miro IF (0 N/Mire) ; 
+
+# REMOVE A/Jazykovyj IF (0 A/Jazykovoj) ;
 
 REMOVE Prob ; 
 
