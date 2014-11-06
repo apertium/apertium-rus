@@ -147,6 +147,7 @@ LIST N/Pravilo¹ = ("правило¹" n) ;
 LIST N/Pravilo² = ("правило²" n) ;
 LIST N/Noga = ("нога" n) ;
 LIST N/Lob = ("лоб" n) ;
+LIST N/Byli = ("<были>" n) ;
 
 LIST A/Malo = ("<мало>" adj) ;
 LIST A/Božij = ("божий" adj) ;
@@ -508,6 +509,8 @@ REMOVE TV - Pass IF (NOT 1* Acc) (NOT -1* Acc) ;
 
 REMOVE Gen IF (-1 BOS) (0 Title OR Majusc) (NOT 1* V/Gen);
 
+REMOVE Imper IF (1C Fin) ;
+
 ###############################################################################
 
 # после/посол
@@ -582,6 +585,8 @@ REMOVE Adv/Krugom² IF (NOT -1 V/Idjot LINK -1 N/Golova) ;
 SELECT Adv IF (0 Adv/Celikom) ; 
 
 REMOVE N/Miro IF (NOT -1* N/Noga OR N/Lob) (NOT 1* N/Noga OR N/Lob) ;
+
+REMOVE N/Byli IF (0 Cop) ; 
 
 # REMOVE N/Miro IF (0 N/Mire) ; 
 
