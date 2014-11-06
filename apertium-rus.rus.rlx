@@ -248,6 +248,8 @@ SET MFN = Msc | Fem | Neu ;
 
 SET NGDAIP = Nom | Gen | Dat | Acc | Ins | Prp | Loc ;  
 
+SET Modif = Det | A - Short | Ord ;  
+
 SET SentNotExcl = (".") | ("...") | ("?") ; 
 
 SET Punct = Guio | Cm | Excl | Ques ;
@@ -511,6 +513,8 @@ REMOVE Gen IF (-1 BOS) (0 Title OR Majusc) (NOT 1* V/Gen);
 
 REMOVE Imper IF (1C Fin) ;
 
+SELECT  Prp IF (0C N) (-1* Pr/Na OR Pr/V CBARRIER (*) - Prp) (-1C Prp) (-1C Modif) ; 
+
 ###############################################################################
 
 # после/посол
@@ -531,8 +535,12 @@ REMOVE Imper IF (1C Fin) ;
 SECTION
 
 LIST @ADVL = @ADVL ; 
+LIST @CVP = @CVP ; 
 
 MAP @ADVL TARGET Short IF (0C Short) (0C Neu) (1C Fin) ;
+
+# MAP @CVP TARGET Cm IF (-1* Fin CBARRIER Fin) (1* Fin CBARRIER Fin) (NOT 1* Cm CBARRIER Fin) ;
+  #! Надвигается катастрофа, а министр, видимо, не понимает обстановки, и должные меры не принимаются.
 
 SECTION 
 
