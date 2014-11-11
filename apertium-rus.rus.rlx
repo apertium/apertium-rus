@@ -13,6 +13,7 @@ LIST Num = num "<[0-9]+>"r;
 LIST A = adj ; 
 LIST Adv = adv ; 
 LIST CS = cnjsub ; 
+LIST CC = cnjcoo ;
 LIST Interj = ij ;
 LIST CC = cnjcoo ; 
 LIST V = vblex vbser vbmod ; 
@@ -38,6 +39,7 @@ LIST Parens = lpar rpar par ;
 LIST Apos = apos ; 
 LIST Quot = lquot rquot quot ;
 
+LIST Comp = (comp pred) ; 
 LIST Short = short (adj pred) ; # pred
 LIST Cmp = cmp ; 
 
@@ -148,11 +150,16 @@ LIST N/Pravilo² = ("правило²" n) ;
 LIST N/Noga = ("нога" n) ;
 LIST N/Lob = ("лоб" n) ;
 LIST N/Byli = ("<были>" n) ;
+LIST N/On = ("он²" n) ;
+LIST N/Stradanje = ("страданье" n) ;
+LIST N/Stradanie = ("страдание" n) ;
+LIST N/Slony = ("слоны" n) ;
 
 LIST A/Malo = ("<мало>" adj) ;
 LIST A/Božij = ("божий" adj) ;
 LIST A/Metrov = ("<метров>"i adj) ("<километров>"i adj) ;
 LIST A/Prišlij = ("пришлый" adj) ; 
+LIST A/Boevoj = ("боевой" adj) ;
 
 LIST Adv/I = ("и" adv) ; 
 LIST Adv/Ešë = ("ещё" adv) ; 
@@ -175,6 +182,7 @@ LIST V/Idjot = ("идти" vblex pres) ;
 LIST Ij/Na = ("на" ij) ;
 LIST Ij/Ih = ("их²" ij) ;
 LIST Ij/I = ("и¹" ij) ;
+LIST Ij/A = ("а¹" ij) ; 
 
 LIST O = "о" ; 
 LIST Ja = "я" ; 
@@ -186,6 +194,8 @@ LIST Čto = "что" ;
 LIST Nazad = "назад" ;
 LIST Sliškom = "слишком" ; 
 LIST Našej = "<нашей>" ; 
+LIST Takže = "также" ; 
+LIST Tože = "тоже" ; 
 
 LIST PrefixNado = "<[бвгджзйклмнпрстуфхцчшщъь][бвгджзйклмнпрстуфхцчшщъь].*>"r ; 
 
@@ -209,16 +219,19 @@ LIST TimeOfDay = "день" "вечер" "утро" "ночь" ;
 LIST Polovina = "половина" ;
 LIST CardPoint = "западный" "южный" "юго-западный" ;
 LIST TimePart = "начало" "конец" "течение" "середина" "половина" ; 
+LIST LetterEnum = "модель" "план" "вариант" "коэффициент" "витамин" "марка" "полимиксин" "система" ; 
 
 LIST Letters = ("же" n) ("у²" n) ("о²" n) ("и²" n) ("а²" n) ; # etc.
+
+LIST Notes = ("до" n) ; # etc.
 
 LIST InsAdv = "часом" "потом" "кругом" ; 
 
 LIST AccAdv = "вечер" "день" "раз" "минута" "неделя" ;
 
-LIST Title = ("[А-ЯA-Z][а-яa-z]+"r) ;
-LIST Majusc = ("[А-ЯA-Z]+"r) ;
-LIST Minusc = ("[а-яa-z]+"r) ;
+LIST Title = ("<[А-ЯA-Z][а-яa-z]+>"r) ;
+LIST Majusc = ("<[А-ЯA-Z]+>"r) ;
+LIST Minusc = ("<[а-яa-z]+>"r) ;
 
 LIST Prob = prb ;
 
@@ -303,27 +316,27 @@ REMOVE Short IF (1C Fin OR Adv OR A) (0C Short OR Adv) ;
 
 REMOVE Nom IF (-1C Pr) ;
 
-REMOVE NGDAIP - Gen IF (-1C* Pr/Dlja OR Pr/Do OR Pr/Ot OR Pr/Iz OR Pr/Iz-za OR Pr/Krome OR Pr/Protiv OR Pr/Posle CBARRIER (*) - Adv - DetIndecl) ;
+REMOVE NGDAIP - Gen IF (-1C* Pr/Dlja OR Pr/Do OR Pr/Ot OR Pr/Iz OR Pr/Iz-za OR Pr/Krome OR Pr/Protiv OR Pr/Posle CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
-REMOVE NGDAIP - Gen - Ins - Acc IF (-1C* Pr/S CBARRIER (*) - Adv - DetIndecl) ;
+REMOVE NGDAIP - Gen - Ins - Acc IF (-1C* Pr/S CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
-REMOVE NGDAIP - Acc - Prp - Loc IF (-1C* Pr/V OR Pr/Na CBARRIER (*) - Adv - DetIndecl) ;
+REMOVE NGDAIP - Acc - Prp - Loc IF (-1C* Pr/V OR Pr/Na CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
-REMOVE NGDAIP - Acc - Dat - Prp IF (-1C* Pr/Po CBARRIER (*) - Adv - DetIndecl) ;
+REMOVE NGDAIP - Acc - Dat - Prp IF (-1C* Pr/Po CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
-REMOVE NGDAIP - Acc - Ins IF (-1C* Pr/Za CBARRIER (*) - Adv - DetIndecl) ;
+REMOVE NGDAIP - Acc - Ins IF (-1C* Pr/Za CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
-REMOVE NGDAIP - Gen - Ins IF (-1C* Pr/Meždu CBARRIER (*) - Adv - DetIndecl) ; 
+REMOVE NGDAIP - Gen - Ins IF (-1C* Pr/Meždu CBARRIER (*) - Adv - Comp - DetIndecl) ; 
 
-REMOVE NGDAIP - Dat IF (-1C* Pr/K CBARRIER (*) - Adv - DetIndecl) ;
+REMOVE NGDAIP - Dat IF (-1C* Pr/K CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
-REMOVE NGDAIP - Prp IF (-1C* Pr/O CBARRIER (*) - Adv - DetIndecl) ;
+REMOVE NGDAIP - Prp IF (-1C* Pr/O CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
-REMOVE NGDAIP - Ins IF (-1C* Pr/Nad CBARRIER (*) - Adv - DetIndecl) ;
+REMOVE NGDAIP - Ins IF (-1C* Pr/Nad CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
-REMOVE NGDAIP - Acc IF (-1C* Pr/Čerez CBARRIER (*) - Adv - DetIndecl) ;
+REMOVE NGDAIP - Acc IF (-1C* Pr/Čerez CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
-REMOVE NGDAIP - Dat IF (-1C* Pr/Blagodarja CBARRIER (*) - Adv - DetIndecl) ;
+REMOVE NGDAIP - Dat IF (-1C* Pr/Blagodarja CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
 SELECT A + $$NGDAIP IF (0C A) (-1C A + $$NGDAIP LINK -1C* Pr BARRIER (*) - A - Adv - Det) ; 
 
@@ -410,7 +423,12 @@ REMOVE Adv IF (0C N + Ins OR Adv) (NOT 0 InsAdv) ;
 
 REMOVE Acc IF (-1C Pr/S) (NOT 0 Sem/Unit) ; 
 
-REMOVE Letters IF (NOT -1 Quot OR Parens OR Apos) (NOT 1 Quot OR Parens OR Apos) (NOT -1 N/Bukva) (NOT -1 Pr); 
+# These need improvement
+SELECT Letters IF (0 Majusc OR Title) (-1 Minusc) (NOT -1 BOS) ;
+
+REMOVE Letters IF (NOT -1 Quot OR Parens OR Apos) (NOT 1 Quot OR Parens OR Apos) (NOT -1 N/Bukva) (NOT -1 Pr) (NOT -1 LetterEnum) (0 Minusc) ;  
+
+REMOVE Notes IF (NOT -1 Quot OR Parens OR Apos) (NOT 1 Quot OR Parens OR Apos) (NOT -1 N/Bukva) (NOT -1 Pr); 
 
 REMOVE Nom IF (-1C NumNotNom) ;
   #! Для соседних с Руандой государств руандийские события апреля - июля 1994 года вылились в огромное число прибывших беженцев.
@@ -515,6 +533,12 @@ REMOVE Imper IF (1C Fin) ;
 
 SELECT  Prp IF (0C N) (-1* Pr/Na OR Pr/V CBARRIER (*) - Prp) (-1C Prp) (-1C Modif) ; 
 
+SELECT A + $$MFN IF (0C A + $$NGDAIP) (1C N + $$MFN + $$NGDAIP) ;
+
+REMOVE CC IF (0 Takže OR Tože) (-1 CC) ;
+
+SELECT ("как") + CC IF (1* ("так и") BARRIER Fin) ; 
+
 ###############################################################################
 
 # после/посол
@@ -596,11 +620,16 @@ REMOVE N/Miro IF (NOT -1* N/Noga OR N/Lob) (NOT 1* N/Noga OR N/Lob) ;
 
 REMOVE N/Byli IF (0 Cop) ; 
 
-# REMOVE N/Miro IF (0 N/Mire) ; 
+REMOVE N/On IF (0C N OR Pron) ;
 
-# REMOVE A/Jazykovyj IF (0 A/Jazykovoj) ;
+REMOVE N/Stradanje IF (0 N/Stradanie);
+
+REMOVE Ij/A IF (NOT 1* Excl OR Ques);
+
+REMOVE N/Slony IF (-1 A/Boevoj) ;
 
 REMOVE Prob ; 
 
 REMOVE Facul ; 
+
 
