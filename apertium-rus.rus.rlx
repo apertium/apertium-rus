@@ -93,6 +93,9 @@ LIST Prn/Tebe = ("<тебе>"i prn) ;
 LIST Prn/Komu = ("<кому>"i prn) ;
 LIST Prn/Tot = ("тот"i prn) ;
 
+LIST Num/Neskolko = ("несколько" num) ;
+LIST Num/Tri = ("три" num) ;
+
 LIST CS/Čto = ("что²" cnjsub)  ;
 
 LIST Paren/Konečno = ("конечно" paren) ; 
@@ -154,6 +157,7 @@ LIST N/On = ("он²" n) ;
 LIST N/Stradanje = ("страданье" n) ;
 LIST N/Stradanie = ("страдание" n) ;
 LIST N/Slony = ("слоны" n) ;
+LIST N/Denj = ("день" n) ;
 
 LIST A/Malo = ("<мало>" adj) ;
 LIST A/Božij = ("божий" adj) ;
@@ -196,6 +200,9 @@ LIST Sliškom = "слишком" ;
 LIST Našej = "<нашей>" ; 
 LIST Takže = "также" ; 
 LIST Tože = "тоже" ; 
+LIST Kak = "как" ;
+LIST Tak_I = "так и" ; 
+LIST Sam = "сам" ; 
 
 LIST PrefixNado = "<[бвгджзйклмнпрстуфхцчшщъь][бвгджзйклмнпрстуфхцчшщъь].*>"r ; 
 
@@ -217,7 +224,7 @@ LIST Season = "сезон" ;
 LIST Seasons = "весна" "лето" "осень" "зима" ;
 LIST TimeOfDay = "день" "вечер" "утро" "ночь" ; 
 LIST Polovina = "половина" ;
-LIST CardPoint = "западный" "южный" "юго-западный" ;
+LIST CardPoint = "западный" "южный" "юго-западный" "северный" ;
 LIST TimePart = "начало" "конец" "течение" "середина" "половина" ; 
 LIST LetterEnum = "модель" "план" "вариант" "коэффициент" "витамин" "марка" "полимиксин" "система" ; 
 
@@ -233,11 +240,16 @@ LIST Title = ("<[А-ЯA-Z][а-яa-z]+>"r) ;
 LIST Majusc = ("<[А-ЯA-Z]+>"r) ;
 LIST Minusc = ("<[а-яa-z]+>"r) ;
 
+LIST DicTitle = ("[А-ЯA-Z][а-яa-z]+"r) ;
+LIST DicMajusc = ("[А-ЯA-Z]+"r) ;
+LIST DicMinusc = ("[а-яa-z]+"r) ;
+
 LIST Prob = prb ;
 
 LIST Facul = fac ;
 
 LIST V/Gen = "бояться" "выдерживать" "выражать" "давать" "добавлять" "добиваться" "добывать" "дожидаться" "допускать" "жаждать" "жалеть" "желать" "заменять" "засыпать" "избегать" "искать" "касаться" "колоть" "кушать" "лишать" "лишаться" "набирать" "наливать" "ожидать" "отдыхать" "покупать" "предвидеть" "прибавлять" "приносить" "просить" "проходить" "рекомендовать" "слушаться" "спрашивать" "стесняться" "стоит" "требовать" "тянуть" "удерживать" "хватит" "хоронить" "отсутствовать" "отговорить" "опасаться" "вспоминать" "хотеть" "требовать" ; 
+
 
 SET Sem/Time = Month | Months | Year | Century | Season | Seasons | TimeOfDay | ("период") ; 
 
@@ -262,6 +274,9 @@ SET MFN = Msc | Fem | Neu ;
 SET NGDAIP = Nom | Gen | Dat | Acc | Ins | Prp | Loc ;  
 
 SET Modif = Det | A - Short | Ord ;  
+
+SET ModAcc = Modif + Acc ; 
+SET ModPrp = Modif + Prp ; 
 
 SET SentNotExcl = (".") | ("...") | ("?") ; 
 
@@ -312,6 +327,12 @@ REMOVE Pr IF (1C Pr) ;
 
 REMOVE Short IF (1C Fin OR Adv OR A) (0C Short OR Adv) ; 
 
+REMOVE Short IF (-1C Fin OR Adv OR A) (0C Short OR Adv) ; 
+
+## Hopefully safe operations with несколько
+
+SELECT Gen IF (-1 Num/Neskolko) (1C* N + Gen BARRIER (*) - Gen) (0 A + Gen) ;
+
 ## Safe operations after prepositions
 
 REMOVE Nom IF (-1C Pr) ;
@@ -320,7 +341,7 @@ REMOVE NGDAIP - Gen IF (-1C* Pr/Dlja OR Pr/Do OR Pr/Ot OR Pr/Iz OR Pr/Iz-za OR P
 
 REMOVE NGDAIP - Gen - Ins - Acc IF (-1C* Pr/S CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
-REMOVE NGDAIP - Acc - Prp - Loc IF (-1C* Pr/V OR Pr/Na CBARRIER (*) - Adv - Comp - DetIndecl) ;
+REMOVE NGDAIP - Acc - Prp - Loc IF (-1C* Pr/V OR Pr/Na CBARRIER (*) - Adv - Comp - DetIndecl - ModAcc - ModPrp) ;
 
 REMOVE NGDAIP - Acc - Dat - Prp IF (-1C* Pr/Po CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
@@ -531,13 +552,30 @@ REMOVE Gen IF (-1 BOS) (0 Title OR Majusc) (NOT 1* V/Gen);
 
 REMOVE Imper IF (1C Fin) ;
 
-SELECT  Prp IF (0C N) (-1* Pr/Na OR Pr/V CBARRIER (*) - Prp) (-1C Prp) (-1C Modif) ; 
+SELECT Prp IF (0C N) (-1* Pr/Na OR Pr/V CBARRIER (*) - Prp) (-1C Prp) (-1C Modif) ; 
 
 SELECT A + $$MFN IF (0C A + $$NGDAIP) (1C N + $$MFN + $$NGDAIP) ;
 
 REMOVE CC IF (0 Takže OR Tože) (-1 CC) ;
 
-SELECT ("как") + CC IF (1* ("так и") BARRIER Fin) ; 
+SELECT Kak + CC IF (1* Tak_I BARRIER Fin) ; 
+
+SELECT Gen + Sg IF (0 Ord) (1C N/Vek + Gen) (-1 TimePart LINK -1* Pr BARRIER (*) - Modif) ;
+
+SELECT TV IF (-1C Nom) (1C Acc) (0C V) (0C IV OR TV) (NOT 1 AccAdv) ; 
+
+REMOVE Sam + Acc IF (-1 BOS) (1C* Nom BARRIER NGDAIP - Nom) ;
+
+SELECT Det + $$MFN IF (1C* N + $$MFN + $$NGDAIP BARRIER NGDAIP - $$NGDAIP) (0C Det + $$NGDAIP) ;
+
+SELECT Pr IF (0 Pr/Pered) (1C Ins) ;
+
+REMOVE Acc IF (-1 BOS) (1* Guio BARRIER Fin LINK 1* EOS BARRIER Fin) ;
+
+REMOVE Acc IF (-1C Acc LINK -1 BOS) (0 Acc OR Nom) (1C Guio) ;
+
+REMOVE Fin IF (-1C Pr);
+
 
 ###############################################################################
 
@@ -560,8 +598,13 @@ SECTION
 
 LIST @ADVL = @ADVL ; 
 LIST @CVP = @CVP ; 
+LIST @N→ = @N→ ; 
 
 MAP @ADVL TARGET Short IF (0C Short) (0C Neu) (1C Fin) ;
+
+MAP @ADVL TARGET Short IF (0C Short) (0C Neu) (-1C Fin) ;
+
+MAP @N→ TARGET Det IF (1C* N + $$NGDAIP BARRIER NGDAIP - $$NGDAIP) (0C Det + $$NGDAIP) ;
 
 # MAP @CVP TARGET Cm IF (-1* Fin CBARRIER Fin) (1* Fin CBARRIER Fin) (NOT 1* Cm CBARRIER Fin) ;
   #! Надвигается катастрофа, а министр, видимо, не понимает обстановки, и должные меры не принимаются.
@@ -577,6 +620,10 @@ REMOVE N/Denga ;
 REMOVE Msc IF (0 N/Voda OR N/Vode) ; 
 
 SELECT Majusc IF (0C Roman) ;
+
+SELECT DicMajusc IF (0C Roman) (0 Majusc) ;
+
+SELECT DicMinusc IF (0C Roman) (0 Minusc) ;
 
 REMOVE N/Pomoč IF (0 N/Pomoč OR V) ;
 
@@ -627,6 +674,10 @@ REMOVE N/Stradanje IF (0 N/Stradanie);
 REMOVE Ij/A IF (NOT 1* Excl OR Ques);
 
 REMOVE N/Slony IF (-1 A/Boevoj) ;
+
+REMOVE Imper IF (0 Num/Tri) (NOT 1* Excl) ; 
+
+REMOVE Imper IF (0 N/Denj) (NOT 1* Excl) ;
 
 REMOVE Prob ; 
 
