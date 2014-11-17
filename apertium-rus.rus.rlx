@@ -32,7 +32,7 @@ LIST Ques = ("?") ;
 LIST Percent = ("<[0-9]+%>"r) percent ; 
 LIST Roman = roman ("<M{0,4}(CM|CD|D(C{0,3}))?(XC|XL|L(X{0,3}))?(IX|IV|V(I{0,3}))?>"ri num) ("<[MCDXLIVМСХ]+>"ri num) ;
 
-LIST Pprep = pprep ; 
+LIST Pprep = pprep pobj ; 
 LIST Pers = pers ;
 LIST Paren = paren ; 
 
@@ -590,6 +590,10 @@ SELECT N IF (0C A OR N) (-1C A) (1C Guio) ;
 
 SELECT Pr/Soglasno IF (-1 BOS) (1C Dat) ;
 
+REMOVE Pl + Acc IF (0C A) (0 Acc OR Gen) (1 Gen) (1* Guio) (NOT 1* TV) (NOT -1* TV);
+
+SELECT Nom IF (-1C A + Nom LINK -1* BOS BARRIER NGDAIP - Nom) (0C N) (1C Guio) ;
+
 ###############################################################################
 
 # после/посол
@@ -612,12 +616,15 @@ SECTION
 LIST @ADVL = @ADVL ; 
 LIST @CVP = @CVP ; 
 LIST @N→ = @N→ ; 
+LIST @P← = @P← ; 
 
 MAP @ADVL TARGET Short IF (0C Short) (0C Neu) (1C Fin) ;
 
 MAP @ADVL TARGET Short IF (0C Short) (0C Neu) (-1C Fin) ;
 
 MAP @N→ TARGET Det IF (1C* N + $$NGDAIP BARRIER NGDAIP - $$NGDAIP) (0C Det + $$NGDAIP) ;
+
+MAP @P← TARGET Pprep IF (-1 Pr) ; 
 
 # MAP @CVP TARGET Cm IF (-1* Fin CBARRIER Fin) (1* Fin CBARRIER Fin) (NOT 1* Cm CBARRIER Fin) ;
   #! Надвигается катастрофа, а министр, видимо, не понимает обстановки, и должные меры не принимаются.
