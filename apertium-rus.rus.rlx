@@ -24,6 +24,7 @@ LIST Pass = pass pasv ;  # Check
 LIST Cop = ("быть" vblex) ;
 
 LIST Guio = guio "-" ; 
+LIST SafeGuio = "—" ; 
 LIST Cm = cm ; 
 LIST Excl = ("!") ;
 LIST Ques = ("?") ;
@@ -205,6 +206,7 @@ LIST Tože = "тоже" ;
 LIST Kak = "как" ;
 LIST Tak_I = "так и" ; 
 LIST Sam = "сам" ; 
+LIST U = "у¹" "у²" "у" ; 
 
 LIST PrefixNado = "<[бвгджзйклмнпрстуфхцчшщъь][бвгджзйклмнпрстуфхцчшщъь].*>"r ; 
 
@@ -583,6 +585,8 @@ SELECT $$NGDAIP IF (0C $$NGDAIP OR Imper) (-1C $$NGDAIP LINK -1* Pr BARRIER (*) 
 
 SELECT Pron IF (0C Prp) (0 Pron OR Det) (NOT 1* Prp BARRIER (*) - Adv - DetIndecl) ; 
 
+SELECT N IF (0C A OR N) (-1C A) (1C Guio) ;
+
 ###############################################################################
 
 # после/посол
@@ -686,6 +690,8 @@ REMOVE N/Filma IF (0 N/Film OR N/Filma) ;
 REMOVE Imper IF (0 Num/Tri) (NOT 1* Excl) ; 
 
 REMOVE Imper IF (0 N/Denj) (NOT 1* Excl) ;
+
+REMOVE Interj IF (0 U) (NOT 1 Punct) (1 Gen) ; 
 
 REMOVE Prob ; 
 
