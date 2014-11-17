@@ -234,7 +234,7 @@ LIST Letters = ("же" n) ("у²" n) ("о²" n) ("и²" n) ("а²" n) ; # etc.
 
 LIST Notes = ("до" n) ; # etc.
 
-LIST InsAdv = "часом" "потом" "кругом" ; 
+LIST InsAdv = "часом" "потом" "кругом" "рядом" ; 
 
 LIST AccAdv = "вечер" "день" "раз" "минута" "неделя" ;
 
@@ -369,7 +369,7 @@ REMOVE Pers IF (0C Pers OR Det) (NOT 0 Pprep) (-1C Pr) ;
 
 REMOVE Loc IF (NOT -1* Pr/V OR Pr/Na) ;
 
-SELECT Pr IF (0 Prep/Prp) (1C Prp) ; 
+SELECT Pr IF (0 Prep/Prp) (1C* Prp BARRIER (*) - Prp - DetIndecl) ; 
 
 ## Safe operations with dates 
 
@@ -580,6 +580,8 @@ REMOVE Acc IF (-1C Acc LINK -1 BOS) (0 Acc OR Nom) (1C Guio) ;
 REMOVE Fin IF (-1C Pr);
 
 SELECT $$NGDAIP IF (0C $$NGDAIP OR Imper) (-1C $$NGDAIP LINK -1* Pr BARRIER (*) - $$NGDAIP) ;
+
+SELECT Pron IF (0C Prp) (0 Pron OR Det) (NOT 1* Prp BARRIER (*) - Adv - DetIndecl) ; 
 
 ###############################################################################
 
