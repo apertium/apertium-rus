@@ -126,6 +126,7 @@ LIST Pr/Pered = ("перед" pr) ;
 LIST Pr/Čerez = ("через" pr) ;
 LIST Pr/Blagodarja = ("благодаря" pr) ;
 LIST Pr/Pri = ("при" pr) ;
+LIST Pr/Soglasno = ("согласно" pr) ;
 
 LIST N/Filma = ("фильма" n) ;
 LIST N/Film = ("фильм" n) ;
@@ -354,7 +355,7 @@ REMOVE NGDAIP - Acc - Ins IF (-1C* Pr/Za CBARRIER (*) - Adv - Comp - DetIndecl) 
 
 REMOVE NGDAIP - Gen - Ins IF (-1C* Pr/Meždu CBARRIER (*) - Adv - Comp - DetIndecl) ; 
 
-REMOVE NGDAIP - Dat IF (-1C* Pr/K CBARRIER (*) - Adv - Comp - DetIndecl) ;
+REMOVE NGDAIP - Dat IF (-1C* Pr/K OR Pr/Soglasno CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
 REMOVE NGDAIP - Prp IF (-1C* Pr/O CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
@@ -586,6 +587,8 @@ SELECT $$NGDAIP IF (0C $$NGDAIP OR Imper) (-1C $$NGDAIP LINK -1* Pr BARRIER (*) 
 SELECT Pron IF (0C Prp) (0 Pron OR Det) (NOT 1* Prp BARRIER (*) - Adv - DetIndecl) ; 
 
 SELECT N IF (0C A OR N) (-1C A) (1C Guio) ;
+
+SELECT Pr/Soglasno IF (-1 BOS) (1C Dat) ;
 
 ###############################################################################
 
