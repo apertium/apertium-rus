@@ -348,6 +348,7 @@ REMOVE NGDAIP - Acc - Prp - Loc IF (-1C* Pr/V OR Pr/Na CBARRIER (*) - Adv - Comp
 REMOVE NGDAIP - Acc - Dat - Prp IF (-1C* Pr/Po CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
 REMOVE NGDAIP - Acc - Ins IF (-1C* Pr/Za CBARRIER (*) - Adv - Comp - DetIndecl) ;
+  #! что у неё за чары
 
 REMOVE NGDAIP - Gen - Ins IF (-1C* Pr/Meždu CBARRIER (*) - Adv - Comp - DetIndecl) ; 
 
@@ -578,6 +579,7 @@ REMOVE Acc IF (-1C Acc LINK -1 BOS) (0 Acc OR Nom) (1C Guio) ;
 
 REMOVE Fin IF (-1C Pr);
 
+SELECT $$NGDAIP IF (0C $$NGDAIP OR Imper) (-1C $$NGDAIP LINK -1* Pr BARRIER (*) - $$NGDAIP) ;
 
 ###############################################################################
 
