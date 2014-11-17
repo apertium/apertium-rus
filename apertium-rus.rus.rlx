@@ -126,6 +126,8 @@ LIST Pr/Čerez = ("через" pr) ;
 LIST Pr/Blagodarja = ("благодаря" pr) ;
 LIST Pr/Pri = ("при" pr) ;
 
+LIST N/Filma = ("фильма" n) ;
+LIST N/Film = ("фильм" n) ;
 LIST N/Bukva = ("буква" n) ;
 LIST N/Goda = ("<года>"i n) ;
 LIST N/Potom = ("<потом>"i n) ;
@@ -674,6 +676,8 @@ REMOVE N/Stradanje IF (0 N/Stradanie);
 REMOVE Ij/A IF (NOT 1* Excl OR Ques);
 
 REMOVE N/Slony IF (-1 A/Boevoj) ;
+
+REMOVE N/Filma IF (0 N/Film OR N/Filma) ;
 
 REMOVE Imper IF (0 Num/Tri) (NOT 1* Excl) ; 
 
