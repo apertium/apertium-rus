@@ -18,6 +18,7 @@ LIST Interj = ij ;
 LIST CC = cnjcoo ; 
 LIST V = vblex vbser vbmod ; 
 LIST Pred = pred ; 
+LIST Part = part ; 
 
 LIST Pass = pass pasv ;  # Check
 
@@ -68,6 +69,7 @@ LIST Impf = impf ;
 LIST Perf = perf ; 
 
 LIST Ord = ord ; 
+LIST Dem = dem ; 
 LIST Interr = itg ; 
 LIST Rel = rel ; 
 
@@ -88,11 +90,13 @@ LIST Inanim = nn an ;
 
 LIST Inf = inf ; 
 LIST Imper = imp ; 
+LIST Past = past ; 
 LIST Fin = past pres fut ; 
 
 LIST Prn/Tebe = ("<тебе>"i prn) ;
 LIST Prn/Komu = ("<кому>"i prn) ;
 LIST Prn/Tot = ("тот"i prn) ;
+LIST Prn/To = ("то"i prn) ;
 
 LIST Num/Neskolko = ("несколько" num) ;
 LIST Num/Tri = ("три" num) ;
@@ -127,11 +131,13 @@ LIST Pr/Čerez = ("через" pr) ;
 LIST Pr/Blagodarja = ("благодаря" pr) ;
 LIST Pr/Pri = ("при" pr) ;
 LIST Pr/Soglasno = ("согласно" pr) ;
+LIST Pr/U = ("у" pr) ;
 
 LIST N/Filma = ("фильма" n) ;
 LIST N/Film = ("фильм" n) ;
 LIST N/Bukva = ("буква" n) ;
 LIST N/Goda = ("<года>"i n) ;
+LIST N/Godah = ("<годах>"i n) ;
 LIST N/Potom = ("<потом>"i n) ;
 LIST N/Krov = ("кровь" n) ;
 LIST N/Tomu = ("<тому>"i n) ;
@@ -191,14 +197,17 @@ LIST Ij/Na = ("на" ij) ;
 LIST Ij/Ih = ("их²" ij) ;
 LIST Ij/I = ("и¹" ij) ;
 LIST Ij/A = ("а¹" ij) ; 
+LIST Ij/No = ("но²" ij) ; 
 
 LIST O = "о" ; 
 LIST Ja = "я" ; 
 LIST I = "и" ;
 LIST No = "но" ; 
+LIST Ne = "не" ; 
 LIST Samyj = "самый" ; 
 LIST Posle = "после" ;
-LIST Čto = "что" ;
+LIST Čto = "что¹" "что²" ;
+LIST Kto = "кто" ; 
 LIST Nazad = "назад" ;
 LIST Sliškom = "слишком" ; 
 LIST Našej = "<нашей>" ; 
@@ -207,6 +216,7 @@ LIST Tože = "тоже" ;
 LIST Kak = "как" ;
 LIST Tak_I = "так и" ; 
 LIST Sam = "сам" ; 
+LIST Bylo = "<было>"i ; 
 LIST U = "у¹" "у²" "у" ; 
 
 LIST PrefixNado = "<[бвгджзйклмнпрстуфхцчшщъь][бвгджзйклмнпрстуфхцчшщъь].*>"r ; 
@@ -342,7 +352,7 @@ SELECT Gen IF (-1 Num/Neskolko) (1C* N + Gen BARRIER (*) - Gen) (0 A + Gen) ;
 
 REMOVE Nom IF (-1C Pr) ;
 
-REMOVE NGDAIP - Gen IF (-1C* Pr/Dlja OR Pr/Do OR Pr/Ot OR Pr/Iz OR Pr/Iz-za OR Pr/Krome OR Pr/Protiv OR Pr/Posle CBARRIER (*) - Adv - Comp - DetIndecl) ;
+REMOVE NGDAIP - Gen IF (-1C* Pr/Dlja OR Pr/U OR Pr/Do OR Pr/Ot OR Pr/Iz OR Pr/Iz-za OR Pr/Krome OR Pr/Protiv OR Pr/Posle CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
 REMOVE NGDAIP - Gen - Ins - Acc IF (-1C* Pr/S CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
@@ -488,6 +498,10 @@ REMOVE Neu IF (0C Num) (1C N + Msc + Sg + Gen)  ;
 
 SELECT Gen IF (0 N/Goda) (-1C LesserNum) (1 Nazad) ;
 
+SELECT Prp IF (-1C Pr) (0C Ord) (1C N/Godah) ;
+
+SELECT Inf IF (-1 Fin) (0 Inf OR Imper) (1 EOS) ;
+
 ## Parts: половина, часть, протяжение, прошествие, течение, (начало, конец,)
 
 #REMOVE Pl IF (0 N/Goda) (NOT -1* Num BARRIER NGDAIP - Nom OR Acc)  
@@ -588,11 +602,27 @@ SELECT Pron IF (0C Prp) (0 Pron OR Det) (NOT 1* Prp BARRIER (*) - Adv - DetIndec
 
 SELECT N IF (0C A OR N) (-1C A) (1C Guio) ;
 
-SELECT Pr/Soglasno IF (-1 BOS) (1C Dat) ;
+SELECT Pr/Soglasno IF (-1 BOS OR Cm) (1C Dat) ;
 
 REMOVE Pl + Acc IF (0C A) (0 Acc OR Gen) (1 Gen) (1* Guio) (NOT 1* TV) (NOT -1* TV);
 
 SELECT Nom IF (-1C A + Nom LINK -1* BOS BARRIER NGDAIP - Nom) (0C N) (1C Guio) ;
+
+REMOVE Pred IF (0 Pr/Protiv) (1 Gen) ;
+
+SELECT Dem IF (-1 Pr) (0 Dem) (1 Cm LINK 1 Čto) ;
+
+SELECT Prn/To IF (0C Prn/To OR Prn/Tot) (1 Cm LINK 1 Čto) ;
+
+SELECT Prn/Tot IF (0C Prn/To OR Prn/Tot) (1 Cm LINK 1 Kto) ;
+
+SELECT V IF (-1C Ne) (0 Bylo) (1 Gen) ;
+
+REMOVE Imper IF (-1C V LINK 0 Bylo) ; 
+
+SELECT Gen IF (-1C N LINK 0 NGDAIP - Gen) (0C A) (1C N + Gen) ; 
+
+REMOVE Short IF (0 Pr/Soglasno) (1 Dat) ; 
 
 ###############################################################################
 
@@ -702,6 +732,12 @@ REMOVE Imper IF (0 Num/Tri) (NOT 1* Excl) ;
 REMOVE Imper IF (0 N/Denj) (NOT 1* Excl) ;
 
 REMOVE Interj IF (0 U) (NOT 1 Punct) (1 Gen) ; 
+
+REMOVE N IF (0 No) (NOT -1 Punct) (NOT 1 Punct) ;
+
+REMOVE Ij/No IF (NOT 1* Excl OR Ques);
+
+REMOVE Part IF (0 Bylo) (NOT -1* Past) ; 
 
 REMOVE Prob ; 
 
