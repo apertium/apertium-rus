@@ -1,3 +1,7 @@
+###############################################################################
+#
+###############################################################################
+
 DELIMITERS = "<.>" "<..>" "<...>" "<!>" "<?>" "<¶>" ; 
 SOFT-DELIMITERS = "<,>" ;
 
@@ -299,6 +303,10 @@ SET Punct = Guio | Cm | Excl | Ques ;
 
 SET CLB = Rel | CS ;
 
+###############################################################################
+# Rules that should be fairly safe. 
+###############################################################################
+
 SECTION 
 
 ## Non-sentences 
@@ -425,6 +433,10 @@ REMOVE Det IF (0 Det OR Pron) (1C* Fin BARRIER (*) - Adv) ;
 SELECT Ant + $$NGDAIP IF (1C Cog + $$NGDAIP) ; 
 
 SELECT Cog + $$NGDAIP IF (-1C Ant + $$NGDAIP) ; 
+
+###############################################################################
+# Heuristic rules that should be fairly safe.
+###############################################################################
 
 SECTION 
 
@@ -625,21 +637,8 @@ SELECT Gen IF (-1C N LINK 0 NGDAIP - Gen) (0C A) (1C N + Gen) ;
 REMOVE Short IF (0 Pr/Soglasno) (1 Dat) ; 
 
 ###############################################################################
-
-# после/посол
-
-# SELECT Nom + $$MFN IF (0C Prop) (0C Acc OR Nom) (NOT -1C* Nom) (NOT 1C* Nom) (NOT -1* TV) (NOT 1* TV) (-1C* Cop + $$MFN) ;
-
-# SELECT Nom + $$MFN IF (0C Prop) (0C Acc OR Nom) (NOT -1C* Nom) (NOT 1C* Nom) (NOT -1* TV BARRIER CLB) (NOT 1* TV BARRIER CLB) (1C* Cop + $$MFN BARRIER CLB) ;
-
-# REMOVE Acc IF (0 Nom OR Acc) (NOT -1* TV) (NOT -1C* Pr) (NOT 1* TV) ;
-# REMOVE Acc IF (NOT -1* TV) (-1* IV LINK 0 Fin) (NOT 1* TV BARRIER Fin) ;
-
-# REMOVE CS IF (0 CS/Čto) (NOT -1* V OR Pred) ;
-
-  # Нападающие выжигали огнем места, где могли спрятаться их жертвы: дома с труднодоступными помещениями, церкви, леса, перелески и т. п.
-
-# Distinguishing between adj/participle: if it gets arguments, it's not an adjective.
+# Syntax labelling rules
+###############################################################################
 
 SECTION
 
@@ -658,6 +657,11 @@ MAP @P← TARGET Pprep IF (-1 Pr) ;
 
 # MAP @CVP TARGET Cm IF (-1* Fin CBARRIER Fin) (1* Fin CBARRIER Fin) (NOT 1* Cm CBARRIER Fin) ;
   #! Надвигается катастрофа, а министр, видимо, не понимает обстановки, и должные меры не принимаются.
+
+###############################################################################
+# Really heuristic rules and hacks, relies on certain forms being extremely
+# infrequent in relation to other forms.
+###############################################################################
 
 SECTION 
 
@@ -742,5 +746,24 @@ REMOVE Part IF (0 Bylo) (NOT -1* Past) ;
 REMOVE Prob ; 
 
 REMOVE Facul ; 
+
+###############################################################################
+# Failed rules
+###############################################################################
+
+# после/посол
+
+# SELECT Nom + $$MFN IF (0C Prop) (0C Acc OR Nom) (NOT -1C* Nom) (NOT 1C* Nom) (NOT -1* TV) (NOT 1* TV) (-1C* Cop + $$MFN) ;
+
+# SELECT Nom + $$MFN IF (0C Prop) (0C Acc OR Nom) (NOT -1C* Nom) (NOT 1C* Nom) (NOT -1* TV BARRIER CLB) (NOT 1* TV BARRIER CLB) (1C* Cop + $$MFN BARRIER CLB) ;
+
+# REMOVE Acc IF (0 Nom OR Acc) (NOT -1* TV) (NOT -1C* Pr) (NOT 1* TV) ;
+# REMOVE Acc IF (NOT -1* TV) (-1* IV LINK 0 Fin) (NOT 1* TV BARRIER Fin) ;
+
+# REMOVE CS IF (0 CS/Čto) (NOT -1* V OR Pred) ;
+
+  # Нападающие выжигали огнем места, где могли спрятаться их жертвы: дома с труднодоступными помещениями, церкви, леса, перелески и т. п.
+
+# Distinguishing between adj/participle: if it gets arguments, it's not an adjective.
 
 
