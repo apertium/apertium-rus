@@ -4,6 +4,7 @@
 
 DELIMITERS = "<.>" "<..>" "<...>" "<!>" "<?>" "<¶>" ; 
 SOFT-DELIMITERS = "<,>" ;
+SUBREADINGS = LTR ; 
 
 LIST BOS = (>>>) ; 
 LIST EOS = (<<<) ; 
@@ -33,6 +34,7 @@ LIST SafeGuio = "—" ;
 LIST Cm = cm ; 
 LIST Excl = ("!") ;
 LIST Ques = ("?") ;
+LIST Sent = sent ; 
 
 LIST Percent = ("<[0-9]+%>"r) percent ; 
 LIST Roman = roman ("<M{0,4}(CM|CD|D(C{0,3}))?(XC|XL|L(X{0,3}))?(IX|IV|V(I{0,3}))?>"ri num) ("<[MCDXLIVМСХ]+>"ri num) ;
@@ -98,6 +100,7 @@ LIST Imper = imp ;
 LIST Past = past ; 
 LIST Fin = past pres fut ; 
 
+LIST Prn/Sebe = ("<себе>"i prn) ;
 LIST Prn/Tebe = ("<тебе>"i prn) ;
 LIST Prn/Komu = ("<кому>"i prn) ;
 LIST Prn/Tot = ("тот"i prn) ;
@@ -107,6 +110,7 @@ LIST Num/Neskolko = ("несколько" num) ;
 LIST Num/Tri = ("три" num) ;
 
 LIST CS/Čto = ("что²" cnjsub)  ;
+LIST CC/I = ("и" cnjcoo) ; 
 
 LIST Paren/Konečno = ("конечно" paren) ; 
 
@@ -167,14 +171,14 @@ LIST N/Pravilo¹ = ("правило¹" n) ;
 LIST N/Pravilo² = ("правило²" n) ;
 LIST N/Noga = ("нога" n) ;
 LIST N/Lob = ("лоб" n) ;
-LIST N/Byli = ("<были>" n) ;
+LIST N/Byli = ("<были>"i n) ;
 LIST N/On = ("он²" n) ;
 LIST N/Stradanje = ("страданье" n) ;
 LIST N/Stradanie = ("страдание" n) ;
 LIST N/Slony = ("слоны" n) ;
 LIST N/Denj = ("день" n) ;
 
-LIST A/Malo = ("<мало>" adj) ;
+LIST A/Malo = ("<мало>"i adj) ;
 LIST A/Božij = ("божий" adj) ;
 LIST A/Metrov = ("<метров>"i adj) ("<километров>"i adj) ;
 LIST A/Prišlij = ("пришлый" adj) ; 
@@ -210,12 +214,13 @@ LIST I = "и" ;
 LIST No = "но" ; 
 LIST Ne = "не" ; 
 LIST Samyj = "самый" ; 
+LIST Kotoryj = "который" ;
 LIST Posle = "после" ;
 LIST Čto = "что¹" "что²" ;
 LIST Kto = "кто" ; 
 LIST Nazad = "назад" ;
 LIST Sliškom = "слишком" ; 
-LIST Našej = "<нашей>" ; 
+LIST Našej = "<нашей>"i ; 
 LIST Takže = "также" ; 
 LIST Tože = "тоже" ; 
 LIST Kak = "как" ;
@@ -223,6 +228,7 @@ LIST Tak_I = "так и" ;
 LIST Sam = "сам" ; 
 LIST Bylo = "<было>"i ; 
 LIST U = "у¹" "у²" "у" ; 
+LIST Vo = "<во>"i ; 
 
 LIST PrefixNado = "<[бвгджзйклмнпрстуфхцчшщъь][бвгджзйклмнпрстуфхцчшщъь].*>"r ; 
 
@@ -270,6 +276,8 @@ LIST Facul = fac ;
 
 LIST V/Gen = "бояться" "выдерживать" "выражать" "давать" "добавлять" "добиваться" "добывать" "дожидаться" "допускать" "жаждать" "жалеть" "желать" "заменять" "засыпать" "избегать" "искать" "касаться" "колоть" "кушать" "лишать" "лишаться" "набирать" "наливать" "ожидать" "отдыхать" "покупать" "предвидеть" "прибавлять" "приносить" "просить" "проходить" "рекомендовать" "слушаться" "спрашивать" "стесняться" "стоит" "требовать" "тянуть" "удерживать" "хватит" "хоронить" "отсутствовать" "отговорить" "опасаться" "вспоминать" "хотеть" "требовать" ; 
 
+LIST V/Dat = "адресовать" "варить" "вводить" "вернуть" "взглянуть" "возить" "возмещать" "возражать" "вручать" "встречаться" "выписать" "гарантировать" "готовить" "грозить" "гулять" "дарить" "докладывать" "жаловаться" "жать" "изменять" "кивать" "класть" "копать" "кричать" "курить" "ломать" "махать" "менять" "мешать" "мыть" "навязывать" "надоедать" "назначать" "напоминать" "направлять" "ненавидеть" "обучать" "оказывать" "описывать" "определять" "осложнять" "оставаться" "открывать" "отозвать" "отражать" "отсылать" "перевязывать" "повторять" "подтверждать" "подчинять" "показывать" "помогать" "посвящать" "предоставлять" "предпочитать" "принадлежать" "присваивать" "радоваться" "раскрывать" "резать" "рекомендовать" "ремонтировать" "ручаться" "светить" "служить" "собирать" "советовать" "сообщать" "соответствовать" "сопровождать" "составлять" "таскать" "удвоить" "удивляться" "упрощать" "устраивать" "характеризовать" "чинить" "являться" ;
+
 
 SET Sem/Time = Month | Months | Year | Century | Season | Seasons | TimeOfDay | ("период") ; 
 
@@ -287,7 +295,9 @@ SET Prep/Prp = Pr/Pri ;
 
 SET Prep/Ins = Pr/S | Pr/Nad | Pr/Pod | Pr/Meždu | Pr/Pered ;
 
-SET Prep/Acc = Pr/V | Pr/Po ; # complete
+SET Prep/Acc = Pr/Na | Pr/V | Pr/Po ; # complete
+
+SET Prep/Dat =  Pr/K | Pr/Soglasno | Pr/Po | Pr/Blagodarja ; 
 
 SET MFN = Msc | Fem | Neu ; 
 
@@ -374,15 +384,13 @@ REMOVE NGDAIP - Acc - Ins IF (-1C* Pr/Za CBARRIER (*) - Adv - Comp - DetIndecl) 
 
 REMOVE NGDAIP - Gen - Ins IF (-1C* Pr/Meždu CBARRIER (*) - Adv - Comp - DetIndecl) ; 
 
-REMOVE NGDAIP - Dat IF (-1C* Pr/K OR Pr/Soglasno CBARRIER (*) - Adv - Comp - DetIndecl) ;
+REMOVE NGDAIP - Dat IF (-1C* Pr/K OR Pr/Blagodarja OR Pr/Soglasno CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
 REMOVE NGDAIP - Prp IF (-1C* Pr/O CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
 REMOVE NGDAIP - Ins IF (-1C* Pr/Nad CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
 REMOVE NGDAIP - Acc IF (-1C* Pr/Čerez CBARRIER (*) - Adv - Comp - DetIndecl) ;
-
-REMOVE NGDAIP - Dat IF (-1C* Pr/Blagodarja CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
 SELECT A + $$NGDAIP IF (0C A) (-1C A + $$NGDAIP LINK -1C* Pr BARRIER (*) - A - Adv - Det) ; 
 
@@ -639,6 +647,25 @@ REMOVE Short IF (0 Pr/Soglasno) (1 Dat) ;
 
 SELECT A + $$NGDAIP IF (1C* N + $$NGDAIP BARRIER Punct OR Pr OR Lparen OR NGDAIP - $$NGDAIP LINK -1C* A + $$NGDAIP BARRIER Punct OR Pr OR Lparen OR NGDAIP - $$NGDAIP);
 
+SELECT Acc IF (-1 Pr/Na OR Pr/V) (0C Modif) (0C Acc OR Prp) (1C N + Acc);
+
+REMOVE Fin IF (-1C Fin) ;
+  ## На второй период приходится начало феодальной раздробленности на Руси.
+
+REMOVE Fin IF (1C Fin) ; 
+
+REMOVE Imper IF (-1C Pr) (0 Imper OR N) (1C Gen);
+
+REMOVE Acc IF (1 EOS) (NOT 0 AccAdv) (NOT -1* TV) (NOT -1* Prep/Acc) ; 
+
+REMOVE Dat IF (NOT 0 Prn/Sebe) (NOT 1* V/Dat) (NOT -1* V/Dat) (NOT -1* Prep/Dat) ;
+
+#@ Лишь после того, как германская военная кампания против Польши завершилась и при этом @дело не дошло@ до перенесения военных действий на территорию Литвы, Сталин позволил себе распорядиться, чтобы Красная Армия при своем вступлении широким фронтом в Восточную Польшу (начиная с 17 сентября) времмено заняла стратегически важные районы Южной Литвы.
+
+REMOVE Prp IF (-1C Fin) ;
+
+REMOVE Det IF (0 Kotoryj) (1C Pron) ;
+
 ###############################################################################
 # Syntax labelling rules
 ###############################################################################
@@ -647,6 +674,7 @@ SECTION
 
 LIST @ADVL = @ADVL ; 
 LIST @CVP = @CVP ; 
+LIST @CNP = @CNP ; 
 LIST @N→ = @N→ ; 
 LIST @P← = @P← ; 
 
@@ -660,6 +688,8 @@ MAP @P← TARGET Pprep IF (-1 Pr) ;
 
 # MAP @CVP TARGET Cm IF (-1* Fin CBARRIER Fin) (1* Fin CBARRIER Fin) (NOT 1* Cm CBARRIER Fin) ;
   #! Надвигается катастрофа, а министр, видимо, не понимает обстановки, и должные меры не принимаются.
+
+MAP @CNP TARGET CC/I IF (0C CC/I) (NOT -1* Fin) (-1* N OR Modif) ; 
 
 ###############################################################################
 # Really heuristic rules and hacks, relies on certain forms being extremely
@@ -698,7 +728,7 @@ REMOVE Ij/Ih IF (NOT 1 Excl) ;
 
 REMOVE Ij/I IF (NOT 1 Punct) ; 
 
-REMOVE Adv/I IF (NOT -1 Adv/Ešë OR Jest) ;
+REMOVE Adv/I IF (NOT -1 Adv/Ešë OR Jest OR Kak) ;
 
 REMOVE V/Primer IF (0 N/Primer) ; 
 
@@ -746,9 +776,20 @@ REMOVE Ij/No IF (NOT 1* Excl OR Ques);
 
 REMOVE Part IF (0 Bylo) (NOT -1* Past) ; 
 
+SELECT Pr IF (0C Vo) ;
+
 REMOVE Prob ; 
 
 REMOVE Facul ; 
+
+###############################################################################
+# Rules dealing explicitly with subreadings 
+###############################################################################
+
+REMOVE SUB:1 Sent IF (1 Sent)
+
+REMOVE SUB:1 Sent IF (NOT 1 Majusc OR Title) ; 
+
 
 ###############################################################################
 # Failed rules
