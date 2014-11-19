@@ -41,6 +41,7 @@ LIST Pprep = pprep pobj ;
 LIST Pers = pers ;
 LIST Paren = paren ; 
 
+LIST Lparen = lpar ; 
 LIST Parens = lpar rpar par ;
 LIST Apos = apos ; 
 LIST Quot = lquot rquot quot ;
@@ -635,6 +636,8 @@ REMOVE Imper IF (-1C V LINK 0 Bylo) ;
 SELECT Gen IF (-1C N LINK 0 NGDAIP - Gen) (0C A) (1C N + Gen) ; 
 
 REMOVE Short IF (0 Pr/Soglasno) (1 Dat) ; 
+
+SELECT A + $$NGDAIP IF (1C* N + $$NGDAIP BARRIER Punct OR Pr OR Lparen OR NGDAIP - $$NGDAIP LINK -1C* A + $$NGDAIP BARRIER Punct OR Pr OR Lparen OR NGDAIP - $$NGDAIP);
 
 ###############################################################################
 # Syntax labelling rules
