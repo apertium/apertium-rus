@@ -178,6 +178,8 @@ LIST N/Stradanje = ("страданье" n) ;
 LIST N/Stradanie = ("страдание" n) ;
 LIST N/Slony = ("слоны" n) ;
 LIST N/Denj = ("день" n) ;
+LIST N/Čelovek = ("человек" n) ;
+LIST N/Ljudi = ("люди²" n) ;
 
 LIST A/Malo = ("<мало>"i adj) ;
 LIST A/Božij = ("божий" adj) ;
@@ -471,6 +473,7 @@ REMOVE NGDAIP - Ins IF (0C A OR Det) (1C* N + Ins BARRIER NGDAIP - Ins);
 REMOVE Short IF (-1C Pr) ; 
 
 #REMOVE Acc IF (-1* BOS BARRIER NGDAIP - Nom) (0C Nom OR Acc) (NOT 1* TV) (NOT -1 Num LINK 1 Sem/Time OR Sem/Distance) (NOT 0 Sem/Time) (NOT 0 Sem/Distance) ; 
+
 REMOVE Acc IF (-1* BOS BARRIER NGDAIP - Nom)  (0C Nom OR Acc) (NOT 1* TV) (NOT 0 Sem/Time) (NOT 0 Sem/Distance) ; 
 
 REMOVE Cmp IF (0 Cmp OR Adv) (NOT 1 Guio) ; # (NOT 1 Guio LINK 1 A) ; 
@@ -674,6 +677,16 @@ SELECT Pr IF (0 Pr/Posle) (1 Prn/Togo) (2 Cm) (3 Kak) ;
 
 SELECT Pron + Neu IF (-1 Pr/Posle) (0 Prn/Togo) (1 Cm) (2 Kak) ;
 
+REMOVE Acc IF (-1C SafeGuio) (NOT 0 Ord) (NOT -1* Acc) ;
+
+REMOVE Det + $$MFN IF (1C N) (1C MFN - $$MFN) (0 MFN - $$MFN) (1 MFN - $$MFN) ;
+
+SELECT Det IF (-1C Pr) (0 Det OR Pron) (0 Prp) (1C Prp) ;
+
+REMOVE Acc IF (-1C Pr) (0 Modif) (0 Prp OR Acc) (1C Prp) ;
+
+REMOVE Det + $$NGDAIP IF (1C N) (1C NGDAIP - $$NGDAIP) (0 NGDAIP - $$NGDAIP) (1 NGDAIP - $$NGDAIP) ;
+
 ###############################################################################
 # Syntax labelling rules
 ###############################################################################
@@ -791,6 +804,8 @@ SELECT Pr IF (0C Vo) ;
 
 SELECT DicTitle IF (NOT -1 BOS) (0 Title) ;
 
+SELECT N/Čelovek IF (0C N/Čelovek OR N/Ljudi) ;
+
 REMOVE Prob ; 
 
 REMOVE Facul ; 
@@ -823,4 +838,6 @@ REMOVE SUB:1 Sent IF (NOT 1 Majusc OR Title) ;
 
 # Distinguishing between adj/participle: if it gets arguments, it's not an adjective.
 
+# REMOVE Fin IF (-1C SafeGuio) ;
+   # Maybe just with начало
 
