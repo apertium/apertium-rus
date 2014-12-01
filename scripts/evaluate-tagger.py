@@ -41,6 +41,9 @@ def reading_lemma(r): #{
 #}
 
 def reading_pos(r): #{
+	if r.count('<') < 1: #{
+		return '<unk>';
+	#}
 	return '<' + r.split('<')[1].split('>')[0] + '>';
 #}
 
@@ -88,6 +91,52 @@ def reading_func(r): #{
 	return func.replace('<>', '');
 #}
 
+def readings_rules(readings): #{
+	rules = set();
+	readings_rules = {};
+
+	for r in readings: #{
+		reading = '';
+		seen = False;
+		tag = '';
+		first = True;
+		for c in r: #{
+			if c == '<' and first == False: #{
+				seen = True;
+			elif c == '<' and first == True: #{
+				seen = True;
+				first = False;		
+			#}
+			if c == '+': #{
+				first = True;
+			#}
+			if c == '¬': #{
+				continue;
+			#}
+			if c == '>': #{
+				tag = tag + c;
+				if tag.count(':'): #{
+					rules.add(tag);
+				else: #{
+					reading = reading + tag;
+				#}
+				tag = '';
+				seen = False;
+			#}
+			if seen and not first: #{
+				tag = tag + c;
+			elif first: #{
+				reading = reading + c;
+			#}
+		#}
+		if reading not in readings_rules: #{
+			readings_rules[reading] = [];
+		#}
+		readings_rules[reading] = list(rules);
+	#}
+	return (rules, readings_rules);
+#}
+
 src_f = open(sys.argv[1]);
 ref_f = open(sys.argv[2]);
 tst_f = open(sys.argv[3]);
@@ -115,6 +164,11 @@ ref_f = open(sys.argv[2]);
 tst_f = open(sys.argv[3]);
 
 n_unknown = 0;
+
+            #                       tp tn fp fn
+rules = {}; # rules['SELECT:462'] = (0, 0, 0, 0) 
+
+applic = {} # rules['SELECT:462'] = 0;
 
 n_truepositive = 0;
 n_truenegative = 0;
@@ -204,11 +258,34 @@ for line in range(0, lines): #{
 
 	n_ref_readings = n_ref_readings + 1;
 
+	#######################################################################
+
+	tst_rules, tst_readings_rules = readings_rules(tst_readings + tst_removed);
+	#print('READINGS:', tst_readings);
+	#print('RULES_READINGS:', tst_readings_rules);
+	for rule in list(tst_rules): #{
+		if rule not in rules: #{
+			rules[rule] = (0, 0, 0, 0);
+		#}
+		#print('RULES:', rule, rules[rule]);
+	#}
+
+
 	for tst_reading in tst_readings: #{
 		if tst_reading not in ref_readings: #{
 			n_falsepositive = n_falsepositive + 1;
+			for rule in tst_readings_rules[tst_reading]: #{
+				(tp, tn, fp, fn) = rules[rule];	
+				fp = fp + 1;
+				rules[rule] = (tp, tn, fp, fn);
+			#}
 		else: #{
 			n_truepositive = n_truepositive + 1;
+			for rule in tst_readings_rules[tst_reading]: #{
+				(tp, tn, fp, fn) = rules[rule];	
+				tp = tp + 1;
+				rules[rule] = (tp, tn, fp, fn);
+			#}
 		#}
 	#}
 
@@ -216,16 +293,32 @@ for line in range(0, lines): #{
 		if ref_reading not in tst_readings: #{
 			print('FALSENEG:', ref_reading, tst_readings);
 			n_falsenegative = n_falsenegative + 1;
+			if ref_reading not in tst_readings_rules: #{
+				continue;
+			#}
+			for rule in tst_readings_rules[ref_reading]: #{
+				(tp, tn, fp, fn) = rules[rule];	
+				fn = fn + 1;
+				rules[rule] = (tp, tn, fp, fn);
+			#}
 		#}
 	#}
 
 	for src_reading in src_readings: #{
 		if src_reading not in ref_readings and src_reading not in tst_readings: #{
 			n_truenegative = n_truenegative + 1;
+			if src_reading not in tst_readings_rules: #{
+				continue;
+			#}
+			for rule in tst_readings_rules[src_reading]: #{
+				(tp, tn, fp, fn) = rules[rule];	
+				tn = tn + 1;
+				rules[rule] = (tp, tn, fp, fn);
+			#}
 		#}
 	#}
 
-
+	#######################################################################
 
 	if tst_lema == ref_lema and tst_msd == ref_msd: #{
 		print('=\t', tst_lema, tst_msd);
@@ -322,4 +415,11 @@ print('lem+pos  :\t',p_tst_lemapos_correct, '(', p_tst_lemapos_correct-p_bas_lem
 print('lem+msd  :\t',p_tst_lemamsd_correct, '(', p_tst_lemamsd_correct-p_bas_lemamsd_correct, ')');
 print('func     :\t',p_tst_func_correct, '(', p_tst_func_correct-p_bas_func_correct, ')');
 
-
+rkeys = list(rules.keys());
+rkeys.sort();
+print('');
+print('Rule No.\tTP\tTN\tFP\tFN');
+for rule in rkeys: #{
+	print('%s\t%d\t%d\t%d\t%d' % (rule, rules[rule][0], rules[rule][1], rules[rule][2], rules[rule][3]));
+#	print(rule, rules[rule]);
+#}

@@ -52,6 +52,8 @@ LIST Comp = (comp pred) ;
 LIST Short = short (adj pred) ; # pred
 LIST Cmp = cmp ; 
 
+LIST PrcPast = pp ;
+
 LIST TV = tv ; 
 LIST IV = iv ; 
 
@@ -693,7 +695,15 @@ REMOVE CS/Čto IF (-1 Pr) ;
 SELECT Anim IF (0C Anim OR Inanim) (-1 SafeGuio LINK -1C Anim + Nom) ;
 
 REMOVE Gen IF (0 Anim) (0C Gen OR Acc) (-1 TV) (-1C  Fin) (NOT -1 V/Gen) ;
-   #! List of verbs with gen-obj 
+
+SELECT V IF (0C Bylo) (1C PrcPast + Short);
+
+SELECT Nom IF (0C Nom OR Acc) (-1C PrcPast + Short LINK -1C Bylo) (NOT -1* Nom) (NOT 1C* Nom) ;
+
+SELECT $$MFN IF (0C Ord) (-1C Pr) (1C N + $$MFN) ;
+
+# REMOVE Pred (-1C Fin) ; 
+  #! ... не было против. 
 
 ###############################################################################
 # Syntax labelling rules
@@ -707,9 +717,9 @@ LIST @CNP = @CNP ;
 LIST @N→ = @N→ ; 
 LIST @P← = @P← ; 
 
-MAP @ADVL TARGET Short IF (0C Short) (0C Neu) (1C Fin) ;
+MAP @ADVL TARGET Short IF (NOT 0 V) (0C Short) (0C Neu) (1C Fin) ;
 
-MAP @ADVL TARGET Short IF (0C Short) (0C Neu) (-1C Fin) ;
+MAP @ADVL TARGET Short IF (NOT 0 V) (0C Short) (0C Neu) (-1C Fin) ;
 
 MAP @N→ TARGET Det IF (1C* N + $$NGDAIP BARRIER NGDAIP - $$NGDAIP) (0C Det + $$NGDAIP) ;
 
@@ -810,7 +820,7 @@ REMOVE Part IF (0 Bylo) (NOT -1* Past) ;
 
 SELECT Pr IF (0C Vo) ;
 
-SELECT DicTitle IF (NOT -1 BOS) (0 Title) ;
+SELECT DicTitle IF (NOT -1 BOS) (0 Title) (0C N) ;
 
 SELECT N/Čelovek IF (0C N/Čelovek OR N/Ljudi) ;
 
