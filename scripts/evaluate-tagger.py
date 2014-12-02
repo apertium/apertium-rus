@@ -380,8 +380,11 @@ print('accuracy :\t', accuracy);
 
 print('');
 
-print('src_ambig:\t', float(n_src_readings)/float(n_ref_readings));
-print('tst_ambig:\t', float(n_tst_readings)/float(n_ref_readings));
+src_ambig_rate = float(n_src_readings)/float(n_ref_readings);
+tst_ambig_rate = float(n_tst_readings)/float(n_ref_readings);
+print('src_ambig:\t', src_ambig_rate);
+print('tst_ambig:\t', tst_ambig_rate);
+print('resolved :\t %.2f%%' % (100.0-(tst_ambig_rate/src_ambig_rate*100.0)));
 
 print('');
 

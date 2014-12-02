@@ -121,29 +121,34 @@ LIST Jest = ("<есть>"i) ;
 
 LIST Pr/V = ("в" pr) ;
 LIST Pr/Na = ("на" pr) ;
-LIST Pr/Nad = ("над" pr) ;
-LIST Pr/Za = ("за" pr) ;
-LIST Pr/Po = ("по" pr) ;
 LIST Pr/S = ("с" pr) ;
-LIST Pr/Dlja = ("для" pr) ; 
-LIST Pr/Ot = ("от" pr) ;
-LIST Pr/Do = ("до" pr) ;
+LIST Pr/Po = ("по" pr) ;
 LIST Pr/Iz = ("из" pr) ;
+LIST Pr/K = ("к" pr) ;
+LIST Pr/Ot = ("от" pr) ;
+LIST Pr/Dlja = ("для" pr) ; 
+LIST Pr/Do = ("до" pr) ;
+LIST Pr/Za = ("за" pr) ;
+LIST Pr/O = ("о" pr) ;
+LIST Pr/Pri = ("при" pr) ;
+LIST Pr/U = ("у" pr) ;
+LIST Pr/Posle = ("после" pr) ;
 LIST Pr/Pod = ("<под>"i pr) ;
 LIST Pr/Meždu = ("между" pr) ;
-LIST Pr/Iz-za = ("из-за" pr) ;
-LIST Pr/K = ("к" pr) ;
-LIST Pr/Protiv = ("против" pr) ;
-LIST Pr/Krome = ("кроме" pr) ;
-LIST Pr/O = ("о" pr) ;
-LIST Pr/Posle = ("после" pr) ;
-LIST Pr/Nado = ("<надо>"i pr) ;
-LIST Pr/Pered = ("перед" pr) ;
+LIST Pr/Okolo = ("около" pr) ; 
 LIST Pr/Čerez = ("через" pr) ;
+LIST Pr/Protiv = ("против" pr) ;
+LIST Pr/Nad = ("над" pr) ;
+LIST Pr/Bez = ("без" pr) ; 
+LIST Pr/Sredi = ("среди" pr) ;
+LIST Pr/Iz-za = ("из-за" pr) ;
+LIST Pr/Pered = ("перед" pr) ;
 LIST Pr/Blagodarja = ("благодаря" pr) ;
-LIST Pr/Pri = ("при" pr) ;
+LIST Pr/Krome = ("кроме" pr) ;
+LIST Pr/Vključaja = ("включая" pr) ; 
 LIST Pr/Soglasno = ("согласно" pr) ;
-LIST Pr/U = ("у" pr) ;
+
+LIST Pr/Nado = ("<надо>"i pr) ;
 
 LIST N/Filma = ("фильма" n) ;
 LIST N/Film = ("фильм" n) ;
@@ -312,7 +317,7 @@ SET Modif = Det | A - Short | Ord ;
 SET ModAcc = Modif + Acc ; 
 SET ModPrp = Modif + Prp ; 
 
-SET SentNotExcl = (".") | ("...") | ("?") ; 
+SET SentNotExcl = (".") | ("...") | ("?") | (":")  ; 
 
 SET Punct = Guio | Cm | Excl | Ques ;
 
@@ -375,7 +380,7 @@ SELECT Gen IF (-1 Num/Neskolko) (1C* N + Gen BARRIER (*) - Gen) (0 A + Gen) ;
 
 REMOVE Nom IF (-1C Pr) ;
 
-REMOVE NGDAIP - Gen IF (-1C* Pr/Dlja OR Pr/U OR Pr/Do OR Pr/Ot OR Pr/Iz OR Pr/Iz-za OR Pr/Krome OR Pr/Protiv OR Pr/Posle CBARRIER (*) - Adv - Comp - DetIndecl) ;
+REMOVE NGDAIP - Gen IF (-1C* Pr/Dlja OR Pr/U OR Pr/Do OR Pr/Ot OR Pr/Iz OR Pr/Iz-za OR Pr/Krome OR Pr/Protiv OR Pr/Posle OR Pr/Bez OR Pr/Sredi OR Pr/Okolo CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
 REMOVE NGDAIP - Gen - Ins - Acc IF (-1C* Pr/S CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
@@ -394,7 +399,7 @@ REMOVE NGDAIP - Prp IF (-1C* Pr/O CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
 REMOVE NGDAIP - Ins IF (-1C* Pr/Nad CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
-REMOVE NGDAIP - Acc IF (-1C* Pr/Čerez CBARRIER (*) - Adv - Comp - DetIndecl) ;
+REMOVE NGDAIP - Acc IF (-1C* Pr/Čerez OR Pr/Vključaja CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
 SELECT A + $$NGDAIP IF (0C A) (-1C A + $$NGDAIP LINK -1C* Pr BARRIER (*) - A - Adv - Det) ; 
 
@@ -704,6 +709,12 @@ SELECT $$MFN IF (0C Ord) (-1C Pr) (1C N + $$MFN) ;
 
 # REMOVE Pred (-1C Fin) ; 
   #! ... не было против. 
+
+REMOVE IV IF (0 TV OR IV) (1C Acc) (NOT 1 AccAdv) ;
+
+REMOVE Acc IF (0C Nom OR Acc) (0 A) (-1 Short) (1C Nom) ;
+
+REMOVE Adv IF (0 Pr/Posle) (-1C N) (1 Gen) ;
 
 ###############################################################################
 # Syntax labelling rules
