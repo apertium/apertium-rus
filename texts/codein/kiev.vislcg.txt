@@ -570,7 +570,8 @@
 "<называют>"
 	"называть¹⁻²" vblex impf iv pres p3 pl
 	"называть¹⁻²" vblex impf tv pres p3 pl
- «
+"<«>"
+	"«" lquot
 "<киевской>"
 	"киевский" adj f an sg ins
 ;	"киевский" adj f an sg prp REMOVE:432
@@ -578,7 +579,8 @@
 ;	"киевский" adj f an sg gen REMOVE:472
 "<культурой>"
 	"культура" n f nn sg ins
-» 
+"<»>"
+	"»" rquot 
 "<и>"
 	"и" cnjcoo
 ;	"и²" n nt nn pl prp REMOVE:432
@@ -1213,7 +1215,8 @@
 	"сказать" vblex perf tv pp adv
 "<:>"
 	":" sent
- «
+"<«>"
+	"«" lquot 
 "<сє>"
 	"*сє"
 "<буди>"
@@ -1245,7 +1248,8 @@
 	"*городомъ"
 "<Русьскꙑмъ>"
 	"*Русьскꙑмъ"
-»
+"<»>"
+	"»" rquot 
 "<.>"
 	"." sent
 
@@ -1538,7 +1542,8 @@
 "<означать>"
 	"означать" vblex impf iv inf
 	"означать" vblex impf tv inf
- «
+"<«>"
+	"«" lquot 
 "<верхние>"
 	"верхний" adj mfn an pl nom
 	"верхний" adj mfn nn pl acc
@@ -1546,7 +1551,8 @@
 	"укрепление" n nt nn pl acc
 	"укрепление" n nt nn pl nom
 	"укрепление" n nt nn sg gen
-»
+"<»>"
+	"»" rquot
 "<.>"
 	"." sent
 
@@ -1955,7 +1961,9 @@
 "<противоположность>"
 	"противоположность" n f nn sg acc
 ;	"противоположность" n f nn sg nom REMOVE:376
- «
+
+"<«>"
+	"«" lquot
 "<юбилейной>"
 	"юбилейный" adj f an sg dat
 	"юбилейный" adj f an sg gen
@@ -1967,7 +1975,8 @@
 	"концепция" n f nn sg prp
 	"концепция" n f nn sg gen
 ;	"концепция" n f nn sg dat REMOVE:667
-» 
+"<»>"
+	"»" rquot 
 "<часть>"
 	"часть" n f nn sg acc
 	"часть" n f nn sg nom
