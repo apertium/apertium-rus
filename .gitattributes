@@ -49,6 +49,8 @@ texts/codein/aviapushka1.raw.txt -text svneol=unset#application/octet-stream
 texts/codein/aviapushka1.vislcg.txt -text
 texts/codein/kiev.orig.txt -text svneol=unset#application/octet-stream
 texts/codein/kiev.vislcg.txt -text
+texts/codein/sfera1.raw.txt -text svneol=unset#application/octet-stream
+texts/codein/sfera1.vislcg.txt -text
 texts/cyprus.ana.txt -text
 texts/cyprus.log.txt -text
 texts/dva-samoubijstva.ana.txt -text
