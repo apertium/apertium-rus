@@ -189,6 +189,7 @@ LIST N/Slony = ("слоны" n) ;
 LIST N/Denj = ("день" n) ;
 LIST N/Čelovek = ("человек" n) ;
 LIST N/Ljudi = ("люди²" n) ;
+LIST N/Maj = ("май" n) ;
 
 LIST A/Malo = ("<мало>"i adj) ;
 LIST A/Božij = ("божий" adj) ;
@@ -735,6 +736,11 @@ REMOVE Acc IF (-1C Fin + IV) (NOT 0 AccAdv) ;
 
 SELECT PrcPast IF (0C A OR PrcPast) (1C Pr) ; 
 
+REMOVE Nom IF (0 Nom OR Acc) (-1 V) (NOT -1 Jest) (-1 TV LINK -1C Nom) (0 A OR N) (NOT 0 AccAdv) ;
+  #! Breaks with есть
+
+SELECT Acc IF (0C Acc OR Nom) (-1C Acc LINK -1* TV BARRIER N OR Pr OR CLB) (-1C* Nom);
+
 ###############################################################################
 # Syntax labelling rules
 ###############################################################################
@@ -868,6 +874,8 @@ REMOVE Prop IF (0 Pr/Po) (NOT 1 Prop) (NOT -1 Prop) (NOT 1 Fin) (NOT -1 Fin) (1*
 SELECT Sg IF (0 Prop) (0 Gen) (-1 N) (1 EOS) (NOT -1* Fin + Pl) ;
 
 SELECT Abbr IF (0 Abbr OR Interj) (-1C Num) ; 
+
+REMOVE V IF (0 N/Maj) ;
 
 REMOVE Prob ; 
 
