@@ -54,7 +54,7 @@
 "<000>"
 	"000" num
 "<—>"
-	"—" punct
+	"—" guio
 "<25>"
 	"25" num
 "<000>"
@@ -171,7 +171,7 @@
 "<4500>"
 	"4500" num
 "<—>"
-	"—" punct
+	"—" guio
 "<3500>"
 	"3500" num
 "<до>"
@@ -204,7 +204,7 @@
 "<3500>"
 	"3500" num
 "<—>"
-	"—" punct
+	"—" guio
 "<2750>"
 	"2750" num
 "<до>"
@@ -251,7 +251,7 @@
 "<2750>"
 	"2750" num
 "<—>"
-	"—" punct
+	"—" guio
 "<2000>"
 	"2000" num
 "<до>"
@@ -423,7 +423,7 @@
 ;	"н. э." abbr
 ;		"." sent REMOVE:837
 "<—>"
-	"—" punct
+	"—" guio
 "<первой>"
 	"первый" num ord f sg prp
 	"первый" num ord f sg gen
@@ -663,7 +663,7 @@
 ;	"ii" num ord mfn pl gen SELECT:750
 ;	"ii" num ord mfn pl ins SELECT:750
 "<—>"
-	"—" punct
+	"—" guio
 "<III>"
 	"III" num SELECT:750
 	"III" num ord f sg acc SELECT:750
@@ -725,7 +725,7 @@
 	"." sent
 
 "<—>"
-	"—" punct
+	"—" guio
 "<рубеже>"
 	"рубеж" n m nn sg prp
 "<IV>"
@@ -784,7 +784,7 @@
 ;	"iv" num ord mfn pl gen SELECT:750
 ;	"iv" num ord mfn pl ins SELECT:750
 "<—>"
-	"—" punct
+	"—" guio
 "<V>"
 	"V" num SELECT:750
 	"V" num ord f sg acc SELECT:750
@@ -1408,7 +1408,7 @@
 	"название" n nt nn sg acc
 	"название" n nt nn sg nom
 "<—>"
-	"—" punct
+	"—" guio
 "<Самватас>"
 	"*Самватас"
 "<.>"
@@ -1760,7 +1760,7 @@
 ;	"vi" num ord mfn nn pl acc SELECT:750
 ;	"vi" num ord nt sg acc SELECT:750
 "<—>"
-	"—" punct
+	"—" guio
 "<VII>"
 	"VII" num SELECT:750
 	"VII" num ord f sg acc SELECT:750
@@ -2121,7 +2121,7 @@
 ;	"viii" num ord mfn nn pl acc SELECT:750
 ;	"viii" num ord nt sg acc SELECT:750
 "<—>"
-	"—" punct
+	"—" guio
 "<X>"
 	"X" num SELECT:750
 	"X" num ord f sg acc SELECT:750
@@ -2789,7 +2789,7 @@
 	"править²" vblex impf tv inf
 	"править¹" vblex impf iv inf
 "<Рюриковичи>"
-	"Рюрикович" np pat m aa pl nom
+	"Рюрикович" np pat m pl nom
 "<,>"
 	"," cm
 "<однако>"
@@ -2908,8 +2908,8 @@
 	"Станислав" np al m nn sg gen
 	"Станислава" np ant f sg nom
 "<Ивановича>"
-	"Иванович" np pat m aa sg acc
-	"Иванович" np pat m aa sg gen
+	"Иванович" np pat m sg acc
+	"Иванович" np pat m sg gen
 "<,>"
 	"," cm
 "<в>"
@@ -3001,7 +3001,7 @@
 "<Гольшанский>"
 	"*Гольшанский"
 "<—>"
-	"—" punct
+	"—" guio
 "<основатель>"
 	"основатель" n m aa sg nom
 "<новой>"
@@ -3024,7 +3024,7 @@
 	"правитель" n m aa pl acc
 	"правитель" n m aa pl gen
 "<—>"
-	"—" punct
+	"—" guio
 "<князей>"
 	"князь" n m aa pl acc
 	"князь" n m aa pl gen
@@ -3041,7 +3041,7 @@
 	"год" n m nn sg loc
 ;	"год" n m nn sg dat REMOVE:416
 "<Рюриковичи>"
-	"Рюрикович" np pat m aa pl nom
+	"Рюрикович" np pat m pl nom
 "<осуществили>"
 	"осуществить" vblex perf tv past mfn pl SELECT:612
 ;	"осуществить" vblex perf iv past mfn pl SELECT:612
@@ -3058,7 +3058,7 @@
 "<престолом>"
 	"престол" n m nn sg ins
 "<—>"
-	"—" punct
+	"—" guio
 "<новым>"
 	"новое" n nt nn pl dat
 	"новое" n nt nn sg ins
@@ -3137,7 +3137,7 @@
 	"год" n m nn sg loc
 ;	"год" n m nn sg dat REMOVE:416
 "<Рюриковичи>"
-	"Рюрикович" np pat m aa pl nom
+	"Рюрикович" np pat m pl nom
 "<окончательно>"
 	"окончательно" adv
 ;	"окончательный" adj short nt sg REMOVE:366
