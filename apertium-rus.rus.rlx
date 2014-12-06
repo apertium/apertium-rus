@@ -315,6 +315,8 @@ SET Prep/Acc = Pr/Na | Pr/V | Pr/Po ; # complete
 
 SET Prep/Dat =  Pr/K | Pr/Soglasno | Pr/Po | Pr/Blagodarja ; 
 
+SET NBR = Sg | Pl ;
+
 SET MFN = Msc | Fem | Neu ; 
 
 SET NGDAIP = Nom | Gen | Dat | Acc | Ins | Prp | Loc ;  
@@ -393,7 +395,8 @@ REMOVE NGDAIP - Gen IF (-1C* Pr/Dlja OR Pr/U OR Pr/Do OR Pr/Ot OR Pr/Iz OR Pr/Iz
 
 REMOVE NGDAIP - Gen - Ins - Acc IF (-1C* Pr/S CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
-REMOVE NGDAIP - Acc - Prp - Loc IF (-1C* Pr/V OR Pr/Na CBARRIER (*) - Adv - Comp - DetIndecl - ModAcc - ModPrp) ;
+#REMOVE NGDAIP - Acc - Prp - Loc IF (-1C* Pr/V OR Pr/Na CBARRIER (*) - Adv - Comp - DetIndecl - ModAcc - ModPrp) ;
+REMOVE NGDAIP - Acc - Prp - Loc IF (-1C* Pr/V OR Pr/Na BARRIER (*) - Adv - Comp - DetIndecl - ModAcc - ModPrp) ;
 
 REMOVE NGDAIP - Acc - Dat - Prp IF (-1C* Pr/Po CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
@@ -740,6 +743,11 @@ REMOVE Nom IF (0 Nom OR Acc) (-1 V) (NOT -1 Jest) (-1 TV LINK -1C Nom) (0 A OR N
   #! Breaks with есть
 
 SELECT Acc IF (0C Acc OR Nom) (-1C Acc LINK -1* TV BARRIER N OR Pr OR CLB) (-1C* Nom);
+
+SELECT Kotoryj + Nom IF (0 Kotoryj + $$NBR) (1C* IV + Fin + $$NBR BARRIER (*) - Adv) ;
+
+#SELECT Acc IF (0C Acc OR Prp) (-1C Acc LINK -1* Pr/V OR Pr/Na BARRIER NGDAIP - Acc);
+  #! На 26-е он успешно арестовал 	
 
 ###############################################################################
 # Syntax labelling rules
