@@ -61,6 +61,7 @@ LIST IV = iv ;
 
 LIST Ant = ant ; 
 LIST Cog = cog ; 
+LIST Al = al ;  # includes Top
 
 LIST Msc = m ; 
 LIST Fem = f ; 
@@ -267,9 +268,12 @@ LIST Season = "сезон" ;
 LIST Seasons = "весна" "лето" "осень" "зима" ;
 LIST TimeOfDay = "день" "вечер" "утро" "ночь" ; 
 LIST Polovina = "половина" ;
-LIST CardPoint = "западный" "южный" "юго-западный" "северный" ;
+LIST CardPoint = "западный" "южный" "юго-западный" "северный" "восточный" "юго-восточный" "северо-восточный" "северо-западный" "центральный" ;
 LIST TimePart = "начало" "конец" "течение" "середина" "половина" ; 
 LIST LetterEnum = "модель" "план" "вариант" "коэффициент" "витамин" "марка" "полимиксин" "система" ; 
+LIST PersonTitle = "князь" "президент" "принц" "император" "атаман" "царь"  "императрица" "митрополит" ;
+LIST Profession = "историк" "академик" "химик" ; 
+LIST Toponymy = "река" ;
 
 LIST Letters = ("же" n) ("у²" n) ("о²" n) ("и²" n) ("а²" n) ; # etc.
 
@@ -304,6 +308,8 @@ SET Sem/Quantity = ("дюжина") ;
 SET Sem/Weight = ("килограмм") | ("грамм") ;
 
 SET Sem/Unit = Sem/Time | Sem/Distance | Sem/Weight | Sem/Quantity ; 
+
+SET Sem/Person = PersonTitle | Profession ; 
 
 SET MscFemNeu = Msc | Fem | Neu ; 
 
@@ -349,6 +355,7 @@ REMOVE Prp IF (-1 BOS) ;
 REMOVE Pr IF (1 EOS) ;
 
 REMOVE Det IF (1 EOS) ;
+  #!  Холодная война -- противостояние между СССР и странами соцлагеря с одной стороны, и США и странами Западной Европой -- с другой.
 
 ## Safe lexicalised operations
 
@@ -448,7 +455,7 @@ REMOVE Prp IF (-1C Inf)  ;
 
 REMOVE Prp IF (NOT -1* Pr CBARRIER Gen)  ; 
 
-REMOVE Prp IF (-1C N) ; 
+REMOVE Prp IF (-1C N) (NOT 0 Prop LINK -1 Sem/Person) ; 
 
 ## Safe operations with determiners
 
@@ -749,6 +756,14 @@ SELECT Kotoryj + Nom IF (0 Kotoryj + $$NBR) (1C* IV + Fin + $$NBR BARRIER (*) - 
 #SELECT Acc IF (0C Acc OR Prp) (-1C Acc LINK -1* Pr/V OR Pr/Na BARRIER NGDAIP - Acc);
   #! На 26-е он успешно арестовал 	
 
+REMOVE Ant IF (0C Prop) (-1C CardPoint OR Toponymy) ; 
+
+REMOVE Al IF (0C Prop + $$NGDAIP) (-1C Sem/Person + $$NGDAIP) ;
+
+REMOVE Acc IF (0C N) (0C Acc OR Nom OR Gen) (-1C N + Acc) (NOT 0 Prop) (NOT -1 Sem/Person) (NOT 0 AccAdv) (NOT -1* Prep/Acc BARRIER NGDAIP - Acc) ;
+
+REMOVE Acc IF (0C Acc OR Nom) (-1C A + Nom LINK -1 IV) (1 EOS) (NOT 0 AccAdv) ;
+
 ###############################################################################
 # Syntax labelling rules
 ###############################################################################
@@ -783,7 +798,7 @@ MAP @CNP TARGET CC/I IF (0C CC/I) (NOT 1* Fin) (1* N OR Modif) ;
 
 SECTION 
 
-REMOVE Dat IF (NOT 0 Prn/Sebe) (NOT 0 Anim) (NOT 0 Pron) (NOT 1* V/Dat) (NOT -1* V/Dat) (NOT -1* Prep/Dat) ;
+REMOVE Dat IF (NOT 0 Prn/Sebe) (NOT 0 Anim OR Cog OR Ant) (NOT 0 Pron) (NOT 1* V/Dat) (NOT -1* V/Dat) (NOT -1* Prep/Dat) (NOT -1C A + Dat) ;
   # This rule is quite good, but should be after any rules that remove +Prp
   #! Мне не жарко 
   #! Мне восем лет
