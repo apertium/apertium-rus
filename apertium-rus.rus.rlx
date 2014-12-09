@@ -764,6 +764,8 @@ REMOVE Acc IF (0C N) (0C Acc OR Nom OR Gen) (-1C N + Acc) (NOT 0 Prop) (NOT -1 S
 
 REMOVE Acc IF (0C Acc OR Nom) (-1C A + Nom LINK -1 IV) (1 EOS) (NOT 0 AccAdv) ;
 
+SELECT Gen IF (1C Prp OR Gen) (-1 Comp) ;
+
 ###############################################################################
 # Syntax labelling rules
 ###############################################################################
