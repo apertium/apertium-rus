@@ -295,7 +295,8 @@
 "<,>"
 	"," cm
 "<безбалластный>"
-	"*безбалластный"
+	"безбалластный" adj m an sg nom
+	"безбалластный" adj m nn sg acc
 "<путь>"
 	"путь" n m nn sg acc
 	"путь" n m nn sg nom
@@ -805,7 +806,7 @@
 ;	"до" n nt nn sg nom REMOVE:521
 ;	"до" n nt nn sg prp REMOVE:521
 "<н. э>"
-	"*н. э"
+	"н. э" abbr
 "<,>"
 	"," cm
 "<а>"
@@ -1284,14 +1285,16 @@
 "<создало>"
 	"создать" vblex perf iv past nt sg
 	"создать" vblex perf tv past nt sg
- «
+"<«>"
+	"«" lpar
 "<общегосударственный>"
 	"общегосударственный" adj m an sg nom
 	"общегосударственный" adj m nn sg acc
 "<рынок>"
 	"рынок" n m nn sg acc
 	"рынок" n m nn sg nom
-»
+"<»>"
+	"»" rpar
 "<,>"
 	"," cm
 "<где>"
@@ -1626,7 +1629,3 @@
 	"применение" n nt nn sg gen
 "<.>"
 	"." sent
-
-"<.>"
-	"." sent
-
