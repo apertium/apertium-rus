@@ -40,6 +40,7 @@ LIST Sent = sent ;
 LIST Percent = ("<[0-9]+%>"r) percent ; 
 LIST Roman = roman ("<M{0,4}(CM|CD|D(C{0,3}))?(XC|XL|L(X{0,3}))?(IX|IV|V(I{0,3}))?>"ri num) ("<[MCDXLIVМСХ]+>"ri num) ;
 LIST Count = count ; 
+LIST Cipher = "<[0-9]+>"r ;
 
 LIST Pprep = pprep pobj ; 
 LIST Pers = pers ;
@@ -55,6 +56,7 @@ LIST Short = short (adj pred) ; # pred
 LIST Cmp = cmp ; 
 
 LIST PrcPast = pp ;
+LIST PrcPres = pprs ;
 
 LIST TV = tv ; 
 LIST IV = iv ; 
@@ -237,6 +239,7 @@ LIST Kto = "кто" ;
 LIST Nazad = "назад" ;
 LIST Sliškom = "слишком" ; 
 LIST Našej = "<нашей>"i ; 
+LIST Sej = "сей" ; 
 LIST Takže = "также" ; 
 LIST Tože = "тоже" ; 
 LIST Kak = "как" ;
@@ -255,7 +258,7 @@ LIST Unknown = "\*.*"r ;
 LIST LesserNum = "полтора" "два" "три" "четыре" "обо" "<([2-90]+)*[1-4]>"r ;
 
 LIST Poltora = "полтора" ; 
-LIST Pjat = "пять" "5" ; 
+LIST Pjat = "пять" "5" "<([0-9])*5>"r ; 
 LIST Sto = "сто" "100" ; 
 LIST Tysjača = "тысяча" "1000" ; 
 
@@ -271,9 +274,14 @@ LIST Polovina = "половина" ;
 LIST CardPoint = "западный" "южный" "юго-западный" "северный" "восточный" "юго-восточный" "северо-восточный" "северо-западный" "центральный" ;
 LIST TimePart = "начало" "конец" "течение" "середина" "половина" ; 
 LIST LetterEnum = "модель" "план" "вариант" "коэффициент" "витамин" "марка" "полимиксин" "система" ; 
-LIST PersonTitle = "князь" "президент" "принц" "император" "атаман" "царь"  "императрица" "митрополит" ;
+LIST PersonTitleMsc = "князь" "император" "принц" "атаман" "царь"  "митрополит" ;
+LIST PersonTitleFem = "императрица" ;
+
+LIST PersonTitleBoth = "президент" ;
 LIST Profession = "историк" "академик" "химик" ; 
 LIST Toponymy = "река" ;
+
+SET PersonTitle = PersonTitleMsc | PersonTitleFem | PersonTitleBoth ; 
 
 LIST Letters = ("же" n) ("у²" n) ("о²" n) ("и²" n) ("а²" n) ; # etc.
 
@@ -447,7 +455,7 @@ SELECT Gen IF (-1 Percent) ;
 
 SELECT Gen + Pl IF (-1 Sto OR Tysjača) ;
 
-SELECT Gen + Pl IF (-1* Pjat BARRIER (*) - Adv LINK 0 Nom OR Acc);
+SELECT Gen + Pl IF (0C N OR A) (-1* Pjat BARRIER (*) - Adv - Gen);
 
 ## Safe operations with prepositional case
 
@@ -766,6 +774,12 @@ REMOVE Acc IF (0C Acc OR Nom) (-1C A + Nom LINK -1 IV) (1 EOS) (NOT 0 AccAdv) ;
 
 SELECT Gen IF (1C Prp OR Gen) (-1C Comp) ;
 
+# REMOVE PrcPres IF (0 PrcPres OR A) (0 $$NGDAIP) (1C N) (1C $$NGDAIP) ;
+
+SELECT CC IF (0 No) (-1 Cm) (1 Fin) ;
+
+REMOVE CS IF (-1C Pr) ;
+
 ###############################################################################
 # Syntax labelling rules
 ###############################################################################
@@ -900,7 +914,19 @@ SELECT Sg IF (0 Prop) (0 Gen) (-1 N) (1 EOS) (NOT -1* Fin + Pl) ;
 
 SELECT Abbr IF (0 Abbr OR Interj) (-1C Num) ; 
 
+SELECT Det IF (-1 Pr/Po) (0 Sej) (1 N/Denj) ; 
+
 REMOVE V IF (0 N/Maj) ;
+
+SELECT Cog IF (0C Cog OR N) (-1 Ant) (0 Title) ;
+
+SELECT Cog + $$MFN IF (-1C Ant + $$MFN) ; 
+
+SELECT Ant + $$MFN IF (1C Cog + $$MFN) ; 
+
+SELECT Msc IF (0C Ant) (-1C PersonTitleMsc) ;
+
+SELECT Fem IF (0C Ant) (-1C PersonTitleFem) ;
 
 REMOVE Prob ; 
 
