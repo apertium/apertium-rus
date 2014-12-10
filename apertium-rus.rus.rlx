@@ -152,6 +152,7 @@ LIST Pr/Blagodarja = ("благодаря" pr) ;
 LIST Pr/Krome = ("кроме" pr) ;
 LIST Pr/Vključaja = ("включая" pr) ; 
 LIST Pr/Soglasno = ("согласно" pr) ;
+LIST Pr/Pomimo = ("помимо" pr); 
 
 LIST Pr/Nado = ("<надо>"i pr) ;
 
@@ -406,7 +407,7 @@ REMOVE Adv/Neskolko IF (-1C Pr) (1 Gen) ;
 
 REMOVE Nom IF (-1C Pr) ;
 
-REMOVE NGDAIP - Gen IF (-1C* Pr/Dlja OR Pr/U OR Pr/Do OR Pr/Ot OR Pr/Iz OR Pr/Iz-za OR Pr/Krome OR Pr/Protiv OR Pr/Posle OR Pr/Bez OR Pr/Sredi OR Pr/Okolo CBARRIER (*) - Adv - Comp - DetIndecl) ;
+REMOVE NGDAIP - Gen IF (-1C* Pr/Dlja OR Pr/U OR Pr/Do OR Pr/Ot OR Pr/Iz OR Pr/Iz-za OR Pr/Krome OR Pr/Protiv OR Pr/Posle OR Pr/Bez OR Pr/Sredi OR Pr/Okolo OR Pr/Pomimo CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
 REMOVE NGDAIP - Gen - Ins - Acc IF (-1C* Pr/S CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
@@ -779,6 +780,8 @@ SELECT Gen IF (1C Prp OR Gen) (-1C Comp) ;
 SELECT CC IF (0 No) (-1 Cm) (1 Fin) ;
 
 REMOVE CS IF (-1C Pr) ;
+
+REMOVE Det IF (0 Det OR Pron) (1C Pred OR Short) (NOT 2 Guio OR A) ; 
 
 ###############################################################################
 # Syntax labelling rules
