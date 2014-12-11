@@ -980,6 +980,8 @@ SELECT DicMajusc IF (-1 Abbr OR Sem/Person) (0 Abbr) (1 Cog) ;
 
 SELECT Cog IF (1 Abbr LINK 1 Abbr) (-1 Sem/Person)
 
+REMOVE Interr IF (0 Kak) (NOT 1* Ques) ; 
+
 REMOVE Prob ; 
 
 REMOVE Facul ; 
