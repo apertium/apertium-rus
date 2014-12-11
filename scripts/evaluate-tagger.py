@@ -439,6 +439,6 @@ for rule in rkeys: #{
 print('');
 for rule in rkeys: #{
 	if rule in feiler: #{
-		print(rule, feiler[rule]);
+		print(rule, '\t', feiler[rule]);
 	#}
 #}

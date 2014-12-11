@@ -607,6 +607,10 @@ REMOVE Fin IF (-1C Pr/Na) (0C Fin OR Loc) ;
 
 SELECT Ord IF (0 Num OR Ord) (1C N/Vek) ;
 
+SELECT $$NGDAIP IF (0 Ord) (1 Guio) (2 Ord) (3 N/Vek + $$NGDAIP) ;
+
+SELECT $$NGDAIP IF (-2 Ord) (-1 Guio) (0 Ord) (1 N/Vek + $$NGDAIP) ;
+
 SELECT Paren IF (-1 Cm) (0 Paren OR Short) (1 Cm) ; 
 
 SELECT N/Mater IF (0 N/Mat OR N/Mater) (-1 A/Božij) ;
