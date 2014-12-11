@@ -7,26 +7,26 @@
 "<интеллекта>"
 	"интеллект" n m nn sg gen
 "<как>"
-	"как" adv itg
+;	"как" adv itg
 	"как" adv rel
-	"как" cnjcoo
-	"как" cnjsub
-	"как" part
+;	"как" cnjcoo
+;	"как" cnjsub
+;	"как" part
 "<нового>"
-	"новое" n nt nn sg gen
-	"новый" adj m aa sg acc
-	"новый" adj m an sg gen
+;	"новое" n nt nn sg gen
+;	"новый" adj m aa sg acc
+;	"новый" adj m an sg gen
 	"новый" adj nt an sg gen
 "<научного>"
 	"научный" adj nt an sg gen
 ;	"научный" adj m aa sg acc REMOVE:496
 ;	"научный" adj m an sg gen REMOVE:496
 "<направления>"
-	"направление" n nt nn pl acc
-	"направление" n nt nn pl nom
+;	"направление" n nt nn pl acc
+;	"направление" n nt nn pl nom
 	"направление" n nt nn sg gen
 "<начинается>"
-	"начинать" vblex impf tv pres p3 sg pass
+;	"начинать" vblex impf tv pres p3 sg pass
 	"начинаться" vblex impf iv pres p3 sg
 "<в>"
 	"в" pr
@@ -99,20 +99,20 @@
 "<К>"
 	"к" pr
 "<этому>"
-	"это" prn dem nt nn sg dat
-	"этот" det dem m sg dat
+;	"это" prn dem nt nn sg dat
+;	"этот" det dem m sg dat
 	"этот" det dem nt sg dat
-	"этот" prn dem m aa sg dat
+;	"этот" prn dem m aa sg dat
 "<времени>"
-	"временить" vblex impf iv imp p2 sg
+;	"временить" vblex impf iv imp p2 sg
 	"время" n nt nn sg dat
-	"время" n nt nn sg gen
-	"время" n nt nn sg prp
+;	"время" n nt nn sg gen
+;	"время" n nt nn sg prp
 "<уже>"
-	"уж²" n m aa sg prp
+;	"уж²" n m aa sg prp
 	"уже" adv
-	"уже" part
-	"узкий" adj comp pred
+;	"уже" part
+;	"узкий" adj comp pred
 "<было>"
 	"быть" vblex impf iv past nt sg SELECT:723
 ;	"было" part SELECT:723
@@ -125,17 +125,17 @@
 "<предпосылок>"
 	"предпосылка" n f nn pl gen
 "<его>"
-	"оно" prn pers p3 nt sg gen
-	"его" det pos mfn pl gen
-	"он¹" prn pers p3 m sg gen
-	"его" det pos mfn pl nom
-	"оно" prn pers p3 nt sg acc
-	"он¹" prn pers p3 m sg acc
-	"его" det pos nt sg acc
-	"его" det pos mfn aa pl acc
+;	"оно" prn pers p3 nt sg gen
+;	"его" det pos mfn pl gen
+;	"он¹" prn pers p3 m sg gen
+;	"его" det pos mfn pl nom
+;	"оно" prn pers p3 nt sg acc
+;	"он¹" prn pers p3 m sg acc
+;	"его" det pos nt sg acc
+;	"его" det pos mfn aa pl acc
 	"его" det pos nt sg gen
-	"его" det pos mfn nn pl acc
-	"его" det pos nt sg nom
+;	"его" det pos mfn nn pl acc
+;	"его" det pos nt sg nom
 ;	"его" det pos f sg prp REMOVE:458
 ;	"его" det pos m sg prp REMOVE:458
 ;	"его" det pos mfn pl prp REMOVE:458
@@ -156,8 +156,8 @@
 ;	"его" det pos nt sg dat REMOVE:713
 ;	"его" det pos nt sg ins REMOVE:713
 "<зарождения>"
-	"зарождение" n nt nn pl acc
-	"зарождение" n nt nn pl nom
+;	"зарождение" n nt nn pl acc
+;	"зарождение" n nt nn pl nom
 	"зарождение" n nt nn sg gen
 "<:>"
 	":" sent
@@ -171,10 +171,10 @@
 "<шли>"
 	"идти" vblex impf iv past mfn pl
 "<споры>"
-	"спора" n f nn sg gen
+;	"спора" n f nn sg gen
 	"спор" n m nn pl nom
-	"спорый" adj short mfn pl
-	"спора" n f nn pl nom
+;	"спорый" adj short mfn pl
+;	"спора" n f nn pl nom
 ;	"спор" n m nn pl acc REMOVE:747
 ;	"спора" n f nn pl acc REMOVE:747
 "<о>"
@@ -196,7 +196,7 @@
 	"природа" n f nn sg prp
 ;	"природа" n f nn sg dat REMOVE:419
 "<человека>"
-	"человек" n m aa sg acc
+;	"человек" n m aa sg acc
 	"человек" n m aa sg gen
 "<и>"
 	"и" cnjcoo
@@ -217,11 +217,11 @@
 "<процессе>"
 	"процесс" n m nn sg prp
 "<познания>"
-	"познание" n nt nn pl acc
-	"познание" n nt nn pl nom
+;	"познание" n nt nn pl acc
+;	"познание" n nt nn pl nom
 	"познание" n nt nn sg gen
 "<мира>"
-	"мир²" n m nn sg gen
+;	"мир²" n m nn sg gen
 	"мир¹" n m nn sg gen
 ;	"миро" n nt nn pl acc REMOVE:867
 ;	"миро" n nt nn pl nom REMOVE:867
@@ -257,12 +257,12 @@
 "<теорий>"
 	"теория" n f nn pl gen
 "<относительно>"
-	"относительно" adv
+;	"относительно" adv
 	"относительно" pr
-	"относительный" adj short nt sg
+;	"относительный" adj short nt sg
 "<работы>"
-	"работа" n f nn pl acc
-	"работа" n f nn pl nom
+;	"работа" n f nn pl acc
+;	"работа" n f nn pl nom
 	"работа" n f nn sg gen
 "<человеческого>"
 	"человеческий" adj m an sg gen SELECT:678 SELECT:632
@@ -287,8 +287,8 @@
 ;	"и¹" ij REMOVE:840
 ;	"и" adv REMOVE:844
 "<мышления>"
-	"мышление" n nt nn pl acc
-	"мышление" n nt nn pl nom
+;	"мышление" n nt nn pl acc
+;	"мышление" n nt nn pl nom
 	"мышление" n nt nn sg gen
 "<,>"
 	"," cm
@@ -312,12 +312,12 @@
 ;	"и" adv REMOVE:844
 "<математики>"
 	"математик" n m aa pl nom
-	"математика" n f nn pl acc
-	"математика" n f nn pl nom
-	"математика" n f nn sg gen
+;	"математика" n f nn pl acc
+;	"математика" n f nn pl nom
+;	"математика" n f nn sg gen
 "<задавались>"
-	"задавать" vblex impf tv past mfn pl pass
-	"задаваться²" vblex impf iv past mfn pl
+;	"задавать" vblex impf tv past mfn pl pass
+;	"задаваться²" vblex impf iv past mfn pl
 	"задаваться¹" vblex impf iv past mfn pl
 "<вопросами>"
 	"вопрос" n m nn pl ins
@@ -344,12 +344,12 @@
 ;	"и¹" ij REMOVE:840
 ;	"и" adv REMOVE:844
 "<представления>"
-	"представление" n nt nn pl acc
-	"представление" n nt nn pl nom
+;	"представление" n nt nn pl acc
+;	"представление" n nt nn pl nom
 	"представление" n nt nn sg gen
 "<знаний>"
 	"знание" n nt nn pl gen
-	"знанье" n nt nn pl gen
+;	"знанье" n nt nn pl gen
 "<о>"
 	"о" pr SELECT:486
 ;	"о²" n nt nn pl prp REMOVE:458
@@ -366,20 +366,20 @@
 ;	"о²" n nt nn sg ins SELECT:486
 ;	"о²" n nt nn sg nom SELECT:486
 "<мире>"
-	"мир²" n m nn sg prp
+;	"мир²" n m nn sg prp
 	"мир¹" n m nn sg prp
 ;	"миро" n nt nn sg prp REMOVE:867
 "<в>"
 	"в" pr
 "<формализованном>"
 	"формализовать" vblex perf tv pp pasv m an sg prp
-	"формализовать" vblex perf tv pp pasv nt an sg prp
+;	"формализовать" vblex perf tv pp pasv nt an sg prp
 "<виде>"
 	"вид" n m nn sg prp
 "<;>"
 	";" clb
 "<наконец>"
-	"наконец" adv
+;	"наконец" adv
 	"наконец" paren
 "<,>"
 	"," cm
@@ -389,24 +389,24 @@
 	"фундамент" n m nn sg nom
 ;	"фундамент" n m nn sg acc REMOVE:747
 "<математической>"
-	"математический" adj f an sg dat
+;	"математический" adj f an sg dat
 	"математический" adj f an sg gen
-	"математический" adj f an sg ins
-	"математический" adj f an sg prp
+;	"математический" adj f an sg ins
+;	"математический" adj f an sg prp
 "<теории>"
-	"теория" n f nn pl acc
-	"теория" n f nn pl nom
-	"теория" n f nn sg dat
+;	"теория" n f nn pl acc
+;	"теория" n f nn pl nom
+;	"теория" n f nn sg dat
 	"теория" n f nn sg gen
-	"теория" n f nn sg prp
+;	"теория" n f nn sg prp
 "<вычислений>"
 	"вычисление" n nt nn pl gen
 "<—>"
 	"—" guio
 "<теории>"
-	"теория" n f nn pl acc
-	"теория" n f nn pl nom
-	"теория" n f nn sg dat
+;	"теория" n f nn pl acc
+;	"теория" n f nn pl nom
+;	"теория" n f nn sg dat
 	"теория" n f nn sg gen
 ;	"теория" n f nn sg prp REMOVE:458
 "<алгоритмов>"
@@ -439,27 +439,27 @@
 "<созданы>"
 	"создать" vblex perf tv pp pasv short mfn pl
 "<первые>"
-	"первое" n nt nn pl acc
-	"первое" n nt nn pl nom
-	"первый" num ord mfn nn pl acc
+;	"первое" n nt nn pl acc
+;	"первое" n nt nn pl nom
+;	"первый" num ord mfn nn pl acc
 	"первый" num ord mfn pl nom
 "<компьютеры>"
-	"компьютер" n m nn pl acc
+;	"компьютер" n m nn pl acc
 	"компьютер" n m nn pl nom
 "<.>"
 	"." sent
 ¶
 
 "<Возможности>"
-	"возможность" n f nn pl acc
+;	"возможность" n f nn pl acc
 	"возможность" n f nn pl nom
-	"возможность" n f nn sg gen
+;	"возможность" n f nn sg gen
 ;	"возможность" n f nn sg prp REMOVE:355
 ;	"возможность" n f nn sg dat REMOVE:807
 "<новых>"
-	"новое" n nt nn pl gen
+;	"новое" n nt nn pl gen
 	"новый" adj mfn an pl gen
-	"новый" adj mfn aa pl acc
+;	"новый" adj mfn aa pl acc
 ;	"новое" n nt nn pl prp REMOVE:458
 ;	"новый" adj mfn an pl prp REMOVE:458
 "<машин>"
@@ -469,9 +469,9 @@
 "<плане>"
 	"план" n m nn sg prp
 "<скорости>"
-	"скорость" n f nn pl acc
-	"скорость" n f nn pl nom
-	"скорость" n f nn sg prp
+;	"скорость" n f nn pl acc
+;	"скорость" n f nn pl nom
+;	"скорость" n f nn sg prp
 	"скорость" n f nn sg gen
 ;	"скорость" n f nn sg dat REMOVE:807
 "<вычислений>"
@@ -479,11 +479,11 @@
 "<оказались>"
 	"оказаться" vblex perf iv past mfn pl
 "<больше>"
-	"больше" adv
+;	"больше" adv
 ;	"больший" adj short nt sg prb REMOVE:389
-;	"большой" adj comp pred REMOVE:389
+	"большой" adj comp pred REMOVE:389
 "<человеческих>"
-	"человеческий" adj mfn aa pl acc
+;	"человеческий" adj mfn aa pl acc
 	"человеческий" adj mfn an pl gen
 ;	"человеческий" adj mfn an pl prp REMOVE:458
 "<,>"
@@ -493,9 +493,9 @@
 "<в>"
 	"в" pr
 "<учёном>"
-	"учёный" adj m an sg prp
+;	"учёный" adj m an sg prp
 	"учёный" adj nt an sg prp
-	"учёный" n m aa sg prp
+;	"учёный" n m aa sg prp
 "<сообществе>"
 	"сообщество" n nt nn sg prp
 "<закрался>"
@@ -507,11 +507,11 @@
 	":" sent
 "<каковы>"
 	"каков" det itg mfn pl pred
-	"каков" det rel mfn pl pred
+;	"каков" det rel mfn pl pred
 "<границы>"
-	"граница" n f nn pl acc
+;	"граница" n f nn pl acc
 	"граница" n f nn pl nom
-	"граница" n f nn sg gen
+;	"граница" n f nn sg gen
 "<возможностей>"
 	"возможность" n f nn pl gen
 "<компьютеров>"
@@ -533,39 +533,39 @@
 ;	"и¹" ij REMOVE:840
 ;	"и" adv REMOVE:844
 "<достигнут>"
-	"достигнуть" vblex perf iv fut p3 pl
-	"достигнуть" vblex perf tv fut p3 pl
-	"достигнуть" vblex perf tv pp pasv short m sg
-	"достичь" vblex perf iv fut p3 pl
+;	"достигнуть" vblex perf iv fut p3 pl
+;	"достигнуть" vblex perf tv fut p3 pl
+;	"достигнуть" vblex perf tv pp pasv short m sg
+;	"достичь" vblex perf iv fut p3 pl
 	"достичь" vblex perf tv fut p3 pl
-	"достичь" vblex perf tv pp pasv short m sg
+;	"достичь" vblex perf tv pp pasv short m sg
 "<ли>"
-	"ли" cnjsub
-	"ли" n nt nn pl acc
-	"ли" n nt nn sg ins
-	"ли" n nt nn pl gen
-	"ли" n nt nn pl ins
-	"ли" n nt nn pl nom
+;	"ли" cnjsub
+;	"ли" n nt nn pl acc
+;	"ли" n nt nn sg ins
+;	"ли" n nt nn pl gen
+;	"ли" n nt nn pl ins
+;	"ли" n nt nn pl nom
 	"ли" part
-	"ли" n nt nn sg acc
-	"ли" n nt nn sg nom
-	"ли" n nt nn sg gen
+;	"ли" n nt nn sg acc
+;	"ли" n nt nn sg nom
+;	"ли" n nt nn sg gen
 ;	"ли" n nt nn pl prp REMOVE:458
 ;	"ли" n nt nn sg prp REMOVE:458
 ;	"ли" n nt nn pl dat REMOVE:807
 ;	"ли" n nt nn sg dat REMOVE:807
 "<машины>"
-	"машина" n f nn pl acc
+;	"машина" n f nn pl acc
 	"машина" n f nn pl nom
-	"машина" n f nn sg gen
+;	"машина" n f nn sg gen
 "<уровня>"
 	"уровень" n m nn sg gen
 "<развития>"
-	"развитие" n nt nn pl acc
-	"развитие" n nt nn pl nom
+;	"развитие" n nt nn pl acc
+;	"развитие" n nt nn pl nom
 	"развитие" n nt nn sg gen
 "<человека>"
-	"человек" n m aa sg acc
+;	"человек" n m aa sg acc
 	"человек" n m aa sg gen
 "<?>"
 	"?" sent
@@ -578,7 +578,7 @@
 	"год" n m nn sg loc
 ;	"год" n m nn sg dat REMOVE:442
 "<один>"
-	"один" num m nn sg acc
+;	"один" num m nn sg acc
 	"один" num m sg nom
 ;	"один" det m nn sg acc REMOVE:464
 ;	"один" det m sg nom REMOVE:464
@@ -590,49 +590,49 @@
 "<в>"
 	"в" pr
 "<области>"
-	"область" n f nn pl acc
+;	"область" n f nn pl acc
 	"область" n f nn sg prp
 ;	"область" n f nn pl nom REMOVE:401
 ;	"область" n f nn sg dat REMOVE:408
 ;	"область" n f nn sg gen REMOVE:408
 "<вычислительной>"
-	"вычислительный" adj f an sg dat
+;	"вычислительный" adj f an sg dat
 	"вычислительный" adj f an sg gen
-	"вычислительный" adj f an sg ins
-	"вычислительный" adj f an sg prp
+;	"вычислительный" adj f an sg ins
+;	"вычислительный" adj f an sg prp
 "<техники>"
-	"техник" n m aa pl nom
-	"техника" n f nn pl acc
-	"техника" n f nn pl nom
+;	"техник" n m aa pl nom
+;	"техника" n f nn pl acc
+;	"техника" n f nn pl nom
 	"техника" n f nn sg gen
 "<,>"
 	"," cm
 "<английский>"
 	"английский" adj m an sg nom
-	"английский" adj m nn sg acc
+;	"английский" adj m nn sg acc
 "<учёный>"
-	"учёный" adj m an sg nom
-	"учёный" adj m nn sg acc
+;	"учёный" adj m an sg nom
+;	"учёный" adj m nn sg acc
 	"учёный" n m aa sg nom
 "<Алан>"
 	"Алан" np ant m sg nom
-	"алан" n m aa sg nom
+;	"алан" n m aa sg nom
 ;	"алан" n m aa pl gen fac REMOVE:913
 "<Тьюринг>"
-	"Тьюринг" np cog f sg acc
-	"Тьюринг" np cog f sg dat
-	"Тьюринг" np cog f sg gen
-	"Тьюринг" np cog f sg ins
-	"Тьюринг" np cog f sg nom
-	"Тьюринг" np cog f sg prp
+;	"Тьюринг" np cog f sg acc
+;	"Тьюринг" np cog f sg dat
+;	"Тьюринг" np cog f sg gen
+;	"Тьюринг" np cog f sg ins
+;	"Тьюринг" np cog f sg nom
+;	"Тьюринг" np cog f sg prp
 	"Тьюринг" np cog m sg nom
 "<,>"
 	"," cm
 "<пишет>"
-	"писать¹" vblex impf iv pres p3 sg
+;	"писать¹" vblex impf iv pres p3 sg
 	"писать¹" vblex impf tv pres p3 sg
 "<статью>"
-	"стать¹" n f nn sg ins
+;	"стать¹" n f nn sg ins
 	"статья" n f nn sg acc
 "<под>"
 	"под" pr
@@ -645,14 +645,14 @@
 "<Может>"
 	"мочь²" vblex impf iv pres p3 sg
 "<ли>"
-	"ли" cnjsub
-	"ли" n nt nn sg ins
-	"ли" n nt nn sg gen
-	"ли" n nt nn pl gen
-	"ли" n nt nn pl ins
-	"ли" n nt nn pl nom
+;	"ли" cnjsub
+;	"ли" n nt nn sg ins
+;	"ли" n nt nn sg gen
+;	"ли" n nt nn pl gen
+;	"ли" n nt nn pl ins
+;	"ли" n nt nn pl nom
 	"ли" part
-	"ли" n nt nn sg nom
+;	"ли" n nt nn sg nom
 ;	"ли" n nt nn pl prp REMOVE:697
 ;	"ли" n nt nn sg prp REMOVE:697
 ;	"ли" n nt nn pl acc REMOVE:747
@@ -662,7 +662,7 @@
 "<машина>"
 	"машина" n f nn sg nom
 "<мыслить>"
-	"мыслить" vblex impf iv inf
+;	"мыслить" vblex impf iv inf
 	"мыслить" vblex impf tv inf
 "<?>"
 	"?" sent
@@ -681,7 +681,7 @@
 ;	"который" prn rel f sg dat REMOVE:408
 ;	"который" prn rel f sg gen REMOVE:408
 ;	"который" prn rel f sg ins REMOVE:408
-;	"который" det itg f sg prp REMOVE:464
+'	"который" det itg f sg prp REMOVE:464
 "<описывает>"
 	"описывать" vblex impf tv pres p3 sg
 ;	"описывать" vblex impf iv pres p3 sg REMOVE:732
@@ -694,29 +694,29 @@
 "<помощью>"
 	"помощь" n f nn sg ins
 "<которой>"
-	"который" det itg f sg dat
-	"который" det itg f sg gen
-	"который" det itg f sg ins
-	"который" det itg f sg prp
-	"который" prn rel f sg dat
+;	"который" det itg f sg dat
+;	"который" det itg f sg gen
+;	"который" det itg f sg ins
+;	"который" det itg f sg prp
+;	"который" prn rel f sg dat
 	"который" prn rel f sg gen
-	"который" prn rel f sg ins
-	"который" prn rel f sg prp
+;	"который" prn rel f sg ins
+;	"который" prn rel f sg prp
 "<можно>"
 	"можно" pred
 "<будет>"
-	"будет" pred
+;	"будет" pred
 	"быть" vblex impf iv fut p3 sg
 "<определить>"
-	"определить" vblex perf iv inf
+;	"определить" vblex perf iv inf
 	"определить" vblex perf tv inf
 "<момент>"
 	"момент" n m nn sg acc
-	"момент" n m nn sg nom
+;	"момент" n m nn sg nom
 "<,>"
 	"," cm
 "<когда>"
-	"когда" adv itg
+;	"когда" adv itg
 	"когда" adv rel
 "<машина>"
 	"машина" n f nn sg nom
@@ -727,11 +727,11 @@
 "<плане>"
 	"план" n m nn sg prp
 "<разумности>"
-	"разумность" n f nn pl acc
-	"разумность" n f nn pl nom
-	"разумность" n f nn sg dat
+;	"разумность" n f nn pl acc
+;	"разумность" n f nn pl nom
+;	"разумность" n f nn sg dat
 	"разумность" n f nn sg gen
-	"разумность" n f nn sg prp
+;	"разумность" n f nn sg prp
 "<с>"
 	"с" pr
 "<человеком>"
@@ -739,18 +739,18 @@
 "<,>"
 	"," cm
 "<получившую>"
-	"получить" vblex perf iv pp actv f an sg acc
+;	"получить" vblex perf iv pp actv f an sg acc
 	"получить" vblex perf tv pp actv f an sg acc
 "<название>"
 	"название" n nt nn sg acc
-	"название" n nt nn sg nom
+;	"название" n nt nn sg nom
 "<теста>"
 	"тест" n m nn sg gen
-	"тесто" n nt nn pl acc
-	"тесто" n nt nn pl nom
-	"тесто" n nt nn sg gen
+;	"тесто" n nt nn pl acc
+;	"тесто" n nt nn pl nom
+;	"тесто" n nt nn sg gen
 "<Тьюринга>"
-	"Тьюринг" np cog m sg acc
+;	"Тьюринг" np cog m sg acc
 	"Тьюринг" np cog m sg gen
 "<.>"
 	"." sent
@@ -759,8 +759,8 @@
 "<История>"
 	"история" n f nn sg nom
 "<развития>"
-	"развитие" n nt nn pl acc
-	"развитие" n nt nn pl nom
+;	"развитие" n nt nn pl acc
+;	"развитие" n nt nn pl nom
 	"развитие" n nt nn sg gen
 "<искусственного>"
 	"искусственный" adj m an sg gen SELECT:678 SELECT:632
@@ -789,15 +789,15 @@
 ;	"и¹" ij REMOVE:840
 ;	"и" adv REMOVE:844
 "<России>"
-	"Россия" np al f nn pl acc
-	"Россия" np al f nn pl nom
+;	"Россия" np al f nn pl acc
+;	"Россия" np al f nn pl nom
 	"Россия" np al f nn sg prp
-	"Россия" np al f nn sg gen
+;	"Россия" np al f nn sg gen
 ;	"Россия" np al f nn sg dat REMOVE:807
 ¶
 "<Коллежский>"
 	"коллежский" adj m an sg nom
-	"коллежский" adj m nn sg acc
+;	"коллежский" adj m nn sg acc
 "<советник>"
 	"советник" n m aa sg nom
 "<Семён>"
@@ -806,8 +806,8 @@
 	"Николаевич" np pat m sg nom
 "<Корсаков>"
 	"Корсаков" np cog m sg nom
-	"корсак" n m aa pl acc
-	"корсак" n m aa pl gen
+;	"корсак" n m aa pl acc
+;	"корсак" n m aa pl gen
 "<(>"
 	"(" lpar
 "<1787>"
@@ -825,18 +825,18 @@
 	"задача" n f nn sg acc
 "<усиления>"
 	"усиление" n nt nn sg gen
-	"усиление" n nt nn pl nom
+;	"усиление" n nt nn pl nom
 ;	"усиление" n nt nn pl acc REMOVE:765
 "<возможностей>"
 	"возможность" n f nn pl gen
 "<разума>"
 	"разум" n m nn sg gen
 "<посредством>"
-	"посредство" n nt nn sg ins
+;	"посредство" n nt nn sg ins
 	"посредством" pr
 "<разработки>"
-	"разработка" n f nn pl acc
-	"разработка" n f nn pl nom
+;	"разработка" n f nn pl acc
+;	"разработка" n f nn pl nom
 	"разработка" n f nn sg gen
 "<научных>"
 	"научный" adj mfn an pl gen SELECT:678
@@ -865,7 +865,7 @@
 "<,>"
 	"," cm
 "<перекликающуюся>"
-	"перекликать" vblex impf tv pprs actv pass f an sg acc
+;	"перекликать" vblex impf tv pprs actv pass f an sg acc
 	"перекликаться" vblex impf iv pprs actv f an sg acc
 "<с>"
 	"с" pr
@@ -885,17 +885,17 @@
 "<,>"
 	"," cm
 "<как>"
-	"как" adv itg
+;	"как" adv itg
 	"как" adv rel
-	"как" cnjcoo
-	"как" cnjsub
-	"как" part
+;	"как" cnjcoo
+;	"как" cnjsub
+;	"как" part
 "<усилителя>"
 	"усилитель" n m nn sg gen
 "<естественного>"
-	"естественный" adj m aa sg acc
+;	"естественный" adj m aa sg acc
 	"естественный" adj m an sg gen
-	"естественный" adj nt an sg gen
+;	"естественный" adj nt an sg gen
 "<.>"
 	"." sent
 
@@ -912,45 +912,45 @@
 	"Н." abbr
 "<Корсаков>"
 	"Корсаков" np cog m sg nom
-	"корсак" n m aa pl acc
-	"корсак" n m aa pl gen
+;	"корсак" n m aa pl acc
+;	"корсак" n m aa pl gen
 "<опубликовал>"
-	"опубликовать" vblex perf iv past m sg
+;	"опубликовать" vblex perf iv past m sg
 	"опубликовать" vblex perf tv past m sg
 "<описание>"
 	"описание" n nt nn sg acc
-	"описание" n nt nn sg nom
+;	"описание" n nt nn sg nom
 "<пяти>"
-	"пять" num prp
+;	"пять" num prp
 	"пять" num gen
 ;	"пять" num dat REMOVE:807
 "<изобретённых>"
-	"изобрести" vblex perf tv pp pasv mfn aa pl acc
+;	"изобрести" vblex perf tv pp pasv mfn aa pl acc
 	"изобрести" vblex perf tv pp pasv mfn an pl gen
-	"изобрести" vblex perf tv pp pasv mfn an pl prp
+;	"изобрести" vblex perf tv pp pasv mfn an pl prp
 "<им>"
 	"он¹" prn pers p3 m sg ins
-	"они" prn pers p3 pl dat
-	"оно" prn pers p3 nt sg ins
+;	"они" prn pers p3 pl dat
+;	"оно" prn pers p3 nt sg ins
 "<механических>"
-	"механический" adj mfn aa pl acc
+;	"механический" adj mfn aa pl acc
 	"механический" adj mfn an pl gen
-	"механический" adj mfn an pl prp
+;	"механический" adj mfn an pl prp
 "<устройств>"
 	"устройство" n nt nn pl gen
 "<,>"
 	"," cm
 "<так>"
-	"так²" part
+;	"так²" part
 	"так¹" adv
-	"так¹" cnjcoo
+;	"так¹" cnjcoo
 "<называемых>"
-	"называть¹⁻²" vblex impf tv pprs pasv mfn aa pl acc
+;	"называть¹⁻²" vblex impf tv pprs pasv mfn aa pl acc
 	"называть¹⁻²" vblex impf tv pprs pasv mfn an pl gen
 ;	"называть¹⁻²" vblex impf tv pprs pasv mfn an pl prp REMOVE:458
  «
 "<интеллектуальных>"
-	"интеллектуальный" adj mfn aa pl acc
+;	"интеллектуальный" adj mfn aa pl acc
 	"интеллектуальный" adj mfn an pl gen
 ;	"интеллектуальный" adj mfn an pl prp REMOVE:458
 "<машин>"
@@ -968,19 +968,19 @@
 ;	"частичный" adj f an sg ins REMOVE:403
 ;	"частичный" adj f an sg prp REMOVE:403
 "<механизации>"
-	"механизация" n f nn pl acc
-	"механизация" n f nn pl nom
+;	"механизация" n f nn pl acc
+;	"механизация" n f nn pl nom
 	"механизация" n f nn sg gen
 ;	"механизация" n f nn sg dat REMOVE:807
 ;	"механизация" n f nn sg prp REMOVE:458
 "<умственной>"
-	"умственный" adj f an sg dat
+;	"умственный" adj f an sg dat
 	"умственный" adj f an sg gen
-	"умственный" adj f an sg ins
+;	"умственный" adj f an sg ins
 ;	"умственный" adj f an sg prp REMOVE:458
 "<деятельности>"
-	"деятельность" n f nn pl acc
-	"деятельность" n f nn pl nom
+;	"деятельность" n f nn pl acc
+;	"деятельность" n f nn pl nom
 	"деятельность" n f nn sg gen
 ;	"деятельность" n f nn sg dat REMOVE:807
 ;	"деятельность" n f nn sg prp REMOVE:458
@@ -993,8 +993,8 @@
 "<,>"
 	"," cm
 "<сравнения>"
-	"сравнение" n nt nn pl acc
-	"сравнение" n nt nn pl nom
+;	"сравнение" n nt nn pl acc
+;	"сравнение" n nt nn pl nom
 	"сравнение" n nt nn sg gen
 "<и>"
 	"и" cnjcoo @CNP MAP:798
@@ -1013,8 +1013,8 @@
 ;	"и¹" ij REMOVE:840
 ;	"и" adv REMOVE:844
 "<классификации>"
-	"классификация" n f nn pl acc
-	"классификация" n f nn pl nom
+;	"классификация" n f nn pl acc
+;	"классификация" n f nn pl nom
 	"классификация" n f nn sg gen
 ;	"классификация" n f nn sg prp REMOVE:458
 ;	"классификация" n f nn sg dat REMOVE:807
@@ -1025,60 +1025,60 @@
 	"в" pr
 "<конструкции>"
 	"конструкция" n f nn pl acc
-	"конструкция" n f nn sg prp
+;	"конструкция" n f nn sg prp
 ;	"конструкция" n f nn pl nom REMOVE:401
 ;	"конструкция" n f nn sg dat REMOVE:408
 ;	"конструкция" n f nn sg gen REMOVE:408
 "<своих>"
-	"свое" n nt nn pl gen
-	"свое" n nt nn pl prp
-	"свой" n m aa pl gen
+;	"свое" n nt nn pl gen
+;	"свое" n nt nn pl prp
+;	"свой" n m aa pl gen
 	"свой" det pos mfn pl gen
-	"свой" n m aa pl prp
-	"свой" n m aa pl acc
+;	"свой" n m aa pl prp
+;	"свой" n m aa pl acc
 ;	"свой" det pos mfn aa pl acc REMOVE:713
 ;	"свой" det pos mfn pl prp REMOVE:713
 "<машин>"
 	"машина" n f nn pl gen
 "<Корсаков>"
 	"Корсаков" np cog m sg nom
-	"корсак" n m aa pl acc
-	"корсак" n m aa pl gen
+;	"корсак" n m aa pl acc
+;	"корсак" n m aa pl gen
 "<впервые>"
 	"впервые" adv
 "<в>"
 	"в" pr
 "<истории>"
-	"история" n f nn pl acc
+;	"история" n f nn pl acc
 	"история" n f nn sg prp
 ;	"история" n f nn pl nom REMOVE:401
 ;	"история" n f nn sg dat REMOVE:408
 ;	"история" n f nn sg gen REMOVE:408
 "<информатики>"
-	"информатик" n m aa pl nom
-	"информатика" n f nn pl acc
-	"информатика" n f nn pl nom
+;	"информатик" n m aa pl nom
+;	"информатика" n f nn pl acc
+;	"информатика" n f nn pl nom
 	"информатика" n f nn sg gen
 "<применил>"
-	"применить" vblex perf iv past m sg
+;	"применить" vblex perf iv past m sg
 	"применить" vblex perf tv past m sg
 "<перфорированные>"
-	"перфорировать" vblex perf tv pp pasv mfn an pl nom
+;	"перфорировать" vblex perf tv pp pasv mfn an pl nom
 	"перфорировать" vblex perf tv pp pasv mfn nn pl acc
 "<карты>"
-	"карт" n m nn pl acc
-	"карт" n m nn pl nom
+;	"карт" n m nn pl acc
+;	"карт" n m nn pl nom
 	"карта" n f nn pl acc
-	"карта" n f nn pl nom
-	"карта" n f nn sg gen
-	"карты" n f nn pl acc
-	"карты" n f nn pl nom
+;	"карта" n f nn pl nom
+;	"карта" n f nn sg gen
+;	"карты" n f nn pl acc
+;	"карты" n f nn pl nom
 "<,>"
 	"," cm
 "<игравшие>"
-	"играть" vblex impf iv pp actv mfn an pl nom
-	"играть" vblex impf iv pp actv mfn nn pl acc
-	"играть" vblex impf tv pp actv mfn an pl nom
+;	"играть" vblex impf iv pp actv mfn an pl nom
+;	"играть" vblex impf iv pp actv mfn nn pl acc
+;	"играть" vblex impf tv pp actv mfn an pl nom
 	"играть" vblex impf tv pp actv mfn nn pl acc
 "<у>"
 	"у" pr
@@ -1096,34 +1096,34 @@
 ;	"у²" n nt nn sg prp REMOVE:521
 ;	"у¹" ij REMOVE:885
 "<него>"
-	"оно" prn pers p3 nt sg gen pobj @P← MAP:791
+;	"оно" prn pers p3 nt sg gen pobj @P← MAP:791
 	"он¹" prn pers p3 m sg gen pobj @P← MAP:791
 ;	"он¹" prn pers p3 m sg acc pobj @P← MAP:791 REMOVE:403
 ;	"оно" prn pers p3 nt sg acc pobj @P← MAP:791 REMOVE:403
 "<своего>"
-	"свое" n nt nn sg gen
-	"свой" det pos m aa sg acc
+;	"свое" n nt nn sg gen
+;	"свой" det pos m aa sg acc
 	"свой" det pos m sg gen
-	"свой" n m aa sg gen
-	"свой" n m aa sg acc
+;	"свой" n m aa sg gen
+;	"свой" n m aa sg acc
 ;	"свой" det pos nt sg gen REMOVE:707
 "<рода>"
-	"род" n m nn pl acc
-	"род" n m nn pl nom
+;	"род" n m nn pl acc
+;	"род" n m nn pl nom
 	"род" n m nn sg gen
 "<роль>"
-	"роль²" n f nn sg acc
-	"роль²" n f nn sg nom
+;	"роль²" n f nn sg acc
+;	"роль²" n f nn sg nom
 	"роль¹" n f nn sg acc
-	"роль¹" n f nn sg nom
-	"роля" n f nn pl gen
+;	"роль¹" n f nn sg nom
+;	"роля" n f nn pl gen
 "<баз>"
-	"баз" n m nn sg acc
-	"баз" n m nn sg nom
+;	"баз" n m nn sg acc
+;	"баз" n m nn sg nom
 	"база" n f nn pl gen
 "<знаний>"
 	"знание" n nt nn pl gen
-	"знанье" n nt nn pl gen
+;	"знанье" n nt nn pl gen
 "<,>"
 	"," cm
 "<а>"
@@ -1142,24 +1142,24 @@
 ;	"а²" n nt nn sg nom REMOVE:521
 ;	"а¹" ij REMOVE:875
 "<сами>"
-	"сам" det mfn nn pl acc
+;	"сам" det mfn nn pl acc
 	"сам" det mfn pl nom
 "<машины>"
-	"машина" n f nn pl acc
+;	"машина" n f nn pl acc
 	"машина" n f nn pl nom
-	"машина" n f nn sg gen
+;	"машина" n f nn sg gen
 "<по>"
 	"по" pr
 "<существу>"
-	"существо²" n nt aa sg dat
-	"существо²" n nt nn sg dat
+;	"существо²" n nt aa sg dat
+;	"существо²" n nt nn sg dat
 	"существо¹" n nt nn sg dat
 "<являлись>"
-	"являть" vblex impf tv past mfn pl pass
+;	"являть" vblex impf tv past mfn pl pass
 	"являться" vblex impf iv past mfn pl
 "<предтечами>"
 	"предтеча" n f aa pl ins
-	"предтеча" n m aa pl ins
+;	"предтеча" n m aa pl ins
 "<экспертных>"
 	"экспертный" adj mfn an pl gen SELECT:678
 ;	"экспертный" adj mfn aa pl acc SELECT:678
@@ -1175,13 +1175,13 @@
 "<СССР>"
 	"*СССР"
 "<работы>"
-	"работа" n f nn pl acc
-	"работа" n f nn pl nom
+;	"работа" n f nn pl acc
+;	"работа" n f nn pl nom
 	"работа" n f nn sg gen
 "<в>"
 	"в" pr
 "<области>"
-	"область" n f nn pl acc
+;	"область" n f nn pl acc
 	"область" n f nn sg prp
 ;	"область" n f nn pl nom REMOVE:401
 ;	"область" n f nn sg dat REMOVE:408
@@ -1242,7 +1242,7 @@
 "<выполнен>"
 	"выполнить" vblex perf tv pp pasv short m sg
 "<ряд>"
-	"ряд" n m nn sg acc
+;	"ряд" n m nn sg acc
 	"ряд" n m nn sg nom
 "<пионерских>"
 	"пионерский" adj mfn an pl gen SELECT:678
@@ -1253,7 +1253,7 @@
 "<,>"
 	"," cm
 "<возглавленных>"
-	"возглавить" vblex perf tv pp pasv mfn aa pl acc
+;	"возглавить" vblex perf tv pp pasv mfn aa pl acc
 	"возглавить" vblex perf tv pp pasv mfn an pl gen
 ;	"возглавить" vblex perf tv pp pasv mfn an pl prp REMOVE:458
 "<Вениамином>"
@@ -1283,7 +1283,7 @@
 	"А." abbr
 "<Поспеловым>"
 	"Поспелов" np cog m sg ins
-	"Поспелов" np cog mfn pl dat
+;	"Поспелов" np cog mfn pl dat
 "<.>"
 	"." sent
 ¶
@@ -1303,32 +1303,32 @@
 "<работа>"
 	"работа" n f nn sg nom
 "<ленинградского>"
-	"ленинградский" adj m aa sg acc
+;	"ленинградский" adj m aa sg acc
 	"ленинградский" adj m an sg gen
-	"ленинградский" adj nt an sg gen
+;	"ленинградский" adj nt an sg gen
 "<логика>"
-	"логик" n m aa sg acc
+;	"логик" n m aa sg acc
 	"логик" n m aa sg gen
-	"логика" n f nn sg nom
+;	"логика" n f nn sg nom
 "<Сергея>"
-	"Сергей" np ant m sg acc
+;	"Сергей" np ant m sg acc
 	"Сергей" np ant m sg gen
 "<Маслова>"
-	"Маслов" np cog f sg nom
-	"Маслов" np cog m sg acc
+;	"Маслов" np cog f sg nom
+;	"Маслов" np cog m sg acc
 	"Маслов" np cog m sg gen
 "<«>"
 	"«" lpar
 "<Обратный>"
 	"обратный" adj m an sg nom
-	"обратный" adj m nn sg acc
+;	"обратный" adj m nn sg acc
 "<метод>"
-	"метод" n m nn sg acc
+;	"метод" n m nn sg acc
 	"метод" n m nn sg nom
-	"метода" n f nn pl gen
+;	"метода" n f nn pl gen
 "<установления>"
-	"установление" n nt nn pl acc
-	"установление" n nt nn pl nom
+;	"установление" n nt nn pl acc
+;	"установление" n nt nn pl nom
 	"установление" n nt nn sg gen
 "<выводимости>"
 	"*выводимости"
@@ -1361,9 +1361,9 @@
 "<предлагался>"
 	"предлагать" vblex impf tv past m sg pass
 "<метод>"
-	"метод" n m nn sg acc
+;	"метод" n m nn sg acc
 	"метод" n m nn sg nom
-	"метода" n f nn pl gen
+;	"метода" n f nn pl gen
 "<автоматического>"
 	"автоматический" adj m an sg gen SELECT:678 SELECT:632
 ;	"автоматический" adj m aa sg acc SELECT:678
@@ -1371,8 +1371,8 @@
 "<поиска>"
 	"поиск" n m nn sg gen
 "<доказательства>"
-	"доказательство" n nt nn pl acc
-	"доказательство" n nt nn pl nom
+;	"доказательство" n nt nn pl acc
+;	"доказательство" n nt nn pl nom
 	"доказательство" n nt nn sg gen
 "<теорем>"
 	"теорема" n f nn pl gen
@@ -1405,8 +1405,8 @@
 "<разработан>"
 	"разработать" vblex perf tv pp pasv short m sg
 "<язык>"
-	"язык" n m aa sg nom
-	"язык" n m nn sg acc
+;	"язык" n m aa sg nom
+;	"язык" n m nn sg acc
 	"язык" n m nn sg nom
 "<рекурсивных>"
 	"рекурсивный" adj mfn an pl gen SELECT:678
@@ -1446,23 +1446,24 @@
 "<СССР>"
 	"*СССР"
 "<все>"
-	"весь¹" det all mfn nn pl acc
-	"весь¹" det all nt sg acc
-	"весь¹" det all nt sg nom
+;	"весь¹" det all mfn nn pl acc
+;	"весь¹" det all nt sg acc
+;	"весь¹" det all nt sg nom
 	"весь¹" det all pl nom
-	"все" prn pl nom
-	"всё" prn nt sg acc
-	"всё" prn nt sg nom
+;	"все" prn pl nom
+;	"всё" prn nt sg acc
+;	"всё" prn nt sg nom
 "<исследования>"
-	"исследование" n nt nn pl acc
+;	"исследование" n nt nn pl acc
 	"исследование" n nt nn pl nom
-	"исследование" n nt nn sg gen
+;	"исследование" n nt nn sg gen
 "<ИИ>"
-	"Ия²" np al f nn pl acc
-	"Ия²" np al f nn pl nom
-	"Ия²" np al f nn sg gen
-	"Ия¹" np ant f pl nom
-	"Ия¹" np ant f sg gen
+;	"Ия²" np al f nn pl acc
+;	"Ия²" np al f nn pl nom
+;	"Ия²" np al f nn sg gen
+;	"Ия¹" np ant f pl nom
+;	"Ия¹" np ant f sg gen
+	"ИИ" abbr
 "<велись>"
 	"вести" vblex impf tv past mfn pl pass
 "<в>"
@@ -1470,9 +1471,9 @@
 "<рамках>"
 	"рамка" n f nn pl prp
 "<кибернетики>"
-	"кибернетик" n m aa pl nom
-	"кибернетика" n f nn pl acc
-	"кибернетика" n f nn pl nom
+;	"кибернетик" n m aa pl nom
+;	"кибернетика" n f nn pl acc
+;	"кибернетика" n f nn pl nom
 	"кибернетика" n f nn sg gen
 "<.>"
 	"." sent
@@ -1517,20 +1518,20 @@
 "<А.>"
 	"А." abbr
 "<Поспелова>"
-	"Поспелов" np cog f sg nom
-	"Поспелов" np cog m sg acc
+;	"Поспелов" np cog f sg nom
+;	"Поспелов" np cog m sg acc
 	"Поспелов" np cog m sg gen
 "<,>"
 	"," cm
 "<науки>"
-	"наука" n f nn pl acc
-	"наука" n f nn pl nom
+;	"наука" n f nn pl acc
+;	"наука" n f nn pl nom
 	"наука" n f nn sg gen
 "<«>"
 	"«" lpar
 "<информатика>"
-	"информатик" n m aa sg acc
-	"информатик" n m aa sg gen
+;	"информатик" n m aa sg acc
+;	"информатик" n m aa sg gen
 	"информатика" n f nn sg nom
 "<»>"
 	"»" rpar
@@ -1554,8 +1555,8 @@
 "<«>"
 	"«" lpar
 "<кибернетика>"
-	"кибернетик" n m aa sg acc
-	"кибернетик" n m aa sg gen
+;	"кибернетик" n m aa sg acc
+;	"кибернетик" n m aa sg gen
 	"кибернетика" n f nn sg nom
 "<»>" 
 	"»" rpar
@@ -1569,14 +1570,14 @@
 "<в>"
 	"в" pr
 "<это>"
-	"это" part
-	"это" prn dem nt nn sg acc
+;	"это" part
+;	"это" prn dem nt nn sg acc
 	"этот" det dem nt sg acc
 ;	"это" prn dem nt nn sg nom REMOVE:401
 ;	"этот" det dem nt sg nom REMOVE:401
 "<время>"
 	"время" n nt nn sg acc
-	"время" n nt nn sg nom
+;	"время" n nt nn sg nom
 "<смешаны>"
 	"смешать" vblex perf tv pp pasv short mfn pl
 "<,>"
@@ -1585,43 +1586,43 @@
 	"по" pr
 "<причине>"
 	"причина" n f nn sg dat
-	"причина" n f nn sg prp
+;	"причина" n f nn sg prp
 "<ряда>"
 	"ряд" n m nn sg gen
 "<академических>"
-	"академический" adj mfn aa pl acc
+;	"академический" adj mfn aa pl acc
 	"академический" adj mfn an pl gen
 ;	"академический" adj mfn an pl prp REMOVE:458
 "<споров>"
 	"спор" n m nn pl gen
-	"споровый" adj short m sg
-	"спороть" vblex perf iv pp adv
-	"спороть" vblex perf tv pp adv
+;	"споровый" adj short m sg
+;	"спороть" vblex perf iv pp adv
+;	"спороть" vblex perf tv pp adv
 "<.>"
 	"." sent
 
 "<Только>"
 	"только" adv
-	"только" cnjcoo
-	"только" cnjsub
-	"только" part
+;	"только" cnjcoo
+;	"только" cnjsub
+;	"только" part
 "<в>"
 	"в" pr
 "<конце>"
 	"конец" n m nn sg prp
 "<1970-х>"
-	"1970" num ord mfn aa pl acc
+;	"1970" num ord mfn aa pl acc
 	"1970" num ord mfn pl gen
-	"1970" num ord mfn pl prp
+;	"1970" num ord mfn pl prp
 "<в>"
 	"в" pr
 "<СССР>"
 	"*СССР"
 "<начинают>"
-	"начинать" vblex impf iv pres p3 pl
+;	"начинать" vblex impf iv pres p3 pl
 	"начинать" vblex impf tv pres p3 pl
 "<говорить>"
-	"говорить" vblex impf iv inf
+;	"говорить" vblex impf iv inf
 	"говорить" vblex impf tv inf
 "<о>"
 	"о" pr SELECT:486
@@ -1647,24 +1648,24 @@
 	"«" lpar
 "<искусственный>"
 	"искусственный" adj m an sg nom
-	"искусственный" adj m nn sg acc
+;	"искусственный" adj m nn sg acc
 "<интеллект>"
-	"интеллект" n m nn sg acc
+;	"интеллект" n m nn sg acc
 	"интеллект" n m nn sg nom
 "<»>"
 	"»" rpar 
 "<как>"
-	"как" adv itg
+;	"как" adv itg
 	"как" adv rel
-	"как" cnjcoo
-	"как" cnjsub
-	"как" part
+;	"как" cnjcoo
+;	"как" cnjsub
+;	"как" part
 "<разделе>"
 	"раздел" n m nn sg prp
 "<информатики>"
-	"информатик" n m aa pl nom
-	"информатика" n f nn pl acc
-	"информатика" n f nn pl nom
+;	"информатик" n m aa pl nom
+;	"информатика" n f nn pl acc
+;	"информатика" n f nn pl nom
 	"информатика" n f nn sg gen
 "<.>"
 	"." sent
@@ -1677,12 +1678,12 @@
 ;	"пря" n f nn pl nom SELECT:432
 ;	"пря" n f nn sg gen SELECT:432
 "<этом>"
-	"это" prn dem nt nn sg prp
-	"этот" prn dem m aa sg prp
-;	"этот" det dem m sg prp REMOVE:464
+;	"это" prn dem nt nn sg prp
+;	"этот" prn dem m aa sg prp
+	"этот" det dem m sg prp REMOVE:464
 ;	"этот" det dem nt sg prp REMOVE:464
 "<родилась>"
-	"родиться" vblex impf iv past f sg
+;	"родиться" vblex impf iv past f sg
 	"родиться" vblex perf iv past f sg
 "<и>"
 	"и" cnjcoo @CNP MAP:798
@@ -1703,24 +1704,24 @@
 "<сама>"
 	"сам" det f sg nom
 "<информатика>"
-	"информатик" n m aa sg acc
-	"информатик" n m aa sg gen
+;	"информатик" n m aa sg acc
+;	"информатик" n m aa sg gen
 	"информатика" n f nn sg nom
 "<,>"
 	"," cm
 "<подчинив>"
-	"подчинить" vblex perf iv pp adv
+;	"подчинить" vblex perf iv pp adv
 	"подчинить" vblex perf tv pp adv
 "<себе>"
-	"себе" part
+;	"себе" part
 	"себя" prn ref dat
-	"себя" prn ref prp
+;	"себя" prn ref prp
 "<прародительницу>"
 	"прародительница" n f aa sg acc
 "<«>" 
 	"«" lpar
 "<кибернетику>"
-	"кибернетик" n m aa sg dat
+;	"кибернетик" n m aa sg dat
 	"кибернетика" n f nn sg acc
 "<»>"
 	"»" rpar
@@ -1732,17 +1733,17 @@
 "<конце>"
 	"конец" n m nn sg prp
 "<1970-х>"
-	"1970" num ord mfn aa pl acc
+;	"1970" num ord mfn aa pl acc
 	"1970" num ord mfn pl gen
-	"1970" num ord mfn pl prp
+;	"1970" num ord mfn pl prp
 "<создаётся>"
-	"создавать" vblex impf tv pres p3 sg pass
+;	"создавать" vblex impf tv pres p3 sg pass
 	"создаваться" vblex impf iv pres p3 sg
 "<толковый>"
 	"толковый" adj m an sg nom
-	"толковый" adj m nn sg acc
+;	"толковый" adj m nn sg acc
 "<словарь>"
-	"словарь" n m nn sg acc
+;	"словарь" n m nn sg acc
 	"словарь" n m nn sg nom
 "<по>"
 	"по" pr
@@ -1755,9 +1756,9 @@
 	"," cm
 "<трёхтомный>"
 	"трёхтомный" adj m an sg nom
-	"трёхтомный" adj m nn sg acc
+;	"трёхтомный" adj m nn sg acc
 "<справочник>"
-	"справочник" n m nn sg acc
+;	"справочник" n m nn sg acc
 	"справочник" n m nn sg nom
 "<по>"
 	"по" pr
@@ -1784,33 +1785,33 @@
 ;	"и" adv REMOVE:844
 "<энциклопедический>"
 	"энциклопедический" adj m an sg nom
-	"энциклопедический" adj m nn sg acc
+;	"энциклопедический" adj m nn sg acc
 "<словарь>"
-	"словарь" n m nn sg acc
+;	"словарь" n m nn sg acc
 	"словарь" n m nn sg nom
 "<по>"
 	"по" pr
 "<информатике>"
-	"информатик" n m aa sg prp
+;	"информатик" n m aa sg prp
 	"информатика" n f nn sg dat
-	"информатика" n f nn sg prp
+;	"информатика" n f nn sg prp
 "<,>"
 	"," cm
 "<в>"
 	"в" pr
 "<котором>"
 	"который" prn rel m sg prp SELECT:656
-	"который" prn rel nt sg prp SELECT:656
+;	"который" prn rel nt sg prp SELECT:656
 ;	"который" det itg m sg prp SELECT:656
 ;	"который" det itg nt sg prp SELECT:656
 "<разделы>"
-	"раздел" n m nn pl acc
+;	"раздел" n m nn pl acc
 	"раздел" n m nn pl nom
 "<«>"
 	"«" lpar
 "<Кибернетика>"
-	"кибернетик" n m aa sg acc
-	"кибернетик" n m aa sg gen
+;	"кибернетик" n m aa sg acc
+;	"кибернетик" n m aa sg gen
 	"кибернетика" n f nn sg nom
 "<»>"
 	"»" rpar 
@@ -1835,22 +1836,22 @@
 	"«" lpar
 "<Искусственный>"
 	"искусственный" adj m an sg nom
-	"искусственный" adj m nn sg acc
+;	"искусственный" adj m nn sg acc
 "<интеллект>"
-	"интеллект" n m nn sg acc
+;	"интеллект" n m nn sg acc
 	"интеллект" n m nn sg nom
 "<»>"
 	"»" rpar 
 "<входят>"
 	"входить" vblex impf iv pres p3 pl
 "<наряду>"
-	"наряд¹⁻²" n m nn sg dat
+;	"наряд¹⁻²" n m nn sg dat
 	"наряду" adv
 "<с>"
 	"с" pr
 "<другими>"
 	"другой" det mfn pl ins
-	"другой" n m aa pl ins
+;	"другой" n m aa pl ins
 "<разделами>"
 	"раздел" n m nn pl ins
 "<в>"
@@ -1859,21 +1860,21 @@
 	"состав" n m nn sg acc
 ;	"состав" n m nn sg nom REMOVE:401
 "<информатики>"
-	"информатик" n m aa pl nom
-	"информатика" n f nn pl acc
-	"информатика" n f nn pl nom
+;	"информатик" n m aa pl nom
+;	"информатика" n f nn pl acc
+;	"информатика" n f nn pl nom
 	"информатика" n f nn sg gen
 "<.>"
 	"." sent
 
 "<Термин>"
-	"термин" n m nn sg acc
+;	"термин" n m nn sg acc
 	"термин" n m nn sg nom
 "<«>"
 	"«" lpar
 "<информатика>"
-	"информатик" n m aa sg acc
-	"информатик" n m aa sg gen
+;	"информатик" n m aa sg acc
+;	"информатик" n m aa sg gen
 	"информатика" n f nn sg nom
 "<»>"
 	"»" rpar 
@@ -1881,21 +1882,21 @@
 	"в" pr
 "<1980-е>"
 	"1980" num ord mfn nn pl acc
-	"1980" num ord nt sg acc
+;	"1980" num ord nt sg acc
 ;	"1980" num ord mfn pl nom REMOVE:401
 ;	"1980" num ord nt sg nom REMOVE:401
 "<годы>"
 	"год" n m nn pl acc
 ;	"год" n m nn pl nom REMOVE:408
 "<получает>"
-	"получать" vblex impf iv pres p3 sg
+;	"получать" vblex impf iv pres p3 sg
 	"получать" vblex impf tv pres p3 sg
 "<широкое>"
 	"широкий" adj nt an sg acc
-	"широкий" adj nt an sg nom
+;	"широкий" adj nt an sg nom
 "<распространение>"
 	"распространение" n nt nn sg acc
-	"распространение" n nt nn sg nom
+;	"распространение" n nt nn sg nom
 "<,>"
 	"," cm
 "<а>"
@@ -1914,13 +1915,13 @@
 ;	"а²" n nt nn sg prp REMOVE:521
 ;	"а¹" ij REMOVE:875
 "<термин>"
-	"термин" n m nn sg acc
+;	"термин" n m nn sg acc
 	"термин" n m nn sg nom
 "<«>"
 	"«" lpar
 "<кибернетика>"
-	"кибернетик" n m aa sg acc
-	"кибернетик" n m aa sg gen
+;	"кибернетик" n m aa sg acc
+;	"кибернетик" n m aa sg gen
 	"кибернетика" n f nn sg nom
 "<»>"
 	"»" rpar 
@@ -1940,16 +1941,16 @@
 "<сохранившись>"
 	"сохраниться" vblex perf iv pp adv
 "<лишь>"
-	"лишь" cnjsub
+;	"лишь" cnjsub
 	"лишь" part
 "<в>"
 	"в" pr
 "<названиях>"
 	"название" n nt nn pl prp
 "<тех>"
-	"те" prn dem mfn aa pl acc
-	"те" prn dem mfn aa pl gen
-	"те" prn dem mfn aa pl prp
+;	"те" prn dem mfn aa pl acc
+;	"те" prn dem mfn aa pl gen
+;	"те" prn dem mfn aa pl prp
 	"тот" det dem mfn pl gen
 ;	"тот" det dem mfn aa pl acc REMOVE:713
 ;	"тот" det dem mfn pl prp REMOVE:713
@@ -1981,19 +1982,19 @@
 "<конца>"
 	"конец" n m nn sg gen
 "<1950-х>"
-	"1950" num ord mfn aa pl acc
+;	"1950" num ord mfn aa pl acc
 	"1950" num ord mfn pl gen
 ;	"1950" num ord mfn pl prp REMOVE:458
 "<—>"
 	"—" guio
 "<начала>"
-	"начало" n nt nn pl acc
-	"начало" n nt nn pl nom
+;	"начало" n nt nn pl acc
+;	"начало" n nt nn pl nom
 	"начало" n nt nn sg gen
-	"начать" vblex perf iv past f sg
-	"начать" vblex perf tv past f sg
+;	"начать" vblex perf iv past f sg
+;	"начать" vblex perf tv past f sg
 "<1960-х>"
-	"1960" num ord mfn aa pl acc
+;	"1960" num ord mfn aa pl acc
 	"1960" num ord mfn pl gen
 ;	"1960" num ord mfn pl prp REMOVE:458
 "<годов>"
@@ -2004,13 +2005,13 @@
 
 "<Такой>"
 	"такой" det m sg nom
-	"такой" det m nn sg acc
+;	"такой" det m nn sg acc
 ;	"такой" det f sg prp REMOVE:355
 ;	"такой" det f sg gen REMOVE:626
 ;	"такой" det f sg dat REMOVE:707
 ;	"такой" det f sg ins REMOVE:707
 "<взгляд>"
-	"взгляд" n m nn sg acc
+;	"взгляд" n m nn sg acc
 	"взгляд" n m nn sg nom
 "<на>"
 	"на" pr
@@ -2024,7 +2025,7 @@
 "<,>"
 	"," cm
 "<кибернетику>"
-	"кибернетик" n m aa sg dat
+;	"кибернетик" n m aa sg dat
 	"кибернетика" n f nn sg acc
 "<и>"
 	"и" cnjcoo @CNP MAP:796
@@ -2043,10 +2044,10 @@
 ;	"и¹" ij REMOVE:840
 ;	"и" adv REMOVE:844
 "<информатику>"
-	"информатик" n m aa sg dat
+;	"информатик" n m aa sg dat
 	"информатика" n f nn sg acc
 "<разделяется>"
-	"разделять" vblex impf tv pres p3 sg pass
+;	"разделять" vblex impf tv pres p3 sg pass
 	"разделяться" vblex impf iv pres p3 sg
 "<не>"
 	"не" part
@@ -2058,10 +2059,10 @@
 
 "<Это>"
 	"это" part
-	"это" prn dem nt nn sg acc
-	"это" prn dem nt nn sg nom
-	"этот" det dem nt sg acc
-	"этот" det dem nt sg nom
+;	"это" prn dem nt nn sg acc
+;	"это" prn dem nt nn sg nom
+;	"этот" det dem nt sg acc
+;	"этот" det dem nt sg nom
 "<связано>"
 	"связать" vblex perf tv pp pasv short nt sg SELECT:749
 ;	"связанный" adj short nt sg fac SELECT:749
@@ -2081,38 +2082,38 @@
 "<,>"
 	"," cm
 "<что>"
-	"что²" cnjsub SELECT:492
+;	"что²" cnjsub SELECT:492
 ;	"что¹" prn itg nt sg acc SELECT:492
 ;	"что¹" prn itg nt sg nom SELECT:492
 ;	"что¹" prn rel nt sg acc SELECT:492
-;	"что¹" prn rel nt sg nom SELECT:492
+	"что¹" prn rel nt sg nom SELECT:492
 "<на>"
 	"на" pr
 ;	"на" ij REMOVE:588
 "<Западе>"
 	"запад" n m nn sg prp
 "<границы>"
-	"граница" n f nn pl acc
+;	"граница" n f nn pl acc
 	"граница" n f nn pl nom
-	"граница" n f nn sg gen
+;	"граница" n f nn sg gen
 "<данных>"
 	"данные" n mfn nn pl gen
-	"данные" n mfn nn pl prp
-	"дать" vblex perf tv pp pasv mfn an pl gen
-	"данный" det mfn pl gen
-	"дать" vblex perf tv pp pasv mfn an pl prp
-	"дать" vblex perf tv pp pasv mfn aa pl acc
+;	"данные" n mfn nn pl prp
+;	"дать" vblex perf tv pp pasv mfn an pl gen
+;	"данный" det mfn pl gen
+;	"дать" vblex perf tv pp pasv mfn an pl prp
+;	"дать" vblex perf tv pp pasv mfn aa pl acc
 ;	"данный" det mfn aa pl acc REMOVE:713
 ;	"данный" det mfn pl prp REMOVE:713
 "<наук>"
 	"наука" n f nn pl gen
 "<несколько>"
 	"несколько" adv
-	"несколько" num aa acc
-	"несколько" num nn acc
-	"несколько" num nom
+;	"несколько" num aa acc
+;	"несколько" num nn acc
+;	"несколько" num nom
 "<отличаются>"
-	"отличать" vblex impf tv pres p3 pl pass
+;	"отличать" vblex impf tv pres p3 pl pass
 	"отличаться" vblex impf iv pres p3 pl
 "<.>"
 	"." sent
