@@ -641,7 +641,7 @@
 "<названием>"
 	"название" n nt nn sg ins
 "<«>"
-	"«" lpar
+	"«" lquot
 "<Может>"
 	"мочь²" vblex impf iv pres p3 sg
 "<ли>"
@@ -667,7 +667,7 @@
 "<?>"
 	"?" sent
 "<»>"
-	"»" rpar
+	"»" rquot
 
 "<,>"
 	"," cm
@@ -1318,7 +1318,7 @@
 ;	"Маслов" np cog m sg acc
 	"Маслов" np cog m sg gen
 "<«>"
-	"«" lpar
+	"«" lquot
 "<Обратный>"
 	"обратный" adj m an sg nom
 ;	"обратный" adj m nn sg acc
@@ -1342,7 +1342,7 @@
 "<предикатов>"
 	"предикат" n m nn pl gen
 "<»>"
-	"»" rpar
+	"»" rquot
 "<,>"
 	"," cm
 "<в>"
@@ -1528,13 +1528,13 @@
 ;	"наука" n f nn pl nom
 	"наука" n f nn sg gen
 "<«>"
-	"«" lpar
+	"«" lquot
 "<информатика>"
 ;	"информатик" n m aa sg acc
 ;	"информатик" n m aa sg gen
 	"информатика" n f nn sg nom
 "<»>"
-	"»" rpar
+	"»" rquot
 "<и>"
 	"и" cnjcoo @CNP MAP:796
 ;	"и²" n nt nn pl acc REMOVE:521
@@ -1553,13 +1553,13 @@
 ;	"и" adv REMOVE:844
 
 "<«>"
-	"«" lpar
+	"«" lquot
 "<кибернетика>"
 ;	"кибернетик" n m aa sg acc
 ;	"кибернетик" n m aa sg gen
 	"кибернетика" n f nn sg nom
 "<»>" 
-	"»" rpar
+	"»" rquot
 "<были>"
 	"быть" vblex impf iv past mfn pl
 ;	"быль" n f nn pl acc REMOVE:869
@@ -1645,7 +1645,7 @@
 "<направлении>"
 	"направление" n nt nn sg prp
 "<«>"
-	"«" lpar
+	"«" lquot
 "<искусственный>"
 	"искусственный" adj m an sg nom
 ;	"искусственный" adj m nn sg acc
@@ -1653,7 +1653,7 @@
 ;	"интеллект" n m nn sg acc
 	"интеллект" n m nn sg nom
 "<»>"
-	"»" rpar 
+	"»" rquot 
 "<как>"
 ;	"как" adv itg
 	"как" adv rel
@@ -1719,12 +1719,12 @@
 "<прародительницу>"
 	"прародительница" n f aa sg acc
 "<«>" 
-	"«" lpar
+	"«" lquot
 "<кибернетику>"
 ;	"кибернетик" n m aa sg dat
 	"кибернетика" n f nn sg acc
 "<»>"
-	"»" rpar
+	"»" rquot
 "<.>"
 	"." sent
 
@@ -1808,13 +1808,13 @@
 ;	"раздел" n m nn pl acc
 	"раздел" n m nn pl nom
 "<«>"
-	"«" lpar
+	"«" lquot
 "<Кибернетика>"
 ;	"кибернетик" n m aa sg acc
 ;	"кибернетик" n m aa sg gen
 	"кибернетика" n f nn sg nom
 "<»>"
-	"»" rpar 
+	"»" rquot 
 "<и>"
 	"и" cnjcoo
 ;	"и²" n nt nn pl acc REMOVE:521
@@ -1833,7 +1833,7 @@
 ;	"и" adv REMOVE:844
 
 "<«>"
-	"«" lpar
+	"«" lquot
 "<Искусственный>"
 	"искусственный" adj m an sg nom
 ;	"искусственный" adj m nn sg acc
@@ -1841,7 +1841,7 @@
 ;	"интеллект" n m nn sg acc
 	"интеллект" n m nn sg nom
 "<»>"
-	"»" rpar 
+	"»" rquot 
 "<входят>"
 	"входить" vblex impf iv pres p3 pl
 "<наряду>"
@@ -1871,13 +1871,13 @@
 ;	"термин" n m nn sg acc
 	"термин" n m nn sg nom
 "<«>"
-	"«" lpar
+	"«" lquot
 "<информатика>"
 ;	"информатик" n m aa sg acc
 ;	"информатик" n m aa sg gen
 	"информатика" n f nn sg nom
 "<»>"
-	"»" rpar 
+	"»" rquot 
 "<в>"
 	"в" pr
 "<1980-е>"
@@ -1918,13 +1918,13 @@
 ;	"термин" n m nn sg acc
 	"термин" n m nn sg nom
 "<«>"
-	"«" lpar
+	"«" lquot
 "<кибернетика>"
 ;	"кибернетик" n m aa sg acc
 ;	"кибернетик" n m aa sg gen
 	"кибернетика" n f nn sg nom
 "<»>"
-	"»" rpar 
+	"»" rquot 
 "<постепенно>"
 	"постепенно" adv
 ;	"постепенный" adj short nt sg REMOVE:389
@@ -1970,7 +1970,7 @@
 "<эпоху>"
 	"эпоха" n f nn sg acc
 "<«>"
-	"«" lpar
+	"«" lquot
 "<кибернетического>"
 	"кибернетический" adj m an sg gen SELECT:678 SELECT:632
 ;	"кибернетический" adj m aa sg acc SELECT:678
@@ -1978,7 +1978,7 @@
 "<бума>"
 	"бум¹⁻²" n m nn sg gen
 "<»>"
-	"»" rpar 
+	"»" rquot 
 "<конца>"
 	"конец" n m nn sg gen
 "<1950-х>"

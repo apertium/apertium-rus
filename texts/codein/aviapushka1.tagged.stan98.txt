@@ -1,0 +1,949 @@
+"<Авиапушки>"
+	"*Авиапушки"
+"<—>"
+	"—" guio
+"<автоматические>"
+	"автоматический" adj mfn an pl nom
+;	"автоматический" adj mfn nn pl acc REMOVE:686
+"<пушки>"
+;	"пушка" n f nn pl acc
+	"пушка" n f nn pl nom
+;	"пушка" n f nn sg gen
+;	"пушок" n m nn pl acc
+;	"пушок" n m nn pl nom
+"<,>"
+	"," cm
+"<адаптированные>"
+;	"адаптированный" adj mfn an pl nom
+;	"адаптированный" adj mfn nn pl acc
+	"адаптировать" vblex perf tv pp pasv mfn an pl nom
+;	"адаптировать" vblex perf tv pp pasv mfn nn pl acc
+"<либо>"
+	"либо" cnjcoo
+"<специально>"
+	"специально" adv
+;	"специальный" adj short nt sg
+"<спроектированные>"
+	"спроектировать¹⁻²" vblex perf tv pp pasv mfn an pl nom
+;	"спроектировать¹⁻²" vblex perf tv pp pasv mfn nn pl acc
+"<для>"
+	"для" pr
+;	"длить" vblex impf iv pprs adv REMOVE:773
+;	"длить" vblex impf tv pprs adv REMOVE:773
+"<применения>"
+	"применение" n nt nn sg gen
+;	"применение" n nt nn pl nom REMOVE:381
+;	"применение" n nt nn pl acc REMOVE:383
+"<на>"
+	"на" pr
+;	"на" ij REMOVE:565
+"<летательных>"
+	"летательный" adj mfn an pl prp
+;	"летательный" adj mfn aa pl acc REMOVE:475
+;	"летательный" adj mfn an pl gen REMOVE:475
+"<аппаратах>"
+	"аппарат" n m nn pl prp
+"<.>"
+	"." sent
+
+"<Отличительными>"
+	"отличительный" adj mfn an pl ins
+"<особенностями>"
+	"особенность" n f nn pl ins
+"<авиационных>"
+	"авиационный" adj mfn an pl gen SELECT:655
+;	"авиационный" adj mfn an pl prp REMOVE:437
+;	"авиационный" adj mfn aa pl acc SELECT:655
+"<пушек>"
+	"пушка" n f nn pl gen
+"<является>"
+;	"являть" vblex impf tv pres p3 sg pass
+	"являться" vblex impf iv pres p3 sg
+"<их>"
+;	"их¹" det pos nt sg ins
+;	"их¹" det pos f sg acc
+;	"их¹" det pos f sg dat
+;	"их¹" det pos f sg gen
+;	"их¹" det pos f sg ins
+;	"их¹" det pos f sg nom
+;	"их¹" det pos nt sg nom
+;	"их¹" det pos m aa sg acc
+;	"их¹" det pos m nn sg acc
+;	"их¹" det pos m sg dat
+;	"их¹" det pos m sg gen
+;	"их¹" det pos m sg ins
+;	"их¹" det pos m sg nom
+;	"они" prn pers p3 pl gen
+;	"их¹" det pos mfn aa pl acc
+;	"их¹" det pos mfn nn pl acc
+;	"их¹" det pos mfn pl dat
+	"их¹" det pos mfn pl gen
+;	"их¹" det pos mfn pl ins
+;	"их¹" det pos mfn pl nom
+;	"они" prn pers p3 pl acc
+;	"их¹" det pos nt sg acc
+;	"их¹" det pos nt sg dat
+;	"их¹" det pos nt sg gen
+;	"их¹" det pos f sg prp REMOVE:437
+;	"их¹" det pos m sg prp REMOVE:437
+;	"их¹" det pos mfn pl prp REMOVE:437
+;	"их¹" det pos nt sg prp REMOVE:437
+;	"их²" ij REMOVE:779
+"<малый>"
+	"малый" adj m an sg nom
+;	"малый" adj m nn sg acc
+;	"малый" n m aa sg nom
+"<вес>"
+;	"вес²" n m nn sg acc
+;	"вес²" n m nn sg nom
+;	"вес¹" n m nn sg acc
+	"вес¹" n m nn sg nom
+"<,>"
+	"," cm
+"<высокая>"
+	"высокий" adj f an sg nom
+"<скорострельность>"
+;	"скорострельность" n f nn sg acc
+	"скорострельность" n f nn sg nom
+"<,>"
+	"," cm
+"<компактность>"
+;	"компактность" n f nn sg acc
+	"компактность" n f nn sg nom
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl prp REMOVE:437
+;	"и²" n nt nn sg prp REMOVE:437
+;	"и²" n nt nn pl acc REMOVE:498
+;	"и²" n nt nn pl dat REMOVE:498
+;	"и²" n nt nn pl gen REMOVE:498
+;	"и²" n nt nn pl ins REMOVE:498
+;	"и²" n nt nn pl nom REMOVE:498
+;	"и²" n nt nn sg acc REMOVE:498
+;	"и²" n nt nn sg dat REMOVE:498
+;	"и²" n nt nn sg gen REMOVE:498
+;	"и²" n nt nn sg ins REMOVE:498
+;	"и²" n nt nn sg nom REMOVE:498
+;	"и¹" ij REMOVE:781
+;	"и" adv REMOVE:785
+"<относительно>"
+	"относительно" adv
+;	"относительно" pr
+;	"относительный" adj short nt sg
+"<небольшой>"
+	"небольшой" adj m an sg nom
+;	"небольшой" adj m nn sg acc
+;	"небольшой" adj f an sg dat REMOVE:471
+;	"небольшой" adj f an sg gen REMOVE:471
+;	"небольшой" adj f an sg ins REMOVE:471
+;	"небольшой" adj f an sg prp REMOVE:471
+"<калибр>"
+;	"калибр" n m nn sg acc
+	"калибр" n m nn sg nom
+"<(>"
+	"(" lpar
+"<до>"
+;	"до" n nt nn pl acc
+;	"до" n nt nn sg prp
+;	"до" n nt nn pl gen
+;	"до" n nt nn pl ins
+;	"до" n nt nn pl nom
+;	"до" n nt nn pl prp
+;	"до" n nt nn sg acc
+	"до" pr
+;	"до" n nt nn sg gen
+;	"до" n nt nn sg ins
+;	"до" n nt nn sg nom
+;	"до" n nt nn pl dat REMOVE:672
+;	"до" n nt nn sg dat REMOVE:672
+"<45>"
+	"45" num
+"<мм>"
+	"мм" abbr
+;	"мм" ij
+"<)>"
+	")" rpar
+"<.>"
+	"." sent
+
+"<Основным>"
+	"основной" adj m an sg ins SELECT:609
+;	"основный¹⁻²" adj m an sg ins SELECT:609
+;	"основной" adj mfn an pl dat REMOVE:477
+;	"основный¹⁻²" adj mfn an pl dat REMOVE:477
+;	"основный¹⁻²" adj nt an sg ins SELECT:609
+;	"основной" adj nt an sg ins SELECT:609
+"<фактором>"
+;	"фактор" n m aa sg ins
+	"фактор" n m nn sg ins
+"<,>"
+	"," cm
+"<влияющими>"
+	"влиять" vblex impf iv pprs actv mfn an pl ins
+"<на>"
+	"на" pr
+;	"на" ij REMOVE:565
+"<выбор>"
+	"выбор" n m nn sg acc
+;	"выбор" n m nn sg nom REMOVE:381
+"<боеприпасов>"
+	"боеприпасы" n m nn pl gen
+"<для>"
+	"для" pr
+;	"длить" vblex impf iv pprs adv REMOVE:773
+;	"длить" vblex impf tv pprs adv REMOVE:773
+"<авиапушек>"
+	"*авиапушек"
+"<является>"
+;	"являть" vblex impf tv pres p3 sg pass
+	"являться" vblex impf iv pres p3 sg
+"<тип>"
+;	"тип" n m aa sg nom
+;	"тип" n m nn sg acc
+	"тип" n m nn sg nom
+"<поражаемых>"
+;	"поражать" vblex impf tv pprs pasv mfn aa pl acc
+	"поражать" vblex impf tv pprs pasv mfn an pl gen
+;	"поражать" vblex impf tv pprs pasv mfn an pl prp REMOVE:439
+"<целей>"
+;	"целый" adj comp pred ng
+	"цель" n f nn pl gen
+"<.>"
+	"." sent
+
+"<Авиационные>"
+	"авиационный" adj mfn an pl nom
+;	"авиационный" adj mfn nn pl acc
+"<цели>"
+	"цель" n f nn pl nom
+;	"цель" n f nn sg gen
+;	"цель" n f nn pl acc
+;	"цель" n f nn sg prp REMOVE:437
+;	"целить" vblex impf iv imp p2 sg REMOVE:605
+;	"целить" vblex impf tv imp p2 sg REMOVE:605
+;	"цель" n f nn sg dat REMOVE:672
+"<обладают>"
+	"обладать" vblex impf iv pres p3 pl
+"<целым>"
+;	"целое" n nt nn pl dat
+;	"целое" n nt nn sg ins
+	"целый" adj m an sg ins
+;	"целый" adj mfn an pl dat
+;	"целый" adj nt an sg ins
+"<рядом>"
+	"ряд" n m nn sg ins
+;	"рядом" adv
+"<специфичных>"
+;	"специфичный" adj mfn aa pl acc
+	"специфичный" adj mfn an pl gen
+;	"специфичный" adj mfn an pl prp REMOVE:437
+"<особенностей>"
+	"особенность" n f nn pl gen
+"<,>"
+	"," cm
+"<в>"
+	"в" pr
+"<частности>"
+;	"частность" n f nn pl acc
+	"частность" n f nn sg prp
+;	"частность" n f nn pl nom REMOVE:381
+;	"частность" n f nn sg dat REMOVE:387
+;	"частность" n f nn sg gen REMOVE:387
+"<:>"
+	":" sent
+"<высокие>"
+	"высокий" adj mfn an pl nom
+;	"высокий" adj mfn nn pl acc
+"<скорости>"
+;	"скорость" n f nn pl acc
+	"скорость" n f nn pl nom
+;	"скорость" n f nn sg prp
+;	"скорость" n f nn sg gen
+;	"скорость" n f nn sg dat REMOVE:672
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl prp REMOVE:439
+;	"и²" n nt nn sg prp REMOVE:439
+;	"и²" n nt nn pl acc REMOVE:498
+;	"и²" n nt nn pl dat REMOVE:498
+;	"и²" n nt nn pl gen REMOVE:498
+;	"и²" n nt nn pl ins REMOVE:498
+;	"и²" n nt nn pl nom REMOVE:498
+;	"и²" n nt nn sg acc REMOVE:498
+;	"и²" n nt nn sg dat REMOVE:498
+;	"и²" n nt nn sg gen REMOVE:498
+;	"и²" n nt nn sg ins REMOVE:498
+;	"и²" n nt nn sg nom REMOVE:498
+;	"и¹" ij REMOVE:781
+;	"и" adv REMOVE:785
+"<малые>"
+;	"малое" n nt nn pl acc
+;	"малое" n nt nn pl nom
+	"малый" adj mfn an pl nom
+;	"малый" adj mfn nn pl acc
+;	"малый" n m aa pl nom
+"<размеры>"
+;	"размер" n m nn pl acc
+	"размер" n m nn pl nom
+"<целей>"
+;	"целый" adj comp pred ng
+	"цель" n f nn pl gen
+"<уменьшают>"
+;	"уменьшать" vblex impf iv pres p3 pl
+	"уменьшать" vblex impf tv pres p3 pl
+"<вероятность>"
+	"вероятность" n f nn sg acc
+;	"вероятность" n f nn sg nom
+"<попадания>"
+;	"попадание" n nt nn pl acc
+;	"попадание" n nt nn pl nom
+	"попадание" n nt nn sg gen
+"<,>"
+	"," cm
+"<что>"
+	"что²" cnjsub SELECT:469
+;	"что¹" prn itg nt sg acc SELECT:469
+;	"что¹" prn itg nt sg nom SELECT:469
+;	"что¹" prn rel nt sg acc SELECT:469
+;	"что¹" prn rel nt sg nom SELECT:469
+"<приводит>"
+;	"приводить" vblex impf iv pres p3 sg
+	"приводить" vblex impf tv pres p3 sg
+"<к>"
+	"к" pr
+"<необходимости>"
+	"необходимость" n f nn sg dat
+;	"необходимость" n f nn pl nom REMOVE:381
+;	"необходимость" n f nn pl acc REMOVE:396
+;	"необходимость" n f nn sg prp REMOVE:396
+;	"необходимость" n f nn sg gen REMOVE:396
+"<применения>"
+;	"применение" n nt nn pl acc
+;	"применение" n nt nn pl nom
+	"применение" n nt nn sg gen
+"<высокого>"
+	"высокий" adj m an sg gen SELECT:655 SELECT:609
+;	"высокий" adj m aa sg acc SELECT:655
+;	"высокий" adj nt an sg gen SELECT:655 SELECT:609
+"<темпа>"
+	"темп" n m nn sg gen
+"<стрельбы>"
+;	"стрельба" n f nn pl acc
+;	"стрельба" n f nn pl nom
+	"стрельба" n f nn sg gen
+;	"стрельбы" n m nn pl acc
+;	"стрельбы" n m nn pl nom
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl prp REMOVE:437
+;	"и²" n nt nn sg prp REMOVE:437
+;	"и²" n nt nn pl acc REMOVE:498
+;	"и²" n nt nn pl dat REMOVE:498
+;	"и²" n nt nn pl gen REMOVE:498
+;	"и²" n nt nn pl ins REMOVE:498
+;	"и²" n nt nn pl nom REMOVE:498
+;	"и²" n nt nn sg acc REMOVE:498
+;	"и²" n nt nn sg dat REMOVE:498
+;	"и²" n nt nn sg gen REMOVE:498
+;	"и²" n nt nn sg ins REMOVE:498
+;	"и²" n nt nn sg nom REMOVE:498
+;	"и¹" ij REMOVE:781
+;	"и" adv REMOVE:785
+"<высокой>"
+	"высокий" adj f an sg dat
+;	"высокий" adj f an sg gen
+;	"высокий" adj f an sg ins
+;	"высокий" adj f an sg prp REMOVE:437
+"<начальной>"
+	"начальный" adj f an sg dat
+;	"начальный" adj f an sg gen
+;	"начальный" adj f an sg ins
+;	"начальный" adj f an sg prp REMOVE:437
+"<скорости>"
+;	"скорость" n f nn pl acc
+;	"скорость" n f nn pl nom
+	"скорость" n f nn sg dat
+;	"скорость" n f nn sg gen
+;	"скорость" n f nn sg prp REMOVE:437
+"<снарядов>"
+	"снаряд" n m nn pl gen
+;	"снарядовый" adj short m sg
+"<,>"
+	"," cm
+"<более>"
+	"более" adv comp
+"<слабое>"
+;	"слабый" adj nt an sg acc
+	"слабый" adj nt an sg nom
+"<,>"
+	"," cm
+"<чем>"
+	"чем" cnjsub SELECT:469
+;	"что¹" prn itg nt sg prp REMOVE:437
+;	"что¹" prn rel nt sg prp REMOVE:437
+;	"что¹" prn itg nt sg ins SELECT:469
+;	"что¹" prn rel nt sg ins SELECT:469
+"<у>"
+	"у" pr
+;	"у²" n nt nn pl prp REMOVE:437
+;	"у²" n nt nn sg prp REMOVE:437
+;	"у²" n nt nn pl acc REMOVE:498
+;	"у²" n nt nn pl dat REMOVE:498
+;	"у²" n nt nn pl gen REMOVE:498
+;	"у²" n nt nn pl ins REMOVE:498
+;	"у²" n nt nn pl nom REMOVE:498
+;	"у²" n nt nn sg acc REMOVE:498
+;	"у²" n nt nn sg dat REMOVE:498
+;	"у²" n nt nn sg gen REMOVE:498
+;	"у²" n nt nn sg ins REMOVE:498
+;	"у²" n nt nn sg nom REMOVE:498
+;	"у¹" ij REMOVE:826
+"<наземной>"
+	"наземный" adj f an sg gen
+;	"наземный" adj f an sg dat REMOVE:383
+;	"наземный" adj f an sg ins REMOVE:383
+;	"наземный" adj f an sg prp REMOVE:383
+"<техники>"
+;	"техник" n m aa pl nom
+;	"техника" n f nn pl acc
+;	"техника" n f nn pl nom
+	"техника" n f nn sg gen
+"<,>"
+	"," cm
+"<бронирование>"
+;	"бронирование" n nt nn sg acc
+	"бронирование" n nt nn sg nom
+"<снижает>"
+;	"снижать" vblex impf iv pres p3 sg
+	"снижать" vblex impf tv pres p3 sg
+"<требование>"
+	"требование" n nt nn sg acc
+;	"требование" n nt nn sg nom
+"<по>"
+	"по" pr
+"<бронепробиваемости>"
+	"*бронепробиваемости"
+"<,>"
+	"," cm
+"<большое>"
+;	"большой" adj nt an sg acc
+	"большой" adj nt an sg nom
+"<количество>"
+;	"количество" n nt nn pl acc
+	"количество" n nt nn pl nom
+;	"количество" n nt nn sg gen
+"<топлива>"
+;	"топливо" n nt nn pl acc
+;	"топливо" n nt nn pl nom
+	"топливо" n nt nn sg gen
+"<на>"
+	"на" pr
+;	"на" ij REMOVE:565
+"<борту>"
+	"борт" n m nn sg loc
+;	"борт" n m nn sg dat REMOVE:387
+"<целей>"
+;	"целый" adj comp pred ng
+	"цель" n f nn pl gen
+"<увеличивает>"
+;	"увеличивать" vblex impf iv pres p3 sg
+	"увеличивать" vblex impf tv pres p3 sg
+"<значимость>"
+	"значимость" n f nn sg acc
+;	"значимость" n f nn sg nom
+"<зажигательных>"
+;	"зажигательный" adj mfn aa pl acc
+	"зажигательный" adj mfn an pl gen
+;	"зажигательный" adj mfn an pl prp REMOVE:439
+"<снарядов>"
+	"снаряд" n m nn pl gen
+;	"снарядовый" adj short m sg
+"<.>"
+	"." sent
+
+"<Для>"
+	"для" pr
+;	"длить" vblex impf iv pprs adv REMOVE:773
+;	"длить" vblex impf tv pprs adv REMOVE:773
+"<поражения>"
+	"поражение" n nt nn sg gen
+;	"поражение" n nt nn pl nom REMOVE:381
+;	"поражение" n nt nn pl acc REMOVE:383
+"<авиационных>"
+;	"авиационный" adj mfn aa pl acc
+	"авиационный" adj mfn an pl gen
+;	"авиационный" adj mfn an pl prp REMOVE:439
+"<целей>"
+;	"целый" adj comp pred ng
+	"цель" n f nn pl gen
+"<используются>"
+	"использовать" vblex impf tv pres p3 pl pass
+"<,>"
+	"," cm
+"<в>"
+	"в" pr
+"<основном>"
+	"основной" adj m an sg prp
+;	"основной" adj nt an sg prp
+;	"основный¹⁻²" adj m an sg prp
+;	"основный¹⁻²" adj nt an sg prp
+"<,>"
+	"," cm
+"<осколочно>"
+	"осколочный" adj short nt sg
+"<->"
+	"-" guio
+"<фугасные>"
+	"фугасный" adj mfn an pl nom
+;	"фугасный" adj mfn nn pl acc
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl acc REMOVE:498
+;	"и²" n nt nn pl dat REMOVE:498
+;	"и²" n nt nn pl gen REMOVE:498
+;	"и²" n nt nn pl ins REMOVE:498
+;	"и²" n nt nn pl nom REMOVE:498
+;	"и²" n nt nn pl prp REMOVE:498
+;	"и²" n nt nn sg acc REMOVE:498
+;	"и²" n nt nn sg dat REMOVE:498
+;	"и²" n nt nn sg gen REMOVE:498
+;	"и²" n nt nn sg ins REMOVE:498
+;	"и²" n nt nn sg nom REMOVE:498
+;	"и²" n nt nn sg prp REMOVE:498
+;	"и¹" ij REMOVE:781
+;	"и" adv REMOVE:785
+"<бронебойно>"
+	"бронебойный" adj short nt sg
+"<->"
+	"-" guio
+"<зажигательные>"
+	"зажигательный" adj mfn an pl nom
+;	"зажигательный" adj mfn nn pl acc
+"<снаряды>"
+;	"снаряд" n m nn pl acc
+	"снаряд" n m nn pl nom
+"<.>"
+	"." sent
+
+"<Наземные>"
+	"наземный" adj mfn an pl nom
+;	"наземный" adj mfn nn pl acc
+"<цели>"
+;	"целить" vblex impf iv imp p2 sg
+;	"целить" vblex impf tv imp p2 sg
+;	"цель" n f nn pl acc
+	"цель" n f nn pl nom
+;	"цель" n f nn sg dat
+;	"цель" n f nn sg gen
+;	"цель" n f nn sg prp REMOVE:437
+"<(>"
+	"(" lpar
+"<танки>"
+;	"танк¹⁻²" n m nn pl acc
+	"танк¹⁻²" n m nn pl nom
+;	"танка" n f nn pl acc
+;	"танка" n f nn pl nom
+;	"танка" n f nn sg gen
+"<,>"
+	"," cm
+"<бронетранспортёры>"
+;	"бронетранспортёр" n m nn pl acc
+	"бронетранспортёр" n m nn pl nom
+"<)>"
+	")" rpar
+"<,>"
+	"," cm
+"<характерные>"
+	"характерный" adj mfn an pl nom
+;	"характерный" adj mfn nn pl acc
+"<для>"
+	"для" pr
+;	"длить" vblex impf iv pprs adv REMOVE:773
+;	"длить" vblex impf tv pprs adv REMOVE:773
+"<штурмовиков>"
+	"штурмовик" n m nn pl gen
+;	"штурмовик" n m aa pl gen
+;	"штурмовик" n m aa pl acc REMOVE:383
+"<и>"
+	"и" cnjcoo @CNP MAP:744
+;	"и²" n nt nn pl prp REMOVE:439
+;	"и²" n nt nn sg prp REMOVE:439
+;	"и²" n nt nn pl acc REMOVE:498
+;	"и²" n nt nn pl dat REMOVE:498
+;	"и²" n nt nn pl gen REMOVE:498
+;	"и²" n nt nn pl ins REMOVE:498
+;	"и²" n nt nn pl nom REMOVE:498
+;	"и²" n nt nn sg acc REMOVE:498
+;	"и²" n nt nn sg dat REMOVE:498
+;	"и²" n nt nn sg gen REMOVE:498
+;	"и²" n nt nn sg ins REMOVE:498
+;	"и²" n nt nn sg nom REMOVE:498
+;	"и¹" ij REMOVE:781
+;	"и" adv REMOVE:785
+"<ударных>"
+;	"ударный¹⁻²" adj mfn aa pl acc
+	"ударный¹⁻²" adj mfn an pl gen
+;	"ударный¹⁻²" adj mfn an pl prp REMOVE:437
+"<вертолётов>"
+	"вертолёт" n m nn pl gen
+"<,>"
+	"," cm
+"<имеют>"
+;	"иметь" vblex impf iv pres p3 pl
+	"иметь" vblex impf tv pres p3 pl
+"<,>"
+	"," cm
+"<в>"
+	"в" pr
+"<большинстве>"
+	"большинство" n nt nn sg prp
+"<своём>"
+;	"свое" n nt nn sg prp
+;	"свой" det pos m sg prp
+	"свой" det pos nt sg prp
+;	"свой" n m aa sg prp
+"<,>"
+	"," cm
+"<значительно>"
+	"значительно" adv
+;	"значительный" adj short nt sg REMOVE:371
+"<более>"
+	"более" adv comp
+"<тяжёлое>"
+	"тяжёлый" adj nt an sg acc
+;	"тяжёлый" adj nt an sg nom
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl acc REMOVE:498
+;	"и²" n nt nn pl dat REMOVE:498
+;	"и²" n nt nn pl gen REMOVE:498
+;	"и²" n nt nn pl ins REMOVE:498
+;	"и²" n nt nn pl nom REMOVE:498
+;	"и²" n nt nn pl prp REMOVE:498
+;	"и²" n nt nn sg acc REMOVE:498
+;	"и²" n nt nn sg dat REMOVE:498
+;	"и²" n nt nn sg gen REMOVE:498
+;	"и²" n nt nn sg ins REMOVE:498
+;	"и²" n nt nn sg nom REMOVE:498
+;	"и²" n nt nn sg prp REMOVE:498
+;	"и¹" ij REMOVE:781
+;	"и" adv REMOVE:785
+"<прочное>"
+	"прочный" adj nt an sg acc
+;	"прочный" adj nt an sg nom
+"<бронирование>"
+	"бронирование" n nt nn sg acc
+;	"бронирование" n nt nn sg nom
+"<,>"
+	"," cm
+"<чем>"
+	"чем" cnjsub SELECT:469
+;	"что¹" prn itg nt sg ins SELECT:469
+;	"что¹" prn itg nt sg prp SELECT:469
+;	"что¹" prn rel nt sg ins SELECT:469
+;	"что¹" prn rel nt sg prp SELECT:469
+"<авиационные>"
+	"авиационный" adj mfn an pl nom
+;	"авиационный" adj mfn nn pl acc
+"<,>"
+	"," cm
+"<что>"
+	"что²" cnjsub SELECT:469
+;	"что¹" prn itg nt sg acc SELECT:469
+;	"что¹" prn itg nt sg nom SELECT:469
+;	"что¹" prn rel nt sg acc SELECT:469
+;	"что¹" prn rel nt sg nom SELECT:469
+"<определяет>"
+;	"определять" vblex impf iv pres p3 sg
+	"определять" vblex impf tv pres p3 sg
+"<использование>"
+	"использование" n nt nn sg acc
+;	"использование" n nt nn sg nom
+"<бронебойных>"
+;	"бронебойный" adj mfn aa pl acc
+	"бронебойный" adj mfn an pl gen
+;	"бронебойный" adj mfn an pl prp REMOVE:439
+"<снарядов>"
+	"снаряд" n m nn pl gen
+;	"снарядовый" adj short m sg
+"<.>"
+	"." sent
+
+"<Также>"
+;	"также" adv
+	"также" cnjcoo
+"<существуют>"
+	"существовать" vblex impf iv pres p3 pl
+"<варианты>"
+;	"вариант" n m nn pl acc
+	"вариант" n m nn pl nom
+;	"варианта" n f nn pl acc
+;	"варианта" n f nn pl nom
+;	"варианта" n f nn sg gen
+"<боеприпасов>"
+	"боеприпасы" n m nn pl gen
+"<с>"
+	"с" pr
+"<трассирующим>"
+;	"трассировать¹⁻²" vblex impf iv pprs actv m an sg ins
+	"трассирующий" adj m an sg ins
+;	"трассировать¹⁻²" vblex impf iv pprs actv nt an sg ins
+;	"трассировать¹⁻²" vblex impf tv pprs actv m an sg ins
+;	"трассирующий" adj nt an sg ins
+;	"трассировать¹⁻²" vblex impf tv pprs actv nt an sg ins
+;	"трассировать¹⁻²" vblex impf iv pprs actv mfn an pl dat REMOVE:385
+;	"трассировать¹⁻²" vblex impf tv pprs actv mfn an pl dat REMOVE:385
+;	"трассирующий" adj mfn an pl dat REMOVE:385
+"<эффектом>"
+	"эффект" n m nn sg ins
+"<,>"
+	"," cm
+"<облегчающим>"
+;	"облегчать" vblex impf iv pprs actv m an sg ins
+;	"облегчать" vblex impf iv pprs actv mfn an pl dat
+;	"облегчать" vblex impf iv pprs actv nt an sg ins
+	"облегчать" vblex impf tv pprs actv m an sg ins
+;	"облегчать" vblex impf tv pprs actv mfn an pl dat
+;	"облегчать" vblex impf tv pprs actv nt an sg ins
+"<прицеливание>"
+	"прицеливание" n nt nn sg acc
+;	"прицеливание" n nt nn sg nom
+"<.>"
+	"." sent
+
+"<Как>"
+;	"как" adv itg
+	"как" adv rel
+;	"как" cnjcoo
+;	"как" cnjsub
+;	"как" part
+"<правило>"
+;	"править²" vblex impf tv past nt sg
+;	"править¹" vblex impf iv past nt sg
+;	"правило¹" n nt nn sg acc
+	"правило¹" n nt nn sg nom
+;	"править²" vblex impf iv past nt sg
+;	"правило²" n nt nn sg acc REMOVE:798
+;	"правило²" n nt nn sg nom REMOVE:798
+"<боезапас>"
+;	"боезапас" n m nn sg acc
+	"боезапас" n m nn sg nom
+"<снаряжается>"
+;	"снаряжать" vblex impf tv pres p3 sg pass
+	"снаряжаться" vblex impf iv pres p3 sg
+"<по>"
+	"по" pr
+"<смешанной>"
+;	"смешанный" adj f an sg dat
+;	"смешать" vblex perf tv pp pasv f an sg dat
+;	"смешать" vblex perf tv pp pasv f an sg prp
+	"смешанный" adj f an sg prp
+;	"смешанный" adj f an sg gen REMOVE:389
+;	"смешанный" adj f an sg ins REMOVE:389
+;	"смешать" vblex perf tv pp pasv f an sg gen REMOVE:389
+;	"смешать" vblex perf tv pp pasv f an sg ins REMOVE:389
+"<схеме>"
+;	"схема" n f nn sg dat
+	"схема" n f nn sg prp
+"<:>"
+	":" sent
+"<бронебойный>"
+	"бронебойный" adj m an sg nom
+;	"бронебойный" adj m nn sg acc
+"<->"
+	"-" guio
+"<осколочный>"
+	"осколочный" adj m an sg nom
+;	"осколочный" adj m nn sg acc
+"<->"
+	"-" guio
+"<бронебойный>"
+	"бронебойный" adj m an sg nom
+;	"бронебойный" adj m nn sg acc
+"<->"
+	"-" guio
+"<осколочный>"
+	"осколочный" adj m an sg nom
+;	"осколочный" adj m nn sg acc
+"<->"
+	"-" guio
+"<бронебойный>"
+	"бронебойный" adj m an sg nom
+;	"бронебойный" adj m nn sg acc
+"<->"
+	"-" guio
+"<осколочный>"
+	"осколочный" adj m an sg nom
+;	"осколочный" adj m nn sg acc
+-
+"<трассирующий>"
+;	"трассировать¹⁻²" vblex impf iv pprs actv m an sg nom
+;	"трассировать¹⁻²" vblex impf iv pprs actv m nn sg acc
+;	"трассировать¹⁻²" vblex impf tv pprs actv m an sg nom
+;	"трассировать¹⁻²" vblex impf tv pprs actv m nn sg acc
+	"трассирующий" adj m an sg nom
+;	"трассирующий" adj m nn sg acc
+"<.>"
+	"." sent
+
+"<Кроме>"
+	"кроме" pr
+"<того>"
+;	"то" prn dem nt nn sg gen
+	"того" part
+;	"того" pred
+;	"тот" prn dem m aa sg gen
+;	"тот" det dem m sg gen
+;	"тот" det dem nt sg gen
+;	"тот" det dem m aa sg acc REMOVE:383
+"<,>"
+	"," cm
+"<авиационные>"
+	"авиационный" adj mfn an pl nom
+;	"авиационный" adj mfn nn pl acc
+"<пушки>"
+;	"пушка" n f nn pl acc
+	"пушка" n f nn pl nom
+;	"пушка" n f nn sg gen
+;	"пушок" n m nn pl acc
+;	"пушок" n m nn pl nom
+"<применяются>"
+;	"применять" vblex impf tv pres p3 pl pass
+	"применяться" vblex impf iv pres p3 pl
+"<для>"
+	"для" pr
+;	"длить" vblex impf iv pprs adv REMOVE:773
+;	"длить" vblex impf tv pprs adv REMOVE:773
+"<постановки>"
+	"постановка" n f nn sg gen
+;	"постановка" n f nn pl nom REMOVE:381
+;	"постановка" n f nn pl acc REMOVE:383
+"<помех>"
+	"помеха" n f nn pl gen
+"<.>"
+	"." sent
+
+"<Для>"
+	"для" pr
+;	"длить" vblex impf iv pprs adv REMOVE:773
+;	"длить" vblex impf tv pprs adv REMOVE:773
+"<этой>"
+	"этот" det dem f sg gen
+;	"этот" det dem f sg dat REMOVE:672
+;	"эта" n f nn sg ins REMOVE:383
+;	"этот" det dem f sg prp REMOVE:383
+;	"этот" det dem f sg ins REMOVE:383
+"<цели>"
+;	"целить" vblex impf iv imp p2 sg
+;	"целить" vblex impf tv imp p2 sg
+;	"цель" n f nn pl acc
+;	"цель" n f nn pl nom
+	"цель" n f nn sg gen
+;	"цель" n f nn sg dat REMOVE:672
+;	"цель" n f nn sg prp REMOVE:437
+"<разработаны>"
+	"разработать" vblex perf tv pp pasv short mfn pl
+"<специальные>"
+	"специальный" adj mfn an pl nom
+;	"специальный" adj mfn nn pl acc
+"<снаряды>"
+;	"снаряд" n m nn pl acc
+	"снаряд" n m nn pl nom
+"<,>"
+	"," cm
+"<дающие>"
+;	"давать" vblex impf iv pprs actv mfn an pl nom
+;	"давать" vblex impf iv pprs actv mfn nn pl acc
+	"давать" vblex impf tv pprs actv mfn an pl nom
+;	"давать" vblex impf tv pprs actv mfn nn pl acc
+"<высокотемпературный>"
+;	"высокотемпературный" adj m an sg nom
+	"высокотемпературный" adj m nn sg acc
+"<факел>"
+	"факел" n m nn sg acc
+;	"факел" n m nn sg nom
+"<для>"
+	"для" pr
+;	"длить" vblex impf iv pprs adv REMOVE:773
+;	"длить" vblex impf tv pprs adv REMOVE:773
+"<противодействия>"
+	"противодействие" n nt nn sg gen
+;	"противодействие" n nt nn pl nom REMOVE:381
+;	"противодействие" n nt nn pl acc REMOVE:383
+"<ИК>"
+	"*ИК"
+"<ГСН>"
+	"*ГСН"
+"<и>"
+	"и" cnjcoo @CNP MAP:744
+;	"и²" n nt nn pl acc REMOVE:498
+;	"и²" n nt nn pl dat REMOVE:498
+;	"и²" n nt nn pl gen REMOVE:498
+;	"и²" n nt nn pl ins REMOVE:498
+;	"и²" n nt nn pl nom REMOVE:498
+;	"и²" n nt nn pl prp REMOVE:498
+;	"и²" n nt nn sg acc REMOVE:498
+;	"и²" n nt nn sg dat REMOVE:498
+;	"и²" n nt nn sg gen REMOVE:498
+;	"и²" n nt nn sg ins REMOVE:498
+;	"и²" n nt nn sg nom REMOVE:498
+;	"и²" n nt nn sg prp REMOVE:498
+;	"и¹" ij REMOVE:781
+;	"и" adv REMOVE:785
+"<снаряды>"
+;	"снаряд" n m nn pl acc
+	"снаряд" n m nn pl nom
+"<,>"
+	"," cm
+"<при>"
+	"при" pr SELECT:411
+;	"переть" vblex impf iv imp p2 sg SELECT:411
+;	"переть" vblex impf tv imp p2 sg SELECT:411
+;	"пря" n f nn pl acc SELECT:411
+;	"пря" n f nn pl nom SELECT:411
+;	"пря" n f nn sg gen SELECT:411
+"<разрыве>"
+	"разрыв" n m nn sg prp
+"<выбрасывающие>"
+;	"выбрасывать" vblex impf iv pprs actv mfn an pl nom
+;	"выбрасывать" vblex impf iv pprs actv mfn nn pl acc
+	"выбрасывать" vblex impf tv pprs actv mfn an pl nom
+;	"выбрасывать" vblex impf tv pprs actv mfn nn pl acc
+"<облачко>"
+	"облачко" n nt nn sg acc
+;	"облачко" n nt nn sg nom
+"<полуволновых>"
+	"*полуволновых"
+"<дипольных>"
+;	"дипольный" adj mfn aa pl acc
+	"дипольный" adj mfn an pl gen
+;	"дипольный" adj mfn an pl prp
+"<отражателей>"
+	"отражатель" n m nn pl gen
+"<,>"
+	"," cm
+"<для>"
+	"для" pr
+;	"длить" vblex impf iv pprs adv REMOVE:773
+;	"длить" vblex impf tv pprs adv REMOVE:773
+"<создания>"
+	"создание" n nt nn sg gen
+;	"создание" n nt aa sg gen
+;	"создание" n nt aa pl nom REMOVE:381
+;	"создание" n nt nn pl nom REMOVE:381
+;	"создание" n nt nn pl acc REMOVE:383
+"<помех>"
+	"помеха" n f nn pl gen
+"<радиолокационным>"
+;	"радиолокационный" adj m an sg ins
+	"радиолокационный" adj mfn an pl dat
+;	"радиолокационный" adj nt an sg ins
+"<системам>"
+	"система" n f nn pl dat
+"<наведения>"
+;	"наведение" n nt nn pl acc
+;	"наведение" n nt nn pl nom
+	"наведение" n nt nn sg gen
+"<.>"
+	"." sent
+

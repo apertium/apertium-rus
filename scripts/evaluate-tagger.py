@@ -163,12 +163,15 @@ src_f = open(sys.argv[1]);
 ref_f = open(sys.argv[2]);
 tst_f = open(sys.argv[3]);
 
+n_tokens = 0;
 n_unknown = 0;
-
+n_line = 0;
             #                       tp tn fp fn
 rules = {}; # rules['SELECT:462'] = (0, 0, 0, 0) 
 
-applic = {} # rules['SELECT:462'] = 0;
+applic = {}; # applic['SELECT:462'] = 0;
+
+feiler = {}; # feiler['SELECT:462'] = [13, 45, 100]; 
 
 n_truepositive = 0;
 n_truenegative = 0;
@@ -194,7 +197,7 @@ n_bas_lemamsd_correct = 0;
 n_bas_func_correct = 0;
 
 for line in range(0, lines): #{
-
+	n_line = n_line + 1;
 	src_w = src_f.readline();
 	ref_w = ref_f.readline();
 	tst_w = tst_f.readline();
@@ -206,6 +209,8 @@ for line in range(0, lines): #{
 	if src_w.count('¶') > 0: #{
 		continue;
 	#}
+
+	n_tokens = n_tokens + 1;
 
 	tst_readings = [];
 	tst_lema = '';
@@ -300,6 +305,10 @@ for line in range(0, lines): #{
 				(tp, tn, fp, fn) = rules[rule];	
 				fn = fn + 1;
 				rules[rule] = (tp, tn, fp, fn);
+				if rule not in feiler: #{
+					feiler[rule] = [];
+				#}
+				feiler[rule].append(n_line);
 			#}
 		#}
 	#}
@@ -382,6 +391,7 @@ print('');
 
 src_ambig_rate = float(n_src_readings)/float(n_ref_readings);
 tst_ambig_rate = float(n_tst_readings)/float(n_ref_readings);
+print('tokens   :\t', n_tokens);
 print('src_ambig:\t', src_ambig_rate);
 print('tst_ambig:\t', tst_ambig_rate);
 print('resolved :\t %.2f%%' % (100.0-(tst_ambig_rate/src_ambig_rate*100.0)));
@@ -425,4 +435,10 @@ print('Rule No.\tTP\tTN\tFP\tFN');
 for rule in rkeys: #{
 	print('%s\t%d\t%d\t%d\t%d' % (rule, rules[rule][0], rules[rule][1], rules[rule][2], rules[rule][3]));
 #	print(rule, rules[rule]);
+#}
+print('');
+for rule in rkeys: #{
+	if rule in feiler: #{
+		print(rule, feiler[rule]);
+	#}
 #}

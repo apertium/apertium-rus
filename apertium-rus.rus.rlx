@@ -40,7 +40,8 @@ LIST Sent = sent ;
 LIST Percent = ("<[0-9]+%>"r) percent ; 
 LIST Roman = roman ("<M{0,4}(CM|CD|D(C{0,3}))?(XC|XL|L(X{0,3}))?(IX|IV|V(I{0,3}))?>"ri num) ("<[MCDXLIVМСХ]+>"ri num) ;
 LIST Count = count ; 
-LIST Cipher = "<[0-9]+>"r ;
+#LIST Cipher = "<[0-9]+>"r ;
+LIST Cipher = "[0-9]+"r ;
 
 LIST Pprep = pprep pobj ; 
 LIST Pers = pers ;
@@ -411,8 +412,11 @@ REMOVE NGDAIP - Gen IF (-1C* Pr/Dlja OR Pr/U OR Pr/Do OR Pr/Ot OR Pr/Iz OR Pr/Iz
 
 REMOVE NGDAIP - Gen - Ins - Acc IF (-1C* Pr/S CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
+REMOVE Anim IF (0C Ord) (0C Cipher) (-1 Pr) (NOT 1 Anim) ;
+
 #REMOVE NGDAIP - Acc - Prp - Loc IF (-1C* Pr/V OR Pr/Na CBARRIER (*) - Adv - Comp - DetIndecl - ModAcc - ModPrp) ;
 REMOVE NGDAIP - Acc - Prp - Loc IF (-1C* Pr/V OR Pr/Na BARRIER (*) - Adv - Comp - DetIndecl - ModAcc - ModPrp) ;
+   #! В 1960-х электрифицированные высокоскоростные железные дороги появились ...
 
 REMOVE NGDAIP - Acc - Dat - Prp IF (-1C* Pr/Po CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
@@ -496,7 +500,7 @@ SELECT Pron IF (0 Ja) (-1 BOS OR CS) ;
 
 ## Heuristic operations 
 
-SELECT CS IF (0 Čto) (-1 Cm) (NOT 1* ("?")) ;
+SELECT CS IF (0 Čto) (-1 Cm LINK NOT -1 Prn/To) (NOT 1* ("?"));
 
 REMOVE Fem IF  (0C A) (0C Msc OR Fem) (1C N) (NOT 1 Fem);
 
@@ -793,6 +797,10 @@ REMOVE Nom IF (-1C A + Acc) (0C N) (0C Acc OR Nom) ;
     ## Исполнительную власть осуществляли народные комиссары
 
 REMOVE Acc IF (1C N + Nom) (0C A) (0C Acc OR Nom) ;
+
+SELECT Pron IF (0 Prn/To) (1 Cm LINK 1 Čto) ; 
+
+SELECT Rel IF (0 Pron OR Adv) (-1 Cm LINK -1 Prn/To) ; 
 
 ###############################################################################
 # Syntax labelling rules
