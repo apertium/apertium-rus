@@ -1679,8 +1679,8 @@
 ;	"пря" n f nn sg gen SELECT:432
 "<этом>"
 ;	"это" prn dem nt nn sg prp
-;	"этот" prn dem m aa sg prp
-	"этот" det dem m sg prp REMOVE:464
+	"этот" prn dem m aa sg prp
+;	"этот" det dem m sg prp REMOVE:464
 ;	"этот" det dem nt sg prp REMOVE:464
 "<родилась>"
 ;	"родиться" vblex impf iv past f sg

@@ -244,6 +244,7 @@ LIST Našej = "<нашей>"i ;
 LIST Sej = "сей" ; 
 LIST Takže = "также" ; 
 LIST Tože = "тоже" ; 
+LIST Tak = "так" ; 
 LIST Kak = "как" ;
 LIST Tak_I = "так и" ; 
 LIST Sam = "сам" ; 
@@ -644,6 +645,8 @@ SELECT A + $$MFN IF (0C A + $$NGDAIP) (1C N + $$MFN + $$NGDAIP) ;
 
 REMOVE CC IF (0 Takže OR Tože) (-1 CC) ;
 
+REMOVE CC IF (0 Takže OR Tože) (-1 Cm LINK -1 Rel) ;
+
 SELECT Kak + CC IF (1* Tak_I BARRIER Fin) ; 
 
 SELECT Gen + Sg IF (0 Ord) (1C N/Vek + Gen) (-1 TimePart LINK -1* Pr BARRIER (*) - Modif) ;
@@ -951,6 +954,8 @@ SELECT Msc IF (0C Ant) (-1C PersonTitleMsc) ;
 SELECT Fem IF (0C Ant) (-1C PersonTitleFem) ;
 
 SELECT Rel IF (0C Rel OR Interr) (-1 Cm) (NOT 1* Ques) ; 
+
+REMOVE Part IF (0 Kak) (NOT -1 Tak) ;
 
 REMOVE Prob ; 
 

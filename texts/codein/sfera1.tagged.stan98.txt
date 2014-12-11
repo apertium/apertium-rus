@@ -493,7 +493,7 @@
 "<его>"
 ;	"оно" prn pers p3 nt sg acc
 ;	"оно" prn pers p3 nt sg gen
-;	"его" det pos mfn pl gen
+	"его" det pos mfn pl gen
 ;	"он¹" prn pers p3 m sg acc
 ;	"он¹" prn pers p3 m sg gen
 ;	"его" det pos nt sg gen
@@ -506,7 +506,7 @@
 ;	"его" det pos m aa sg acc REMOVE:688
 ;	"его" det pos m nn sg acc REMOVE:688
 ;	"его" det pos m sg dat REMOVE:688
-	"его" det pos m sg gen REMOVE:688
+;	"его" det pos m sg gen REMOVE:688
 ;	"его" det pos m sg ins REMOVE:688
 ;	"его" det pos m sg nom REMOVE:688
 ;	"его" det pos m sg prp REMOVE:688
@@ -1167,8 +1167,8 @@
 ;	"куда" adv itg
 	"куда" adv rel
 "<также>"
-;	"также" adv
-	"также" cnjcoo
+	"также" adv
+;	"также" cnjcoo
 "<входило>"
 	"входить" vblex impf iv past nt sg
 "<понятие>"
@@ -1290,7 +1290,7 @@
 ;	"весь¹" det all f sg ins REMOVE:387
 "<его>"
 ;	"он¹" prn pers p3 m sg acc
-;	"его" det pos f sg prp
+	"его" det pos f sg prp
 ;	"его" det pos mfn pl prp
 ;	"оно" prn pers p3 nt sg acc
 ;	"его" det pos m aa sg acc REMOVE:688
@@ -1299,7 +1299,7 @@
 ;	"его" det pos m sg gen REMOVE:688
 ;	"его" det pos m sg ins REMOVE:688
 ;	"его" det pos m sg nom REMOVE:688
-	"его" det pos m sg prp REMOVE:688
+;	"его" det pos m sg prp REMOVE:688
 ;	"его" det pos nt sg acc REMOVE:688
 ;	"его" det pos nt sg dat REMOVE:688
 ;	"его" det pos nt sg gen REMOVE:688

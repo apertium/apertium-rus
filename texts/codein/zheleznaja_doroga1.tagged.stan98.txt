@@ -46,9 +46,9 @@
 	"на" pr
 ;	"на" ij REMOVE:586
 "<котором>"
-;	"который" prn rel m sg prp
+	"который" prn rel m sg prp
 ;	"который" prn rel nt sg prp
-	"который" det itg m sg prp REMOVE:462
+;	"который" det itg m sg prp REMOVE:462
 ;	"который" det itg nt sg prp REMOVE:462
 "<осуществляется>"
 ;	"осуществлять" vblex impf tv pres p3 sg pass
@@ -832,9 +832,9 @@
 	"," cm
 "<один>"
 ;	"один" num m nn sg acc
-;	"один" num m sg nom
+	"один" num m sg nom
 ;	"один" det m nn sg acc REMOVE:462
-	"один" det m sg nom REMOVE:462
+;	"один" det m sg nom REMOVE:462
 "<из>"
 	"из" pr
 "<семи>"
@@ -1131,9 +1131,9 @@
 "<стало>"
 	"стать²⁻³" vblex perf iv past nt sg
 "<одним>"
-;	"один" num m sg ins
+	"один" num m sg ins
 ;	"один" num nt sg ins
-	"один" det m sg ins REMOVE:462
+;	"один" det m sg ins REMOVE:462
 ;	"один" det mfn pl dat REMOVE:462
 ;	"один" det nt sg ins REMOVE:462
 ;	"один" num mfn pl dat REMOVE:803
@@ -1195,8 +1195,8 @@
 ;	"а²" n nt nn sg nom REMOVE:519
 ;	"а¹" ij REMOVE:871
 "<также>"
-;	"также" adv
-	"также" cnjcoo REMOVE:632
+	"также" adv
+;	"также" cnjcoo REMOVE:632
 "<потери>"
 	"потеря" n f nn pl acc
 ;	"потеря" n f nn pl nom
@@ -1377,8 +1377,8 @@
 ;	"а²" n nt nn sg prp REMOVE:519
 ;	"а¹" ij REMOVE:871
 "<также>"
-;	"также" adv
-	"также" cnjcoo REMOVE:632
+	"также" adv
+;	"также" cnjcoo REMOVE:632
 "<появились>"
 	"появиться" vblex perf iv past mfn pl
 "<первые>"
