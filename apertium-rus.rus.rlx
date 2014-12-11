@@ -970,6 +970,9 @@ SELECT Rel IF (0C Rel OR Interr) (-1 Cm) (NOT 1* Ques) ;
 
 REMOVE Part IF (0 Kak) (NOT -1 Tak) ;
 
+#SELECT Prop IF (-1 Quot) (0 Prop OR N) (1 Quot) ; 
+  #! «Мамонт», которое по-гречески значит «материнский», ...
+
 REMOVE Prob ; 
 
 REMOVE Facul ; 
