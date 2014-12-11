@@ -822,6 +822,8 @@ SELECT Adv IF (0 Adv LINK 0 CC) (-1C Fin) (1 Modif LINK NOT 1* Fin BARRIER CLB);
 
 SELECT Nom IF (-1 BOS) (0 Nom OR Acc) (1 Nom LINK 1 Short LINK 1 Guio) ;
 
+SELECT N IF (0C N OR A) (-1 Pr) (1 EOS) ;
+
 ###############################################################################
 # Syntax labelling rules
 ###############################################################################
