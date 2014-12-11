@@ -27,6 +27,7 @@ LIST Part = part ;
 LIST Abbr = abbr ;
 
 LIST Pass = pass pasv ;  # Check
+LIST V/Pass = pass ; 
 
 LIST Cop = ("быть" vblex) ;
 
@@ -221,6 +222,8 @@ LIST V/Prijti = ("прийти" vblex) ;
 LIST V/Stroit = ("строит" vblex) ; 
 LIST V/Vyhodit = ("выходить" vblex) ("выходить¹⁻²" vblex) ; 
 LIST V/Idjot = ("идти" vblex pres) ;
+LIST V/Byt = ("быть" vblex) ; 
+
 
 LIST Ij/Na = ("на" ij) ;
 LIST Ij/Ih = ("их²" ij) ;
@@ -651,6 +654,8 @@ REMOVE CC IF (0 Takže OR Tože) (-1 CC) ;
 
 REMOVE CC IF (0 Takže OR Tože) (-1 Cm LINK -1 Rel) ;
 
+REMOVE CC IF (0 Takže OR Tože) (-1C Fin) (NOT 1* Fin) ;
+
 SELECT Kak + CC IF (1* Tak_I BARRIER Fin) ; 
 
 SELECT Gen + Sg IF (0 Ord) (1C N/Vek + Gen) (-1 TimePart LINK -1* Pr BARRIER (*) - Modif) ;
@@ -808,6 +813,10 @@ REMOVE Acc IF (1C N + Nom) (0C A) (0C Acc OR Nom) ;
 SELECT Pron IF (0 Prn/To) (1 Cm LINK 1 Čto) ; 
 
 SELECT Rel IF (0 Pron OR Adv) (-1 Cm LINK -1 Prn/To) ; 
+
+REMOVE V/Pass IF (NOT -1* Ins BARRIER Fin) (NOT 1* Ins BARRIER Fin) ;
+
+SELECT Adv IF (-1 V/Byt) (1 PrcPast OR PrcPres) ;
 
 ###############################################################################
 # Syntax labelling rules
