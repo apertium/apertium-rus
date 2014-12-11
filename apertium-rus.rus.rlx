@@ -510,7 +510,7 @@ REMOVE Short IF (-1C Pr) ;
 
 #REMOVE Acc IF (-1* BOS BARRIER NGDAIP - Nom) (0C Nom OR Acc) (NOT 1* TV) (NOT -1 Num LINK 1 Sem/Time OR Sem/Distance) (NOT 0 Sem/Time) (NOT 0 Sem/Distance) ; 
 
-REMOVE Acc IF (-1* BOS BARRIER NGDAIP - Nom)  (0C Nom OR Acc) (NOT 1* TV) (NOT 0 Sem/Time) (NOT 0 Sem/Distance) ; 
+REMOVE Acc IF (-1* BOS BARRIER Fin OR NGDAIP - Nom)  (0C Nom OR Acc) (NOT 1* TV) (NOT 0 Sem/Time) (NOT 0 Sem/Distance) ; 
 
 REMOVE Cmp IF (0 Cmp OR Adv) (NOT 1 Guio) ; # (NOT 1 Guio LINK 1 A) ; 
 
@@ -783,6 +783,17 @@ REMOVE CS IF (-1C Pr) ;
 
 REMOVE Det IF (0 Det OR Pron) (1C Pred OR Short) (NOT 2 Guio OR A) ; 
 
+REMOVE Prp IF (-1C Ins) ;
+
+SELECT Gen IF (-1C Modif) (-1C Gen + $$NBR) (0 Gen + $$NBR) (0C Acc OR Nom OR Gen) ;
+
+SELECT A + $$NGDAIP IF (-1C Pr) (0C A OR N) (1C N + $$NGDAIP) ;
+
+REMOVE Nom IF (-1C A + Acc) (0C N) (0C Acc OR Nom) ;
+    ## Исполнительную власть осуществляли народные комиссары
+
+REMOVE Acc IF (1C N + Nom) (0C A) (0C Acc OR Nom) ;
+
 ###############################################################################
 # Syntax labelling rules
 ###############################################################################
@@ -930,6 +941,8 @@ SELECT Ant + $$MFN IF (1C Cog + $$MFN) ;
 SELECT Msc IF (0C Ant) (-1C PersonTitleMsc) ;
 
 SELECT Fem IF (0C Ant) (-1C PersonTitleFem) ;
+
+SELECT Rel IF (0C Rel OR Interr) (-1 Cm) (NOT 1* Ques) ; 
 
 REMOVE Prob ; 
 
