@@ -283,8 +283,8 @@ LIST LetterEnum = "модель" "план" "вариант" "коэффицие
 LIST PersonTitleMsc = "князь" "император" "принц" "атаман" "царь"  "митрополит" ;
 LIST PersonTitleFem = "императрица" ;
 
-LIST PersonTitleBoth = "президент" ;
-LIST Profession = "историк" "академик" "химик" ; 
+LIST PersonTitleBoth = "президент" "генерал" "секретарь" "обер-прокурор" ;
+LIST Profession = "историк" "академик" "химик" "секретарь" "философ" "врач" ; 
 LIST Toponymy = "река" ;
 
 SET PersonTitle = PersonTitleMsc | PersonTitleFem | PersonTitleBoth ; 
@@ -818,6 +818,10 @@ REMOVE V/Pass IF (NOT -1* Ins BARRIER Fin) (NOT 1* Ins BARRIER Fin) ;
 
 SELECT Adv IF (-1 V/Byt) (1 PrcPast OR PrcPres) ;
 
+SELECT Adv IF (0 Adv LINK 0 CC) (-1C Fin) (1 Modif LINK NOT 1* Fin BARRIER CLB); 
+
+SELECT Nom IF (-1 BOS) (0 Nom OR Acc) (1 Nom LINK 1 Short LINK 1 Guio) ;
+
 ###############################################################################
 # Syntax labelling rules
 ###############################################################################
@@ -889,7 +893,7 @@ REMOVE Ij/I IF (NOT 1 Punct) ;
 
 REMOVE CC/I IF (-1 CS) ; 
 
-REMOVE Adv/I IF (NOT -1* Adv/Ešë OR Jest OR Kak OR No BARRIER (*) - Adv) (NOT -1* CC BARRIER (*) - Adv) ;
+REMOVE Adv/I IF (NOT -1* Adv/Ešë OR Jest OR Rel OR No BARRIER (*) - Adv) (NOT -1* CC BARRIER (*) - Adv) ;
   #! Существует и более мягкая точка зрения; её занимают ак отдельные соционики, критикующие, ...
 
 REMOVE V/Primer IF (0 N/Primer) ; 
@@ -970,8 +974,9 @@ SELECT Rel IF (0C Rel OR Interr) (-1 Cm) (NOT 1* Ques) ;
 
 REMOVE Part IF (0 Kak) (NOT -1 Tak) ;
 
-#SELECT Prop IF (-1 Quot) (0 Prop OR N) (1 Quot) ; 
-  #! «Мамонт», которое по-гречески значит «материнский», ...
+SELECT DicMajusc IF (-1 Abbr OR Sem/Person) (0 Abbr) (1 Cog) ;
+
+SELECT Cog IF (1 Abbr LINK 1 Abbr) (-1 Sem/Person)
 
 REMOVE Prob ; 
 
@@ -1001,6 +1006,8 @@ REMOVE SUB:1 Sent IF (1 Sent)
 
 REMOVE SUB:1 Sent IF (NOT 1 Majusc OR Title) ; 
 
+REMOVE SUB:1 Sent IF (1 Cog) ; 
+
 
 ###############################################################################
 # Failed rules
@@ -1023,4 +1030,7 @@ REMOVE SUB:1 Sent IF (NOT 1 Majusc OR Title) ;
 
 # REMOVE Fin IF (-1C SafeGuio) ;
    # Maybe just with начало
+
+#SELECT Prop IF (-1 Quot) (0 Prop OR N) (1 Quot) ; 
+  #! «Мамонт», которое по-гречески значит «материнский», ...
 
