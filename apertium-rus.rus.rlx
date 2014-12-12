@@ -824,6 +824,9 @@ SELECT Nom IF (-1 BOS) (0 Nom OR Acc) (1 Nom LINK 1 Short LINK 1 Guio) ;
 
 SELECT N IF (0C N OR A) (-1 Pr) (1 EOS) ;
 
+REMOVE Acc IF (NOT -1* TV LINK NOT 0 V/Pass) (NOT 0 AccAdv) (NOT 1* TV LINK NOT 0 V/Pass) (NOT -1* Pr BARRIER CLB) ; 
+  # barrier was (*) - Acc
+
 ###############################################################################
 # Syntax labelling rules
 ###############################################################################

@@ -17,6 +17,9 @@ def readings(w, testFunc): #{
 			seen = True;
 			continue;
 		elif (c == '/' or c == '$') and seen: #{
+			if len(reading) < 1: #{
+				print('Feil: ', w ,file=sys.stderr); 
+			#}
 			if reading[0] == '¬': #{
 				removed_readings.append(reading);
 			else: #{
