@@ -204,7 +204,7 @@ LIST A/Prišlij = ("пришлый" adj) ;
 LIST A/Boevoj = ("боевой" adj) ;
 
 LIST Adv/I = ("и" adv) ; 
-LIST Adv/Ešë = ("ещё" adv) ; 
+LIST Adv/Ješë = ("ещё" adv) ; 
 LIST Adv/Krugom² = ("кругом²" adv) ; 
 LIST Adv/Celikom = ("целиком" adv) ; 
 LIST Adv/Posle = ("после" adv) ; 
@@ -254,6 +254,7 @@ LIST Sam = "сам" ;
 LIST Bylo = "<было>"i ; 
 LIST U = "у¹" "у²" "у" ; 
 LIST Vo = "<во>"i ; 
+LIST Ili = "или" ; 
 
 LIST PrefixNado = "<[бвгджзйклмнпрстуфхцчшщъь][бвгджзйклмнпрстуфхцчшщъь].*>"r ; 
 
@@ -898,7 +899,7 @@ REMOVE Ij/I IF (NOT 1 Punct) ;
 
 REMOVE CC/I IF (-1 CS) ; 
 
-REMOVE Adv/I IF (NOT -1* Adv/Ešë OR Jest OR Rel OR No BARRIER (*) - Adv) (NOT -1* CC BARRIER (*) - Adv) ;
+REMOVE Adv/I IF (NOT -1* Adv/Ješë OR Jest OR Rel OR No BARRIER (*) - Adv) (NOT -1* CC BARRIER (*) - Adv) ;
   #! Существует и более мягкая точка зрения; её занимают ак отдельные соционики, критикующие, ...
 
 REMOVE V/Primer IF (0 N/Primer) ; 
@@ -945,7 +946,7 @@ REMOVE N IF (0 No) (NOT -1 Punct) (NOT 1 Punct) ;
 
 REMOVE Ij/No IF (NOT 1* Excl OR Ques);
 
-REMOVE Part IF (0 Bylo) (NOT -1* Past) ; 
+REMOVE Part IF (0 Bylo) (NOT -1* Past) (NOT 1* Past) ; 
 
 SELECT Pr IF (0C Vo) ;
 
@@ -984,6 +985,16 @@ SELECT DicMajusc IF (-1 Abbr OR Sem/Person) (0 Abbr) (1 Cog) ;
 SELECT Cog IF (1 Abbr LINK 1 Abbr) (-1 Sem/Person)
 
 REMOVE Interr IF (0 Kak) (NOT 1* Ques) ; 
+
+REMOVE Part IF (0 Ili) ;
+
+REMOVE Part IF (0 Adv/Ješë) ;
+
+REMOVE N IF (0 No) ;
+
+REMOVE Letters IF (NOT -1 Punct) (0C Letters) (NOT 1 Punct) ;
+
+REMOVE Prop + Pl IF (-1C N) (0 Prop + Sg + Gen) (0C Prop) (0C Inanim) ;
 
 REMOVE Prob ; 
 
