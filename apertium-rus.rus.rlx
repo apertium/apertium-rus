@@ -828,6 +828,10 @@ SELECT N IF (0C N OR A) (-1 Pr) (1 EOS) ;
 REMOVE Acc IF (NOT -1* TV LINK NOT 0 V/Pass) (NOT 0 AccAdv) (NOT 1* TV LINK NOT 0 V/Pass) (NOT -1* Pr BARRIER CLB) ; 
   # barrier was (*) - Acc
 
+SELECT Nom IF (0C N) (0 Acc OR Nom) (-1 Modif) (-1* SafeGuio BARRIER (*) - Nom LINK -1C Nom) ;
+
+SELECT $$NGDAIP IF (0C Roman) (1 N/Vek) ; 
+
 ###############################################################################
 # Syntax labelling rules
 ###############################################################################
