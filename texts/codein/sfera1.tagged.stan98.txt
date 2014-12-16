@@ -976,8 +976,8 @@
 "<даже>"
 ;	"даже" cnjcoo
 ;	"даже" cnjsub
-	"даже" part
-;	"даже" adv
+;	"даже" part
+	"даже" adv
 "<вошли>"
 	"войти" vblex perf iv past mfn pl
 "<в>"

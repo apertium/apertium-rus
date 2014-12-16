@@ -853,6 +853,11 @@ SELECT Nom IF (0 Kotoryj + $$NBR) (1 Fin + $$NBR LINK 1C Acc) ;
 
 SELECT Nom IF (0C Nom OR Acc) (-1C* Nom BARRIER NGDAIP - Nom - Acc LINK -1C* IV BARRIER NGDAIP - Nom OR TV OR CLB OR Pr) ;
 
+# SELECT Acc IF (0C A) (0C Nom OR Acc) (-1C N + Acc LINK -1C A + Acc) (1C N) ;
+  #! В 1385 году великий князь литовский Ягайло Кревской унией обязался объединить в федеративное годударство Великое княжество Литовское и Королевство Польское в персональной унии в случав его избрания королем Польши.
+
+REMOVE Acc IF (NOT 1* TV) (NOT 0 AccAdv) (NOT -1* TV) (-1C* IV BARRIER Fin) (NOT -1* Prep/Acc BARRIER NGDAIP - Acc) ;
+
 ###############################################################################
 # Syntax labelling rules
 ###############################################################################

@@ -3,8 +3,7 @@
 ;	"железнодорожный" adj m nn sg acc
 "<транспорт>"
 ;	"транспорт" n m nn sg acc
-;	"транспорт" n m nn sg nom
-	"транспорт" prn rel m sg nom
+	"транспорт" n m nn sg nom
 "<—>"
 	"—" guio
 "<вид>"
@@ -267,7 +266,7 @@
 	"возможно" pred
 ;	"возможный" adj short nt sg
 "<и>"
-	"и" cnjcoo @CNP MAP:794
+	"и" cnjcoo @CNP MAP:794 FIXME:000
 ;	"и²" n nt nn pl prp REMOVE:456
 ;	"и²" n nt nn sg prp REMOVE:456
 ;	"и²" n nt nn pl acc REMOVE:519
@@ -281,7 +280,7 @@
 ;	"и²" n nt nn sg ins REMOVE:519
 ;	"и²" n nt nn sg nom REMOVE:519
 ;	"и¹" ij REMOVE:836
-;	"и" adv REMOVE:840
+;	"и" adv REMOVE:840 FIXME:000
 "<другое>"
 ;	"другой" det nt sg acc
 	"другой" det nt sg nom
@@ -591,11 +590,11 @@
 ;	"и²" n nt nn sg nom REMOVE:519
 ;	"и²" n nt nn sg prp REMOVE:519
 ;	"и¹" ij REMOVE:836
-;	"и" adv REMOVE:840
+;	"и" adv REMOVE:840 
 "<грузопотоков>"
 	"грузопоток" n m nn pl gen
 "<и>"
-	"и" cnjcoo @CNP MAP:792
+	"и" cnjcoo @CNP MAP:792 FIXME:000
 ;	"и²" n nt nn pl prp REMOVE:456
 ;	"и²" n nt nn sg prp REMOVE:456
 ;	"и²" n nt nn pl acc REMOVE:519
@@ -609,7 +608,7 @@
 ;	"и²" n nt nn sg ins REMOVE:519
 ;	"и²" n nt nn sg nom REMOVE:519
 ;	"и¹" ij REMOVE:836
-;	"и" adv REMOVE:840
+;	"и" adv REMOVE:840 FIXME:000
 "<является>"
 ;	"являть" vblex impf tv pres p3 sg pass
 	"являться" vblex impf iv pres p3 sg
@@ -943,7 +942,7 @@
 "<в>"
 	"в" pr
 "<XVIII>"
-	"XVIII" num SELECT:818
+	"XVIII" num SELECT:818 FIXME:000
 ;	"XVIII" num ord f sg acc SELECT:818
 ;	"XVIII" num ord f sg prp SELECT:818
 ;	"XVIII" num ord m aa sg acc SELECT:818
@@ -1014,7 +1013,7 @@
 ;	"и¹" ij REMOVE:836
 ;	"и" adv REMOVE:840
 "<XIX>"
-	"XIX" num SELECT:818
+	"XIX" num SELECT:818 FIXME:000
 ;	"XIX" num ord f sg acc SELECT:818
 ;	"XIX" num ord f sg dat SELECT:818
 ;	"XIX" num ord f sg gen SELECT:818
@@ -1253,8 +1252,8 @@
 "<в>"
 	"в" pr
 "<Европе>"
-	"Европа" np ant f sg prp
-;	"Европа" np al f nn sg prp
+;	"Европа" np ant f sg prp
+	"Европа" np al f nn sg prp
 ;	"Европа" np al f nn sg dat REMOVE:406
 ;	"Европа" np ant f sg dat REMOVE:406
 "<до>"
@@ -1550,8 +1549,8 @@
 	"некоторый" det ind mfn pl prp
 "<других>"
 ;	"другой" n m aa pl gen
-	"другой" n m aa pl prp
-;	"другой" det mfn pl prp
+;	"другой" n m aa pl prp
+	"другой" det mfn pl prp
 ;	"другой" n m aa pl acc
 ;	"другой" det mfn aa pl acc REMOVE:711
 ;	"другой" det mfn pl gen REMOVE:711
