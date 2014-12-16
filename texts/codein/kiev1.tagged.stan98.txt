@@ -1,0 +1,720 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+
+  <title>[4] Disambiguate 500 words of Russian text. - Apertium</title>
+
+  
+  <script type='text/javascript'>window.mod_pagespeed_start = Number(new Date());</script><link type="text/css" rel="stylesheet" href="http://1-ps.googleusercontent.com/xk/lUi00NOiZZtaYcm5-HDw_Ypz0k/s.google-melange.appspot.com/www.google-melange.com/soc/content/2-1-20141214/css/gci/A.style.css.pagespeed.cf.eYvxJbRw4YeIXCg5uTYZ.css"/>
+  <!--[if lte IE 7]>
+  <link type="text/css" rel="stylesheet" href="/soc/content/2-1-20141214/css/gci/ie.css" />
+  <![endif]-->
+  <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
+  
+<link rel="dns-prefetch" href="//1-ps.googleusercontent.com"><link rel="dns-prefetch" href="//fonts.googleapis.com"></head>
+<body><noscript><meta HTTP-EQUIV="refresh" content="0;url='http://www.google-melange.com/gci/task/view/google/gci2014/6077579144462336?PageSpeed=noscript'" /><style><!--table,div,span,font,p{display:none} --></style><div style="display:block">Please click <a href="http://www.google-melange.com/gci/task/view/google/gci2014/6077579144462336?PageSpeed=noscript">here</a> if you are not redirected within a few seconds.</div></noscript>
+
+  
+  
+
+
+<div id="main" class="container">
+  <div class="row">
+  
+    <div class="block-header">
+  <div class="header">
+    <div class="soc-wrapper">
+      <div class="soc">
+        <a href="/gsoc/homepage/google/gsoc2015">Looking for Google Summer of Code? Click here!</a>
+      </div>
+    </div>
+    <h1 class="logo ir">
+      <a href="/gci/homepage/google/gci2014">
+        <img src="http://1-ps.googleusercontent.com/xk/lUi00NOiZZtaYcm5-HDw_Ypz0k/s.google-melange.appspot.com/www.google-melange.com/soc/content/2-1-20141214/images/gci/logo/banner-gci2014.png.pagespeed.ce.f1a3WfjVFPQ1Lo_Ies2k.png" class="img-responsive" alt="Google Code-in"/>
+      </a>
+    </h1>
+  </div>
+</div>
+
+  
+
+  
+    <div class="side">
+      <div class="block block-main-nav">
+        
+  <div class="block-title">Menu</div>
+  <ul class="menu" id="main-menu">
+    
+    <li id="menu-home"><a href="/gci/homepage/google/gci2014">Home</a></li>
+    
+    
+    <li id="menu-help"><a href="https://www.google-melange.com/gci/profile/register/student/google/gci2014">Register as a Student</a></li>
+    
+    
+    
+    
+    
+    
+    <li id="menu-about"><a href="/gci/document/show/gci_program/google/gci2014/about_page">About</a></li>
+    
+    
+    
+    
+    <li id="menu-events"><a href="/gci/events/google/gci2014">Events &amp; Timeline</a></li>
+    
+    
+    
+    <li id="menu-terms"><a href="/gci/document/show/gci_program/google/gci2014/terms_and_conditions">Contest Rules</a></li>
+    
+    
+    <li id="menu-getting_started"><a href="https://developers.google.com/open-source/gci/resources/getting-started">Getting Started</a></li>
+    
+    
+    
+    <li id="menu-help"><a href="/gci/document/show/gci_program/google/gci2014/help_page">FAQ</a></li>
+    
+    
+    <li id="menu-help"><a href="/gci/content/list/google/gci2014">Downloads</a></li>
+    
+  </ul>
+
+
+      </div>
+      <!-- end .block.block-main-nav -->
+
+      
+        <div class="block block-red block-logged-in-as">
+  <div class="block-title">Logged-In As</div>
+  <div class="block-content">
+    <span class="block-header">ACCOUNT</span>
+    <span class="block-value">Not Logged In</span>
+    
+  </div>
+  <div class="block-footer"><a href="https://www.google.com/accounts/ServiceLogin?service=ah&amp;passive=true&amp;continue=https://appengine.google.com/_ah/conflogin%3Fcontinue%3Dhttp://www.google-melange.com/gci/task/view/google/gci2014/6077579144462336&amp;ltmpl=">Login</a></div>
+</div>
+
+      
+
+      
+        
+      
+
+      
+    </div>
+    <!-- end .side -->
+
+    <div class="main">
+      
+      
+
+  <div class="block block-task block-task-student block-task-completed level-easy">
+    
+
+<div class="block">
+<div class="cog"></div>
+
+<div class="block-title clearfix">
+  <div class="block-task-title">
+    <span class="title">[4] Disambiguate 500 words of Russian text.</span>
+    <span class="project">Apertium</span>
+  </div>
+
+  <div class="block-task-action">
+    
+      
+        
+      
+    
+   <form action="?button" id="task_form" method="post"><div style='display:none;'><input type='hidden' id='xsrftoken' name='xsrf_token' value='DtZ9MX12g-TPeBkTqKj4xzoxNDE4NzM1MjYz'/></div>
+      
+        
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </form>
+
+    <div id="unpublish-confirm-dialog" style="display: none;">
+      Are you sure you want to unpublish this task?
+    </div>
+
+    <div id="delete-confirm-dialog" style="display: none;">
+      Are you sure you want to delete this task?
+    </div>
+  </div>
+</div>
+
+<div class="block-task-difficulty">
+  
+  <span class="status">Status: <span class="emph">Closed</span></span>
+  
+    <span class="remaining">Time to complete: <span class="emph">72 hrs</span></span>
+  
+  <span class="mentor">Mentors: <span class="emph">Robert Reynolds, Ekaterina Ageeva, Francis Tyers</span></span>
+  
+  <span class="tags">Tags: <span class="emph">russian, русский</span></span>
+  
+  
+</div>
+
+<div class="block-content clearfix">
+  
+
+  <div class="block-task-description">
+    <p>The objective of this task is to disambiguate by hand 500 words of text in Russian. You can find a Wikipedia article you are interested in, or you can be assigned one, you will be given the output of a morphological analyser for Russian, and your task is to select the most adequate analysis in context. <br/>For further information and guidance on this task, you are encouraged to come to our <a href="http://wiki.apertium.org/wiki/IRC">IRC</a> channel.</p>
+  </div>
+  
+
+  <!-- end .block-task-description -->
+</div>
+</div>
+
+    
+      <div class="block-task-uploaded-code">
+  <span class="block-task-uploaded-code-title">Uploaded Work</span>
+  <div class="block-task-uploaded-code-content">
+    
+      
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" class="block-task-uploaded-code-listing">
+        <tr>
+          <th>File name/URL</th>
+          <th>File size</th>
+          <th>Date submitted</th>
+          <th></th>
+        </tr>
+        
+          <tr>
+            
+              
+              <td><a href="/gci/work/download/google/gci2014/6077579144462336?id=5717271485874176">disambiguation_–_electronics Nikita Belenkov.txt</a></td>
+              <td>24.6 KB</td>
+              
+            
+            <td>December 05 2014 12:32 UTC</td>
+            
+          </tr>
+        
+          <tr>
+            
+              
+              <td><a href="/gci/work/download/google/gci2014/6077579144462336?id=5634387206995968">kiev1.vislcg.txt</a></td>
+              <td>90.6 KB</td>
+              
+            
+            <td>December 11 2014 16:16 UTC</td>
+            
+          </tr>
+        
+          <tr>
+            
+              
+              <td><a href="/gci/work/download/google/gci2014/6077579144462336?id=5653164804014080">kiev1.vislcg.txt</a></td>
+              <td>90.6 KB</td>
+              
+            
+            <td>December 12 2014 09:41 UTC</td>
+            
+          </tr>
+        
+      </table>
+
+      
+
+    
+
+    
+
+    
+
+  </div>
+</div>
+<!-- end .block-task-uploaded-code -->
+
+    
+    
+      <div class="block-comments clearfix">
+  <span class="block-comments-title">Comments</span>
+
+  
+
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+      <a href="/gci/student_tasks/google/gci2014/belenkovn">Nikita</a>
+      </span>
+      <span class="single-comment-meta">on
+      December 2 2014 11:20 UTC</span>
+      
+      <span class="single-comment-title">Task Claimed</span>
+      
+      <p><p>I would like to work on this task.</p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+      <a href="/gci/student_tasks/google/gci2014/belenkovn">Nikita</a>
+      </span>
+      <span class="single-comment-meta">on
+      December 2 2014 11:31 UTC</span>
+      
+      <span class="single-comment-title">Wikipeadia Article</span>
+      
+      <p><p><p>This is a Wikipedia article that I am interested in. </p><br/><p>http://en.wikipedia.org/wiki/Electronics</p></p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+        Robert Reynolds
+      </span>
+      <span class="single-comment-meta">on
+      December 2 2014 11:58 UTC</span>
+      
+      <span class="single-comment-title">This is a Russian task</span>
+      
+      <p><p><p>Hi, this article is in English. Can you find an article in Russian that you can annotate for us?</p><br/><p>-Rob</p></p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+      <a href="/gci/student_tasks/google/gci2014/belenkovn">Nikita</a>
+      </span>
+      <span class="single-comment-meta">on
+      December 2 2014 14:04 UTC</span>
+      
+      <p><p><p>Does this article need to be available only in Russian, or it can be available in different languages?</p><br/><p>Would this article suit the task?</p><br/><p>https://ru.wikipedia.org/wiki/%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%B8%D0%BA%D0%B0</p><br/><p> </p><br/><p>Nikita</p></p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+        Ekaterina Ageeva
+      </span>
+      <span class="single-comment-meta">on
+      December 2 2014 14:09 UTC</span>
+      
+      <p><p><p>Hi Nikita,</p><br/><p>It should be a Russian text, it is OK if the corresponding article is not available in any other languages. The last link you gave is quite fine, although you should select a part of it that is mostly coherent paragraphs, not the lists of terms. Please tell us which part of the article you would like to annotate, and we will send you the data.</p><br/><p>Katya</p></p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+      <a href="/gci/student_tasks/google/gci2014/belenkovn">Nikita</a>
+      </span>
+      <span class="single-comment-meta">on
+      December 2 2014 14:20 UTC</span>
+      
+      <p><p><p>Is it possible to assign me an extract from a random article, because i have a very big choice. Thank you.</p><br/><p>Nikita</p></p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+        Ekaterina Ageeva
+      </span>
+      <span class="single-comment-meta">on
+      December 2 2014 21:36 UTC</span>
+      
+      <span class="single-comment-title">Morphological analysis</span>
+      
+      <p><p><p>Hi Nikita,</p><br/><p>Here is the analyzed text: http://pastebin.com/BJXwQmYL<br/>Also check out a little description of what is going on: http://pastebin.com/Y0a0TBwu<br/>Should you have any questions, please leave a comment here or find us on IRC.</p><br/><p>Katya</p></p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+        Ekaterina Ageeva
+      </span>
+      <span class="single-comment-meta">on
+      December 2 2014 21:36 UTC</span>
+      
+      <span class="single-comment-title">Task Assigned</span>
+      
+      <p><p>This task has been assigned to Nikita. You have 72 hours to complete this task, good luck!</p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+        Melange
+      </span>
+      <span class="single-comment-meta">on
+      December 4 2014 21:36 UTC</span>
+      
+      <span class="single-comment-title">Task due soon</span>
+      
+      <p><p>There are less than 24 hours left until the deadline, please submit your work soon.</p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+      <a href="/gci/student_tasks/google/gci2014/belenkovn">Nikita</a>
+      </span>
+      <span class="single-comment-meta">on
+      December 5 2014 12:33 UTC</span>
+      
+      <span class="single-comment-title">Ready for review</span>
+      
+      <p><p>The work on this task is ready to be reviewed.</p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+        Francis Tyers
+      </span>
+      <span class="single-comment-meta">on
+      December 5 2014 14:29 UTC</span>
+      
+      <span class="single-comment-title">Task Needs More Work</span>
+      
+      <p><p>One of the mentors has sent this task back for more work. Talk to the mentor(s) assigned to this task to satisfy the requirements needed to complete this task, submit your work again and mark the task as complete once you re-submit your work.</p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+        Francis Tyers
+      </span>
+      <span class="single-comment-meta">on
+      December 5 2014 14:30 UTC</span>
+      
+      <span class="single-comment-title">format</span>
+      
+      <p><p><p>Make sure that all lexical units follow the format:</p><br/><p> </p><br/><p>^surface form/analysis$</p><br/><p> </p><br/><p>F.</p></p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+      <a href="/gci/student_tasks/google/gci2014/belenkovn">Nikita</a>
+      </span>
+      <span class="single-comment-meta">on
+      December 5 2014 19:54 UTC</span>
+      
+      <span class="single-comment-title">Claim Removed</span>
+      
+      <p><p>The claim on this task has been removed, someone else can claim it now.</p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+      <a href="/gci/student_tasks/google/gci2014/sgkryvenko">Stan K.</a>
+      </span>
+      <span class="single-comment-meta">on
+      December 11 2014 12:28 UTC</span>
+      
+      <span class="single-comment-title">Task Claimed</span>
+      
+      <p><p>I would like to work on this task.</p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+        Francis Tyers
+      </span>
+      <span class="single-comment-meta">on
+      December 11 2014 12:29 UTC</span>
+      
+      <span class="single-comment-title">Task Assigned</span>
+      
+      <p><p>This task has been assigned to Stan K.. You have 72 hours to complete this task, good luck!</p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+      <a href="/gci/student_tasks/google/gci2014/sgkryvenko">Stan K.</a>
+      </span>
+      <span class="single-comment-meta">on
+      December 11 2014 16:16 UTC</span>
+      
+      <span class="single-comment-title">Ready for review</span>
+      
+      <p><p>The work on this task is ready to be reviewed.</p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+        Ekaterina Ageeva
+      </span>
+      <span class="single-comment-meta">on
+      December 11 2014 19:03 UTC</span>
+      
+      <p><p><p>Hi,</p><br/><p>Please make the following corrections: http://paste2.org/dy6xVEkA</p><br/><p>Katya</p></p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+        Ekaterina Ageeva
+      </span>
+      <span class="single-comment-meta">on
+      December 11 2014 19:03 UTC</span>
+      
+      <span class="single-comment-title">Task Needs More Work</span>
+      
+      <p><p>One of the mentors has sent this task back for more work. Talk to the mentor(s) assigned to this task to satisfy the requirements needed to complete this task, submit your work again and mark the task as complete once you re-submit your work.</p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+      <a href="/gci/student_tasks/google/gci2014/sgkryvenko">Stan K.</a>
+      </span>
+      <span class="single-comment-meta">on
+      December 12 2014 09:42 UTC</span>
+      
+      <span class="single-comment-title">Ready for review</span>
+      
+      <p><p>The work on this task is ready to be reviewed.</p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+    <div id="c" class="single-comment">
+
+      <span class="single-comment-author">
+      
+        Ekaterina Ageeva
+      </span>
+      <span class="single-comment-meta">on
+      December 12 2014 12:03 UTC</span>
+      
+      <span class="single-comment-title">Task Closed</span>
+      
+      <p><p>Congratulations, this task has been completed successfully.</p></p>
+      
+
+      
+
+    </div>
+    <!-- end .single-comment -->
+  
+</div>
+<!-- end .block-comments -->
+
+    
+  </div>
+
+    </div>
+    
+  </div> <!-- end .row -->
+</div> <!-- end #main.container -->
+
+
+
+  <div id="footer">
+  <div class="container">
+    <ul class="menu menu-center-inline menu-footer">
+      
+        <li><a href="/gci/document/show/gci_program/google/gci2014/about_page">About</a></li>
+      
+      
+      
+      
+      
+        <li class="social">
+          <a href="http://google-opensource.blogspot.com/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAMAAADjcdz2AAAAdVBMVEVQpN5JoNyWzPEljNJnseS64Ps8mdlXqOBMot1psuWLxu59vuoqj9QukdVUpt95vOkwktWcz/Kx2/g1lddHn9xmsORttOZbquE3lte33voojtMxk9aKxe1FntuGw+2z3PmIxO2Rye8+mtlCnNpgreK84fsji9J96SJcAAAAeElEQVQY023PRw7DUBAC0HFP770nA9z/iFnMd2JZZseTWGDsxQbgua8lrSxPsNkq5RVQtl3zM0mjS4W7XyWtSRo/0ojkTdKjBdXuM0nyaYJfdn3IAi5HAGgKyQIykmR1Crh3Jw2Nyy68aawW/z6Ot5MSAIBDPnT/Cz0VI6Sw46VRAAAAAElFTkSuQmCC" alt="Blogger"/></a>
+        </li>
+      
+      
+        <li class="social">
+          <a href="mailto:ospoteam@gmail.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAAkFBMVEW64PtAm9pvteZHn9w1lde13fk8mdm33vqo1vZLod0zlNa43/pMot0wktWf0fN4u+lerOJJoNx/v+tDndum1fWq1/Z0ueg+mtk3ltdVp+BttOZZqeBXqOAukdVQpN6Nx+46mNiGw+2BwOuRye+u2fcojtMqj9RFntuTyvAji9IskNSz3PmYzfGd0PNCnNq84fsFoy/MAAAAgklEQVQY053PRxLCMBBE0ZGQnBPRZJNhjHHf/3ZGSF6YFcVfvlLVtAjf0X9Cr0Ea9GT2Wpdgbt5y24iZfX8Jx8pIjUl6NPBIJZVWkB0Kn+TuDAgnWF+9JJpqYORkoYKTpCL0e8lV8Bmy3cdW8uXc3oqT1d0I11U/r4nMHt0Oyn76aQffByvyh/EKgAAAAABJRU5ErkJggg==" alt="Email"/></a>
+        </li>
+      
+      
+        <li class="social">
+          <a href="irc://irc.freenode.net/gsoc"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARBAMAAADJQ1rJAAAAMFBMVEUtkNWp1vay3Pif0fNmseSWy/GMxu5Tpt9Am9o2ltd5u+mCwexwtucji9JJody84fs4GRhLAAAAUElEQVQI12P4DwUfGAiwkuEsdjhLCMb6d+df35VvvbM/MHy+8+9WYmzpaaDsnX/9/yvB6u78e///HZzlYK8IZQnwsQBZR3/v//9pzyYCLgAAMzyI26JHztMAAAAASUVORK5CYII=" alt="IRC"/></a>
+        </li>
+      
+      
+        <li><a href="http://www.google.com/policies/privacy/">Privacy Policy</a></li>
+      
+      
+        <li><a href="/gci/document/show/gci_program/google/gci2014/terms_and_conditions">Contest Rules</a></li>
+      
+    </ul>
+    <ul class="menu menu-center-inline menu-credit">
+      <li class="menu-credit-melange">Powered by
+        <a href="http://code.google.com/p/soc/wiki/MelangeIntro" target="_blank"><img src="data:image/png;base64,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" alt="Melange"/></a>
+      </li>
+      <li class="menu-credit-echoditto">Empowered by
+        <a href="http://www.echoditto.com/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAARCAMAAAC4uUHHAAAB8lBMVEVGhcRHhcVIhsZIh8VKiMZLicZLichLisdNisdNi8hNi8lOi8hPi8hPjMlQjMpQjcpSjspTjstTj8tUkMxVkMxWkctWkcxWks1YksxYks1Yk85alM5blc5blc9cls9dltBel9BemNBfmNFgmdBhmtBhmtJimtJjm9FknNJknNNkndNlndRmntNon9Ron9VqodVqodZrodVrodZsotZsotdto9dvpNhwpdlxptlyp9hyp9lyp9pzqNlzqNp0qdl0qdt1qdp2qdp2qtx3qtt3q9x4q9t5rNx6rdx7rtx7rt19r9x9sN1+sN5/sN1/sd+Asd+Ast+Bs9+CtN+DteCEtuGFtuCFt+GGt+KHuOKIuOKIuOOIueOJueOKuuSLuuSLu+OMvOWNvOWOveWOvuaPvuaQv+aRv+aRv+eSv+aSwOaTwOiTweiUwuiVwumVw+mWxOiYxemZxeqZxuuax+ubx+ucx+ycyOudyOyeye2fye2fyuyfyu2fy+6gy+6hzO6ize+jze+jzu6kzvClzu+mz++mz/Cn0PCo0fGo0fKp0vGq0vKq0/Or1PKs1POt1fSt1vSu1vSv1vSv1vWw1/Wx2PWy2Pay2fWy2fez2va02ve12/e12/i13Pi23Pi33fe43fi43fm53vi63vq73/m74Pq84fuzgrBDAAAC3klEQVQ4y62UXVcTZxSFp0BC0iDY0Ta0QWwSIGoAUWAM4gcoOhJNbRIRCsapUkMxiJQYUOIHIDoNwVBCwKiFDJ08/7MXSFWc3nT1XL1nr3OetfZe67wC/08Jn7a69lYzGitqeQN1olHqT20ZcIqznU0vDBb0uRN+Xqtbu+R3qeQlz0+6AWf6wP4lA062sTSAvyKxS052X1EXO9vfGfgaFFeMfC2YBngYXt2lrj/pPy6v/Njy5+ccRcwZcZbLf34/ALDj73HgfjbQkpV78tucj6JVxA+BasX3j7+Ka5YoQGF8GYjPbMuFXFRqXeqTMk2DCFBI3BxKA/ORq9dnIvv/mB+5NrEBv4/duhbLA0t3B0Oh8vHNR2PLQdul2IhS1R69neTZ6NCNeSKe3MnoWDMCWjCgHHC94lep7XC5e6BSuSqJQoRkc3C409KeYaazJ3jCap6MmZzJWuFQW5tTcB1tCUdabihec4je8OyxhXMIRGvhodB9r2ES/WlcsU2ssvhtw4K9D1CE3pS3HxixTE3ZG4oXKp/resIyrjFaNQmFNiG+5llqTQwhcKjx8a3eui67vJ3PvgLQ7eqoegNojQ6pOQdkrNOcciN/lYYHlgT5ei9A2nZEU1bi6gICe5rG702n4uY+AD0irgGyq8aRBxgqKZM2ANU6pfnqOL9vEe6WJ0hbOgCordrQixRBoOz0JvCoNAigD4g54ILbWZkHGC4xeVaB55ZpzVdP19dp+MWcJF3RBICzenPnvuxOgEz1wXWAkJgDznrksmFAv+jqKY0BaeuU5qvnzDev4KbpCW+PV8wBW2JQ3+EEvvCv5e/HuoWT6vrTqLQ3BUii2mBNwm/fTb4Uv7ydTQ+aRje933O55M7qXLhMzqoh4UgWfnBn/7n3vM/mcJ9SCxdtdqfvXI3Y+pKYwywnj1YHwtKEXow7bI6OfrFZttv9Ss0el1/1VtZ0zcer6wbk05l/+Tf+c/0NBitUU/inCrYAAAAASUVORK5CYII=" alt="EchoDitto"/></a>
+      </li>
+      <li>
+        <ul>
+          <li class="menu-credit-version">Version 2-1-20141214</li>
+          <li class="menu-credit-bug">
+            <a href="https://code.google.com/p/soc/issues/entry?labels=ReportABug" target="_blank">(Report Bug)</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div> <!-- end .container -->
+</div> <!--end #footer-->
+
+
+
+
+
+
+
+
+  
+  
+  <script type='text/javascript' src="/tiny_mce/tinymce.min.js"></script>
+  
+  
+  <script type="text/javascript">var xsrf_token='DtZ9MX12g-TPeBkTqKj4xzoxNDE4NzM1MjYz';</script>
+  <script type='text/javascript' src="http://1-ps.googleusercontent.com/xk/lUi00NOiZZtaYcm5-HDw_Ypz0k/s.google-melange.appspot.com/www.google-melange.com/js/2-1-20141214/LABjs/LAB.js.pagespeed.jm.XZZFhBXFILgbAM0nTBeV.js"></script>
+  
+
+  <script type="text/javascript">$LAB.script("/js/2-1-20141214/json/json2.js").script("https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js").wait(function(){jQuery(function(){jQuery(document).delegate("form","submit",function(e){var form=jQuery(this);if(form.hasClass("form_disabled")){e.preventDefault();return false;}else{form.addClass("form_disabled").find(":submit").addClass("disabled");}setTimeout(function(){form.removeClass("form_disabled").find(":submit").removeClass("disabled");},3000);});});}).script("/js/2-1-20141214/jquery/jquery-cookie.js").wait().script("/soc/content/2-1-20141214/js/melange.js").wait(function(){melange.init({app_version:"2-1-20141214",css_path:"soc/content/2-1-20141214/css/gci",google_api_key:"AIzaSyAKLqiqqMsr0-WhX_AWemELKnCosf8NMiY",is_local:false,});}).script("/soc/content/2-1-20141214/js/melange.dependency.js").wait(function(){var dep=melange.dependency.s;var tc=function(script,context){return new melange.dependency.templateWithContext(script,context);};var css=function(css_path){return new melange.dependency.cssFile(css_path);};melange.dependency.loadScripts([[dep.melange.analytics,null,function(){melange.analytics.initAnalytics('UA-4291635-4');},dep.jquery.slicknav,null,function(){$("#main-menu").slicknav({prependTo:".block-main-nav"});},css("/soc/content/2-1-20141214/css/gci/thirdparty/slicknav.css")],[dep.melange.clock,dep.melange.uploadform,dep.jqueryui.dialog,null,tc("/soc/content/2-1-20141214/js/templates/modules/gci/task/public.js",{comments:["melange-content-textarea","melange-content-textarea-5066549580791808","melange-content-textarea-5144752345317376","melange-content-textarea-5105650963054592","melange-content-textarea-5178081291534336","melange-content-textarea-5086100271923200","melange-content-textarea-5161210659995648","melange-content-textarea-5122315436163072","melange-content-textarea-5194384987389952","melange-content-textarea-5076324926357504","melange-content-textarea-5113880120393728","melange-content-textarea-5187135082594304","melange-content-textarea-5094432508477440","melange-content-textarea-5170986005561344","melange-content-textarea-5130467284090880","melange-content-textarea-5203516087861248","melange-content-textarea-5137785908363264","melange-content-textarea-5110435556622336","melange-content-textarea-5175650340044800","melange-content-textarea-5156048109305856","melange-content-textarea-5126842331693056"]})]]);});</script>
+
+</body>
+</html>
+<script pagespeed_no_defer="" type="text/javascript">(function(){window.pagespeed=window.pagespeed||{};var l=window.pagespeed;
+l.getResourceTimingData=function(){if(window.performance&&(window.performance.getEntries||window.performance.webkitGetEntries)){for(var m=0,n=0,e=0,p=0,f=0,q=0,g=0,r=0,h=0,s=0,k=0,c={},d=window.performance.getEntries?window.performance.getEntries():window.performance.webkitGetEntries(),b=0;b<d.length;b++){var a=d[b].duration;0<a&&(m+=a,++e,n=Math.max(n,a));a=d[b].connectEnd-d[b].connectStart;0<a&&(q+=a,++g);a=d[b].domainLookupEnd-d[b].domainLookupStart;0<a&&(p+=a,++f);a=d[b].initiatorType;c[a]?++c[a]:
+c[a]=1;a=d[b].requestStart-d[b].fetchStart;0<a&&(s+=a,++k);a=d[b].responseStart-d[b].requestStart;0<a&&(r+=a,++h)}return"&afd="+(e?Math.round(m/e):0)+"&nfd="+e+"&mfd="+Math.round(n)+"&act="+(g?Math.round(q/g):0)+"&nct="+g+"&adt="+(f?Math.round(p/f):0)+"&ndt="+f+"&abt="+(k?Math.round(s/k):0)+"&nbt="+k+"&attfb="+(h?Math.round(r/h):0)+"&nttfb="+h+(c.css?"&rit_css="+c.css:"")+(c.link?"&rit_link="+c.link:"")+(c.script?"&rit_script="+c.script:"")+(c.img?"&rit_img="+c.img:"")}return""};
+l.getResourceTimingData=l.getResourceTimingData;})();
+(function(){window.pagespeed=window.pagespeed||{};var e=window.pagespeed;function g(a,c,b,d){this.c=a;this.a=c;this.b=b;this.d=d}e.beaconUrl="";
+g.prototype.sendBeacon=function(){var a=this.c,c=window.mod_pagespeed_start,b=Number(new Date)-c,a=a+(-1==a.indexOf("?")?"?":"&"),a=a+"ets="+("load"==this.a?"load:":"unload:"),a=a+b;if("beforeunload"!=this.a||!window.mod_pagespeed_loaded){a+="&r"+this.a+"=";if(window.performance){var b=window.performance.timing,d=b.navigationStart,f=b.requestStart,a=a+(b[this.a+"EventStart"]-d),a=a+("&nav="+(b.fetchStart-d)),a=a+("&dns="+(b.domainLookupEnd-b.domainLookupStart)),a=a+("&connect="+(b.connectEnd-b.connectStart)),
+a=a+("&req_start="+(f-d)),a=a+("&ttfb="+(b.responseStart-f)),a=a+("&dwld="+(b.responseEnd-b.responseStart)),a=a+("&dom_c="+(b.domContentLoadedEventStart-d));window.performance.navigation&&(a+="&nt="+window.performance.navigation.type);d=-1;b.msFirstPaint?d=b.msFirstPaint:window.chrome&&window.chrome.loadTimes&&(d=Math.floor(1E3*window.chrome.loadTimes().firstPaintTime));d-=f;0<=d&&(a+="&fp="+d)}else a+=b;e.getResourceTimingData&&window.parent==window&&(a+=e.getResourceTimingData());a+=window.parent!=
+window?"&ifr=1":"&ifr=0";"load"==this.a&&(window.mod_pagespeed_loaded=!0,(b=window.mod_pagespeed_num_resources_prefetched)&&(a+="&nrp="+b),(b=window.mod_pagespeed_prefetch_start)&&(a+="&htmlAt="+(c-b)));e.panelLoader&&(c=e.panelLoader.getCsiTimingsString(),""!=c&&(a+="&b_csi="+c));e.criticalCss&&(c=e.criticalCss,a+="&ccis="+c.total_critical_inlined_size+"&cces="+c.total_original_external_size+"&ccos="+c.total_overhead_size+"&ccrl="+c.num_replaced_links+"&ccul="+c.num_unreplaced_links);""!=this.b&&
+(a+=this.b);document.referrer&&(a+="&ref="+encodeURIComponent(document.referrer));a+="&url="+encodeURIComponent(this.d);e.beaconUrl=a;(new Image).src=a}};e.e=function(a,c,b,d){var f=new g(a,c,b,d);window.addEventListener?window.addEventListener(c,function(){f.sendBeacon()},!1):window.attachEvent("on"+c,function(){f.sendBeacon()})};e.addInstrumentationInit=e.e;})();
+
+pagespeed.addInstrumentationInit('http://1-ps.googleusercontent.com/beacon?org=123_1_yq', 'load', '&s_ttfb=606&id=1418735263129445', 'http://www.google-melange.com/gci/task/view/google/gci2014/6077579144462336');</script>
