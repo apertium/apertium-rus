@@ -1,69 +1,15 @@
-"<Свята́я>"
-	"*Свята́я"
-"<инквизи́ция>"
-	"*инквизи́ция"
-"<(>"
-	"(" lpar
-"<лат.>"
-	"лат" abbr
-	"лат" abbr
-		"." sent
-"<Inquisitio>"
-	"*Inquisitio"
-"<Haereticae>"
-	"*Haereticae"
-"<Pravitatis>"
-	"*Pravitatis"
-"<Sanctum>"
-	"*Sanctum"
-"<Officium>"
-	"*Officium"
-"<,>"
-	"," cm
-"<«>"
-	"«" lquot
-"<Святой>"
-	"святая²" n f nn sg dat
-	"святая²" n f nn sg gen
-	"святая²" n f nn sg ins
-	"святой" adj m an sg nom
-	"святая¹" n f aa sg dat
-	"святая¹" n f aa sg gen
-	"святая¹" n f aa sg ins
-	"святой" adj m nn sg acc
-	"святой" adj f an sg dat
-	"святой" adj f an sg gen
-	"святой" adj f an sg ins
-	"святой" n m aa sg nom
-;	"святая²" n f nn sg prp REMOVE:477
-;	"святая¹" n f aa sg prp REMOVE:477
-;	"святой" adj f an sg prp REMOVE:477
-"<отдел>"
-	"отдел" n m nn sg acc
-	"отдел" n m nn sg nom
-"<расследований>"
-	"расследование" n nt nn pl gen
-"<еретической>"
-	"еретический" adj f an sg dat
-	"еретический" adj f an sg gen
-	"еретический" adj f an sg ins
-;	"еретический" adj f an sg prp REMOVE:477
-"<греховности>"
-	"греховность" n f nn pl acc
-	"греховность" n f nn pl nom
-	"греховность" n f nn sg gen
-;	"греховность" n f nn sg prp REMOVE:477
-;	"греховность" n f nn sg dat REMOVE:890
-"<»>"
-	"»" rquot
-"<)>"
-	")" rpar
+"<Святая>"
+	"святая²" n f nn sg nom
+	"святая¹" n f aa sg nom
+	"святой" adj f an sg nom
+"<инквизиция>"
+	"инквизиция" n f nn sg nom
 "<—>"
 	"—" guio
 "<общее>"
 	"общий" adj comp pred
-	"общий" adj nt an sg acc
 	"общий" adj nt an sg nom
+;	"общий" adj nt an sg acc REMOVE:732
 "<название>"
 	"название" n nt nn sg acc
 	"название" n nt nn sg nom
@@ -102,9 +48,7 @@
 	"ересь" n f nn sg ins
 "<.>"
 	"." sent
-
-"<.>"
-	"." sent
+¶
 
 "<Раннее>"
 	"ранний" adj comp pred
@@ -253,9 +197,7 @@
 	"далее" adv comp
 "<.>"
 	"." sent
-
-"<.>"
-	"." sent
+¶
 
 "<Отражением>"
 	"отражение" n nt nn sg ins
@@ -524,9 +466,7 @@
 	"богослов" n m aa sg gen
 "<.>"
 	"." sent
-
-"<.>"
-	"." sent
+¶
 
 "<Начиная>"
 	"начинать" vblex impf iv pprs adv
@@ -746,33 +686,12 @@
 	"ортодоксальность" n f nn sg gen
 ;	"ортодоксальность" n f nn sg prp REMOVE:806
 ;	"ортодоксальность" n f nn sg dat REMOVE:890
-"<(>"
-	"(" lpar
-"<греч>"
-	"греча" n f nn pl gen
-"<.>"
-	"." sent
-
-"<ὀρθοδοξία>"
-	"*ὀρθοδοξία"
-"<—>"
-	"—" guio
-"<правильная>"
-	"правильный" adj f an sg nom
-"<точка>"
-	"точка¹⁻²" n f nn sg nom
-"<зрения>"
-	"зрение" n nt nn pl acc
-	"зрение" n nt nn pl nom
-	"зрение" n nt nn sg gen
-"<)>"
-	")" rpar
 "<стали>"
 	"сталь" n f nn pl acc
 	"сталь" n f nn pl nom
 	"стать²⁻³" vblex perf iv past mfn pl
 	"сталь" n f nn sg gen
-;	"сталь" n f nn sg prp REMOVE:477
+	"сталь" n f nn sg prp
 ;	"сталь" n f nn sg dat REMOVE:890
 "<противопоставлять>"
 	"противопоставлять" vblex impf iv inf
@@ -780,43 +699,9 @@
 "<ересь>"
 	"ересь" n f nn sg acc
 	"ересь" n f nn sg nom
-"<(>"
-	"(" lpar
-"<греч>"
-	"греча" n f nn pl gen
 "<.>"
 	"." sent
-
-"<αἵρεσις>"
-	"*αἵρεσις"
-"<—>"
-	"—" guio
-"<выбор>"
-	"выбор" n m nn sg nom
-;	"выбор" n m nn sg acc REMOVE:732
-"<;>"
-	";" clb
-"<подразумевается>"
-	"подразумеваться" vblex impf iv pres p3 sg
-;	"подразумевать" vblex impf tv pres p3 sg pass REMOVE:821
-"<,>"
-	"," cm
-"<что>"
-	"что²" cnjsub SELECT:511
-;	"что¹" prn itg nt sg acc SELECT:511
-;	"что¹" prn itg nt sg nom SELECT:511
-;	"что¹" prn rel nt sg acc SELECT:511
-;	"что¹" prn rel nt sg nom SELECT:511
-"<ошибочный>"
-	"ошибочный" adj m an sg nom
-;	"ошибочный" adj m nn sg acc REMOVE:831
-"<)>"
-	")" rpar
-"<.>"
-	"." sent
-
-"<.>"
-	"." sent
+¶
 
 "<В>"
 	"в" pr
@@ -1180,9 +1065,7 @@
 	"лист" n m nn sg nom
 "<.>"
 	"." sent
-
-"<.>"
-	"." sent
+¶
 
 "<Особый>"
 	"особый" adj m an sg nom
@@ -1289,10 +1172,7 @@
 ;	"iii" num ord mfn pl ins SELECT:905
 "<.>"
 	"." sent
-[^1/1<num>$]
-
-"<.>"
-	"." sent
+¶
 
 "<Церковный>"
 	"церковный" adj m an sg nom
@@ -1646,9 +1526,7 @@
 	"кодекс" n m nn sg gen
 "<.>"
 	"." sent
-
-"<.>"
-	"." sent
+¶
 
 "<Конгрегация>"
 	"конгрегация" n f nn sg nom
@@ -1882,9 +1760,8 @@
 	"индекс" n m nn sg gen
 "<.>"
 	"." sent
-[^2/2<num>$]
 
-"<^Священная>"
+"<Священная>"
 	"священный" adj f an sg nom
 "<конгрегация>"
 	"конгрегация" n f nn sg nom
@@ -1976,9 +1853,7 @@
 ;	"церковь" n f nn sg prp REMOVE:842
 "<.>"
 	"." sent
-
-"<.>"
-	"." sent
+¶
 
 "<В>"
 	"в" pr
@@ -2048,9 +1923,7 @@
 ;	"миро" n nt nn sg gen REMOVE:950
 "<.>"
 	"." sent
-
-"<.>"
-	"." sent
+¶
 
 "<В>"
 	"в" pr
@@ -2348,12 +2221,10 @@
 "<1826>"
 	"1826" num
 "<гг.>"
-	"гг" abbr
 ;	"гг" abbr
-;		"." sent REMOVE:1052
-"<.>"
-	"." sent
-
+	"гг" abbr
+		"." sent
+¶
 "<В>"
 	"в" pr
 "<1908>"
@@ -2381,32 +2252,6 @@
 	"вера" n f nn sg gen
 "<»>"
 	"»" rquot
-"<(>"
-	"(" lpar
-"<лат.>"
-	"лат" abbr
-	"лат" abbr
-		"." sent
-"<Sacra>"
-	"*Sacra"
-"<congregatio>"
-	"*congregatio"
-"<Romanae>"
-	"*Romanae"
-"<et>"
-	"*et"
-"<universalis>"
-	"*universalis"
-"<Inquisitionis>"
-	"*Inquisitionis"
-"<seu>"
-	"*seu"
-"<Sancti>"
-	"*Sancti"
-"<Officii>"
-	"*Officii"
-"<)>"
-	")" rpar
 "<.>"
 	"." sent
 
@@ -2457,9 +2302,7 @@
 	"законодательство" n nt nn sg ins
 "<.>"
 	"." sent
-
-"<.>"
-	"." sent
+¶
 
 "<До>"
 	"до" pr
@@ -2747,9 +2590,7 @@
 ;	"мораль" n f nn sg dat REMOVE:890
 "<.>"
 	"." sent
-
-"<.>"
-	"." sent
+¶
 
 "<Со>"
 	"с" pr
@@ -2879,9 +2720,7 @@
 ;	"орден¹" n m nn pl nom SELECT:808
 "<.>"
 	"." sent
-
-"<.>"
-	"." sent
+¶
 
 "<Основной>"
 	"основной" adj f an sg ins
@@ -2946,9 +2785,7 @@
 ;	"ересь" n f nn sg gen REMOVE:426
 "<.>"
 	"." sent
-
-"<.>"
-	"." sent
+¶
 
 "<С>"
 	"с" pr
@@ -3699,9 +3536,7 @@
 	"насилие" n nt nn sg nom
 "<.>"
 	"." sent
-
-"<.>"
-	"." sent
+¶
 
 "<Юристы>"
 	"юрист" n m aa pl nom
@@ -3931,7 +3766,3 @@
 	"допускать" vblex impf tv past f sg
 "<.>"
 	"." sent
-
-"<.>"
-	"." sent
-
