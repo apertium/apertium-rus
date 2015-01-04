@@ -51,6 +51,8 @@ texts/codein/anglija1.vislcg.txt -text
 texts/codein/aviapushka1.raw.txt -text svneol=unset#application/octet-stream
 texts/codein/aviapushka1.tagged.stan98.txt -text
 texts/codein/aviapushka1.vislcg.txt -text
+texts/codein/inkvizicija.raw.txt -text svneol=unset#application/octet-stream
+texts/codein/inkvizicija.vislcg.txt -text
 texts/codein/iskusstvennyj_intellekt1.raw.txt -text svneol=unset#application/octet-stream
 texts/codein/iskusstvennyj_intellekt1.tagged.stan98.txt -text
 texts/codein/kiev1.raw.txt -text svneol=unset#application/octet-stream
@@ -65,6 +67,9 @@ texts/codein/sfera1.tagged.stan98.txt -text
 texts/codein/svjataja_inkvizicija1.raw.txt -text svneol=unset#application/octet-stream
 texts/codein/svjataja_inkvizicija1.tagged.stan98.txt -text
 texts/codein/svjataja_inkvizicija1.vislcg.txt -text
+texts/codein/uranus.raw.txt -text svneol=unset#application/octet-stream
+texts/codein/uranus.tagged.olexiy.txt -text
+texts/codein/uranus.vislcg.txt -text
 texts/codein/zheleznaja_doroga1.raw.txt -text svneol=unset#application/octet-stream
 texts/codein/zheleznaja_doroga1.tagged.stan98.txt -text
 texts/codein/zheleznaja_doroga1.vislcg.txt -text
