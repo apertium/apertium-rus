@@ -247,8 +247,8 @@
 	"." sent
 ¶
 
-"<Иннова́ция>"
-	"*Иннова́ция"
+"<Инновация>"
+	"инновация" n f nn sg nom
 "<—>"
 	"—" guio
 "<введённый>"
@@ -582,10 +582,8 @@
 ;	"xix" num ord f sg ins SELECT:910
 ;	"xix" num ord f sg nom SELECT:910
 ;	"xix" num ord f sg prp SELECT:910
-"<в>"
-	"в" pr
-"<.>"
-	"." sent
+"<в.>"
+	"в." abbr
 
 "<Новую>"
 	"новый" adj f an sg acc
@@ -663,11 +661,8 @@
 ;	"xx" num ord nt sg ins SELECT:910
 ;	"xx" num ord nt sg nom SELECT:910
 ;	"xx" num ord nt sg prp SELECT:910
-"<в>"
-	"в" pr
-"<.>"
-	"." sent
-
+"<в.>"
+	"в." abbr
 "<в>"
 	"в" pr
 "<научных>"
