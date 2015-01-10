@@ -46,6 +46,7 @@ expanded/diff-previous-vs-current.txt -text
 scripts/evaluate-tagger.py -text
 test-scripts/rus.test -text
 texts/codein/anglija1.raw.txt -text svneol=unset#application/octet-stream
+texts/codein/anglija1.tagged.olexiy.txt -text
 texts/codein/anglija1.tagged.stan98.txt -text
 texts/codein/anglija1.vislcg.txt -text
 texts/codein/aviapushka1.raw.txt -text svneol=unset#application/octet-stream
@@ -54,6 +55,7 @@ texts/codein/aviapushka1.vislcg.txt -text
 texts/codein/inkvizicija.raw.txt -text svneol=unset#application/octet-stream
 texts/codein/inkvizicija.vislcg.txt -text
 texts/codein/innovacija1.raw.txt -text svneol=unset#application/octet-stream
+texts/codein/innovacija1.tagged.stan98.txt -text
 texts/codein/innovacija1.vislcg.txt -text
 texts/codein/iskusstvennyj_intellekt1.raw.txt -text svneol=unset#application/octet-stream
 texts/codein/iskusstvennyj_intellekt1.tagged.stan98.txt -text
@@ -63,6 +65,7 @@ texts/codein/kiev1.tagged.stan98.txt -text
 texts/codein/kiev1.tagged.vladyslav.txt -text
 texts/codein/kiev1.vislcg.txt -text
 texts/codein/peresadku_serdce1.raw.txt -text svneol=unset#application/octet-stream
+texts/codein/peresadku_serdce1.tagged.olexiy.txt -text
 texts/codein/peresadku_serdce1.vislcg.txt -text
 texts/codein/sfera1.raw.txt -text svneol=unset#application/octet-stream
 texts/codein/sfera1.tagged.stan98.txt -text
