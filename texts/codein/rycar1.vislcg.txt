@@ -2700,7 +2700,3 @@
 ;	"служба" n f nn sg prp REMOVE:842
 "<.>"
 	"." sent
-
-"<.>"
-	"." sent
-

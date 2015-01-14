@@ -2748,11 +2748,10 @@
 ;	"xiv" num ord f an sg ins SELECT:910
 ;	"xiv" num ord f an sg nom SELECT:910
 ;	"xiv" num ord nt an sg gen SELECT:910
-"<вв>"
-	"*вв"
-"<.>"
-	"." sent
-
+"<вв.>"
+	"вв." abbr
+	"вв." abbr
+		"." sent
 "<С>"
 	"с" pr
 "<одичанием>"
@@ -2961,7 +2960,3 @@
 	"Выборг" np al m nn sg prp
 "<.>"
 	"." sent
-
-"<.>"
-	"." sent
-
