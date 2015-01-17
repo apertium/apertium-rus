@@ -1,0 +1,2294 @@
+"<В>"
+	"в" pr
+"<1833>"
+	"1833" num
+"<году>"
+	"год" n m nn sg loc
+;	"год" n m nn sg dat REMOVE:416
+"<Афины>"
+	"Афина" np ant f pl nom
+	"Афина" np ant f sg gen
+	"Афины" np al f nn pl acc
+	"Афины" np al f nn pl nom
+"<провозглашены>"
+	"провозгласить" vblex perf tv pp pasv short mfn pl
+"<столицей>"
+	"столица" n f nn sg ins
+"<новосозданного>"
+	"*новосозданного"
+"<Королевства>"
+	"королевство" n nt nn pl acc
+	"королевство" n nt nn pl nom
+	"королевство" n nt nn sg gen
+"<Греция>"
+	"Греция" np al f nn sg nom
+"<(>"
+	"(" lpar
+"<на>"
+	"на" pr
+;	"на" ij REMOVE:560
+"<то>"
+	"то" cnjcoo
+	"то" cnjsub
+	"то" prn dem nt nn sg acc
+	"тот" det dem nt sg acc
+;	"то" prn dem nt nn sg nom REMOVE:376
+;	"тот" det dem nt sg nom REMOVE:376
+"<время>"
+	"время" n nt nn sg acc
+;	"время" n nt nn sg nom REMOVE:382
+"<в>"
+	"в" pr
+"<городе>"
+	"город" n m nn sg prp
+"<проживало>"
+	"проживать" vblex impf iv past nt sg
+	"проживать" vblex impf tv past nt sg
+"<5>"
+	"5" num
+"<тысяч>"
+	"тысяча" n f nn pl gen
+"<человек>"
+	"человек" n m aa pl gen count SELECT:424
+;	"человек" n m aa sg nom SELECT:424
+"<)>"
+	")" rpar
+"<.>"
+	"." sent
+
+"<В>"
+	"в" pr
+"<1834>"
+	"1834" num
+"<году>"
+	"год" n m nn sg loc
+;	"год" n m nn sg dat REMOVE:416
+"<в>"
+	"в" pr
+"<Афины>"
+	"Афины" np al f nn pl acc
+;	"Афина" np ant f pl nom REMOVE:376
+;	"Афины" np al f nn pl nom REMOVE:376
+;	"Афина" np ant f sg gen REMOVE:382
+"<прибыл>"
+	"прибыть" vblex perf iv past m sg
+;	"прибылой" adj short m sg prb REMOVE:827
+"<новый>"
+	"новый" adj m an sg nom
+	"новый" adj m nn sg acc
+"<греческий>"
+	"греческий" adj m an sg nom
+	"греческий" adj m nn sg acc
+"<король>"
+	"король" n m aa sg nom
+"<Оттон>"
+	"Оттон" np ant m sg nom
+"<Баварский>"
+	"баварский" adj m an sg nom
+	"баварский" adj m nn sg acc
+"<.>"
+	"." sent
+
+"<Молодой>"
+	"молодая" n f aa sg dat
+	"молодой" n m aa sg nom
+	"молодая" n f aa sg ins
+	"молодой" adj m nn sg acc
+	"молодой" adj f an sg dat
+	"молодой" adj m an sg nom
+	"молодой" adj f an sg ins
+;	"молодая" n f aa sg prp REMOVE:333
+;	"молодой" adj f an sg prp REMOVE:333
+;	"молодая" n f aa sg gen REMOVE:598
+;	"молодой" adj f an sg gen REMOVE:598
+"<король>"
+	"король" n m aa sg nom
+"<имел>"
+	"иметь" vblex impf iv past m sg
+	"иметь" vblex impf tv past m sg
+"<амбиции>"
+	"амбиция" n f nn pl acc
+	"амбиция" n f nn pl nom
+	"амбиция" n f nn sg dat
+	"амбиция" n f nn sg gen
+;	"амбиция" n f nn sg prp REMOVE:432
+"<отстроить>"
+	"отстроить" vblex perf iv inf
+	"отстроить" vblex perf tv inf
+"<город>"
+	"город" n m nn sg acc
+	"город" n m nn sg nom
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl prp REMOVE:432
+;	"и²" n nt nn sg prp REMOVE:432
+;	"и²" n nt nn pl acc REMOVE:493
+;	"и²" n nt nn pl dat REMOVE:493
+;	"и²" n nt nn pl gen REMOVE:493
+;	"и²" n nt nn pl ins REMOVE:493
+;	"и²" n nt nn pl nom REMOVE:493
+;	"и²" n nt nn sg acc REMOVE:493
+;	"и²" n nt nn sg dat REMOVE:493
+;	"и²" n nt nn sg gen REMOVE:493
+;	"и²" n nt nn sg ins REMOVE:493
+;	"и²" n nt nn sg nom REMOVE:493
+;	"и¹" ij REMOVE:768
+;	"и" adv REMOVE:772
+"<вернуть>"
+	"вернуть" vblex perf iv inf
+	"вернуть" vblex perf tv inf
+"<ему>"
+	"он¹" prn pers p3 m sg dat
+	"оно" prn pers p3 nt sg dat
+"<былое>"
+	"былое" n nt nn sg acc
+	"былое" n nt nn sg nom
+	"былой" adj nt an sg acc
+	"былой" adj nt an sg nom
+"<величие>"
+	"величие" n nt nn sg acc
+	"величие" n nt nn sg nom
+"<.>"
+	"." sent
+
+"<Приглашённые>"
+	"пригласить" vblex perf tv pp pasv mfn an pl nom
+	"пригласить" vblex perf tv pp pasv mfn nn pl acc
+"<в>"
+	"в" pr
+"<Афины>"
+	"Афины" np al f nn pl acc
+;	"Афина" np ant f pl nom REMOVE:376
+;	"Афины" np al f nn pl nom REMOVE:376
+;	"Афина" np ant f sg gen REMOVE:382
+"<Лео>"
+	"Лео" np ant m pl acc
+	"Лео" np ant m sg nom
+	"Лео" np ant m pl gen
+	"Лео" np ant m pl ins
+	"Лео" np ant m pl nom
+	"Лео" np ant m pl prp
+	"Лео" np ant m sg acc
+	"Лео" np ant m sg prp
+	"Лео" np ant m sg gen
+	"Лео" np ant m sg ins
+;	"Лео" np ant m pl dat REMOVE:667
+;	"Лео" np ant m sg dat REMOVE:667
+"<фон>"
+	"фон¹⁻²" n m nn sg acc
+	"фон¹⁻²" n m nn sg nom
+"<Кленце>"
+	"*Кленце"
+"<и>"
+	"и" cnjcoo @CNP MAP:731
+;	"и²" n nt nn pl acc REMOVE:493
+;	"и²" n nt nn pl dat REMOVE:493
+;	"и²" n nt nn pl gen REMOVE:493
+;	"и²" n nt nn pl ins REMOVE:493
+;	"и²" n nt nn pl nom REMOVE:493
+;	"и²" n nt nn pl prp REMOVE:493
+;	"и²" n nt nn sg acc REMOVE:493
+;	"и²" n nt nn sg dat REMOVE:493
+;	"и²" n nt nn sg gen REMOVE:493
+;	"и²" n nt nn sg ins REMOVE:493
+;	"и²" n nt nn sg nom REMOVE:493
+;	"и²" n nt nn sg prp REMOVE:493
+;	"и¹" ij REMOVE:768
+;	"и" adv REMOVE:772
+"<Теофил>"
+	"Теофил" np ant m sg nom
+"<фон>"
+	"фон¹⁻²" n m nn sg acc
+	"фон¹⁻²" n m nn sg nom
+"<Хансен>"
+	"*Хансен"
+"<построили>"
+	"построить" vblex perf iv past mfn pl
+	"построить" vblex perf tv past mfn pl
+"<несколько>"
+	"несколько" adv
+	"несколько" num aa acc
+	"несколько" num nn acc
+	"несколько" num nom
+"<главных>"
+	"главное" n nt nn pl gen SELECT:372
+	"главный" adj mfn an pl gen SELECT:372
+;	"главное" n nt nn pl prp SELECT:372
+;	"главный" adj mfn aa pl acc SELECT:372
+;	"главный" adj mfn an pl prp SELECT:372
+"<улиц>"
+	"улица" n f nn pl gen
+"<в>"
+	"в" pr
+"<неоклассическом>"
+	"неоклассический" adj m an sg prp SELECT:604
+;	"неоклассический" adj nt an sg prp SELECT:604
+"<стиле>"
+	"стиль¹⁻²" n m nn sg prp
+"<,>"
+	"," cm
+"<в>"
+	"в" pr
+"<том>"
+	"тот" det dem nt sg prp @N→ SELECT:685 MAP:724
+;	"том" n m nn sg nom REMOVE:376
+;	"тот" det dem m sg prp REMOVE:683
+;	"то" prn dem nt nn sg prp SELECT:685
+;	"том" n m nn sg acc SELECT:685
+;	"тот" prn dem m aa sg prp SELECT:685
+"<числе>"
+	"число" n nt nn sg prp
+"<площадь>"
+	"площадь" n f nn sg acc
+	"площадь" n f nn sg nom
+"<Синтагма>"
+	"синтагма" n f nn sg nom
+"<,>"
+	"," cm
+"<Афинский>"
+	"афинский" adj m an sg nom
+	"афинский" adj m nn sg acc
+"<университет>"
+	"университет" n m nn sg acc
+	"университет" n m nn sg nom
+"<,>"
+	"," cm
+"<Национальный>"
+	"национальный" adj m an sg nom
+	"национальный" adj m nn sg acc
+"<парк>"
+	"парк" n m nn sg acc
+	"парк" n m nn sg nom
+"<,>"
+	"," cm
+"<выставочный>"
+	"выставочный" adj m an sg nom
+	"выставочный" adj m nn sg acc
+"<зал>"
+	"зал" n m nn sg acc
+	"зал" n m nn sg nom
+	"зала" n f nn pl gen
+	"зало" n nt nn pl gen
+"<Заппейон>"
+	"*Заппейон"
+"<.>"
+	"." sent
+
+"<В>"
+	"в" pr
+"<1896>"
+	"1896" num
+"<году>"
+	"год" n m nn sg loc
+;	"год" n m nn sg dat REMOVE:416
+"<на>"
+	"на" pr
+;	"на" ij REMOVE:560
+"<восстановленном>"
+	"восстановить" vblex perf tv pp pasv m an sg prp
+	"восстановить" vblex perf tv pp pasv nt an sg prp
+"<стадионе>"
+	"стадион" n m nn sg prp
+"<Панатинаикос>"
+	"*Панатинаикос"
+"<,>"
+	"," cm
+"<выстроенном>"
+	"выстроить" vblex perf tv pp pasv m an sg prp
+	"выстроить" vblex perf tv pp pasv nt an sg prp
+"<из>"
+	"из" pr
+"<сплошного>"
+	"сплошной" adj m an sg gen SELECT:604
+;	"сплошной" adj m aa sg acc REMOVE:378
+;	"сплошной" adj nt an sg gen SELECT:604
+"<мрамора>"
+	"мрамор" n m nn sg gen
+"<,>"
+	"," cm
+"<проведены>"
+	"провести" vblex perf tv pp pasv short mfn pl
+"<Первые>"
+	"первое" n nt nn pl acc
+	"первое" n nt nn pl nom
+	"первый" num ord mfn nn pl acc
+	"первый" num ord mfn pl nom
+"<современные>"
+	"современный" adj mfn an pl nom
+	"современный" adj mfn nn pl acc
+"<Олимпийские>"
+	"олимпийский" adj mfn an pl nom
+	"олимпийский" adj mfn nn pl acc
+"<игры>"
+	"игра" n f nn pl acc
+	"игра" n f nn pl nom
+	"игра" n f nn sg gen
+"<.>"
+	"." sent
+¶
+
+"<В>"
+	"в" pr
+"<начале>"
+	"начало" n nt nn sg prp
+"<20>"
+	"20" num
+"<века>"
+	"век¹" n m nn pl acc
+	"веко" n nt nn sg gen
+	"век¹" n m nn sg gen
+;	"век¹" n m nn pl nom REMOVE:497
+"<активизировались>"
+	"активизировать" vblex impf tv past mfn pl pass
+	"активизироваться" vblex impf iv past mfn pl
+	"активизироваться" vblex perf iv past mfn pl
+"<археологические>"
+	"археологический" adj mfn an pl nom
+	"археологический" adj mfn nn pl acc
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl acc REMOVE:493
+;	"и²" n nt nn pl dat REMOVE:493
+;	"и²" n nt nn pl gen REMOVE:493
+;	"и²" n nt nn pl ins REMOVE:493
+;	"и²" n nt nn pl nom REMOVE:493
+;	"и²" n nt nn pl prp REMOVE:493
+;	"и²" n nt nn sg acc REMOVE:493
+;	"и²" n nt nn sg dat REMOVE:493
+;	"и²" n nt nn sg gen REMOVE:493
+;	"и²" n nt nn sg ins REMOVE:493
+;	"и²" n nt nn sg nom REMOVE:493
+;	"и²" n nt nn sg prp REMOVE:493
+;	"и¹" ij REMOVE:768
+;	"и" adv REMOVE:772
+"<реставрационные>"
+	"реставрационный" adj mfn an pl nom
+	"реставрационный" adj mfn nn pl acc
+"<работы>"
+	"работа" n f nn pl acc
+	"работа" n f nn pl nom
+	"работа" n f nn sg gen
+"<.>"
+	"." sent
+
+"<В>"
+	"в" pr
+"<1920-х>"
+	"1920" num ord mfn pl prp SELECT:528
+;	"1920" num ord mfn pl gen REMOVE:382
+;	"1920" num ord mfn aa pl acc SELECT:528
+"<годах>"
+	"год" n m nn pl prp
+"<население>"
+	"население" n nt nn sg acc
+	"население" n nt nn sg nom
+"<города>"
+	"город" n m nn pl acc
+	"город" n m nn pl nom
+	"город" n m nn sg gen
+"<выросло>"
+	"вырасти" vblex perf iv past nt sg
+"<до>"
+	"до" pr
+;	"до" n nt nn pl acc REMOVE:495
+;	"до" n nt nn pl dat REMOVE:495
+;	"до" n nt nn pl gen REMOVE:495
+;	"до" n nt nn pl ins REMOVE:495
+;	"до" n nt nn pl nom REMOVE:495
+;	"до" n nt nn pl prp REMOVE:495
+;	"до" n nt nn sg acc REMOVE:495
+;	"до" n nt nn sg dat REMOVE:495
+;	"до" n nt nn sg gen REMOVE:495
+;	"до" n nt nn sg ins REMOVE:495
+;	"до" n nt nn sg nom REMOVE:495
+;	"до" n nt nn sg prp REMOVE:495
+"<2>"
+	"2" num
+"<млн>"
+	"млн" abbr
+"<человек>"
+	"человек" n m aa pl gen count
+	"человек" n m aa sg nom
+"<,>"
+	"," cm
+"<согласно>"
+	"согласно" adv
+	"согласно" pr
+	"согласный²" adj short nt sg
+	"согласный¹" adj short nt sg
+"<греко>"
+	"*греко"
+-
+"<турецкому>"
+	"турецкий" adj m an sg dat SELECT:604
+;	"турецкий" adj nt an sg dat SELECT:604
+"<договору>"
+	"договор" n m nn sg dat
+"<об>"
+	"о" pr
+"<обмене>"
+	"обмен" n m nn sg prp
+"<населением>"
+	"население" n nt nn sg ins
+"<на>"
+	"на" pr
+;	"на" ij REMOVE:560
+"<родину>"
+	"родина" n f nn sg acc
+"<массово>"
+	"массово" adv
+;	"массовый" adj short nt sg REMOVE:366
+"<возвращались>"
+	"возвращать" vblex impf tv past mfn pl pass
+	"возвращаться" vblex impf iv past mfn pl
+"<афиняне>"
+	"афинянин" n m aa pl nom
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl prp REMOVE:434
+;	"и²" n nt nn sg prp REMOVE:434
+;	"и²" n nt nn pl acc REMOVE:493
+;	"и²" n nt nn pl dat REMOVE:493
+;	"и²" n nt nn pl gen REMOVE:493
+;	"и²" n nt nn pl ins REMOVE:493
+;	"и²" n nt nn pl nom REMOVE:493
+;	"и²" n nt nn sg acc REMOVE:493
+;	"и²" n nt nn sg dat REMOVE:493
+;	"и²" n nt nn sg gen REMOVE:493
+;	"и²" n nt nn sg ins REMOVE:493
+;	"и²" n nt nn sg nom REMOVE:493
+;	"и¹" ij REMOVE:768
+;	"и" adv REMOVE:772
+"<их>"
+	"их¹" det pos m sg nom
+	"они" prn pers p3 pl acc
+	"они" prn pers p3 pl gen
+	"их¹" det pos mfn pl nom
+;	"их¹" det pos f sg acc REMOVE:683
+;	"их¹" det pos f sg dat REMOVE:683
+;	"их¹" det pos f sg gen REMOVE:683
+;	"их¹" det pos f sg ins REMOVE:683
+;	"их¹" det pos f sg nom REMOVE:683
+;	"их¹" det pos f sg prp REMOVE:683
+;	"их¹" det pos nt sg acc REMOVE:683
+;	"их¹" det pos nt sg dat REMOVE:683
+;	"их¹" det pos nt sg gen REMOVE:683
+;	"их¹" det pos nt sg ins REMOVE:683
+;	"их¹" det pos nt sg nom REMOVE:683
+;	"их¹" det pos nt sg prp REMOVE:683
+;	"их¹" det pos mfn pl gen REMOVE:689
+;	"их¹" det pos mfn pl ins REMOVE:689
+;	"их¹" det pos mfn pl prp REMOVE:689
+;	"их¹" det pos m aa sg acc REMOVE:689
+;	"их¹" det pos m nn sg acc REMOVE:689
+;	"их¹" det pos m sg dat REMOVE:689
+;	"их¹" det pos m sg gen REMOVE:689
+;	"их¹" det pos m sg ins REMOVE:689
+;	"их¹" det pos m sg prp REMOVE:689
+;	"их¹" det pos mfn aa pl acc REMOVE:689
+;	"их¹" det pos mfn nn pl acc REMOVE:689
+;	"их¹" det pos mfn pl dat REMOVE:689
+;	"их²" ij REMOVE:766
+"<потомки>"
+	"потомок" n m aa pl nom
+"<,>"
+	"," cm
+"<изгнанные>"
+	"изгнать" vblex perf tv pp pasv mfn an pl nom
+	"изгнать" vblex perf tv pp pasv mfn nn pl acc
+"<османами>"
+	"осман" n m aa pl ins
+"<из>"
+	"из" pr
+"<Малой>"
+	"малый" adj f an sg gen
+;	"малый" adj f an sg dat REMOVE:378
+;	"малый" adj f an sg ins REMOVE:378
+;	"малый" adj f an sg prp REMOVE:378
+"<Азии>"
+	"Азия" np al f nn pl acc
+	"Азия" np al f nn pl nom
+	"Азия" np al f nn sg dat
+	"Азия" np al f nn sg gen
+;	"Азия" np al f nn sg prp REMOVE:432
+"<.>"
+	"." sent
+
+"<По>"
+	"По²" np cog f sg acc
+	"По²" np cog mfn pl nom
+	"По¹" np al f nn pl ins
+	"По²" np cog f sg ins
+	"По²" np cog mfn pl ins
+	"По²" np cog f sg nom
+	"По¹" np al f nn pl nom
+	"По²" np cog m sg acc
+	"По¹" np al f nn sg nom
+	"по" pr
+	"По²" np cog m sg ins
+	"По²" np cog m sg nom
+	"По¹" np al f nn sg ins
+	"По²" np cog mfn pl acc
+	"По¹" np al f nn pl acc
+	"По¹" np al f nn sg acc
+;	"По²" np cog f sg prp REMOVE:333
+;	"По²" np cog m sg prp REMOVE:333
+;	"По²" np cog mfn pl prp REMOVE:333
+;	"По¹" np al f nn pl prp REMOVE:333
+;	"По¹" np al f nn sg prp REMOVE:333
+;	"По²" np cog f sg gen REMOVE:598
+;	"По¹" np al f nn sg gen REMOVE:598
+;	"По²" np cog m sg gen REMOVE:598
+;	"По²" np cog mfn pl gen REMOVE:598
+;	"По¹" np al f nn pl gen REMOVE:598
+;	"По²" np cog f sg dat REMOVE:667
+;	"По²" np cog m sg dat REMOVE:667
+;	"По²" np cog mfn pl dat REMOVE:667
+;	"По¹" np al f nn pl dat REMOVE:667
+;	"По¹" np al f nn sg dat REMOVE:667
+;	"По²" np cog f sg ins fac REMOVE:829
+"<Севрскому>"
+	"севрский" adj m an sg dat
+	"севрский" adj nt an sg dat
+"<мирному>"
+	"мирный" adj m an sg dat SELECT:604
+;	"мирный" adj nt an sg dat SELECT:604
+"<договору>"
+	"договор" n m nn sg dat
+"<1920>"
+	"1920" num
+"<года>"
+	"год" n m nn pl acc
+	"год" n m nn sg gen
+;	"год" n m nn pl nom REMOVE:497
+"<и>"
+	"и" cnjcoo @CNP MAP:731
+;	"и²" n nt nn pl prp REMOVE:434
+;	"и²" n nt nn sg prp REMOVE:434
+;	"и²" n nt nn pl acc REMOVE:493
+;	"и²" n nt nn pl dat REMOVE:493
+;	"и²" n nt nn pl gen REMOVE:493
+;	"и²" n nt nn pl ins REMOVE:493
+;	"и²" n nt nn pl nom REMOVE:493
+;	"и²" n nt nn sg acc REMOVE:493
+;	"и²" n nt nn sg dat REMOVE:493
+;	"и²" n nt nn sg gen REMOVE:493
+;	"и²" n nt nn sg ins REMOVE:493
+;	"и²" n nt nn sg nom REMOVE:493
+;	"и¹" ij REMOVE:768
+;	"и" adv REMOVE:772
+"<Лозаннскому>"
+	"*Лозаннскому"
+"<договору>"
+	"договор" n m nn sg dat
+"<1923>"
+	"1923" num
+"<года>"
+	"год" n m nn pl acc
+	"год" n m nn sg gen
+;	"год" n m nn pl nom REMOVE:497
+"<,>"
+	"," cm
+"<заключенным>"
+	"заключить" vblex perf tv pp pasv m an sg ins
+	"заключить" vblex perf tv pp pasv mfn an pl dat
+	"заключить" vblex perf tv pp pasv nt an sg ins
+	"заключённая" n f aa pl dat
+	"заключённый" adj m an sg ins
+	"заключённый" adj mfn an pl dat
+	"заключённый" adj nt an sg ins
+	"заключённый" n m aa pl dat
+	"заключённый" n m aa sg ins
+"<по>"
+	"по" pr
+"<результатам>"
+	"результат" n m nn pl dat
+"<Балканских>"
+	"балканский" adj mfn an pl gen SELECT:650
+;	"балканский" adj mfn an pl prp REMOVE:434
+;	"балканский" adj mfn aa pl acc SELECT:650
+"<войн>"
+	"война" n f nn pl gen
+"<1912>"
+	"1912" num
+"<—>"
+	"—" guio
+"<1913>"
+	"1913" num
+"<годов>"
+	"год" n m nn pl gen
+;	"годовой" adj short m sg prb REMOVE:827
+"<,>"
+	"," cm
+"<Греция>"
+	"Греция" np al f nn sg nom
+"<почти>"
+	"почесть" vblex perf iv imp p2 sg
+	"почесть" vblex perf tv imp p2 sg
+	"почти" adv
+	"почтить" vblex perf iv imp p2 sg
+	"почтить" vblex perf tv imp p2 sg
+"<вдвое>"
+	"вдвое" adv
+"<увеличила>"
+	"увеличить" vblex perf iv past f sg
+	"увеличить" vblex perf tv past f sg
+"<свою>"
+	"свой" det pos f sg acc @N→ MAP:724
+"<территорию>"
+	"территория" n f nn sg acc
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl prp REMOVE:432
+;	"и²" n nt nn sg prp REMOVE:432
+;	"и²" n nt nn pl acc REMOVE:493
+;	"и²" n nt nn pl dat REMOVE:493
+;	"и²" n nt nn pl gen REMOVE:493
+;	"и²" n nt nn pl ins REMOVE:493
+;	"и²" n nt nn pl nom REMOVE:493
+;	"и²" n nt nn sg acc REMOVE:493
+;	"и²" n nt nn sg dat REMOVE:493
+;	"и²" n nt nn sg gen REMOVE:493
+;	"и²" n nt nn sg ins REMOVE:493
+;	"и²" n nt nn sg nom REMOVE:493
+;	"и¹" ij REMOVE:768
+;	"и" adv REMOVE:772
+"<население>"
+	"население" n nt nn sg acc
+	"население" n nt nn sg nom
+"<,>"
+	"," cm
+"<а>"
+	"а" cnjcoo
+;	"а²" n nt nn pl prp REMOVE:432
+;	"а²" n nt nn sg prp REMOVE:432
+;	"а²" n nt nn pl acc REMOVE:493
+;	"а²" n nt nn pl dat REMOVE:493
+;	"а²" n nt nn pl gen REMOVE:493
+;	"а²" n nt nn pl ins REMOVE:493
+;	"а²" n nt nn pl nom REMOVE:493
+;	"а²" n nt nn sg acc REMOVE:493
+;	"а²" n nt nn sg dat REMOVE:493
+;	"а²" n nt nn sg gen REMOVE:493
+;	"а²" n nt nn sg ins REMOVE:493
+;	"а²" n nt nn sg nom REMOVE:493
+;	"а¹" ij REMOVE:803
+"<Афины>"
+	"Афина" np ant f pl nom
+	"Афина" np ant f sg gen
+	"Афины" np al f nn pl acc
+	"Афины" np al f nn pl nom
+"<очень>"
+	"очень" adv
+"<скоро>"
+	"скоро" adv
+;	"скорый" adj short nt sg REMOVE:366
+"<заняли>"
+	"занять¹⁻²" vblex perf iv past mfn pl
+	"занять¹⁻²" vblex perf tv past mfn pl
+"<достойное>"
+	"достойный" adj nt an sg acc
+	"достойный" adj nt an sg nom
+"<место>"
+	"место" n nt nn sg acc
+	"место" n nt nn sg nom
+"<среди>"
+	"среди" pr
+"<европейских>"
+	"европейский" adj mfn aa pl acc
+	"европейский" adj mfn an pl gen
+	"европейский" adj mfn an pl prp
+"<столиц>"
+	"столица" n f nn pl gen
+"<.>"
+	"." sent
+¶
+
+"<Во>"
+	"в" pr SELECT:821
+;	"во" ij SELECT:821
+;	"во" part SELECT:821
+"<время>"
+	"время" n nt nn sg acc
+;	"время" n nt nn sg nom REMOVE:376
+"<Второй>"
+	"второй" num ord m sg nom
+	"второй" num ord m nn sg acc
+	"второй" num ord f sg gen
+	"второй" num ord f sg ins
+;	"второй" num ord f sg prp REMOVE:434
+;	"второй" num ord f sg dat REMOVE:667
+;	"втора" n f nn sg ins REMOVE:758
+"<мировой>"
+	"мировая" n f nn sg dat
+	"мировая" n f nn sg gen
+	"мировая" n f nn sg ins
+	"мировая" n f nn sg prp
+	"мировой" n m aa sg nom
+	"мировой²" adj f an sg dat
+	"мировой²" adj f an sg gen
+	"мировой²" adj f an sg ins
+	"мировой²" adj f an sg prp
+	"мировой²" adj m an sg nom
+	"мировой²" adj m nn sg acc
+	"мировой¹" adj f an sg dat
+	"мировой¹" adj f an sg gen
+	"мировой¹" adj f an sg ins
+	"мировой¹" adj f an sg prp
+	"мировой¹" adj m an sg nom
+	"мировой¹" adj m nn sg acc
+"<войны>"
+	"война" n f nn pl acc
+	"война" n f nn pl nom
+	"война" n f nn sg gen
+"<Афины>"
+	"Афина" np ant f pl nom
+	"Афина" np ant f sg gen
+	"Афины" np al f nn pl acc
+	"Афины" np al f nn pl nom
+"<оккупировали>"
+	"оккупировать" vblex impf iv past mfn pl
+	"оккупировать" vblex impf tv past mfn pl
+	"оккупировать" vblex perf iv past mfn pl
+	"оккупировать" vblex perf tv past mfn pl
+"<немецкие>"
+	"немецкий" adj mfn an pl nom
+	"немецкий" adj mfn nn pl acc
+"<войска>"
+	"войска" n nt nn pl acc
+	"войска" n nt nn pl nom
+	"войско" n nt nn pl acc
+	"войско" n nt nn pl nom
+	"войско" n nt nn sg gen
+"<.>"
+	"." sent
+
+"<Однако>"
+	"однако" cnjcoo
+	"однако" ij
+	"однако" paren
+"<после>"
+	"после" adv
+	"после" pr
+;	"посол¹" n m aa sg prp REMOVE:432
+"<войны>"
+	"война" n f nn pl acc
+	"война" n f nn pl nom
+	"война" n f nn sg gen
+"<в>"
+	"в" pr
+"<Афинах>"
+	"Афина" np ant f pl prp
+	"Афины" np al f nn pl prp
+"<,>"
+	"," cm
+"<как>"
+	"как" adv itg
+	"как" adv rel
+	"как" cnjcoo
+	"как" cnjsub
+	"как" part
+"<и>"
+	"и" adv
+;	"и²" n nt nn pl acc REMOVE:493
+;	"и²" n nt nn pl dat REMOVE:493
+;	"и²" n nt nn pl gen REMOVE:493
+;	"и²" n nt nn pl ins REMOVE:493
+;	"и²" n nt nn pl nom REMOVE:493
+;	"и²" n nt nn pl prp REMOVE:493
+;	"и²" n nt nn sg acc REMOVE:493
+;	"и²" n nt nn sg dat REMOVE:493
+;	"и²" n nt nn sg gen REMOVE:493
+;	"и²" n nt nn sg ins REMOVE:493
+;	"и²" n nt nn sg nom REMOVE:493
+;	"и²" n nt nn sg prp REMOVE:493
+;	"и¹" ij REMOVE:768
+;	"и" cnjcoo REMOVE:770
+"<в>"
+	"в" pr
+"<Греции>"
+	"Греция" np al f nn pl acc
+	"Греция" np al f nn sg prp
+;	"Греция" np al f nn pl nom REMOVE:376
+;	"Греция" np al f nn sg dat REMOVE:382
+;	"Греция" np al f nn sg gen REMOVE:382
+"<в>"
+	"в" pr
+"<целом>"
+	"целое" n nt nn sg prp
+	"целый" adj m an sg prp
+	"целый" adj nt an sg prp
+"<,>"
+	"," cm
+"<начался>"
+	"начаться" vblex perf iv past m sg
+"<период>"
+	"период" n m nn sg acc
+	"период" n m nn sg nom
+"<ускоренного>"
+	"ускоренный" adj m aa sg acc
+	"ускоренный" adj m an sg gen
+	"ускоренный" adj nt an sg gen
+	"ускорить" vblex perf tv pp pasv m aa sg acc
+	"ускорить" vblex perf tv pp pasv m an sg gen
+	"ускорить" vblex perf tv pp pasv nt an sg gen
+"<развития>"
+	"развитие" n nt nn pl acc
+	"развитие" n nt nn pl nom
+	"развитие" n nt nn sg gen
+"<,>"
+	"," cm
+"<который>"
+	"который" prn rel m nn sg acc
+	"который" prn rel m sg nom
+;	"который" det itg m nn sg acc REMOVE:438
+;	"который" det itg m sg nom REMOVE:438
+"<длился>"
+	"длить" vblex impf tv past m sg pass
+	"длиться" vblex impf iv past m sg
+"<до>"
+	"до" pr
+;	"до" n nt nn pl acc REMOVE:495
+;	"до" n nt nn pl dat REMOVE:495
+;	"до" n nt nn pl gen REMOVE:495
+;	"до" n nt nn pl ins REMOVE:495
+;	"до" n nt nn pl nom REMOVE:495
+;	"до" n nt nn pl prp REMOVE:495
+;	"до" n nt nn sg acc REMOVE:495
+;	"до" n nt nn sg dat REMOVE:495
+;	"до" n nt nn sg gen REMOVE:495
+;	"до" n nt nn sg ins REMOVE:495
+;	"до" n nt nn sg nom REMOVE:495
+;	"до" n nt nn sg prp REMOVE:495
+"<1980-х>"
+	"1980" num ord mfn pl gen
+;	"1980" num ord mfn aa pl acc REMOVE:378
+;	"1980" num ord mfn pl prp REMOVE:378
+"<,>"
+	"," cm
+"<когда>"
+	"когда" adv itg
+	"когда" adv rel
+"<впервые>"
+	"впервые" adv
+"<дали>"
+	"даль" n f nn pl acc
+	"даль" n f nn pl nom
+	"дать" vblex perf tv past mfn pl
+	"даль" n f nn sg gen
+	"дать" vblex perf iv past mfn pl
+;	"даль" n f nn sg dat REMOVE:667
+;	"даль" n f nn sg prp REMOVE:432
+"<о>"
+	"о" pr SELECT:458
+;	"о²" n nt nn pl acc SELECT:458
+;	"о²" n nt nn pl dat SELECT:458
+;	"о²" n nt nn pl gen SELECT:458
+;	"о²" n nt nn pl ins SELECT:458
+;	"о²" n nt nn pl nom SELECT:458
+;	"о²" n nt nn pl prp SELECT:458
+;	"о²" n nt nn sg acc SELECT:458
+;	"о²" n nt nn sg dat SELECT:458
+;	"о²" n nt nn sg gen SELECT:458
+;	"о²" n nt nn sg ins SELECT:458
+;	"о²" n nt nn sg nom SELECT:458
+;	"о²" n nt nn sg prp SELECT:458
+;	"о¹" ij SELECT:458
+"<себе>"
+	"себе" part
+	"себя" prn ref prp
+;	"себя" prn ref dat REMOVE:393
+"<знать>"
+	"знать²" vblex impf iv inf
+	"знать²" vblex impf tv inf
+	"знать³" paren
+	"знать¹" n f nn sg acc
+	"знать¹" n f nn sg nom
+"<проблема>"
+	"проблема" n f nn sg nom
+"<перенаселения>"
+	"перенаселение" n nt nn pl acc
+	"перенаселение" n nt nn pl nom
+	"перенаселение" n nt nn sg gen
+"<столицы>"
+	"столица" n f nn pl acc
+	"столица" n f nn pl nom
+	"столица" n f nn sg gen
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl prp REMOVE:434
+;	"и²" n nt nn sg prp REMOVE:434
+;	"и²" n nt nn pl acc REMOVE:493
+;	"и²" n nt nn pl dat REMOVE:493
+;	"и²" n nt nn pl gen REMOVE:493
+;	"и²" n nt nn pl ins REMOVE:493
+;	"и²" n nt nn pl nom REMOVE:493
+;	"и²" n nt nn sg acc REMOVE:493
+;	"и²" n nt nn sg dat REMOVE:493
+;	"и²" n nt nn sg gen REMOVE:493
+;	"и²" n nt nn sg ins REMOVE:493
+;	"и²" n nt nn sg nom REMOVE:493
+;	"и¹" ij REMOVE:768
+;	"и" adv REMOVE:772
+"<проблема>"
+	"проблема" n f nn sg nom
+"<транспорта>"
+	"транспорт" n m nn sg gen
+"<.>"
+	"." sent
+
+"<Вступление>"
+	"вступление" n nt nn sg acc
+	"вступление" n nt nn sg nom
+"<Греции>"
+	"Греция" np al f nn pl acc
+	"Греция" np al f nn pl nom
+	"Греция" np al f nn sg gen
+;	"Греция" np al f nn sg prp REMOVE:432
+;	"Греция" np al f nn sg dat REMOVE:667
+"<в>"
+	"в" pr
+"<ЕС>"
+	"*ЕС"
+"<в>"
+	"в" pr
+"<1981>"
+	"1981" num
+"<году>"
+	"год" n m nn sg loc
+;	"год" n m nn sg dat REMOVE:416
+"<принесло>"
+	"принести" vblex perf iv past nt sg
+	"принести" vblex perf tv past nt sg
+"<Афинам>"
+	"Афина" np ant f pl dat
+	"Афины" np al f nn pl dat
+"<не только>"
+	"не только" cnjcoo
+"<колоссальные>"
+	"колоссальный" adj mfn an pl nom
+	"колоссальный" adj mfn nn pl acc
+"<инвестиции>"
+	"инвестиция" n f nn pl acc
+	"инвестиция" n f nn pl nom
+	"инвестиция" n f nn sg prp
+	"инвестиция" n f nn sg gen
+;	"инвестиция" n f nn sg dat REMOVE:667
+"<,>"
+	"," cm
+"<но и>"
+	"но и" cnjcoo
+"<целый>"
+	"целый" adj m an sg nom
+	"целый" adj m nn sg acc
+"<ряд>"
+	"ряд" n m nn sg acc
+	"ряд" n m nn sg nom
+"<урбоэкологических>"
+	"*урбоэкологических"
+"<проблем>"
+	"проблема" n f nn pl gen
+"<.>"
+	"." sent
+
+"<На>"
+	"на" pr
+;	"на" ij REMOVE:560
+"<протяжении>"
+	"протяжение" n nt nn sg prp
+"<1990-х>"
+	"1990" num ord mfn aa pl acc
+	"1990" num ord mfn pl gen
+;	"1990" num ord mfn pl prp REMOVE:434
+"<годов>"
+	"год" n m nn pl gen
+;	"годовой" adj short m sg prb REMOVE:827
+"<городские>"
+	"городской" adj mfn an pl nom
+	"городской" adj mfn nn pl acc
+	"городской" n m aa pl nom
+"<власти>"
+	"власти" n f nn pl acc
+	"власти" n f nn pl nom
+	"власть" n f nn pl acc
+	"власть" n f nn pl nom
+	"власть" n f nn sg gen
+;	"власть" n f nn sg dat REMOVE:667
+;	"власть" n f nn sg prp REMOVE:432
+"<успешно>"
+	"успешно" adv
+;	"успешный" adj short nt sg REMOVE:366
+"<внедряли>"
+	"внедрять" vblex impf iv past mfn pl
+	"внедрять" vblex impf tv past mfn pl
+"<современные>"
+	"современный" adj mfn an pl nom
+	"современный" adj mfn nn pl acc
+"<меры>"
+	"мера" n f nn pl acc
+	"мера" n f nn pl nom
+	"мера" n f nn sg gen
+"<для>"
+	"для" pr
+;	"длить" vblex impf iv pprs adv REMOVE:760
+;	"длить" vblex impf tv pprs adv REMOVE:760
+"<борьбы>"
+	"борьба" n f nn sg gen
+;	"борьба" n f nn pl acc prb REMOVE:827
+;	"борьба" n f nn pl nom prb REMOVE:827
+"<со>"
+	"с" pr
+"<смогом>"
+	"смог" n m nn sg ins
+"<,>"
+	"," cm
+"<в>"
+	"в" pr
+"<результате>"
+	"результат" n m nn sg prp
+"<в>"
+	"в" pr
+"<городе>"
+	"город" n m nn sg prp
+"<,>"
+	"," cm
+"<смог>"
+	"смог" n m nn sg acc
+	"смог" n m nn sg nom
+	"смочь" vblex perf iv past m sg
+"<сегодня>"
+	"сегодня" adv
+	"сегодня" n nt nn pl acc
+	"сегодня" n nt nn sg nom
+	"сегодня" n nt nn pl gen
+	"сегодня" n nt nn pl ins
+	"сегодня" n nt nn pl nom
+	"сегодня" n nt nn pl prp
+	"сегодня" n nt nn sg acc
+	"сегодня" n nt nn sg prp
+	"сегодня" n nt nn sg gen
+	"сегодня" n nt nn sg ins
+;	"сегодня" n nt nn pl dat REMOVE:667
+;	"сегодня" n nt nn sg dat REMOVE:667
+"<не>"
+	"не" part
+"<появляется>"
+	"появляться" vblex impf iv pres p3 sg
+"<даже>"
+	"даже" adv
+	"даже" cnjcoo
+	"даже" cnjsub
+"<при>"
+	"при" pr SELECT:406
+;	"переть" vblex impf iv imp p2 sg SELECT:406
+;	"переть" vblex impf tv imp p2 sg SELECT:406
+;	"пря" n f nn pl acc SELECT:406
+;	"пря" n f nn pl nom SELECT:406
+;	"пря" n f nn sg gen SELECT:406
+"<температуре>"
+	"температура" n f nn sg prp
+;	"температура" n f nn sg dat REMOVE:667
+"<воздуха>"
+	"воздух²" n m nn sg gen
+	"воздух¹" n m nn sg gen
+"<выше>"
+	"высокий" adj comp pred
+	"выше" adv
+"<40>"
+	"40" num
+"<градусов>"
+	"градус" n m nn pl gen
+"<Цельсия>"
+	"Цельсий" np ant m sg acc
+	"Цельсий" np ant m sg gen
+"<.>"
+	"." sent
+
+"<Транспортная>"
+	"транспортный" adj f an sg nom
+"<ситуация>"
+	"ситуация" n f nn sg nom
+"<несколько>"
+	"несколько" adv
+	"несколько" num aa acc
+	"несколько" num nn acc
+	"несколько" num nom
+"<улучшилась>"
+	"улучшиться" vblex perf iv past f sg
+"<с>"
+	"с" pr
+"<реконструкцией>"
+	"реконструкция" n f nn sg ins
+"<существующих>"
+	"существовать" vblex impf iv pprs actv mfn aa pl acc
+	"существовать" vblex impf iv pprs actv mfn an pl gen
+	"существующий" adj mfn an pl gen
+	"существующий" adj mfn aa pl acc
+;	"существовать" vblex impf iv pprs actv mfn an pl prp REMOVE:434
+;	"существующий" adj mfn an pl prp REMOVE:434
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl acc REMOVE:493
+;	"и²" n nt nn pl dat REMOVE:493
+;	"и²" n nt nn pl gen REMOVE:493
+;	"и²" n nt nn pl ins REMOVE:493
+;	"и²" n nt nn pl nom REMOVE:493
+;	"и²" n nt nn pl prp REMOVE:493
+;	"и²" n nt nn sg acc REMOVE:493
+;	"и²" n nt nn sg dat REMOVE:493
+;	"и²" n nt nn sg gen REMOVE:493
+;	"и²" n nt nn sg ins REMOVE:493
+;	"и²" n nt nn sg nom REMOVE:493
+;	"и²" n nt nn sg prp REMOVE:493
+;	"и¹" ij REMOVE:768
+;	"и" adv REMOVE:772
+"<построением>"
+	"построение" n nt nn sg ins
+"<новых>"
+	"новое" n nt nn pl gen
+	"новый" adj mfn an pl gen
+	"новый" adj mfn aa pl acc
+;	"новое" n nt nn pl prp REMOVE:434
+;	"новый" adj mfn an pl prp REMOVE:434
+"<магистралей>"
+	"магистраль" n f nn pl gen
+"<,>"
+	"," cm
+"<а>"
+	"а" cnjcoo
+;	"а²" n nt nn pl prp REMOVE:432
+;	"а²" n nt nn sg prp REMOVE:432
+;	"а²" n nt nn pl acc REMOVE:493
+;	"а²" n nt nn pl dat REMOVE:493
+;	"а²" n nt nn pl gen REMOVE:493
+;	"а²" n nt nn pl ins REMOVE:493
+;	"а²" n nt nn pl nom REMOVE:493
+;	"а²" n nt nn sg acc REMOVE:493
+;	"а²" n nt nn sg dat REMOVE:493
+;	"а²" n nt nn sg gen REMOVE:493
+;	"а²" n nt nn sg ins REMOVE:493
+;	"а²" n nt nn sg nom REMOVE:493
+;	"а¹" ij REMOVE:803
+"<накануне>"
+	"накануне" adv
+	"накануне" pr
+"<Олимпиады>"
+	"Олимпиада" np ant f pl nom
+	"Олимпиада" np ant f sg gen
+	"олимпиада" n f nn pl acc
+	"олимпиада" n f nn pl nom
+	"олимпиада" n f nn sg gen
+"<2004>"
+	"2004" num
+"<года>"
+	"год" n m nn pl acc
+	"год" n m nn sg gen
+;	"год" n m nn pl nom REMOVE:497
+"<—>"
+	"—" guio
+"<новой>"
+	"нова" n f nn sg ins
+	"новый" adj f an sg dat
+	"новый" adj f an sg gen
+	"новый" adj f an sg ins
+	"новый" adj f an sg prp
+"<ветки>"
+	"ветка" n f nn pl acc
+	"ветка" n f nn pl nom
+	"ветка" n f nn sg gen
+"<метрополитена>"
+	"метрополитен" n m nn sg gen
+"<.>"
+	"." sent
+¶
+
+"<Современные>"
+	"современный" adj mfn an pl nom
+;	"современный" adj mfn nn pl acc REMOVE:478
+"<Афины>"
+	"Афина" np ant f pl nom
+	"Афина" np ant f sg gen
+	"Афины" np al f nn pl acc
+	"Афины" np al f nn pl nom
+"<—>"
+	"—" guio
+"<мегаполис>"
+	"мегаполис" n m nn sg acc
+	"мегаполис" n m nn sg nom
+"<с>"
+	"с" pr
+"<античными>"
+	"античный" adj mfn an pl ins
+"<памятниками>"
+	"памятник" n m nn pl ins
+"<,>"
+	"," cm
+"<всемирно>"
+	"всемирно" adv
+;	"всемирный" adj short nt sg REMOVE:366
+"<известный>"
+	"известный" adj m an sg nom
+	"известный" adj m nn sg acc
+"<«>"
+	"«" lquot
+"<ночной>"
+	"ночной" adj f an sg ins
+;	"ночной" adj f an sg dat REMOVE:472
+;	"ночной" adj f an sg gen REMOVE:472
+;	"ночной" adj f an sg prp REMOVE:472
+;	"ночной" adj m an sg nom REMOVE:472
+;	"ночной" adj m nn sg acc REMOVE:472
+"<жизнью>"
+	"жизнь" n f nn sg ins
+"<»>"
+	"»" rquot
+"<и>"
+	"и²" n nt nn sg ins
+	"и" cnjcoo
+	"и²" n nt nn pl acc
+	"и²" n nt nn sg prp
+	"и²" n nt nn pl gen
+	"и²" n nt nn pl ins
+	"и²" n nt nn pl nom
+	"и²" n nt nn pl prp
+	"и²" n nt nn sg acc
+	"и²" n nt nn sg nom
+	"и²" n nt nn sg gen
+;	"и²" n nt nn pl dat REMOVE:667
+;	"и²" n nt nn sg dat REMOVE:667
+;	"и¹" ij REMOVE:768
+;	"и" adv REMOVE:772
+"<торговыми>"
+	"торговый" adj mfn an pl ins
+"<центрами>"
+	"центр" n m nn pl ins
+"<высшего>"
+	"высший" adj m an sg gen SELECT:650 SELECT:604
+;	"высший" adj m aa sg acc SELECT:650
+;	"высший" adj nt an sg gen SELECT:650 SELECT:604
+"<уровня>"
+	"уровень" n m nn sg gen
+"<.>"
+	"." sent
+
+"<В>"
+	"в" pr
+"<2004>"
+	"2004" num
+"<году>"
+	"год" n m nn sg loc
+;	"год" n m nn sg dat REMOVE:416
+"<здесь>"
+	"здесь" adv
+"<состоялись>"
+	"состояться" vblex perf iv past mfn pl
+"<28>"
+	"28" num
+"<летние>"
+	"летний" adj mfn nn pl acc
+;	"летний" adj mfn an pl nom REMOVE:497
+"<Олимпийские>"
+	"олимпийский" adj mfn an pl nom
+	"олимпийский" adj mfn nn pl acc
+"<игры>"
+	"игра" n f nn pl acc
+	"игра" n f nn pl nom
+	"игра" n f nn sg gen
+"<.>"
+	"." sent
+
+"<В>"
+	"в" pr
+"<декабре>"
+	"декабрь" n m nn sg prp
+"<2008>"
+	"2008" num
+"<года>"
+	"год" n m nn sg gen SELECT:410
+;	"год" n m nn pl acc SELECT:410
+;	"год" n m nn pl nom SELECT:410
+"<в>"
+	"в" pr
+"<Афинах>"
+	"Афина" np ant f pl prp
+	"Афины" np al f nn pl prp
+"<вспыхнули>"
+	"вспыхнуть" vblex perf iv past mfn pl
+"<массовые>"
+	"массовый" adj mfn an pl nom
+	"массовый" adj mfn nn pl acc
+"<беспорядки>"
+	"беспорядки" n m nn pl acc
+	"беспорядки" n m nn pl nom
+	"беспорядок" n m nn pl acc
+	"беспорядок" n m nn pl nom
+"<,>"
+	"," cm
+"<которые>"
+	"который" prn rel mfn nn pl acc
+	"который" prn rel mfn pl nom
+;	"который" det itg mfn nn pl acc REMOVE:442
+;	"который" det itg mfn pl nom REMOVE:442
+"<быстро>"
+	"быстро" adv
+;	"быстрый" adj short nt sg REMOVE:366
+"<охватили>"
+	"охватить" vblex perf iv past mfn pl
+	"охватить" vblex perf tv past mfn pl
+"<всю>"
+	"весь¹" det all f sg acc
+"<Грецию>"
+	"Греция" np al f nn sg acc
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl acc REMOVE:493
+;	"и²" n nt nn pl dat REMOVE:493
+;	"и²" n nt nn pl gen REMOVE:493
+;	"и²" n nt nn pl ins REMOVE:493
+;	"и²" n nt nn pl nom REMOVE:493
+;	"и²" n nt nn pl prp REMOVE:493
+;	"и²" n nt nn sg acc REMOVE:493
+;	"и²" n nt nn sg dat REMOVE:493
+;	"и²" n nt nn sg gen REMOVE:493
+;	"и²" n nt nn sg ins REMOVE:493
+;	"и²" n nt nn sg nom REMOVE:493
+;	"и²" n nt nn sg prp REMOVE:493
+;	"и¹" ij REMOVE:768
+;	"и" adv REMOVE:772
+"<всколыхнули>"
+	"всколыхнуть" vblex perf iv past mfn pl
+	"всколыхнуть" vblex perf tv past mfn pl
+"<всю>"
+	"весь¹" det all f sg acc
+"<Европу>"
+	"Европа" np al f nn sg acc
+	"Европа" np ant f sg acc
+"<.>"
+	"." sent
+
+"<Поводом>"
+	"повод²" n m nn sg ins
+	"повод¹" n m nn sg ins
+"<к>"
+	"к" pr
+"<развертыванию>"
+	"развёртывание" n nt nn sg dat
+"<массовых>"
+	"массовый" adj mfn an pl gen SELECT:650
+;	"массовый" adj mfn an pl prp REMOVE:434
+;	"массовый" adj mfn aa pl acc SELECT:650
+"<акций>"
+	"акция¹⁻²" n f nn pl gen
+"<протеста>"
+	"протест" n m nn sg gen
+"<,>"
+	"," cm
+"<которые>"
+	"который" prn rel mfn nn pl acc
+	"который" prn rel mfn pl nom
+;	"который" det itg mfn nn pl acc REMOVE:442
+;	"который" det itg mfn pl nom REMOVE:442
+"<нередко>"
+	"нередко" adv
+;	"нередкий" adj short nt sg REMOVE:366
+"<перерастали>"
+	"перерастать" vblex impf iv past mfn pl
+	"перерастать" vblex impf tv past mfn pl
+"<в>"
+	"в" pr
+"<погромы>"
+	"погром" n m nn pl acc
+;	"погром" n m nn pl nom REMOVE:376
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl prp REMOVE:434
+;	"и²" n nt nn sg prp REMOVE:434
+;	"и²" n nt nn pl acc REMOVE:493
+;	"и²" n nt nn pl dat REMOVE:493
+;	"и²" n nt nn pl gen REMOVE:493
+;	"и²" n nt nn pl ins REMOVE:493
+;	"и²" n nt nn pl nom REMOVE:493
+;	"и²" n nt nn sg acc REMOVE:493
+;	"и²" n nt nn sg dat REMOVE:493
+;	"и²" n nt nn sg gen REMOVE:493
+;	"и²" n nt nn sg ins REMOVE:493
+;	"и²" n nt nn sg nom REMOVE:493
+;	"и¹" ij REMOVE:768
+;	"и" adv REMOVE:772
+"<беспорядки>"
+	"беспорядки" n m nn pl acc
+	"беспорядки" n m nn pl nom
+	"беспорядок" n m nn pl acc
+	"беспорядок" n m nn pl nom
+"<,>"
+	"," cm
+"<стало>"
+	"стать²⁻³" vblex perf iv past nt sg
+"<убийство>"
+	"убийство" n nt nn sg acc
+	"убийство" n nt nn sg nom
+"<6>"
+	"6" num
+"<декабря>"
+	"декабрь" n m nn sg gen
+"<16>"
+	"16" num
+-
+"<летнего>"
+	"летний" adj m aa sg acc
+	"летний" adj m an sg gen
+	"летний" adj nt an sg gen
+"<подростка>"
+	"подросток" n m aa sg acc
+	"подросток" n m aa sg gen
+"<патрульным>"
+	"патрульный" adj m an sg ins
+	"патрульный" adj mfn an pl dat
+	"патрульный" adj nt an sg ins
+	"патрульный" n m aa pl dat
+	"патрульный" n m aa sg ins
+"<афинской>"
+	"афинский" adj f an sg dat
+	"афинский" adj f an sg gen
+	"афинский" adj f an sg ins
+;	"афинский" adj f an sg prp REMOVE:432
+"<полиции>"
+	"полиция" n f nn pl acc
+	"полиция" n f nn pl nom
+	"полиция" n f nn sg dat
+	"полиция" n f nn sg gen
+;	"полиция" n f nn sg prp REMOVE:432
+"<.>"
+	"." sent
+
+"<В>"
+	"в" pr
+"<2010>"
+	"2010" num
+"<году>"
+	"год" n m nn sg loc
+;	"год" n m nn sg dat REMOVE:416
+"<Афины>"
+	"Афина" np ant f pl nom
+	"Афина" np ant f sg gen
+	"Афины" np al f nn pl acc
+	"Афины" np al f nn pl nom
+"<стали>"
+	"сталь" n f nn pl acc
+	"сталь" n f nn pl nom
+	"стать²⁻³" vblex perf iv past mfn pl
+	"сталь" n f nn sg gen
+	"сталь" n f nn sg prp
+;	"сталь" n f nn sg dat REMOVE:667
+"<одним>"
+	"один" num m sg ins
+	"один" num nt sg ins
+;	"один" det m sg ins REMOVE:438
+;	"один" det mfn pl dat REMOVE:438
+;	"один" det nt sg ins REMOVE:438
+;	"один" num mfn pl dat REMOVE:667
+"<из>"
+	"из" pr
+"<основных>"
+	"основный¹⁻²" adj mfn an pl gen
+	"основной" adj mfn an pl gen
+;	"основной" adj mfn aa pl acc REMOVE:378
+;	"основной" adj mfn an pl prp REMOVE:378
+;	"основный¹⁻²" adj mfn aa pl acc REMOVE:378
+;	"основный¹⁻²" adj mfn an pl prp REMOVE:378
+"<очагов>"
+	"очаг" n m nn pl gen
+	"очаговый" adj short m sg
+"<массовых>"
+	"массовый" adj mfn aa pl acc
+	"массовый" adj mfn an pl gen
+;	"массовый" adj mfn an pl prp REMOVE:432
+"<акций>"
+	"акция¹⁻²" n f nn pl gen
+"<гражданского>"
+	"гражданский" adj nt an sg gen
+;	"гражданский" adj m aa sg acc REMOVE:468
+;	"гражданский" adj m an sg gen REMOVE:468
+"<неповиновения>"
+	"неповиновение" n nt nn pl acc
+	"неповиновение" n nt nn pl nom
+	"неповиновение" n nt nn sg gen
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl prp REMOVE:432
+;	"и²" n nt nn sg prp REMOVE:432
+;	"и²" n nt nn pl acc REMOVE:493
+;	"и²" n nt nn pl dat REMOVE:493
+;	"и²" n nt nn pl gen REMOVE:493
+;	"и²" n nt nn pl ins REMOVE:493
+;	"и²" n nt nn pl nom REMOVE:493
+;	"и²" n nt nn sg acc REMOVE:493
+;	"и²" n nt nn sg dat REMOVE:493
+;	"и²" n nt nn sg gen REMOVE:493
+;	"и²" n nt nn sg ins REMOVE:493
+;	"и²" n nt nn sg nom REMOVE:493
+;	"и¹" ij REMOVE:768
+;	"и" adv REMOVE:772
+"<общенациональных>"
+	"общенациональный" adj mfn aa pl acc
+	"общенациональный" adj mfn an pl gen
+;	"общенациональный" adj mfn an pl prp REMOVE:432
+"<забастовок>"
+	"забастовка" n f nn pl gen
+"<как>"
+	"как" adv itg
+	"как" adv rel
+	"как" cnjcoo
+	"как" cnjsub
+	"как" part
+"<протеста>"
+	"протест" n m nn sg gen
+"<против>"
+	"против" pr
+;	"против" pred REMOVE:638
+"<антикризисных>"
+	"антикризисный" adj mfn an pl gen
+;	"антикризисный" adj mfn aa pl acc REMOVE:378
+;	"антикризисный" adj mfn an pl prp REMOVE:378
+"<мер>"
+	"мера" n f nn pl gen
+	"мереть" vblex impf iv past m sg
+"<правительства>"
+	"правительство" n nt nn pl acc
+	"правительство" n nt nn pl nom
+	"правительство" n nt nn sg gen
+"<.>"
+	"." sent
+¶
+
+"<Население>"
+	"население" n nt nn sg acc
+	"население" n nt nn sg nom
+"<Афин>"
+	"Афина" np ant f pl acc
+	"Афина" np ant f pl gen
+	"Афины" np al f nn pl gen
+"<вместе>"
+	"вместе" adv
+"<с>"
+	"с" pr
+"<пригородами>"
+	"пригород" n m nn pl ins
+"<составляет>"
+	"составлять" vblex impf iv pres p3 sg
+	"составлять" vblex impf tv pres p3 sg
+"<около>"
+	"около" adv
+	"около" pr
+"<4>"
+	"4" num
+"<млн>"
+	"млн" abbr
+"<человек>"
+	"человек" n m aa pl gen count
+	"человек" n m aa sg nom
+"<(>"
+	"(" lpar
+"<а>"
+	"а" cnjcoo
+	"а²" n nt nn pl acc
+	"а²" n nt nn pl dat
+	"а²" n nt nn pl gen
+	"а²" n nt nn pl ins
+	"а²" n nt nn pl nom
+	"а²" n nt nn pl prp
+	"а²" n nt nn sg acc
+	"а²" n nt nn sg dat
+	"а²" n nt nn sg gen
+	"а²" n nt nn sg ins
+	"а²" n nt nn sg nom
+	"а²" n nt nn sg prp
+;	"а¹" ij REMOVE:803
+"<также>"
+	"также" adv
+;	"также" cnjcoo REMOVE:606
+"<примерно>"
+	"примерно" adv
+;	"примерный" adj short nt sg REMOVE:368
+"<500>"
+	"500" num
+"<000>"
+	"000" num
+"<непостоянно>"
+	"непостоянный" adj short nt sg
+"<проживающих>"
+	"проживать" vblex impf iv pprs actv mfn aa pl acc
+	"проживать" vblex impf iv pprs actv mfn an pl gen
+	"проживать" vblex impf iv pprs actv mfn an pl prp
+	"проживать" vblex impf tv pprs actv mfn aa pl acc
+	"проживать" vblex impf tv pprs actv mfn an pl gen
+	"проживать" vblex impf tv pprs actv mfn an pl prp
+"<иммигрантов>"
+	"иммигрант" n m aa pl acc
+	"иммигрант" n m aa pl gen
+"<)>"
+	")" rpar
+"<.>"
+	"." sent
+
+"<Это>"
+	"это" part
+	"это" prn dem nt nn sg acc
+	"это" prn dem nt nn sg nom
+	"этот" det dem nt sg acc
+	"этот" det dem nt sg nom
+"<больше>"
+	"больше" adv
+	"большой" adj comp pred
+;	"больший" adj short nt sg prb REMOVE:827
+"<трети>"
+	"треть" n f nn pl acc
+	"треть" n f nn pl nom
+	"треть" n f nn sg gen
+;	"треть" n f nn sg prp REMOVE:432
+;	"треть" n f nn sg dat REMOVE:667
+"<населения>"
+	"население" n nt nn pl acc
+	"население" n nt nn pl nom
+	"население" n nt nn sg gen
+"<всей>"
+	"всеять" vblex perf iv imp p2 sg
+	"весь¹" det all f sg gen
+	"весь¹" det all f sg ins
+	"всеять" vblex perf tv imp p2 sg
+;	"весь¹" det all f sg prp REMOVE:432
+;	"весь¹" det all f sg dat REMOVE:667
+"<Греции>"
+	"Греция" np al f nn pl acc
+	"Греция" np al f nn pl nom
+	"Греция" np al f nn sg gen
+;	"Греция" np al f nn sg prp REMOVE:432
+;	"Греция" np al f nn sg dat REMOVE:667
+"<.>"
+	"." sent
+¶
+
+"<Центр>"
+	"центр" n m nn sg acc
+	"центр" n m nn sg nom
+"<Древних>"
+	"древние" n mfn aa pl acc
+	"древние" n mfn aa pl gen
+	"древний" adj mfn an pl gen
+	"древний" adj mfn aa pl acc
+;	"древние" n mfn aa pl prp REMOVE:432
+;	"древний" adj mfn an pl prp REMOVE:432
+"<Афин>"
+	"Афина" np ant f pl acc
+	"Афина" np ant f pl gen
+	"Афины" np al f nn pl gen
+"<располагался>"
+	"располагать¹" vblex impf tv past m sg pass
+	"располагаться" vblex impf iv past m sg
+"<вокруг>"
+	"вокруг" adv
+	"вокруг" pr
+"<Акрополя>"
+	"акрополь" n m nn sg gen
+"<,>"
+	"," cm
+"<занимал>"
+	"занимать¹⁻²" vblex impf iv past m sg
+	"занимать¹⁻²" vblex impf tv past m sg
+"<районы>"
+	"район" n m nn pl acc
+	"район" n m nn pl nom
+"<Тисио>"
+	"*Тисио"
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl prp REMOVE:432
+;	"и²" n nt nn sg prp REMOVE:432
+;	"и²" n nt nn pl acc REMOVE:493
+;	"и²" n nt nn pl dat REMOVE:493
+;	"и²" n nt nn pl gen REMOVE:493
+;	"и²" n nt nn pl ins REMOVE:493
+;	"и²" n nt nn pl nom REMOVE:493
+;	"и²" n nt nn sg acc REMOVE:493
+;	"и²" n nt nn sg dat REMOVE:493
+;	"и²" n nt nn sg gen REMOVE:493
+;	"и²" n nt nn sg ins REMOVE:493
+;	"и²" n nt nn sg nom REMOVE:493
+;	"и¹" ij REMOVE:768
+;	"и" adv REMOVE:772
+"<Плака>"
+	"*Плака"
+"<.>"
+	"." sent
+
+"<Эти>"
+	"эти" prn dem mfn aa pl nom
+	"этот" det dem mfn nn pl acc
+	"этот" det dem mfn pl nom
+"<районы>"
+	"район" n m nn pl acc
+	"район" n m nn pl nom
+"<сегодня>"
+	"сегодня" adv
+	"сегодня" n nt nn pl acc
+	"сегодня" n nt nn sg gen
+	"сегодня" n nt nn pl gen
+	"сегодня" n nt nn pl ins
+	"сегодня" n nt nn pl nom
+	"сегодня" n nt nn sg nom
+	"сегодня" n nt nn sg acc
+	"сегодня" n nt nn sg ins
+;	"сегодня" n nt nn pl prp REMOVE:432
+;	"сегодня" n nt nn sg prp REMOVE:432
+;	"сегодня" n nt nn pl dat REMOVE:667
+;	"сегодня" n nt nn sg dat REMOVE:667
+"<являются>"
+	"являть" vblex impf tv pres p3 pl pass
+	"являться" vblex impf iv pres p3 pl
+"<туристическим>"
+	"туристический" adj m an sg ins SELECT:604
+;	"туристический" adj mfn an pl dat REMOVE:472
+;	"туристический" adj nt an sg ins SELECT:604
+"<центром>"
+	"центр" n m nn sg ins
+"<города>"
+	"город" n m nn pl acc
+	"город" n m nn pl nom
+	"город" n m nn sg gen
+"<,>"
+	"," cm
+"<вместе>"
+	"вместе" adv
+"<с>"
+	"с" pr
+"<площадью>"
+	"площадь" n f nn sg ins
+"<Синтагма>"
+	"синтагма" n f nn sg nom
+"<,>"
+	"," cm
+"<районом>"
+	"район" n m nn sg ins
+"<Колонаки>"
+	"*Колонаки"
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl acc REMOVE:493
+;	"и²" n nt nn pl dat REMOVE:493
+;	"и²" n nt nn pl gen REMOVE:493
+;	"и²" n nt nn pl ins REMOVE:493
+;	"и²" n nt nn pl nom REMOVE:493
+;	"и²" n nt nn pl prp REMOVE:493
+;	"и²" n nt nn sg acc REMOVE:493
+;	"и²" n nt nn sg dat REMOVE:493
+;	"и²" n nt nn sg gen REMOVE:493
+;	"и²" n nt nn sg ins REMOVE:493
+;	"и²" n nt nn sg nom REMOVE:493
+;	"и²" n nt nn sg prp REMOVE:493
+;	"и¹" ij REMOVE:768
+;	"и" adv REMOVE:772
+"<холмом>"
+	"холм" n m nn sg ins
+"<Ликавит>"
+	"*Ликавит"
+"<.>"
+	"." sent
+
+"<Площадь>"
+	"площадь" n f nn sg acc
+	"площадь" n f nn sg nom
+"<Монастираки>"
+	"*Монастираки"
+"<является>"
+	"являть" vblex impf tv pres p3 sg pass
+	"являться" vblex impf iv pres p3 sg
+"<крупнейшим>"
+	"крупнейший" adj m an sg ins SELECT:654
+	"крупнейший" adj nt an sg ins SELECT:654
+;	"крупнейший" adj mfn an pl dat SELECT:654
+"<торговым>"
+	"торговый" adj m an sg ins SELECT:604
+;	"торговый" adj mfn an pl dat REMOVE:472
+;	"торговый" adj nt an sg ins SELECT:604
+"<районом>"
+	"район" n m nn sg ins
+"<города>"
+	"город" n m nn pl acc
+	"город" n m nn pl nom
+	"город" n m nn sg gen
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl prp REMOVE:432
+;	"и²" n nt nn sg prp REMOVE:432
+;	"и²" n nt nn pl acc REMOVE:493
+;	"и²" n nt nn pl dat REMOVE:493
+;	"и²" n nt nn pl gen REMOVE:493
+;	"и²" n nt nn pl ins REMOVE:493
+;	"и²" n nt nn pl nom REMOVE:493
+;	"и²" n nt nn sg acc REMOVE:493
+;	"и²" n nt nn sg dat REMOVE:493
+;	"и²" n nt nn sg gen REMOVE:493
+;	"и²" n nt nn sg ins REMOVE:493
+;	"и²" n nt nn sg nom REMOVE:493
+;	"и¹" ij REMOVE:768
+;	"и" adv REMOVE:772
+"<центром>"
+	"центр" n m nn sg ins
+"<туризма>"
+	"туризм" n m nn sg gen
+"<.>"
+	"." sent
+
+"<Центром>"
+	"центр" n m nn sg ins
+"<современного>"
+	"современный" adj m aa sg acc
+	"современный" adj m an sg gen
+	"современный" adj nt an sg gen
+"<города>"
+	"город" n m nn pl acc
+	"город" n m nn pl nom
+	"город" n m nn sg gen
+"<является>"
+	"являть" vblex impf tv pres p3 sg pass
+	"являться" vblex impf iv pres p3 sg
+"<площадь>"
+	"площадь" n f nn sg acc
+	"площадь" n f nn sg nom
+"<Синтагма>"
+	"синтагма" n f nn sg nom
+"<,>"
+	"," cm
+"<где>"
+	"где" adv itg
+	"где" adv rel
+"<расположены>"
+	"расположить" vblex perf tv pp pasv short mfn pl
+;	"расположенный" adj short mfn pl fac REMOVE:829
+"<старый>"
+	"старый" adj m an sg nom
+	"старый" adj m nn sg acc
+"<королевский>"
+	"королевский" adj m an sg nom
+	"королевский" adj m nn sg acc
+"<дворец>"
+	"дворец" n m nn sg acc
+	"дворец" n m nn sg nom
+"<,>"
+	"," cm
+"<парламент>"
+	"парламент" n m nn sg acc
+	"парламент" n m nn sg nom
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl prp REMOVE:432
+;	"и²" n nt nn sg prp REMOVE:432
+;	"и²" n nt nn pl acc REMOVE:493
+;	"и²" n nt nn pl dat REMOVE:493
+;	"и²" n nt nn pl gen REMOVE:493
+;	"и²" n nt nn pl ins REMOVE:493
+;	"и²" n nt nn pl nom REMOVE:493
+;	"и²" n nt nn sg acc REMOVE:493
+;	"и²" n nt nn sg dat REMOVE:493
+;	"и²" n nt nn sg gen REMOVE:493
+;	"и²" n nt nn sg ins REMOVE:493
+;	"и²" n nt nn sg nom REMOVE:493
+;	"и¹" ij REMOVE:768
+;	"и" adv REMOVE:772
+"<многие>"
+	"многие" prn mfn pl nom
+	"многий" det mfn nn pl acc
+	"многий" det mfn pl nom
+"<здания>"
+	"здание" n nt nn pl acc
+	"здание" n nt nn pl nom
+	"здание" n nt nn sg gen
+"<XIX>"
+	"XIX" num SELECT:750
+	"XIX" num ord f sg acc SELECT:750
+	"XIX" num ord f sg dat SELECT:750
+	"XIX" num ord f sg gen SELECT:750
+	"XIX" num ord f sg ins SELECT:750
+	"XIX" num ord f sg nom SELECT:750
+	"XIX" num ord m aa sg acc SELECT:750
+	"XIX" num ord m nn sg acc SELECT:750
+	"XIX" num ord m sg dat SELECT:750
+	"XIX" num ord m sg gen SELECT:750
+	"XIX" num ord m sg ins SELECT:750
+	"XIX" num ord m sg nom SELECT:750
+	"XIX" num ord mfn aa pl acc SELECT:750
+	"XIX" num ord mfn nn pl acc SELECT:750
+	"XIX" num ord mfn pl dat SELECT:750
+	"XIX" num ord mfn pl gen SELECT:750
+	"XIX" num ord mfn pl ins SELECT:750
+	"XIX" num ord mfn pl nom SELECT:750
+	"XIX" num ord nt sg acc SELECT:750
+	"XIX" num ord nt sg dat SELECT:750
+	"XIX" num ord nt sg gen SELECT:750
+	"XIX" num ord nt sg ins SELECT:750
+	"XIX" num ord nt sg nom SELECT:750
+;	"XIX" num ord f sg prp REMOVE:432
+;	"XIX" num ord m sg prp REMOVE:432
+;	"XIX" num ord mfn pl prp REMOVE:432
+;	"XIX" num ord nt sg prp REMOVE:432
+;	"xix" num ord f sg prp REMOVE:432
+;	"xix" num ord m sg prp REMOVE:432
+;	"xix" num ord mfn pl prp REMOVE:432
+;	"xix" num ord nt sg prp REMOVE:432
+;	"xix" num ord mfn pl nom SELECT:750
+;	"xix" num ord nt sg nom SELECT:750
+;	"xix" num ord nt sg acc SELECT:750
+;	"xix" num ord nt sg dat SELECT:750
+;	"xix" num SELECT:750
+;	"xix" num ord f sg acc SELECT:750
+;	"xix" num ord f sg dat SELECT:750
+;	"xix" num ord f sg gen SELECT:750
+;	"xix" num ord f sg ins SELECT:750
+;	"xix" num ord f sg nom SELECT:750
+;	"xix" num ord nt sg gen SELECT:750
+;	"xix" num ord m aa sg acc SELECT:750
+;	"xix" num ord m nn sg acc SELECT:750
+;	"xix" num ord m sg dat SELECT:750
+;	"xix" num ord m sg gen SELECT:750
+;	"xix" num ord m sg ins SELECT:750
+;	"xix" num ord m sg nom SELECT:750
+;	"xix" num ord nt sg ins SELECT:750
+;	"xix" num ord mfn aa pl acc SELECT:750
+;	"xix" num ord mfn nn pl acc SELECT:750
+;	"xix" num ord mfn pl dat SELECT:750
+;	"xix" num ord mfn pl gen SELECT:750
+;	"xix" num ord mfn pl ins SELECT:750
+"<века>"
+	"век¹" n m nn pl acc
+	"век¹" n m nn pl nom
+	"век¹" n m nn sg gen
+	"веко" n nt nn sg gen
+"<.>"
+	"." sent
+
+"<В>"
+	"в" pr
+"<течение>"
+	"течение" n nt nn sg acc
+;	"течение" n nt nn sg nom REMOVE:376
+"<3>"
+	"3" num
+"<лет>"
+	"год" n m nn pl gen count
+	"лета" n nt nn pl gen
+	"лёт" n m nn sg acc
+;	"лёт" n m nn sg nom REMOVE:497
+;	"лето" n nt nn pl gen prb REMOVE:827
+"<после>"
+	"после" adv
+	"после" pr
+;	"посол¹" n m aa sg prp REMOVE:434
+"<Второй>"
+	"второй" num ord m sg nom
+	"второй" num ord f sg dat
+	"второй" num ord f sg gen
+	"второй" num ord f sg ins
+	"второй" num ord f sg prp
+	"второй" num ord m nn sg acc
+;	"втора" n f nn sg ins REMOVE:758
+"<мировой>"
+	"мировая" n f nn sg dat
+	"мировая" n f nn sg gen
+	"мировая" n f nn sg ins
+	"мировая" n f nn sg prp
+	"мировой" n m aa sg nom
+	"мировой²" adj f an sg dat
+	"мировой²" adj f an sg gen
+	"мировой²" adj f an sg ins
+	"мировой²" adj f an sg prp
+	"мировой²" adj m an sg nom
+	"мировой²" adj m nn sg acc
+	"мировой¹" adj f an sg dat
+	"мировой¹" adj f an sg gen
+	"мировой¹" adj f an sg ins
+	"мировой¹" adj f an sg prp
+	"мировой¹" adj m an sg nom
+	"мировой¹" adj m nn sg acc
+"<войны>"
+	"война" n f nn pl acc
+	"война" n f nn pl nom
+	"война" n f nn sg gen
+"<здесь>"
+	"здесь" adv
+"<было>"
+	"быть" vblex impf iv past nt sg SELECT:699
+;	"было" part SELECT:699
+;	"былой" adj short nt sg prb SELECT:699
+"<построено>"
+	"построить" vblex perf tv pp pasv short nt sg
+"<большое>"
+	"большой" adj nt an sg acc
+	"большой" adj nt an sg nom
+"<количество>"
+	"количество" n nt nn sg acc
+	"количество" n nt nn sg nom
+"<многоэтажных>"
+	"многоэтажный" adj mfn an pl gen SELECT:650
+;	"многоэтажный" adj mfn an pl prp REMOVE:434
+;	"многоэтажный" adj mfn aa pl acc SELECT:650
+"<зданий>"
+	"здание" n nt nn pl gen
+	"зданье" n nt nn pl gen
+"<,>"
+	"," cm
+"<которые>"
+	"который" prn rel mfn nn pl acc
+	"который" prn rel mfn pl nom
+;	"который" det itg mfn nn pl acc REMOVE:438
+;	"который" det itg mfn pl nom REMOVE:438
+"<составляют>"
+	"составлять" vblex impf iv pres p3 pl
+	"составлять" vblex impf tv pres p3 pl
+"<современную>"
+	"современный" adj f an sg acc
+"<картину>"
+	"картина" n f nn sg acc
+"<города>"
+	"город" n m nn pl acc
+	"город" n m nn pl nom
+	"город" n m nn sg gen
+"<.>"
+	"." sent
+¶
+
+"<Старое>"
+	"старое" n nt nn sg acc
+	"старое" n nt nn sg nom
+	"старый" adj nt an sg acc
+	"старый" adj nt an sg nom
+"<здание>"
+	"здание" n nt nn sg acc
+	"здание" n nt nn sg nom
+"<Афинского>"
+	"афинский" adj m an sg gen SELECT:650 SELECT:604
+;	"афинский" adj m aa sg acc SELECT:650
+;	"афинский" adj nt an sg gen SELECT:650 SELECT:604
+"<университета>"
+	"университет" n m nn sg gen
+"<,>"
+	"," cm
+"<расположенное>"
+	"расположить" vblex perf tv pp pasv nt an sg acc
+	"расположить" vblex perf tv pp pasv nt an sg nom
+;	"расположенный" adj nt an sg acc fac REMOVE:829
+;	"расположенный" adj nt an sg nom fac REMOVE:829
+"<на>"
+	"на" pr
+;	"на" ij REMOVE:560
+"<проспекте>"
+	"проспект¹⁻²" n m nn sg prp
+"<Панепистимиу>"
+	"*Панепистимиу"
+"<,>"
+	"," cm
+"<является>"
+	"являть" vblex impf tv pres p3 sg pass
+	"являться" vblex impf iv pres p3 sg
+"<одним>"
+	"один" num m sg ins
+	"один" num nt sg ins
+;	"один" det m sg ins REMOVE:438
+;	"один" det mfn pl dat REMOVE:438
+;	"один" det nt sg ins REMOVE:438
+;	"один" num mfn pl dat REMOVE:667
+"<из>"
+	"из" pr
+"<самых>"
+	"самый" det mfn pl gen
+;	"самый" det mfn aa pl acc REMOVE:378
+;	"самый" det mfn pl prp REMOVE:378
+"<стильных>"
+	"стильный" adj mfn an pl gen SELECT:343
+;	"стильный" adj mfn an pl prp REMOVE:432
+;	"стильный" adj mfn aa pl acc SELECT:343
+"<в>"
+	"в" pr
+"<городе>"
+	"город" n m nn sg prp
+"<,>"
+	"," cm
+"<наряду>"
+	"наряду" adv
+;	"наряд¹⁻²" n m nn sg dat REMOVE:667
+"<с>"
+	"с" pr
+"<Национальной>"
+	"национальный" adj f an sg ins
+;	"национальный" adj f an sg dat REMOVE:380
+;	"национальный" adj f an sg prp REMOVE:380
+;	"национальный" adj f an sg gen REMOVE:472
+"<библиотекой>"
+	"библиотека" n f nn sg ins
+"<и>"
+	"и" cnjcoo
+;	"и²" n nt nn pl prp REMOVE:434
+;	"и²" n nt nn sg prp REMOVE:434
+;	"и²" n nt nn pl acc REMOVE:493
+;	"и²" n nt nn pl dat REMOVE:493
+;	"и²" n nt nn pl gen REMOVE:493
+;	"и²" n nt nn pl ins REMOVE:493
+;	"и²" n nt nn pl nom REMOVE:493
+;	"и²" n nt nn sg acc REMOVE:493
+;	"и²" n nt nn sg dat REMOVE:493
+;	"и²" n nt nn sg gen REMOVE:493
+;	"и²" n nt nn sg ins REMOVE:493
+;	"и²" n nt nn sg nom REMOVE:493
+;	"и¹" ij REMOVE:768
+;	"и" adv REMOVE:772
+"<Академией>"
+	"академия" n f nn sg ins
+"<Афин>"
+	"Афина" np ant f pl acc
+	"Афина" np ant f pl gen
+	"Афины" np al f nn pl gen
+"<.>"
+	"." sent
+
+"<Эти>"
+	"эти" prn dem mfn aa pl nom
+	"этот" det dem mfn nn pl acc
+	"этот" det dem mfn pl nom
+"<три>"
+	"три" num nom
+	"три" num nt acc
+	"три" num f nn acc
+	"три" num m nn acc
+;	"тереть" vblex impf iv imp p2 sg REMOVE:809
+;	"тереть" vblex impf tv imp p2 sg REMOVE:809
+"<здания>"
+	"здание" n nt nn pl acc
+	"здание" n nt nn pl nom
+	"здание" n nt nn sg gen
+"<,>"
+	"," cm
+"<известные>"
+	"известный" adj mfn an pl nom SELECT:654
+;	"известный" adj mfn nn pl acc SELECT:654
+"<как>"
+	"как" adv itg
+	"как" adv rel
+	"как" cnjcoo
+	"как" cnjsub
+	"как" part
+"<«>"
+	"«" lquot
+"<Афинская>"
+	"афинский" adj f an sg nom
+"<трилогия>"
+	"трилогия" n f nn sg nom
+"<»>"
+	"»" rquot
+"<,>"
+	"," cm
+"<построены>"
+	"построить" vblex perf tv pp pasv short mfn pl
+"<в>"
+	"в" pr
+"<XIX>"
+	"XIX" num ord m sg prp SELECT:568 SELECT:703 SELECT:750
+;	"XIX" num ord f sg nom REMOVE:376
+;	"XIX" num ord m sg nom REMOVE:376
+;	"XIX" num ord mfn pl nom REMOVE:376
+;	"XIX" num ord nt sg nom REMOVE:376
+;	"xix" num ord f sg nom REMOVE:376
+;	"xix" num ord m sg nom REMOVE:376
+;	"xix" num ord mfn pl nom REMOVE:376
+;	"xix" num ord nt sg nom REMOVE:376
+;	"XIX" num ord f sg dat REMOVE:382
+;	"XIX" num ord f sg gen REMOVE:382
+;	"XIX" num ord f sg ins REMOVE:382
+;	"XIX" num ord m sg dat REMOVE:382
+;	"XIX" num ord m sg gen REMOVE:382
+;	"XIX" num ord m sg ins REMOVE:382
+;	"XIX" num ord mfn pl dat REMOVE:382
+;	"XIX" num ord mfn pl gen REMOVE:382
+;	"XIX" num ord mfn pl ins REMOVE:382
+;	"XIX" num ord nt sg dat REMOVE:382
+;	"XIX" num ord nt sg gen REMOVE:382
+;	"XIX" num ord nt sg ins REMOVE:382
+;	"xix" num ord nt sg dat REMOVE:382
+;	"xix" num ord f sg dat REMOVE:382
+;	"xix" num ord f sg gen REMOVE:382
+;	"xix" num ord f sg ins REMOVE:382
+;	"xix" num ord nt sg gen REMOVE:382
+;	"xix" num ord m sg dat REMOVE:382
+;	"xix" num ord m sg gen REMOVE:382
+;	"xix" num ord m sg ins REMOVE:382
+;	"xix" num ord nt sg ins REMOVE:382
+;	"xix" num ord mfn pl dat REMOVE:382
+;	"xix" num ord mfn pl gen REMOVE:382
+;	"xix" num ord mfn pl ins REMOVE:382
+;	"XIX" num ord f sg acc REMOVE:687
+;	"xix" num ord mfn aa pl acc REMOVE:687
+;	"XIX" num ord m aa sg acc REMOVE:687
+;	"XIX" num ord m nn sg acc REMOVE:687
+;	"xix" num ord m aa sg acc REMOVE:687
+;	"XIX" num ord mfn aa pl acc REMOVE:687
+;	"XIX" num ord mfn nn pl acc REMOVE:687
+;	"xix" num ord f sg acc REMOVE:687
+;	"xix" num ord m nn sg acc REMOVE:687
+;	"xix" num ord mfn nn pl acc REMOVE:687
+;	"xix" num ord nt sg acc REMOVE:687
+;	"XIX" num ord nt sg acc REMOVE:687
+;	"XIX" num SELECT:568
+;	"xix" num SELECT:568
+;	"XIX" num ord nt sg prp SELECT:568 SELECT:703
+;	"xix" num ord f sg prp SELECT:568 SELECT:703
+;	"xix" num ord nt sg prp SELECT:568 SELECT:703
+;	"XIX" num ord f sg prp SELECT:568 SELECT:703
+;	"xix" num ord mfn pl prp SELECT:568 SELECT:703
+;	"XIX" num ord mfn pl prp SELECT:568 SELECT:703
+;	"xix" num ord m sg prp SELECT:568 SELECT:703 SELECT:750
+"<веке>"
+	"век¹" n m nn sg prp SELECT:582
+;	"веко" n nt nn sg prp SELECT:582
+"<.>"
+	"." sent
+
+"<Вместе>"
+	"вместе" adv
+"<с>"
+	"с" pr
+"<тем>"
+	"тот" prn dem m aa sg ins
+	"тем" cnjcoo
+	"тем" cnjsub
+	"тема" n f nn pl gen
+	"то" prn dem nt nn sg ins
+	"тот" det dem m sg ins
+	"тьма²" n f nn pl gen
+	"тот" det dem nt sg ins
+;	"те" prn dem mfn aa pl dat REMOVE:380
+;	"тот" det dem mfn pl dat REMOVE:380
+"<образовательная>"
+	"образовательный¹⁻²" adj f an sg nom
+"<деятельность>"
+	"деятельность" n f nn sg acc
+	"деятельность" n f nn sg nom
+"<была>"
+	"быть" vblex impf iv past f sg
+;	"былой" adj short f sg prb REMOVE:827
+"<переведена>"
+	"перевести" vblex perf tv pp pasv short f sg
+"<в>"
+	"в" pr
+"<университетский>"
+	"университетский" adj m nn sg acc
+;	"университетский" adj m an sg nom REMOVE:376
+"<городок>"
+	"городок¹⁻²" n m nn sg acc
+;	"городок¹⁻²" n m nn sg nom REMOVE:382
+"<Зографу>"
+	"*Зографу"
+"<.>"
+	"." sent
+¶
+
+"<.>"
+	"." sent
+
