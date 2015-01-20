@@ -104,6 +104,7 @@ texts/murmansk.ana.txt -text
 texts/murmansk.log.txt -text
 texts/murmansk.raw.txt -text svneol=unset#application/octet-stream
 texts/murmansk.tok.txt -text svneol=unset#application/octet-stream
+texts/rasskaz.raw.txt -text svneol=unset#application/octet-stream
 texts/rwanda.ana.txt -text
 texts/rwanda.log.txt -text
 texts/son-smešnogo-čeloveka.ana.txt -text
