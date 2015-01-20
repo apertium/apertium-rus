@@ -126,6 +126,8 @@ LIST Paren/Konečno = ("конечно" paren) ;
 
 LIST Jest = ("<есть>"i) ;
 
+LIST Prop/Maša = ("Маша" np) ;
+
 LIST Pr/V = ("в" pr) ;
 LIST Pr/Na = ("на" pr) ;
 LIST Pr/S = ("с" pr) ;
@@ -1027,6 +1029,8 @@ REMOVE Letters IF (NOT -1 Punct) (0C Letters) (NOT 1 Punct) ;
 REMOVE Prop + Pl IF (-1C N) (0 Prop + Sg + Gen) (0C Prop) (0C Inanim) ;
 
 REMOVE Part IF (0 Eto) (-1C Pr) ;
+
+REMOVE Adv IF (0 Prop/Maša) ;
 
 REMOVE Prob ; 
 
