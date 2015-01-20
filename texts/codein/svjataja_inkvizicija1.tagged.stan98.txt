@@ -1,7 +1,7 @@
 "<Святая>"
-	"святая²" n f nn sg nom
+;	"святая²" n f nn sg nom
 ;	"святая¹" n f aa sg nom
-;	"святой" adj f an sg nom
+	"святой" adj f an sg nom
 "<инквизиция>"
 	"инквизиция" n f nn sg nom
 "<—>"
@@ -299,8 +299,8 @@
 ;	"а²" n nt nn sg nom REMOVE:540
 ;	"а¹" ij REMOVE:958
 "<также>"
-;	"также" adv
-	"также" cnjcoo REMOVE:657
+	"также" adv
+;	"также" cnjcoo REMOVE:657
 "<множество>"
 ;	"множество" n nt nn sg acc
 	"множество" n nt nn sg nom
@@ -451,8 +451,8 @@
 ;	"а²" n nt nn sg prp REMOVE:540
 ;	"а¹" ij REMOVE:958
 "<также>"
-;	"также" adv
-	"также" cnjcoo REMOVE:657
+	"также" adv
+;	"также" cnjcoo REMOVE:657
 "<в>"
 	"в" pr
 "<Откровении>"
@@ -1467,8 +1467,8 @@
 ;	"она" prn pers p3 f sg acc
 ;	"она" prn pers p3 f sg gen
 ;	"её" det pos m aa sg acc
-;	"её" det pos m nn sg acc
-	"её" det pos f sg acc REMOVE:734
+	"её" det pos m nn sg acc
+;	"её" det pos f sg acc REMOVE:734
 ;	"её" det pos f sg dat REMOVE:734
 ;	"её" det pos f sg gen REMOVE:734
 ;	"её" det pos f sg ins REMOVE:734
