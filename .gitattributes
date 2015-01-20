@@ -52,6 +52,7 @@ texts/codein/anglija1.vislcg.txt -text
 texts/codein/athens.raw.txt -text svneol=unset#application/octet-stream
 texts/codein/athens.tagged.stan98.txt -text
 texts/codein/athens.vislcg.txt -text
+texts/codein/athens2.tagged.stan98.txt -text
 texts/codein/athens2.txt -text svneol=unset#application/octet-stream
 texts/codein/athens2.vislcg.txt -text
 texts/codein/aviapushka1.raw.txt -text svneol=unset#application/octet-stream
