@@ -337,7 +337,7 @@ SET Prep/Prp = Pr/Pri | Pr/Na | Pr/V | Pr/O | Pr/Po ;
 
 SET Prep/Ins = Pr/S | Pr/Nad | Pr/Pod | Pr/Meždu | Pr/Pered ;
 
-SET Prep/Acc = Pr/Na | Pr/V | Pr/Po ; # complete
+SET Prep/Acc = Pr/Na | Pr/V | Pr/Po | Pr/Pod ; # complete
 
 SET Prep/Dat =  Pr/K | Pr/Soglasno | Pr/Po | Pr/Blagodarja ; 
 
