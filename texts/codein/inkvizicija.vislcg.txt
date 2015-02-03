@@ -351,7 +351,7 @@
 	"или" cnjcoo
 	"или" part
 "<чего-либо>"
-	"что-либо" prn ind nt an sg gen
+	"что-либо" prn ind nt nn sg gen
 "<противоречащего>"
 	"противоречащий" adj m aa sg acc
 	"противоречащий" adj m an sg gen

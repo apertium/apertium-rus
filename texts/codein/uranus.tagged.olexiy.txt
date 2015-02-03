@@ -1526,10 +1526,10 @@
 ;	"обнаружить" vblex perf iv past m sg
 	"обнаружить" vblex perf tv past m sg
 "<только>"
-;	"только" adv
+	"только" adv
 ;	"только" cnjcoo
 ;	"только" cnjsub
-	"только" part
+;	"только" part
 "<одну>"
 ;	"один" det f an sg acc
 	"один" num f an sg acc

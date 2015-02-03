@@ -3074,10 +3074,10 @@
 ;	"а²" n nt nn sg nom REMOVE:537
 ;	"а¹" ij REMOVE:933
 "<только>"
-;	"только" adv
+	"только" adv
 ;	"только" cnjcoo
 ;	"только" cnjsub
-	"только" part
+;	"только" part
 "<захватил>"
 	"захватить" vblex perf tv past m sg
 ;	"захватить" vblex perf iv past m sg REMOVE:756
