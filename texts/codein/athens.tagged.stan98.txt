@@ -862,10 +862,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:464
-;	"что¹" prn itg nt an sg acc SELECT:464
-;	"что¹" prn itg nt an sg nom SELECT:464
-;	"что¹" prn rel nt an sg acc SELECT:464
-;	"что¹" prn rel nt an sg nom SELECT:464
+;	"что¹" prn itg nt nn sg acc SELECT:464
+;	"что¹" prn itg nt nn sg nom SELECT:464
+;	"что¹" prn rel nt nn sg acc SELECT:464
+;	"что¹" prn rel nt nn sg nom SELECT:464
 "<имя>"
 ;	"имя" n nt nn sg acc
 	"имя" n nt nn sg nom
@@ -970,7 +970,7 @@
 ;	"кто" prn itg pl nom
 ;	"кто" prn rel f aa sg nom
 	"кто" prn rel m aa sg nom
-;	"кто" prn rel pl nom
+;	"кто" prn rel mfn aa pl nom
 "<будет>"
 ;	"будет" pred
 	"быть" vblex impf iv fut p3 sg
@@ -1064,7 +1064,7 @@
 ;	"кто" prn itg pl nom
 ;	"кто" prn rel f aa sg nom
 	"кто" prn rel m aa sg nom
-;	"кто" prn rel pl nom
+;	"кто" prn rel mfn aa pl nom
 "<сделает>"
 ;	"сделать" vblex perf iv fut p3 sg
 	"сделать" vblex perf tv fut p3 sg
@@ -1510,10 +1510,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:464
-;	"что¹" prn itg nt an sg acc SELECT:464
-;	"что¹" prn itg nt an sg nom SELECT:464
-;	"что¹" prn rel nt an sg acc SELECT:464
-;	"что¹" prn rel nt an sg nom SELECT:464
+;	"что¹" prn itg nt nn sg acc SELECT:464
+;	"что¹" prn itg nt nn sg nom SELECT:464
+;	"что¹" prn rel nt nn sg acc SELECT:464
+;	"что¹" prn rel nt nn sg nom SELECT:464
 "<созвучно>"
 	"созвучный" adj short nt sg
 "<со>"

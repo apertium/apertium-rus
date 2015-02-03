@@ -656,8 +656,8 @@
 	"чем" cnjsub SELECT:490
 ;	"что¹" prn itg nt sg prp REMOVE:456
 ;	"что¹" prn rel nt sg prp REMOVE:456
-;	"что¹" prn itg nt an sg ins SELECT:490
-;	"что¹" prn rel nt an sg ins SELECT:490
+;	"что¹" prn itg nt nn sg ins SELECT:490
+;	"что¹" prn rel nt nn sg ins SELECT:490
 "<автомобильный>"
 	"автомобильный" adj m an sg nom
 	"автомобильный" adj m nn sg acc
@@ -1111,10 +1111,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:490
-;	"что¹" prn itg nt an sg acc SELECT:490
-;	"что¹" prn itg nt an sg nom SELECT:490
-;	"что¹" prn rel nt an sg acc SELECT:490
-;	"что¹" prn rel nt an sg nom SELECT:490
+;	"что¹" prn itg nt nn sg acc SELECT:490
+;	"что¹" prn itg nt nn sg nom SELECT:490
+;	"что¹" prn rel nt nn sg acc SELECT:490
+;	"что¹" prn rel nt nn sg nom SELECT:490
 "<,>"
 	"," cm
 "<в>"
@@ -1251,7 +1251,7 @@
 "<в>"
 	"в" pr
 "<Европе>"
-	"Европа" np ant f an sg prp
+	"Европа" np ant f sg prp
 	"Европа" np al f nn sg prp
 ;	"Европа" np al f nn sg dat REMOVE:406
 ;	"Европа" np ant f sg dat REMOVE:406

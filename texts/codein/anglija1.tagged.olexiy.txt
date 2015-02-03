@@ -983,10 +983,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:508
-;	"что¹" prn itg nt an sg acc SELECT:508
-;	"что¹" prn itg nt an sg nom SELECT:508
-;	"что¹" prn rel nt an sg acc SELECT:508
-;	"что¹" prn rel nt an sg nom SELECT:508
+;	"что¹" prn itg nt nn sg acc SELECT:508
+;	"что¹" prn itg nt nn sg nom SELECT:508
+;	"что¹" prn rel nt nn sg acc SELECT:508
+;	"что¹" prn rel nt nn sg nom SELECT:508
 "<это>"
 ;	"это" part
 ;	"это" prn dem nt nn sg acc
@@ -1017,7 +1017,7 @@
 "<кто>"
 ;	"кто" prn rel f aa sg nom SELECT:979
 ;	"кто" prn rel m aa sg nom SELECT:979
-	"кто" prn rel pl nom SELECT:979
+	"кто" prn rel mfn aa pl nom SELECT:979
 ;	"кто" prn itg f an sg nom SELECT:979
 ;	"кто" prn itg m an sg nom SELECT:979
 ;	"кто" prn itg pl nom SELECT:979
@@ -2446,10 +2446,10 @@
 	"," cm
 "<что>"
 ;	"что²" cnjsub SELECT:508
-;	"что¹" prn itg nt an sg acc SELECT:508
-;	"что¹" prn itg nt an sg nom SELECT:508
-;	"что¹" prn rel nt an sg acc SELECT:508
-	"что¹" prn rel nt an sg nom SELECT:508
+;	"что¹" prn itg nt nn sg acc SELECT:508
+;	"что¹" prn itg nt nn sg nom SELECT:508
+;	"что¹" prn rel nt nn sg acc SELECT:508
+	"что¹" prn rel nt nn sg nom SELECT:508
 "<можно>"
 	"можно" pred
 "<вольно>"
@@ -2538,13 +2538,13 @@
 	"по" pr
 ;	"По²" np cog f an sg prp REMOVE:368
 ;	"По²" np cog m sg prp REMOVE:368
-;	"По²" np cog mfn an pl prp REMOVE:368
+;	"По²" np cog mfn pl prp REMOVE:368
 ;	"По¹" np al f nn pl prp REMOVE:368
 ;	"По¹" np al f nn sg prp REMOVE:368
 ;	"По²" np cog f sg gen REMOVE:646
 ;	"По¹" np al f nn sg gen REMOVE:646
 ;	"По²" np cog m sg gen REMOVE:646
-;	"По²" np cog mfn an pl gen REMOVE:646
+;	"По²" np cog mfn pl gen REMOVE:646
 ;	"По¹" np al f nn pl gen REMOVE:646
 ;	"По²" np cog f sg acc REMOVE:959
 ;	"По²" np cog f sg dat REMOVE:959
@@ -2558,11 +2558,11 @@
 ;	"По²" np cog m sg ins REMOVE:959
 ;	"По²" np cog m sg nom REMOVE:959
 ;	"По¹" np al f nn sg ins REMOVE:959
-;	"По²" np cog mfn an pl acc REMOVE:959
-;	"По²" np cog mfn an pl dat REMOVE:959
+;	"По²" np cog mfn pl acc REMOVE:959
+;	"По²" np cog mfn pl dat REMOVE:959
 ;	"По¹" np al f nn sg acc REMOVE:959
-;	"По²" np cog mfn an pl ins REMOVE:959
-;	"По²" np cog mfn an pl nom REMOVE:959
+;	"По²" np cog mfn pl ins REMOVE:959
+;	"По²" np cog mfn pl nom REMOVE:959
 ;	"По¹" np al f nn sg nom REMOVE:959
 ;	"По¹" np al f nn pl acc REMOVE:959
 ;	"По¹" np al f nn pl dat REMOVE:959
@@ -3357,8 +3357,8 @@
 ;	"династия" n f nn sg prp REMOVE:416
 ;	"династия" n f nn sg dat REMOVE:416
 "<Тюдоров>"
-;	"Тюдор" np cog mfn an pl acc
-	"Тюдор" np cog mfn an pl gen
+;	"Тюдор" np cog mfn pl acc
+	"Тюдор" np cog mfn pl gen
 "<,>"
 	"," cm
 "<после>"

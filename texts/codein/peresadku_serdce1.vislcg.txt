@@ -457,10 +457,10 @@
 ;	"тот" det dem nt an sg nom REMOVE:381
 "<что>"
 	"что²" cnjsub
-	"что¹" prn itg nt an sg acc
-	"что¹" prn itg nt an sg nom
-	"что¹" prn rel nt an sg acc
-	"что¹" prn rel nt an sg nom
+	"что¹" prn itg nt nn sg acc
+	"что¹" prn itg nt nn sg nom
+	"что¹" prn rel nt nn sg acc
+	"что¹" prn rel nt nn sg nom
 "<операция>"
 	"операция" n f nn sg nom
 "<была>"
@@ -1103,10 +1103,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:469
-;	"что¹" prn itg nt an sg acc SELECT:469
-;	"что¹" prn itg nt an sg nom SELECT:469
-;	"что¹" prn rel nt an sg acc SELECT:469
-;	"что¹" prn rel nt an sg nom SELECT:469
+;	"что¹" prn itg nt nn sg acc SELECT:469
+;	"что¹" prn itg nt nn sg nom SELECT:469
+;	"что¹" prn rel nt nn sg acc SELECT:469
+;	"что¹" prn rel nt nn sg nom SELECT:469
 "<при>"
 	"при" pr SELECT:719
 ;	"переть" vblex impf iv imp p2 sg SELECT:719

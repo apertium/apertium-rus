@@ -14,10 +14,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:464
-;	"что¹" prn itg nt an sg acc SELECT:464
-;	"что¹" prn itg nt an sg nom SELECT:464
-;	"что¹" prn rel nt an sg acc SELECT:464
-;	"что¹" prn rel nt an sg nom SELECT:464
+;	"что¹" prn itg nt nn sg acc SELECT:464
+;	"что¹" prn itg nt nn sg nom SELECT:464
+;	"что¹" prn rel nt nn sg acc SELECT:464
+;	"что¹" prn rel nt nn sg nom SELECT:464
 "<поселения>"
 ;	"поселение" n nt nn pl acc
 	"поселение" n nt nn pl nom
@@ -944,10 +944,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:464
-;	"что¹" prn itg nt an sg acc SELECT:464
-;	"что¹" prn itg nt an sg nom SELECT:464
-;	"что¹" prn rel nt an sg acc SELECT:464
-;	"что¹" prn rel nt an sg nom SELECT:464
+;	"что¹" prn itg nt nn sg acc SELECT:464
+;	"что¹" prn itg nt nn sg nom SELECT:464
+;	"что¹" prn rel nt nn sg acc SELECT:464
+;	"что¹" prn rel nt nn sg nom SELECT:464
 "<Киев>"
 ;	"Киев" np al m nn sg acc
 	"Киев" np al m nn sg nom
@@ -1378,10 +1378,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:464
-;	"что¹" prn itg nt an sg acc SELECT:464
-;	"что¹" prn itg nt an sg nom SELECT:464
-;	"что¹" prn rel nt an sg acc SELECT:464
-;	"что¹" prn rel nt an sg nom SELECT:464
+;	"что¹" prn itg nt nn sg acc SELECT:464
+;	"что¹" prn itg nt nn sg nom SELECT:464
+;	"что¹" prn rel nt nn sg acc SELECT:464
+;	"что¹" prn rel nt nn sg nom SELECT:464
 "<у>"
 	"у" pr
 ;	"у²" n nt nn pl acc REMOVE:493
@@ -1691,10 +1691,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:464
-;	"что¹" prn itg nt an sg acc SELECT:464
-;	"что¹" prn itg nt an sg nom SELECT:464
-;	"что¹" prn rel nt an sg acc SELECT:464
-;	"что¹" prn rel nt an sg nom SELECT:464
+;	"что¹" prn itg nt nn sg acc SELECT:464
+;	"что¹" prn itg nt nn sg nom SELECT:464
+;	"что¹" prn rel nt nn sg acc SELECT:464
+;	"что¹" prn rel nt nn sg nom SELECT:464
 "<якобы>"
 ;	"якобы" cnjcoo
 ;	"якобы" cnjsub
@@ -1918,10 +1918,10 @@
 	"," cm
 "<что>"
 ;	"что²" cnjsub SELECT:464
-;	"что¹" prn itg nt an sg acc SELECT:464
-;	"что¹" prn itg nt an sg nom SELECT:464
-;	"что¹" prn rel nt an sg acc SELECT:464
-	"что¹" prn rel nt an sg nom SELECT:464
+;	"что¹" prn itg nt nn sg acc SELECT:464
+;	"что¹" prn itg nt nn sg nom SELECT:464
+;	"что¹" prn rel nt nn sg acc SELECT:464
+	"что¹" prn rel nt nn sg nom SELECT:464
 "<обнаруженные>"
 	"обнаружить" vblex perf tv pp pasv mfn an pl nom
 ;	"обнаружить" vblex perf tv pp pasv mfn nn pl acc
@@ -2042,10 +2042,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:464
-;	"что¹" prn itg nt an sg acc SELECT:464
-;	"что¹" prn itg nt an sg nom SELECT:464
-;	"что¹" prn rel nt an sg acc SELECT:464
-;	"что¹" prn rel nt an sg nom SELECT:464
+;	"что¹" prn itg nt nn sg acc SELECT:464
+;	"что¹" prn itg nt nn sg nom SELECT:464
+;	"что¹" prn rel nt nn sg acc SELECT:464
+;	"что¹" prn rel nt nn sg nom SELECT:464
 "<образование>"
 ;	"образование¹⁻²" n nt nn sg acc
 	"образование¹⁻²" n nt nn sg nom
@@ -2921,8 +2921,8 @@
 "<чего>"
 ;	"чего" adv itg
 ;	"чего" adv rel
-;	"что¹" prn itg nt an sg gen
-	"что¹" prn rel nt an sg gen
+;	"что¹" prn itg nt nn sg gen
+	"что¹" prn rel nt nn sg gen
 "<Киевское>"
 ;	"киевский" adj nt an sg acc
 	"киевский" adj nt an sg nom

@@ -17,7 +17,7 @@
 "<в>"
 	"в" pr
 "<Европе>"
-	"Европа" np ant f an sg prp
+	"Европа" np ant f sg prp
 	"Европа" np al f nn sg prp
 ;	"Европа" np al f nn sg dat REMOVE:426
 ;	"Европа" np ant f sg dat REMOVE:426
@@ -533,7 +533,7 @@
 "<в>"
 	"в" pr
 "<Европе>"
-	"Европа" np ant f an sg prp
+	"Европа" np ant f sg prp
 	"Европа" np al f nn sg prp
 ;	"Европа" np al f nn sg dat REMOVE:426
 ;	"Европа" np ant f sg dat REMOVE:426

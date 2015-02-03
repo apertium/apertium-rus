@@ -369,10 +369,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:464
-;	"что¹" prn itg nt an sg acc SELECT:464
-;	"что¹" prn itg nt an sg nom SELECT:464
-;	"что¹" prn rel nt an sg acc SELECT:464
-;	"что¹" prn rel nt an sg nom SELECT:464
+;	"что¹" prn itg nt nn sg acc SELECT:464
+;	"что¹" prn itg nt nn sg nom SELECT:464
+;	"что¹" prn rel nt nn sg acc SELECT:464
+;	"что¹" prn rel nt nn sg nom SELECT:464
 "<проповедовал>"
 	"проповедовать" vblex impf iv past m sg
 	"проповедовать" vblex impf tv past m sg
@@ -741,10 +741,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:464
-;	"что¹" prn itg nt an sg acc SELECT:464
-;	"что¹" prn itg nt an sg nom SELECT:464
-;	"что¹" prn rel nt an sg acc SELECT:464
-;	"что¹" prn rel nt an sg nom SELECT:464
+;	"что¹" prn itg nt nn sg acc SELECT:464
+;	"что¹" prn itg nt nn sg nom SELECT:464
+;	"что¹" prn rel nt nn sg acc SELECT:464
+;	"что¹" prn rel nt nn sg nom SELECT:464
 "<ошибочный>"
 	"ошибочный" adj m an sg nom
 ;	"ошибочный" adj m nn sg acc REMOVE:478
@@ -2912,7 +2912,7 @@
 "<в>"
 	"в" pr
 "<Европе>"
-	"Европа" np ant f an sg prp
+	"Европа" np ant f sg prp
 	"Европа" np al f nn sg prp
 ;	"Европа" np al f nn sg dat REMOVE:382
 ;	"Европа" np ant f sg dat REMOVE:382

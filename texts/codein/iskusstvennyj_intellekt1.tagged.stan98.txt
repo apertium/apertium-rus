@@ -1260,7 +1260,7 @@
 	"Вениамин" np ant m sg ins
 "<Пушкиным>"
 	"Пушкин" np cog m sg ins SELECT:476
-;	"Пушкин" np cog mfn an pl dat SELECT:476
+;	"Пушкин" np cog mfn pl dat SELECT:476
 "<и>"
 	"и" cnjcoo
 ;	"и²" n nt nn pl prp REMOVE:458
@@ -1283,7 +1283,7 @@
 	"А." abbr
 "<Поспеловым>"
 	"Поспелов" np cog m sg ins
-;	"Поспелов" np cog mfn an pl dat
+;	"Поспелов" np cog mfn pl dat
 "<.>"
 	"." sent
 ¶
@@ -1482,13 +1482,13 @@
 	"по" pr
 ;	"По²" np cog f an sg prp REMOVE:355
 ;	"По²" np cog m sg prp REMOVE:355
-;	"По²" np cog mfn an pl prp REMOVE:355
+;	"По²" np cog mfn pl prp REMOVE:355
 ;	"По¹" np al f nn pl prp REMOVE:355
 ;	"По¹" np al f nn sg prp REMOVE:355
 ;	"По²" np cog f sg gen REMOVE:626
 ;	"По¹" np al f nn sg gen REMOVE:626
 ;	"По²" np cog m sg gen REMOVE:626
-;	"По²" np cog mfn an pl gen REMOVE:626
+;	"По²" np cog mfn pl gen REMOVE:626
 ;	"По¹" np al f nn pl gen REMOVE:626
 ;	"По²" np cog f sg acc REMOVE:901
 ;	"По²" np cog f sg dat REMOVE:901
@@ -1502,11 +1502,11 @@
 ;	"По²" np cog m sg ins REMOVE:901
 ;	"По²" np cog m sg nom REMOVE:901
 ;	"По¹" np al f nn sg ins REMOVE:901
-;	"По²" np cog mfn an pl acc REMOVE:901
-;	"По²" np cog mfn an pl dat REMOVE:901
+;	"По²" np cog mfn pl acc REMOVE:901
+;	"По²" np cog mfn pl dat REMOVE:901
 ;	"По¹" np al f nn sg acc REMOVE:901
-;	"По²" np cog mfn an pl ins REMOVE:901
-;	"По²" np cog mfn an pl nom REMOVE:901
+;	"По²" np cog mfn pl ins REMOVE:901
+;	"По²" np cog mfn pl nom REMOVE:901
 ;	"По¹" np al f nn sg nom REMOVE:901
 ;	"По¹" np al f nn pl acc REMOVE:901
 ;	"По¹" np al f nn pl dat REMOVE:901
@@ -2083,10 +2083,10 @@
 	"," cm
 "<что>"
 ;	"что²" cnjsub SELECT:492
-;	"что¹" prn itg nt an sg acc SELECT:492
-;	"что¹" prn itg nt an sg nom SELECT:492
-;	"что¹" prn rel nt an sg acc SELECT:492
-	"что¹" prn rel nt an sg nom SELECT:492
+;	"что¹" prn itg nt nn sg acc SELECT:492
+;	"что¹" prn itg nt nn sg nom SELECT:492
+;	"что¹" prn rel nt nn sg acc SELECT:492
+	"что¹" prn rel nt nn sg nom SELECT:492
 "<на>"
 	"на" pr
 ;	"на" ij REMOVE:588

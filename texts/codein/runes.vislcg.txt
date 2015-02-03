@@ -706,7 +706,7 @@
 ;	"средневековый" adj f an sg gen REMOVE:382
 ;	"средневековый" adj f an sg ins REMOVE:382
 "<Европе>"
-	"Европа" np ant f an sg prp
+	"Европа" np ant f sg prp
 	"Европа" np al f nn sg prp
 ;	"Европа" np al f nn sg dat REMOVE:382
 ;	"Европа" np ant f sg dat REMOVE:382
@@ -1492,10 +1492,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:464
-;	"что¹" prn itg nt an sg acc SELECT:464
-;	"что¹" prn itg nt an sg nom SELECT:464
-;	"что¹" prn rel nt an sg acc SELECT:464
-;	"что¹" prn rel nt an sg nom SELECT:464
+;	"что¹" prn itg nt nn sg acc SELECT:464
+;	"что¹" prn itg nt nn sg nom SELECT:464
+;	"что¹" prn rel nt nn sg acc SELECT:464
+;	"что¹" prn rel nt nn sg nom SELECT:464
 "<руническое>"
 	"рунический" adj nt an sg acc
 	"рунический" adj nt an sg nom
@@ -1594,10 +1594,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:464
-;	"что¹" prn itg nt an sg acc SELECT:464
-;	"что¹" prn itg nt an sg nom SELECT:464
-;	"что¹" prn rel nt an sg acc SELECT:464
-;	"что¹" prn rel nt an sg nom SELECT:464
+;	"что¹" prn itg nt nn sg acc SELECT:464
+;	"что¹" prn itg nt nn sg nom SELECT:464
+;	"что¹" prn rel nt nn sg acc SELECT:464
+;	"что¹" prn rel nt nn sg nom SELECT:464
 "<руны>"
 	"руна¹⁻²" n f nn pl acc
 	"руна¹⁻²" n f nn pl nom
@@ -2424,10 +2424,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:464
-;	"что¹" prn itg nt an sg acc SELECT:464
-;	"что¹" prn itg nt an sg nom SELECT:464
-;	"что¹" prn rel nt an sg acc SELECT:464
-;	"что¹" prn rel nt an sg nom SELECT:464
+;	"что¹" prn itg nt nn sg acc SELECT:464
+;	"что¹" prn itg nt nn sg nom SELECT:464
+;	"что¹" prn rel nt nn sg acc SELECT:464
+;	"что¹" prn rel nt nn sg nom SELECT:464
 "<может>"
 	"мочь²" vblex impf iv pres p3 sg
 "<говорить>"

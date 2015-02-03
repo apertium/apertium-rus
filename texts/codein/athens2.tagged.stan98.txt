@@ -516,10 +516,10 @@
 
 "<По>"
 ;	"По²" np cog f sg acc
-;	"По²" np cog mfn an pl nom
+;	"По²" np cog mfn pl nom
 ;	"По¹" np al f nn pl ins
 ;	"По²" np cog f sg ins
-;	"По²" np cog mfn an pl ins
+;	"По²" np cog mfn pl ins
 ;	"По²" np cog f sg nom
 ;	"По¹" np al f nn pl nom
 ;	"По²" np cog m sg acc
@@ -528,22 +528,22 @@
 ;	"По²" np cog m sg ins
 ;	"По²" np cog m sg nom
 ;	"По¹" np al f nn sg ins
-;	"По²" np cog mfn an pl acc
+;	"По²" np cog mfn pl acc
 ;	"По¹" np al f nn pl acc
 ;	"По¹" np al f nn sg acc
 ;	"По²" np cog f an sg prp REMOVE:333
 ;	"По²" np cog m sg prp REMOVE:333
-;	"По²" np cog mfn an pl prp REMOVE:333
+;	"По²" np cog mfn pl prp REMOVE:333
 ;	"По¹" np al f nn pl prp REMOVE:333
 ;	"По¹" np al f nn sg prp REMOVE:333
 ;	"По²" np cog f sg gen REMOVE:598
 ;	"По¹" np al f nn sg gen REMOVE:598
 ;	"По²" np cog m sg gen REMOVE:598
-;	"По²" np cog mfn an pl gen REMOVE:598
+;	"По²" np cog mfn pl gen REMOVE:598
 ;	"По¹" np al f nn pl gen REMOVE:598
 ;	"По²" np cog f sg dat REMOVE:667
 ;	"По²" np cog m sg dat REMOVE:667
-;	"По²" np cog mfn an pl dat REMOVE:667
+;	"По²" np cog mfn pl dat REMOVE:667
 ;	"По¹" np al f nn pl dat REMOVE:667
 ;	"По¹" np al f nn sg dat REMOVE:667
 ;	"По²" np cog f sg ins fac REMOVE:829

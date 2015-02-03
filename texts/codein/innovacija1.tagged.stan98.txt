@@ -390,10 +390,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:511
-;	"что¹" prn itg nt an sg acc SELECT:511
-;	"что¹" prn itg nt an sg nom SELECT:511
-;	"что¹" prn rel nt an sg acc SELECT:511
-;	"что¹" prn rel nt an sg nom SELECT:511
+;	"что¹" prn itg nt nn sg acc SELECT:511
+;	"что¹" prn itg nt nn sg nom SELECT:511
+;	"что¹" prn rel nt nn sg acc SELECT:511
+;	"что¹" prn rel nt nn sg nom SELECT:511
 "<означает>"
 ;	"означать" vblex impf iv pres p3 sg
 	"означать" vblex impf tv pres p3 sg
@@ -1565,11 +1565,11 @@
 "<,>"
 	"," cm
 "<что>"
-;	"что¹" prn rel nt an sg acc SELECT:819
-;	"что¹" prn rel nt an sg nom SELECT:819
+;	"что¹" prn rel nt nn sg acc SELECT:819
+;	"что¹" prn rel nt nn sg nom SELECT:819
 	"что²" cnjsub SELECT:819
-;	"что¹" prn itg nt an sg acc SELECT:819
-;	"что¹" prn itg nt an sg nom SELECT:819
+;	"что¹" prn itg nt nn sg acc SELECT:819
+;	"что¹" prn itg nt nn sg nom SELECT:819
 "<целью>"
 	"цель" n f nn sg ins
 "<нововведений>"
@@ -1942,10 +1942,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:511
-;	"что¹" prn itg nt an sg acc SELECT:511
-;	"что¹" prn itg nt an sg nom SELECT:511
-;	"что¹" prn rel nt an sg acc SELECT:511
-;	"что¹" prn rel nt an sg nom SELECT:511
+;	"что¹" prn itg nt nn sg acc SELECT:511
+;	"что¹" prn itg nt nn sg nom SELECT:511
+;	"что¹" prn rel nt nn sg acc SELECT:511
+;	"что¹" prn rel nt nn sg nom SELECT:511
 "<понятие>"
 ;	"понятие" n nt nn sg acc
 	"понятие" n nt nn sg nom
@@ -2231,10 +2231,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:511
-;	"что¹" prn itg nt an sg acc SELECT:511
-;	"что¹" prn itg nt an sg nom SELECT:511
-;	"что¹" prn rel nt an sg acc SELECT:511
-;	"что¹" prn rel nt an sg nom SELECT:511
+;	"что¹" prn itg nt nn sg acc SELECT:511
+;	"что¹" prn itg nt nn sg nom SELECT:511
+;	"что¹" prn rel nt nn sg acc SELECT:511
+;	"что¹" prn rel nt nn sg nom SELECT:511
 "<особенность>"
 ;	"особенность" n f nn sg acc
 	"особенность" n f nn sg nom
@@ -2256,11 +2256,11 @@
 "<,>"
 	"," cm
 "<что>"
-;	"что¹" prn rel nt an sg acc SELECT:819
-;	"что¹" prn rel nt an sg nom SELECT:819
+;	"что¹" prn rel nt nn sg acc SELECT:819
+;	"что¹" prn rel nt nn sg nom SELECT:819
 	"что²" cnjsub SELECT:819
-;	"что¹" prn itg nt an sg acc SELECT:819
-;	"что¹" prn itg nt an sg nom SELECT:819
+;	"что¹" prn itg nt nn sg acc SELECT:819
+;	"что¹" prn itg nt nn sg nom SELECT:819
 "<она>"
 	"она" prn pers p3 f sg nom
 "<позволяет>"

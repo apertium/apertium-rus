@@ -1610,10 +1610,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:469
-;	"что¹" prn itg nt an sg acc SELECT:469
-;	"что¹" prn itg nt an sg nom SELECT:469
-;	"что¹" prn rel nt an sg acc SELECT:469
-;	"что¹" prn rel nt an sg nom SELECT:469
+;	"что¹" prn itg nt nn sg acc SELECT:469
+;	"что¹" prn itg nt nn sg nom SELECT:469
+;	"что¹" prn rel nt nn sg acc SELECT:469
+;	"что¹" prn rel nt nn sg nom SELECT:469
 "<он>"
 	"он¹" prn pers p3 m sg nom
 ;	"он²" n nt nn pl prp REMOVE:437
@@ -1947,12 +1947,12 @@
 ;	"Браге" np cog m sg ins
 	"Браге" np cog m sg nom
 ;	"Браге" np cog m sg prp
-;	"Браге" np cog mfn an pl acc
-;	"Браге" np cog mfn an pl dat
-;	"Браге" np cog mfn an pl gen
-;	"Браге" np cog mfn an pl ins
-;	"Браге" np cog mfn an pl nom
-;	"Браге" np cog mfn an pl prp
+;	"Браге" np cog mfn pl acc
+;	"Браге" np cog mfn pl dat
+;	"Браге" np cog mfn pl gen
+;	"Браге" np cog mfn pl ins
+;	"Браге" np cog mfn pl nom
+;	"Браге" np cog mfn pl prp
 ;	"брага" n f nn sg dat
 ;	"Браге" np cog f sg ins fac REMOVE:842
 "<показал>"
@@ -1962,10 +1962,10 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:469
-;	"что¹" prn itg nt an sg acc SELECT:469
-;	"что¹" prn itg nt an sg nom SELECT:469
-;	"что¹" prn rel nt an sg acc SELECT:469
-;	"что¹" prn rel nt an sg nom SELECT:469
+;	"что¹" prn itg nt nn sg acc SELECT:469
+;	"что¹" prn itg nt nn sg nom SELECT:469
+;	"что¹" prn rel nt nn sg acc SELECT:469
+;	"что¹" prn rel nt nn sg nom SELECT:469
 "<движение>"
 ;	"движение" n nt nn sg acc
 	"движение" n nt nn sg nom

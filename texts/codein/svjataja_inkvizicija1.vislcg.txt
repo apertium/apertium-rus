@@ -367,11 +367,11 @@
 "<,>"
 	"," cm
 "<что>"
-	"что¹" prn rel nt an sg acc SELECT:819
-	"что¹" prn rel nt an sg nom SELECT:819
+	"что¹" prn rel nt nn sg acc SELECT:819
+	"что¹" prn rel nt nn sg nom SELECT:819
 ;	"что²" cnjsub SELECT:819
-;	"что¹" prn itg nt an sg acc SELECT:819
-;	"что¹" prn itg nt an sg nom SELECT:819
+;	"что¹" prn itg nt nn sg acc SELECT:819
+;	"что¹" prn itg nt nn sg nom SELECT:819
 "<проповедовал>"
 	"проповедовать" vblex impf iv past m sg
 	"проповедовать" vblex impf tv past m sg
@@ -1738,7 +1738,7 @@
 	"передать" vblex perf tv pp pasv short mfn pl
 "<также>"
 	"также" adv
-	"также" cnjcoo
+;	"также" cnjcoo
 "<функции>"
 	"функция" n f nn pl acc
 	"функция" n f nn pl nom
@@ -2859,7 +2859,7 @@
 "<в>"
 	"в" pr
 "<Европе>"
-	"Европа" np ant f an sg prp
+	"Европа" np ant f sg prp
 	"Европа" np al f nn sg prp
 ;	"Европа" np al f nn sg dat REMOVE:426
 ;	"Европа" np ant f sg dat REMOVE:426
@@ -3391,7 +3391,7 @@
 
 "<Также>"
 	"также" adv
-	"также" cnjcoo
+;	"также" cnjcoo
 "<в>"
 	"в" pr
 "<компетенцию>"
