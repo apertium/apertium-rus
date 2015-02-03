@@ -2645,7 +2645,7 @@
 ¶
 
 "<Со>"
-	"с" pr
+	"с" pr epenth
 "<времени>"
 	"временить" vblex impf iv imp p2 sg
 	"время" n nt nn sg gen

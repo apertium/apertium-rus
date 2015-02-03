@@ -583,7 +583,7 @@
 ;	"xix" num ord f an sg nom SELECT:910
 ;	"xix" num ord f an sg prp SELECT:910
 "<в.>"
-	"в." abbr
+	"в" abbr
 
 "<Новую>"
 	"новый" adj f an sg acc
@@ -662,7 +662,7 @@
 ;	"xx" num ord nt an sg nom SELECT:910
 ;	"xx" num ord nt sg prp SELECT:910
 "<в.>"
-	"в." abbr
+	"в" abbr
 "<в>"
 	"в" pr
 "<научных>"
