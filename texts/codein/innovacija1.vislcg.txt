@@ -349,7 +349,7 @@
 	"или" cnjcoo
 ;	"или" part REMOVE:1019
 "<во>"
-	"в" pr SELECT:451
+	"в" pr epenth SELECT:451
 ;	"во" ij SELECT:451
 ;	"во" part SELECT:451
 "<внешних>"

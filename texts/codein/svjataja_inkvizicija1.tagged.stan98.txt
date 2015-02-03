@@ -472,7 +472,7 @@
 ;	"начинать" vblex impf iv pprs adv
 	"начинать" vblex impf tv pprs adv
 "<со>"
-	"с" pr
+	"с" pr epenth
 "<II>"
 	"II" num ord m an sg gen SELECT:836 SELECT:754 SELECT:905
 ;	"II" num ord f an sg nom REMOVE:417
@@ -1685,7 +1685,7 @@
 "<действовать>"
 	"действовать" vblex impf iv inf
 "<во>"
-	"в" pr SELECT:976
+	"в" pr epenth SELECT:976
 ;	"во" ij SELECT:976
 ;	"во" part SELECT:976
 "<всем>"
@@ -2195,7 +2195,7 @@
 "<исчезла>"
 	"исчезнуть" vblex perf iv past f sg
 "<во>"
-	"в" pr SELECT:976
+	"в" pr epenth SELECT:976
 ;	"во" ij SELECT:976
 ;	"во" part SELECT:976
 "<время>"

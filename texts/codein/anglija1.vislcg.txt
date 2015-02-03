@@ -1106,7 +1106,7 @@
 	"упоминание" n nt nn pl nom
 	"упоминание" n nt nn sg gen
 "<об>"
-	"о" pr
+	"о" pr epenth
 "<англах>"
 	"англ" n m aa pl prp
 "<находятся>"
@@ -1683,7 +1683,7 @@
 "<,>"
 	"," cm
 "<ко>"
-	"к" pr
+	"к" pr epenth
 "<времени>"
 	"время" n nt nn sg dat
 ;	"время" n nt nn sg gen REMOVE:433

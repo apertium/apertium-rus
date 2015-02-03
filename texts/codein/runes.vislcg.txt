@@ -1120,7 +1120,7 @@
 "<обнаружены>"
 	"обнаружить" vblex perf tv pp pasv short mfn pl
 "<во>"
-	"в" pr SELECT:821
+	"в" pr epenth SELECT:821
 ;	"во" ij SELECT:821
 ;	"во" part SELECT:821
 "<Франции>"
@@ -2556,7 +2556,7 @@
 ;	"Греция" np al f nn sg dat REMOVE:382
 ;	"Греция" np al f nn sg gen REMOVE:382
 "<во>"
-	"в" pr SELECT:821
+	"в" pr epenth SELECT:821
 ;	"во" ij SELECT:821
 ;	"во" part SELECT:821
 "<главе>"
@@ -2613,7 +2613,7 @@
 	"говорить" vblex impf iv pres p3 pl
 	"говорить" vblex impf tv pres p3 pl
 "<об>"
-	"о" pr
+	"о" pr epenth
 "<исключительных>"
 	"исключительный" adj mfn an pl prp
 ;	"исключительный" adj mfn aa pl acc REMOVE:393

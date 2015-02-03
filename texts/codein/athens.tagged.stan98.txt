@@ -800,7 +800,7 @@
 	"стоять" vblex impf iv past nt sg
 ;	"стоялый" adj short nt sg prb REMOVE:827
 "<во>"
-	"в" pr SELECT:821
+	"в" pr epenth SELECT:821
 ;	"во" ij SELECT:821
 ;	"во" part SELECT:821
 "<множественном>"
@@ -1517,7 +1517,7 @@
 "<созвучно>"
 	"созвучный" adj short nt sg
 "<со>"
-	"с" pr
+	"с" pr epenth
 "<словом>"
 	"слово" n nt nn sg ins
 ;	"словом" paren
@@ -2650,7 +2650,7 @@
 "<,>"
 	"," cm
 "<во>"
-	"в" pr SELECT:821
+	"в" pr epenth SELECT:821
 ;	"во" ij SELECT:821
 ;	"во" part SELECT:821
 "<время>"

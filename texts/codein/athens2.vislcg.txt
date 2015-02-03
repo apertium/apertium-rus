@@ -425,7 +425,7 @@
 "<договору>"
 	"договор" n m nn sg dat
 "<об>"
-	"о" pr
+	"о" pr epenth
 "<обмене>"
 	"обмен" n m nn sg prp
 "<населением>"
@@ -1037,7 +1037,7 @@
 ;	"борьба" n f nn pl acc prb REMOVE:827
 ;	"борьба" n f nn pl nom prb REMOVE:827
 "<со>"
-	"с" pr
+	"с" pr epenth
 "<смогом>"
 	"смог" n m nn sg ins
 "<,>"

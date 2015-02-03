@@ -2020,7 +2020,7 @@
 	"сбрасывать" vblex impf iv inf
 	"сбрасывать" vblex impf tv inf
 "<со>"
-	"с" pr
+	"с" pr epenth
 "<счетов>"
 	"счёт" n m nn pl gen
 	"счёты" n m nn pl gen

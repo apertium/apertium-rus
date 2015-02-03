@@ -840,7 +840,7 @@
 ;	"модель" n f nn sg gen
 ;	"модель" n f nn sg prp
 "<со>"
-	"с" pr
+	"с" pr epenth
 "<сферической>"
 	"сферический" adj f an sg ins
 ;	"сферический" adj f an sg dat REMOVE:385
@@ -1083,7 +1083,7 @@
 	"сфера" n f nn pl nom
 ;	"сфера" n f nn sg gen
 "<со>"
-	"с" pr
+	"с" pr epenth
 "<времён>"
 	"время" n nt nn pl gen
 "<Древней>"
@@ -1278,7 +1278,7 @@
 	"место" n nt nn sg acc
 ;	"место" n nt nn sg nom
 "<во>"
-	"в" pr SELECT:834
+	"в" pr epenth SELECT:834
 ;	"во" ij SELECT:834
 ;	"во" part SELECT:834
 "<всей>"
@@ -1801,7 +1801,7 @@
 "<(>"
 	"(" lpar
 "<во>"
-	"в" pr SELECT:834
+	"в" pr epenth SELECT:834
 ;	"во" ij SELECT:834
 ;	"во" part SELECT:834
 "<всяком>"
