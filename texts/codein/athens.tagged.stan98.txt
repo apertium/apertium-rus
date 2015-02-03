@@ -578,7 +578,6 @@
 	"составлять" vblex impf tv pres p3 sg
 "<1>"
 	"1" num
-/
 "<3>"
 	"3" num
 "<от>"

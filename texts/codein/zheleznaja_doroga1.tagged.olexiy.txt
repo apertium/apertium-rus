@@ -1287,7 +1287,7 @@
 ;	"создать" vblex perf iv past nt sg
 	"создать" vblex perf tv past nt sg
 "<«>"
-	"«" lpar
+	"«" lquot
 "<общегосударственный>"
 ;	"общегосударственный" adj m an sg nom
 	"общегосударственный" adj m nn sg acc
@@ -1295,7 +1295,7 @@
 	"рынок" n m nn sg acc
 ;	"рынок" n m nn sg nom
 "<»>"
-	"»" rpar
+	"»" rquot
 "<,>"
 	"," cm
 "<где>"

@@ -352,6 +352,7 @@
 "<Гроот>"
 	"*Гроот"
 "<Шур>"
+	"*Шура" 
 ;	"Шура" np ant f pl acc
 ;	"Шура" np ant f pl gen
 ;	"Шура" np ant m pl acc

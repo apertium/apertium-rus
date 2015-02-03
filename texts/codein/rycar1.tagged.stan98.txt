@@ -17,10 +17,10 @@
 "<в>"
 	"в" pr
 "<Европе>"
-;	"Европа" np ant f aa sg prp
+;	"Европа" np ant f sg prp
 	"Европа" np al f nn sg prp
 ;	"Европа" np al f nn sg dat REMOVE:426
-;	"Европа" np ant f aa sg dat REMOVE:426
+;	"Европа" np ant f sg dat REMOVE:426
 "<.>"
 	"." sent
 ¶
@@ -533,10 +533,10 @@
 "<в>"
 	"в" pr
 "<Европе>"
-;	"Европа" np ant f aa sg prp
+;	"Европа" np ant f sg prp
 	"Европа" np al f nn sg prp
 ;	"Европа" np al f nn sg dat REMOVE:426
-;	"Европа" np ant f aa sg dat REMOVE:426
+;	"Европа" np ant f sg dat REMOVE:426
 "<связана>"
 	"связать" vblex perf tv pp pasv f sg pred SELECT:776
 ;	"связанный" adj f sg pred fac SELECT:776
@@ -805,8 +805,8 @@
 ;	"Европа" np al f nn pl acc
 ;	"Европа" np al f nn pl nom
 	"Европа" np al f nn sg gen
-;	"Европа" np ant f aa pl nom
-;	"Европа" np ant f aa sg gen
+;	"Европа" np ant f pl nom
+;	"Европа" np ant f sg gen
 "<.>"
 	"." sent
 
@@ -1460,11 +1460,11 @@
 ;	"пря" n f nn pl nom SELECT:765
 ;	"пря" n f nn sg gen SELECT:765
 "<Карле>"
-	"Карл" np ant m aa sg prp
+	"Карл" np ant m sg prp
 ;	"карла" n m aa sg dat
 ;	"карла" n m aa sg prp
 "<Мартелле>"
-	"Мартелл" np ant m aa sg prp
+	"Мартелл" np ant m sg prp
 "<и>"
 	"и" cnjcoo @CNP MAP:886
 ;	"и²" n nt nn pl acc REMOVE:540
@@ -1536,11 +1536,11 @@
 	"." sent
 
 "<Карл>"
-	"Карл" np ant m aa sg nom
+	"Карл" np ant m sg nom
 ;	"карла" n m aa pl acc
 ;	"карла" n m aa pl gen
 "<Мартелл>"
-	"Мартелл" np ant m aa sg nom
+	"Мартелл" np ant m sg nom
 "<раздавал>"
 	"раздавать" vblex impf tv past m sg SELECT:667
 ;	"раздавать" vblex impf iv past m sg SELECT:667
@@ -2140,7 +2140,7 @@
 	"." sent
 
 "<Карл>"
-	"Карл" np ant m aa sg nom
+	"Карл" np ant m sg nom
 ;	"карла" n m aa pl acc
 ;	"карла" n m aa pl gen REMOVE:649
 "<Великий>"
@@ -2170,7 +2170,7 @@
 "<;>"
 	";" clb
 "<Людовик>"
-	"Людовик" np ant m aa sg nom
+	"Людовик" np ant m sg nom
 "<I>"
 ;	"I" num SELECT:910
 ;	"I" num ord f an sg acc SELECT:910
@@ -2243,7 +2243,7 @@
 ;	"и¹" ij REMOVE:928
 ;	"и" adv REMOVE:932
 "<Карл>"
-	"Карл" np ant m aa sg nom
+	"Карл" np ant m sg nom
 ;	"карла" n m aa pl acc
 ;	"карла" n m aa pl gen
 "<II>"

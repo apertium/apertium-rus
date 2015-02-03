@@ -1532,7 +1532,7 @@
 	"из" pr
 "<первых>"
 ;	"первое" n nt nn pl gen
-	"первый" num ord mfn pl gen
+	"первый" num ord mfn an pl gen
 ;	"первое" n nt nn pl prp REMOVE:383
 ;	"первый" num ord mfn aa pl acc REMOVE:383
 ;	"первый" num ord mfn pl prp REMOVE:383

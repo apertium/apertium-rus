@@ -500,7 +500,7 @@
 ;	"того" pred
 ;	"тот" prn dem m aa sg gen
 ;	"тот" det dem m sg gen
-;	"тот" det dem nt sg gen
+;	"тот" det dem nt an sg gen
 ;	"тот" det dem m aa sg acc REMOVE:416
 "<,>"
 	"," cm

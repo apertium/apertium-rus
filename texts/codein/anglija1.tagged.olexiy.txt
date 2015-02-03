@@ -500,7 +500,7 @@
 ;	"того" pred
 ;	"тот" prn dem m aa sg gen
 ;	"тот" det dem m sg gen
-;	"тот" det dem nt sg gen
+;	"тот" det dem nt an sg gen
 ;	"тот" det dem m aa sg acc REMOVE:416
 "<,>"
 	"," cm
@@ -3092,26 +3092,10 @@
 "<насадив>"
 ;	"насадить" vblex perf iv pp adv
 	"насадить" vblex perf tv pp adv
-"<франк>"
-;	"франк²" n m nn sg acc
-;	"франк²" n m nn sg nom
-;	"франк¹" n m aa sg nom
-"<о>"
-;	"о" pr
-;	"о¹" ij
-;	"о²" n nt nn pl prp REMOVE:474
-;	"о²" n nt nn sg prp REMOVE:474
-;	"о²" n nt nn pl acc REMOVE:537
-;	"о²" n nt nn pl dat REMOVE:537
-;	"о²" n nt nn pl gen REMOVE:537
-;	"о²" n nt nn pl ins REMOVE:537
-;	"о²" n nt nn pl nom REMOVE:537
-;	"о²" n nt nn sg acc REMOVE:537
-;	"о²" n nt nn sg dat REMOVE:537
-;	"о²" n nt nn sg gen REMOVE:537
-;	"о²" n nt nn sg ins REMOVE:537
-;	"о²" n nt nn sg nom REMOVE:537
--
+"<франко>"
+	"*франко"
+"<->"
+	"-" guio
 "<норманнское>"
 	"норманнский" adj nt an sg acc
 ;	"норманнский" adj nt an sg nom

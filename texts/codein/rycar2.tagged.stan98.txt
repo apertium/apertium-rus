@@ -1109,8 +1109,8 @@
 ;	"постановление" n nt nn sg acc
 	"постановление" n nt nn sg nom
 "<Фридриха>"
-;	"Фридрих" np ant m aa sg acc
-	"Фридрих" np ant m aa sg gen
+;	"Фридрих" np ant m sg acc
+	"Фридрих" np ant m sg gen
 "<I>"
 ;	"I" num SELECT:910
 ;	"I" num ord f an sg acc SELECT:910
@@ -1490,8 +1490,8 @@
 "<конституция>"
 	"конституция" n f nn sg nom
 "<Фридриха>"
-;	"Фридрих" np ant m aa sg acc
-	"Фридрих" np ant m aa sg gen
+;	"Фридрих" np ant m sg acc
+	"Фридрих" np ant m sg gen
 "<I>"
 ;	"I" num SELECT:910
 ;	"I" num ord f an sg acc SELECT:910
@@ -2142,7 +2142,7 @@
 	"." sent
 
 "<Генрих>"
-	"Генрих" np ant m aa sg nom
+	"Генрих" np ant m sg nom
 "<III>"
 ;	"III" num SELECT:910
 ;	"III" num ord f an sg acc SELECT:910
@@ -2215,7 +2215,7 @@
 ;	"и¹" ij REMOVE:928
 ;	"и" adv REMOVE:932
 "<Эдуард>"
-	"Эдуард" np ant m aa sg nom
+	"Эдуард" np ant m sg nom
 "<I>"
 ;	"I" num SELECT:910
 ;	"I" num ord f an sg acc SELECT:910
@@ -2851,7 +2851,7 @@
 	"." sent
 
 "<Рудольфу>"
-	"Рудольф" np ant m aa sg dat
+	"Рудольф" np ant m sg dat
 "<Габсбургскому>"
 	"габсбургский" adj m an sg dat
 ;	"габсбургский" adj nt an sg dat
