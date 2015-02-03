@@ -1686,7 +1686,7 @@
 ;	"родиться" vblex impf iv past f sg
 	"родиться" vblex perf iv past f sg
 "<и>"
-	"и" cnjcoo @CNP MAP:798
+;	"и" cnjcoo @CNP MAP:798
 ;	"и²" n nt nn pl acc REMOVE:521
 ;	"и²" n nt nn pl dat REMOVE:521
 ;	"и²" n nt nn pl gen REMOVE:521
@@ -1700,7 +1700,7 @@
 ;	"и²" n nt nn sg nom REMOVE:521
 ;	"и²" n nt nn sg prp REMOVE:521
 ;	"и¹" ij REMOVE:840
-;	"и" adv REMOVE:844
+	"и" adv REMOVE:844
 "<сама>"
 	"сам" det f an sg nom
 "<информатика>"

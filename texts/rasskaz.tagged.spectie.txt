@@ -2,12 +2,12 @@
 	"где" adv itg
 ;	"где" adv rel
 "<ВАНЯ>"
-	"Ваня" np ant m aa sg nom
+	"Ваня" np ant m sg nom
 "<?>"
 	"?" sent
 
 "<Маша>"
-	"Маша" np ant f aa sg nom SELECT:1043
+	"Маша" np ant f sg nom SELECT:1043
 ;	"махать" vblex impf iv pprs adv SELECT:1043
 "<и>"
 	"и" cnjcoo @CNP MAP:886
@@ -26,7 +26,7 @@
 ;	"и¹" ij REMOVE:928
 ;	"и" adv REMOVE:932
 "<Ваня>"
-	"Ваня" np ant m aa sg nom
+	"Ваня" np ant m sg nom
 "<в>"
 	"в" pr
 "<саду>"
@@ -60,7 +60,7 @@
 "<тепло>"
 	"тепло²" adv
 ;	"тепло²" pred
-;	"тёплый" adj nt sg pred
+;	"тёплый" adj short nt sg
 ;	"тепло¹" n nt nn sg nom
 ;	"тепло¹" n nt nn sg acc REMOVE:720
 "<.>"
@@ -98,13 +98,13 @@
 "<было>"
 	"быть" vblex impf iv past nt sg
 ;	"было" part REMOVE:979
-;	"былой" adj nt sg pred prb REMOVE:1031
+;	"былой" adj short nt sg prb REMOVE:1031
 "<очень>"
 	"очень" adv
 "<холодно>"
 	"холодно" adv
 ;	"холодно" pred
-;	"холодный" adj nt sg pred
+;	"холодный" adj short nt sg
 "<!>"
 	"!" sent
 
@@ -130,7 +130,7 @@
 	"." sent
 
 "<Маша>"
-	"Маша" np ant f aa sg nom
+	"Маша" np ant f sg nom
 ;	"махать" vblex impf iv pprs adv
 "<и>"
 	"и" cnjcoo
@@ -149,7 +149,7 @@
 ;	"и¹" ij REMOVE:928
 ;	"и" adv REMOVE:932
 "<Ваня>"
-	"Ваня" np ant m aa sg nom
+	"Ваня" np ant m sg nom
 "<любят>"
 ;	"любить" vblex impf iv pres p3 pl
 	"любить" vblex impf tv pres p3 pl
@@ -192,7 +192,7 @@
 	"." sent
 
 "<Ваня>"
-	"Ваня" np ant m aa sg nom
+	"Ваня" np ant m sg nom
 "<->"
 	"-" guio
 "<маленький>"
@@ -286,8 +286,8 @@
 ;	"у²" n nt nn sg dat REMOVE:895
 ;	"у¹" ij REMOVE:973
 "<Вани>"
-;	"Ваня" np ant m aa pl nom
-	"Ваня" np ant m aa sg gen
+;	"Ваня" np ant m pl nom
+	"Ваня" np ant m sg gen
 "<есть>"
 ;	"быть" vblex impf iv pres p1 pl
 ;	"быть" vblex impf iv pres p1 sg
@@ -361,7 +361,7 @@
 "<очень>"
 	"очень" adv
 "<счастлива>"
-	"счастливый" adj f sg pred
+	"счастливый" adj short f sg
 "<.>"
 	"." sent
 
@@ -434,8 +434,8 @@
 ;	"у²" n nt nn sg nom REMOVE:540
 ;	"у¹" ij REMOVE:973
 "<Маши>"
-	"Маша" np ant f aa sg gen
-;	"Маша" np ant f aa pl nom REMOVE:417
+	"Маша" np ant f sg gen
+;	"Маша" np ant f pl nom REMOVE:417
 ;	"махать" vblex impf iv imp p2 sg REMOVE:840
 "<собака>"
 	"собака" n f aa sg nom
@@ -476,8 +476,8 @@
 ;	"у²" n nt nn sg nom REMOVE:540
 ;	"у¹" ij REMOVE:973
 "<Маши>"
-	"Маша" np ant f aa sg gen
-;	"Маша" np ant f aa pl nom REMOVE:417
+	"Маша" np ant f sg gen
+;	"Маша" np ant f pl nom REMOVE:417
 ;	"махать" vblex impf iv imp p2 sg REMOVE:840
 "<нет>"
 ;	"нет" n nt nn pl acc
@@ -574,8 +574,8 @@
 	"она" prn pers p3 f sg nom
 "<спит>"
 	"спать" vblex impf iv pres p3 sg
-;	"спить" vblex perf tv pp pasv m sg pred
-;	"спитой" adj m sg pred prb REMOVE:1031
+;	"спить" vblex perf tv pp pasv short m sg
+;	"спитой" adj short m sg prb REMOVE:1031
 "<.>"
 	"." sent
 
@@ -666,7 +666,7 @@
 ;	"играющий" n m aa pl gen REMOVE:748
 	"играть" vblex impf iv pprs actv mfn aa pl acc REMOVE:759
 "<Ваню>"
-	"Ваня" np ant m aa sg acc
+	"Ваня" np ant m sg acc
 "<и>"
 	"и" cnjcoo
 ;	"и²" n nt nn pl acc REMOVE:540
@@ -684,16 +684,16 @@
 ;	"и¹" ij REMOVE:928
 ;	"и" adv REMOVE:932
 "<Машу>"
-	"Маша" np ant f aa sg acc
+	"Маша" np ant f sg acc
 ;	"махать" vblex impf iv pres p1 sg
 "<.>"
 	"." sent
 
 "<Ваня>"
-	"Ваня" np ant m aa sg nom
+	"Ваня" np ant m sg nom
 "<быстро>"
 	"быстро" adv
-;	"быстрый" adj nt sg pred REMOVE:405
+;	"быстрый" adj short nt sg REMOVE:405
 "<бежит>"
 	"бежать" vblex impf iv pres p3 sg
 "<к>"
@@ -726,8 +726,8 @@
 "<от>"
 	"от" pr
 "<Маши>"
-	"Маша" np ant f aa sg gen
-;	"Маша" np ant f aa pl nom REMOVE:417
+	"Маша" np ant f sg gen
+;	"Маша" np ant f pl nom REMOVE:417
 ;	"махать" vblex impf iv imp p2 sg REMOVE:840
 "<.>"
 	"." sent
@@ -759,7 +759,7 @@
 	"?" sent
 
 "<Маша>"
-	"Маша" np ant f aa sg nom
+	"Маша" np ant f sg nom
 ;	"махать" vblex impf iv pprs adv
 "<сидит>"
 	"сидеть" vblex impf iv pres p3 sg
@@ -857,7 +857,7 @@
 ;	"делать" vblex impf iv pres p3 sg
 	"делать" vblex impf tv pres p3 sg
 "<Ваня>"
-	"Ваня" np ant m aa sg nom
+	"Ваня" np ant m sg nom
 "<рядом>"
 ;	"ряд" n m nn sg ins
 	"рядом" adv
@@ -883,7 +883,7 @@
 ;	"когда" adv itg
 	"когда" adv rel
 "<Маша>"
-	"Маша" np ant f aa sg nom
+	"Маша" np ant f sg nom
 ;	"махать" vblex impf iv pprs adv
 "<закончила>"
 	"закончить" vblex perf iv past f sg
@@ -912,7 +912,7 @@
 	"искать" vblex impf tv pres p3 sg SELECT:667
 ;	"искать" vblex impf iv pres p3 sg SELECT:667
 "<Ваню>"
-	"Ваня" np ant m aa sg acc
+	"Ваня" np ant m sg acc
 "<:>"
 	":" sent
 "<куда>"
@@ -977,7 +977,7 @@
 	"?" sent
 
 "<Маша>"
-	"Маша" np ant f aa sg nom
+	"Маша" np ant f sg nom
 ;	"махать" vblex impf iv pprs adv
 "<не>"
 	"не" part
@@ -990,7 +990,7 @@
 	"где" adv rel SELECT:1009
 ;	"где" adv itg SELECT:1009
 "<Ваня>"
-	"Ваня" np ant m aa sg nom
+	"Ваня" np ant m sg nom
 "<.>"
 	"." sent
 
@@ -1012,7 +1012,7 @@
 	"видеть" vblex impf tv past f sg SELECT:667
 ;	"видеть" vblex impf iv past f sg SELECT:667
 "<Ваню>"
-	"Ваня" np ant m aa sg acc
+	"Ваня" np ant m sg acc
 "<?>"
 	"?" sent
 
@@ -1040,7 +1040,7 @@
 "<конечно>"
 	"конечно" paren SELECT:621
 ;	"конечно" part SELECT:621
-;	"конечный" adj nt sg pred SELECT:621
+;	"конечный" adj short nt sg SELECT:621
 "<,>"
 	"," cm
 "<не>"
@@ -1074,7 +1074,7 @@
 "<,>"
 	"," cm
 "<Маша>"
-	"Маша" np ant f aa sg nom
+	"Маша" np ant f sg nom
 ;	"махать" vblex impf iv pprs adv
 "<не>"
 	"не" part
@@ -1135,7 +1135,7 @@
 	"!" sent
 
 "<Маша>"
-	"Маша" np ant f aa sg nom
+	"Маша" np ant f sg nom
 ;	"махать" vblex impf iv pprs adv
 "<смотрит>"
 	"смотреть" vblex impf iv pres p3 sg
@@ -1162,7 +1162,7 @@
 	"." sent
 
 "<Маша>"
-	"Маша" np ant f aa sg nom
+	"Маша" np ant f sg nom
 ;	"махать" vblex impf iv pprs adv
 "<думает>"
 	"думать" vblex impf iv pres p3 sg
@@ -1185,7 +1185,7 @@
 "<ушёл>"
 	"уйти" vblex perf iv past m sg
 "<Ваня>"
-	"Ваня" np ant m aa sg nom
+	"Ваня" np ant m sg nom
 "<:>"
 	":" sent
 "<">"
@@ -1256,7 +1256,7 @@
 "<,>"
 	"," cm
 "<Маша>"
-	"Маша" np ant f aa sg nom
+	"Маша" np ant f sg nom
 ;	"махать" vblex impf iv pprs adv
 "<,>"
 	"," cm
@@ -1305,7 +1305,7 @@
 	"," cm
 "<вероятно>"
 	"вероятно" paren SELECT:621
-;	"вероятный" adj nt sg pred SELECT:621
+;	"вероятный" adj short nt sg SELECT:621
 "<,>"
 	"," cm
 "<она>"
@@ -1353,7 +1353,7 @@
 	"просто" adv
 ;	"просто" part
 ;	"просто" pred
-;	"простой¹" adj nt sg pred
+;	"простой¹" adj short nt sg
 "<не>"
 	"не" part
 "<хочет>"
@@ -1365,12 +1365,12 @@
 	"." sent
 
 "<Маша>"
-	"Маша" np ant f aa sg nom
+	"Маша" np ant f sg nom
 ;	"махать" vblex impf iv pprs adv
 "<медленно>"
 	"медленно" adv
-;	"медленный" adj nt sg pred REMOVE:405
-;	"медленный" adj nt sg pred fac REMOVE:405
+;	"медленный" adj short nt sg REMOVE:405
+;	"медленный" adj short nt sg fac REMOVE:405
 "<бредёт>"
 	"брести" vblex impf iv pres p3 sg
 "<по>"
@@ -1398,7 +1398,7 @@
 	"найти" vblex perf tv inf
 ;	"найти" vblex perf iv inf REMOVE:759
 "<Ваню>"
-	"Ваня" np ant m aa sg acc
+	"Ваня" np ant m sg acc
 "<.>"
 	"." sent
 
@@ -1454,8 +1454,8 @@
 ;	"но" n nt nn pl nom REMOVE:1023
 ;	"но" n nt nn sg ins REMOVE:1023
 "<Вани>"
-;	"Ваня" np ant m aa pl nom
-	"Ваня" np ant m aa sg gen
+;	"Ваня" np ant m pl nom
+	"Ваня" np ant m sg gen
 "<нигде>"
 	"нигде" adv
 "<нет>"
@@ -1598,7 +1598,7 @@
 "<быть>"
 	"быть" vblex impf iv inf
 "<Ваня>"
-	"Ваня" np ant m aa sg nom
+	"Ваня" np ant m sg nom
 "<?>"
 	"?" sent
 
@@ -1617,7 +1617,7 @@
 	"она" prn pers p3 f sg nom
 "<внимательно>"
 	"внимательно" adv
-;	"внимательный" adj nt sg pred REMOVE:405
+;	"внимательный" adj short nt sg REMOVE:405
 "<слушает>"
 	"слушать" vblex impf iv pres p3 sg
 ;	"слушать" vblex impf tv pres p3 sg REMOVE:647
@@ -1677,7 +1677,7 @@
 ;	"уже" part
 ;	"уж²" n m aa sg prp REMOVE:477
 "<хорошо>"
-;	"хороший" adj nt sg pred
+;	"хороший" adj short nt sg
 	"хорошо" adv
 ;	"хорошо" paren
 ;	"хорошо" part
@@ -1686,9 +1686,9 @@
 	"." sent
 
 "<Должно>"
-;	"должен" adj nt sg pred
+;	"должен" adj short nt sg
 	"должно" pred
-;	"должный" adj nt sg pred
+;	"должный" adj short nt sg
 "<быть>"
 	"быть" vblex impf iv inf
 "<,>"
@@ -1700,7 +1700,7 @@
 ;	"это" prn dem nt nn sg acc REMOVE:831
 ;	"этот" det dem nt an sg acc REMOVE:831
 "<Ваня>"
-	"Ваня" np ant m aa sg nom
+	"Ваня" np ant m sg nom
 "<!>"
 	"!" sent
 
@@ -1866,7 +1866,7 @@
 ;	"оба" num nt acc
 	"оба" num nt nom
 "<счастливы>"
-	"счастливый" adj mfn pl pred
+	"счастливый" adj short mfn pl
 "<и>"
 	"и" cnjcoo
 ;	"и²" n nt nn pl prp REMOVE:477

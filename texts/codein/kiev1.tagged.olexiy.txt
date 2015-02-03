@@ -1405,8 +1405,8 @@
 ;	"второй" num ord nt an sg acc
 	"второй" num ord nt an sg nom
 "<название>"
-	"название" n nt nn sg acc
-;	"название" n nt nn sg nom
+;	"название" n nt nn sg acc
+	"название" n nt nn sg nom
 "<—>"
 	"—" guio
 "<Самватас>"
