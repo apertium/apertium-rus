@@ -1194,8 +1194,8 @@
 ;	"а²" n nt nn sg nom REMOVE:519
 ;	"а¹" ij REMOVE:871
 "<также>"
-;	"также" adv
-	"также" cnjcoo REMOVE:632
+	"также" adv
+;	"также" cnjcoo REMOVE:632
 "<потери>"
 	"потеря" n f nn pl acc
 ;	"потеря" n f nn pl nom
@@ -1376,8 +1376,8 @@
 ;	"а²" n nt nn sg prp REMOVE:519
 ;	"а¹" ij REMOVE:871
 "<также>"
-;	"также" adv
-	"также" cnjcoo REMOVE:632
+	"также" adv
+;	"также" cnjcoo REMOVE:632
 "<появились>"
 	"появиться" vblex perf iv past mfn pl
 "<первые>"
