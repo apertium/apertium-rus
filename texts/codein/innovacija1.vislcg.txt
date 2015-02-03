@@ -2515,7 +2515,7 @@
 "<кто-либо>"
 	"кто-либо" prn ind f an sg nom
 	"кто-либо" prn ind m an sg nom
-	"кто-либо" prn ind pl nom
+	"кто-либо" prn ind mfn aa pl nom
 "<использует>"
 	"использовать" vblex impf tv pres p3 sg SELECT:667
 	"использовать" vblex perf tv fut p3 sg SELECT:667
