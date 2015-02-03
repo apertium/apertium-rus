@@ -968,8 +968,8 @@
 	"кто" prn itg f an sg nom
 	"кто" prn itg m an sg nom
 	"кто" prn itg pl nom
-	"кто" prn rel f an sg nom
-	"кто" prn rel m an sg nom
+	"кто" prn rel f aa sg nom
+	"кто" prn rel m aa sg nom
 	"кто" prn rel pl nom
 "<будет>"
 	"будет" pred
@@ -1062,8 +1062,8 @@
 	"кто" prn itg f an sg nom
 	"кто" prn itg m an sg nom
 	"кто" prn itg pl nom
-	"кто" prn rel f an sg nom
-	"кто" prn rel m an sg nom
+	"кто" prn rel f aa sg nom
+	"кто" prn rel m aa sg nom
 	"кто" prn rel pl nom
 "<сделает>"
 	"сделать" vblex perf iv fut p3 sg

@@ -1015,8 +1015,8 @@
 "<,>"
 	"," cm
 "<кто>"
-	"кто" prn rel f an sg nom SELECT:979
-	"кто" prn rel m an sg nom SELECT:979
+	"кто" prn rel f aa sg nom SELECT:979
+	"кто" prn rel m aa sg nom SELECT:979
 	"кто" prn rel pl nom SELECT:979
 ;	"кто" prn itg f an sg nom SELECT:979
 ;	"кто" prn itg m an sg nom SELECT:979
