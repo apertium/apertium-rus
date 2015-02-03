@@ -2015,9 +2015,9 @@
 	"," cm
 "<как>"
 ;	"как" adv itg
-	"как" adv rel
+;	"как" adv rel
 ;	"как" cnjcoo
-;	"как" cnjsub
+	"как" cnjsub
 ;	"как" part
 "<и>"
 	"и" adv

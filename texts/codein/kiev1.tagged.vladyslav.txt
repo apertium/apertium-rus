@@ -2012,12 +2012,12 @@
 	"," cm
 "<как>"
 ;	"как" adv itg
-	"как" adv rel
+;	"как" adv rel
 ;	"как" cnjcoo
-;	"как" cnjsub
+	"как" cnjsub
 ;	"как" part
 "<и>"
-;	"и" adv
+	"и" adv
 ; 	"и²" n nt nn pl acc REMOVE:493
 ; 	"и²" n nt nn pl dat REMOVE:493
 ; 	"и²" n nt nn pl gen REMOVE:493
@@ -2031,7 +2031,7 @@
 ; 	"и²" n nt nn sg nom REMOVE:493
 ; 	"и²" n nt nn sg prp REMOVE:493
 ; 	"и¹" ij REMOVE:768
- 	"и" cnjcoo REMOVE:770
+;	"и" cnjcoo REMOVE:770
 "<прежде>"
 	"прежде" adv
 ; 	"прежде" pr REMOVE:347

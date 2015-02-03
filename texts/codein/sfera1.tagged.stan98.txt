@@ -765,8 +765,8 @@
 ;	"о²" n nt nn sg ins SELECT:463
 ;	"о²" n nt nn sg nom SELECT:463
 "<вращающейся>"
-;	"вращаться" vblex impf iv pprs actv f an sg prp
-	"вращать" vblex impf tv pprs actv pass f an sg prp
+	"вращаться" vblex impf iv pprs actv f an sg prp
+;	"вращать" vblex impf tv pprs actv pass f an sg prp
 ;	"вращать" vblex impf tv pprs actv pass f an sg dat REMOVE:398
 ;	"вращать" vblex impf tv pprs actv pass f an sg gen REMOVE:398
 ;	"вращать" vblex impf tv pprs actv pass f an sg ins REMOVE:398
