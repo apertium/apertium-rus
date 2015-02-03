@@ -169,7 +169,7 @@
 	"это" prn dem nt nn sg prp
 	"этот" prn dem m aa sg prp
 ;	"этот" det dem m an sg prp REMOVE:443
-;	"этот" det dem nt sg prp REMOVE:443
+;	"этот" det dem nt an sg prp REMOVE:443
 "<может>"
 	"мочь²" vblex impf iv pres p3 sg
 "<быть>"

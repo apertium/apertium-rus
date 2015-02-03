@@ -1804,11 +1804,11 @@
 ;	"её" det pos f an sg nom REMOVE:731
 ;	"её" det pos f an sg prp REMOVE:731
 ;	"её" det pos nt an sg acc REMOVE:731
-;	"её" det pos nt sg dat REMOVE:731
+;	"её" det pos nt an sg dat REMOVE:731
 ;	"её" det pos nt an sg gen REMOVE:731
 ;	"её" det pos nt an sg ins REMOVE:731
 ;	"её" det pos nt an sg nom REMOVE:731
-;	"её" det pos nt sg prp REMOVE:731
+;	"её" det pos nt an sg prp REMOVE:731
 ;	"её" det pos mfn an pl ins REMOVE:737
 ;	"её" det pos mfn an pl nom REMOVE:737
 ;	"её" det pos mfn an pl prp REMOVE:737
@@ -2109,11 +2109,11 @@
 ;	"их¹" det pos f sg dat REMOVE:418
 ;	"их¹" det pos f an sg prp REMOVE:418
 ;	"их¹" det pos m an sg dat REMOVE:418
-;	"их¹" det pos nt sg prp REMOVE:418
+;	"их¹" det pos nt an sg prp REMOVE:418
 ;	"их¹" det pos m an sg prp REMOVE:418
 ;	"их¹" det pos mfn an pl dat REMOVE:418
 ;	"их¹" det pos mfn an pl prp REMOVE:418
-;	"их¹" det pos nt sg dat REMOVE:418
+;	"их¹" det pos nt an sg dat REMOVE:418
 ;	"их¹" det pos f an sg acc REMOVE:532
 ;	"их¹" det pos m aa sg acc REMOVE:532
 ;	"их¹" det pos m nn sg acc REMOVE:532
@@ -2260,7 +2260,7 @@
 ;	"их¹" det pos f an sg prp REMOVE:472
 ;	"их¹" det pos m an sg prp REMOVE:472
 ;	"их¹" det pos mfn an pl prp REMOVE:472
-;	"их¹" det pos nt sg prp REMOVE:472
+;	"их¹" det pos nt an sg prp REMOVE:472
 ;	"их¹" det pos f an sg acc REMOVE:480
 ;	"их¹" det pos f sg dat REMOVE:480
 ;	"их¹" det pos f an sg gen REMOVE:480
@@ -2280,7 +2280,7 @@
 ;	"их¹" det pos mfn an pl ins REMOVE:480
 ;	"их¹" det pos mfn an pl nom REMOVE:480
 ;	"их¹" det pos nt an sg acc REMOVE:480
-;	"их¹" det pos nt sg dat REMOVE:480
+;	"их¹" det pos nt an sg dat REMOVE:480
 ;	"их¹" det pos nt an sg gen REMOVE:480
 ;	"их¹" det pos nt an sg ins REMOVE:480
 ;	"их²" ij REMOVE:896

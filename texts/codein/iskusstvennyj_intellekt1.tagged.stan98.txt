@@ -101,7 +101,7 @@
 "<этому>"
 ;	"это" prn dem nt nn sg dat
 ;	"этот" det dem m an sg dat
-	"этот" det dem nt sg dat
+	"этот" det dem nt an sg dat
 ;	"этот" prn dem m aa sg dat
 "<времени>"
 ;	"временить" vblex impf iv imp p2 sg
@@ -139,7 +139,7 @@
 ;	"его" det pos f an sg prp REMOVE:458
 ;	"его" det pos m an sg prp REMOVE:458
 ;	"его" det pos mfn an pl prp REMOVE:458
-;	"его" det pos nt sg prp REMOVE:458
+;	"его" det pos nt an sg prp REMOVE:458
 ;	"его" det pos f an sg acc REMOVE:707
 ;	"его" det pos f sg dat REMOVE:707
 ;	"его" det pos f an sg gen REMOVE:707
@@ -153,7 +153,7 @@
 ;	"его" det pos m an sg nom REMOVE:707
 ;	"его" det pos mfn an pl dat REMOVE:713
 ;	"его" det pos mfn an pl ins REMOVE:713
-;	"его" det pos nt sg dat REMOVE:713
+;	"его" det pos nt an sg dat REMOVE:713
 ;	"его" det pos nt an sg ins REMOVE:713
 "<зарождения>"
 ;	"зарождение" n nt nn pl acc
@@ -1681,7 +1681,7 @@
 ;	"это" prn dem nt nn sg prp
 	"этот" prn dem m aa sg prp
 ;	"этот" det dem m an sg prp REMOVE:464
-;	"этот" det dem nt sg prp REMOVE:464
+;	"этот" det dem nt an sg prp REMOVE:464
 "<родилась>"
 ;	"родиться" vblex impf iv past f sg
 	"родиться" vblex perf iv past f sg

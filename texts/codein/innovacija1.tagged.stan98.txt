@@ -99,7 +99,7 @@
 ;	"его" det pos f an sg prp REMOVE:477
 ;	"его" det pos m an sg prp REMOVE:477
 ;	"его" det pos mfn an pl prp REMOVE:477
-;	"его" det pos nt sg prp REMOVE:477
+;	"его" det pos nt an sg prp REMOVE:477
 ;	"его" det pos m aa sg acc REMOVE:734
 ;	"его" det pos m nn sg acc REMOVE:734
 ;	"его" det pos m an sg dat REMOVE:734
@@ -107,7 +107,7 @@
 ;	"его" det pos m an sg ins REMOVE:734
 ;	"его" det pos m an sg nom REMOVE:734
 ;	"его" det pos nt an sg acc REMOVE:734
-;	"его" det pos nt sg dat REMOVE:734
+;	"его" det pos nt an sg dat REMOVE:734
 ;	"его" det pos nt an sg gen REMOVE:734
 ;	"его" det pos nt an sg ins REMOVE:734
 ;	"его" det pos nt an sg nom REMOVE:734
@@ -1882,7 +1882,7 @@
 ;	"его" det pos f an sg prp REMOVE:475
 ;	"его" det pos m an sg prp REMOVE:475
 ;	"его" det pos mfn an pl prp REMOVE:475
-;	"его" det pos nt sg prp REMOVE:475
+;	"его" det pos nt an sg prp REMOVE:475
 ;	"его" det pos f an sg acc REMOVE:483
 ;	"его" det pos f sg dat REMOVE:483
 ;	"его" det pos f an sg gen REMOVE:483
@@ -1901,7 +1901,7 @@
 ;	"его" det pos mfn an pl ins REMOVE:483
 ;	"его" det pos mfn an pl nom REMOVE:483
 	"его" det pos nt an sg acc REMOVE:483
-;	"его" det pos nt sg dat REMOVE:483
+;	"его" det pos nt an sg dat REMOVE:483
 ;	"его" det pos nt an sg gen REMOVE:483
 ;	"его" det pos nt an sg ins REMOVE:483
 ;	"его" det pos nt an sg nom REMOVE:483
@@ -2250,7 +2250,7 @@
 	"то" prn dem nt nn sg prp SELECT:695 SELECT:697
 ;	"том" n m nn sg nom REMOVE:417
 ;	"тот" det dem m an sg prp REMOVE:487
-;	"тот" det dem nt sg prp REMOVE:487
+;	"тот" det dem nt an sg prp REMOVE:487
 ;	"том" n m nn sg acc SELECT:695
 ;	"тот" prn dem m aa sg prp SELECT:695 SELECT:697
 "<,>"

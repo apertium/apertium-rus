@@ -82,12 +82,12 @@
 ;	"их¹" det pos mfn an pl nom
 ;	"они" prn pers p3 pl acc
 ;	"их¹" det pos nt an sg acc
-;	"их¹" det pos nt sg dat
+;	"их¹" det pos nt an sg dat
 ;	"их¹" det pos nt an sg gen
 ;	"их¹" det pos f an sg prp REMOVE:437
 ;	"их¹" det pos m an sg prp REMOVE:437
 ;	"их¹" det pos mfn an pl prp REMOVE:437
-;	"их¹" det pos nt sg prp REMOVE:437
+;	"их¹" det pos nt an sg prp REMOVE:437
 ;	"их²" ij REMOVE:779
 "<малый>"
 	"малый" adj m an sg nom
@@ -600,7 +600,7 @@
 "<своём>"
 ;	"свое" n nt nn sg prp
 ;	"свой" det pos m an sg prp
-	"свой" det pos nt sg prp
+	"свой" det pos nt an sg prp
 ;	"свой" n m aa sg prp
 "<,>"
 	"," cm

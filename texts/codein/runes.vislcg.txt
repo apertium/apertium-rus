@@ -1942,11 +1942,11 @@
 ;	"его" det pos m an sg nom REMOVE:683
 ;	"его" det pos m an sg prp REMOVE:683
 ;	"его" det pos nt an sg acc REMOVE:683
-;	"его" det pos nt sg dat REMOVE:683
+;	"его" det pos nt an sg dat REMOVE:683
 ;	"его" det pos nt an sg gen REMOVE:683
 ;	"его" det pos nt an sg ins REMOVE:683
 ;	"его" det pos nt an sg nom REMOVE:683
-;	"его" det pos nt sg prp REMOVE:683
+;	"его" det pos nt an sg prp REMOVE:683
 ;	"его" det pos f an sg ins REMOVE:689
 ;	"его" det pos mfn an pl ins REMOVE:689
 ;	"его" det pos f an sg nom REMOVE:376
@@ -2211,7 +2211,7 @@
 	"том" n m nn sg dat
 	"тот" prn dem m aa sg dat
 ;	"тот" det dem m an sg dat REMOVE:438
-;	"тот" det dem nt sg dat REMOVE:438
+;	"тот" det dem nt an sg dat REMOVE:438
 "<может>"
 	"мочь²" vblex impf iv pres p3 sg
 "<послужить>"
@@ -2380,7 +2380,7 @@
 ;	"их¹" det pos f an sg prp REMOVE:432
 ;	"их¹" det pos m an sg prp REMOVE:432
 ;	"их¹" det pos mfn an pl prp REMOVE:432
-;	"их¹" det pos nt sg prp REMOVE:432
+;	"их¹" det pos nt an sg prp REMOVE:432
 ;	"их¹" det pos f an sg acc REMOVE:438
 ;	"их¹" det pos f sg dat REMOVE:438
 ;	"их¹" det pos f an sg gen REMOVE:438
@@ -2400,7 +2400,7 @@
 ;	"их¹" det pos mfn an pl ins REMOVE:438
 ;	"их¹" det pos mfn an pl nom REMOVE:438
 ;	"их¹" det pos nt an sg acc REMOVE:438
-;	"их¹" det pos nt sg dat REMOVE:438
+;	"их¹" det pos nt an sg dat REMOVE:438
 ;	"их¹" det pos nt an sg gen REMOVE:438
 ;	"их¹" det pos nt an sg ins REMOVE:438
 ;	"их²" ij REMOVE:766

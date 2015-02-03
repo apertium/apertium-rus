@@ -230,7 +230,7 @@
 "<в>"
 	"в" pr
 "<том>"
-	"тот" det dem nt sg prp @N→ SELECT:685 MAP:724
+	"тот" det dem nt an sg prp @N→ SELECT:685 MAP:724
 ;	"том" n m nn sg nom REMOVE:376
 ;	"тот" det dem m an sg prp REMOVE:683
 ;	"то" prn dem nt nn sg prp SELECT:685
@@ -471,11 +471,11 @@
 ;	"их¹" det pos f an sg nom REMOVE:683
 ;	"их¹" det pos f an sg prp REMOVE:683
 ;	"их¹" det pos nt an sg acc REMOVE:683
-;	"их¹" det pos nt sg dat REMOVE:683
+;	"их¹" det pos nt an sg dat REMOVE:683
 ;	"их¹" det pos nt an sg gen REMOVE:683
 ;	"их¹" det pos nt an sg ins REMOVE:683
 ;	"их¹" det pos nt an sg nom REMOVE:683
-;	"их¹" det pos nt sg prp REMOVE:683
+;	"их¹" det pos nt an sg prp REMOVE:683
 ;	"их¹" det pos mfn an pl gen REMOVE:689
 ;	"их¹" det pos mfn an pl ins REMOVE:689
 ;	"их¹" det pos mfn an pl prp REMOVE:689

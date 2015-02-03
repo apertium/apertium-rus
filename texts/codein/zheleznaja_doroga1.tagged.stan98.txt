@@ -530,11 +530,11 @@
 ;	"его" det pos f an sg nom REMOVE:705
 ;	"его" det pos f an sg prp REMOVE:705
 ;	"его" det pos nt an sg acc REMOVE:705
-;	"его" det pos nt sg dat REMOVE:705
+;	"его" det pos nt an sg dat REMOVE:705
 ;	"его" det pos nt an sg gen REMOVE:705
 ;	"его" det pos nt an sg ins REMOVE:705
 ;	"его" det pos nt an sg nom REMOVE:705
-;	"его" det pos nt sg prp REMOVE:705
+;	"его" det pos nt an sg prp REMOVE:705
 ;	"его" det pos mfn an pl nom REMOVE:711
 ;	"его" det pos mfn an pl prp REMOVE:711
 ;	"его" det pos m aa sg acc REMOVE:711
@@ -857,7 +857,7 @@
 	"её" det pos f an sg prp REMOVE:456
 ;	"её" det pos m an sg prp REMOVE:456
 ;	"её" det pos mfn an pl prp REMOVE:456
-;	"её" det pos nt sg prp REMOVE:456
+;	"её" det pos nt an sg prp REMOVE:456
 ;	"её" det pos f an sg acc REMOVE:705
 ;	"её" det pos f sg dat REMOVE:705
 ;	"её" det pos f an sg gen REMOVE:705
@@ -865,7 +865,7 @@
 ;	"её" det pos f an sg nom REMOVE:705
 ;	"её" det pos nt an sg nom REMOVE:705
 ;	"её" det pos nt an sg acc REMOVE:705
-;	"её" det pos nt sg dat REMOVE:705
+;	"её" det pos nt an sg dat REMOVE:705
 ;	"её" det pos nt an sg gen REMOVE:705
 ;	"её" det pos nt an sg ins REMOVE:705
 ;	"её" det pos mfn nn pl acc REMOVE:711

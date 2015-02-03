@@ -781,7 +781,7 @@
 ;	"их¹" det pos f an sg prp REMOVE:333
 ;	"их¹" det pos m an sg prp REMOVE:333
 ;	"их¹" det pos mfn an pl prp REMOVE:333
-;	"их¹" det pos nt sg prp REMOVE:333
+;	"их¹" det pos nt an sg prp REMOVE:333
 ;	"их¹" det pos f an sg gen REMOVE:598
 ;	"их¹" det pos m an sg gen REMOVE:598
 ;	"они" prn pers p3 pl gen REMOVE:598
@@ -794,7 +794,7 @@
 ;	"их¹" det pos nt an sg acc REMOVE:683
 ;	"их¹" det pos m an sg ins REMOVE:683
 ;	"их¹" det pos m an sg nom REMOVE:683
-;	"их¹" det pos nt sg dat REMOVE:683
+;	"их¹" det pos nt an sg dat REMOVE:683
 ;	"их¹" det pos nt an sg ins REMOVE:683
 ;	"их¹" det pos f an sg acc REMOVE:689
 ;	"их¹" det pos f sg dat REMOVE:689
@@ -1103,11 +1103,11 @@
 ;	"их¹" det pos f an sg nom REMOVE:683
 ;	"их¹" det pos f an sg prp REMOVE:683
 ;	"их¹" det pos nt an sg acc REMOVE:683
-;	"их¹" det pos nt sg dat REMOVE:683
+;	"их¹" det pos nt an sg dat REMOVE:683
 ;	"их¹" det pos nt an sg gen REMOVE:683
 ;	"их¹" det pos nt an sg ins REMOVE:683
 ;	"их¹" det pos nt an sg nom REMOVE:683
-;	"их¹" det pos nt sg prp REMOVE:683
+;	"их¹" det pos nt an sg prp REMOVE:683
 ;	"их¹" det pos mfn an pl gen REMOVE:689
 ;	"их¹" det pos mfn an pl ins REMOVE:689
 ;	"их¹" det pos mfn an pl prp REMOVE:689
@@ -1329,10 +1329,10 @@
 ;	"их¹" det pos mfn an pl dat REMOVE:382
 ;	"их¹" det pos mfn an pl gen REMOVE:382
 ;	"их¹" det pos mfn an pl ins REMOVE:382
-;	"их¹" det pos nt sg dat REMOVE:382
+;	"их¹" det pos nt an sg dat REMOVE:382
 ;	"их¹" det pos nt an sg gen REMOVE:382
 ;	"их¹" det pos nt an sg ins REMOVE:382
-;	"их¹" det pos nt sg prp REMOVE:683
+;	"их¹" det pos nt an sg prp REMOVE:683
 ;	"их¹" det pos m an sg prp REMOVE:683
 ;	"их¹" det pos m aa sg acc REMOVE:683
 ;	"их¹" det pos m nn sg acc REMOVE:683
@@ -1468,7 +1468,7 @@
 ;	"его" det pos f an sg prp REMOVE:673
 ;	"его" det pos m an sg prp REMOVE:673
 ;	"его" det pos mfn an pl prp REMOVE:673
-;	"его" det pos nt sg prp REMOVE:673
+;	"его" det pos nt an sg prp REMOVE:673
 ;	"его" det pos m aa sg acc REMOVE:683
 ;	"его" det pos m nn sg acc REMOVE:683
 ;	"его" det pos m an sg dat REMOVE:683
@@ -1476,7 +1476,7 @@
 ;	"его" det pos m an sg ins REMOVE:683
 ;	"его" det pos m an sg nom REMOVE:683
 ;	"его" det pos nt an sg acc REMOVE:683
-;	"его" det pos nt sg dat REMOVE:683
+;	"его" det pos nt an sg dat REMOVE:683
 ;	"его" det pos nt an sg gen REMOVE:683
 ;	"его" det pos nt an sg ins REMOVE:683
 ;	"его" det pos nt an sg nom REMOVE:683
@@ -2012,7 +2012,7 @@
 ;	"его" det pos f an sg prp REMOVE:432
 ;	"его" det pos m an sg prp REMOVE:432
 ;	"его" det pos mfn an pl prp REMOVE:432
-;	"его" det pos nt sg prp REMOVE:432
+;	"его" det pos nt an sg prp REMOVE:432
 ;	"его" det pos f an sg acc REMOVE:683
 ;	"его" det pos f sg dat REMOVE:683
 ;	"его" det pos f an sg gen REMOVE:683
@@ -2026,7 +2026,7 @@
 ;	"его" det pos m an sg nom REMOVE:683
 ;	"его" det pos mfn an pl dat REMOVE:689
 ;	"его" det pos mfn an pl ins REMOVE:689
-;	"его" det pos nt sg dat REMOVE:689
+;	"его" det pos nt an sg dat REMOVE:689
 ;	"его" det pos nt an sg ins REMOVE:689
 "<наблюдения>"
 	"наблюдение" n nt nn pl acc
@@ -2313,9 +2313,9 @@
 ;	"её" det pos mfn an pl dat REMOVE:689
 ;	"её" det pos mfn an pl ins REMOVE:689
 ;	"её" det pos mfn an pl prp REMOVE:689
-;	"её" det pos nt sg dat REMOVE:689
+;	"её" det pos nt an sg dat REMOVE:689
 ;	"её" det pos nt an sg ins REMOVE:689
-;	"её" det pos nt sg prp REMOVE:689
+;	"её" det pos nt an sg prp REMOVE:689
 ;	"её" det pos nt an sg nom REMOVE:376
 ;	"её" det pos mfn an pl nom REMOVE:376
 ;	"её" det pos mfn nn pl acc REMOVE:378

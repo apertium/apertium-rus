@@ -514,10 +514,10 @@
 ;	"его" det pos mfn an pl nom REMOVE:694
 ;	"его" det pos mfn an pl prp REMOVE:694
 ;	"его" det pos nt an sg acc REMOVE:694
-;	"его" det pos nt sg dat REMOVE:694
+;	"его" det pos nt an sg dat REMOVE:694
 ;	"его" det pos nt an sg ins REMOVE:694
 ;	"его" det pos nt an sg nom REMOVE:694
-;	"его" det pos nt sg prp REMOVE:694
+;	"его" det pos nt an sg prp REMOVE:694
 ;	"его" det pos mfn aa pl acc REMOVE:694
 ;	"его" det pos mfn nn pl acc REMOVE:694
 ;	"его" det pos mfn an pl dat REMOVE:694
@@ -1301,11 +1301,11 @@
 ;	"его" det pos m an sg nom REMOVE:688
 ;	"его" det pos m an sg prp REMOVE:688
 ;	"его" det pos nt an sg acc REMOVE:688
-;	"его" det pos nt sg dat REMOVE:688
+;	"его" det pos nt an sg dat REMOVE:688
 ;	"его" det pos nt an sg gen REMOVE:688
 ;	"его" det pos nt an sg ins REMOVE:688
 ;	"его" det pos nt an sg nom REMOVE:688
-;	"его" det pos nt sg prp REMOVE:688
+;	"его" det pos nt an sg prp REMOVE:688
 ;	"его" det pos f an sg acc REMOVE:694
 ;	"его" det pos f sg dat REMOVE:694
 ;	"его" det pos f an sg gen REMOVE:694
@@ -1922,7 +1922,7 @@
 ;	"то" prn dem nt nn sg dat
 ;	"том" n m nn sg dat
 ;	"тот" det dem m an sg dat
-	"тот" det dem nt sg dat
+	"тот" det dem nt an sg dat
 ;	"тот" prn dem m aa sg dat
 "<времени>"
 ;	"временить" vblex impf iv imp p2 sg

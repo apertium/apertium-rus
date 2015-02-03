@@ -364,7 +364,7 @@
 	"том" n m nn sg dat
 	"тот" prn dem m aa sg dat
 ;	"тот" det dem m an sg dat REMOVE:440
-;	"тот" det dem nt sg dat REMOVE:440
+;	"тот" det dem nt an sg dat REMOVE:440
 "<,>"
 	"," cm
 "<что>"
@@ -1521,7 +1521,7 @@
 ;	"её" det pos f an sg prp REMOVE:434
 ;	"её" det pos m an sg prp REMOVE:434
 ;	"её" det pos mfn an pl prp REMOVE:434
-;	"её" det pos nt sg prp REMOVE:434
+;	"её" det pos nt an sg prp REMOVE:434
 ;	"её" det pos f an sg acc REMOVE:683
 ;	"её" det pos f sg dat REMOVE:683
 ;	"её" det pos f an sg gen REMOVE:683
@@ -1529,7 +1529,7 @@
 ;	"её" det pos f an sg nom REMOVE:683
 ;	"её" det pos nt an sg nom REMOVE:683
 ;	"её" det pos nt an sg acc REMOVE:683
-;	"её" det pos nt sg dat REMOVE:683
+;	"её" det pos nt an sg dat REMOVE:683
 ;	"её" det pos nt an sg gen REMOVE:683
 ;	"её" det pos nt an sg ins REMOVE:683
 ;	"её" det pos mfn an pl dat REMOVE:689
@@ -2201,11 +2201,11 @@
 ;	"её" det pos mfn an pl nom REMOVE:438
 ;	"её" det pos mfn an pl prp REMOVE:438
 ;	"её" det pos nt an sg acc REMOVE:438
-;	"её" det pos nt sg dat REMOVE:438
+;	"её" det pos nt an sg dat REMOVE:438
 ;	"её" det pos nt an sg gen REMOVE:438
 ;	"её" det pos nt an sg ins REMOVE:438
 ;	"её" det pos nt an sg nom REMOVE:438
-;	"её" det pos nt sg prp REMOVE:438
+;	"её" det pos nt an sg prp REMOVE:438
 "<запретил>"
 	"запретить" vblex perf iv past m sg
 	"запретить" vblex perf tv past m sg
@@ -2501,13 +2501,13 @@
 	"её" det pos mfn an pl nom
 	"она" prn pers p3 f sg acc
 	"её" det pos nt an sg acc
-	"её" det pos nt sg dat
+	"её" det pos nt an sg dat
 	"её" det pos nt an sg gen
 	"её" det pos nt an sg ins
 ;	"её" det pos f an sg prp REMOVE:432
 ;	"её" det pos m an sg prp REMOVE:432
 ;	"её" det pos mfn an pl prp REMOVE:432
-;	"её" det pos nt sg prp REMOVE:432
+;	"её" det pos nt an sg prp REMOVE:432
 "<непосредственным>"
 	"непосредственный" adj m an sg ins
 	"непосредственный" adj nt an sg ins
@@ -2999,11 +2999,11 @@
 ;	"её" det pos mfn an pl dat REMOVE:382
 ;	"её" det pos mfn an pl gen REMOVE:382
 ;	"её" det pos mfn an pl ins REMOVE:382
-;	"её" det pos nt sg dat REMOVE:382
+;	"её" det pos nt an sg dat REMOVE:382
 ;	"её" det pos nt an sg gen REMOVE:382
 ;	"её" det pos nt an sg ins REMOVE:382
 ;	"она" prn pers p3 f sg acc REMOVE:401
-;	"её" det pos nt sg prp SELECT:656
+;	"её" det pos nt an sg prp SELECT:656
 ;	"её" det pos m an sg prp SELECT:656
 ;	"её" det pos f an sg prp SELECT:656
 ;	"её" det pos mfn an pl prp SELECT:656
@@ -3701,7 +3701,7 @@
 "<том>"
 	"тот" det dem m an sg prp @N→ SELECT:685 MAP:724
 ;	"том" n m nn sg nom REMOVE:376
-;	"тот" det dem nt sg prp REMOVE:683
+;	"тот" det dem nt an sg prp REMOVE:683
 ;	"то" prn dem nt nn sg prp SELECT:685
 ;	"том" n m nn sg acc SELECT:685
 ;	"тот" prn dem m aa sg prp SELECT:685
