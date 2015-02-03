@@ -239,7 +239,7 @@
 ;	"это" part
 ;	"это" prn dem nt nn sg acc
 	"это" prn dem nt nn sg nom
-;	"этот" det dem nt sg acc
+;	"этот" det dem nt an sg acc
 ;	"этот" det dem nt an sg nom
 "<было>"
 ;	"было" part
@@ -453,14 +453,14 @@
 ;	"то" cnjcoo
 ;	"то" cnjsub
 	"то" prn dem nt nn sg acc
-;	"тот" det dem nt sg acc
+;	"тот" det dem nt an sg acc
 ;	"то" prn dem nt nn sg nom REMOVE:381
 ;	"тот" det dem nt an sg nom REMOVE:381
 "<что>"
 	"что²" cnjsub
-;	"что¹" prn itg nt sg acc
+;	"что¹" prn itg nt an sg acc
 ;	"что¹" prn itg nt an sg nom
-;	"что¹" prn rel nt sg acc
+;	"что¹" prn rel nt an sg acc
 ;	"что¹" prn rel nt an sg nom
 "<операция>"
 	"операция" n f nn sg nom
@@ -1089,9 +1089,9 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:469
-;	"что¹" prn itg nt sg acc SELECT:469
+;	"что¹" prn itg nt an sg acc SELECT:469
 ;	"что¹" prn itg nt an sg nom SELECT:469
-;	"что¹" prn rel nt sg acc SELECT:469
+;	"что¹" prn rel nt an sg acc SELECT:469
 ;	"что¹" prn rel nt an sg nom SELECT:469
 "<при>"
 	"при" pr SELECT:719

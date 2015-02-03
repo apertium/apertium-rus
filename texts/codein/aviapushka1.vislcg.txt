@@ -60,7 +60,7 @@
 	"являть" vblex impf tv pres p3 sg pass
 	"являться" vblex impf iv pres p3 sg
 "<их>"
-	"их¹" det pos nt sg ins
+	"их¹" det pos nt an sg ins
 	"их¹" det pos f an sg acc
 	"их¹" det pos f sg dat
 	"их¹" det pos f an sg gen
@@ -81,10 +81,10 @@
 	"их¹" det pos mfn an pl ins
 	"их¹" det pos mfn an pl nom
 	"они" prn pers p3 pl acc
-	"их¹" det pos nt sg acc
+	"их¹" det pos nt an sg acc
 	"их¹" det pos nt sg dat
 	"их¹" det pos nt an sg gen
-;	"их¹" det pos f sg prp REMOVE:437
+;	"их¹" det pos f an sg prp REMOVE:437
 ;	"их¹" det pos m an sg prp REMOVE:437
 ;	"их¹" det pos mfn an pl prp REMOVE:437
 ;	"их¹" det pos nt sg prp REMOVE:437
@@ -302,9 +302,9 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:469
-;	"что¹" prn itg nt sg acc SELECT:469
+;	"что¹" prn itg nt an sg acc SELECT:469
 ;	"что¹" prn itg nt an sg nom SELECT:469
-;	"что¹" prn rel nt sg acc SELECT:469
+;	"что¹" prn rel nt an sg acc SELECT:469
 ;	"что¹" prn rel nt an sg nom SELECT:469
 "<приводит>"
 	"приводить" vblex impf iv pres p3 sg
@@ -381,8 +381,8 @@
 	"чем" cnjsub SELECT:469
 ;	"что¹" prn itg nt sg prp REMOVE:437
 ;	"что¹" prn rel nt sg prp REMOVE:437
-;	"что¹" prn itg nt sg ins SELECT:469
-;	"что¹" prn rel nt sg ins SELECT:469
+;	"что¹" prn itg nt an sg ins SELECT:469
+;	"что¹" prn rel nt an sg ins SELECT:469
 "<у>"
 	"у" pr
 ;	"у²" n nt nn pl prp REMOVE:437
@@ -638,9 +638,9 @@
 	"," cm
 "<чем>"
 	"чем" cnjsub SELECT:469
-;	"что¹" prn itg nt sg ins SELECT:469
+;	"что¹" prn itg nt an sg ins SELECT:469
 ;	"что¹" prn itg nt sg prp SELECT:469
-;	"что¹" prn rel nt sg ins SELECT:469
+;	"что¹" prn rel nt an sg ins SELECT:469
 ;	"что¹" prn rel nt sg prp SELECT:469
 "<авиационные>"
 	"авиационный" adj mfn an pl nom
@@ -649,9 +649,9 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:469
-;	"что¹" prn itg nt sg acc SELECT:469
+;	"что¹" prn itg nt an sg acc SELECT:469
 ;	"что¹" prn itg nt an sg nom SELECT:469
-;	"что¹" prn rel nt sg acc SELECT:469
+;	"что¹" prn rel nt an sg acc SELECT:469
 ;	"что¹" prn rel nt an sg nom SELECT:469
 "<определяет>"
 	"определять" vblex impf iv pres p3 sg
@@ -831,7 +831,7 @@
 	"этот" det dem f an sg gen
 ;	"этот" det dem f sg dat REMOVE:672
 ;	"эта" n f nn sg ins REMOVE:383
-;	"этот" det dem f sg prp REMOVE:383
+;	"этот" det dem f an sg prp REMOVE:383
 ;	"этот" det dem f an sg ins REMOVE:383
 "<цели>"
 	"целить" vblex impf iv imp p2 sg

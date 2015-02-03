@@ -31,7 +31,7 @@
 	"то" cnjcoo
 	"то" cnjsub
 	"то" prn dem nt nn sg acc
-	"тот" det dem nt sg acc
+	"тот" det dem nt an sg acc
 ;	"то" prn dem nt nn sg nom REMOVE:376
 ;	"тот" det dem nt an sg nom REMOVE:376
 "<время>"
@@ -469,11 +469,11 @@
 ;	"их¹" det pos f an sg gen REMOVE:683
 ;	"их¹" det pos f an sg ins REMOVE:683
 ;	"их¹" det pos f an sg nom REMOVE:683
-;	"их¹" det pos f sg prp REMOVE:683
-;	"их¹" det pos nt sg acc REMOVE:683
+;	"их¹" det pos f an sg prp REMOVE:683
+;	"их¹" det pos nt an sg acc REMOVE:683
 ;	"их¹" det pos nt sg dat REMOVE:683
 ;	"их¹" det pos nt an sg gen REMOVE:683
-;	"их¹" det pos nt sg ins REMOVE:683
+;	"их¹" det pos nt an sg ins REMOVE:683
 ;	"их¹" det pos nt an sg nom REMOVE:683
 ;	"их¹" det pos nt sg prp REMOVE:683
 ;	"их¹" det pos mfn an pl gen REMOVE:689
@@ -531,7 +531,7 @@
 	"По²" np cog mfn an pl acc
 	"По¹" np al f nn pl acc
 	"По¹" np al f nn sg acc
-;	"По²" np cog f sg prp REMOVE:333
+;	"По²" np cog f an sg prp REMOVE:333
 ;	"По²" np cog m sg prp REMOVE:333
 ;	"По²" np cog mfn an pl prp REMOVE:333
 ;	"По¹" np al f nn pl prp REMOVE:333
@@ -716,7 +716,7 @@
 	"второй" num ord m nn sg acc
 	"второй" num ord f an sg gen
 	"второй" num ord f an sg ins
-;	"второй" num ord f sg prp REMOVE:434
+;	"второй" num ord f an sg prp REMOVE:434
 ;	"второй" num ord f sg dat REMOVE:667
 ;	"втора" n f nn sg ins REMOVE:758
 "<мировой>"
@@ -1482,10 +1482,10 @@
 ;	"сталь" n f nn sg dat REMOVE:667
 "<одним>"
 	"один" num m an sg ins
-	"один" num nt sg ins
+	"один" num nt an sg ins
 ;	"один" det m an sg ins REMOVE:438
 ;	"один" det mfn an pl dat REMOVE:438
-;	"один" det nt sg ins REMOVE:438
+;	"один" det nt an sg ins REMOVE:438
 ;	"один" num mfn an pl dat REMOVE:667
 "<из>"
 	"из" pr
@@ -1635,7 +1635,7 @@
 	"это" part
 	"это" prn dem nt nn sg acc
 	"это" prn dem nt nn sg nom
-	"этот" det dem nt sg acc
+	"этот" det dem nt an sg acc
 	"этот" det dem nt an sg nom
 "<больше>"
 	"больше" adv
@@ -1656,7 +1656,7 @@
 	"весь¹" det all f an sg gen
 	"весь¹" det all f an sg ins
 	"всеять" vblex perf tv imp p2 sg
-;	"весь¹" det all f sg prp REMOVE:432
+;	"весь¹" det all f an sg prp REMOVE:432
 ;	"весь¹" det all f sg dat REMOVE:667
 "<Греции>"
 	"Греция" np al f nn pl acc
@@ -1922,22 +1922,22 @@
 	"XIX" num ord mfn an pl gen SELECT:750
 	"XIX" num ord mfn an pl ins SELECT:750
 	"XIX" num ord mfn an pl nom SELECT:750
-	"XIX" num ord nt sg acc SELECT:750
+	"XIX" num ord nt an sg acc SELECT:750
 	"XIX" num ord nt sg dat SELECT:750
 	"XIX" num ord nt an sg gen SELECT:750
-	"XIX" num ord nt sg ins SELECT:750
+	"XIX" num ord nt an sg ins SELECT:750
 	"XIX" num ord nt an sg nom SELECT:750
-;	"XIX" num ord f sg prp REMOVE:432
+;	"XIX" num ord f an sg prp REMOVE:432
 ;	"XIX" num ord m an sg prp REMOVE:432
 ;	"XIX" num ord mfn an pl prp REMOVE:432
 ;	"XIX" num ord nt sg prp REMOVE:432
-;	"xix" num ord f sg prp REMOVE:432
+;	"xix" num ord f an sg prp REMOVE:432
 ;	"xix" num ord m an sg prp REMOVE:432
 ;	"xix" num ord mfn an pl prp REMOVE:432
 ;	"xix" num ord nt sg prp REMOVE:432
 ;	"xix" num ord mfn an pl nom SELECT:750
 ;	"xix" num ord nt an sg nom SELECT:750
-;	"xix" num ord nt sg acc SELECT:750
+;	"xix" num ord nt an sg acc SELECT:750
 ;	"xix" num ord nt sg dat SELECT:750
 ;	"xix" num SELECT:750
 ;	"xix" num ord f an sg acc SELECT:750
@@ -1952,7 +1952,7 @@
 ;	"xix" num ord m an sg gen SELECT:750
 ;	"xix" num ord m an sg ins SELECT:750
 ;	"xix" num ord m an sg nom SELECT:750
-;	"xix" num ord nt sg ins SELECT:750
+;	"xix" num ord nt an sg ins SELECT:750
 ;	"xix" num ord mfn aa pl acc SELECT:750
 ;	"xix" num ord mfn nn pl acc SELECT:750
 ;	"xix" num ord mfn an pl dat SELECT:750
@@ -1988,7 +1988,7 @@
 	"второй" num ord f sg dat
 	"второй" num ord f an sg gen
 	"второй" num ord f an sg ins
-	"второй" num ord f sg prp
+	"второй" num ord f an sg prp
 	"второй" num ord m nn sg acc
 ;	"втора" n f nn sg ins REMOVE:758
 "<мировой>"
@@ -2091,10 +2091,10 @@
 	"являться" vblex impf iv pres p3 sg
 "<одним>"
 	"один" num m an sg ins
-	"один" num nt sg ins
+	"один" num nt an sg ins
 ;	"один" det m an sg ins REMOVE:438
 ;	"один" det mfn an pl dat REMOVE:438
-;	"один" det nt sg ins REMOVE:438
+;	"один" det nt an sg ins REMOVE:438
 ;	"один" num mfn an pl dat REMOVE:667
 "<из>"
 	"из" pr
@@ -2210,7 +2210,7 @@
 ;	"XIX" num ord mfn an pl ins REMOVE:382
 ;	"XIX" num ord nt sg dat REMOVE:382
 ;	"XIX" num ord nt an sg gen REMOVE:382
-;	"XIX" num ord nt sg ins REMOVE:382
+;	"XIX" num ord nt an sg ins REMOVE:382
 ;	"xix" num ord nt sg dat REMOVE:382
 ;	"xix" num ord f sg dat REMOVE:382
 ;	"xix" num ord f an sg gen REMOVE:382
@@ -2219,7 +2219,7 @@
 ;	"xix" num ord m an sg dat REMOVE:382
 ;	"xix" num ord m an sg gen REMOVE:382
 ;	"xix" num ord m an sg ins REMOVE:382
-;	"xix" num ord nt sg ins REMOVE:382
+;	"xix" num ord nt an sg ins REMOVE:382
 ;	"xix" num ord mfn an pl dat REMOVE:382
 ;	"xix" num ord mfn an pl gen REMOVE:382
 ;	"xix" num ord mfn an pl ins REMOVE:382
@@ -2233,14 +2233,14 @@
 ;	"xix" num ord f an sg acc REMOVE:687
 ;	"xix" num ord m nn sg acc REMOVE:687
 ;	"xix" num ord mfn nn pl acc REMOVE:687
-;	"xix" num ord nt sg acc REMOVE:687
-;	"XIX" num ord nt sg acc REMOVE:687
+;	"xix" num ord nt an sg acc REMOVE:687
+;	"XIX" num ord nt an sg acc REMOVE:687
 ;	"XIX" num SELECT:568
 ;	"xix" num SELECT:568
 ;	"XIX" num ord nt sg prp SELECT:568 SELECT:703
-;	"xix" num ord f sg prp SELECT:568 SELECT:703
+;	"xix" num ord f an sg prp SELECT:568 SELECT:703
 ;	"xix" num ord nt sg prp SELECT:568 SELECT:703
-;	"XIX" num ord f sg prp SELECT:568 SELECT:703
+;	"XIX" num ord f an sg prp SELECT:568 SELECT:703
 ;	"xix" num ord mfn an pl prp SELECT:568 SELECT:703
 ;	"XIX" num ord mfn an pl prp SELECT:568 SELECT:703
 ;	"xix" num ord m an sg prp SELECT:568 SELECT:703 SELECT:750
@@ -2262,7 +2262,7 @@
 	"то" prn dem nt nn sg ins
 	"тот" det dem m an sg ins
 	"тьма²" n f nn pl gen
-	"тот" det dem nt sg ins
+	"тот" det dem nt an sg ins
 ;	"те" prn dem mfn aa pl dat REMOVE:380
 ;	"тот" det dem mfn an pl dat REMOVE:380
 "<образовательная>"

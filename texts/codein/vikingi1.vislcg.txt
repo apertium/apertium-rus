@@ -331,7 +331,7 @@
 
 "<По>"
 	"по" pr
-;	"По²" np cog f sg prp REMOVE:371
+;	"По²" np cog f an sg prp REMOVE:371
 ;	"По²" np cog m sg prp REMOVE:371
 ;	"По²" np cog mfn an pl prp REMOVE:371
 ;	"По¹" np al f nn pl prp REMOVE:371
@@ -788,7 +788,7 @@
 ;	"его" det pos nt an sg ins REMOVE:426
 ;	"оно" prn pers p3 nt an sg gen REMOVE:426
 ;	"он¹" prn pers p3 m sg acc REMOVE:446
-;	"оно" prn pers p3 nt sg acc REMOVE:446
+;	"оно" prn pers p3 nt an sg acc REMOVE:446
 ;	"его" det pos f an sg acc REMOVE:517
 ;	"его" det pos m nn sg acc REMOVE:517
 ;	"его" det pos mfn aa pl acc REMOVE:517
@@ -2310,7 +2310,7 @@
 "<его>"
 	"его" det pos m an sg nom
 	"его" det pos mfn an pl nom
-	"оно" prn pers p3 nt sg acc
+	"оно" prn pers p3 nt an sg acc
 	"оно" prn pers p3 nt an sg gen
 	"он¹" prn pers p3 m sg acc
 	"он¹" prn pers p3 m an sg gen
@@ -2652,7 +2652,7 @@
 ;	"его" det pos mfn aa pl acc REMOVE:419
 ;	"его" det pos mfn an pl dat REMOVE:419
 ;	"его" det pos mfn nn pl acc REMOVE:419
-;	"оно" prn pers p3 nt sg acc REMOVE:419
+;	"оно" prn pers p3 nt an sg acc REMOVE:419
 ;	"он¹" prn pers p3 m an sg gen REMOVE:446
 ;	"оно" prn pers p3 nt an sg gen REMOVE:446
 "<смерти>"
@@ -3008,7 +3008,7 @@
 	"Йорк" np cog f sg ins
 	"Йорк" np cog f sg nom
 	"Йорк" np cog m sg nom
-;	"Йорк" np cog f sg prp REMOVE:477
+;	"Йорк" np cog f an sg prp REMOVE:477
 "<и>"
 	"и" cnjcoo
 ;	"и²" n nt nn pl prp REMOVE:477

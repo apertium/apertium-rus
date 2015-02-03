@@ -35,7 +35,7 @@
 	"данный" det f an sg gen
 ;	"данный" det f sg dat REMOVE:383
 ;	"данный" det f an sg ins REMOVE:383
-;	"данный" det f sg prp REMOVE:383
+;	"данный" det f an sg prp REMOVE:383
 ;	"дать" vblex perf tv pp pasv f an sg dat REMOVE:383
 ;	"дать" vblex perf tv pp pasv f an sg ins REMOVE:383
 ;	"дать" vblex perf tv pp pasv f an sg prp REMOVE:383
@@ -209,11 +209,11 @@
 ;	"который" prn rel m aa sg acc REMOVE:383
 "<все>"
 ;	"весь¹" det all mfn nn pl acc
-;	"весь¹" det all nt sg acc
+;	"весь¹" det all nt an sg acc
 ;	"весь¹" det all nt an sg nom
 	"весь¹" det all pl nom
 ;	"все" prn pl nom
-;	"всё" prn nt sg acc
+;	"всё" prn nt an sg acc
 ;	"всё" prn nt an sg nom
 "<три>"
 	"три" num nom
@@ -323,7 +323,7 @@
 ;	"дать" vblex perf tv pp pasv f an sg gen
 	"данный" det f an sg ins
 ;	"данный" det f sg dat REMOVE:385
-;	"данный" det f sg prp REMOVE:385
+;	"данный" det f an sg prp REMOVE:385
 ;	"дать" vblex perf tv pp pasv f an sg dat REMOVE:385
 ;	"дать" vblex perf tv pp pasv f an sg prp REMOVE:385
 ;	"данный" det f an sg gen REMOVE:694
@@ -467,7 +467,7 @@
 	"в" pr
 "<него>"
 	"он¹" prn pers p3 m sg acc pobj @P← MAP:739
-;	"оно" prn pers p3 nt sg acc pobj @P← MAP:739
+;	"оно" prn pers p3 nt an sg acc pobj @P← MAP:739
 ;	"он¹" prn pers p3 m an sg gen pobj REMOVE:387
 ;	"оно" prn pers p3 nt an sg gen pobj REMOVE:387
 "<сферы>"
@@ -491,7 +491,7 @@
 ;	"обой" num ord mfn an pl gen
 ;	"обой" num ord mfn an pl prp
 "<его>"
-;	"оно" prn pers p3 nt sg acc
+;	"оно" prn pers p3 nt an sg acc
 ;	"оно" prn pers p3 nt an sg gen
 	"его" det pos mfn an pl gen
 ;	"он¹" prn pers p3 m sg acc
@@ -502,7 +502,7 @@
 ;	"его" det pos f an sg gen REMOVE:688
 ;	"его" det pos f an sg ins REMOVE:688
 ;	"его" det pos f an sg nom REMOVE:688
-;	"его" det pos f sg prp REMOVE:688
+;	"его" det pos f an sg prp REMOVE:688
 ;	"его" det pos m aa sg acc REMOVE:688
 ;	"его" det pos m nn sg acc REMOVE:688
 ;	"его" det pos m an sg dat REMOVE:688
@@ -513,9 +513,9 @@
 ;	"его" det pos mfn an pl ins REMOVE:694
 ;	"его" det pos mfn an pl nom REMOVE:694
 ;	"его" det pos mfn an pl prp REMOVE:694
-;	"его" det pos nt sg acc REMOVE:694
+;	"его" det pos nt an sg acc REMOVE:694
 ;	"его" det pos nt sg dat REMOVE:694
-;	"его" det pos nt sg ins REMOVE:694
+;	"его" det pos nt an sg ins REMOVE:694
 ;	"его" det pos nt an sg nom REMOVE:694
 ;	"его" det pos nt sg prp REMOVE:694
 ;	"его" det pos mfn aa pl acc REMOVE:694
@@ -599,7 +599,7 @@
 "<с>"
 	"с" pr
 "<другим>"
-	"другой" det nt sg ins
+	"другой" det nt an sg ins
 ;	"другой" n m aa sg ins
 ;	"другой" det mfn an pl dat REMOVE:385
 ;	"другой" n m aa pl dat REMOVE:385
@@ -790,10 +790,10 @@
 	"который" prn rel f sg dat
 ;	"который" det itg f an sg gen REMOVE:396
 ;	"который" det itg f an sg ins REMOVE:396
-;	"который" det itg f sg prp REMOVE:396
+;	"который" det itg f an sg prp REMOVE:396
 ;	"который" prn rel f an sg gen REMOVE:396
 ;	"который" prn rel f an sg ins REMOVE:396
-;	"который" prn rel f sg prp REMOVE:396
+;	"который" prn rel f an sg prp REMOVE:396
 "<прикреплены>"
 	"прикрепить" vblex perf tv pp pasv short mfn pl
 "<звёзды>"
@@ -1283,16 +1283,16 @@
 ;	"во" part SELECT:834
 "<всей>"
 ;	"всеять" vblex perf tv imp p2 sg
-	"весь¹" det all f sg prp
+	"весь¹" det all f an sg prp
 ;	"всеять" vblex perf iv imp p2 sg
 ;	"весь¹" det all f sg dat REMOVE:672
 ;	"весь¹" det all f an sg gen REMOVE:387
 ;	"весь¹" det all f an sg ins REMOVE:387
 "<его>"
 ;	"он¹" prn pers p3 m sg acc
-	"его" det pos f sg prp
+	"его" det pos f an sg prp
 ;	"его" det pos mfn an pl prp
-;	"оно" prn pers p3 nt sg acc
+;	"оно" prn pers p3 nt an sg acc
 ;	"его" det pos m aa sg acc REMOVE:688
 ;	"его" det pos m nn sg acc REMOVE:688
 ;	"его" det pos m an sg dat REMOVE:688
@@ -1300,10 +1300,10 @@
 ;	"его" det pos m an sg ins REMOVE:688
 ;	"его" det pos m an sg nom REMOVE:688
 ;	"его" det pos m an sg prp REMOVE:688
-;	"его" det pos nt sg acc REMOVE:688
+;	"его" det pos nt an sg acc REMOVE:688
 ;	"его" det pos nt sg dat REMOVE:688
 ;	"его" det pos nt an sg gen REMOVE:688
-;	"его" det pos nt sg ins REMOVE:688
+;	"его" det pos nt an sg ins REMOVE:688
 ;	"его" det pos nt an sg nom REMOVE:688
 ;	"его" det pos nt sg prp REMOVE:688
 ;	"его" det pos f an sg acc REMOVE:694
@@ -1509,7 +1509,7 @@
 "<него>"
 ;	"он¹" prn pers p3 m sg acc pobj @P← MAP:739
 	"он¹" prn pers p3 m an sg gen pobj @P← MAP:739
-;	"оно" prn pers p3 nt sg acc pobj @P← MAP:739
+;	"оно" prn pers p3 nt an sg acc pobj @P← MAP:739
 ;	"оно" prn pers p3 nt an sg gen pobj @P← MAP:739
 "<сферической>"
 	"сферический" adj f an sg ins
@@ -1525,9 +1525,9 @@
 
 "<Одно>"
 	"один" num nt an sg nom
-;	"один" det nt sg acc REMOVE:443
+;	"один" det nt an sg acc REMOVE:443
 ;	"один" det nt an sg nom REMOVE:443
-;	"один" num nt sg acc REMOVE:483
+;	"один" num nt an sg acc REMOVE:483
 "<из>"
 	"из" pr
 "<первых>"
@@ -1598,7 +1598,7 @@
 ;	"Кеплер" np cog f sg ins
 ;	"Кеплер" np cog f sg nom
 	"Кеплер" np cog m sg nom
-;	"Кеплер" np cog f sg prp REMOVE:437
+;	"Кеплер" np cog f an sg prp REMOVE:437
 "<считал>"
 ;	"считать²" vblex impf iv past m sg
 ;	"считать²" vblex impf tv past m sg
@@ -1610,9 +1610,9 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:469
-;	"что¹" prn itg nt sg acc SELECT:469
+;	"что¹" prn itg nt an sg acc SELECT:469
 ;	"что¹" prn itg nt an sg nom SELECT:469
-;	"что¹" prn rel nt sg acc SELECT:469
+;	"что¹" prn rel nt an sg acc SELECT:469
 ;	"что¹" prn rel nt an sg nom SELECT:469
 "<он>"
 	"он¹" prn pers p3 m an sg nom
@@ -1940,7 +1940,7 @@
 ;	"Браге" np cog f sg ins
 ;	"брага" n f nn sg prp
 ;	"Браге" np cog f sg nom
-;	"Браге" np cog f sg prp
+;	"Браге" np cog f an sg prp
 ;	"Браге" np cog m sg acc
 ;	"Браге" np cog m sg dat
 ;	"Браге" np cog m sg gen
@@ -1962,9 +1962,9 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:469
-;	"что¹" prn itg nt sg acc SELECT:469
+;	"что¹" prn itg nt an sg acc SELECT:469
 ;	"что¹" prn itg nt an sg nom SELECT:469
-;	"что¹" prn rel nt sg acc SELECT:469
+;	"что¹" prn rel nt an sg acc SELECT:469
 ;	"что¹" prn rel nt an sg nom SELECT:469
 "<движение>"
 ;	"движение" n nt nn sg acc
@@ -2058,8 +2058,8 @@
 ;	"который" prn rel f an sg ins
 ;	"который" prn rel f sg dat
 	"который" prn rel f an sg gen
-;	"который" det itg f sg prp REMOVE:439
-;	"который" prn rel f sg prp REMOVE:439
+;	"который" det itg f an sg prp REMOVE:439
+;	"который" prn rel f an sg prp REMOVE:439
 ;	"который" det itg f sg dat REMOVE:694
 ;	"который" det itg f an sg gen REMOVE:694
 ;	"который" det itg f an sg ins REMOVE:694
@@ -2075,7 +2075,7 @@
 ;	"сей" det f an sg gen REMOVE:389
 ;	"сей" det f an sg ins REMOVE:389
 ;	"сей" det f sg dat REMOVE:688
-;	"сей" det f sg prp REMOVE:688
+;	"сей" det f an sg prp REMOVE:688
 "<день>"
 	"день" n m nn sg acc
 ;	"день" n m nn sg nom

@@ -17,7 +17,7 @@
 "<в>"
 	"в" pr
 "<Европе>"
-;	"Европа" np ant f sg prp
+;	"Европа" np ant f an sg prp
 	"Европа" np al f nn sg prp
 ;	"Европа" np al f nn sg dat REMOVE:426
 ;	"Европа" np ant f sg dat REMOVE:426
@@ -533,7 +533,7 @@
 "<в>"
 	"в" pr
 "<Европе>"
-;	"Европа" np ant f sg prp
+;	"Европа" np ant f an sg prp
 	"Европа" np al f nn sg prp
 ;	"Европа" np al f nn sg dat REMOVE:426
 ;	"Европа" np ant f sg dat REMOVE:426
@@ -551,7 +551,7 @@
 ;	"римский" adj f an sg ins
 ;	"римский" adj f an sg dat
 	"римский" adj f an sg gen
-;	"Римский" np cog f sg prp REMOVE:806
+;	"Римский" np cog f an sg prp REMOVE:806
 ;	"римский" adj f an sg prp REMOVE:806
 "<империи>"
 ;	"империя" n f nn pl acc
@@ -1484,7 +1484,7 @@
 "<его>"
 ;	"его" det pos mfn an pl prp
 	"его" det pos m an sg prp
-;	"оно" prn pers p3 nt sg acc
+;	"оно" prn pers p3 nt an sg acc
 ;	"оно" prn pers p3 nt an sg gen
 ;	"он¹" prn pers p3 m sg acc
 ;	"он¹" prn pers p3 m an sg gen

@@ -1249,7 +1249,7 @@
 "<его>"
 	"он¹" prn pers p3 m an sg gen
 	"он¹" prn pers p3 m sg acc
-	"оно" prn pers p3 nt sg acc
+	"оно" prn pers p3 nt an sg acc
 	"оно" prn pers p3 nt an sg gen
 ;	"его" det pos f an sg prp REMOVE:475
 ;	"его" det pos m an sg prp REMOVE:475
@@ -1376,7 +1376,7 @@
 
 "<По>"
 	"по" pr
-;	"По²" np cog f sg prp REMOVE:371
+;	"По²" np cog f an sg prp REMOVE:371
 ;	"По²" np cog m sg prp REMOVE:371
 ;	"По²" np cog mfn an pl prp REMOVE:371
 ;	"По¹" np al f nn pl prp REMOVE:371
@@ -2460,7 +2460,7 @@
 ;	"его" det pos mfn an pl gen REMOVE:740
 ;	"его" det pos mfn an pl ins REMOVE:740
 ;	"его" det pos mfn an pl nom REMOVE:740
-;	"оно" prn pers p3 nt sg acc REMOVE:859
+;	"оно" prn pers p3 nt an sg acc REMOVE:859
 ;	"он¹" prn pers p3 m sg acc REMOVE:859
 "<воину>"
 	"воин" n m aa sg dat

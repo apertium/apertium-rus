@@ -11,7 +11,7 @@
 	"это" part
 	"это" prn dem nt nn sg acc
 	"это" prn dem nt nn sg nom
-	"этот" det dem nt sg acc
+	"этот" det dem nt an sg acc
 	"этот" det dem nt an sg nom
 "<внедрённое>"
 	"внедрить" vblex perf tv pp pasv nt an sg acc
@@ -95,8 +95,8 @@
 	"его" det pos mfn an pl gen
 	"его" det pos mfn nn pl acc
 	"его" det pos mfn an pl nom
-	"оно" prn pers p3 nt sg acc
-;	"его" det pos f sg prp REMOVE:477
+	"оно" prn pers p3 nt an sg acc
+;	"его" det pos f an sg prp REMOVE:477
 ;	"его" det pos m an sg prp REMOVE:477
 ;	"его" det pos mfn an pl prp REMOVE:477
 ;	"его" det pos nt sg prp REMOVE:477
@@ -106,10 +106,10 @@
 ;	"его" det pos m an sg gen REMOVE:734
 ;	"его" det pos m an sg ins REMOVE:734
 ;	"его" det pos m an sg nom REMOVE:734
-;	"его" det pos nt sg acc REMOVE:734
+;	"его" det pos nt an sg acc REMOVE:734
 ;	"его" det pos nt sg dat REMOVE:734
 ;	"его" det pos nt an sg gen REMOVE:734
-;	"его" det pos nt sg ins REMOVE:734
+;	"его" det pos nt an sg ins REMOVE:734
 ;	"его" det pos nt an sg nom REMOVE:734
 ;	"его" det pos f an sg ins REMOVE:740
 ;	"его" det pos mfn an pl ins REMOVE:740
@@ -390,9 +390,9 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:511
-;	"что¹" prn itg nt sg acc SELECT:511
+;	"что¹" prn itg nt an sg acc SELECT:511
 ;	"что¹" prn itg nt an sg nom SELECT:511
-;	"что¹" prn rel nt sg acc SELECT:511
+;	"что¹" prn rel nt an sg acc SELECT:511
 ;	"что¹" prn rel nt an sg nom SELECT:511
 "<означает>"
 	"означать" vblex impf iv pres p3 sg
@@ -509,7 +509,7 @@
 
 "<Само>"
 	"сам" det nt an sg nom @N→ MAP:877
-;	"сам" det nt sg acc REMOVE:525
+;	"сам" det nt an sg acc REMOVE:525
 "<понятие>"
 	"понятие" n nt nn sg nom
 ;	"понятие" n nt nn sg acc REMOVE:525
@@ -532,7 +532,7 @@
 	"XIX" num ord f an sg gen SELECT:910
 	"XIX" num ord f an sg ins SELECT:910
 	"XIX" num ord f an sg nom SELECT:910
-	"XIX" num ord f sg prp SELECT:910
+	"XIX" num ord f an sg prp SELECT:910
 	"XIX" num ord m an sg gen SELECT:910
 	"XIX" num ord m an sg ins SELECT:910
 	"XIX" num ord m an sg nom SELECT:910
@@ -542,7 +542,7 @@
 	"XIX" num ord mfn an pl nom SELECT:910
 	"XIX" num ord mfn an pl prp SELECT:910
 	"XIX" num ord nt an sg gen SELECT:910
-	"XIX" num ord nt sg ins SELECT:910
+	"XIX" num ord nt an sg ins SELECT:910
 	"XIX" num ord nt an sg nom SELECT:910
 	"XIX" num ord nt sg prp SELECT:910
 ;	"XIX" num ord f an sg acc REMOVE:859
@@ -550,13 +550,13 @@
 ;	"XIX" num ord m nn sg acc REMOVE:859
 ;	"XIX" num ord mfn aa pl acc REMOVE:859
 ;	"XIX" num ord mfn nn pl acc REMOVE:859
-;	"XIX" num ord nt sg acc REMOVE:859
+;	"XIX" num ord nt an sg acc REMOVE:859
 ;	"xix" num ord f an sg acc REMOVE:859
 ;	"xix" num ord m aa sg acc REMOVE:859
 ;	"xix" num ord m nn sg acc REMOVE:859
 ;	"xix" num ord mfn aa pl acc REMOVE:859
 ;	"xix" num ord mfn nn pl acc REMOVE:859
-;	"xix" num ord nt sg acc REMOVE:859
+;	"xix" num ord nt an sg acc REMOVE:859
 ;	"XIX" num ord f sg dat REMOVE:895
 ;	"xix" num ord mfn an pl dat REMOVE:895
 ;	"XIX" num ord m an sg dat REMOVE:895
@@ -569,7 +569,7 @@
 ;	"xix" num ord m an sg prp SELECT:910
 ;	"xix" num ord nt an sg gen SELECT:910
 ;	"xix" num ord mfn an pl gen SELECT:910
-;	"xix" num ord nt sg ins SELECT:910
+;	"xix" num ord nt an sg ins SELECT:910
 ;	"xix" num ord mfn an pl ins SELECT:910
 ;	"xix" num ord mfn an pl nom SELECT:910
 ;	"xix" num ord m an sg gen SELECT:910
@@ -581,7 +581,7 @@
 ;	"xix" num ord f an sg gen SELECT:910
 ;	"xix" num ord f an sg ins SELECT:910
 ;	"xix" num ord f an sg nom SELECT:910
-;	"xix" num ord f sg prp SELECT:910
+;	"xix" num ord f an sg prp SELECT:910
 "<в.>"
 	"в." abbr
 
@@ -613,7 +613,7 @@
 	"XX" num ord f an sg gen SELECT:910
 	"XX" num ord f an sg ins SELECT:910
 	"XX" num ord f an sg nom SELECT:910
-	"XX" num ord f sg prp SELECT:910
+	"XX" num ord f an sg prp SELECT:910
 	"XX" num ord m aa sg acc SELECT:910
 	"XX" num ord m nn sg acc SELECT:910
 	"XX" num ord m an sg dat SELECT:910
@@ -628,10 +628,10 @@
 	"XX" num ord mfn an pl ins SELECT:910
 	"XX" num ord mfn an pl nom SELECT:910
 	"XX" num ord mfn an pl prp SELECT:910
-	"XX" num ord nt sg acc SELECT:910
+	"XX" num ord nt an sg acc SELECT:910
 	"XX" num ord nt sg dat SELECT:910
 	"XX" num ord nt an sg gen SELECT:910
-	"XX" num ord nt sg ins SELECT:910
+	"XX" num ord nt an sg ins SELECT:910
 	"XX" num ord nt an sg nom SELECT:910
 	"XX" num ord nt sg prp SELECT:910
 ;	"xx" num SELECT:910
@@ -640,7 +640,7 @@
 ;	"xx" num ord f an sg gen SELECT:910
 ;	"xx" num ord f an sg ins SELECT:910
 ;	"xx" num ord f an sg nom SELECT:910
-;	"xx" num ord f sg prp SELECT:910
+;	"xx" num ord f an sg prp SELECT:910
 ;	"xx" num ord m aa sg acc SELECT:910
 ;	"xx" num ord m nn sg acc SELECT:910
 ;	"xx" num ord m an sg dat SELECT:910
@@ -655,10 +655,10 @@
 ;	"xx" num ord mfn an pl ins SELECT:910
 ;	"xx" num ord mfn an pl nom SELECT:910
 ;	"xx" num ord mfn an pl prp SELECT:910
-;	"xx" num ord nt sg acc SELECT:910
+;	"xx" num ord nt an sg acc SELECT:910
 ;	"xx" num ord nt sg dat SELECT:910
 ;	"xx" num ord nt an sg gen SELECT:910
-;	"xx" num ord nt sg ins SELECT:910
+;	"xx" num ord nt an sg ins SELECT:910
 ;	"xx" num ord nt an sg nom SELECT:910
 ;	"xx" num ord nt sg prp SELECT:910
 "<в.>"
@@ -771,15 +771,15 @@
 "<это>"
 	"это" part
 	"это" prn dem nt nn sg nom
-;	"этот" det dem nt sg acc REMOVE:485
+;	"этот" det dem nt an sg acc REMOVE:485
 ;	"этот" det dem nt an sg nom REMOVE:485
 ;	"это" prn dem nt nn sg acc REMOVE:732
 "<не>"
 	"не" part
 "<всякое>"
-	"всякий" det nt sg acc
+	"всякий" det nt an sg acc
 	"всякий" det nt an sg nom
-	"всякое" prn nt sg acc
+	"всякое" prn nt an sg acc
 	"всякое" prn nt an sg nom
 "<новшество>"
 	"новшество" n nt nn sg acc
@@ -812,14 +812,14 @@
 	"только" cnjcoo
 	"только" cnjsub
 "<такое>"
-	"такой" det nt sg acc
+	"такой" det nt an sg acc
 	"такой" det nt an sg nom
 "<,>"
 	"," cm
 "<которое>"
-	"который" prn rel nt sg acc
+	"который" prn rel nt an sg acc
 	"который" prn rel nt an sg nom
-;	"который" det itg nt sg acc REMOVE:804
+;	"который" det itg nt an sg acc REMOVE:804
 ;	"который" det itg nt an sg nom REMOVE:804
 "<серьёзно>"
 	"серьёзный" adj short nt sg @ADVL MAP:873
@@ -880,7 +880,7 @@
 	"это" part
 	"это" prn dem nt nn sg acc
 	"это" prn dem nt nn sg nom
-	"этот" det dem nt sg acc
+	"этот" det dem nt an sg acc
 	"этот" det dem nt an sg nom
 "<понятие>"
 	"понятие" n nt nn sg acc
@@ -1143,7 +1143,7 @@
 	"этот" det dem nt an sg nom
 	"это" prn dem nt nn sg nom
 ;	"это" prn dem nt nn sg acc REMOVE:732
-;	"этот" det dem nt sg acc REMOVE:732
+;	"этот" det dem nt an sg acc REMOVE:732
 "<результат>"
 	"результат" n m nn sg acc
 	"результат" n m nn sg nom
@@ -1201,7 +1201,7 @@
 	"применять" vblex impf tv pp actv pass f sg dat
 	"применять" vblex impf tv pp actv pass f an sg gen
 	"применять" vblex impf tv pp actv pass f an sg ins
-	"применять" vblex impf tv pp actv pass f sg prp
+	"применять" vblex impf tv pp actv pass f an sg prp
 	"применяться" vblex impf iv pp actv f an sg dat
 	"применяться" vblex impf iv pp actv f an sg gen
 	"применяться" vblex impf iv pp actv f an sg ins
@@ -1414,7 +1414,7 @@
 "<Таким>"
 	"такой" det m an sg ins @N→ SELECT:671 MAP:877
 ;	"такой" det mfn an pl dat REMOVE:519
-;	"такой" det nt sg ins SELECT:671
+;	"такой" det nt an sg ins SELECT:671
 "<образом>"
 	"образ²" n m nn sg ins
 	"образ¹" n m nn sg ins
@@ -1565,10 +1565,10 @@
 "<,>"
 	"," cm
 "<что>"
-	"что¹" prn rel nt sg acc SELECT:819
+	"что¹" prn rel nt an sg acc SELECT:819
 	"что¹" prn rel nt an sg nom SELECT:819
 ;	"что²" cnjsub SELECT:819
-;	"что¹" prn itg nt sg acc SELECT:819
+;	"что¹" prn itg nt an sg acc SELECT:819
 ;	"что¹" prn itg nt an sg nom SELECT:819
 "<целью>"
 	"цель" n f nn sg ins
@@ -1878,8 +1878,8 @@
 	"оно" prn pers p3 nt an sg gen
 	"он¹" prn pers p3 m sg acc
 	"он¹" prn pers p3 m an sg gen
-	"оно" prn pers p3 nt sg acc
-;	"его" det pos f sg prp REMOVE:475
+	"оно" prn pers p3 nt an sg acc
+;	"его" det pos f an sg prp REMOVE:475
 ;	"его" det pos m an sg prp REMOVE:475
 ;	"его" det pos mfn an pl prp REMOVE:475
 ;	"его" det pos nt sg prp REMOVE:475
@@ -1900,10 +1900,10 @@
 ;	"его" det pos mfn an pl gen REMOVE:483
 ;	"его" det pos mfn an pl ins REMOVE:483
 ;	"его" det pos mfn an pl nom REMOVE:483
-;	"его" det pos nt sg acc REMOVE:483
+;	"его" det pos nt an sg acc REMOVE:483
 ;	"его" det pos nt sg dat REMOVE:483
 ;	"его" det pos nt an sg gen REMOVE:483
-;	"его" det pos nt sg ins REMOVE:483
+;	"его" det pos nt an sg ins REMOVE:483
 ;	"его" det pos nt an sg nom REMOVE:483
 "<с>"
 	"с" pr
@@ -1942,9 +1942,9 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:511
-;	"что¹" prn itg nt sg acc SELECT:511
+;	"что¹" prn itg nt an sg acc SELECT:511
 ;	"что¹" prn itg nt an sg nom SELECT:511
-;	"что¹" prn rel nt sg acc SELECT:511
+;	"что¹" prn rel nt an sg acc SELECT:511
 ;	"что¹" prn rel nt an sg nom SELECT:511
 "<понятие>"
 	"понятие" n nt nn sg acc
@@ -2231,9 +2231,9 @@
 	"," cm
 "<что>"
 	"что²" cnjsub SELECT:511
-;	"что¹" prn itg nt sg acc SELECT:511
+;	"что¹" prn itg nt an sg acc SELECT:511
 ;	"что¹" prn itg nt an sg nom SELECT:511
-;	"что¹" prn rel nt sg acc SELECT:511
+;	"что¹" prn rel nt an sg acc SELECT:511
 ;	"что¹" prn rel nt an sg nom SELECT:511
 "<особенность>"
 	"особенность" n f nn sg acc
@@ -2256,10 +2256,10 @@
 "<,>"
 	"," cm
 "<что>"
-	"что¹" prn rel nt sg acc SELECT:819
+	"что¹" prn rel nt an sg acc SELECT:819
 	"что¹" prn rel nt an sg nom SELECT:819
 ;	"что²" cnjsub SELECT:819
-;	"что¹" prn itg nt sg acc SELECT:819
+;	"что¹" prn itg nt an sg acc SELECT:819
 ;	"что¹" prn itg nt an sg nom SELECT:819
 "<она>"
 	"она" prn pers p3 f an sg nom
@@ -2536,7 +2536,7 @@
 	"использовать" vblex perf tv fut p3 sg
 "<что-то>"
 	"что-то²" adv
-	"что-то¹" prn def nt sg acc
+	"что-то¹" prn def nt an sg acc
 	"что-то¹" prn def nt an sg nom
 "<уже>"
 	"узкий" adj comp pred
@@ -2667,7 +2667,7 @@
 "<тем>"
 	"тот" prn dem m aa sg ins
 	"тьма²" n f nn pl gen
-	"тот" det dem nt sg ins
+	"тот" det dem nt an sg ins
 	"тема" n f nn pl gen
 	"то" prn dem nt nn sg ins
 	"тот" det dem m an sg ins
