@@ -3591,8 +3591,8 @@
 ;	"как" part REMOVE:1006
 ;	"как" adv itg REMOVE:1012
 "<и>"
-;	"и" adv
-	"и" cnjcoo
+	"и" adv
+;	"и" cnjcoo
 ;	"и²" n nt nn pl prp REMOVE:477
 ;	"и²" n nt nn sg prp REMOVE:477
 ;	"и²" n nt nn pl acc REMOVE:540

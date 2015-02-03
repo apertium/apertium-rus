@@ -1878,7 +1878,7 @@
 ;	"оно" prn pers p3 nt sg gen
 ;	"он¹" prn pers p3 m sg acc
 ;	"он¹" prn pers p3 m sg gen
-;	"оно" prn pers p3 nt sg acc
+	"оно" prn pers p3 nt sg acc
 ;	"его" det pos f an sg prp REMOVE:475
 ;	"его" det pos m an sg prp REMOVE:475
 ;	"его" det pos mfn an pl prp REMOVE:475
@@ -1900,7 +1900,7 @@
 ;	"его" det pos mfn an pl gen REMOVE:483
 ;	"его" det pos mfn an pl ins REMOVE:483
 ;	"его" det pos mfn an pl nom REMOVE:483
-	"его" det pos nt an sg acc REMOVE:483
+;	"его" det pos nt an sg acc REMOVE:483
 ;	"его" det pos nt an sg dat REMOVE:483
 ;	"его" det pos nt an sg gen REMOVE:483
 ;	"его" det pos nt an sg ins REMOVE:483
