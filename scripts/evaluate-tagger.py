@@ -39,7 +39,14 @@ def readings(w, testFunc): #{
 	return (readings, removed_readings);
 #}
 
+def clean(s): #{
+
+	o = s.replace('¹', '').replace('²', '').replace('³', '').replace('⁻', '');
+	return o;
+#}
+
 def reading_lemma(r): #{
+	r = clean(r);
 	return r.split('<')[0];
 #}
 
