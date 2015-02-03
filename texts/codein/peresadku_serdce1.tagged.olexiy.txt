@@ -736,7 +736,6 @@
 	"система" n f nn sg ins
 "<.>"
 	"." sent
-
 "<Пересадка>"
 	"пересадка" n f nn sg nom
 ;	"пересадок" n m nn sg gen REMOVE:603
