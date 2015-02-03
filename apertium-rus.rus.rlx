@@ -404,9 +404,9 @@ REMOVE Pr IF (1C Pr) ;
 
 ## Safe operations with short-form adjectives 
 
-REMOVE Short IF (1C Fin OR Adv OR A) (0C Short OR Adv) ; 
+REMOVE A + Short IF (1C Fin OR Adv OR A) (0C Short OR Adv) ; 
 
-REMOVE Short IF (-1C Fin OR Adv OR A) (0C Short OR Adv) ; 
+REMOVE A + Short IF (-1C Fin OR Adv OR A) (0C Short OR Adv) ; 
 
 ## Hopefully safe operations with несколько
 
@@ -993,7 +993,7 @@ REMOVE Prop IF (0 Pr/Po) (NOT 1 Prop) (NOT -1 Prop) (NOT 1 Fin) (NOT -1 Fin) (1*
 
 SELECT Sg IF (0 Prop) (0 Gen) (-1 N) (1 EOS) (NOT -1* Fin + Pl) ;
 
-SELECT Abbr IF (0 Abbr OR Interj) (-1C Num) ; 
+SELECT Abbr IF (0 Abbr OR Interj) (-1C Num) (NOT 0 Pr) ; 
 
 SELECT Det IF (-1 Pr/Po) (0 Sej) (1 N/Denj) ; 
 
