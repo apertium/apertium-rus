@@ -716,10 +716,10 @@
 "<в>"
 	"в" pr
 "<то>"
-	"то" cnjcoo
+;	"то" cnjcoo
 ;	"то" cnjsub
 ;	"то" prn dem nt nn sg acc
-;	"тот" det dem nt an sg acc
+	"тот" det dem nt an sg acc
 ;	"то" prn dem nt nn sg nom REMOVE:376
 ;	"тот" det dem nt an sg nom REMOVE:376
 "<время>"
@@ -727,9 +727,9 @@
 ;	"время" n nt nn sg nom REMOVE:382
 "<как>"
 ;	"как" adv itg
-	"как" adv rel
+;	"как" adv rel
 ;	"как" cnjcoo
-;	"как" cnjsub
+	"как" cnjsub
 ;	"как" part
 "<рельеф>"
 ;	"рельеф" n m nn sg acc

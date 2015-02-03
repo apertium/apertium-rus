@@ -2068,13 +2068,13 @@
 "<в>"
 	"в" pr
 "<VIII>"
-	"VIII" num SELECT:750
+;	"VIII" num SELECT:750
 ;	"VIII" num ord f an sg acc SELECT:750
 ;	"VIII" num ord f an sg prp SELECT:750
 ;	"VIII" num ord m aa sg acc SELECT:750
 ;	"VIII" num ord m nn sg acc SELECT:750
 ;	"VIII" num ord nt sg prp SELECT:750
-;	"VIII" num ord m an sg prp SELECT:750
+	"VIII" num ord m an sg prp SELECT:750
 ;	"VIII" num ord mfn aa pl acc SELECT:750
 ;	"VIII" num ord mfn nn pl acc SELECT:750
 ;	"VIII" num ord mfn an pl prp SELECT:750
@@ -2125,7 +2125,7 @@
 "<—>"
 	"—" guio
 "<X>"
-	"X" num SELECT:750
+;	"X" num SELECT:750
 ;	"X" num ord f an sg acc SELECT:750
 ;	"X" num ord f sg dat SELECT:750
 ;	"X" num ord f an sg gen SELECT:750
@@ -2138,7 +2138,7 @@
 ;	"X" num ord m an sg gen SELECT:750
 ;	"X" num ord m an sg ins SELECT:750
 ;	"X" num ord m an sg nom SELECT:750
-;	"X" num ord m an sg prp SELECT:750
+	"X" num ord m an sg prp SELECT:750
 ;	"X" num ord mfn aa pl acc SELECT:750
 ;	"X" num ord mfn nn pl acc SELECT:750
 ;	"X" num ord mfn an pl dat SELECT:750
