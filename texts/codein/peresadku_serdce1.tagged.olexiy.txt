@@ -1007,8 +1007,23 @@
 ;	"аорта" n f nn sg prp
 "<,>"
 	"," cm
-"<в то время как>"
-	"в то время как" cnjcoo
+"<в>"
+	"в" pr
+"<то>"
+;	"то" cnjcoo
+;	"то" cnjsub
+;	"то" prn dem nt nn sg acc
+;	"то" prn dem nt nn sg nom
+	"тот" det dem nt an sg acc
+;	"тот" det dem nt an sg nom
+"<время>"
+	"время" n nt nn sg acc
+;	"время" n nt nn sg nom
+"<как>"
+;	"как" adv itg
+;	"как" adv rel
+	"как" cnjcoo
+;	"как" part
 "<более>"
 	"более" adv comp
 "<современная>"
