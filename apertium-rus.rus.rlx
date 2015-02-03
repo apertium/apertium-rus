@@ -337,7 +337,7 @@ SET Prep/Prp = Pr/Pri | Pr/Na | Pr/V | Pr/O | Pr/Po ;
 
 SET Prep/Ins = Pr/S | Pr/Nad | Pr/Pod | Pr/Meždu | Pr/Pered ;
 
-SET Prep/Acc = Pr/Na | Pr/V | Pr/Po | Pr/Pod ; # complete
+SET Prep/Acc = Pr/Na | Pr/V | Pr/Po | Pr/Pod | Pr/Čerez ; # complete
 
 SET Prep/Dat =  Pr/K | Pr/Soglasno | Pr/Po | Pr/Blagodarja ; 
 
@@ -709,6 +709,7 @@ SELECT Gen IF (-1C N LINK 0 NGDAIP - Gen) (0C A) (1C N + Gen) ;
 REMOVE Short IF (0 Pr/Soglasno) (1 Dat) ; 
 
 SELECT A + $$NGDAIP IF (1C* N + $$NGDAIP BARRIER Punct OR Pr OR Lparen OR NGDAIP - $$NGDAIP LINK -1C* A + $$NGDAIP BARRIER Punct OR Pr OR Lparen OR NGDAIP - $$NGDAIP);
+   #! Движущей силой в поездах являются локомотивы, использующие электричество или производящие собственную мощность, обычно дизельными двигателями.
 
 SELECT Acc IF (-1 Pr/Na OR Pr/V) (0C Modif) (0C Acc OR Prp) (1C N + Acc);
 
