@@ -332,36 +332,36 @@
 "<По>"
 	"по" pr
 ;	"По²" np cog f sg prp REMOVE:371
-;	"По²" np cog m sg prp REMOVE:371
-;	"По²" np cog mfn pl prp REMOVE:371
+;	"По²" np cog m an sg prp REMOVE:371
+;	"По²" np cog mfn an pl prp REMOVE:371
 ;	"По¹" np al f nn pl prp REMOVE:371
 ;	"По¹" np al f nn sg prp REMOVE:371
-;	"По²" np cog f sg gen REMOVE:649
+;	"По²" np cog f an sg gen REMOVE:649
 ;	"По¹" np al f nn sg gen REMOVE:649
-;	"По²" np cog m sg gen REMOVE:649
-;	"По²" np cog mfn pl gen REMOVE:649
+;	"По²" np cog m an sg gen REMOVE:649
+;	"По²" np cog mfn an pl gen REMOVE:649
 ;	"По¹" np al f nn pl gen REMOVE:649
-;	"По²" np cog f sg acc REMOVE:675
+;	"По²" np cog f an sg acc REMOVE:675
 ;	"По²" np cog m sg acc REMOVE:675
-;	"По²" np cog mfn pl acc REMOVE:675
+;	"По²" np cog mfn an pl acc REMOVE:675
 ;	"По¹" np al f nn sg acc REMOVE:675
 ;	"По¹" np al f nn pl acc REMOVE:675
-;	"По²" np cog mfn pl nom REMOVE:989
+;	"По²" np cog mfn an pl nom REMOVE:989
 ;	"По²" np cog f sg dat REMOVE:989
 ;	"По¹" np al f nn pl ins REMOVE:989
-;	"По²" np cog f sg ins REMOVE:989
-;	"По²" np cog f sg ins fac REMOVE:989
-;	"По²" np cog f sg nom REMOVE:989
+;	"По²" np cog f an sg ins REMOVE:989
+;	"По²" np cog f an sg ins fac REMOVE:989
+;	"По²" np cog f an sg nom REMOVE:989
 ;	"По¹" np al f nn pl nom REMOVE:989
 ;	"По¹" np al f nn sg nom REMOVE:989
-;	"По²" np cog m sg dat REMOVE:989
-;	"По²" np cog m sg ins REMOVE:989
-;	"По²" np cog m sg nom REMOVE:989
+;	"По²" np cog m an sg dat REMOVE:989
+;	"По²" np cog m an sg ins REMOVE:989
+;	"По²" np cog m an sg nom REMOVE:989
 ;	"По¹" np al f nn sg ins REMOVE:989
 ;	"По¹" np al f nn sg dat REMOVE:989
-;	"По²" np cog mfn pl dat REMOVE:989
+;	"По²" np cog mfn an pl dat REMOVE:989
 ;	"По¹" np al f nn pl dat REMOVE:989
-;	"По²" np cog mfn pl ins REMOVE:989
+;	"По²" np cog mfn an pl ins REMOVE:989
 "<религии>"
 	"религия" n f nn pl acc
 	"религия" n f nn sg prp
@@ -560,7 +560,7 @@
 ;	"и¹" ij REMOVE:928
 ;	"и" adv REMOVE:932
 "<известны>"
-	"известный" adj mfn pl pred
+	"известный" adj short mfn pl
 "<по>"
 	"по" pr
 "<латинским>"
@@ -779,14 +779,14 @@
 ;	"его" det pos m an sg dat REMOVE:426
 ;	"его" det pos m an sg gen REMOVE:426
 ;	"его" det pos m an sg ins REMOVE:426
-;	"он¹" prn pers p3 m sg gen REMOVE:426
+;	"он¹" prn pers p3 m an sg gen REMOVE:426
 ;	"его" det pos mfn an pl dat REMOVE:426
 ;	"его" det pos mfn an pl gen REMOVE:426
 ;	"его" det pos mfn an pl ins REMOVE:426
 ;	"его" det pos nt an sg dat REMOVE:426
 ;	"его" det pos nt an sg gen REMOVE:426
 ;	"его" det pos nt an sg ins REMOVE:426
-;	"оно" prn pers p3 nt sg gen REMOVE:426
+;	"оно" prn pers p3 nt an sg gen REMOVE:426
 ;	"он¹" prn pers p3 m sg acc REMOVE:446
 ;	"оно" prn pers p3 nt sg acc REMOVE:446
 ;	"его" det pos f an sg acc REMOVE:517
@@ -892,8 +892,8 @@
 ;	"быль" n f nn sg dat REMOVE:957
 ;	"быль" n f nn sg gen REMOVE:957
 "<вынуждены>"
-	"вынудить" vblex perf tv pp pasv mfn pl pred
-;	"вынужденный" adj mfn pl pred fac REMOVE:1033
+	"вынудить" vblex perf tv pp pasv short mfn pl
+;	"вынужденный" adj short mfn pl fac REMOVE:1033
 "<искать>"
 	"искать" vblex impf iv inf
 	"искать" vblex impf tv inf
@@ -1048,8 +1048,8 @@
 "<тесно>"
 	"тесно" adv
 	"тесно" pred
-	"тесный" adj nt sg pred
-	"тесный" adj nt sg pred ng
+	"тесный" adj short nt sg
+	"тесный" adj short nt sg ng
 "<переплетавшиеся>"
 	"переплетать" vblex impf tv pp actv pass mfn an pl nom
 	"переплетать" vblex impf tv pp actv pass mfn nn pl acc
@@ -1089,7 +1089,7 @@
 ;	"быль" n f nn pl nom REMOVE:957
 ;	"быль" n f nn sg gen REMOVE:957
 "<многообразны>"
-	"многообразный" adj mfn pl pred
+	"многообразный" adj short mfn pl
 "<.>"
 	"." sent
 
@@ -1097,7 +1097,7 @@
 	"разложение" n nt nn sg acc
 	"разложение" n nt nn sg nom
 "<общинно>"
-	"общинный" adj nt sg pred
+	"общинный" adj short nt sg
 "<->"
 	"-" guio
 "<родового>"
@@ -1183,7 +1183,7 @@
 "<служила>"
 	"служить" vblex impf tv past f sg
 	"служить" vblex impf iv past f sg
-;	"служилый" adj f sg pred prb REMOVE:1031
+;	"служилый" adj short f sg prb REMOVE:1031
 "<важнейшим>"
 	"важнейший" adj m an sg ins SELECT:655
 ;	"важнейший" adj mfn an pl dat REMOVE:519
@@ -1506,7 +1506,7 @@
 "<,>"
 	"," cm
 "<чётко>"
-	"чёткий" adj nt sg pred
+	"чёткий" adj short nt sg
 "<зафиксированное>"
 	"зафиксировать" vblex perf tv pp pasv nt an sg acc
 	"зафиксировать" vblex perf tv pp pasv nt an sg nom
@@ -1527,7 +1527,7 @@
 	"очевидно" adv
 	"очевидно" paren
 	"очевидно" pred
-	"очевидный" adj nt sg pred
+	"очевидный" adj short nt sg
 "<,>"
 	"," cm
 "<что>"
@@ -1601,7 +1601,7 @@
 	"(" lpar
 "<быстро>"
 	"быстро" adv
-;	"быстрый" adj nt sg pred REMOVE:405
+;	"быстрый" adj short nt sg REMOVE:405
 "<грабили>"
 	"грабить" vblex impf iv past mfn pl
 	"грабить" vblex impf tv past mfn pl
@@ -2074,17 +2074,17 @@
 "<Уэссекса>"
 	"Уэссекс" np al m nn sg gen
 "<Альфред>"
-	"Альфред" np ant m sg nom
+	"Альфред" np ant m an sg nom
 "<Великий>"
 	"великий" adj m an sg nom
 	"великий" adj m nn sg acc
 "<был>"
 	"быть" vblex impf iv past m sg
-;	"былой" adj m sg pred prb REMOVE:1031
+;	"былой" adj short m sg prb REMOVE:1031
 "<вынужден>"
-	"вынудить" vblex perf tv pp pasv m sg pred
-	"вынужденный" adj m sg pred
-;	"вынужденный" adj m sg pred fac REMOVE:1033
+	"вынудить" vblex perf tv pp pasv short m sg
+	"вынужденный" adj short m sg
+;	"вынужденный" adj short m sg fac REMOVE:1033
 "<заключить>"
 	"заключить" vblex perf iv inf
 	"заключить" vblex perf tv inf
@@ -2290,7 +2290,7 @@
 "<,>"
 	"," cm
 "<Альфред>"
-	"Альфред" np ant m sg nom
+	"Альфред" np ant m an sg nom
 "<и>"
 	"и" cnjcoo @CNP MAP:884
 ;	"и²" n nt nn pl acc REMOVE:540
@@ -2311,9 +2311,9 @@
 	"его" det pos m an sg nom
 	"его" det pos mfn an pl nom
 	"оно" prn pers p3 nt sg acc
-	"оно" prn pers p3 nt sg gen
+	"оно" prn pers p3 nt an sg gen
 	"он¹" prn pers p3 m sg acc
-	"он¹" prn pers p3 m sg gen
+	"он¹" prn pers p3 m an sg gen
 ;	"его" det pos f an sg acc REMOVE:734
 ;	"его" det pos f an sg dat REMOVE:734
 ;	"его" det pos f an sg gen REMOVE:734
@@ -2341,14 +2341,14 @@
 "<сын>"
 	"сын" n m aa sg nom
 "<Эдуард>"
-	"Эдуард" np ant m sg nom
+	"Эдуард" np ant m an sg nom
 "<Старший>"
 	"старший" adj m an sg nom
 	"старший" adj m nn sg acc
 	"старший" n m aa sg nom
 "<успешно>"
 	"успешно" adv
-;	"успешный" adj nt sg pred REMOVE:405
+;	"успешный" adj short nt sg REMOVE:405
 "<противостояли>"
 	"противостоять" vblex impf iv past mfn pl
 "<датским>"
@@ -2481,7 +2481,7 @@
 	"волна¹" n f nn sg nom
 "<набегов>"
 	"набег" n m nn pl gen
-	"набеговый" adj m sg pred
+	"набеговый" adj short m sg
 "<викингов>"
 	"викинг" n m aa pl gen
 ;	"викинг" n m aa pl acc REMOVE:831
@@ -2510,7 +2510,7 @@
 "<Её>"
 	"её" det pos f an sg ins
 	"её" det pos mfn an pl ins
-	"она" prn pers p3 f sg gen
+	"она" prn pers p3 f an sg gen
 ;	"её" det pos f an sg prp REMOVE:371
 ;	"её" det pos m an sg prp REMOVE:371
 ;	"её" det pos mfn an pl prp REMOVE:371
@@ -2535,7 +2535,7 @@
 ;	"её" det pos mfn an pl gen REMOVE:740
 ;	"её" det pos mfn an pl nom REMOVE:740
 ;	"её" det pos mfn nn pl acc REMOVE:740
-;	"она" prn pers p3 f sg acc REMOVE:831
+;	"она" prn pers p3 f an sg acc REMOVE:831
 "<кульминацией>"
 	"кульминация" n f nn sg ins
 "<стало>"
@@ -2611,7 +2611,7 @@
 ;	"монархия" n f nn sg dat REMOVE:895
 "<стоял>"
 	"стоять" vblex impf iv past m sg
-;	"стоялый" adj m sg pred prb REMOVE:1031
+;	"стоялый" adj short m sg prb REMOVE:1031
 "<Кнуд>"
 	"*Кнуд"
 "<Великий>"
@@ -2653,8 +2653,8 @@
 ;	"его" det pos mfn an pl dat REMOVE:419
 ;	"его" det pos mfn nn pl acc REMOVE:419
 ;	"оно" prn pers p3 nt sg acc REMOVE:419
-;	"он¹" prn pers p3 m sg gen REMOVE:446
-;	"оно" prn pers p3 nt sg gen REMOVE:446
+;	"он¹" prn pers p3 m an sg gen REMOVE:446
+;	"оно" prn pers p3 nt an sg gen REMOVE:446
 "<смерти>"
 	"смерть" n f nn pl acc
 	"смерть" n f nn pl nom
@@ -2672,7 +2672,7 @@
 	"лицо" n nt nn sg prp
 "<Эдуарда>"
 	"Эдуард" np ant m sg acc
-	"Эдуард" np ant m sg gen
+	"Эдуард" np ant m an sg gen
 "<Исповедника>"
 	"исповедник" n m aa sg acc
 	"исповедник" n m aa sg gen
@@ -2831,7 +2831,7 @@
 	"год" n m nn sg loc
 ;	"год" n m nn sg dat REMOVE:461
 "<он>"
-	"он¹" prn pers p3 m sg nom
+	"он¹" prn pers p3 m an sg nom
 ;	"он²" n nt nn pl acc REMOVE:959
 ;	"он²" n nt nn pl dat REMOVE:959
 ;	"он²" n nt nn pl gen REMOVE:959
@@ -2882,7 +2882,7 @@
 	"помощь" n f nn sg acc
 ;	"помощь" n f nn sg nom REMOVE:417
 "<Эдгару>"
-	"Эдгар" np ant m sg dat
+	"Эдгар" np ant m an sg dat
 "<Этлингу>"
 	"*Этлингу"
 "<в>"
@@ -2893,7 +2893,7 @@
 "<с>"
 	"с" pr
 "<Вильгельмом>"
-	"Вильгельм" np ant m sg ins
+	"Вильгельм" np ant m an sg ins
 "<I>"
 	"I" num SELECT:910
 	"I" num ord f an sg acc SELECT:910
@@ -2981,10 +2981,10 @@
 	"год" n m nn sg nom
 "<самолично>"
 	"самолично" adv
-;	"самоличный" adj nt sg pred REMOVE:405
+;	"самоличный" adj short nt sg REMOVE:405
 "<прибыл>"
 	"прибыть" vblex perf iv past m sg
-;	"прибылой" adj m sg pred prb REMOVE:1031
+;	"прибылой" adj short m sg prb REMOVE:1031
 "<в>"
 	"в" pr
 "<Англию>"
@@ -3002,12 +3002,12 @@
 "<Йорк>"
 	"Йорк" np al m nn sg acc
 	"Йорк" np al m nn sg nom
-	"Йорк" np cog f sg acc
+	"Йорк" np cog f an sg acc
 	"Йорк" np cog f sg dat
-	"Йорк" np cog f sg gen
-	"Йорк" np cog f sg ins
-	"Йорк" np cog f sg nom
-	"Йорк" np cog m sg nom
+	"Йорк" np cog f an sg gen
+	"Йорк" np cog f an sg ins
+	"Йорк" np cog f an sg nom
+	"Йорк" np cog m an sg nom
 ;	"Йорк" np cog f sg prp REMOVE:477
 "<и>"
 	"и" cnjcoo
@@ -3032,7 +3032,7 @@
 	"армия" n f nn sg acc
 "<Вильгельма>"
 	"Вильгельм" np ant m sg acc
-	"Вильгельм" np ant m sg gen
+	"Вильгельм" np ant m an sg gen
 "<,>"
 	"," cm
 "<предпочёл>"
@@ -3076,7 +3076,7 @@
 	"флот" n m nn sg ins
 "<обратно>"
 	"обратно" adv
-	"обратный" adj nt sg pred
+	"обратный" adj short nt sg
 "<в>"
 	"в" pr
 "<Данию>"
@@ -3165,7 +3165,7 @@
 "<было>"
 	"быть" vblex impf iv past nt sg
 ;	"было" part REMOVE:979
-;	"былой" adj nt sg pred prb REMOVE:1031
+;	"былой" adj short nt sg prb REMOVE:1031
 "<куда>"
 	"куда" adv itg
 	"куда" adv rel
@@ -3251,7 +3251,7 @@
 "<быть>"
 	"быть" vblex impf iv inf
 "<восстановлена>"
-	"восстановить" vblex perf tv pp pasv f sg pred
+	"восстановить" vblex perf tv pp pasv short f sg
 "<с>"
 	"с" pr
 "<такой>"
@@ -3312,8 +3312,8 @@
 	"викинг" n m aa pl acc
 	"викинг" n m aa pl gen
 "<связано>"
-	"связать" vblex perf tv pp pasv nt sg pred
-;	"связанный" adj nt sg pred fac REMOVE:1033
+	"связать" vblex perf tv pp pasv short nt sg
+;	"связанный" adj short nt sg fac REMOVE:1033
 "<основание>"
 	"основание" n nt nn sg acc
 	"основание" n nt nn sg nom

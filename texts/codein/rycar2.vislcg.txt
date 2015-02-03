@@ -318,7 +318,7 @@
 ;	"знатный" adj mfn an pl prp REMOVE:842
 "<добровольно>"
 	"добровольно" adv
-;	"добровольный" adj nt sg pred REMOVE:407
+;	"добровольный" adj short nt sg REMOVE:407
 "<подчиняться>"
 	"подчиняться" vblex impf iv inf
 ;	"подчинять" vblex impf tv inf pass REMOVE:821
@@ -735,8 +735,8 @@
 ;	"лен" n m nn pl nom REMOVE:778
 "<преимущественно>"
 	"преимущественно" adv
-	"преимущественный" adj nt sg pred
-;	"преимущественный" adj nt sg pred fac REMOVE:1033
+	"преимущественный" adj short nt sg
+;	"преимущественный" adj short nt sg fac REMOVE:1033
 "<динстманнам>"
 	"*динстманнам"
 "<,>"
@@ -834,9 +834,9 @@
 	"право²" paren
 	"право¹" n nt nn sg acc
 	"право¹" n nt nn sg nom
-	"правый" adj nt sg pred
-	"правый¹" adj nt sg pred
-;	"правый²" adj nt sg pred prb REMOVE:1031
+	"правый" adj short nt sg
+	"правый¹" adj short nt sg
+;	"правый²" adj short nt sg prb REMOVE:1031
 "<появляться>"
 	"появляться" vblex impf iv inf
 "<в>"
@@ -935,7 +935,7 @@
 "<везде>"
 	"везде" adv
 "<признано>"
-	"признать" vblex perf tv pp pasv nt sg pred
+	"признать" vblex perf tv pp pasv short nt sg
 "<за>"
 	"за" pr
 "<динстманнами>"
@@ -954,14 +954,14 @@
 ;	"новый" adj mfn an pl prp REMOVE:477
 "<слоев>"
 	"слой" n m nn pl gen
-;	"слоевой" adj m sg pred prb REMOVE:1031
+;	"слоевой" adj short m sg prb REMOVE:1031
 "<несвободных>"
 	"несвободный" adj mfn aa pl acc
 	"несвободный" adj mfn an pl gen
 ;	"несвободный" adj mfn an pl prp REMOVE:477
 "<классов>"
 	"класс" n m nn pl gen
-	"классовый" adj m sg pred
+	"классовый" adj short m sg
 	"классы" n m nn pl gen
 "<или>"
 	"или" cnjcoo
@@ -1008,9 +1008,9 @@
 ;	"рыцарство" n nt nn sg nom REMOVE:417
 "<был>"
 	"быть" vblex impf iv past m sg
-;	"былой" adj m sg pred prb REMOVE:1031
+;	"былой" adj short m sg prb REMOVE:1031
 "<задержан>"
-	"задержать" vblex perf tv pp pasv m sg pred
+	"задержать" vblex perf tv pp pasv short m sg
 "<в>"
 	"в" pr
 "<середине>"
@@ -1108,7 +1108,7 @@
 	"постановление" n nt nn sg nom
 "<Фридриха>"
 	"Фридрих" np ant m sg acc
-	"Фридрих" np ant m sg gen
+	"Фридрих" np ant m an sg gen
 "<I>"
 	"I" num SELECT:910
 	"I" num ord f an sg acc SELECT:910
@@ -1241,16 +1241,16 @@
 ;	"а²" n nt nn sg prp REMOVE:540
 ;	"а¹" ij REMOVE:963
 "<должен>"
-	"должен" adj m sg pred
-	"должный" adj m sg pred
+	"должен" adj short m sg
+	"должный" adj short m sg
 "<привязывать>"
 	"привязывать" vblex impf iv inf
 	"привязывать" vblex impf tv inf
 "<его>"
-	"он¹" prn pers p3 m sg gen
+	"он¹" prn pers p3 m an sg gen
 	"он¹" prn pers p3 m sg acc
 	"оно" prn pers p3 nt sg acc
-	"оно" prn pers p3 nt sg gen
+	"оно" prn pers p3 nt an sg gen
 ;	"его" det pos f an sg prp REMOVE:475
 ;	"его" det pos m an sg prp REMOVE:475
 ;	"его" det pos mfn an pl prp REMOVE:475
@@ -1341,10 +1341,10 @@
 "<право>"
 	"право²" paren
 	"право¹" n nt nn sg acc
-	"правый¹" adj nt sg pred
-	"правый" adj nt sg pred
+	"правый¹" adj short nt sg
+	"правый" adj short nt sg
 ;	"право¹" n nt nn sg nom REMOVE:778
-;	"правый²" adj nt sg pred prb REMOVE:1031
+;	"правый²" adj short nt sg prb REMOVE:1031
 "<на>"
 	"на" pr
 ;	"на" ij REMOVE:607
@@ -1377,36 +1377,36 @@
 "<По>"
 	"по" pr
 ;	"По²" np cog f sg prp REMOVE:371
-;	"По²" np cog m sg prp REMOVE:371
-;	"По²" np cog mfn pl prp REMOVE:371
+;	"По²" np cog m an sg prp REMOVE:371
+;	"По²" np cog mfn an pl prp REMOVE:371
 ;	"По¹" np al f nn pl prp REMOVE:371
 ;	"По¹" np al f nn sg prp REMOVE:371
-;	"По²" np cog f sg gen REMOVE:649
+;	"По²" np cog f an sg gen REMOVE:649
 ;	"По¹" np al f nn sg gen REMOVE:649
-;	"По²" np cog m sg gen REMOVE:649
-;	"По²" np cog mfn pl gen REMOVE:649
+;	"По²" np cog m an sg gen REMOVE:649
+;	"По²" np cog mfn an pl gen REMOVE:649
 ;	"По¹" np al f nn pl gen REMOVE:649
-;	"По²" np cog f sg acc REMOVE:831
+;	"По²" np cog f an sg acc REMOVE:831
 ;	"По²" np cog m sg acc REMOVE:831
-;	"По²" np cog mfn pl acc REMOVE:831
+;	"По²" np cog mfn an pl acc REMOVE:831
 ;	"По¹" np al f nn sg acc REMOVE:831
 ;	"По¹" np al f nn pl acc REMOVE:831
-;	"По²" np cog mfn pl nom REMOVE:989
+;	"По²" np cog mfn an pl nom REMOVE:989
 ;	"По²" np cog f sg dat REMOVE:989
 ;	"По¹" np al f nn pl ins REMOVE:989
-;	"По²" np cog f sg ins REMOVE:989
-;	"По²" np cog f sg ins fac REMOVE:989
-;	"По²" np cog f sg nom REMOVE:989
+;	"По²" np cog f an sg ins REMOVE:989
+;	"По²" np cog f an sg ins fac REMOVE:989
+;	"По²" np cog f an sg nom REMOVE:989
 ;	"По¹" np al f nn pl nom REMOVE:989
 ;	"По¹" np al f nn sg nom REMOVE:989
-;	"По²" np cog m sg dat REMOVE:989
-;	"По²" np cog m sg ins REMOVE:989
-;	"По²" np cog m sg nom REMOVE:989
+;	"По²" np cog m an sg dat REMOVE:989
+;	"По²" np cog m an sg ins REMOVE:989
+;	"По²" np cog m an sg nom REMOVE:989
 ;	"По¹" np al f nn sg ins REMOVE:989
 ;	"По¹" np al f nn sg dat REMOVE:989
-;	"По²" np cog mfn pl dat REMOVE:989
+;	"По²" np cog mfn an pl dat REMOVE:989
 ;	"По¹" np al f nn pl dat REMOVE:989
-;	"По²" np cog mfn pl ins REMOVE:989
+;	"По²" np cog mfn an pl ins REMOVE:989
 "<«>"
 	"«" lquot
 "<Саксонскому>"
@@ -1466,8 +1466,8 @@
 "<дед>"
 	"дед" n m aa sg nom
 "<должны>"
-	"должен" adj mfn pl pred
-	"должный" adj mfn pl pred
+	"должен" adj short mfn pl
+	"должный" adj short mfn pl
 "<были>"
 	"быть" vblex impf iv past mfn pl
 ;	"быль" n f nn pl acc REMOVE:957
@@ -1488,7 +1488,7 @@
 	"конституция" n f nn sg nom
 "<Фридриха>"
 	"Фридрих" np ant m sg acc
-	"Фридрих" np ant m sg gen
+	"Фридрих" np ant m an sg gen
 "<I>"
 	"I" num SELECT:910
 	"I" num ord f an sg acc SELECT:910
@@ -1727,7 +1727,7 @@
 "<было>"
 	"было" part
 	"быть" vblex impf iv past nt sg
-;	"былой" adj nt sg pred prb REMOVE:1031
+;	"былой" adj short nt sg prb REMOVE:1031
 "<,>"
 	"," cm
 "<что>"
@@ -1825,7 +1825,7 @@
 "<было>"
 	"было" part
 	"быть" vblex impf iv past nt sg
-;	"былой" adj nt sg pred prb REMOVE:1031
+;	"былой" adj short nt sg prb REMOVE:1031
 "<главным>"
 	"главное" n nt nn pl dat
 	"главное" n nt nn sg ins
@@ -1883,14 +1883,14 @@
 	"её" det pos m an sg gen
 	"её" det pos m an sg ins
 	"её" det pos m an sg nom
-	"она" prn pers p3 f sg gen
+	"она" prn pers p3 f an sg gen
 	"её" det pos m nn sg acc
 	"её" det pos mfn aa pl acc
 	"её" det pos mfn an pl dat
 	"её" det pos mfn an pl gen
 	"её" det pos mfn an pl ins
 	"её" det pos mfn an pl nom
-	"она" prn pers p3 f sg acc
+	"она" prn pers p3 f an sg acc
 	"её" det pos mfn nn pl acc
 	"её" det pos nt an sg acc
 	"её" det pos nt an sg dat
@@ -1992,9 +1992,9 @@
 	"человек" n m aa pl ins
 "<была>"
 	"быть" vblex impf iv past f sg
-;	"былой" adj f sg pred prb REMOVE:1031
+;	"былой" adj short f sg prb REMOVE:1031
 "<затруднена>"
-	"затруднить" vblex perf tv pp pasv f sg pred
+	"затруднить" vblex perf tv pp pasv short f sg
 "<тяжёлым>"
 	"тяжёлый" adj m an sg ins SELECT:655
 ;	"тяжёлый" adj mfn an pl dat REMOVE:519
@@ -2042,7 +2042,7 @@
 "<было>"
 	"было" part
 	"быть" vblex impf iv past nt sg
-;	"былой" adj nt sg pred prb REMOVE:1031
+;	"былой" adj short nt sg prb REMOVE:1031
 "<попадать>"
 	"попадать" vblex impf iv inf
 	"попадать" vblex perf iv inf
@@ -2075,9 +2075,9 @@
 	"право²" paren
 	"право¹" n nt nn sg acc
 	"право¹" n nt nn sg nom
-	"правый" adj nt sg pred
-	"правый¹" adj nt sg pred
-;	"правый²" adj nt sg pred prb REMOVE:1031
+	"правый" adj short nt sg
+	"правый¹" adj short nt sg
+;	"правый²" adj short nt sg prb REMOVE:1031
 "<пожалования>"
 	"пожалование" n nt nn pl acc
 	"пожалование" n nt nn pl nom
@@ -2113,9 +2113,9 @@
 	"право²" paren
 	"право¹" n nt nn sg acc
 	"право¹" n nt nn sg nom
-	"правый" adj nt sg pred
-	"правый¹" adj nt sg pred
-;	"правый²" adj nt sg pred prb REMOVE:1031
+	"правый" adj short nt sg
+	"правый¹" adj short nt sg
+;	"правый²" adj short nt sg prb REMOVE:1031
 "<посвящать>"
 	"посвящать" vblex impf iv inf
 	"посвящать" vblex impf tv inf
@@ -2138,7 +2138,7 @@
 	"." sent
 
 "<Генрих>"
-	"Генрих" np ant m sg nom
+	"Генрих" np ant m an sg nom
 "<III>"
 	"III" num SELECT:910
 	"III" num ord f an sg acc SELECT:910
@@ -2211,7 +2211,7 @@
 ;	"и¹" ij REMOVE:928
 ;	"и" adv REMOVE:932
 "<Эдуард>"
-	"Эдуард" np ant m sg nom
+	"Эдуард" np ant m an sg nom
 "<I>"
 	"I" num SELECT:910
 	"I" num ord f an sg acc SELECT:910
@@ -2320,8 +2320,8 @@
 	"20" num
 "<фунтов>"
 	"фунт" n m nn pl gen
-	"фунтовый" adj m sg pred
-;	"фунтовой" adj m sg pred prb REMOVE:1031
+	"фунтовый" adj short m sg
+;	"фунтовой" adj short m sg prb REMOVE:1031
 "<.>"
 	"." sent
 
@@ -2434,8 +2434,8 @@
 "<его>"
 	"его" det pos mfn an pl dat
 	"его" det pos m an sg dat
-	"он¹" prn pers p3 m sg gen
-	"оно" prn pers p3 nt sg gen
+	"он¹" prn pers p3 m an sg gen
+	"оно" prn pers p3 nt an sg gen
 ;	"его" det pos f an sg acc REMOVE:734
 ;	"его" det pos f an sg dat REMOVE:734
 ;	"его" det pos f an sg gen REMOVE:734
@@ -2507,7 +2507,7 @@
 	"христианский" adj nt an sg gen
 "<долга>"
 	"долг" n m nn sg gen
-	"долгий" adj f sg pred
+	"долгий" adj short f sg
 "<служить>"
 	"служить" vblex impf iv inf
 	"служить" vblex impf tv inf
@@ -2847,7 +2847,7 @@
 	"." sent
 
 "<Рудольфу>"
-	"Рудольф" np ant m sg dat
+	"Рудольф" np ant m an sg dat
 "<Габсбургскому>"
 	"габсбургский" adj m an sg dat
 	"габсбургский" adj nt an sg dat

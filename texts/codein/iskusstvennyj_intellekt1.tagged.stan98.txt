@@ -34,60 +34,60 @@
 	"середина" n f nn sg prp
 ;	"середина" n f nn sg dat REMOVE:408
 "<XX>"
-	"XX" num ord m sg gen SELECT:638 SELECT:822
+	"XX" num ord m an sg gen SELECT:638 SELECT:822
 ;	"XX" num SELECT:638
-;	"XX" num ord f sg acc SELECT:638
+;	"XX" num ord f an sg acc SELECT:638
 ;	"XX" num ord f sg dat SELECT:638
-;	"XX" num ord f sg ins SELECT:638
-;	"XX" num ord f sg nom SELECT:638
+;	"XX" num ord f an sg ins SELECT:638
+;	"XX" num ord f an sg nom SELECT:638
 ;	"XX" num ord f sg prp SELECT:638
 ;	"XX" num ord m aa sg acc SELECT:638
 ;	"XX" num ord m nn sg acc SELECT:638
-;	"XX" num ord m sg dat SELECT:638
-;	"XX" num ord m sg ins SELECT:638
-;	"XX" num ord m sg nom SELECT:638
-;	"XX" num ord m sg prp SELECT:638
+;	"XX" num ord m an sg dat SELECT:638
+;	"XX" num ord m an sg ins SELECT:638
+;	"XX" num ord m an sg nom SELECT:638
+;	"XX" num ord m an sg prp SELECT:638
 ;	"XX" num ord mfn aa pl acc SELECT:638
 ;	"XX" num ord mfn nn pl acc SELECT:638
-;	"XX" num ord mfn pl dat SELECT:638
-;	"XX" num ord mfn pl gen SELECT:638
-;	"XX" num ord mfn pl ins SELECT:638
-;	"XX" num ord mfn pl nom SELECT:638
-;	"XX" num ord mfn pl prp SELECT:638
+;	"XX" num ord mfn an pl dat SELECT:638
+;	"XX" num ord mfn an pl gen SELECT:638
+;	"XX" num ord mfn an pl ins SELECT:638
+;	"XX" num ord mfn an pl nom SELECT:638
+;	"XX" num ord mfn an pl prp SELECT:638
 ;	"XX" num ord nt sg acc SELECT:638
 ;	"XX" num ord nt sg dat SELECT:638
 ;	"XX" num ord nt sg ins SELECT:638
-;	"XX" num ord nt sg nom SELECT:638
+;	"XX" num ord nt an sg nom SELECT:638
 ;	"XX" num ord nt sg prp SELECT:638
 ;	"xx" num SELECT:638
-;	"xx" num ord f sg acc SELECT:638
+;	"xx" num ord f an sg acc SELECT:638
 ;	"xx" num ord f sg dat SELECT:638
-;	"xx" num ord f sg ins SELECT:638
-;	"xx" num ord f sg nom SELECT:638
+;	"xx" num ord f an sg ins SELECT:638
+;	"xx" num ord f an sg nom SELECT:638
 ;	"xx" num ord f sg prp SELECT:638
 ;	"xx" num ord m aa sg acc SELECT:638
 ;	"xx" num ord m nn sg acc SELECT:638
-;	"xx" num ord m sg dat SELECT:638
-;	"xx" num ord m sg ins SELECT:638
-;	"xx" num ord m sg nom SELECT:638
-;	"xx" num ord m sg prp SELECT:638
+;	"xx" num ord m an sg dat SELECT:638
+;	"xx" num ord m an sg ins SELECT:638
+;	"xx" num ord m an sg nom SELECT:638
+;	"xx" num ord m an sg prp SELECT:638
 ;	"xx" num ord mfn aa pl acc SELECT:638
 ;	"xx" num ord mfn nn pl acc SELECT:638
-;	"xx" num ord mfn pl dat SELECT:638
-;	"xx" num ord mfn pl gen SELECT:638
-;	"xx" num ord mfn pl ins SELECT:638
-;	"xx" num ord mfn pl nom SELECT:638
-;	"xx" num ord mfn pl prp SELECT:638
+;	"xx" num ord mfn an pl dat SELECT:638
+;	"xx" num ord mfn an pl gen SELECT:638
+;	"xx" num ord mfn an pl ins SELECT:638
+;	"xx" num ord mfn an pl nom SELECT:638
+;	"xx" num ord mfn an pl prp SELECT:638
 ;	"xx" num ord nt sg acc SELECT:638
 ;	"xx" num ord nt sg dat SELECT:638
 ;	"xx" num ord nt sg ins SELECT:638
-;	"xx" num ord nt sg nom SELECT:638
+;	"xx" num ord nt an sg nom SELECT:638
 ;	"xx" num ord nt sg prp SELECT:638
-;	"XX" num ord f sg gen SELECT:638 REMOVE:550
-;	"xx" num ord f sg gen SELECT:638 REMOVE:550
-;	"XX" num ord nt sg gen SELECT:638 REMOVE:552
-;	"xx" num ord nt sg gen SELECT:638 REMOVE:552
-;	"xx" num ord m sg gen SELECT:638 SELECT:822
+;	"XX" num ord f an sg gen SELECT:638 REMOVE:550
+;	"xx" num ord f an sg gen SELECT:638 REMOVE:550
+;	"XX" num ord nt an sg gen SELECT:638 REMOVE:552
+;	"xx" num ord nt an sg gen SELECT:638 REMOVE:552
+;	"xx" num ord m an sg gen SELECT:638 SELECT:822
 "<века>"
 	"век¹" n m nn sg gen SELECT:608 SELECT:612
 ;	"веко" n nt nn sg gen SELECT:608
@@ -100,7 +100,7 @@
 	"к" pr
 "<этому>"
 ;	"это" prn dem nt nn sg dat
-;	"этот" det dem m sg dat
+;	"этот" det dem m an sg dat
 	"этот" det dem nt sg dat
 ;	"этот" prn dem m aa sg dat
 "<времени>"
@@ -125,34 +125,34 @@
 "<предпосылок>"
 	"предпосылка" n f nn pl gen
 "<его>"
-;	"оно" prn pers p3 nt sg gen
-;	"его" det pos mfn pl gen
-;	"он¹" prn pers p3 m sg gen
-;	"его" det pos mfn pl nom
+;	"оно" prn pers p3 nt an sg gen
+;	"его" det pos mfn an pl gen
+;	"он¹" prn pers p3 m an sg gen
+;	"его" det pos mfn an pl nom
 ;	"оно" prn pers p3 nt sg acc
 ;	"он¹" prn pers p3 m sg acc
 ;	"его" det pos nt sg acc
 ;	"его" det pos mfn aa pl acc
-	"его" det pos nt sg gen
+	"его" det pos nt an sg gen
 ;	"его" det pos mfn nn pl acc
-;	"его" det pos nt sg nom
+;	"его" det pos nt an sg nom
 ;	"его" det pos f sg prp REMOVE:458
-;	"его" det pos m sg prp REMOVE:458
-;	"его" det pos mfn pl prp REMOVE:458
+;	"его" det pos m an sg prp REMOVE:458
+;	"его" det pos mfn an pl prp REMOVE:458
 ;	"его" det pos nt sg prp REMOVE:458
-;	"его" det pos f sg acc REMOVE:707
+;	"его" det pos f an sg acc REMOVE:707
 ;	"его" det pos f sg dat REMOVE:707
-;	"его" det pos f sg gen REMOVE:707
-;	"его" det pos f sg ins REMOVE:707
-;	"его" det pos f sg nom REMOVE:707
+;	"его" det pos f an sg gen REMOVE:707
+;	"его" det pos f an sg ins REMOVE:707
+;	"его" det pos f an sg nom REMOVE:707
 ;	"его" det pos m aa sg acc REMOVE:707
 ;	"его" det pos m nn sg acc REMOVE:707
-;	"его" det pos m sg dat REMOVE:707
-;	"его" det pos m sg gen REMOVE:707
-;	"его" det pos m sg ins REMOVE:707
-;	"его" det pos m sg nom REMOVE:707
-;	"его" det pos mfn pl dat REMOVE:713
-;	"его" det pos mfn pl ins REMOVE:713
+;	"его" det pos m an sg dat REMOVE:707
+;	"его" det pos m an sg gen REMOVE:707
+;	"его" det pos m an sg ins REMOVE:707
+;	"его" det pos m an sg nom REMOVE:707
+;	"его" det pos mfn an pl dat REMOVE:713
+;	"его" det pos mfn an pl ins REMOVE:713
 ;	"его" det pos nt sg dat REMOVE:713
 ;	"его" det pos nt sg ins REMOVE:713
 "<зарождения>"
@@ -442,7 +442,7 @@
 ;	"первое" n nt nn pl acc
 ;	"первое" n nt nn pl nom
 ;	"первый" num ord mfn nn pl acc
-	"первый" num ord mfn pl nom
+	"первый" num ord mfn an pl nom
 "<компьютеры>"
 ;	"компьютер" n m nn pl acc
 	"компьютер" n m nn pl nom
@@ -506,8 +506,8 @@
 "<:>"
 	":" sent
 "<каковы>"
-	"каков" det itg mfn pl pred
-;	"каков" det rel mfn pl pred
+	"каков" det itg short mfn pl
+;	"каков" det rel short mfn pl
 "<границы>"
 ;	"граница" n f nn pl acc
 	"граница" n f nn pl nom
@@ -579,9 +579,9 @@
 ;	"год" n m nn sg dat REMOVE:442
 "<один>"
 ;	"один" num m nn sg acc
-	"один" num m sg nom
+	"один" num m an sg nom
 ;	"один" det m nn sg acc REMOVE:464
-;	"один" det m sg nom REMOVE:464
+;	"один" det m an sg nom REMOVE:464
 "<из>"
 	"из" pr
 "<пионеров>"
@@ -615,17 +615,17 @@
 ;	"учёный" adj m nn sg acc
 	"учёный" n m aa sg nom
 "<Алан>"
-	"Алан" np ant m sg nom
+	"Алан" np ant m an sg nom
 ;	"алан" n m aa sg nom
 ;	"алан" n m aa pl gen fac REMOVE:913
 "<Тьюринг>"
-;	"Тьюринг" np cog f sg acc
+;	"Тьюринг" np cog f an sg acc
 ;	"Тьюринг" np cog f sg dat
-;	"Тьюринг" np cog f sg gen
-;	"Тьюринг" np cog f sg ins
-;	"Тьюринг" np cog f sg nom
+;	"Тьюринг" np cog f an sg gen
+;	"Тьюринг" np cog f an sg ins
+;	"Тьюринг" np cog f an sg nom
 ;	"Тьюринг" np cog f sg prp
-	"Тьюринг" np cog m sg nom
+	"Тьюринг" np cog m an sg nom
 "<,>"
 	"," cm
 "<пишет>"
@@ -676,11 +676,11 @@
 "<которой>"
 	"который" prn rel f sg prp
 ;	"который" det itg f sg dat REMOVE:408
-;	"который" det itg f sg gen REMOVE:408
-;	"который" det itg f sg ins REMOVE:408
+;	"который" det itg f an sg gen REMOVE:408
+;	"который" det itg f an sg ins REMOVE:408
 ;	"который" prn rel f sg dat REMOVE:408
-;	"который" prn rel f sg gen REMOVE:408
-;	"который" prn rel f sg ins REMOVE:408
+;	"который" prn rel f an sg gen REMOVE:408
+;	"который" prn rel f an sg ins REMOVE:408
 '	"который" det itg f sg prp REMOVE:464
 "<описывает>"
 	"описывать" vblex impf tv pres p3 sg
@@ -695,12 +695,12 @@
 	"помощь" n f nn sg ins
 "<которой>"
 ;	"который" det itg f sg dat
-;	"который" det itg f sg gen
-;	"который" det itg f sg ins
+;	"который" det itg f an sg gen
+;	"который" det itg f an sg ins
 ;	"который" det itg f sg prp
 ;	"который" prn rel f sg dat
-	"который" prn rel f sg gen
-;	"который" prn rel f sg ins
+	"который" prn rel f an sg gen
+;	"который" prn rel f an sg ins
 ;	"который" prn rel f sg prp
 "<можно>"
 	"можно" pred
@@ -751,7 +751,7 @@
 ;	"тесто" n nt nn sg gen
 "<Тьюринга>"
 ;	"Тьюринг" np cog m sg acc
-	"Тьюринг" np cog m sg gen
+	"Тьюринг" np cog m an sg gen
 "<.>"
 	"." sent
 ¶
@@ -801,11 +801,11 @@
 "<советник>"
 	"советник" n m aa sg nom
 "<Семён>"
-	"Семён" np ant m sg nom
+	"Семён" np ant m an sg nom
 "<Николаевич>"
-	"Николаевич" np pat m sg nom
+	"Николаевич" np pat m an sg nom
 "<Корсаков>"
-	"Корсаков" np cog m sg nom
+	"Корсаков" np cog m an sg nom
 ;	"корсак" n m aa pl acc
 ;	"корсак" n m aa pl gen
 "<(>"
@@ -911,7 +911,7 @@
 "<Н.>"
 	"Н." abbr
 "<Корсаков>"
-	"Корсаков" np cog m sg nom
+	"Корсаков" np cog m an sg nom
 ;	"корсак" n m aa pl acc
 ;	"корсак" n m aa pl gen
 "<опубликовал>"
@@ -929,7 +929,7 @@
 	"изобрести" vblex perf tv pp pasv mfn an pl gen
 ;	"изобрести" vblex perf tv pp pasv mfn an pl prp
 "<им>"
-	"он¹" prn pers p3 m sg ins
+	"он¹" prn pers p3 m an sg ins
 ;	"они" prn pers p3 pl dat
 ;	"оно" prn pers p3 nt sg ins
 "<механических>"
@@ -1033,15 +1033,15 @@
 ;	"свое" n nt nn pl gen
 ;	"свое" n nt nn pl prp
 ;	"свой" n m aa pl gen
-	"свой" det pos mfn pl gen
+	"свой" det pos mfn an pl gen
 ;	"свой" n m aa pl prp
 ;	"свой" n m aa pl acc
 ;	"свой" det pos mfn aa pl acc REMOVE:713
-;	"свой" det pos mfn pl prp REMOVE:713
+;	"свой" det pos mfn an pl prp REMOVE:713
 "<машин>"
 	"машина" n f nn pl gen
 "<Корсаков>"
-	"Корсаков" np cog m sg nom
+	"Корсаков" np cog m an sg nom
 ;	"корсак" n m aa pl acc
 ;	"корсак" n m aa pl gen
 "<впервые>"
@@ -1096,17 +1096,17 @@
 ;	"у²" n nt nn sg prp REMOVE:521
 ;	"у¹" ij REMOVE:885
 "<него>"
-;	"оно" prn pers p3 nt sg gen pobj @P← MAP:791
-	"он¹" prn pers p3 m sg gen pobj @P← MAP:791
+;	"оно" prn pers p3 nt an sg gen pobj @P← MAP:791
+	"он¹" prn pers p3 m an sg gen pobj @P← MAP:791
 ;	"он¹" prn pers p3 m sg acc pobj @P← MAP:791 REMOVE:403
 ;	"оно" prn pers p3 nt sg acc pobj @P← MAP:791 REMOVE:403
 "<своего>"
 ;	"свое" n nt nn sg gen
 ;	"свой" det pos m aa sg acc
-	"свой" det pos m sg gen
+	"свой" det pos m an sg gen
 ;	"свой" n m aa sg gen
 ;	"свой" n m aa sg acc
-;	"свой" det pos nt sg gen REMOVE:707
+;	"свой" det pos nt an sg gen REMOVE:707
 "<рода>"
 ;	"род" n m nn pl acc
 ;	"род" n m nn pl nom
@@ -1143,7 +1143,7 @@
 ;	"а¹" ij REMOVE:875
 "<сами>"
 ;	"сам" det mfn nn pl acc
-	"сам" det mfn pl nom
+	"сам" det mfn an pl nom
 "<машины>"
 ;	"машина" n f nn pl acc
 	"машина" n f nn pl nom
@@ -1197,8 +1197,8 @@
 "<в>"
 	"в" pr
 "<1960-х>"
-	"1960" num ord mfn pl prp SELECT:556
-;	"1960" num ord mfn pl gen REMOVE:408
+	"1960" num ord mfn an pl prp SELECT:556
+;	"1960" num ord mfn an pl gen REMOVE:408
 ;	"1960" num ord mfn aa pl acc SELECT:556
 "<годах>"
 	"год" n m nn pl prp
@@ -1257,10 +1257,10 @@
 	"возглавить" vblex perf tv pp pasv mfn an pl gen
 ;	"возглавить" vblex perf tv pp pasv mfn an pl prp REMOVE:458
 "<Вениамином>"
-	"Вениамин" np ant m sg ins
+	"Вениамин" np ant m an sg ins
 "<Пушкиным>"
-	"Пушкин" np cog m sg ins SELECT:476
-;	"Пушкин" np cog mfn pl dat SELECT:476
+	"Пушкин" np cog m an sg ins SELECT:476
+;	"Пушкин" np cog mfn an pl dat SELECT:476
 "<и>"
 	"и" cnjcoo
 ;	"и²" n nt nn pl prp REMOVE:458
@@ -1282,8 +1282,8 @@
 "<А.>"
 	"А." abbr
 "<Поспеловым>"
-	"Поспелов" np cog m sg ins
-;	"Поспелов" np cog mfn pl dat
+	"Поспелов" np cog m an sg ins
+;	"Поспелов" np cog mfn an pl dat
 "<.>"
 	"." sent
 ¶
@@ -1312,11 +1312,11 @@
 ;	"логика" n f nn sg nom
 "<Сергея>"
 ;	"Сергей" np ant m sg acc
-	"Сергей" np ant m sg gen
+	"Сергей" np ant m an sg gen
 "<Маслова>"
-;	"Маслов" np cog f sg nom
+;	"Маслов" np cog f an sg nom
 ;	"Маслов" np cog m sg acc
-	"Маслов" np cog m sg gen
+	"Маслов" np cog m an sg gen
 "<«>"
 	"«" lquot
 "<Обратный>"
@@ -1350,11 +1350,11 @@
 "<которой>"
 	"который" prn rel f sg prp
 ;	"который" det itg f sg dat REMOVE:408
-;	"который" det itg f sg gen REMOVE:408
-;	"который" det itg f sg ins REMOVE:408
+;	"который" det itg f an sg gen REMOVE:408
+;	"который" det itg f an sg ins REMOVE:408
 ;	"который" prn rel f sg dat REMOVE:408
-;	"который" prn rel f sg gen REMOVE:408
-;	"который" prn rel f sg ins REMOVE:408
+;	"который" prn rel f an sg gen REMOVE:408
+;	"который" prn rel f an sg ins REMOVE:408
 ;	"который" det itg f sg prp REMOVE:470
 "<впервые>"
 	"впервые" adv
@@ -1435,9 +1435,9 @@
 ;	"до" n nt nn sg ins REMOVE:523
 ;	"до" n nt nn sg nom REMOVE:523
 "<1970-х>"
-	"1970" num ord mfn pl gen
+	"1970" num ord mfn an pl gen
 ;	"1970" num ord mfn aa pl acc REMOVE:403
-;	"1970" num ord mfn pl prp REMOVE:403
+;	"1970" num ord mfn an pl prp REMOVE:403
 "<годов>"
 	"год" n m nn pl gen
 ;	"годовой" adj short m sg prb REMOVE:911
@@ -1448,11 +1448,11 @@
 "<все>"
 ;	"весь¹" det all mfn nn pl acc
 ;	"весь¹" det all nt sg acc
-;	"весь¹" det all nt sg nom
+;	"весь¹" det all nt an sg nom
 	"весь¹" det all pl nom
 ;	"все" prn pl nom
 ;	"всё" prn nt sg acc
-;	"всё" prn nt sg nom
+;	"всё" prn nt an sg nom
 "<исследования>"
 ;	"исследование" n nt nn pl acc
 	"исследование" n nt nn pl nom
@@ -1462,7 +1462,7 @@
 ;	"Ия²" np al f nn pl nom
 ;	"Ия²" np al f nn sg gen
 ;	"Ия¹" np ant f pl nom
-;	"Ия¹" np ant f sg gen
+;	"Ия¹" np ant f an sg gen
 	"ИИ" abbr
 "<велись>"
 	"вести" vblex impf tv past mfn pl pass
@@ -1481,32 +1481,32 @@
 "<По>"
 	"по" pr
 ;	"По²" np cog f sg prp REMOVE:355
-;	"По²" np cog m sg prp REMOVE:355
-;	"По²" np cog mfn pl prp REMOVE:355
+;	"По²" np cog m an sg prp REMOVE:355
+;	"По²" np cog mfn an pl prp REMOVE:355
 ;	"По¹" np al f nn pl prp REMOVE:355
 ;	"По¹" np al f nn sg prp REMOVE:355
-;	"По²" np cog f sg gen REMOVE:626
+;	"По²" np cog f an sg gen REMOVE:626
 ;	"По¹" np al f nn sg gen REMOVE:626
-;	"По²" np cog m sg gen REMOVE:626
-;	"По²" np cog mfn pl gen REMOVE:626
+;	"По²" np cog m an sg gen REMOVE:626
+;	"По²" np cog mfn an pl gen REMOVE:626
 ;	"По¹" np al f nn pl gen REMOVE:626
-;	"По²" np cog f sg acc REMOVE:901
+;	"По²" np cog f an sg acc REMOVE:901
 ;	"По²" np cog f sg dat REMOVE:901
 ;	"По¹" np al f nn pl ins REMOVE:901
-;	"По²" np cog f sg ins REMOVE:901
-;	"По²" np cog f sg ins fac REMOVE:901
-;	"По²" np cog f sg nom REMOVE:901
+;	"По²" np cog f an sg ins REMOVE:901
+;	"По²" np cog f an sg ins fac REMOVE:901
+;	"По²" np cog f an sg nom REMOVE:901
 ;	"По¹" np al f nn pl nom REMOVE:901
 ;	"По²" np cog m sg acc REMOVE:901
-;	"По²" np cog m sg dat REMOVE:901
-;	"По²" np cog m sg ins REMOVE:901
-;	"По²" np cog m sg nom REMOVE:901
+;	"По²" np cog m an sg dat REMOVE:901
+;	"По²" np cog m an sg ins REMOVE:901
+;	"По²" np cog m an sg nom REMOVE:901
 ;	"По¹" np al f nn sg ins REMOVE:901
-;	"По²" np cog mfn pl acc REMOVE:901
-;	"По²" np cog mfn pl dat REMOVE:901
+;	"По²" np cog mfn an pl acc REMOVE:901
+;	"По²" np cog mfn an pl dat REMOVE:901
 ;	"По¹" np al f nn sg acc REMOVE:901
-;	"По²" np cog mfn pl ins REMOVE:901
-;	"По²" np cog mfn pl nom REMOVE:901
+;	"По²" np cog mfn an pl ins REMOVE:901
+;	"По²" np cog mfn an pl nom REMOVE:901
 ;	"По¹" np al f nn sg nom REMOVE:901
 ;	"По¹" np al f nn pl acc REMOVE:901
 ;	"По¹" np al f nn pl dat REMOVE:901
@@ -1518,9 +1518,9 @@
 "<А.>"
 	"А." abbr
 "<Поспелова>"
-;	"Поспелов" np cog f sg nom
+;	"Поспелов" np cog f an sg nom
 ;	"Поспелов" np cog m sg acc
-	"Поспелов" np cog m sg gen
+	"Поспелов" np cog m an sg gen
 "<,>"
 	"," cm
 "<науки>"
@@ -1574,7 +1574,7 @@
 ;	"это" prn dem nt nn sg acc
 	"этот" det dem nt sg acc
 ;	"это" prn dem nt nn sg nom REMOVE:401
-;	"этот" det dem nt sg nom REMOVE:401
+;	"этот" det dem nt an sg nom REMOVE:401
 "<время>"
 	"время" n nt nn sg acc
 ;	"время" n nt nn sg nom
@@ -1612,8 +1612,8 @@
 	"конец" n m nn sg prp
 "<1970-х>"
 ;	"1970" num ord mfn aa pl acc
-	"1970" num ord mfn pl gen
-;	"1970" num ord mfn pl prp
+	"1970" num ord mfn an pl gen
+;	"1970" num ord mfn an pl prp
 "<в>"
 	"в" pr
 "<СССР>"
@@ -1680,7 +1680,7 @@
 "<этом>"
 ;	"это" prn dem nt nn sg prp
 	"этот" prn dem m aa sg prp
-;	"этот" det dem m sg prp REMOVE:464
+;	"этот" det dem m an sg prp REMOVE:464
 ;	"этот" det dem nt sg prp REMOVE:464
 "<родилась>"
 ;	"родиться" vblex impf iv past f sg
@@ -1702,7 +1702,7 @@
 ;	"и¹" ij REMOVE:840
 ;	"и" adv REMOVE:844
 "<сама>"
-	"сам" det f sg nom
+	"сам" det f an sg nom
 "<информатика>"
 ;	"информатик" n m aa sg acc
 ;	"информатик" n m aa sg gen
@@ -1734,8 +1734,8 @@
 	"конец" n m nn sg prp
 "<1970-х>"
 ;	"1970" num ord mfn aa pl acc
-	"1970" num ord mfn pl gen
-;	"1970" num ord mfn pl prp
+	"1970" num ord mfn an pl gen
+;	"1970" num ord mfn an pl prp
 "<создаётся>"
 ;	"создавать" vblex impf tv pres p3 sg pass
 	"создаваться" vblex impf iv pres p3 sg
@@ -1800,9 +1800,9 @@
 "<в>"
 	"в" pr
 "<котором>"
-	"который" prn rel m sg prp SELECT:656
+	"который" prn rel m an sg prp SELECT:656
 ;	"который" prn rel nt sg prp SELECT:656
-;	"который" det itg m sg prp SELECT:656
+;	"который" det itg m an sg prp SELECT:656
 ;	"который" det itg nt sg prp SELECT:656
 "<разделы>"
 ;	"раздел" n m nn pl acc
@@ -1850,7 +1850,7 @@
 "<с>"
 	"с" pr
 "<другими>"
-	"другой" det mfn pl ins
+	"другой" det mfn an pl ins
 ;	"другой" n m aa pl ins
 "<разделами>"
 	"раздел" n m nn pl ins
@@ -1883,8 +1883,8 @@
 "<1980-е>"
 	"1980" num ord mfn nn pl acc
 ;	"1980" num ord nt sg acc
-;	"1980" num ord mfn pl nom REMOVE:401
-;	"1980" num ord nt sg nom REMOVE:401
+;	"1980" num ord mfn an pl nom REMOVE:401
+;	"1980" num ord nt an sg nom REMOVE:401
 "<годы>"
 	"год" n m nn pl acc
 ;	"год" n m nn pl nom REMOVE:408
@@ -1951,17 +1951,17 @@
 ;	"те" prn dem mfn aa pl acc
 ;	"те" prn dem mfn aa pl gen
 ;	"те" prn dem mfn aa pl prp
-	"тот" det dem mfn pl gen
+	"тот" det dem mfn an pl gen
 ;	"тот" det dem mfn aa pl acc REMOVE:713
-;	"тот" det dem mfn pl prp REMOVE:713
+;	"тот" det dem mfn an pl prp REMOVE:713
 "<институтов>"
 	"институт" n m nn pl gen
 "<,>"
 	"," cm
 "<которые>"
-	"который" prn rel mfn pl nom SELECT:756
+	"который" prn rel mfn an pl nom SELECT:756
 ;	"который" det itg mfn nn pl acc REMOVE:464
-;	"который" det itg mfn pl nom REMOVE:464
+;	"который" det itg mfn an pl nom REMOVE:464
 ;	"который" prn rel mfn nn pl acc SELECT:756
 "<возникли>"
 	"возникнуть" vblex perf iv past mfn pl
@@ -1983,8 +1983,8 @@
 	"конец" n m nn sg gen
 "<1950-х>"
 ;	"1950" num ord mfn aa pl acc
-	"1950" num ord mfn pl gen
-;	"1950" num ord mfn pl prp REMOVE:458
+	"1950" num ord mfn an pl gen
+;	"1950" num ord mfn an pl prp REMOVE:458
 "<—>"
 	"—" guio
 "<начала>"
@@ -1995,8 +1995,8 @@
 ;	"начать" vblex perf tv past f sg
 "<1960-х>"
 ;	"1960" num ord mfn aa pl acc
-	"1960" num ord mfn pl gen
-;	"1960" num ord mfn pl prp REMOVE:458
+	"1960" num ord mfn an pl gen
+;	"1960" num ord mfn an pl prp REMOVE:458
 "<годов>"
 	"год" n m nn pl gen
 ;	"годовой" adj short m sg prb REMOVE:911
@@ -2004,12 +2004,12 @@
 	"." sent
 
 "<Такой>"
-	"такой" det m sg nom
+	"такой" det m an sg nom
 ;	"такой" det m nn sg acc
 ;	"такой" det f sg prp REMOVE:355
-;	"такой" det f sg gen REMOVE:626
+;	"такой" det f an sg gen REMOVE:626
 ;	"такой" det f sg dat REMOVE:707
-;	"такой" det f sg ins REMOVE:707
+;	"такой" det f an sg ins REMOVE:707
 "<взгляд>"
 ;	"взгляд" n m nn sg acc
 	"взгляд" n m nn sg nom
@@ -2062,7 +2062,7 @@
 ;	"это" prn dem nt nn sg acc
 ;	"это" prn dem nt nn sg nom
 ;	"этот" det dem nt sg acc
-;	"этот" det dem nt sg nom
+;	"этот" det dem nt an sg nom
 "<связано>"
 	"связать" vblex perf tv pp pasv short nt sg SELECT:749
 ;	"связанный" adj short nt sg fac SELECT:749
@@ -2071,8 +2071,8 @@
 "<тем>"
 	"то" prn dem nt nn sg ins SELECT:668 SELECT:670
 ;	"те" prn dem mfn aa pl dat REMOVE:405
-;	"тот" det dem mfn pl dat REMOVE:405
-;	"тот" det dem m sg ins REMOVE:468
+;	"тот" det dem mfn an pl dat REMOVE:405
+;	"тот" det dem m an sg ins REMOVE:468
 ;	"тот" det dem nt sg ins REMOVE:468
 ;	"тем" cnjcoo SELECT:668
 ;	"тем" cnjsub SELECT:668
@@ -2084,9 +2084,9 @@
 "<что>"
 ;	"что²" cnjsub SELECT:492
 ;	"что¹" prn itg nt sg acc SELECT:492
-;	"что¹" prn itg nt sg nom SELECT:492
+;	"что¹" prn itg nt an sg nom SELECT:492
 ;	"что¹" prn rel nt sg acc SELECT:492
-	"что¹" prn rel nt sg nom SELECT:492
+	"что¹" prn rel nt an sg nom SELECT:492
 "<на>"
 	"на" pr
 ;	"на" ij REMOVE:588
@@ -2100,11 +2100,11 @@
 	"данные" n mfn nn pl gen
 ;	"данные" n mfn nn pl prp
 ;	"дать" vblex perf tv pp pasv mfn an pl gen
-;	"данный" det mfn pl gen
+;	"данный" det mfn an pl gen
 ;	"дать" vblex perf tv pp pasv mfn an pl prp
 ;	"дать" vblex perf tv pp pasv mfn aa pl acc
 ;	"данный" det mfn aa pl acc REMOVE:713
-;	"данный" det mfn pl prp REMOVE:713
+;	"данный" det mfn an pl prp REMOVE:713
 "<наук>"
 	"наука" n f nn pl gen
 "<несколько>"

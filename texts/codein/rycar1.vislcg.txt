@@ -79,7 +79,7 @@
 	"франк²" n m nn pl gen
 	"франк¹" n m aa pl gen
 ;	"франк¹" n m aa pl acc REMOVE:859
-;	"франковый" adj m sg pred REMOVE:521
+;	"франковый" adj short m sg REMOVE:521
 "<в>"
 	"в" pr
 "<связи>"
@@ -220,7 +220,7 @@
 	"," cm
 "<оно>"
 	"оно" part
-	"оно" prn pers p3 nt sg nom
+	"оно" prn pers p3 nt an sg nom
 "<выработало>"
 	"выработать" vblex perf iv past nt sg
 	"выработать" vblex perf tv past nt sg
@@ -296,7 +296,7 @@
 	"тогда" cnjsub
 "<духовно>"
 	"духовно" adv
-	"духовный" adj nt sg pred
+	"духовный" adj short nt sg
 "<->"
 	"-" guio
 "<рыцарских>"
@@ -404,7 +404,7 @@
 ;	"средний" adj mfn an pl prp REMOVE:842
 "<веков>"
 	"век¹" n m nn pl gen
-;	"вековой" adj m sg pred prb REMOVE:1031
+;	"вековой" adj short m sg prb REMOVE:1031
 "<превратили>"
 	"превратить" vblex perf iv past mfn pl
 	"превратить" vblex perf tv past mfn pl
@@ -538,16 +538,16 @@
 ;	"Европа" np al f nn sg dat REMOVE:426
 ;	"Европа" np ant f sg dat REMOVE:426
 "<связана>"
-	"связать" vblex perf tv pp pasv f sg pred SELECT:776
-;	"связанный" adj f sg pred fac SELECT:776
+	"связать" vblex perf tv pp pasv short f sg SELECT:776
+;	"связанный" adj short f sg fac SELECT:776
 "<с>"
 	"с" pr
 "<падением>"
 	"падение" n nt nn sg ins
 "<Римской>"
 	"Римский" np cog f sg dat
-	"Римский" np cog f sg gen
-	"Римский" np cog f sg ins
+	"Римский" np cog f an sg gen
+	"Римский" np cog f an sg ins
 	"римский" adj f an sg ins
 	"римский" adj f an sg dat
 	"римский" adj f an sg gen
@@ -806,7 +806,7 @@
 	"Европа" np al f nn pl nom
 	"Европа" np al f nn sg gen
 	"Европа" np ant f pl nom
-	"Европа" np ant f sg gen
+	"Европа" np ant f an sg gen
 "<.>"
 	"." sent
 
@@ -814,7 +814,7 @@
 	"поскольку" cnjsub
 "<именно>"
 	"именно" adv
-;	"именной" adj nt sg pred prb REMOVE:1031
+;	"именной" adj short nt sg prb REMOVE:1031
 "<кочевники>"
 	"кочевник" n m aa pl nom
 "<(>"
@@ -924,7 +924,7 @@
 ;	"античность" n f nn sg dat REMOVE:895
 "<логично>"
 	"логично" adv
-	"логичный" adj nt sg pred
+	"логичный" adj short nt sg
 "<усматривать>"
 	"усматривать" vblex impf iv inf
 	"усматривать" vblex impf tv inf
@@ -1015,7 +1015,7 @@
 	"её" det pos nt an sg nom
 	"её" det pos mfn an pl nom
 	"её" det pos nt an sg gen
-	"она" prn pers p3 f sg gen
+	"она" prn pers p3 f an sg gen
 ;	"её" det pos f an sg acc REMOVE:734
 ;	"её" det pos f an sg dat REMOVE:734
 ;	"её" det pos f an sg gen REMOVE:734
@@ -1038,7 +1038,7 @@
 ;	"её" det pos mfn aa pl acc REMOVE:859
 ;	"её" det pos mfn nn pl acc REMOVE:859
 ;	"её" det pos nt an sg acc REMOVE:859
-;	"она" prn pers p3 f sg acc REMOVE:859
+;	"она" prn pers p3 f an sg acc REMOVE:859
 "<влияния>"
 	"влияние" n nt nn sg gen
 	"влияние" n nt nn pl nom
@@ -1085,7 +1085,7 @@
 	"франк²" n m nn pl gen
 	"франк¹" n m aa pl acc
 	"франк¹" n m aa pl gen
-	"франковый" adj m sg pred
+	"франковый" adj short m sg
 "<,>"
 	"," cm
 "<в>"
@@ -1355,7 +1355,7 @@
 "<было>"
 	"было" part
 	"быть" vblex impf iv past nt sg
-;	"былой" adj nt sg pred prb REMOVE:1031
+;	"былой" adj short nt sg prb REMOVE:1031
 "<не>"
 	"не" part
 "<под>"
@@ -1460,11 +1460,11 @@
 ;	"пря" n f nn pl nom SELECT:765
 ;	"пря" n f nn sg gen SELECT:765
 "<Карле>"
-	"Карл" np ant m sg prp
+	"Карл" np ant m an sg prp
 	"карла" n m aa sg dat
 	"карла" n m aa sg prp
 "<Мартелле>"
-	"Мартелл" np ant m sg prp
+	"Мартелл" np ant m an sg prp
 "<и>"
 	"и" cnjcoo @CNP MAP:886
 ;	"и²" n nt nn pl acc REMOVE:540
@@ -1485,9 +1485,9 @@
 	"его" det pos mfn an pl prp
 	"его" det pos m an sg prp
 	"оно" prn pers p3 nt sg acc
-	"оно" prn pers p3 nt sg gen
+	"оно" prn pers p3 nt an sg gen
 	"он¹" prn pers p3 m sg acc
-	"он¹" prn pers p3 m sg gen
+	"он¹" prn pers p3 m an sg gen
 ;	"его" det pos f an sg acc REMOVE:734
 ;	"его" det pos f an sg dat REMOVE:734
 ;	"его" det pos f an sg gen REMOVE:734
@@ -1536,11 +1536,11 @@
 	"." sent
 
 "<Карл>"
-	"Карл" np ant m sg nom
+	"Карл" np ant m an sg nom
 	"карла" n m aa pl acc
 	"карла" n m aa pl gen
 "<Мартелл>"
-	"Мартелл" np ant m sg nom
+	"Мартелл" np ant m an sg nom
 "<раздавал>"
 	"раздавать" vblex impf tv past m sg SELECT:667
 ;	"раздавать" vblex impf iv past m sg SELECT:667
@@ -2140,7 +2140,7 @@
 	"." sent
 
 "<Карл>"
-	"Карл" np ant m sg nom
+	"Карл" np ant m an sg nom
 	"карла" n m aa pl acc
 ;	"карла" n m aa pl gen REMOVE:649
 "<Великий>"
@@ -2170,7 +2170,7 @@
 "<;>"
 	";" clb
 "<Людовик>"
-	"Людовик" np ant m sg nom
+	"Людовик" np ant m an sg nom
 "<I>"
 	"I" num SELECT:910
 	"I" num ord f an sg acc SELECT:910
@@ -2243,7 +2243,7 @@
 ;	"и¹" ij REMOVE:928
 ;	"и" adv REMOVE:932
 "<Карл>"
-	"Карл" np ant m sg nom
+	"Карл" np ant m an sg nom
 	"карла" n m aa pl acc
 	"карла" n m aa pl gen
 "<II>"
@@ -2380,11 +2380,11 @@
 "<конница>"
 	"конница" n f nn sg nom
 "<должна>"
-	"должен" adj f sg pred
-	"должный" adj f sg pred
+	"должен" adj short f sg
+	"должный" adj short f sg
 "<была>"
 	"быть" vblex impf iv past f sg
-;	"былой" adj f sg pred prb REMOVE:1031
+;	"былой" adj short f sg prb REMOVE:1031
 "<являться>"
 	"являть" vblex impf tv inf pass
 	"являться" vblex impf iv inf
@@ -2479,7 +2479,7 @@
 "<было>"
 	"быть" vblex impf iv past nt sg
 ;	"было" part REMOVE:979
-;	"былой" adj nt sg pred prb REMOVE:1031
+;	"былой" adj short nt sg prb REMOVE:1031
 "<подняться>"
 	"подняться" vblex perf iv inf
 "<в>"

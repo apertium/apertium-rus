@@ -61,32 +61,32 @@
 	"являться" vblex impf iv pres p3 sg
 "<их>"
 	"их¹" det pos nt sg ins
-	"их¹" det pos f sg acc
+	"их¹" det pos f an sg acc
 	"их¹" det pos f sg dat
-	"их¹" det pos f sg gen
-	"их¹" det pos f sg ins
-	"их¹" det pos f sg nom
-	"их¹" det pos nt sg nom
+	"их¹" det pos f an sg gen
+	"их¹" det pos f an sg ins
+	"их¹" det pos f an sg nom
+	"их¹" det pos nt an sg nom
 	"их¹" det pos m aa sg acc
 	"их¹" det pos m nn sg acc
-	"их¹" det pos m sg dat
-	"их¹" det pos m sg gen
-	"их¹" det pos m sg ins
-	"их¹" det pos m sg nom
+	"их¹" det pos m an sg dat
+	"их¹" det pos m an sg gen
+	"их¹" det pos m an sg ins
+	"их¹" det pos m an sg nom
 	"они" prn pers p3 pl gen
 	"их¹" det pos mfn aa pl acc
 	"их¹" det pos mfn nn pl acc
-	"их¹" det pos mfn pl dat
-	"их¹" det pos mfn pl gen
-	"их¹" det pos mfn pl ins
-	"их¹" det pos mfn pl nom
+	"их¹" det pos mfn an pl dat
+	"их¹" det pos mfn an pl gen
+	"их¹" det pos mfn an pl ins
+	"их¹" det pos mfn an pl nom
 	"они" prn pers p3 pl acc
 	"их¹" det pos nt sg acc
 	"их¹" det pos nt sg dat
-	"их¹" det pos nt sg gen
+	"их¹" det pos nt an sg gen
 ;	"их¹" det pos f sg prp REMOVE:437
-;	"их¹" det pos m sg prp REMOVE:437
-;	"их¹" det pos mfn pl prp REMOVE:437
+;	"их¹" det pos m an sg prp REMOVE:437
+;	"их¹" det pos mfn an pl prp REMOVE:437
 ;	"их¹" det pos nt sg prp REMOVE:437
 ;	"их²" ij REMOVE:779
 "<малый>"
@@ -303,9 +303,9 @@
 "<что>"
 	"что²" cnjsub SELECT:469
 ;	"что¹" prn itg nt sg acc SELECT:469
-;	"что¹" prn itg nt sg nom SELECT:469
+;	"что¹" prn itg nt an sg nom SELECT:469
 ;	"что¹" prn rel nt sg acc SELECT:469
-;	"что¹" prn rel nt sg nom SELECT:469
+;	"что¹" prn rel nt an sg nom SELECT:469
 "<приводит>"
 	"приводить" vblex impf iv pres p3 sg
 	"приводить" vblex impf tv pres p3 sg
@@ -599,7 +599,7 @@
 	"большинство" n nt nn sg prp
 "<своём>"
 	"свое" n nt nn sg prp
-	"свой" det pos m sg prp
+	"свой" det pos m an sg prp
 	"свой" det pos nt sg prp
 	"свой" n m aa sg prp
 "<,>"
@@ -650,9 +650,9 @@
 "<что>"
 	"что²" cnjsub SELECT:469
 ;	"что¹" prn itg nt sg acc SELECT:469
-;	"что¹" prn itg nt sg nom SELECT:469
+;	"что¹" prn itg nt an sg nom SELECT:469
 ;	"что¹" prn rel nt sg acc SELECT:469
-;	"что¹" prn rel nt sg nom SELECT:469
+;	"что¹" prn rel nt an sg nom SELECT:469
 "<определяет>"
 	"определять" vblex impf iv pres p3 sg
 	"определять" vblex impf tv pres p3 sg
@@ -793,8 +793,8 @@
 	"того" part
 	"того" pred
 	"тот" prn dem m aa sg gen
-	"тот" det dem m sg gen
-	"тот" det dem nt sg gen
+	"тот" det dem m an sg gen
+	"тот" det dem nt an sg gen
 ;	"тот" det dem m aa sg acc REMOVE:383
 "<,>"
 	"," cm
@@ -828,11 +828,11 @@
 ;	"длить" vblex impf iv pprs adv REMOVE:773
 ;	"длить" vblex impf tv pprs adv REMOVE:773
 "<этой>"
-	"этот" det dem f sg gen
+	"этот" det dem f an sg gen
 ;	"этот" det dem f sg dat REMOVE:672
 ;	"эта" n f nn sg ins REMOVE:383
 ;	"этот" det dem f sg prp REMOVE:383
-;	"этот" det dem f sg ins REMOVE:383
+;	"этот" det dem f an sg ins REMOVE:383
 "<цели>"
 	"целить" vblex impf iv imp p2 sg
 	"целить" vblex impf tv imp p2 sg

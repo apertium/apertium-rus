@@ -159,7 +159,7 @@
 	"свое" n nt nn sg acc
 	"свое" n nt nn sg nom
 	"свой" det pos nt sg acc
-	"свой" det pos nt sg nom
+	"свой" det pos nt an sg nom
 "<название>"
 	"название" n nt nn sg acc
 	"название" n nt nn sg nom
@@ -172,11 +172,11 @@
 	"," cm
 "<одного>"
 	"один" num m aa sg acc
-	"один" num m sg gen
-	"один" num nt sg gen
+	"один" num m an sg gen
+	"один" num nt an sg gen
 ;	"один" det m aa sg acc REMOVE:480
-;	"один" det m sg gen REMOVE:480
-;	"один" det nt sg gen REMOVE:480
+;	"один" det m an sg gen REMOVE:480
+;	"один" det nt an sg gen REMOVE:480
 "<из>"
 	"из" pr
 "<германских>"
@@ -188,9 +188,9 @@
 "<,>"
 	"," cm
 "<которые>"
-	"который" prn rel mfn pl nom SELECT:780
+	"который" prn rel mfn an pl nom SELECT:780
 ;	"который" det itg mfn nn pl acc REMOVE:480
-;	"который" det itg mfn pl nom REMOVE:480
+;	"который" det itg mfn an pl nom REMOVE:480
 ;	"который" prn rel mfn nn pl acc SELECT:780
 "<обосновались>"
 	"обосноваться" vblex perf iv past mfn pl
@@ -201,56 +201,56 @@
 	"в" pr
 "<V>"
 	"V" num SELECT:880
-	"V" num ord f sg acc SELECT:880
+	"V" num ord f an sg acc SELECT:880
 	"V" num ord f sg prp SELECT:880
 	"V" num ord m aa sg acc SELECT:880
 	"V" num ord m nn sg acc SELECT:880
 	"V" num ord nt sg prp SELECT:880
-	"V" num ord m sg prp SELECT:880
+	"V" num ord m an sg prp SELECT:880
 	"V" num ord mfn aa pl acc SELECT:880
 	"V" num ord mfn nn pl acc SELECT:880
-	"V" num ord mfn pl prp SELECT:880
+	"V" num ord mfn an pl prp SELECT:880
 	"V" num ord nt sg acc SELECT:880
-;	"V" num ord f sg nom REMOVE:414
-;	"V" num ord m sg nom REMOVE:414
-;	"V" num ord mfn pl nom REMOVE:414
-;	"V" num ord nt sg nom REMOVE:414
-;	"v" num ord f sg nom REMOVE:414
-;	"v" num ord m sg nom REMOVE:414
-;	"v" num ord mfn pl nom REMOVE:414
-;	"v" num ord nt sg nom REMOVE:414
+;	"V" num ord f an sg nom REMOVE:414
+;	"V" num ord m an sg nom REMOVE:414
+;	"V" num ord mfn an pl nom REMOVE:414
+;	"V" num ord nt an sg nom REMOVE:414
+;	"v" num ord f an sg nom REMOVE:414
+;	"v" num ord m an sg nom REMOVE:414
+;	"v" num ord mfn an pl nom REMOVE:414
+;	"v" num ord nt an sg nom REMOVE:414
 ;	"V" num ord f sg dat REMOVE:423
-;	"V" num ord f sg gen REMOVE:423
-;	"V" num ord f sg ins REMOVE:423
-;	"V" num ord m sg dat REMOVE:423
-;	"V" num ord m sg gen REMOVE:423
-;	"V" num ord m sg ins REMOVE:423
-;	"V" num ord mfn pl dat REMOVE:423
-;	"V" num ord mfn pl gen REMOVE:423
-;	"V" num ord mfn pl ins REMOVE:423
+;	"V" num ord f an sg gen REMOVE:423
+;	"V" num ord f an sg ins REMOVE:423
+;	"V" num ord m an sg dat REMOVE:423
+;	"V" num ord m an sg gen REMOVE:423
+;	"V" num ord m an sg ins REMOVE:423
+;	"V" num ord mfn an pl dat REMOVE:423
+;	"V" num ord mfn an pl gen REMOVE:423
+;	"V" num ord mfn an pl ins REMOVE:423
 ;	"V" num ord nt sg dat REMOVE:423
-;	"V" num ord nt sg gen REMOVE:423
+;	"V" num ord nt an sg gen REMOVE:423
 ;	"V" num ord nt sg ins REMOVE:423
 ;	"v" num ord nt sg dat REMOVE:423
 ;	"v" num ord f sg dat REMOVE:423
-;	"v" num ord f sg gen REMOVE:423
-;	"v" num ord f sg ins REMOVE:423
-;	"v" num ord nt sg gen REMOVE:423
-;	"v" num ord m sg dat REMOVE:423
-;	"v" num ord m sg gen REMOVE:423
-;	"v" num ord m sg ins REMOVE:423
+;	"v" num ord f an sg gen REMOVE:423
+;	"v" num ord f an sg ins REMOVE:423
+;	"v" num ord nt an sg gen REMOVE:423
+;	"v" num ord m an sg dat REMOVE:423
+;	"v" num ord m an sg gen REMOVE:423
+;	"v" num ord m an sg ins REMOVE:423
 ;	"v" num ord nt sg ins REMOVE:423
-;	"v" num ord mfn pl dat REMOVE:423
-;	"v" num ord mfn pl gen REMOVE:423
-;	"v" num ord mfn pl ins REMOVE:423
-;	"v" num ord m sg prp SELECT:880
+;	"v" num ord mfn an pl dat REMOVE:423
+;	"v" num ord mfn an pl gen REMOVE:423
+;	"v" num ord mfn an pl ins REMOVE:423
+;	"v" num ord m an sg prp SELECT:880
 ;	"v" num ord mfn aa pl acc SELECT:880
 ;	"v" num ord f sg prp SELECT:880
 ;	"v" num ord nt sg prp SELECT:880
 ;	"v" num ord m aa sg acc SELECT:880
 ;	"v" num SELECT:880
-;	"v" num ord mfn pl prp SELECT:880
-;	"v" num ord f sg acc SELECT:880
+;	"v" num ord mfn an pl prp SELECT:880
+;	"v" num ord f an sg acc SELECT:880
 ;	"v" num ord m nn sg acc SELECT:880
 ;	"v" num ord mfn nn pl acc SELECT:880
 ;	"v" num ord nt sg acc SELECT:880
@@ -272,58 +272,58 @@
 ;	"и" adv REMOVE:902
 "<VI>"
 	"VI" num SELECT:880
-	"VI" num ord f sg acc SELECT:880
+	"VI" num ord f an sg acc SELECT:880
 	"VI" num ord f sg dat SELECT:880
-	"VI" num ord f sg gen SELECT:880
-	"VI" num ord f sg ins SELECT:880
-	"VI" num ord f sg nom SELECT:880
+	"VI" num ord f an sg gen SELECT:880
+	"VI" num ord f an sg ins SELECT:880
+	"VI" num ord f an sg nom SELECT:880
 	"VI" num ord f sg prp SELECT:880
 	"VI" num ord m aa sg acc SELECT:880
 	"VI" num ord m nn sg acc SELECT:880
-	"VI" num ord m sg dat SELECT:880
-	"VI" num ord m sg gen SELECT:880
-	"VI" num ord m sg ins SELECT:880
-	"VI" num ord m sg nom SELECT:880
-	"VI" num ord m sg prp SELECT:880
+	"VI" num ord m an sg dat SELECT:880
+	"VI" num ord m an sg gen SELECT:880
+	"VI" num ord m an sg ins SELECT:880
+	"VI" num ord m an sg nom SELECT:880
+	"VI" num ord m an sg prp SELECT:880
 	"VI" num ord mfn aa pl acc SELECT:880
 	"VI" num ord mfn nn pl acc SELECT:880
-	"VI" num ord mfn pl dat SELECT:880
-	"VI" num ord mfn pl gen SELECT:880
-	"VI" num ord mfn pl ins SELECT:880
-	"VI" num ord mfn pl nom SELECT:880
-	"VI" num ord mfn pl prp SELECT:880
+	"VI" num ord mfn an pl dat SELECT:880
+	"VI" num ord mfn an pl gen SELECT:880
+	"VI" num ord mfn an pl ins SELECT:880
+	"VI" num ord mfn an pl nom SELECT:880
+	"VI" num ord mfn an pl prp SELECT:880
 	"VI" num ord nt sg acc SELECT:880
 	"VI" num ord nt sg dat SELECT:880
-	"VI" num ord nt sg gen SELECT:880
+	"VI" num ord nt an sg gen SELECT:880
 	"VI" num ord nt sg ins SELECT:880
-	"VI" num ord nt sg nom SELECT:880
+	"VI" num ord nt an sg nom SELECT:880
 	"VI" num ord nt sg prp SELECT:880
 ;	"vi" num SELECT:880
-;	"vi" num ord f sg acc SELECT:880
+;	"vi" num ord f an sg acc SELECT:880
 ;	"vi" num ord f sg dat SELECT:880
-;	"vi" num ord f sg gen SELECT:880
-;	"vi" num ord f sg ins SELECT:880
-;	"vi" num ord f sg nom SELECT:880
+;	"vi" num ord f an sg gen SELECT:880
+;	"vi" num ord f an sg ins SELECT:880
+;	"vi" num ord f an sg nom SELECT:880
 ;	"vi" num ord f sg prp SELECT:880
 ;	"vi" num ord m aa sg acc SELECT:880
 ;	"vi" num ord m nn sg acc SELECT:880
-;	"vi" num ord m sg dat SELECT:880
-;	"vi" num ord m sg gen SELECT:880
-;	"vi" num ord m sg ins SELECT:880
-;	"vi" num ord m sg nom SELECT:880
-;	"vi" num ord m sg prp SELECT:880
+;	"vi" num ord m an sg dat SELECT:880
+;	"vi" num ord m an sg gen SELECT:880
+;	"vi" num ord m an sg ins SELECT:880
+;	"vi" num ord m an sg nom SELECT:880
+;	"vi" num ord m an sg prp SELECT:880
 ;	"vi" num ord mfn aa pl acc SELECT:880
 ;	"vi" num ord mfn nn pl acc SELECT:880
-;	"vi" num ord mfn pl dat SELECT:880
-;	"vi" num ord mfn pl gen SELECT:880
-;	"vi" num ord mfn pl ins SELECT:880
-;	"vi" num ord mfn pl nom SELECT:880
-;	"vi" num ord mfn pl prp SELECT:880
+;	"vi" num ord mfn an pl dat SELECT:880
+;	"vi" num ord mfn an pl gen SELECT:880
+;	"vi" num ord mfn an pl ins SELECT:880
+;	"vi" num ord mfn an pl nom SELECT:880
+;	"vi" num ord mfn an pl prp SELECT:880
 ;	"vi" num ord nt sg acc SELECT:880
 ;	"vi" num ord nt sg dat SELECT:880
-;	"vi" num ord nt sg gen SELECT:880
+;	"vi" num ord nt an sg gen SELECT:880
 ;	"vi" num ord nt sg ins SELECT:880
-;	"vi" num ord nt sg nom SELECT:880
+;	"vi" num ord nt an sg nom SELECT:880
 ;	"vi" num ord nt sg prp SELECT:880
 "<столетиях>"
 	"столетие" n nt nn pl prp
@@ -341,19 +341,19 @@
 "<—>"
 	"—" guio
 "<Лондон>"
-	"Лондон" np cog f sg nom
+	"Лондон" np cog f an sg nom
 	"Лондон" np al m nn sg nom
-	"Лондон" np cog m sg nom
+	"Лондон" np cog m an sg nom
 	"Лондон" np cog f sg dat
-	"Лондон" np cog f sg gen
-	"Лондон" np cog f sg ins
+	"Лондон" np cog f an sg gen
+	"Лондон" np cog f an sg ins
 ;	"Лондон" np cog f sg prp REMOVE:474
 ;	"Лондон" np al m nn sg acc REMOVE:828
-;	"Лондон" np cog f sg acc REMOVE:828
+;	"Лондон" np cog f an sg acc REMOVE:828
 "<,>"
 	"," cm
 "<самый>"
-	"самый" det m sg nom @N→ MAP:847
+	"самый" det m an sg nom @N→ MAP:847
 ;	"самый" det m nn sg acc REMOVE:828
 "<большой>"
 	"большой" adj m an sg nom SELECT:379
@@ -481,11 +481,11 @@
 	"система" n f nn pl gen
 "<многих>"
 	"многие" prn mfn aa pl acc
-	"многие" prn mfn pl gen
+	"многие" prn mfn an pl gen
 	"много" num gen
-	"многий" det mfn pl gen
-;	"многие" prn mfn pl prp REMOVE:474
-;	"многий" det mfn pl prp REMOVE:474
+	"многий" det mfn an pl gen
+;	"многие" prn mfn an pl prp REMOVE:474
+;	"многий" det mfn an pl prp REMOVE:474
 ;	"много" num prp REMOVE:474
 ;	"многий" det mfn aa pl acc REMOVE:737
 "<стран>"
@@ -499,21 +499,21 @@
 	"того" part
 	"того" pred
 	"тот" prn dem m aa sg gen
-	"тот" det dem m sg gen
-	"тот" det dem nt sg gen
+	"тот" det dem m an sg gen
+	"тот" det dem nt an sg gen
 ;	"тот" det dem m aa sg acc REMOVE:416
 "<,>"
 	"," cm
 "<Лондон>"
 	"Лондон" np al m nn sg acc
 	"Лондон" np al m nn sg nom
-	"Лондон" np cog f sg acc
+	"Лондон" np cog f an sg acc
 	"Лондон" np cog f sg dat
-	"Лондон" np cog f sg gen
-	"Лондон" np cog f sg ins
-	"Лондон" np cog f sg nom
+	"Лондон" np cog f an sg gen
+	"Лондон" np cog f an sg ins
+	"Лондон" np cog f an sg nom
 	"Лондон" np cog f sg prp
-	"Лондон" np cog m sg nom
+	"Лондон" np cog m an sg nom
 "<был>"
 	"быть" vblex impf iv past m sg
 ;	"былой" adj short m sg prb REMOVE:999
@@ -577,8 +577,8 @@
 	"быть" vblex impf iv past f sg
 ;	"былой" adj short f sg prb REMOVE:999
 "<первой>"
-	"первый" num ord f sg ins
-	"первый" num ord f sg gen
+	"первый" num ord f an sg ins
+	"первый" num ord f an sg gen
 ;	"первый" num ord f sg prp REMOVE:474
 ;	"первый" num ord f sg dat REMOVE:865
 "<промышленно>"
@@ -673,12 +673,12 @@
 	"новшество" n nt nn sg gen
 "<которой>"
 	"который" prn rel f sg dat
-	"который" prn rel f sg gen
-	"который" prn rel f sg ins
+	"который" prn rel f an sg gen
+	"который" prn rel f an sg ins
 	"который" prn rel f sg prp
 ;	"который" det itg f sg dat REMOVE:480
-;	"который" det itg f sg gen REMOVE:480
-;	"который" det itg f sg ins REMOVE:480
+;	"который" det itg f an sg gen REMOVE:480
+;	"который" det itg f an sg ins REMOVE:480
 ;	"который" det itg f sg prp REMOVE:480
 "<были>"
 	"быть" vblex impf iv past mfn pl
@@ -690,7 +690,7 @@
 "<переняты>"
 	"*переняты"
 "<другими>"
-	"другой" det mfn pl ins
+	"другой" det mfn an pl ins
 	"другой" n m aa pl ins
 "<нациями>"
 	"нация" n f nn pl ins
@@ -801,7 +801,7 @@
 	"свое" n nt nn sg acc
 	"свой" det pos nt sg acc
 ;	"свое" n nt nn sg nom REMOVE:775
-;	"свой" det pos nt sg nom REMOVE:775
+;	"свой" det pos nt an sg nom REMOVE:775
 "<название>"
 	"название" n nt nn sg acc SELECT:778
 ;	"название" n nt nn sg nom SELECT:778
@@ -839,56 +839,56 @@
 	"в" pr
 "<V>"
 	"V" num SELECT:880
-	"V" num ord f sg acc SELECT:880
+	"V" num ord f an sg acc SELECT:880
 	"V" num ord f sg prp SELECT:880
 	"V" num ord m aa sg acc SELECT:880
 	"V" num ord m nn sg acc SELECT:880
 	"V" num ord nt sg prp SELECT:880
-	"V" num ord m sg prp SELECT:880
+	"V" num ord m an sg prp SELECT:880
 	"V" num ord mfn aa pl acc SELECT:880
 	"V" num ord mfn nn pl acc SELECT:880
-	"V" num ord mfn pl prp SELECT:880
+	"V" num ord mfn an pl prp SELECT:880
 	"V" num ord nt sg acc SELECT:880
-;	"V" num ord f sg nom REMOVE:414
-;	"V" num ord m sg nom REMOVE:414
-;	"V" num ord mfn pl nom REMOVE:414
-;	"V" num ord nt sg nom REMOVE:414
-;	"v" num ord f sg nom REMOVE:414
-;	"v" num ord m sg nom REMOVE:414
-;	"v" num ord mfn pl nom REMOVE:414
-;	"v" num ord nt sg nom REMOVE:414
+;	"V" num ord f an sg nom REMOVE:414
+;	"V" num ord m an sg nom REMOVE:414
+;	"V" num ord mfn an pl nom REMOVE:414
+;	"V" num ord nt an sg nom REMOVE:414
+;	"v" num ord f an sg nom REMOVE:414
+;	"v" num ord m an sg nom REMOVE:414
+;	"v" num ord mfn an pl nom REMOVE:414
+;	"v" num ord nt an sg nom REMOVE:414
 ;	"V" num ord f sg dat REMOVE:423
-;	"V" num ord f sg gen REMOVE:423
-;	"V" num ord f sg ins REMOVE:423
-;	"V" num ord m sg dat REMOVE:423
-;	"V" num ord m sg gen REMOVE:423
-;	"V" num ord m sg ins REMOVE:423
-;	"V" num ord mfn pl dat REMOVE:423
-;	"V" num ord mfn pl gen REMOVE:423
-;	"V" num ord mfn pl ins REMOVE:423
+;	"V" num ord f an sg gen REMOVE:423
+;	"V" num ord f an sg ins REMOVE:423
+;	"V" num ord m an sg dat REMOVE:423
+;	"V" num ord m an sg gen REMOVE:423
+;	"V" num ord m an sg ins REMOVE:423
+;	"V" num ord mfn an pl dat REMOVE:423
+;	"V" num ord mfn an pl gen REMOVE:423
+;	"V" num ord mfn an pl ins REMOVE:423
 ;	"V" num ord nt sg dat REMOVE:423
-;	"V" num ord nt sg gen REMOVE:423
+;	"V" num ord nt an sg gen REMOVE:423
 ;	"V" num ord nt sg ins REMOVE:423
 ;	"v" num ord nt sg dat REMOVE:423
 ;	"v" num ord f sg dat REMOVE:423
-;	"v" num ord f sg gen REMOVE:423
-;	"v" num ord f sg ins REMOVE:423
-;	"v" num ord nt sg gen REMOVE:423
-;	"v" num ord m sg dat REMOVE:423
-;	"v" num ord m sg gen REMOVE:423
-;	"v" num ord m sg ins REMOVE:423
+;	"v" num ord f an sg gen REMOVE:423
+;	"v" num ord f an sg ins REMOVE:423
+;	"v" num ord nt an sg gen REMOVE:423
+;	"v" num ord m an sg dat REMOVE:423
+;	"v" num ord m an sg gen REMOVE:423
+;	"v" num ord m an sg ins REMOVE:423
 ;	"v" num ord nt sg ins REMOVE:423
-;	"v" num ord mfn pl dat REMOVE:423
-;	"v" num ord mfn pl gen REMOVE:423
-;	"v" num ord mfn pl ins REMOVE:423
-;	"v" num ord m sg prp SELECT:880
+;	"v" num ord mfn an pl dat REMOVE:423
+;	"v" num ord mfn an pl gen REMOVE:423
+;	"v" num ord mfn an pl ins REMOVE:423
+;	"v" num ord m an sg prp SELECT:880
 ;	"v" num ord mfn aa pl acc SELECT:880
 ;	"v" num ord f sg prp SELECT:880
 ;	"v" num ord nt sg prp SELECT:880
 ;	"v" num ord m aa sg acc SELECT:880
 ;	"v" num SELECT:880
-;	"v" num ord mfn pl prp SELECT:880
-;	"v" num ord f sg acc SELECT:880
+;	"v" num ord mfn an pl prp SELECT:880
+;	"v" num ord f an sg acc SELECT:880
 ;	"v" num ord m nn sg acc SELECT:880
 ;	"v" num ord mfn nn pl acc SELECT:880
 ;	"v" num ord nt sg acc SELECT:880
@@ -910,58 +910,58 @@
 ;	"и" adv REMOVE:902
 "<VI>"
 	"VI" num SELECT:880
-	"VI" num ord f sg acc SELECT:880
+	"VI" num ord f an sg acc SELECT:880
 	"VI" num ord f sg dat SELECT:880
-	"VI" num ord f sg gen SELECT:880
-	"VI" num ord f sg ins SELECT:880
-	"VI" num ord f sg nom SELECT:880
+	"VI" num ord f an sg gen SELECT:880
+	"VI" num ord f an sg ins SELECT:880
+	"VI" num ord f an sg nom SELECT:880
 	"VI" num ord f sg prp SELECT:880
 	"VI" num ord m aa sg acc SELECT:880
 	"VI" num ord m nn sg acc SELECT:880
-	"VI" num ord m sg dat SELECT:880
-	"VI" num ord m sg gen SELECT:880
-	"VI" num ord m sg ins SELECT:880
-	"VI" num ord m sg nom SELECT:880
-	"VI" num ord m sg prp SELECT:880
+	"VI" num ord m an sg dat SELECT:880
+	"VI" num ord m an sg gen SELECT:880
+	"VI" num ord m an sg ins SELECT:880
+	"VI" num ord m an sg nom SELECT:880
+	"VI" num ord m an sg prp SELECT:880
 	"VI" num ord mfn aa pl acc SELECT:880
 	"VI" num ord mfn nn pl acc SELECT:880
-	"VI" num ord mfn pl dat SELECT:880
-	"VI" num ord mfn pl gen SELECT:880
-	"VI" num ord mfn pl ins SELECT:880
-	"VI" num ord mfn pl nom SELECT:880
-	"VI" num ord mfn pl prp SELECT:880
+	"VI" num ord mfn an pl dat SELECT:880
+	"VI" num ord mfn an pl gen SELECT:880
+	"VI" num ord mfn an pl ins SELECT:880
+	"VI" num ord mfn an pl nom SELECT:880
+	"VI" num ord mfn an pl prp SELECT:880
 	"VI" num ord nt sg acc SELECT:880
 	"VI" num ord nt sg dat SELECT:880
-	"VI" num ord nt sg gen SELECT:880
+	"VI" num ord nt an sg gen SELECT:880
 	"VI" num ord nt sg ins SELECT:880
-	"VI" num ord nt sg nom SELECT:880
+	"VI" num ord nt an sg nom SELECT:880
 	"VI" num ord nt sg prp SELECT:880
 ;	"vi" num SELECT:880
-;	"vi" num ord f sg acc SELECT:880
+;	"vi" num ord f an sg acc SELECT:880
 ;	"vi" num ord f sg dat SELECT:880
-;	"vi" num ord f sg gen SELECT:880
-;	"vi" num ord f sg ins SELECT:880
-;	"vi" num ord f sg nom SELECT:880
+;	"vi" num ord f an sg gen SELECT:880
+;	"vi" num ord f an sg ins SELECT:880
+;	"vi" num ord f an sg nom SELECT:880
 ;	"vi" num ord f sg prp SELECT:880
 ;	"vi" num ord m aa sg acc SELECT:880
 ;	"vi" num ord m nn sg acc SELECT:880
-;	"vi" num ord m sg dat SELECT:880
-;	"vi" num ord m sg gen SELECT:880
-;	"vi" num ord m sg ins SELECT:880
-;	"vi" num ord m sg nom SELECT:880
-;	"vi" num ord m sg prp SELECT:880
+;	"vi" num ord m an sg dat SELECT:880
+;	"vi" num ord m an sg gen SELECT:880
+;	"vi" num ord m an sg ins SELECT:880
+;	"vi" num ord m an sg nom SELECT:880
+;	"vi" num ord m an sg prp SELECT:880
 ;	"vi" num ord mfn aa pl acc SELECT:880
 ;	"vi" num ord mfn nn pl acc SELECT:880
-;	"vi" num ord mfn pl dat SELECT:880
-;	"vi" num ord mfn pl gen SELECT:880
-;	"vi" num ord mfn pl ins SELECT:880
-;	"vi" num ord mfn pl nom SELECT:880
-;	"vi" num ord mfn pl prp SELECT:880
+;	"vi" num ord mfn an pl dat SELECT:880
+;	"vi" num ord mfn an pl gen SELECT:880
+;	"vi" num ord mfn an pl ins SELECT:880
+;	"vi" num ord mfn an pl nom SELECT:880
+;	"vi" num ord mfn an pl prp SELECT:880
 ;	"vi" num ord nt sg acc SELECT:880
 ;	"vi" num ord nt sg dat SELECT:880
-;	"vi" num ord nt sg gen SELECT:880
+;	"vi" num ord nt an sg gen SELECT:880
 ;	"vi" num ord nt sg ins SELECT:880
-;	"vi" num ord nt sg nom SELECT:880
+;	"vi" num ord nt an sg nom SELECT:880
 ;	"vi" num ord nt sg prp SELECT:880
 "<веках>"
 	"век¹" n m nn pl prp
@@ -971,8 +971,8 @@
 	"н. э." abbr
 		"." sent
 "<Некоторые>"
-	"некоторые" prn mfn pl nom
-	"некоторый" det ind mfn pl nom
+	"некоторые" prn mfn an pl nom
+	"некоторый" det ind mfn an pl nom
 ;	"некоторый" det ind mfn nn pl acc REMOVE:737
 "<историки>"
 	"историк" n m aa pl nom
@@ -984,15 +984,15 @@
 "<что>"
 	"что²" cnjsub SELECT:508
 ;	"что¹" prn itg nt sg acc SELECT:508
-;	"что¹" prn itg nt sg nom SELECT:508
+;	"что¹" prn itg nt an sg nom SELECT:508
 ;	"что¹" prn rel nt sg acc SELECT:508
-;	"что¹" prn rel nt sg nom SELECT:508
+;	"что¹" prn rel nt an sg nom SELECT:508
 "<это>"
 	"это" part
 	"это" prn dem nt nn sg acc
 	"это" prn dem nt nn sg nom
 	"этот" det dem nt sg acc
-	"этот" det dem nt sg nom
+	"этот" det dem nt an sg nom
 "<племя>"
 	"племя" n nt nn sg acc
 	"племя" n nt nn sg nom
@@ -1010,16 +1010,16 @@
 	"те" prn dem mfn aa pl gen
 	"те" prn dem mfn aa pl prp
 	"тот" det dem mfn aa pl acc
-	"тот" det dem mfn pl gen
-	"тот" det dem mfn pl prp
+	"тот" det dem mfn an pl gen
+	"тот" det dem mfn an pl prp
 "<,>"
 	"," cm
 "<кто>"
-	"кто" prn rel f sg nom SELECT:979
-	"кто" prn rel m sg nom SELECT:979
+	"кто" prn rel f an sg nom SELECT:979
+	"кто" prn rel m an sg nom SELECT:979
 	"кто" prn rel pl nom SELECT:979
-;	"кто" prn itg f sg nom SELECT:979
-;	"кто" prn itg m sg nom SELECT:979
+;	"кто" prn itg f an sg nom SELECT:979
+;	"кто" prn itg m an sg nom SELECT:979
 ;	"кто" prn itg pl nom SELECT:979
 "<жил>"
 	"жила²" n f aa pl acc
@@ -1100,7 +1100,7 @@
 	"первое" n nt nn pl acc
 	"первое" n nt nn pl nom
 	"первый" num ord mfn nn pl acc
-	"первый" num ord mfn pl nom
+	"первый" num ord mfn an pl nom
 "<упоминания>"
 	"упоминание" n nt nn pl acc
 	"упоминание" n nt nn pl nom
@@ -1156,7 +1156,7 @@
 "<историком>"
 	"историк" n m aa sg ins
 "<Тацитом>"
-	"Тацит" np ant m sg ins
+	"Тацит" np ant m an sg ins
 "<.>"
 	"." sent
 
@@ -1183,7 +1183,7 @@
 	"," cm
 "<самое>"
 	"самый" det nt sg acc
-	"самый" det nt sg nom
+	"самый" det nt an sg nom
 "<раннее>"
 	"ранний" adj comp pred
 	"ранний" adj nt an sg acc
@@ -1474,8 +1474,8 @@
 "<,>"
 	"," cm
 "<которая>"
-	"который" prn rel f sg nom
-;	"который" det itg f sg nom REMOVE:480
+	"который" prn rel f an sg nom
+;	"который" det itg f an sg nom REMOVE:480
 "<в>"
 	"в" pr
 "<основном>"
@@ -1542,13 +1542,13 @@
 "<Лондон>"
 	"Лондон" np al m nn sg acc
 	"Лондон" np al m nn sg nom
-	"Лондон" np cog f sg acc
+	"Лондон" np cog f an sg acc
 	"Лондон" np cog f sg dat
-	"Лондон" np cog f sg gen
-	"Лондон" np cog f sg ins
-	"Лондон" np cog f sg nom
+	"Лондон" np cog f an sg gen
+	"Лондон" np cog f an sg ins
+	"Лондон" np cog f an sg nom
 	"Лондон" np cog f sg prp
-	"Лондон" np cog m sg nom
+	"Лондон" np cog m an sg nom
 "<,>"
 	"," cm
 "<Бирмингем>"
@@ -1617,11 +1617,11 @@
 	"вторжение" n nt nn sg gen
 "<Юлия>"
 	"Юлий" np ant m sg acc
-	"Юлий" np ant m sg gen
-	"Юлия" np ant f sg nom
+	"Юлий" np ant m an sg gen
+	"Юлия" np ant f an sg nom
 "<Цезаря>"
 	"Цезарь" np ant m sg acc
-	"Цезарь" np ant m sg gen
+	"Цезарь" np ant m an sg gen
 	"цезарь" n m aa sg acc
 	"цезарь" n m aa sg gen
 "<в>"
@@ -1694,7 +1694,7 @@
 "<императором>"
 	"император" n m aa sg ins
 "<Клавдием>"
-	"Клавдий" np ant m sg ins
+	"Клавдий" np ant m an sg ins
 "<,>"
 	"," cm
 "<была>"
@@ -1709,7 +1709,7 @@
 "<,>"
 	"," cm
 "<называвшимися>"
-	"называть¹⁻²" vblex impf tv pp actv pass mfn pl ins
+	"называть¹⁻²" vblex impf tv pp actv pass mfn an pl ins
 	"называться" vblex impf iv pp actv mfn an pl ins
 "<бриттами>"
 	"бритт" n m aa pl ins
@@ -1723,7 +1723,7 @@
 "<захвата>"
 	"захват" n m nn sg gen
 "<вся>"
-	"весь¹" det all f sg nom
+	"весь¹" det all f an sg nom
 "<южная>"
 	"южный" adj f an sg nom
 "<часть>"
@@ -1768,8 +1768,8 @@
 ;	"частью" adv REMOVE:530
 "<Римской>"
 	"Римский" np cog f sg dat
-	"Римский" np cog f sg gen
-	"Римский" np cog f sg ins
+	"Римский" np cog f an sg gen
+	"Римский" np cog f an sg ins
 	"римский" adj f an sg ins
 	"римский" adj f an sg dat
 	"римский" adj f an sg gen
@@ -1796,80 +1796,80 @@
 ;	"до" n nt nn sg ins REMOVE:539
 ;	"до" n nt nn sg nom REMOVE:539
 "<её>"
-	"её" det pos m sg gen @N→ SELECT:668 MAP:847
-;	"её" det pos f sg acc REMOVE:731
+	"её" det pos m an sg gen @N→ SELECT:668 MAP:847
+;	"её" det pos f an sg acc REMOVE:731
 ;	"её" det pos f sg dat REMOVE:731
-;	"её" det pos f sg gen REMOVE:731
-;	"её" det pos f sg ins REMOVE:731
-;	"её" det pos f sg nom REMOVE:731
+;	"её" det pos f an sg gen REMOVE:731
+;	"её" det pos f an sg ins REMOVE:731
+;	"её" det pos f an sg nom REMOVE:731
 ;	"её" det pos f sg prp REMOVE:731
 ;	"её" det pos nt sg acc REMOVE:731
 ;	"её" det pos nt sg dat REMOVE:731
-;	"её" det pos nt sg gen REMOVE:731
+;	"её" det pos nt an sg gen REMOVE:731
 ;	"её" det pos nt sg ins REMOVE:731
-;	"её" det pos nt sg nom REMOVE:731
+;	"её" det pos nt an sg nom REMOVE:731
 ;	"её" det pos nt sg prp REMOVE:731
-;	"её" det pos mfn pl ins REMOVE:737
-;	"её" det pos mfn pl nom REMOVE:737
-;	"её" det pos mfn pl prp REMOVE:737
+;	"её" det pos mfn an pl ins REMOVE:737
+;	"её" det pos mfn an pl nom REMOVE:737
+;	"её" det pos mfn an pl prp REMOVE:737
 ;	"её" det pos m aa sg acc REMOVE:737
 ;	"её" det pos m nn sg acc REMOVE:737
-;	"её" det pos m sg dat REMOVE:737
-;	"её" det pos m sg ins REMOVE:737
-;	"её" det pos m sg nom REMOVE:737
-;	"её" det pos m sg prp REMOVE:737
+;	"её" det pos m an sg dat REMOVE:737
+;	"её" det pos m an sg ins REMOVE:737
+;	"её" det pos m an sg nom REMOVE:737
+;	"её" det pos m an sg prp REMOVE:737
 ;	"её" det pos mfn aa pl acc REMOVE:737
 ;	"её" det pos mfn nn pl acc REMOVE:737
-;	"её" det pos mfn pl dat REMOVE:737
-;	"она" prn pers p3 f sg acc REMOVE:416
-;	"она" prn pers p3 f sg gen REMOVE:443
-;	"её" det pos mfn pl gen SELECT:668
+;	"её" det pos mfn an pl dat REMOVE:737
+;	"она" prn pers p3 f an sg acc REMOVE:416
+;	"она" prn pers p3 f an sg gen REMOVE:443
+;	"её" det pos mfn an pl gen SELECT:668
 "<распада>"
 	"распад" n m nn sg gen
 "<в>"
 	"в" pr
 "<V>"
-	"V" num ord m sg prp SELECT:612 SELECT:751 SELECT:880
-;	"V" num ord f sg nom REMOVE:414
-;	"V" num ord m sg nom REMOVE:414
-;	"V" num ord mfn pl nom REMOVE:414
-;	"V" num ord nt sg nom REMOVE:414
-;	"v" num ord f sg nom REMOVE:414
-;	"v" num ord m sg nom REMOVE:414
-;	"v" num ord mfn pl nom REMOVE:414
-;	"v" num ord nt sg nom REMOVE:414
+	"V" num ord m an sg prp SELECT:612 SELECT:751 SELECT:880
+;	"V" num ord f an sg nom REMOVE:414
+;	"V" num ord m an sg nom REMOVE:414
+;	"V" num ord mfn an pl nom REMOVE:414
+;	"V" num ord nt an sg nom REMOVE:414
+;	"v" num ord f an sg nom REMOVE:414
+;	"v" num ord m an sg nom REMOVE:414
+;	"v" num ord mfn an pl nom REMOVE:414
+;	"v" num ord nt an sg nom REMOVE:414
 ;	"V" num ord f sg dat REMOVE:423
-;	"V" num ord f sg gen REMOVE:423
-;	"V" num ord f sg ins REMOVE:423
-;	"V" num ord m sg dat REMOVE:423
-;	"V" num ord m sg gen REMOVE:423
-;	"V" num ord m sg ins REMOVE:423
-;	"V" num ord mfn pl dat REMOVE:423
-;	"V" num ord mfn pl gen REMOVE:423
-;	"V" num ord mfn pl ins REMOVE:423
+;	"V" num ord f an sg gen REMOVE:423
+;	"V" num ord f an sg ins REMOVE:423
+;	"V" num ord m an sg dat REMOVE:423
+;	"V" num ord m an sg gen REMOVE:423
+;	"V" num ord m an sg ins REMOVE:423
+;	"V" num ord mfn an pl dat REMOVE:423
+;	"V" num ord mfn an pl gen REMOVE:423
+;	"V" num ord mfn an pl ins REMOVE:423
 ;	"V" num ord nt sg dat REMOVE:423
-;	"V" num ord nt sg gen REMOVE:423
+;	"V" num ord nt an sg gen REMOVE:423
 ;	"V" num ord nt sg ins REMOVE:423
 ;	"v" num ord nt sg dat REMOVE:423
 ;	"v" num ord f sg dat REMOVE:423
-;	"v" num ord f sg gen REMOVE:423
-;	"v" num ord f sg ins REMOVE:423
-;	"v" num ord nt sg gen REMOVE:423
-;	"v" num ord m sg dat REMOVE:423
-;	"v" num ord m sg gen REMOVE:423
-;	"v" num ord m sg ins REMOVE:423
+;	"v" num ord f an sg gen REMOVE:423
+;	"v" num ord f an sg ins REMOVE:423
+;	"v" num ord nt an sg gen REMOVE:423
+;	"v" num ord m an sg dat REMOVE:423
+;	"v" num ord m an sg gen REMOVE:423
+;	"v" num ord m an sg ins REMOVE:423
 ;	"v" num ord nt sg ins REMOVE:423
-;	"v" num ord mfn pl dat REMOVE:423
-;	"v" num ord mfn pl gen REMOVE:423
-;	"v" num ord mfn pl ins REMOVE:423
-;	"V" num ord f sg acc REMOVE:735
+;	"v" num ord mfn an pl dat REMOVE:423
+;	"v" num ord mfn an pl gen REMOVE:423
+;	"v" num ord mfn an pl ins REMOVE:423
+;	"V" num ord f an sg acc REMOVE:735
 ;	"v" num ord mfn aa pl acc REMOVE:735
 ;	"V" num ord m aa sg acc REMOVE:735
 ;	"V" num ord m nn sg acc REMOVE:735
 ;	"v" num ord m aa sg acc REMOVE:735
 ;	"V" num ord mfn aa pl acc REMOVE:735
 ;	"V" num ord mfn nn pl acc REMOVE:735
-;	"v" num ord f sg acc REMOVE:735
+;	"v" num ord f an sg acc REMOVE:735
 ;	"v" num ord m nn sg acc REMOVE:735
 ;	"v" num ord mfn nn pl acc REMOVE:735
 ;	"v" num ord nt sg acc REMOVE:735
@@ -1880,18 +1880,18 @@
 ;	"v" num ord f sg prp SELECT:612 SELECT:751
 ;	"v" num ord nt sg prp SELECT:612 SELECT:751
 ;	"V" num ord f sg prp SELECT:612 SELECT:751
-;	"v" num ord mfn pl prp SELECT:612 SELECT:751
-;	"V" num ord mfn pl prp SELECT:612 SELECT:751
-;	"v" num ord m sg prp SELECT:612 SELECT:751 SELECT:880
+;	"v" num ord mfn an pl prp SELECT:612 SELECT:751
+;	"V" num ord mfn an pl prp SELECT:612 SELECT:751
+;	"v" num ord m an sg prp SELECT:612 SELECT:751 SELECT:880
 "<веке>"
 	"век¹" n m nn sg prp SELECT:630
 ;	"веко" n nt nn sg prp SELECT:630
 "<нашей>"
-	"наш¹" det pos f sg gen @N→ MAP:847
+	"наш¹" det pos f an sg gen @N→ MAP:847
 ;	"нашить" vblex perf iv imp p2 sg REMOVE:602
 ;	"нашить" vblex perf tv imp p2 sg REMOVE:602
 ;	"наш¹" det pos f sg dat REMOVE:737
-;	"наш¹" det pos f sg ins REMOVE:737
+;	"наш¹" det pos f an sg ins REMOVE:737
 ;	"наш¹" det pos f sg prp REMOVE:737
 "<эры>"
 	"эра" n f nn sg gen SELECT:805
@@ -1921,7 +1921,7 @@
 "<легионов>"
 	"легион" n m nn pl gen
 "<Римская>"
-	"Римский" np cog f sg nom
+	"Римский" np cog f an sg nom
 	"римский" adj f an sg nom
 "<Британия>"
 	"Британия" np al f nn sg nom
@@ -1950,56 +1950,56 @@
 	"в" pr
 "<V>"
 	"V" num SELECT:880
-	"V" num ord f sg acc SELECT:880
+	"V" num ord f an sg acc SELECT:880
 	"V" num ord f sg prp SELECT:880
 	"V" num ord m aa sg acc SELECT:880
 	"V" num ord m nn sg acc SELECT:880
 	"V" num ord nt sg prp SELECT:880
-	"V" num ord m sg prp SELECT:880
+	"V" num ord m an sg prp SELECT:880
 	"V" num ord mfn aa pl acc SELECT:880
 	"V" num ord mfn nn pl acc SELECT:880
-	"V" num ord mfn pl prp SELECT:880
+	"V" num ord mfn an pl prp SELECT:880
 	"V" num ord nt sg acc SELECT:880
-;	"V" num ord f sg nom REMOVE:414
-;	"V" num ord m sg nom REMOVE:414
-;	"V" num ord mfn pl nom REMOVE:414
-;	"V" num ord nt sg nom REMOVE:414
-;	"v" num ord f sg nom REMOVE:414
-;	"v" num ord m sg nom REMOVE:414
-;	"v" num ord mfn pl nom REMOVE:414
-;	"v" num ord nt sg nom REMOVE:414
+;	"V" num ord f an sg nom REMOVE:414
+;	"V" num ord m an sg nom REMOVE:414
+;	"V" num ord mfn an pl nom REMOVE:414
+;	"V" num ord nt an sg nom REMOVE:414
+;	"v" num ord f an sg nom REMOVE:414
+;	"v" num ord m an sg nom REMOVE:414
+;	"v" num ord mfn an pl nom REMOVE:414
+;	"v" num ord nt an sg nom REMOVE:414
 ;	"V" num ord f sg dat REMOVE:423
-;	"V" num ord f sg gen REMOVE:423
-;	"V" num ord f sg ins REMOVE:423
-;	"V" num ord m sg dat REMOVE:423
-;	"V" num ord m sg gen REMOVE:423
-;	"V" num ord m sg ins REMOVE:423
-;	"V" num ord mfn pl dat REMOVE:423
-;	"V" num ord mfn pl gen REMOVE:423
-;	"V" num ord mfn pl ins REMOVE:423
+;	"V" num ord f an sg gen REMOVE:423
+;	"V" num ord f an sg ins REMOVE:423
+;	"V" num ord m an sg dat REMOVE:423
+;	"V" num ord m an sg gen REMOVE:423
+;	"V" num ord m an sg ins REMOVE:423
+;	"V" num ord mfn an pl dat REMOVE:423
+;	"V" num ord mfn an pl gen REMOVE:423
+;	"V" num ord mfn an pl ins REMOVE:423
 ;	"V" num ord nt sg dat REMOVE:423
-;	"V" num ord nt sg gen REMOVE:423
+;	"V" num ord nt an sg gen REMOVE:423
 ;	"V" num ord nt sg ins REMOVE:423
 ;	"v" num ord nt sg dat REMOVE:423
 ;	"v" num ord f sg dat REMOVE:423
-;	"v" num ord f sg gen REMOVE:423
-;	"v" num ord f sg ins REMOVE:423
-;	"v" num ord nt sg gen REMOVE:423
-;	"v" num ord m sg dat REMOVE:423
-;	"v" num ord m sg gen REMOVE:423
-;	"v" num ord m sg ins REMOVE:423
+;	"v" num ord f an sg gen REMOVE:423
+;	"v" num ord f an sg ins REMOVE:423
+;	"v" num ord nt an sg gen REMOVE:423
+;	"v" num ord m an sg dat REMOVE:423
+;	"v" num ord m an sg gen REMOVE:423
+;	"v" num ord m an sg ins REMOVE:423
 ;	"v" num ord nt sg ins REMOVE:423
-;	"v" num ord mfn pl dat REMOVE:423
-;	"v" num ord mfn pl gen REMOVE:423
-;	"v" num ord mfn pl ins REMOVE:423
-;	"v" num ord m sg prp SELECT:880
+;	"v" num ord mfn an pl dat REMOVE:423
+;	"v" num ord mfn an pl gen REMOVE:423
+;	"v" num ord mfn an pl ins REMOVE:423
+;	"v" num ord m an sg prp SELECT:880
 ;	"v" num ord mfn aa pl acc SELECT:880
 ;	"v" num ord f sg prp SELECT:880
 ;	"v" num ord nt sg prp SELECT:880
 ;	"v" num ord m aa sg acc SELECT:880
 ;	"v" num SELECT:880
-;	"v" num ord mfn pl prp SELECT:880
-;	"v" num ord f sg acc SELECT:880
+;	"v" num ord mfn an pl prp SELECT:880
+;	"v" num ord f an sg acc SELECT:880
 ;	"v" num ord m nn sg acc SELECT:880
 ;	"v" num ord mfn nn pl acc SELECT:880
 ;	"v" num ord nt sg acc SELECT:880
@@ -2007,58 +2007,58 @@
 	"—" guio
 "<VI>"
 	"VI" num SELECT:880
-	"VI" num ord f sg acc SELECT:880
+	"VI" num ord f an sg acc SELECT:880
 	"VI" num ord f sg dat SELECT:880
-	"VI" num ord f sg gen SELECT:880
-	"VI" num ord f sg ins SELECT:880
-	"VI" num ord f sg nom SELECT:880
+	"VI" num ord f an sg gen SELECT:880
+	"VI" num ord f an sg ins SELECT:880
+	"VI" num ord f an sg nom SELECT:880
 	"VI" num ord f sg prp SELECT:880
 	"VI" num ord m aa sg acc SELECT:880
 	"VI" num ord m nn sg acc SELECT:880
-	"VI" num ord m sg dat SELECT:880
-	"VI" num ord m sg gen SELECT:880
-	"VI" num ord m sg ins SELECT:880
-	"VI" num ord m sg nom SELECT:880
-	"VI" num ord m sg prp SELECT:880
+	"VI" num ord m an sg dat SELECT:880
+	"VI" num ord m an sg gen SELECT:880
+	"VI" num ord m an sg ins SELECT:880
+	"VI" num ord m an sg nom SELECT:880
+	"VI" num ord m an sg prp SELECT:880
 	"VI" num ord mfn aa pl acc SELECT:880
 	"VI" num ord mfn nn pl acc SELECT:880
-	"VI" num ord mfn pl dat SELECT:880
-	"VI" num ord mfn pl gen SELECT:880
-	"VI" num ord mfn pl ins SELECT:880
-	"VI" num ord mfn pl nom SELECT:880
-	"VI" num ord mfn pl prp SELECT:880
+	"VI" num ord mfn an pl dat SELECT:880
+	"VI" num ord mfn an pl gen SELECT:880
+	"VI" num ord mfn an pl ins SELECT:880
+	"VI" num ord mfn an pl nom SELECT:880
+	"VI" num ord mfn an pl prp SELECT:880
 	"VI" num ord nt sg acc SELECT:880
 	"VI" num ord nt sg dat SELECT:880
-	"VI" num ord nt sg gen SELECT:880
+	"VI" num ord nt an sg gen SELECT:880
 	"VI" num ord nt sg ins SELECT:880
-	"VI" num ord nt sg nom SELECT:880
+	"VI" num ord nt an sg nom SELECT:880
 	"VI" num ord nt sg prp SELECT:880
 ;	"vi" num SELECT:880
-;	"vi" num ord f sg acc SELECT:880
+;	"vi" num ord f an sg acc SELECT:880
 ;	"vi" num ord f sg dat SELECT:880
-;	"vi" num ord f sg gen SELECT:880
-;	"vi" num ord f sg ins SELECT:880
-;	"vi" num ord f sg nom SELECT:880
+;	"vi" num ord f an sg gen SELECT:880
+;	"vi" num ord f an sg ins SELECT:880
+;	"vi" num ord f an sg nom SELECT:880
 ;	"vi" num ord f sg prp SELECT:880
 ;	"vi" num ord m aa sg acc SELECT:880
 ;	"vi" num ord m nn sg acc SELECT:880
-;	"vi" num ord m sg dat SELECT:880
-;	"vi" num ord m sg gen SELECT:880
-;	"vi" num ord m sg ins SELECT:880
-;	"vi" num ord m sg nom SELECT:880
-;	"vi" num ord m sg prp SELECT:880
+;	"vi" num ord m an sg dat SELECT:880
+;	"vi" num ord m an sg gen SELECT:880
+;	"vi" num ord m an sg ins SELECT:880
+;	"vi" num ord m an sg nom SELECT:880
+;	"vi" num ord m an sg prp SELECT:880
 ;	"vi" num ord mfn aa pl acc SELECT:880
 ;	"vi" num ord mfn nn pl acc SELECT:880
-;	"vi" num ord mfn pl dat SELECT:880
-;	"vi" num ord mfn pl gen SELECT:880
-;	"vi" num ord mfn pl ins SELECT:880
-;	"vi" num ord mfn pl nom SELECT:880
-;	"vi" num ord mfn pl prp SELECT:880
+;	"vi" num ord mfn an pl dat SELECT:880
+;	"vi" num ord mfn an pl gen SELECT:880
+;	"vi" num ord mfn an pl ins SELECT:880
+;	"vi" num ord mfn an pl nom SELECT:880
+;	"vi" num ord mfn an pl prp SELECT:880
 ;	"vi" num ord nt sg acc SELECT:880
 ;	"vi" num ord nt sg dat SELECT:880
-;	"vi" num ord nt sg gen SELECT:880
+;	"vi" num ord nt an sg gen SELECT:880
 ;	"vi" num ord nt sg ins SELECT:880
-;	"vi" num ord nt sg nom SELECT:880
+;	"vi" num ord nt an sg nom SELECT:880
 ;	"vi" num ord nt sg prp SELECT:880
 "<вв.>"
 	"вв" abbr
@@ -2086,8 +2086,8 @@
 	"приглашение" n nt nn sg dat
 "<самих>"
 	"сам" det mfn aa pl acc
-	"сам" det mfn pl gen
-;	"сам" det mfn pl prp REMOVE:737
+	"сам" det mfn an pl gen
+;	"сам" det mfn an pl prp REMOVE:737
 "<бриттов>"
 	"бритт" n m aa pl acc
 	"бритт" n m aa pl gen
@@ -2095,41 +2095,41 @@
 	"," cm
 "<которые>"
 	"который" prn rel mfn nn pl acc
-	"который" prn rel mfn pl nom
+	"который" prn rel mfn an pl nom
 ;	"который" det itg mfn nn pl acc REMOVE:480
-;	"который" det itg mfn pl nom REMOVE:480
+;	"который" det itg mfn an pl nom REMOVE:480
 "<с>"
 	"с" pr
 "<их>"
-	"их¹" det pos f sg ins @N→ SELECT:668 MAP:847
-;	"их¹" det pos f sg nom REMOVE:414
-;	"их¹" det pos m sg nom REMOVE:414
-;	"их¹" det pos mfn pl nom REMOVE:414
-;	"их¹" det pos nt sg nom REMOVE:414
+	"их¹" det pos f an sg ins @N→ SELECT:668 MAP:847
+;	"их¹" det pos f an sg nom REMOVE:414
+;	"их¹" det pos m an sg nom REMOVE:414
+;	"их¹" det pos mfn an pl nom REMOVE:414
+;	"их¹" det pos nt an sg nom REMOVE:414
 ;	"их¹" det pos f sg dat REMOVE:418
 ;	"их¹" det pos f sg prp REMOVE:418
-;	"их¹" det pos m sg dat REMOVE:418
+;	"их¹" det pos m an sg dat REMOVE:418
 ;	"их¹" det pos nt sg prp REMOVE:418
-;	"их¹" det pos m sg prp REMOVE:418
-;	"их¹" det pos mfn pl dat REMOVE:418
-;	"их¹" det pos mfn pl prp REMOVE:418
+;	"их¹" det pos m an sg prp REMOVE:418
+;	"их¹" det pos mfn an pl dat REMOVE:418
+;	"их¹" det pos mfn an pl prp REMOVE:418
 ;	"их¹" det pos nt sg dat REMOVE:418
-;	"их¹" det pos f sg acc REMOVE:532
+;	"их¹" det pos f an sg acc REMOVE:532
 ;	"их¹" det pos m aa sg acc REMOVE:532
 ;	"их¹" det pos m nn sg acc REMOVE:532
 ;	"они" prn pers p3 pl acc REMOVE:532
 ;	"их¹" det pos nt sg acc REMOVE:532
 ;	"их¹" det pos mfn aa pl acc REMOVE:532
 ;	"их¹" det pos mfn nn pl acc REMOVE:532
-;	"их¹" det pos m sg gen REMOVE:731
-;	"их¹" det pos m sg ins REMOVE:731
-;	"их¹" det pos nt sg gen REMOVE:731
+;	"их¹" det pos m an sg gen REMOVE:731
+;	"их¹" det pos m an sg ins REMOVE:731
+;	"их¹" det pos nt an sg gen REMOVE:731
 ;	"их¹" det pos nt sg ins REMOVE:731
-;	"их¹" det pos mfn pl gen REMOVE:737
-;	"их¹" det pos f sg gen REMOVE:737
+;	"их¹" det pos mfn an pl gen REMOVE:737
+;	"их¹" det pos f an sg gen REMOVE:737
 ;	"их²" ij REMOVE:896
 ;	"они" prn pers p3 pl gen REMOVE:443
-;	"их¹" det pos mfn pl ins SELECT:668
+;	"их¹" det pos mfn an pl ins SELECT:668
 "<помощью>"
 	"помощь" n f nn sg ins
 "<рассчитывали>"
@@ -2240,7 +2240,7 @@
 	"," cm
 "<эти>"
 	"эти" prn dem mfn aa pl nom
-	"этот" det dem mfn pl nom
+	"этот" det dem mfn an pl nom
 ;	"этот" det dem mfn nn pl acc REMOVE:737
 "<германцы>"
 	"германец" n m aa pl nom
@@ -2258,30 +2258,30 @@
 	"они" prn pers p3 pl acc
 	"они" prn pers p3 pl gen
 ;	"их¹" det pos f sg prp REMOVE:472
-;	"их¹" det pos m sg prp REMOVE:472
-;	"их¹" det pos mfn pl prp REMOVE:472
+;	"их¹" det pos m an sg prp REMOVE:472
+;	"их¹" det pos mfn an pl prp REMOVE:472
 ;	"их¹" det pos nt sg prp REMOVE:472
-;	"их¹" det pos f sg acc REMOVE:480
+;	"их¹" det pos f an sg acc REMOVE:480
 ;	"их¹" det pos f sg dat REMOVE:480
-;	"их¹" det pos f sg gen REMOVE:480
-;	"их¹" det pos f sg ins REMOVE:480
-;	"их¹" det pos f sg nom REMOVE:480
-;	"их¹" det pos nt sg nom REMOVE:480
+;	"их¹" det pos f an sg gen REMOVE:480
+;	"их¹" det pos f an sg ins REMOVE:480
+;	"их¹" det pos f an sg nom REMOVE:480
+;	"их¹" det pos nt an sg nom REMOVE:480
 ;	"их¹" det pos m aa sg acc REMOVE:480
 ;	"их¹" det pos m nn sg acc REMOVE:480
-;	"их¹" det pos m sg dat REMOVE:480
-;	"их¹" det pos m sg gen REMOVE:480
-;	"их¹" det pos m sg ins REMOVE:480
-;	"их¹" det pos m sg nom REMOVE:480
+;	"их¹" det pos m an sg dat REMOVE:480
+;	"их¹" det pos m an sg gen REMOVE:480
+;	"их¹" det pos m an sg ins REMOVE:480
+;	"их¹" det pos m an sg nom REMOVE:480
 ;	"их¹" det pos mfn aa pl acc REMOVE:480
 ;	"их¹" det pos mfn nn pl acc REMOVE:480
-;	"их¹" det pos mfn pl dat REMOVE:480
-;	"их¹" det pos mfn pl gen REMOVE:480
-;	"их¹" det pos mfn pl ins REMOVE:480
-;	"их¹" det pos mfn pl nom REMOVE:480
+;	"их¹" det pos mfn an pl dat REMOVE:480
+;	"их¹" det pos mfn an pl gen REMOVE:480
+;	"их¹" det pos mfn an pl ins REMOVE:480
+;	"их¹" det pos mfn an pl nom REMOVE:480
 ;	"их¹" det pos nt sg acc REMOVE:480
 ;	"их¹" det pos nt sg dat REMOVE:480
-;	"их¹" det pos nt sg gen REMOVE:480
+;	"их¹" det pos nt an sg gen REMOVE:480
 ;	"их¹" det pos nt sg ins REMOVE:480
 ;	"их²" ij REMOVE:896
 "<на>"
@@ -2411,9 +2411,9 @@
 ;	"время" n nt nn sg prp REMOVE:416
 "<один>"
 	"один" num m nn sg acc
-	"один" num m sg nom
+	"один" num m an sg nom
 ;	"один" det m nn sg acc REMOVE:480
-;	"один" det m sg nom REMOVE:480
+;	"один" det m an sg nom REMOVE:480
 "<из>"
 	"из" pr
 "<семи>"
@@ -2446,9 +2446,9 @@
 "<что>"
 	"что²" cnjsub SELECT:508
 ;	"что¹" prn itg nt sg acc SELECT:508
-;	"что¹" prn itg nt sg nom SELECT:508
+;	"что¹" prn itg nt an sg nom SELECT:508
 ;	"что¹" prn rel nt sg acc SELECT:508
-;	"что¹" prn rel nt sg nom SELECT:508
+;	"что¹" prn rel nt an sg nom SELECT:508
 "<можно>"
 	"можно" pred
 "<вольно>"
@@ -2536,40 +2536,40 @@
 "<По>"
 	"по" pr
 ;	"По²" np cog f sg prp REMOVE:368
-;	"По²" np cog m sg prp REMOVE:368
-;	"По²" np cog mfn pl prp REMOVE:368
+;	"По²" np cog m an sg prp REMOVE:368
+;	"По²" np cog mfn an pl prp REMOVE:368
 ;	"По¹" np al f nn pl prp REMOVE:368
 ;	"По¹" np al f nn sg prp REMOVE:368
-;	"По²" np cog f sg gen REMOVE:646
+;	"По²" np cog f an sg gen REMOVE:646
 ;	"По¹" np al f nn sg gen REMOVE:646
-;	"По²" np cog m sg gen REMOVE:646
-;	"По²" np cog mfn pl gen REMOVE:646
+;	"По²" np cog m an sg gen REMOVE:646
+;	"По²" np cog mfn an pl gen REMOVE:646
 ;	"По¹" np al f nn pl gen REMOVE:646
-;	"По²" np cog f sg acc REMOVE:959
+;	"По²" np cog f an sg acc REMOVE:959
 ;	"По²" np cog f sg dat REMOVE:959
 ;	"По¹" np al f nn pl ins REMOVE:959
-;	"По²" np cog f sg ins REMOVE:959
-;	"По²" np cog f sg ins fac REMOVE:959
-;	"По²" np cog f sg nom REMOVE:959
+;	"По²" np cog f an sg ins REMOVE:959
+;	"По²" np cog f an sg ins fac REMOVE:959
+;	"По²" np cog f an sg nom REMOVE:959
 ;	"По¹" np al f nn pl nom REMOVE:959
 ;	"По²" np cog m sg acc REMOVE:959
-;	"По²" np cog m sg dat REMOVE:959
-;	"По²" np cog m sg ins REMOVE:959
-;	"По²" np cog m sg nom REMOVE:959
+;	"По²" np cog m an sg dat REMOVE:959
+;	"По²" np cog m an sg ins REMOVE:959
+;	"По²" np cog m an sg nom REMOVE:959
 ;	"По¹" np al f nn sg ins REMOVE:959
-;	"По²" np cog mfn pl acc REMOVE:959
-;	"По²" np cog mfn pl dat REMOVE:959
+;	"По²" np cog mfn an pl acc REMOVE:959
+;	"По²" np cog mfn an pl dat REMOVE:959
 ;	"По¹" np al f nn sg acc REMOVE:959
-;	"По²" np cog mfn pl ins REMOVE:959
-;	"По²" np cog mfn pl nom REMOVE:959
+;	"По²" np cog mfn an pl ins REMOVE:959
+;	"По²" np cog mfn an pl nom REMOVE:959
 ;	"По¹" np al f nn sg nom REMOVE:959
 ;	"По¹" np al f nn pl acc REMOVE:959
 ;	"По¹" np al f nn pl dat REMOVE:959
 ;	"По¹" np al f nn sg dat REMOVE:959
 "<некоторым>"
-	"некоторые" prn mfn pl dat
-	"некоторый" det ind mfn pl dat
-;	"некоторый" det ind m sg ins REMOVE:731
+	"некоторые" prn mfn an pl dat
+	"некоторый" det ind mfn an pl dat
+;	"некоторый" det ind m an sg ins REMOVE:731
 ;	"некоторый" det ind nt sg ins REMOVE:737
 "<описаниям>"
 	"описание" n nt nn pl dat
@@ -2645,15 +2645,15 @@
 "<первым>"
 	"первый" num ord nt sg ins
 	"первое" n nt nn sg ins
-	"первый" num ord m sg ins
+	"первый" num ord m an sg ins
 ;	"первое" n nt nn pl dat REMOVE:865
-;	"первый" num ord mfn pl dat REMOVE:865
+;	"первый" num ord mfn an pl dat REMOVE:865
 "<королём>"
 	"король" n m aa sg ins
 "<всей>"
 	"всеять" vblex perf iv imp p2 sg
-	"весь¹" det all f sg gen
-	"весь¹" det all f sg ins
+	"весь¹" det all f an sg gen
+	"весь¹" det all f an sg ins
 	"всеять" vblex perf tv imp p2 sg
 ;	"весь¹" det all f sg prp REMOVE:803
 ;	"весь¹" det all f sg dat REMOVE:865
@@ -2712,7 +2712,7 @@
 	"правление" n nt nn sg gen
 "<Альфреда>"
 	"Альфред" np ant m sg acc
-	"Альфред" np ant m sg gen
+	"Альфред" np ant m an sg gen
 "<Великого>"
 	"великий" adj m aa sg acc
 	"великий" adj m an sg gen
@@ -2732,8 +2732,8 @@
 
 
 "<Некоторые>"
-	"некоторые" prn mfn pl nom
-	"некоторый" det ind mfn pl nom
+	"некоторые" prn mfn an pl nom
+	"некоторый" det ind mfn an pl nom
 ;	"некоторый" det ind mfn nn pl acc REMOVE:737
 "<историки>"
 	"историк" n m aa pl nom
@@ -2787,7 +2787,7 @@
 	"это" prn dem nt nn sg acc
 	"это" prn dem nt nn sg nom
 	"этот" det dem nt sg acc
-	"этот" det dem nt sg nom
+	"этот" det dem nt an sg nom
 "<событие>"
 	"событие" n nt nn sg acc
 	"событие" n nt nn sg nom
@@ -2808,61 +2808,61 @@
 "<,>"
 	"," cm
 "<Эдуард>"
-	"Эдуард" np ant m sg nom
+	"Эдуард" np ant m an sg nom
 "<I>"
 	"I" num SELECT:880
-	"I" num ord f sg acc SELECT:880
+	"I" num ord f an sg acc SELECT:880
 	"I" num ord f sg dat SELECT:880
-	"I" num ord f sg gen SELECT:880
-	"I" num ord f sg ins SELECT:880
-	"I" num ord f sg nom SELECT:880
+	"I" num ord f an sg gen SELECT:880
+	"I" num ord f an sg ins SELECT:880
+	"I" num ord f an sg nom SELECT:880
 	"I" num ord f sg prp SELECT:880
 	"I" num ord m aa sg acc SELECT:880
 	"I" num ord m nn sg acc SELECT:880
-	"I" num ord m sg dat SELECT:880
-	"I" num ord m sg gen SELECT:880
-	"I" num ord m sg ins SELECT:880
-	"I" num ord m sg nom SELECT:880
-	"I" num ord m sg prp SELECT:880
+	"I" num ord m an sg dat SELECT:880
+	"I" num ord m an sg gen SELECT:880
+	"I" num ord m an sg ins SELECT:880
+	"I" num ord m an sg nom SELECT:880
+	"I" num ord m an sg prp SELECT:880
 	"I" num ord mfn aa pl acc SELECT:880
 	"I" num ord mfn nn pl acc SELECT:880
-	"I" num ord mfn pl dat SELECT:880
-	"I" num ord mfn pl gen SELECT:880
-	"I" num ord mfn pl ins SELECT:880
-	"I" num ord mfn pl nom SELECT:880
-	"I" num ord mfn pl prp SELECT:880
+	"I" num ord mfn an pl dat SELECT:880
+	"I" num ord mfn an pl gen SELECT:880
+	"I" num ord mfn an pl ins SELECT:880
+	"I" num ord mfn an pl nom SELECT:880
+	"I" num ord mfn an pl prp SELECT:880
 	"I" num ord nt sg acc SELECT:880
 	"I" num ord nt sg dat SELECT:880
-	"I" num ord nt sg gen SELECT:880
+	"I" num ord nt an sg gen SELECT:880
 	"I" num ord nt sg ins SELECT:880
-	"I" num ord nt sg nom SELECT:880
+	"I" num ord nt an sg nom SELECT:880
 	"I" num ord nt sg prp SELECT:880
 ;	"i" num SELECT:880
-;	"i" num ord f sg acc SELECT:880
+;	"i" num ord f an sg acc SELECT:880
 ;	"i" num ord f sg dat SELECT:880
-;	"i" num ord f sg gen SELECT:880
-;	"i" num ord f sg ins SELECT:880
-;	"i" num ord f sg nom SELECT:880
+;	"i" num ord f an sg gen SELECT:880
+;	"i" num ord f an sg ins SELECT:880
+;	"i" num ord f an sg nom SELECT:880
 ;	"i" num ord f sg prp SELECT:880
 ;	"i" num ord m aa sg acc SELECT:880
 ;	"i" num ord m nn sg acc SELECT:880
-;	"i" num ord m sg dat SELECT:880
-;	"i" num ord m sg gen SELECT:880
-;	"i" num ord m sg ins SELECT:880
-;	"i" num ord m sg nom SELECT:880
-;	"i" num ord m sg prp SELECT:880
+;	"i" num ord m an sg dat SELECT:880
+;	"i" num ord m an sg gen SELECT:880
+;	"i" num ord m an sg ins SELECT:880
+;	"i" num ord m an sg nom SELECT:880
+;	"i" num ord m an sg prp SELECT:880
 ;	"i" num ord mfn aa pl acc SELECT:880
 ;	"i" num ord mfn nn pl acc SELECT:880
-;	"i" num ord mfn pl dat SELECT:880
-;	"i" num ord mfn pl gen SELECT:880
-;	"i" num ord mfn pl ins SELECT:880
-;	"i" num ord mfn pl nom SELECT:880
-;	"i" num ord mfn pl prp SELECT:880
+;	"i" num ord mfn an pl dat SELECT:880
+;	"i" num ord mfn an pl gen SELECT:880
+;	"i" num ord mfn an pl ins SELECT:880
+;	"i" num ord mfn an pl nom SELECT:880
+;	"i" num ord mfn an pl prp SELECT:880
 ;	"i" num ord nt sg acc SELECT:880
 ;	"i" num ord nt sg dat SELECT:880
-;	"i" num ord nt sg gen SELECT:880
+;	"i" num ord nt an sg gen SELECT:880
 ;	"i" num ord nt sg ins SELECT:880
-;	"i" num ord nt sg nom SELECT:880
+;	"i" num ord nt an sg nom SELECT:880
 ;	"i" num ord nt sg prp SELECT:880
 "<,>"
 	"," cm
@@ -2872,47 +2872,47 @@
 "<в>"
 	"в" pr
 "<XIII>"
-	"XIII" num ord m sg prp SELECT:612 SELECT:751 SELECT:880
-;	"XIII" num ord f sg nom REMOVE:414
-;	"XIII" num ord m sg nom REMOVE:414
-;	"XIII" num ord mfn pl nom REMOVE:414
-;	"XIII" num ord nt sg nom REMOVE:414
-;	"xiii" num ord f sg nom REMOVE:414
-;	"xiii" num ord m sg nom REMOVE:414
-;	"xiii" num ord mfn pl nom REMOVE:414
-;	"xiii" num ord nt sg nom REMOVE:414
+	"XIII" num ord m an sg prp SELECT:612 SELECT:751 SELECT:880
+;	"XIII" num ord f an sg nom REMOVE:414
+;	"XIII" num ord m an sg nom REMOVE:414
+;	"XIII" num ord mfn an pl nom REMOVE:414
+;	"XIII" num ord nt an sg nom REMOVE:414
+;	"xiii" num ord f an sg nom REMOVE:414
+;	"xiii" num ord m an sg nom REMOVE:414
+;	"xiii" num ord mfn an pl nom REMOVE:414
+;	"xiii" num ord nt an sg nom REMOVE:414
 ;	"XIII" num ord f sg dat REMOVE:423
-;	"XIII" num ord f sg gen REMOVE:423
-;	"XIII" num ord f sg ins REMOVE:423
-;	"XIII" num ord m sg dat REMOVE:423
-;	"XIII" num ord m sg gen REMOVE:423
-;	"XIII" num ord m sg ins REMOVE:423
-;	"XIII" num ord mfn pl dat REMOVE:423
-;	"XIII" num ord mfn pl gen REMOVE:423
-;	"XIII" num ord mfn pl ins REMOVE:423
+;	"XIII" num ord f an sg gen REMOVE:423
+;	"XIII" num ord f an sg ins REMOVE:423
+;	"XIII" num ord m an sg dat REMOVE:423
+;	"XIII" num ord m an sg gen REMOVE:423
+;	"XIII" num ord m an sg ins REMOVE:423
+;	"XIII" num ord mfn an pl dat REMOVE:423
+;	"XIII" num ord mfn an pl gen REMOVE:423
+;	"XIII" num ord mfn an pl ins REMOVE:423
 ;	"XIII" num ord nt sg dat REMOVE:423
-;	"XIII" num ord nt sg gen REMOVE:423
+;	"XIII" num ord nt an sg gen REMOVE:423
 ;	"XIII" num ord nt sg ins REMOVE:423
 ;	"xiii" num ord nt sg dat REMOVE:423
 ;	"xiii" num ord f sg dat REMOVE:423
-;	"xiii" num ord f sg gen REMOVE:423
-;	"xiii" num ord f sg ins REMOVE:423
-;	"xiii" num ord nt sg gen REMOVE:423
-;	"xiii" num ord m sg dat REMOVE:423
-;	"xiii" num ord m sg gen REMOVE:423
-;	"xiii" num ord m sg ins REMOVE:423
+;	"xiii" num ord f an sg gen REMOVE:423
+;	"xiii" num ord f an sg ins REMOVE:423
+;	"xiii" num ord nt an sg gen REMOVE:423
+;	"xiii" num ord m an sg dat REMOVE:423
+;	"xiii" num ord m an sg gen REMOVE:423
+;	"xiii" num ord m an sg ins REMOVE:423
 ;	"xiii" num ord nt sg ins REMOVE:423
-;	"xiii" num ord mfn pl dat REMOVE:423
-;	"xiii" num ord mfn pl gen REMOVE:423
-;	"xiii" num ord mfn pl ins REMOVE:423
-;	"XIII" num ord f sg acc REMOVE:735
+;	"xiii" num ord mfn an pl dat REMOVE:423
+;	"xiii" num ord mfn an pl gen REMOVE:423
+;	"xiii" num ord mfn an pl ins REMOVE:423
+;	"XIII" num ord f an sg acc REMOVE:735
 ;	"xiii" num ord mfn aa pl acc REMOVE:735
 ;	"XIII" num ord m aa sg acc REMOVE:735
 ;	"XIII" num ord m nn sg acc REMOVE:735
 ;	"xiii" num ord m aa sg acc REMOVE:735
 ;	"XIII" num ord mfn aa pl acc REMOVE:735
 ;	"XIII" num ord mfn nn pl acc REMOVE:735
-;	"xiii" num ord f sg acc REMOVE:735
+;	"xiii" num ord f an sg acc REMOVE:735
 ;	"xiii" num ord m nn sg acc REMOVE:735
 ;	"xiii" num ord mfn nn pl acc REMOVE:735
 ;	"xiii" num ord nt sg acc REMOVE:735
@@ -2923,9 +2923,9 @@
 ;	"xiii" num ord f sg prp SELECT:612 SELECT:751
 ;	"xiii" num ord nt sg prp SELECT:612 SELECT:751
 ;	"XIII" num ord f sg prp SELECT:612 SELECT:751
-;	"xiii" num ord mfn pl prp SELECT:612 SELECT:751
-;	"XIII" num ord mfn pl prp SELECT:612 SELECT:751
-;	"xiii" num ord m sg prp SELECT:612 SELECT:751 SELECT:880
+;	"xiii" num ord mfn an pl prp SELECT:612 SELECT:751
+;	"XIII" num ord mfn an pl prp SELECT:612 SELECT:751
+;	"xiii" num ord m an sg prp SELECT:612 SELECT:751 SELECT:880
 "<веке>"
 	"век¹" n m nn sg prp SELECT:630
 ;	"веко" n nt nn sg prp SELECT:630
@@ -2939,17 +2939,17 @@
 "<первым>"
 	"первый" num ord nt sg ins
 	"первое" n nt nn sg ins
-	"первый" num ord m sg ins
+	"первый" num ord m an sg ins
 ;	"первое" n nt nn pl dat REMOVE:865
-;	"первый" num ord mfn pl dat REMOVE:865
+;	"первый" num ord mfn an pl dat REMOVE:865
 "<королём>"
 	"король" n m aa sg ins
 "<с>"
 	"с" pr
 "<таким>"
 	"такой" det nt sg ins @N→ SELECT:668 MAP:847
-;	"такой" det mfn pl dat REMOVE:418
-;	"такой" det m sg ins SELECT:668
+;	"такой" det mfn an pl dat REMOVE:418
+;	"такой" det m an sg ins SELECT:668
 "<именем>"
 	"имя" n nt nn sg ins
 "<—>"
@@ -2970,7 +2970,7 @@
 ;	"но" n nt nn sg ins REMOVE:993
 ;	"но" n nt nn sg nom REMOVE:993
 "<он>"
-	"он¹" prn pers p3 m sg nom
+	"он¹" prn pers p3 m an sg nom
 ;	"он²" n nt nn pl acc REMOVE:929
 ;	"он²" n nt nn pl dat REMOVE:929
 ;	"он²" n nt nn pl gen REMOVE:929
@@ -2989,11 +2989,11 @@
 "<первым>"
 	"первый" num ord nt sg ins
 	"первое" n nt nn sg ins
-	"первый" num ord m sg ins
+	"первый" num ord m an sg ins
 ;	"первое" n nt nn pl dat REMOVE:865
-;	"первый" num ord mfn pl dat REMOVE:865
+;	"первый" num ord mfn an pl dat REMOVE:865
 "<Эдуардом>"
-	"Эдуард" np ant m sg ins
+	"Эдуард" np ant m an sg ins
 "<с>"
 	"с" pr
 "<1066>"
@@ -3024,7 +3024,7 @@
 ;	"но" n nt nn sg ins REMOVE:945
 ;	"но²" ij REMOVE:947
 "<Вильгельм>"
-	"Вильгельм" np ant m sg nom
+	"Вильгельм" np ant m an sg nom
 "<Завоеватель>"
 	"завоеватель" n m aa sg nom
 "<не>"
@@ -3125,60 +3125,60 @@
 "<конце>"
 	"конец" n m nn sg prp
 "<XIII>"
-	"XIII" num ord m sg gen SELECT:662 SELECT:880
+	"XIII" num ord m an sg gen SELECT:662 SELECT:880
 ;	"XIII" num SELECT:662
-;	"XIII" num ord f sg acc SELECT:662
+;	"XIII" num ord f an sg acc SELECT:662
 ;	"XIII" num ord f sg dat SELECT:662
-;	"XIII" num ord f sg ins SELECT:662
-;	"XIII" num ord f sg nom SELECT:662
+;	"XIII" num ord f an sg ins SELECT:662
+;	"XIII" num ord f an sg nom SELECT:662
 ;	"XIII" num ord f sg prp SELECT:662
 ;	"XIII" num ord m aa sg acc SELECT:662
 ;	"XIII" num ord m nn sg acc SELECT:662
-;	"XIII" num ord m sg dat SELECT:662
-;	"XIII" num ord m sg ins SELECT:662
-;	"XIII" num ord m sg nom SELECT:662
-;	"XIII" num ord m sg prp SELECT:662
+;	"XIII" num ord m an sg dat SELECT:662
+;	"XIII" num ord m an sg ins SELECT:662
+;	"XIII" num ord m an sg nom SELECT:662
+;	"XIII" num ord m an sg prp SELECT:662
 ;	"XIII" num ord mfn aa pl acc SELECT:662
 ;	"XIII" num ord mfn nn pl acc SELECT:662
-;	"XIII" num ord mfn pl dat SELECT:662
-;	"XIII" num ord mfn pl gen SELECT:662
-;	"XIII" num ord mfn pl ins SELECT:662
-;	"XIII" num ord mfn pl nom SELECT:662
-;	"XIII" num ord mfn pl prp SELECT:662
+;	"XIII" num ord mfn an pl dat SELECT:662
+;	"XIII" num ord mfn an pl gen SELECT:662
+;	"XIII" num ord mfn an pl ins SELECT:662
+;	"XIII" num ord mfn an pl nom SELECT:662
+;	"XIII" num ord mfn an pl prp SELECT:662
 ;	"XIII" num ord nt sg acc SELECT:662
 ;	"XIII" num ord nt sg dat SELECT:662
 ;	"XIII" num ord nt sg ins SELECT:662
-;	"XIII" num ord nt sg nom SELECT:662
+;	"XIII" num ord nt an sg nom SELECT:662
 ;	"XIII" num ord nt sg prp SELECT:662
 ;	"xiii" num SELECT:662
-;	"xiii" num ord f sg acc SELECT:662
+;	"xiii" num ord f an sg acc SELECT:662
 ;	"xiii" num ord f sg dat SELECT:662
-;	"xiii" num ord f sg ins SELECT:662
-;	"xiii" num ord f sg nom SELECT:662
+;	"xiii" num ord f an sg ins SELECT:662
+;	"xiii" num ord f an sg nom SELECT:662
 ;	"xiii" num ord f sg prp SELECT:662
 ;	"xiii" num ord m aa sg acc SELECT:662
 ;	"xiii" num ord m nn sg acc SELECT:662
-;	"xiii" num ord m sg dat SELECT:662
-;	"xiii" num ord m sg ins SELECT:662
-;	"xiii" num ord m sg nom SELECT:662
-;	"xiii" num ord m sg prp SELECT:662
+;	"xiii" num ord m an sg dat SELECT:662
+;	"xiii" num ord m an sg ins SELECT:662
+;	"xiii" num ord m an sg nom SELECT:662
+;	"xiii" num ord m an sg prp SELECT:662
 ;	"xiii" num ord mfn aa pl acc SELECT:662
 ;	"xiii" num ord mfn nn pl acc SELECT:662
-;	"xiii" num ord mfn pl dat SELECT:662
-;	"xiii" num ord mfn pl gen SELECT:662
-;	"xiii" num ord mfn pl ins SELECT:662
-;	"xiii" num ord mfn pl nom SELECT:662
-;	"xiii" num ord mfn pl prp SELECT:662
+;	"xiii" num ord mfn an pl dat SELECT:662
+;	"xiii" num ord mfn an pl gen SELECT:662
+;	"xiii" num ord mfn an pl ins SELECT:662
+;	"xiii" num ord mfn an pl nom SELECT:662
+;	"xiii" num ord mfn an pl prp SELECT:662
 ;	"xiii" num ord nt sg acc SELECT:662
 ;	"xiii" num ord nt sg dat SELECT:662
 ;	"xiii" num ord nt sg ins SELECT:662
-;	"xiii" num ord nt sg nom SELECT:662
+;	"xiii" num ord nt an sg nom SELECT:662
 ;	"xiii" num ord nt sg prp SELECT:662
-;	"XIII" num ord f sg gen SELECT:662 REMOVE:566
-;	"xiii" num ord f sg gen SELECT:662 REMOVE:566
-;	"XIII" num ord nt sg gen SELECT:662 REMOVE:568
-;	"xiii" num ord nt sg gen SELECT:662 REMOVE:568
-;	"xiii" num ord m sg gen SELECT:662 SELECT:880
+;	"XIII" num ord f an sg gen SELECT:662 REMOVE:566
+;	"xiii" num ord f an sg gen SELECT:662 REMOVE:566
+;	"XIII" num ord nt an sg gen SELECT:662 REMOVE:568
+;	"xiii" num ord nt an sg gen SELECT:662 REMOVE:568
+;	"xiii" num ord m an sg gen SELECT:662 SELECT:880
 "<века>"
 	"век¹" n m nn sg gen SELECT:628 SELECT:632
 ;	"веко" n nt nn sg gen SELECT:628
@@ -3296,61 +3296,61 @@
 	"правление" n nt nn sg gen
 "<Елизаветы>"
 	"Елизавета" np ant f pl nom
-	"Елизавета" np ant f sg gen
+	"Елизавета" np ant f an sg gen
 "<I>"
 	"I" num SELECT:880
-	"I" num ord f sg acc SELECT:880
+	"I" num ord f an sg acc SELECT:880
 	"I" num ord f sg dat SELECT:880
-	"I" num ord f sg gen SELECT:880
-	"I" num ord f sg ins SELECT:880
-	"I" num ord f sg nom SELECT:880
+	"I" num ord f an sg gen SELECT:880
+	"I" num ord f an sg ins SELECT:880
+	"I" num ord f an sg nom SELECT:880
 	"I" num ord f sg prp SELECT:880
 	"I" num ord m aa sg acc SELECT:880
 	"I" num ord m nn sg acc SELECT:880
-	"I" num ord m sg dat SELECT:880
-	"I" num ord m sg gen SELECT:880
-	"I" num ord m sg ins SELECT:880
-	"I" num ord m sg nom SELECT:880
-	"I" num ord m sg prp SELECT:880
+	"I" num ord m an sg dat SELECT:880
+	"I" num ord m an sg gen SELECT:880
+	"I" num ord m an sg ins SELECT:880
+	"I" num ord m an sg nom SELECT:880
+	"I" num ord m an sg prp SELECT:880
 	"I" num ord mfn aa pl acc SELECT:880
 	"I" num ord mfn nn pl acc SELECT:880
-	"I" num ord mfn pl dat SELECT:880
-	"I" num ord mfn pl gen SELECT:880
-	"I" num ord mfn pl ins SELECT:880
-	"I" num ord mfn pl nom SELECT:880
-	"I" num ord mfn pl prp SELECT:880
+	"I" num ord mfn an pl dat SELECT:880
+	"I" num ord mfn an pl gen SELECT:880
+	"I" num ord mfn an pl ins SELECT:880
+	"I" num ord mfn an pl nom SELECT:880
+	"I" num ord mfn an pl prp SELECT:880
 	"I" num ord nt sg acc SELECT:880
 	"I" num ord nt sg dat SELECT:880
-	"I" num ord nt sg gen SELECT:880
+	"I" num ord nt an sg gen SELECT:880
 	"I" num ord nt sg ins SELECT:880
-	"I" num ord nt sg nom SELECT:880
+	"I" num ord nt an sg nom SELECT:880
 	"I" num ord nt sg prp SELECT:880
 ;	"i" num SELECT:880
-;	"i" num ord f sg acc SELECT:880
+;	"i" num ord f an sg acc SELECT:880
 ;	"i" num ord f sg dat SELECT:880
-;	"i" num ord f sg gen SELECT:880
-;	"i" num ord f sg ins SELECT:880
-;	"i" num ord f sg nom SELECT:880
+;	"i" num ord f an sg gen SELECT:880
+;	"i" num ord f an sg ins SELECT:880
+;	"i" num ord f an sg nom SELECT:880
 ;	"i" num ord f sg prp SELECT:880
 ;	"i" num ord m aa sg acc SELECT:880
 ;	"i" num ord m nn sg acc SELECT:880
-;	"i" num ord m sg dat SELECT:880
-;	"i" num ord m sg gen SELECT:880
-;	"i" num ord m sg ins SELECT:880
-;	"i" num ord m sg nom SELECT:880
-;	"i" num ord m sg prp SELECT:880
+;	"i" num ord m an sg dat SELECT:880
+;	"i" num ord m an sg gen SELECT:880
+;	"i" num ord m an sg ins SELECT:880
+;	"i" num ord m an sg nom SELECT:880
+;	"i" num ord m an sg prp SELECT:880
 ;	"i" num ord mfn aa pl acc SELECT:880
 ;	"i" num ord mfn nn pl acc SELECT:880
-;	"i" num ord mfn pl dat SELECT:880
-;	"i" num ord mfn pl gen SELECT:880
-;	"i" num ord mfn pl ins SELECT:880
-;	"i" num ord mfn pl nom SELECT:880
-;	"i" num ord mfn pl prp SELECT:880
+;	"i" num ord mfn an pl dat SELECT:880
+;	"i" num ord mfn an pl gen SELECT:880
+;	"i" num ord mfn an pl ins SELECT:880
+;	"i" num ord mfn an pl nom SELECT:880
+;	"i" num ord mfn an pl prp SELECT:880
 ;	"i" num ord nt sg acc SELECT:880
 ;	"i" num ord nt sg dat SELECT:880
-;	"i" num ord nt sg gen SELECT:880
+;	"i" num ord nt an sg gen SELECT:880
 ;	"i" num ord nt sg ins SELECT:880
-;	"i" num ord nt sg nom SELECT:880
+;	"i" num ord nt an sg nom SELECT:880
 ;	"i" num ord nt sg prp SELECT:880
 "<,>"
 	"," cm
@@ -3372,8 +3372,8 @@
 ;	"династия" n f nn sg prp REMOVE:416
 ;	"династия" n f nn sg dat REMOVE:416
 "<Тюдоров>"
-	"Тюдор" np cog mfn pl acc
-	"Тюдор" np cog mfn pl gen
+	"Тюдор" np cog mfn an pl acc
+	"Тюдор" np cog mfn an pl gen
 "<,>"
 	"," cm
 "<после>"
@@ -3381,74 +3381,74 @@
 ;	"посол¹" n m aa sg prp SELECT:385
 ;	"после" adv SELECT:385 REMOVE:957
 "<которой>"
-	"который" prn rel f sg gen
+	"который" prn rel f an sg gen
 ;	"который" det itg f sg dat REMOVE:480
-;	"который" det itg f sg gen REMOVE:480
-;	"который" det itg f sg ins REMOVE:480
+;	"который" det itg f an sg gen REMOVE:480
+;	"который" det itg f an sg ins REMOVE:480
 ;	"который" det itg f sg prp REMOVE:480
 ;	"который" prn rel f sg dat REMOVE:416
-;	"который" prn rel f sg ins REMOVE:416
+;	"который" prn rel f an sg ins REMOVE:416
 ;	"который" prn rel f sg prp REMOVE:416
 "<царствовал>"
 	"царствовать" vblex impf iv past m sg
 "<Яков>"
-	"Яков" np ant m sg nom
+	"Яков" np ant m an sg nom
 	"як" n m aa pl gen
 ;	"як" n m aa pl acc REMOVE:771
 "<I>"
 	"I" num SELECT:880
 	"I" num ord f sg dat SELECT:880
-	"I" num ord f sg gen SELECT:880
-	"I" num ord f sg ins SELECT:880
-	"I" num ord f sg nom SELECT:880
-	"I" num ord nt sg gen SELECT:880
-	"I" num ord m sg dat SELECT:880
-	"I" num ord m sg gen SELECT:880
-	"I" num ord m sg ins SELECT:880
-	"I" num ord m sg nom SELECT:880
+	"I" num ord f an sg gen SELECT:880
+	"I" num ord f an sg ins SELECT:880
+	"I" num ord f an sg nom SELECT:880
+	"I" num ord nt an sg gen SELECT:880
+	"I" num ord m an sg dat SELECT:880
+	"I" num ord m an sg gen SELECT:880
+	"I" num ord m an sg ins SELECT:880
+	"I" num ord m an sg nom SELECT:880
 	"I" num ord nt sg ins SELECT:880
-	"I" num ord mfn pl dat SELECT:880
-	"I" num ord mfn pl gen SELECT:880
-	"I" num ord mfn pl ins SELECT:880
-	"I" num ord mfn pl nom SELECT:880
-	"I" num ord nt sg nom SELECT:880
+	"I" num ord mfn an pl dat SELECT:880
+	"I" num ord mfn an pl gen SELECT:880
+	"I" num ord mfn an pl ins SELECT:880
+	"I" num ord mfn an pl nom SELECT:880
+	"I" num ord nt an sg nom SELECT:880
 	"I" num ord nt sg dat SELECT:880
-;	"I" num ord f sg acc REMOVE:828
+;	"I" num ord f an sg acc REMOVE:828
 ;	"I" num ord m aa sg acc REMOVE:828
 ;	"I" num ord m nn sg acc REMOVE:828
 ;	"I" num ord mfn aa pl acc REMOVE:828
 ;	"I" num ord mfn nn pl acc REMOVE:828
 ;	"I" num ord nt sg acc REMOVE:828
-;	"i" num ord f sg acc REMOVE:828
+;	"i" num ord f an sg acc REMOVE:828
 ;	"i" num ord m aa sg acc REMOVE:828
 ;	"i" num ord m nn sg acc REMOVE:828
 ;	"i" num ord mfn aa pl acc REMOVE:828
 ;	"i" num ord mfn nn pl acc REMOVE:828
 ;	"i" num ord nt sg acc REMOVE:828
-;	"i" num ord nt sg nom SELECT:880
-;	"i" num ord mfn pl dat SELECT:880
-;	"i" num ord mfn pl gen SELECT:880
-;	"i" num ord mfn pl ins SELECT:880
-;	"i" num ord mfn pl nom SELECT:880
-;	"i" num ord mfn pl prp SELECT:880
+;	"i" num ord nt an sg nom SELECT:880
+;	"i" num ord mfn an pl dat SELECT:880
+;	"i" num ord mfn an pl gen SELECT:880
+;	"i" num ord mfn an pl ins SELECT:880
+;	"i" num ord mfn an pl nom SELECT:880
+;	"i" num ord mfn an pl prp SELECT:880
 ;	"i" num SELECT:880
 ;	"i" num ord nt sg prp SELECT:880
 ;	"i" num ord f sg dat SELECT:880
-;	"i" num ord f sg gen SELECT:880
-;	"i" num ord f sg ins SELECT:880
-;	"i" num ord f sg nom SELECT:880
+;	"i" num ord f an sg gen SELECT:880
+;	"i" num ord f an sg ins SELECT:880
+;	"i" num ord f an sg nom SELECT:880
 ;	"i" num ord f sg prp SELECT:880
 ;	"i" num ord nt sg dat SELECT:880
-;	"i" num ord nt sg gen SELECT:880
-;	"i" num ord m sg dat SELECT:880
-;	"i" num ord m sg gen SELECT:880
-;	"i" num ord m sg ins SELECT:880
-;	"i" num ord m sg nom SELECT:880
-;	"i" num ord m sg prp SELECT:880
+;	"i" num ord nt an sg gen SELECT:880
+;	"i" num ord m an sg dat SELECT:880
+;	"i" num ord m an sg gen SELECT:880
+;	"i" num ord m an sg ins SELECT:880
+;	"i" num ord m an sg nom SELECT:880
+;	"i" num ord m an sg prp SELECT:880
 ;	"i" num ord nt sg ins SELECT:880
 ;	"I" num ord f sg prp SELECT:880 REMOVE:474
-;	"I" num ord m sg prp SELECT:880 REMOVE:474
-;	"I" num ord mfn pl prp SELECT:880 REMOVE:474
+;	"I" num ord m an sg prp SELECT:880 REMOVE:474
+;	"I" num ord mfn an pl prp SELECT:880 REMOVE:474
 ;	"I" num ord nt sg prp SELECT:880 REMOVE:474
 "<,>"
 	"," cm
@@ -3473,61 +3473,61 @@
 	"имя" n nt nn sg ins
 "<Якова>"
 	"Яков" np ant m sg acc
-	"Яков" np ant m sg gen
+	"Яков" np ant m an sg gen
 "<VI>"
 	"VI" num SELECT:880
 	"VI" num ord f sg dat SELECT:880
-	"VI" num ord f sg gen SELECT:880
-	"VI" num ord f sg ins SELECT:880
-	"VI" num ord f sg nom SELECT:880
+	"VI" num ord f an sg gen SELECT:880
+	"VI" num ord f an sg ins SELECT:880
+	"VI" num ord f an sg nom SELECT:880
 	"VI" num ord f sg prp SELECT:880
-	"VI" num ord m sg dat SELECT:880
-	"VI" num ord m sg gen SELECT:880
-	"VI" num ord m sg ins SELECT:880
-	"VI" num ord m sg nom SELECT:880
-	"VI" num ord m sg prp SELECT:880
-	"VI" num ord mfn pl dat SELECT:880
-	"VI" num ord mfn pl gen SELECT:880
-	"VI" num ord mfn pl ins SELECT:880
-	"VI" num ord mfn pl nom SELECT:880
-	"VI" num ord mfn pl prp SELECT:880
+	"VI" num ord m an sg dat SELECT:880
+	"VI" num ord m an sg gen SELECT:880
+	"VI" num ord m an sg ins SELECT:880
+	"VI" num ord m an sg nom SELECT:880
+	"VI" num ord m an sg prp SELECT:880
+	"VI" num ord mfn an pl dat SELECT:880
+	"VI" num ord mfn an pl gen SELECT:880
+	"VI" num ord mfn an pl ins SELECT:880
+	"VI" num ord mfn an pl nom SELECT:880
+	"VI" num ord mfn an pl prp SELECT:880
 	"VI" num ord nt sg dat SELECT:880
-	"VI" num ord nt sg gen SELECT:880
+	"VI" num ord nt an sg gen SELECT:880
 	"VI" num ord nt sg ins SELECT:880
-	"VI" num ord nt sg nom SELECT:880
+	"VI" num ord nt an sg nom SELECT:880
 	"VI" num ord nt sg prp SELECT:880
-;	"VI" num ord f sg acc REMOVE:717
+;	"VI" num ord f an sg acc REMOVE:717
 ;	"VI" num ord m aa sg acc REMOVE:717
 ;	"VI" num ord m nn sg acc REMOVE:717
 ;	"VI" num ord mfn aa pl acc REMOVE:717
 ;	"VI" num ord mfn nn pl acc REMOVE:717
 ;	"VI" num ord nt sg acc REMOVE:717
-;	"vi" num ord f sg acc REMOVE:717
+;	"vi" num ord f an sg acc REMOVE:717
 ;	"vi" num ord m aa sg acc REMOVE:717
 ;	"vi" num ord m nn sg acc REMOVE:717
 ;	"vi" num ord mfn aa pl acc REMOVE:717
 ;	"vi" num ord mfn nn pl acc REMOVE:717
 ;	"vi" num ord nt sg acc REMOVE:717
-;	"vi" num ord nt sg nom SELECT:880
-;	"vi" num ord mfn pl dat SELECT:880
-;	"vi" num ord mfn pl gen SELECT:880
-;	"vi" num ord mfn pl ins SELECT:880
-;	"vi" num ord mfn pl nom SELECT:880
-;	"vi" num ord mfn pl prp SELECT:880
+;	"vi" num ord nt an sg nom SELECT:880
+;	"vi" num ord mfn an pl dat SELECT:880
+;	"vi" num ord mfn an pl gen SELECT:880
+;	"vi" num ord mfn an pl ins SELECT:880
+;	"vi" num ord mfn an pl nom SELECT:880
+;	"vi" num ord mfn an pl prp SELECT:880
 ;	"vi" num SELECT:880
 ;	"vi" num ord nt sg prp SELECT:880
 ;	"vi" num ord f sg dat SELECT:880
-;	"vi" num ord f sg gen SELECT:880
-;	"vi" num ord f sg ins SELECT:880
-;	"vi" num ord f sg nom SELECT:880
+;	"vi" num ord f an sg gen SELECT:880
+;	"vi" num ord f an sg ins SELECT:880
+;	"vi" num ord f an sg nom SELECT:880
 ;	"vi" num ord f sg prp SELECT:880
 ;	"vi" num ord nt sg dat SELECT:880
-;	"vi" num ord nt sg gen SELECT:880
-;	"vi" num ord m sg dat SELECT:880
-;	"vi" num ord m sg gen SELECT:880
-;	"vi" num ord m sg ins SELECT:880
-;	"vi" num ord m sg nom SELECT:880
-;	"vi" num ord m sg prp SELECT:880
+;	"vi" num ord nt an sg gen SELECT:880
+;	"vi" num ord m an sg dat SELECT:880
+;	"vi" num ord m an sg gen SELECT:880
+;	"vi" num ord m an sg ins SELECT:880
+;	"vi" num ord m an sg nom SELECT:880
+;	"vi" num ord m an sg prp SELECT:880
 ;	"vi" num ord nt sg ins SELECT:880
 "<.>"
 	"." sent
@@ -3606,9 +3606,9 @@
 	"," cm
 "<который>"
 	"который" prn rel m nn sg acc
-	"который" prn rel m sg nom
+	"который" prn rel m an sg nom
 ;	"который" det itg m nn sg acc REMOVE:486
-;	"который" det itg m sg nom REMOVE:486
+;	"который" det itg m an sg nom REMOVE:486
 "<окончательно>"
 	"окончательно" adv
 ;	"окончательный" adj short nt sg REMOVE:402

@@ -81,14 +81,14 @@
 ;	"пря" n f nn sg gen
 "<которых>"
 ;	"который" det itg mfn aa pl acc
-;	"который" det itg mfn pl gen
-;	"который" det itg mfn pl prp
+;	"который" det itg mfn an pl gen
+;	"который" det itg mfn an pl prp
 ;	"который" prn rel mfn aa pl acc
-;	"который" prn rel mfn pl gen
-	"который" prn rel mfn pl prp
+;	"который" prn rel mfn an pl gen
+	"который" prn rel mfn an pl prp
 "<другие>"
 ;	"другой" det mfn nn pl acc
-	"другой" det mfn pl nom
+	"другой" det mfn an pl nom
 ;	"другой" n m aa pl nom
 "<операции>"
 ;	"операция" n f nn pl acc
@@ -168,7 +168,7 @@
 "<этом>"
 	"это" prn dem nt nn sg prp
 ;	"этот" prn dem m aa sg prp
-;	"этот" det dem m sg prp REMOVE:443
+;	"этот" det dem m an sg prp REMOVE:443
 ;	"этот" det dem nt sg prp REMOVE:443
 "<может>"
 	"мочь²" vblex impf iv pres p3 sg
@@ -204,7 +204,7 @@
 	"." sent
 
 "<Первую>"
-	"первый" num ord f sg acc
+	"первый" num ord f an sg acc
 "<пересадку>"
 	"пересадка" n f nn sg acc
 ;	"пересадок" n m nn sg dat REMOVE:672
@@ -240,7 +240,7 @@
 ;	"это" prn dem nt nn sg acc
 	"это" prn dem nt nn sg nom
 ;	"этот" det dem nt sg acc
-;	"этот" det dem nt sg nom
+;	"этот" det dem nt an sg nom
 "<было>"
 ;	"было" part
 	"быть" vblex impf iv past nt sg
@@ -298,7 +298,7 @@
 	"." sent
 
 "<Первую>"
-	"первый" num ord f sg acc
+	"первый" num ord f an sg acc
 "<удачную>"
 	"удачный" adj f an sg acc
 "<пересадку>"
@@ -326,7 +326,7 @@
 ;	"год" n m nn pl acc SELECT:417
 ;	"год" n m nn pl nom SELECT:417
 "<Кристиан>"
-	"Кристиан" np ant m sg nom
+	"Кристиан" np ant m an sg nom
 "<Барнард>"
 	"*Барнард"
 "<(>"
@@ -421,16 +421,16 @@
 	"летний" adj m an sg dat
 ;	"летний" adj nt an sg dat
 "<Луису>"
-	"Луис" np ant m sg dat
+	"Луис" np ant m an sg dat
 "<Вашканскому>"
 	"*Вашканскому"
 "<,>"
 	"," cm
 "<который>"
 ;	"который" prn rel m nn sg acc
-	"который" prn rel m sg nom
+	"который" prn rel m an sg nom
 ;	"который" det itg m nn sg acc REMOVE:443
-;	"который" det itg m sg nom REMOVE:443
+;	"который" det itg m an sg nom REMOVE:443
 "<страдал>"
 	"страдать" vblex impf iv past m sg
 "<неизлечимым>"
@@ -455,13 +455,13 @@
 	"то" prn dem nt nn sg acc
 ;	"тот" det dem nt sg acc
 ;	"то" prn dem nt nn sg nom REMOVE:381
-;	"тот" det dem nt sg nom REMOVE:381
+;	"тот" det dem nt an sg nom REMOVE:381
 "<что>"
 	"что²" cnjsub
 ;	"что¹" prn itg nt sg acc
-;	"что¹" prn itg nt sg nom
+;	"что¹" prn itg nt an sg nom
 ;	"что¹" prn rel nt sg acc
-;	"что¹" prn rel nt sg nom
+;	"что¹" prn rel nt an sg nom
 "<операция>"
 	"операция" n f nn sg nom
 "<была>"
@@ -615,21 +615,21 @@
 ;	"держать" vblex impf iv pres p3 sg
 	"держать" vblex impf tv pres p3 sg
 "<Тони>"
-	"Тони" np ant m sg nom
+	"Тони" np ant m an sg nom
 ;	"Тоня" np ant f pl nom
-;	"Тоня" np ant f sg gen
+;	"Тоня" np ant f an sg gen
 ;	"тоня" n f nn pl nom
 ;	"тоня" n f nn sg gen
 ;	"тонуть" vblex impf iv imp p2 sg
 ;	"тоня" n f nn pl acc
 ;	"Тоня" np ant m pl nom fac REMOVE:842
-;	"Тоня" np ant m sg gen fac REMOVE:842
+;	"Тоня" np ant m an sg gen fac REMOVE:842
 "<Хьюзман>"
 	"*Хьюзман"
 "<—>"
 	"—" guio
 "<он>"
-	"он¹" prn pers p3 m sg nom
+	"он¹" prn pers p3 m an sg nom
 ;	"он²" n nt nn pl acc REMOVE:812
 ;	"он²" n nt nn pl dat REMOVE:812
 ;	"он²" n nt nn pl gen REMOVE:812
@@ -707,9 +707,9 @@
 ;	"длить" vblex impf iv pprs adv REMOVE:773
 ;	"длить" vblex impf tv pprs adv REMOVE:773
 "<этих>"
-	"этот" det dem mfn pl gen
+	"этот" det dem mfn an pl gen
 ;	"эти" prn dem mfn aa pl gen
-;	"этот" det dem mfn pl prp REMOVE:694
+;	"этот" det dem mfn an pl prp REMOVE:694
 ;	"эти" prn dem mfn aa pl acc REMOVE:383
 ;	"эти" prn dem mfn aa pl prp REMOVE:383
 ;	"этот" det dem mfn aa pl acc REMOVE:383
@@ -905,7 +905,7 @@
 ;	"и¹" ij REMOVE:781
 ;	"и" adv REMOVE:785
 "<использовавшаяся>"
-	"использовать" vblex impf tv pp actv pass f sg nom
+	"использовать" vblex impf tv pp actv pass f an sg nom
 "<в>"
 	"в" pr
 "<1967>"
@@ -1090,9 +1090,9 @@
 "<что>"
 	"что²" cnjsub SELECT:469
 ;	"что¹" prn itg nt sg acc SELECT:469
-;	"что¹" prn itg nt sg nom SELECT:469
+;	"что¹" prn itg nt an sg nom SELECT:469
 ;	"что¹" prn rel nt sg acc SELECT:469
-;	"что¹" prn rel nt sg nom SELECT:469
+;	"что¹" prn rel nt an sg nom SELECT:469
 "<при>"
 	"при" pr SELECT:719
 ;	"переть" vblex impf iv imp p2 sg SELECT:719
