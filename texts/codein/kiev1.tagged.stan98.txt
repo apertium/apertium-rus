@@ -2437,9 +2437,8 @@
 "<Мстислава>"
 	"*Мстислава"
 "<Великого>"
-	"Великий" np ant m sg gen
 ;	"великий" adj m aa sg acc
-;	"великий" adj m an sg gen
+	"великий" adj m an sg gen
 ;	"великий" adj nt an sg gen
 "<(>"
 	"(" lpar
