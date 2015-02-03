@@ -964,7 +964,7 @@
 "<,>"
 	"," cm
 "<Щеком>"
-	"Щек" np ant m an sg ins
+	"Щек" np ant m sg ins
 "<и>"
 	"и" cnjcoo
 ;	"и²" n nt nn pl prp REMOVE:432
@@ -982,7 +982,7 @@
 ;	"и¹" ij REMOVE:768
 ;	"и" adv REMOVE:772
 "<Хоривом>"
-	"Хорив²" np ant m an sg ins
+	"Хорив²" np ant m sg ins
 ;	"Хорив¹" np al m nn sg ins
 "<и>"
 	"и" cnjcoo
@@ -1004,7 +1004,7 @@
 	"сестра" n f aa sg ins
 "<Лыбедью>"
 ;	"Лыбедь" np al f nn sg ins
-	"Лыбедь" np ant f an sg ins
+	"Лыбедь" np ant f sg ins
 "<как>"
 ;	"как" adv itg
 ;	"как" adv rel
@@ -1134,13 +1134,13 @@
 	"варяг" n m aa sg gen
 "<Рюрика>"
 ;	"Рюрик" np ant m sg acc
-	"Рюрик" np ant m an sg gen
+	"Рюрик" np ant m sg gen
 "<,>"
 	"," cm
 "<варяги>"
 	"варяг" n m aa pl nom
 "<Аскольд>"
-	"Аскольд" np ant m an sg nom
+	"Аскольд" np ant m sg nom
 "<и>"
 	"и" cnjcoo
 ;	"и²" n nt nn pl acc REMOVE:493
@@ -1181,7 +1181,7 @@
 	"родственник" n m aa sg ins
 "<Рюрика>"
 ;	"Рюрик" np ant m sg acc
-	"Рюрик" np ant m an sg gen
+	"Рюрик" np ant m sg gen
 "<,>"
 	"," cm
 "<новгородским>"
@@ -1191,7 +1191,7 @@
 "<князем>"
 	"князь" n m aa sg ins
 "<Олегом>"
-	"Олег" np ant m an sg ins
+	"Олег" np ant m sg ins
 "<,>"
 	"," cm
 "<который>"
@@ -1289,7 +1289,7 @@
 "<император>"
 	"император" n m aa sg nom
 "<Константин>"
-	"Константин" np ant m an sg nom
+	"Константин" np ant m sg nom
 "<Багрянородный>"
 	"багрянородный" adj m an sg nom
 ;	"багрянородный" adj m nn sg acc
@@ -2378,10 +2378,10 @@
 "<Владимира>"
 ;	"Владимир" np al m nn sg gen
 ;	"Владимир" np ant m sg acc
-	"Владимир" np ant m an sg gen
+	"Владимир" np ant m sg gen
 "<Мономаха>"
 ;	"Мономах" np ant m sg acc
-	"Мономах" np ant m an sg gen
+	"Мономах" np ant m sg gen
 "<и>"
 	"и" cnjcoo
 ;	"и²" n nt nn pl acc REMOVE:493
@@ -2582,7 +2582,7 @@
 	"князь" n m aa sg gen
 "<Андрея>"
 ;	"Андрей" np ant m sg acc
-	"Андрей" np ant m an sg gen
+	"Андрей" np ant m sg gen
 "<Боголюбского>"
 	"*Боголюбского"
 "<в>"
@@ -2661,7 +2661,7 @@
 	"князь" n m aa sg gen
 "<Рюрика>"
 ;	"Рюрик" np ant m sg acc
-	"Рюрик" np ant m an sg gen
+	"Рюрик" np ant m sg gen
 "<Ростиславовича>"
 	"*Ростиславовича"
 "<в>"
@@ -2884,7 +2884,7 @@
 	"литовский" adj m an sg nom
 ;	"литовский" adj m nn sg acc
 "<Гедимин>"
-	"Гедимин" np ant m an sg nom
+	"Гедимин" np ant m sg nom
 "<наголову>"
 	"наголову" adv
 "<разбил>"
@@ -2906,7 +2906,7 @@
 ;	"киевский" adj nt an sg gen
 "<Станислава>"
 	"Станислав" np al m nn sg gen
-;	"Станислава" np ant f an sg nom
+;	"Станислава" np ant f sg nom
 "<Ивановича>"
 ;	"Иванович" np pat m sg acc
 	"Иванович" np pat m an sg gen
@@ -3086,7 +3086,7 @@
 "<стал>"
 	"стать²⁻³" vblex perf iv past m sg
 "<Фёдор>"
-	"Фёдор" np ant m an sg nom
+	"Фёдор" np ant m sg nom
 "<,>"
 	"," cm
 "<однако>"
@@ -3113,7 +3113,7 @@
 	"князь" n m aa sg gen
 "<Ольгерда>"
 ;	"Ольгерд" np ant m sg acc
-	"Ольгерд" np ant m an sg gen
+	"Ольгерд" np ant m sg gen
 "<в>"
 	"в" pr
 "<битве>"

@@ -5,7 +5,7 @@
 "<Урана>"
 	"Уран" np al m nn sg gen
 ;	"Уран" np ant m sg acc
-;	"Уран" np ant m an sg gen
+;	"Уран" np ant m sg gen
 ;	"уран" n m nn sg gen
 "<—>"
 	"—" guio
@@ -33,7 +33,7 @@
 "<Уран>"
 	"Уран" np al m nn sg acc
 ;	"Уран" np al m nn sg nom
-;	"Уран" np ant m an sg nom
+;	"Уран" np ant m sg nom
 ;	"уран" n m nn sg acc
 ;	"уран" n m nn sg nom
 "<.>"
@@ -83,7 +83,7 @@
 "<Сатурна>"
 	"Сатурн" np al m nn sg gen
 ;	"Сатурн" np ant m sg acc
-;	"Сатурн" np ant m an sg gen
+;	"Сатурн" np ant m sg gen
 "<и>"
 	"и" cnjcoo
 ;	"и²" n nt nn pl prp REMOVE:432
@@ -109,7 +109,7 @@
 "<Юпитера>"
 	"Юпитер" np al m nn sg gen
 ;	"Юпитер" np ant m sg acc
-;	"Юпитер" np ant m an sg gen
+;	"Юпитер" np ant m sg gen
 ;	"юпитер" n m nn sg gen
 "<и>"
 	"и" cnjcoo
@@ -130,7 +130,7 @@
 "<Нептуна>"
 	"Нептун" np al m nn sg gen
 ;	"Нептун" np ant m sg acc
-;	"Нептун" np ant m an sg gen
+;	"Нептун" np ant m sg gen
 "<.>"
 	"." sent
 "<Первые>"
@@ -146,7 +146,7 @@
 "<Урана>"
 	"Уран" np al m nn sg gen
 ;	"Уран" np ant m sg acc
-;	"Уран" np ant m an sg gen
+;	"Уран" np ant m sg gen
 ;	"уран" n m nn sg gen
 "<были>"
 	"быть" vblex impf iv past mfn pl
@@ -171,11 +171,11 @@
 "<Джеймсом>"
 	"*Джеймсом"
 "<Эллиотом>"
-	"Эллиот" np cog m an sg ins
+	"Эллиот" np cog m sg ins
 "<,>"
 	"," cm
 "<Эдвардом>"
-	"Эдвард" np ant m an sg ins
+	"Эдвард" np ant m sg ins
 "<Данхэмом>"
 	"*Данхэмом"
 "<и>"
@@ -223,7 +223,7 @@
 	"открыть" vblex perf tv pp pasv short mfn pl
 "<ещё>"
 ;	"ещё" adv
-	"ещё" part
+	"ещё" adv
 "<четыре>"
 ;	"четыре" num f nn acc
 ;	"четыре" num m nn acc
@@ -259,7 +259,7 @@
 	"," cm
 "<ещё>"
 ;	"ещё" adv
-	"ещё" part
+	"ещё" adv
 "<два>"
 ;	"два" num m nn acc
 ;	"два" num m nom
@@ -363,7 +363,7 @@
 "<Урана>"
 	"Уран" np al m nn sg gen
 ;	"уран" n m nn sg gen
-;	"Уран" np ant m an sg gen
+;	"Уран" np ant m sg gen
 ;	"Уран" np ant m sg acc REMOVE:378
 "<,>"
 	"," cm
@@ -483,38 +483,38 @@
 	"." sent
 	¶
 "<По>"
-;	"По²" np cog f an sg acc
+;	"По²" np cog f sg acc
 ;	"По²" np cog mfn an pl nom
 ;	"По¹" np al f nn pl ins
-;	"По²" np cog f an sg ins
+;	"По²" np cog f sg ins
 ;	"По²" np cog mfn an pl ins
-;	"По²" np cog f an sg nom
+;	"По²" np cog f sg nom
 ;	"По¹" np al f nn pl nom
 ;	"По²" np cog m sg acc
 ;	"По¹" np al f nn sg nom
 	"по" pr
-;	"По²" np cog m an sg ins
-;	"По²" np cog m an sg nom
+;	"По²" np cog m sg ins
+;	"По²" np cog m sg nom
 ;	"По¹" np al f nn sg ins
 ;	"По²" np cog mfn an pl acc
 ;	"По¹" np al f nn pl acc
 ;	"По¹" np al f nn sg acc
 ;	"По²" np cog f sg prp REMOVE:333
-;	"По²" np cog m an sg prp REMOVE:333
+;	"По²" np cog m sg prp REMOVE:333
 ;	"По²" np cog mfn an pl prp REMOVE:333
 ;	"По¹" np al f nn pl prp REMOVE:333
 ;	"По¹" np al f nn sg prp REMOVE:333
-;	"По²" np cog f an sg gen REMOVE:598
+;	"По²" np cog f sg gen REMOVE:598
 ;	"По¹" np al f nn sg gen REMOVE:598
-;	"По²" np cog m an sg gen REMOVE:598
+;	"По²" np cog m sg gen REMOVE:598
 ;	"По²" np cog mfn an pl gen REMOVE:598
 ;	"По¹" np al f nn pl gen REMOVE:598
 ;	"По²" np cog f sg dat REMOVE:667
-;	"По²" np cog m an sg dat REMOVE:667
+;	"По²" np cog m sg dat REMOVE:667
 ;	"По²" np cog mfn an pl dat REMOVE:667
 ;	"По¹" np al f nn pl dat REMOVE:667
 ;	"По¹" np al f nn sg dat REMOVE:667
-;	"По²" np cog f an sg ins fac REMOVE:829
+;	"По²" np cog f sg ins fac REMOVE:829
 "<состоянию>"
 	"состояние" n nt nn sg dat
 "<на>"
@@ -770,7 +770,7 @@
 "<Урана>"
 	"Уран" np al m nn sg gen
 ;	"Уран" np ant m sg acc
-;	"Уран" np ant m an sg gen
+;	"Уран" np ant m sg gen
 ;	"уран" n m nn sg gen
 "<непрозрачны>"
 	"непрозрачный" adj short mfn pl
@@ -1053,7 +1053,7 @@
 "<Урана>"
 	"Уран" np al m nn sg gen
 ;	"Уран" np ant m sg acc
-;	"Уран" np ant m an sg gen
+;	"Уран" np ant m sg gen
 ;	"уран" n m nn sg gen
 "<.>"
 	"." sent
@@ -1077,7 +1077,7 @@
 "<Урана>"
 	"Уран" np al m nn sg gen
 ;	"Уран" np ant m sg acc
-;	"Уран" np ant m an sg gen
+;	"Уран" np ant m sg gen
 ;	"уран" n m nn sg gen
 "<относительно>"
 	"относительно" adv
@@ -1144,7 +1144,7 @@
 "<Урана>"
 	"Уран" np al m nn sg gen
 ;	"Уран" np ant m sg acc
-;	"Уран" np ant m an sg gen
+;	"Уран" np ant m sg gen
 ;	"уран" n m nn sg gen
 "<,>"
 	"," cm
@@ -1552,7 +1552,7 @@
 "<(>"
 	"(" lpar
 "<Корделию>"
-	"Корделия" np ant f an sg acc
+	"Корделия" np ant f sg acc
 "<и>"
 	"и" cnjcoo
 ;	"и²" n nt nn pl acc REMOVE:493
@@ -1570,7 +1570,7 @@
 ;	"и¹" ij REMOVE:768
 ;	"и" adv REMOVE:772
 "<Офелию>"
-	"Офелия" np ant f an sg acc
+	"Офелия" np ant f sg acc
 "<)>"
 	")" rpar
 "<вокруг>"
@@ -1608,7 +1608,7 @@
 "<Урана>"
 	"Уран" np al m nn sg gen
 ;	"Уран" np ant m sg acc
-;	"Уран" np ant m an sg gen
+;	"Уран" np ant m sg gen
 ;	"уран" n m nn sg gen
 "<,>"
 	"," cm
@@ -1727,7 +1727,7 @@
 "<Урана>"
 	"Уран" np al m nn sg gen
 ;	"уран" n m nn sg gen
-;	"Уран" np ant m an sg gen
+;	"Уран" np ant m sg gen
 ;	"Уран" np ant m sg acc REMOVE:378
 "<.>"
 	"." sent
@@ -2067,7 +2067,7 @@
 "<Урана>"
 	"Уран" np al m nn sg gen
 ;	"Уран" np ant m sg acc
-;	"Уран" np ant m an sg gen
+;	"Уран" np ant m sg gen
 ;	"уран" n m nn sg gen
 "<было>"
 	"быть" vblex impf iv past nt sg SELECT:699
@@ -2096,11 +2096,11 @@
 "<Джеймсом>"
 	"*Джеймсом"
 "<Эллиотом>"
-	"Эллиот" np cog m an sg ins
+	"Эллиот" np cog m sg ins
 "<,>"
 	"," cm
 "<Эдвардом>"
-	"Эдвард" np ant m an sg ins
+	"Эдвард" np ant m sg ins
 "<Данхэмом>"
 	"*Данхэмом"
 "<(>"
@@ -2214,7 +2214,7 @@
 "<Урана>"
 	"Уран" np al m nn sg gen
 ;	"Уран" np ant m sg acc
-;	"Уран" np ant m an sg gen
+;	"Уран" np ant m sg gen
 ;	"уран" n m nn sg gen
 "<при>"
 	"при" pr SELECT:406
@@ -2280,7 +2280,7 @@
 	"звезда" n f nn sg gen
 "<ещё>"
 ;	"ещё" adv
-	"ещё" part
+	"ещё" adv
 "<до>"
 	"до" pr
 ;	"до" n nt nn pl prp REMOVE:432
@@ -2330,7 +2330,7 @@
 ;	"покрытие" n nt nn pl nom REMOVE:378
 "<Ураном>"
 	"Уран" np al m nn sg ins
-;	"Уран" np ant m an sg ins
+;	"Уран" np ant m sg ins
 ;	"уран" n m nn sg ins
 "<,>"
 	"," cm
@@ -2381,7 +2381,7 @@
 "<Урана>"
 	"Уран" np al m nn sg gen
 ;	"Уран" np ant m sg acc
-;	"Уран" np ant m an sg gen
+;	"Уран" np ant m sg gen
 ;	"уран" n m nn sg gen
 "<.>"
 	"." sent

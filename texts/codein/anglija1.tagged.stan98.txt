@@ -341,15 +341,15 @@
 "<—>"
 	"—" guio
 "<Лондон>"
-;	"Лондон" np cog f an sg nom
+;	"Лондон" np cog f sg nom
 	"Лондон" np al m nn sg nom
-;	"Лондон" np cog m an sg nom
+;	"Лондон" np cog m sg nom
 ;	"Лондон" np cog f sg dat
-;	"Лондон" np cog f an sg gen
-;	"Лондон" np cog f an sg ins
+;	"Лондон" np cog f sg gen
+;	"Лондон" np cog f sg ins
 ;	"Лондон" np cog f sg prp REMOVE:474
 ;	"Лондон" np al m nn sg acc REMOVE:828
-;	"Лондон" np cog f an sg acc REMOVE:828
+;	"Лондон" np cog f sg acc REMOVE:828
 "<,>"
 	"," cm
 "<самый>"
@@ -507,13 +507,13 @@
 "<Лондон>"
 ;	"Лондон" np al m nn sg acc
 	"Лондон" np al m nn sg nom
-;	"Лондон" np cog f an sg acc
+;	"Лондон" np cog f sg acc
 ;	"Лондон" np cog f sg dat
-;	"Лондон" np cog f an sg gen
-;	"Лондон" np cog f an sg ins
-;	"Лондон" np cog f an sg nom
+;	"Лондон" np cog f sg gen
+;	"Лондон" np cog f sg ins
+;	"Лондон" np cog f sg nom
 ;	"Лондон" np cog f sg prp
-;	"Лондон" np cog m an sg nom
+;	"Лондон" np cog m sg nom
 "<был>"
 	"быть" vblex impf iv past m sg
 ;	"былой" adj short m sg prb REMOVE:999
@@ -1156,7 +1156,7 @@
 "<историком>"
 	"историк" n m aa sg ins
 "<Тацитом>"
-	"Тацит" np ant m an sg ins
+	"Тацит" np ant m sg ins
 "<.>"
 	"." sent
 
@@ -1543,13 +1543,13 @@
 "<Лондон>"
 ;	"Лондон" np al m nn sg acc
 	"Лондон" np al m nn sg nom
-;	"Лондон" np cog f an sg acc
+;	"Лондон" np cog f sg acc
 ;	"Лондон" np cog f sg dat
-;	"Лондон" np cog f an sg gen
-;	"Лондон" np cog f an sg ins
-;	"Лондон" np cog f an sg nom
+;	"Лондон" np cog f sg gen
+;	"Лондон" np cog f sg ins
+;	"Лондон" np cog f sg nom
 ;	"Лондон" np cog f sg prp
-;	"Лондон" np cog m an sg nom
+;	"Лондон" np cog m sg nom
 "<,>"
 	"," cm
 "<Бирмингем>"
@@ -1618,11 +1618,11 @@
 	"вторжение" n nt nn sg gen
 "<Юлия>"
 ;	"Юлий" np ant m sg acc
-	"Юлий" np ant m an sg gen
-;	"Юлия" np ant f an sg nom
+	"Юлий" np ant m sg gen
+;	"Юлия" np ant f sg nom
 "<Цезаря>"
 ;	"Цезарь" np ant m sg acc
-	"Цезарь" np ant m an sg gen
+	"Цезарь" np ant m sg gen
 ;	"цезарь" n m aa sg acc
 ;	"цезарь" n m aa sg gen
 "<в>"
@@ -1695,7 +1695,7 @@
 "<императором>"
 	"император" n m aa sg ins
 "<Клавдием>"
-	"Клавдий" np ant m an sg ins
+	"Клавдий" np ant m sg ins
 "<,>"
 	"," cm
 "<была>"
@@ -1769,8 +1769,8 @@
 ;	"частью" adv REMOVE:530
 "<Римской>"
 ;	"Римский" np cog f sg dat
-;	"Римский" np cog f an sg gen
-;	"Римский" np cog f an sg ins
+;	"Римский" np cog f sg gen
+;	"Римский" np cog f sg ins
 ;	"римский" adj f an sg ins
 ;	"римский" adj f an sg dat
 	"римский" adj f an sg gen
@@ -1922,7 +1922,7 @@
 "<легионов>"
 	"легион" n m nn pl gen
 "<Римская>"
-;	"Римский" np cog f an sg nom
+;	"Римский" np cog f sg nom
 	"римский" adj f an sg nom
 "<Британия>"
 	"Британия" np al f nn sg nom
@@ -2537,26 +2537,26 @@
 "<По>"
 	"по" pr
 ;	"По²" np cog f sg prp REMOVE:368
-;	"По²" np cog m an sg prp REMOVE:368
+;	"По²" np cog m sg prp REMOVE:368
 ;	"По²" np cog mfn an pl prp REMOVE:368
 ;	"По¹" np al f nn pl prp REMOVE:368
 ;	"По¹" np al f nn sg prp REMOVE:368
-;	"По²" np cog f an sg gen REMOVE:646
+;	"По²" np cog f sg gen REMOVE:646
 ;	"По¹" np al f nn sg gen REMOVE:646
-;	"По²" np cog m an sg gen REMOVE:646
+;	"По²" np cog m sg gen REMOVE:646
 ;	"По²" np cog mfn an pl gen REMOVE:646
 ;	"По¹" np al f nn pl gen REMOVE:646
-;	"По²" np cog f an sg acc REMOVE:959
+;	"По²" np cog f sg acc REMOVE:959
 ;	"По²" np cog f sg dat REMOVE:959
 ;	"По¹" np al f nn pl ins REMOVE:959
-;	"По²" np cog f an sg ins REMOVE:959
-;	"По²" np cog f an sg ins fac REMOVE:959
-;	"По²" np cog f an sg nom REMOVE:959
+;	"По²" np cog f sg ins REMOVE:959
+;	"По²" np cog f sg ins fac REMOVE:959
+;	"По²" np cog f sg nom REMOVE:959
 ;	"По¹" np al f nn pl nom REMOVE:959
 ;	"По²" np cog m sg acc REMOVE:959
-;	"По²" np cog m an sg dat REMOVE:959
-;	"По²" np cog m an sg ins REMOVE:959
-;	"По²" np cog m an sg nom REMOVE:959
+;	"По²" np cog m sg dat REMOVE:959
+;	"По²" np cog m sg ins REMOVE:959
+;	"По²" np cog m sg nom REMOVE:959
 ;	"По¹" np al f nn sg ins REMOVE:959
 ;	"По²" np cog mfn an pl acc REMOVE:959
 ;	"По²" np cog mfn an pl dat REMOVE:959
@@ -2713,7 +2713,7 @@
 	"правление" n nt nn sg gen
 "<Альфреда>"
 ;	"Альфред" np ant m sg acc
-	"Альфред" np ant m an sg gen
+	"Альфред" np ant m sg gen
 "<Великого>"
 ;	"великий" adj m aa sg acc
 	"великий" adj m an sg gen
@@ -2809,7 +2809,7 @@
 "<,>"
 	"," cm
 "<Эдуард>"
-	"Эдуард" np ant m an sg nom
+	"Эдуард" np ant m sg nom
 "<I>"
 ;	"I" num SELECT:880
 ;	"I" num ord f an sg acc SELECT:880
@@ -2994,7 +2994,7 @@
 ;	"первое" n nt nn pl dat REMOVE:865
 ;	"первый" num ord mfn an pl dat REMOVE:865
 "<Эдуардом>"
-	"Эдуард" np ant m an sg ins
+	"Эдуард" np ant m sg ins
 "<с>"
 	"с" pr
 "<1066>"
@@ -3025,7 +3025,7 @@
 ;	"но" n nt nn sg ins REMOVE:945
 ;	"но²" ij REMOVE:947
 "<Вильгельм>"
-	"Вильгельм" np ant m an sg nom
+	"Вильгельм" np ant m sg nom
 "<Завоеватель>"
 	"завоеватель" n m aa sg nom
 "<не>"
@@ -3276,7 +3276,7 @@
 	"правление" n nt nn sg gen
 "<Елизаветы>"
 ;	"Елизавета" np ant f pl nom
-	"Елизавета" np ant f an sg gen
+	"Елизавета" np ant f sg gen
 "<I>"
 ;	"I" num SELECT:880
 ;	"I" num ord f an sg acc SELECT:880
@@ -3372,7 +3372,7 @@
 "<царствовал>"
 	"царствовать" vblex impf iv past m sg
 "<Яков>"
-	"Яков" np ant m an sg nom
+	"Яков" np ant m sg nom
 ;	"як" n m aa pl gen
 ;	"як" n m aa pl acc REMOVE:771
 "<I>"
@@ -3453,7 +3453,7 @@
 	"имя" n nt nn sg ins
 "<Якова>"
 ;	"Яков" np ant m sg acc
-	"Яков" np ant m an sg gen
+	"Яков" np ant m sg gen
 "<VI>"
 ;	"VI" num SELECT:880
 ;	"VI" num ord f sg dat SELECT:880

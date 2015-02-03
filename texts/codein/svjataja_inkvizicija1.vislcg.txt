@@ -316,7 +316,7 @@
 	"апостол" n m nn sg acc
 	"апостол" n m nn sg nom
 "<Павел>"
-	"Павел" np ant m an sg nom
+	"Павел" np ant m sg nom
 "<защищал>"
 	"защищать" vblex impf tv past m sg SELECT:667
 ;	"защищать" vblex impf iv past m sg SELECT:667
@@ -407,8 +407,8 @@
 	"послание" n nt nn pl prp
 "<Иоанна>"
 	"Иоанн" np ant m sg acc
-	"Иоанн" np ant m an sg gen
-	"Иоанна" np ant f an sg nom
+	"Иоанн" np ant m sg gen
+	"Иоанна" np ant f sg nom
 "<и>"
 	"и" cnjcoo @CNP MAP:881
 ;	"и²" n nt nn pl acc REMOVE:540
@@ -459,8 +459,8 @@
 	"откровение" n nt nn sg prp
 "<Иоанна>"
 	"Иоанн" np ant m sg acc
-	"Иоанн" np ant m an sg gen
-	"Иоанна" np ant f an sg nom
+	"Иоанн" np ant m sg gen
+	"Иоанна" np ant f sg nom
 "<Богослова>"
 	"богослов" n m aa sg acc
 	"богослов" n m aa sg gen
@@ -771,14 +771,14 @@
 	"настояние" n nt nn sg dat
 "<Фридриха>"
 	"Фридрих" np ant m sg acc
-	"Фридрих" np ant m an sg gen
+	"Фридрих" np ant m sg gen
 "<Барбароссы>"
 	"Барбаросса" np ant m pl nom
-	"Барбаросса" np ant m an sg gen
+	"Барбаросса" np ant m sg gen
 "<папа>"
 	"папа¹⁻²" n m aa sg nom
 "<Луций>"
-	"Луций" np ant m an sg nom
+	"Луций" np ant m sg nom
 "<III>"
 	"III" num SELECT:905
 	"III" num ord f an sg acc SELECT:905
@@ -1114,7 +1114,7 @@
 "<папой>"
 	"папа¹⁻²" n m aa sg ins
 "<Иннокентием>"
-	"Иннокентий" np ant m an sg ins
+	"Иннокентий" np ant m sg ins
 "<III>"
 	"III" num SELECT:905
 	"III" num ord f an sg acc SELECT:905
@@ -1247,7 +1247,7 @@
 ;	"Франция" np al f nn sg dat REMOVE:426
 ;	"Франция" np al f nn sg gen REMOVE:426
 "<Григорием>"
-	"Григорий" np ant m an sg ins
+	"Григорий" np ant m sg ins
 "<IX>"
 	"IX" num SELECT:905
 	"IX" num ord f an sg acc SELECT:905
@@ -1349,7 +1349,7 @@
 "<король>"
 	"король" n m aa sg nom
 "<Фердинанд>"
-	"Фердинанд" np ant m an sg nom
+	"Фердинанд" np ant m sg nom
 "<и>"
 	"и" cnjcoo
 ;	"и²" n nt nn pl acc REMOVE:540
@@ -1369,7 +1369,7 @@
 "<королева>"
 	"королева" n f aa sg nom
 "<Изабелла>"
-	"Изабелла" np ant f an sg nom
+	"Изабелла" np ant f sg nom
 	"изабелла" n f nn sg nom
 "<с>"
 	"с" pr
@@ -1384,7 +1384,7 @@
 	"папа¹⁻²" n m aa sg gen
 "<Сикста>"
 	"Сикст" np ant m sg acc
-	"Сикст" np ant m an sg gen
+	"Сикст" np ant m sg gen
 "<IV>"
 	"IV" num SELECT:905
 	"IV" num ord f an sg acc SELECT:905
@@ -1494,7 +1494,7 @@
 	"возглавить" vblex perf iv past m sg
 	"возглавить" vblex perf tv past m sg
 "<Томас>"
-	"Томас" np ant m an sg nom
+	"Томас" np ant m sg nom
 "<Торквемада>"
 	"*Торквемада"
 "<,>"
@@ -1576,7 +1576,7 @@
 "<папа>"
 	"папа¹⁻²" n m aa sg nom
 "<Павел>"
-	"Павел" np ant m an sg nom
+	"Павел" np ant m sg nom
 "<III>"
 	"III" num SELECT:905
 	"III" num ord f an sg acc SELECT:905
@@ -2158,7 +2158,7 @@
 	"запретить" vblex perf iv past m sg
 	"запретить" vblex perf tv past m sg
 "<Наполеон>"
-	"Наполеон" np ant m an sg nom
+	"Наполеон" np ant m sg nom
 	"наполеон" n m nn sg acc
 	"наполеон" n m nn sg nom
 "<,>"
@@ -3413,7 +3413,7 @@
 "<Папа>"
 	"папа¹⁻²" n m aa sg nom
 "<Николай>"
-	"Николай" np ant m an sg nom
+	"Николай" np ant m sg nom
 "<V>"
 	"V" num SELECT:905
 	"V" num ord f an sg acc SELECT:905

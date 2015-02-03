@@ -1110,7 +1110,7 @@
 	"постановление" n nt nn sg nom
 "<Фридриха>"
 ;	"Фридрих" np ant m sg acc
-	"Фридрих" np ant m an sg gen
+	"Фридрих" np ant m sg gen
 "<I>"
 ;	"I" num SELECT:910
 ;	"I" num ord f an sg acc SELECT:910
@@ -1380,16 +1380,16 @@
 "<По>"
 	"по" pr
 ;	"По²" np cog f sg prp REMOVE:371
-;	"По²" np cog m an sg prp REMOVE:371
+;	"По²" np cog m sg prp REMOVE:371
 ;	"По²" np cog mfn an pl prp REMOVE:371
 ;	"По¹" np al f nn pl prp REMOVE:371
 ;	"По¹" np al f nn sg prp REMOVE:371
-;	"По²" np cog f an sg gen REMOVE:649
+;	"По²" np cog f sg gen REMOVE:649
 ;	"По¹" np al f nn sg gen REMOVE:649
-;	"По²" np cog m an sg gen REMOVE:649
+;	"По²" np cog m sg gen REMOVE:649
 ;	"По²" np cog mfn an pl gen REMOVE:649
 ;	"По¹" np al f nn pl gen REMOVE:649
-;	"По²" np cog f an sg acc REMOVE:831
+;	"По²" np cog f sg acc REMOVE:831
 ;	"По²" np cog m sg acc REMOVE:831
 ;	"По²" np cog mfn an pl acc REMOVE:831
 ;	"По¹" np al f nn sg acc REMOVE:831
@@ -1397,14 +1397,14 @@
 ;	"По²" np cog mfn an pl nom REMOVE:989
 ;	"По²" np cog f sg dat REMOVE:989
 ;	"По¹" np al f nn pl ins REMOVE:989
-;	"По²" np cog f an sg ins REMOVE:989
-;	"По²" np cog f an sg ins fac REMOVE:989
-;	"По²" np cog f an sg nom REMOVE:989
+;	"По²" np cog f sg ins REMOVE:989
+;	"По²" np cog f sg ins fac REMOVE:989
+;	"По²" np cog f sg nom REMOVE:989
 ;	"По¹" np al f nn pl nom REMOVE:989
 ;	"По¹" np al f nn sg nom REMOVE:989
-;	"По²" np cog m an sg dat REMOVE:989
-;	"По²" np cog m an sg ins REMOVE:989
-;	"По²" np cog m an sg nom REMOVE:989
+;	"По²" np cog m sg dat REMOVE:989
+;	"По²" np cog m sg ins REMOVE:989
+;	"По²" np cog m sg nom REMOVE:989
 ;	"По¹" np al f nn sg ins REMOVE:989
 ;	"По¹" np al f nn sg dat REMOVE:989
 ;	"По²" np cog mfn an pl dat REMOVE:989
@@ -1491,7 +1491,7 @@
 	"конституция" n f nn sg nom
 "<Фридриха>"
 ;	"Фридрих" np ant m sg acc
-	"Фридрих" np ant m an sg gen
+	"Фридрих" np ant m sg gen
 "<I>"
 ;	"I" num SELECT:910
 ;	"I" num ord f an sg acc SELECT:910
@@ -2142,7 +2142,7 @@
 	"." sent
 
 "<Генрих>"
-	"Генрих" np ant m an sg nom
+	"Генрих" np ant m sg nom
 "<III>"
 ;	"III" num SELECT:910
 ;	"III" num ord f an sg acc SELECT:910
@@ -2215,7 +2215,7 @@
 ;	"и¹" ij REMOVE:928
 ;	"и" adv REMOVE:932
 "<Эдуард>"
-	"Эдуард" np ant m an sg nom
+	"Эдуард" np ant m sg nom
 "<I>"
 ;	"I" num SELECT:910
 ;	"I" num ord f an sg acc SELECT:910
@@ -2851,7 +2851,7 @@
 	"." sent
 
 "<Рудольфу>"
-	"Рудольф" np ant m an sg dat
+	"Рудольф" np ant m sg dat
 "<Габсбургскому>"
 	"габсбургский" adj m an sg dat
 ;	"габсбургский" adj nt an sg dat

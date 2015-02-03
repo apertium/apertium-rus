@@ -1,7 +1,7 @@
 "<Афины>"
 	"Афина" np ant f pl nom
 	"Афины" np al f nn pl nom
-;	"Афина" np ant f an sg gen REMOVE:598
+;	"Афина" np ant f sg gen REMOVE:598
 ;	"Афины" np al f nn pl acc REMOVE:620
 "<—>"
 	"—" guio
@@ -145,7 +145,7 @@
 	"война" n f nn sg gen
 "<Афины>"
 	"Афина" np ant f pl nom
-	"Афина" np ant f an sg gen
+	"Афина" np ant f sg gen
 	"Афины" np al f nn pl acc
 	"Афины" np al f nn pl nom
 "<,>"
@@ -169,7 +169,7 @@
 
 "<Афины>"
 	"Афина" np ant f pl nom
-	"Афина" np ant f an sg gen
+	"Афина" np ant f sg gen
 	"Афины" np al f nn pl acc
 	"Афины" np al f nn pl nom
 "<имеют>"
@@ -355,12 +355,12 @@
 	"философ" n m aa pl gen
 "<Сократа>"
 	"Сократ" np ant m sg acc
-	"Сократ" np ant m an sg gen
+	"Сократ" np ant m sg gen
 "<,>"
 	"," cm
 "<Платона>"
 	"Платон" np ant m sg acc
-	"Платон" np ant m an sg gen
+	"Платон" np ant m sg gen
 "<и>"
 	"и" cnjcoo @CNP MAP:731
 ;	"и²" n nt nn pl acc REMOVE:493
@@ -379,7 +379,7 @@
 ;	"и" adv REMOVE:772
 "<Аристотеля>"
 	"Аристотель" np ant m sg acc
-	"Аристотель" np ant m an sg gen
+	"Аристотель" np ant m sg gen
 "<,>"
 	"," cm
 "<заложивших>"
@@ -411,12 +411,12 @@
 	"трагик" n m aa pl gen
 "<Эсхила>"
 	"Эсхил" np ant m sg acc
-	"Эсхил" np ant m an sg gen
+	"Эсхил" np ant m sg gen
 "<,>"
 	"," cm
 "<Софокла>"
 	"Софокл" np ant m sg acc
-	"Софокл" np ant m an sg gen
+	"Софокл" np ant m sg gen
 "<и>"
 	"и" cnjcoo @CNP MAP:731
 ;	"и²" n nt nn pl acc REMOVE:493
@@ -435,7 +435,7 @@
 ;	"и" adv REMOVE:772
 "<Еврипида>"
 	"Еврипид" np ant m sg acc
-	"Еврипид" np ant m an sg gen
+	"Еврипид" np ant m sg gen
 "<,>"
 	"," cm
 "<стоявших>"
@@ -791,7 +791,7 @@
 	"«" lquot
 "<Афины>"
 	"Афина" np ant f pl nom
-	"Афина" np ant f an sg gen
+	"Афина" np ant f sg gen
 	"Афины" np al f nn pl acc
 	"Афины" np al f nn pl nom
 "<»>"
@@ -882,7 +882,7 @@
 	"—" guio
 "<Афины>"
 	"Афина" np ant f pl nom
-	"Афина" np ant f an sg gen
+	"Афина" np ant f sg gen
 	"Афины" np al f nn pl acc
 	"Афины" np al f nn pl nom
 "<—>"
@@ -903,7 +903,7 @@
 	"спорый" adj short f sg
 "<Афины>"
 	"Афина" np ant f pl nom
-	"Афина" np ant f an sg gen
+	"Афина" np ant f sg gen
 	"Афины" np al f nn pl acc
 	"Афины" np al f nn pl nom
 "<с>"
@@ -913,7 +913,7 @@
 "<морей>"
 	"море" n nt nn pl gen
 "<Посейдоном>"
-	"Посейдон" np ant m an sg ins
+	"Посейдон" np ant m sg ins
 "<.>"
 	"." sent
 
@@ -994,7 +994,7 @@
 "<—>"
 	"—" guio
 "<Афина>"
-	"Афина" np ant f an sg nom
+	"Афина" np ant f sg nom
 "<и>"
 	"и" cnjcoo @CNP MAP:731
 ;	"и²" n nt nn pl prp REMOVE:432
@@ -1012,7 +1012,7 @@
 ;	"и¹" ij REMOVE:768
 ;	"и" adv REMOVE:772
 "<Посейдон>"
-	"Посейдон" np ant m an sg nom
+	"Посейдон" np ant m sg nom
 "<—>"
 	"—" guio
 "<должны>"
@@ -1121,7 +1121,7 @@
 "<трезубцем>"
 	"трезубец" n m nn sg ins
 "<Посейдон>"
-	"Посейдон" np ant m an sg nom
+	"Посейдон" np ant m sg nom
 "<,>"
 	"," cm
 "<и>"
@@ -1240,7 +1240,7 @@
 	"удар" n m nn sg gen
 "<Афины>"
 	"Афина" np ant f pl nom
-	"Афина" np ant f an sg gen
+	"Афина" np ant f sg gen
 	"Афины" np al f nn pl acc
 	"Афины" np al f nn pl nom
 "<из>"
@@ -1274,7 +1274,7 @@
 	"подарок" n m nn sg ins
 "<Афины>"
 	"Афина" np ant f pl nom
-	"Афина" np ant f an sg gen
+	"Афина" np ant f sg gen
 	"Афины" np al f nn pl acc
 	"Афины" np al f nn pl nom
 "<и>"
@@ -1348,7 +1348,7 @@
 	"образ¹" n m nn sg ins
 "<Афины>"
 	"Афина" np ant f pl nom
-	"Афина" np ant f an sg gen
+	"Афина" np ant f sg gen
 	"Афины" np al f nn pl acc
 	"Афины" np al f nn pl nom
 "<и>"
@@ -1409,7 +1409,7 @@
 	"выбрать" vblex perf tv past m sg
 "<Посейдона>"
 	"Посейдон" np ant m sg acc
-	"Посейдон" np ant m an sg gen
+	"Посейдон" np ant m sg gen
 "<,>"
 	"," cm
 "<в>"
@@ -1492,7 +1492,7 @@
 ;	"слово" n nt nn sg acc REMOVE:478
 "<Афины>"
 	"Афина" np ant f pl nom
-	"Афина" np ant f an sg gen
+	"Афина" np ant f sg gen
 	"Афины" np al f nn pl acc
 	"Афины" np al f nn pl nom
 "<произошло>"
@@ -1531,7 +1531,7 @@
 "<Афины>"
 	"Афина" np ant f pl nom
 	"Афины" np al f nn pl nom
-;	"Афина" np ant f an sg gen REMOVE:598
+;	"Афина" np ant f sg gen REMOVE:598
 ;	"Афины" np al f nn pl acc REMOVE:478
 "<были>"
 	"быть" vblex impf iv past mfn pl
@@ -1715,7 +1715,7 @@
 	"веко" n nt nn sg gen
 "<Афины>"
 	"Афина" np ant f pl nom
-	"Афина" np ant f an sg gen
+	"Афина" np ant f sg gen
 	"Афины" np al f nn pl acc
 	"Афины" np al f nn pl nom
 "<не>"
@@ -1754,8 +1754,8 @@
 	"расцвет" n m nn sg gen
 "<Римской>"
 	"Римский" np cog f sg dat
-	"Римский" np cog f an sg gen
-	"Римский" np cog f an sg ins
+	"Римский" np cog f sg gen
+	"Римский" np cog f sg ins
 	"римский" adj f an sg ins
 	"римский" adj f an sg dat
 	"римский" adj f an sg gen
@@ -1809,7 +1809,7 @@
 	"империя" n f nn sg gen
 ;	"империя" n f nn sg dat REMOVE:667
 "<Юстинианом>"
-	"Юстиниан" np ant m an sg ins
+	"Юстиниан" np ant m sg ins
 "<I>"
 	"I" num SELECT:750
 	"I" num ord f an sg acc SELECT:750
@@ -1935,7 +1935,7 @@
 	"Афина" np ant f pl nom
 	"Афины" np al f nn pl nom
 	"Афины" np al f nn pl acc
-;	"Афина" np ant f an sg gen REMOVE:598
+;	"Афина" np ant f sg gen REMOVE:598
 "<потеряли>"
 	"потерять" vblex perf iv past mfn pl
 	"потерять" vblex perf tv past mfn pl
@@ -2674,17 +2674,17 @@
 	"генерал" n m aa sg gen
 "<Франческо>"
 	"Франческо" np ant m pl acc
-	"Франческо" np ant m an sg gen
+	"Франческо" np ant m sg gen
 	"Франческо" np ant m pl gen
 	"Франческо" np ant m pl ins
 	"Франческо" np ant m pl nom
-	"Франческо" np ant m an sg nom
+	"Франческо" np ant m sg nom
 	"Франческо" np ant m sg acc
-	"Франческо" np ant m an sg ins
+	"Франческо" np ant m sg ins
 ;	"Франческо" np ant m pl prp REMOVE:432
-;	"Франческо" np ant m an sg prp REMOVE:432
+;	"Франческо" np ant m sg prp REMOVE:432
 ;	"Франческо" np ant m pl dat REMOVE:667
-;	"Франческо" np ant m an sg dat REMOVE:667
+;	"Франческо" np ant m sg dat REMOVE:667
 "<Морозини>"
 	"*Морозини"
 "<22>"

@@ -994,10 +994,10 @@
 ;	"миро" n nt nn sg gen REMOVE:808
 "<Николая>"
 ;	"Николай" np ant m sg acc
-	"Николай" np ant m an sg gen
+	"Николай" np ant m sg gen
 "<Коперника>"
 ;	"Коперник" np cog m sg acc
-	"Коперник" np cog m an sg gen
+	"Коперник" np cog m sg gen
 "<,>"
 	"," cm
 "<который>"
@@ -1260,10 +1260,10 @@
 	"," cm
 "<Иоганна>"
 ;	"Иоганн" np ant m sg acc
-	"Иоганн" np ant m an sg gen
+	"Иоганн" np ant m sg gen
 "<Кеплера>"
 ;	"Кеплер" np cog m sg acc
-	"Кеплер" np cog m an sg gen
+	"Кеплер" np cog m sg gen
 "<,>"
 	"," cm
 "<сфера>"
@@ -1544,7 +1544,7 @@
 	"сочинение" n nt nn pl gen
 "<Кеплера>"
 ;	"Кеплер" np cog m sg acc
-	"Кеплер" np cog m an sg gen
+	"Кеплер" np cog m sg gen
 "<,>"
 	"," cm
 "<«>"
@@ -1592,12 +1592,12 @@
 "<,>"
 	"," cm
 "<Кеплер>"
-;	"Кеплер" np cog f an sg acc
+;	"Кеплер" np cog f sg acc
 ;	"Кеплер" np cog f sg dat
-;	"Кеплер" np cog f an sg gen
-;	"Кеплер" np cog f an sg ins
-;	"Кеплер" np cog f an sg nom
-	"Кеплер" np cog m an sg nom
+;	"Кеплер" np cog f sg gen
+;	"Кеплер" np cog f sg ins
+;	"Кеплер" np cog f sg nom
+	"Кеплер" np cog m sg nom
 ;	"Кеплер" np cog f sg prp REMOVE:437
 "<считал>"
 ;	"считать²" vblex impf iv past m sg
@@ -1693,7 +1693,7 @@
 "<по>"
 	"по" pr
 "<Кеплеру>"
-	"Кеплер" np cog m an sg dat
+	"Кеплер" np cog m sg dat
 "<,>"
 	"," cm
 "<описанными>"
@@ -1779,7 +1779,7 @@
 "<открытии>"
 	"открытие" n nt nn sg prp
 "<Кеплером>"
-	"Кеплер" np cog m an sg ins
+	"Кеплер" np cog m sg ins
 "<третьего>"
 ;	"третий" n m aa sg acc
 ;	"третий" n m aa sg gen
@@ -1862,7 +1862,7 @@
 ;	"у²" n nt nn sg nom REMOVE:498
 ;	"у¹" ij REMOVE:826
 "<Кеплера>"
-	"Кеплер" np cog m an sg gen
+	"Кеплер" np cog m sg gen
 ;	"Кеплер" np cog m sg acc REMOVE:383
 "<небесные>"
 	"небесный" adj mfn an pl nom
@@ -1932,21 +1932,21 @@
 "<Тихо>"
 ;	"тихий" adj short nt sg
 ;	"тихо" adv
-	"Тихо" np ant m an sg nom
+	"Тихо" np ant m sg nom
 "<Браге>"
-;	"Браге" np cog f an sg acc
+;	"Браге" np cog f sg acc
 ;	"Браге" np cog f sg dat
-;	"Браге" np cog f an sg gen
-;	"Браге" np cog f an sg ins
+;	"Браге" np cog f sg gen
+;	"Браге" np cog f sg ins
 ;	"брага" n f nn sg prp
-;	"Браге" np cog f an sg nom
+;	"Браге" np cog f sg nom
 ;	"Браге" np cog f sg prp
 ;	"Браге" np cog m sg acc
-;	"Браге" np cog m an sg dat
-;	"Браге" np cog m an sg gen
-;	"Браге" np cog m an sg ins
-	"Браге" np cog m an sg nom
-;	"Браге" np cog m an sg prp
+;	"Браге" np cog m sg dat
+;	"Браге" np cog m sg gen
+;	"Браге" np cog m sg ins
+	"Браге" np cog m sg nom
+;	"Браге" np cog m sg prp
 ;	"Браге" np cog mfn an pl acc
 ;	"Браге" np cog mfn an pl dat
 ;	"Браге" np cog mfn an pl gen
@@ -1954,7 +1954,7 @@
 ;	"Браге" np cog mfn an pl nom
 ;	"Браге" np cog mfn an pl prp
 ;	"брага" n f nn sg dat
-;	"Браге" np cog f an sg ins fac REMOVE:842
+;	"Браге" np cog f sg ins fac REMOVE:842
 "<показал>"
 	"показать" vblex perf iv past m sg
 ;	"показать" vblex perf tv past m sg

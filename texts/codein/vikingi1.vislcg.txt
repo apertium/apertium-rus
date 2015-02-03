@@ -332,16 +332,16 @@
 "<По>"
 	"по" pr
 ;	"По²" np cog f sg prp REMOVE:371
-;	"По²" np cog m an sg prp REMOVE:371
+;	"По²" np cog m sg prp REMOVE:371
 ;	"По²" np cog mfn an pl prp REMOVE:371
 ;	"По¹" np al f nn pl prp REMOVE:371
 ;	"По¹" np al f nn sg prp REMOVE:371
-;	"По²" np cog f an sg gen REMOVE:649
+;	"По²" np cog f sg gen REMOVE:649
 ;	"По¹" np al f nn sg gen REMOVE:649
-;	"По²" np cog m an sg gen REMOVE:649
+;	"По²" np cog m sg gen REMOVE:649
 ;	"По²" np cog mfn an pl gen REMOVE:649
 ;	"По¹" np al f nn pl gen REMOVE:649
-;	"По²" np cog f an sg acc REMOVE:675
+;	"По²" np cog f sg acc REMOVE:675
 ;	"По²" np cog m sg acc REMOVE:675
 ;	"По²" np cog mfn an pl acc REMOVE:675
 ;	"По¹" np al f nn sg acc REMOVE:675
@@ -349,14 +349,14 @@
 ;	"По²" np cog mfn an pl nom REMOVE:989
 ;	"По²" np cog f sg dat REMOVE:989
 ;	"По¹" np al f nn pl ins REMOVE:989
-;	"По²" np cog f an sg ins REMOVE:989
-;	"По²" np cog f an sg ins fac REMOVE:989
-;	"По²" np cog f an sg nom REMOVE:989
+;	"По²" np cog f sg ins REMOVE:989
+;	"По²" np cog f sg ins fac REMOVE:989
+;	"По²" np cog f sg nom REMOVE:989
 ;	"По¹" np al f nn pl nom REMOVE:989
 ;	"По¹" np al f nn sg nom REMOVE:989
-;	"По²" np cog m an sg dat REMOVE:989
-;	"По²" np cog m an sg ins REMOVE:989
-;	"По²" np cog m an sg nom REMOVE:989
+;	"По²" np cog m sg dat REMOVE:989
+;	"По²" np cog m sg ins REMOVE:989
+;	"По²" np cog m sg nom REMOVE:989
 ;	"По¹" np al f nn sg ins REMOVE:989
 ;	"По¹" np al f nn sg dat REMOVE:989
 ;	"По²" np cog mfn an pl dat REMOVE:989
@@ -2074,7 +2074,7 @@
 "<Уэссекса>"
 	"Уэссекс" np al m nn sg gen
 "<Альфред>"
-	"Альфред" np ant m an sg nom
+	"Альфред" np ant m sg nom
 "<Великий>"
 	"великий" adj m an sg nom
 	"великий" adj m nn sg acc
@@ -2290,7 +2290,7 @@
 "<,>"
 	"," cm
 "<Альфред>"
-	"Альфред" np ant m an sg nom
+	"Альфред" np ant m sg nom
 "<и>"
 	"и" cnjcoo @CNP MAP:884
 ;	"и²" n nt nn pl acc REMOVE:540
@@ -2341,7 +2341,7 @@
 "<сын>"
 	"сын" n m aa sg nom
 "<Эдуард>"
-	"Эдуард" np ant m an sg nom
+	"Эдуард" np ant m sg nom
 "<Старший>"
 	"старший" adj m an sg nom
 	"старший" adj m nn sg acc
@@ -2672,7 +2672,7 @@
 	"лицо" n nt nn sg prp
 "<Эдуарда>"
 	"Эдуард" np ant m sg acc
-	"Эдуард" np ant m an sg gen
+	"Эдуард" np ant m sg gen
 "<Исповедника>"
 	"исповедник" n m aa sg acc
 	"исповедник" n m aa sg gen
@@ -2882,7 +2882,7 @@
 	"помощь" n f nn sg acc
 ;	"помощь" n f nn sg nom REMOVE:417
 "<Эдгару>"
-	"Эдгар" np ant m an sg dat
+	"Эдгар" np ant m sg dat
 "<Этлингу>"
 	"*Этлингу"
 "<в>"
@@ -2893,7 +2893,7 @@
 "<с>"
 	"с" pr
 "<Вильгельмом>"
-	"Вильгельм" np ant m an sg ins
+	"Вильгельм" np ant m sg ins
 "<I>"
 	"I" num SELECT:910
 	"I" num ord f an sg acc SELECT:910
@@ -3002,12 +3002,12 @@
 "<Йорк>"
 	"Йорк" np al m nn sg acc
 	"Йорк" np al m nn sg nom
-	"Йорк" np cog f an sg acc
+	"Йорк" np cog f sg acc
 	"Йорк" np cog f sg dat
-	"Йорк" np cog f an sg gen
-	"Йорк" np cog f an sg ins
-	"Йорк" np cog f an sg nom
-	"Йорк" np cog m an sg nom
+	"Йорк" np cog f sg gen
+	"Йорк" np cog f sg ins
+	"Йорк" np cog f sg nom
+	"Йорк" np cog m sg nom
 ;	"Йорк" np cog f sg prp REMOVE:477
 "<и>"
 	"и" cnjcoo
@@ -3032,7 +3032,7 @@
 	"армия" n f nn sg acc
 "<Вильгельма>"
 	"Вильгельм" np ant m sg acc
-	"Вильгельм" np ant m an sg gen
+	"Вильгельм" np ant m sg gen
 "<,>"
 	"," cm
 "<предпочёл>"

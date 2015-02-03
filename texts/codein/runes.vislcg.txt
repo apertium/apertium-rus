@@ -570,7 +570,7 @@
 	"Европа" np al f nn pl nom
 	"Европа" np al f nn sg gen
 	"Европа" np ant f pl nom
-	"Европа" np ant f an sg gen
+	"Европа" np ant f sg gen
 "<руны>"
 	"руна¹⁻²" n f nn pl acc
 	"руна¹⁻²" n f nn pl nom
@@ -1608,7 +1608,7 @@
 	"использовать" vblex impf tv past mfn pl pass
 "<ещё>"
 	"ещё" adv
-	"ещё" part
+	"ещё" adv
 "<в>"
 	"в" pr
 "<I>"

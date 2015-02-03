@@ -7,7 +7,7 @@
 ;	"год" n m nn sg dat REMOVE:416
 "<Афины>"
 	"Афина" np ant f pl nom
-	"Афина" np ant f an sg gen
+	"Афина" np ant f sg gen
 	"Афины" np al f nn pl acc
 	"Афины" np al f nn pl nom
 "<провозглашены>"
@@ -69,7 +69,7 @@
 	"Афины" np al f nn pl acc
 ;	"Афина" np ant f pl nom REMOVE:376
 ;	"Афины" np al f nn pl nom REMOVE:376
-;	"Афина" np ant f an sg gen REMOVE:382
+;	"Афина" np ant f sg gen REMOVE:382
 "<прибыл>"
 	"прибыть" vblex perf iv past m sg
 ;	"прибылой" adj short m sg prb REMOVE:827
@@ -82,7 +82,7 @@
 "<король>"
 	"король" n m aa sg nom
 "<Оттон>"
-	"Оттон" np ant m an sg nom
+	"Оттон" np ant m sg nom
 "<Баварский>"
 	"баварский" adj m an sg nom
 	"баварский" adj m nn sg acc
@@ -160,20 +160,20 @@
 	"Афины" np al f nn pl acc
 ;	"Афина" np ant f pl nom REMOVE:376
 ;	"Афины" np al f nn pl nom REMOVE:376
-;	"Афина" np ant f an sg gen REMOVE:382
+;	"Афина" np ant f sg gen REMOVE:382
 "<Лео>"
 	"Лео" np ant m pl acc
-	"Лео" np ant m an sg nom
+	"Лео" np ant m sg nom
 	"Лео" np ant m pl gen
 	"Лео" np ant m pl ins
 	"Лео" np ant m pl nom
 	"Лео" np ant m pl prp
 	"Лео" np ant m sg acc
-	"Лео" np ant m an sg prp
-	"Лео" np ant m an sg gen
-	"Лео" np ant m an sg ins
+	"Лео" np ant m sg prp
+	"Лео" np ant m sg gen
+	"Лео" np ant m sg ins
 ;	"Лео" np ant m pl dat REMOVE:667
-;	"Лео" np ant m an sg dat REMOVE:667
+;	"Лео" np ant m sg dat REMOVE:667
 "<фон>"
 	"фон¹⁻²" n m nn sg acc
 	"фон¹⁻²" n m nn sg nom
@@ -196,7 +196,7 @@
 ;	"и¹" ij REMOVE:768
 ;	"и" adv REMOVE:772
 "<Теофил>"
-	"Теофил" np ant m an sg nom
+	"Теофил" np ant m sg nom
 "<фон>"
 	"фон¹⁻²" n m nn sg acc
 	"фон¹⁻²" n m nn sg nom
@@ -515,38 +515,38 @@
 	"." sent
 
 "<По>"
-	"По²" np cog f an sg acc
+	"По²" np cog f sg acc
 	"По²" np cog mfn an pl nom
 	"По¹" np al f nn pl ins
-	"По²" np cog f an sg ins
+	"По²" np cog f sg ins
 	"По²" np cog mfn an pl ins
-	"По²" np cog f an sg nom
+	"По²" np cog f sg nom
 	"По¹" np al f nn pl nom
 	"По²" np cog m sg acc
 	"По¹" np al f nn sg nom
 	"по" pr
-	"По²" np cog m an sg ins
-	"По²" np cog m an sg nom
+	"По²" np cog m sg ins
+	"По²" np cog m sg nom
 	"По¹" np al f nn sg ins
 	"По²" np cog mfn an pl acc
 	"По¹" np al f nn pl acc
 	"По¹" np al f nn sg acc
 ;	"По²" np cog f sg prp REMOVE:333
-;	"По²" np cog m an sg prp REMOVE:333
+;	"По²" np cog m sg prp REMOVE:333
 ;	"По²" np cog mfn an pl prp REMOVE:333
 ;	"По¹" np al f nn pl prp REMOVE:333
 ;	"По¹" np al f nn sg prp REMOVE:333
-;	"По²" np cog f an sg gen REMOVE:598
+;	"По²" np cog f sg gen REMOVE:598
 ;	"По¹" np al f nn sg gen REMOVE:598
-;	"По²" np cog m an sg gen REMOVE:598
+;	"По²" np cog m sg gen REMOVE:598
 ;	"По²" np cog mfn an pl gen REMOVE:598
 ;	"По¹" np al f nn pl gen REMOVE:598
 ;	"По²" np cog f sg dat REMOVE:667
-;	"По²" np cog m an sg dat REMOVE:667
+;	"По²" np cog m sg dat REMOVE:667
 ;	"По²" np cog mfn an pl dat REMOVE:667
 ;	"По¹" np al f nn pl dat REMOVE:667
 ;	"По¹" np al f nn sg dat REMOVE:667
-;	"По²" np cog f an sg ins fac REMOVE:829
+;	"По²" np cog f sg ins fac REMOVE:829
 "<Севрскому>"
 	"севрский" adj m an sg dat
 	"севрский" adj nt an sg dat
@@ -675,7 +675,7 @@
 ;	"а¹" ij REMOVE:803
 "<Афины>"
 	"Афина" np ant f pl nom
-	"Афина" np ant f an sg gen
+	"Афина" np ant f sg gen
 	"Афины" np al f nn pl acc
 	"Афины" np al f nn pl nom
 "<очень>"
@@ -743,7 +743,7 @@
 	"война" n f nn sg gen
 "<Афины>"
 	"Афина" np ant f pl nom
-	"Афина" np ant f an sg gen
+	"Афина" np ant f sg gen
 	"Афины" np al f nn pl acc
 	"Афины" np al f nn pl nom
 "<оккупировали>"
@@ -1100,7 +1100,7 @@
 	"градус" n m nn pl gen
 "<Цельсия>"
 	"Цельсий" np ant m sg acc
-	"Цельсий" np ant m an sg gen
+	"Цельсий" np ant m sg gen
 "<.>"
 	"." sent
 
@@ -1174,7 +1174,7 @@
 	"накануне" pr
 "<Олимпиады>"
 	"Олимпиада" np ant f pl nom
-	"Олимпиада" np ant f an sg gen
+	"Олимпиада" np ant f sg gen
 	"олимпиада" n f nn pl acc
 	"олимпиада" n f nn pl nom
 	"олимпиада" n f nn sg gen
@@ -1207,7 +1207,7 @@
 ;	"современный" adj mfn nn pl acc REMOVE:478
 "<Афины>"
 	"Афина" np ant f pl nom
-	"Афина" np ant f an sg gen
+	"Афина" np ant f sg gen
 	"Афины" np al f nn pl acc
 	"Афины" np al f nn pl nom
 "<—>"
@@ -1362,7 +1362,7 @@
 	"весь¹" det all f an sg acc
 "<Европу>"
 	"Европа" np al f nn sg acc
-	"Европа" np ant f an sg acc
+	"Европа" np ant f sg acc
 "<.>"
 	"." sent
 
@@ -1470,7 +1470,7 @@
 ;	"год" n m nn sg dat REMOVE:416
 "<Афины>"
 	"Афина" np ant f pl nom
-	"Афина" np ant f an sg gen
+	"Афина" np ant f sg gen
 	"Афины" np al f nn pl acc
 	"Афины" np al f nn pl nom
 "<стали>"

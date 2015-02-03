@@ -326,7 +326,7 @@
 ;	"год" n m nn pl acc SELECT:417
 ;	"год" n m nn pl nom SELECT:417
 "<Кристиан>"
-	"Кристиан" np ant m an sg nom
+	"Кристиан" np ant m sg nom
 "<Барнард>"
 	"*Барнард"
 "<(>"
@@ -420,7 +420,7 @@
 	"летний" adj m an sg dat
 	"летний" adj nt an sg dat
 "<Луису>"
-	"Луис" np ant m an sg dat
+	"Луис" np ant m sg dat
 "<Вашканскому>"
 	"*Вашканскому"
 "<,>"
@@ -615,13 +615,13 @@
 	"держать" vblex impf tv pres p3 sg
 "<Тони>"
 	"Тоня" np ant f pl nom
-	"Тоня" np ant f an sg gen
+	"Тоня" np ant f sg gen
 	"тоня" n f nn pl nom
 	"тоня" n f nn sg gen
 	"тонуть" vblex impf iv imp p2 sg
 	"тоня" n f nn pl acc
 ;	"Тоня" np ant m pl nom fac REMOVE:842
-;	"Тоня" np ant m an sg gen fac REMOVE:842
+;	"Тоня" np ant m sg gen fac REMOVE:842
 "<Хьюзман>"
 	"*Хьюзман"
 "<—>"

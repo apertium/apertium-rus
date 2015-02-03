@@ -615,17 +615,17 @@
 ;	"учёный" adj m nn sg acc
 	"учёный" n m aa sg nom
 "<Алан>"
-	"Алан" np ant m an sg nom
+	"Алан" np ant m sg nom
 ;	"алан" n m aa sg nom
 ;	"алан" n m aa pl gen fac REMOVE:913
 "<Тьюринг>"
-;	"Тьюринг" np cog f an sg acc
+;	"Тьюринг" np cog f sg acc
 ;	"Тьюринг" np cog f sg dat
-;	"Тьюринг" np cog f an sg gen
-;	"Тьюринг" np cog f an sg ins
-;	"Тьюринг" np cog f an sg nom
+;	"Тьюринг" np cog f sg gen
+;	"Тьюринг" np cog f sg ins
+;	"Тьюринг" np cog f sg nom
 ;	"Тьюринг" np cog f sg prp
-	"Тьюринг" np cog m an sg nom
+	"Тьюринг" np cog m sg nom
 "<,>"
 	"," cm
 "<пишет>"
@@ -751,7 +751,7 @@
 ;	"тесто" n nt nn sg gen
 "<Тьюринга>"
 ;	"Тьюринг" np cog m sg acc
-	"Тьюринг" np cog m an sg gen
+	"Тьюринг" np cog m sg gen
 "<.>"
 	"." sent
 ¶
@@ -801,11 +801,11 @@
 "<советник>"
 	"советник" n m aa sg nom
 "<Семён>"
-	"Семён" np ant m an sg nom
+	"Семён" np ant m sg nom
 "<Николаевич>"
 	"Николаевич" np pat m an sg nom
 "<Корсаков>"
-	"Корсаков" np cog m an sg nom
+	"Корсаков" np cog m sg nom
 ;	"корсак" n m aa pl acc
 ;	"корсак" n m aa pl gen
 "<(>"
@@ -911,7 +911,7 @@
 "<Н.>"
 	"Н." abbr
 "<Корсаков>"
-	"Корсаков" np cog m an sg nom
+	"Корсаков" np cog m sg nom
 ;	"корсак" n m aa pl acc
 ;	"корсак" n m aa pl gen
 "<опубликовал>"
@@ -1041,7 +1041,7 @@
 "<машин>"
 	"машина" n f nn pl gen
 "<Корсаков>"
-	"Корсаков" np cog m an sg nom
+	"Корсаков" np cog m sg nom
 ;	"корсак" n m aa pl acc
 ;	"корсак" n m aa pl gen
 "<впервые>"
@@ -1257,9 +1257,9 @@
 	"возглавить" vblex perf tv pp pasv mfn an pl gen
 ;	"возглавить" vblex perf tv pp pasv mfn an pl prp REMOVE:458
 "<Вениамином>"
-	"Вениамин" np ant m an sg ins
+	"Вениамин" np ant m sg ins
 "<Пушкиным>"
-	"Пушкин" np cog m an sg ins SELECT:476
+	"Пушкин" np cog m sg ins SELECT:476
 ;	"Пушкин" np cog mfn an pl dat SELECT:476
 "<и>"
 	"и" cnjcoo
@@ -1282,7 +1282,7 @@
 "<А.>"
 	"А." abbr
 "<Поспеловым>"
-	"Поспелов" np cog m an sg ins
+	"Поспелов" np cog m sg ins
 ;	"Поспелов" np cog mfn an pl dat
 "<.>"
 	"." sent
@@ -1312,11 +1312,11 @@
 ;	"логика" n f nn sg nom
 "<Сергея>"
 ;	"Сергей" np ant m sg acc
-	"Сергей" np ant m an sg gen
+	"Сергей" np ant m sg gen
 "<Маслова>"
-;	"Маслов" np cog f an sg nom
+;	"Маслов" np cog f sg nom
 ;	"Маслов" np cog m sg acc
-	"Маслов" np cog m an sg gen
+	"Маслов" np cog m sg gen
 "<«>"
 	"«" lquot
 "<Обратный>"
@@ -1462,7 +1462,7 @@
 ;	"Ия²" np al f nn pl nom
 ;	"Ия²" np al f nn sg gen
 ;	"Ия¹" np ant f pl nom
-;	"Ия¹" np ant f an sg gen
+;	"Ия¹" np ant f sg gen
 	"ИИ" abbr
 "<велись>"
 	"вести" vblex impf tv past mfn pl pass
@@ -1481,26 +1481,26 @@
 "<По>"
 	"по" pr
 ;	"По²" np cog f sg prp REMOVE:355
-;	"По²" np cog m an sg prp REMOVE:355
+;	"По²" np cog m sg prp REMOVE:355
 ;	"По²" np cog mfn an pl prp REMOVE:355
 ;	"По¹" np al f nn pl prp REMOVE:355
 ;	"По¹" np al f nn sg prp REMOVE:355
-;	"По²" np cog f an sg gen REMOVE:626
+;	"По²" np cog f sg gen REMOVE:626
 ;	"По¹" np al f nn sg gen REMOVE:626
-;	"По²" np cog m an sg gen REMOVE:626
+;	"По²" np cog m sg gen REMOVE:626
 ;	"По²" np cog mfn an pl gen REMOVE:626
 ;	"По¹" np al f nn pl gen REMOVE:626
-;	"По²" np cog f an sg acc REMOVE:901
+;	"По²" np cog f sg acc REMOVE:901
 ;	"По²" np cog f sg dat REMOVE:901
 ;	"По¹" np al f nn pl ins REMOVE:901
-;	"По²" np cog f an sg ins REMOVE:901
-;	"По²" np cog f an sg ins fac REMOVE:901
-;	"По²" np cog f an sg nom REMOVE:901
+;	"По²" np cog f sg ins REMOVE:901
+;	"По²" np cog f sg ins fac REMOVE:901
+;	"По²" np cog f sg nom REMOVE:901
 ;	"По¹" np al f nn pl nom REMOVE:901
 ;	"По²" np cog m sg acc REMOVE:901
-;	"По²" np cog m an sg dat REMOVE:901
-;	"По²" np cog m an sg ins REMOVE:901
-;	"По²" np cog m an sg nom REMOVE:901
+;	"По²" np cog m sg dat REMOVE:901
+;	"По²" np cog m sg ins REMOVE:901
+;	"По²" np cog m sg nom REMOVE:901
 ;	"По¹" np al f nn sg ins REMOVE:901
 ;	"По²" np cog mfn an pl acc REMOVE:901
 ;	"По²" np cog mfn an pl dat REMOVE:901
@@ -1518,9 +1518,9 @@
 "<А.>"
 	"А." abbr
 "<Поспелова>"
-;	"Поспелов" np cog f an sg nom
+;	"Поспелов" np cog f sg nom
 ;	"Поспелов" np cog m sg acc
-	"Поспелов" np cog m an sg gen
+	"Поспелов" np cog m sg gen
 "<,>"
 	"," cm
 "<науки>"
