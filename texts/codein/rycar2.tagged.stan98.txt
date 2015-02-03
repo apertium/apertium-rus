@@ -1591,7 +1591,7 @@
 ¶
 
 "<Во>"
-	"в" pr epenth epenth SELECT:981
+	"в" pr epenth SELECT:981
 ;	"во" ij SELECT:981
 ;	"во" part SELECT:981
 "<Франции>"
