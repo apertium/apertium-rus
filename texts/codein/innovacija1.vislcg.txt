@@ -2536,8 +2536,8 @@
 	"использовать" vblex perf tv fut p3 sg
 "<что-то>"
 	"что-то²" adv
-	"что-то¹" prn def nt an sg acc
-	"что-то¹" prn def nt an sg nom
+	"что-то¹" prn def nt nn sg acc
+	"что-то¹" prn def nt nn sg nom
 "<уже>"
 	"узкий" adj comp pred
 	"уже" adv
