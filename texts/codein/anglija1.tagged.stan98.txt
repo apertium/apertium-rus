@@ -1822,8 +1822,8 @@
 ;	"её" det pos mfn aa pl acc REMOVE:737
 ;	"её" det pos mfn nn pl acc REMOVE:737
 ;	"её" det pos mfn an pl dat REMOVE:737
-;	"она" prn pers p3 f an sg acc REMOVE:416
-;	"она" prn pers p3 f an sg gen REMOVE:443
+;	"она" prn pers p3 f sg acc REMOVE:416
+;	"она" prn pers p3 f sg gen REMOVE:443
 ;	"её" det pos mfn an pl gen SELECT:668
 "<распада>"
 	"распад" n m nn sg gen
@@ -2971,7 +2971,7 @@
 ;	"но" n nt nn sg ins REMOVE:993
 ;	"но" n nt nn sg nom REMOVE:993
 "<он>"
-	"он¹" prn pers p3 m an sg nom
+	"он¹" prn pers p3 m sg nom
 ;	"он²" n nt nn pl acc REMOVE:929
 ;	"он²" n nt nn pl dat REMOVE:929
 ;	"он²" n nt nn pl gen REMOVE:929

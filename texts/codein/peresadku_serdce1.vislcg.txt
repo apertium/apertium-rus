@@ -627,7 +627,7 @@
 "<—>"
 	"—" guio
 "<он>"
-	"он¹" prn pers p3 m an sg nom
+	"он¹" prn pers p3 m sg nom
 ;	"он²" n nt nn pl acc REMOVE:812
 ;	"он²" n nt nn pl dat REMOVE:812
 ;	"он²" n nt nn pl gen REMOVE:812

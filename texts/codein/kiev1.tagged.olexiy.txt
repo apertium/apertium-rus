@@ -1421,7 +1421,7 @@
 	"," cm
 "<оно>"
 ;	"оно" part
-	"оно" prn pers p3 nt an sg nom
+	"оно" prn pers p3 nt sg nom
 "<было>"
 	"быть" vblex impf iv past nt sg
 ;	"было" part REMOVE:819
@@ -1445,10 +1445,10 @@
 	"либо" cnjcoo
 "<его>"
 	"его" det pos nt an sg ins
-;	"он¹" prn pers p3 m an sg gen
+;	"он¹" prn pers p3 m sg gen
 ;	"его" det pos mfn an pl ins
-;	"оно" prn pers p3 nt an sg gen
-;	"оно" prn pers p3 nt an sg acc
+;	"оно" prn pers p3 nt sg gen
+;	"оно" prn pers p3 nt sg acc
 ;	"он¹" prn pers p3 m sg acc
 ;	"его" det pos f an sg prp REMOVE:432
 ;	"его" det pos m an sg prp REMOVE:432
@@ -2401,10 +2401,10 @@
 "<его>"
 ;	"его" det pos mfn aa pl acc
 ;	"его" det pos mfn nn pl acc
-;	"оно" prn pers p3 nt an sg acc
-;	"оно" prn pers p3 nt an sg gen
+;	"оно" prn pers p3 nt sg acc
+;	"оно" prn pers p3 nt sg gen
 ;	"он¹" prn pers p3 m sg acc
-;	"он¹" prn pers p3 m an sg gen
+;	"он¹" prn pers p3 m sg gen
 	"его" det pos m aa sg acc
 ;	"его" det pos m nn sg acc
 ;	"его" det pos mfn an pl gen
@@ -2778,9 +2778,9 @@
 "<,>"
 	"," cm
 "<им>"
-;	"он¹" prn pers p3 m an sg ins
+;	"он¹" prn pers p3 m sg ins
 ;	"они" prn pers p3 pl dat
-	"оно" prn pers p3 nt an sg ins
+	"оно" prn pers p3 nt sg ins
 "<продолжали>"
 	"продолжать" vblex impf iv past mfn pl
 ;	"продолжать" vblex impf tv past mfn pl
@@ -2872,9 +2872,9 @@
 "<В>"
 	"в" pr
 "<ней>"
-	"она" prn pers p3 f an sg prp
+	"она" prn pers p3 f sg prp
 ;	"она" prn pers p3 f sg dat pobj REMOVE:382
-;	"она" prn pers p3 f an sg ins pobj REMOVE:382
+;	"она" prn pers p3 f sg ins pobj REMOVE:382
 "<великий>"
 	"великий" adj m an sg nom
 ;	"великий" adj m nn sg acc
@@ -2983,9 +2983,9 @@
 ;	"его" det pos nt an sg nom
 ;	"его" det pos nt sg prp
 ;	"он¹" prn pers p3 m sg acc
-;	"он¹" prn pers p3 m an sg gen
-;	"оно" prn pers p3 nt an sg acc
-;	"оно" prn pers p3 nt an sg gen
+;	"он¹" prn pers p3 m sg gen
+;	"оно" prn pers p3 nt sg acc
+;	"оно" prn pers p3 nt sg gen
 "<новым>"
 ;	"новое" n nt nn pl dat
 ;	"новое" n nt nn sg ins

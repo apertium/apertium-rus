@@ -40,7 +40,7 @@
 	"." sent
 
 "<Она>"
-	"она" prn pers p3 f an sg nom
+	"она" prn pers p3 f sg nom
 "<занимает>"
 	"занимать¹⁻²" vblex impf iv pres p3 sg
 	"занимать¹⁻²" vblex impf tv pres p3 sg
@@ -864,7 +864,7 @@
 "<,>"
 	"," cm
 "<она>"
-	"она" prn pers p3 f an sg nom
+	"она" prn pers p3 f sg nom
 "<состоит>"
 	"состоять" vblex impf iv pres p3 sg
 "<в>"
@@ -1486,7 +1486,7 @@
 	"он¹" prn pers p3 m sg acc
 	"его" det pos mfn aa pl acc
 	"его" det pos mfn nn pl acc
-	"оно" prn pers p3 nt an sg acc
+	"оно" prn pers p3 nt sg acc
 ;	"его" det pos f an sg prp REMOVE:673
 ;	"его" det pos m an sg prp REMOVE:673
 ;	"его" det pos mfn an pl prp REMOVE:673
@@ -1510,8 +1510,8 @@
 ;	"его" det pos mfn an pl gen REMOVE:689
 ;	"его" det pos mfn an pl ins REMOVE:689
 ;	"его" det pos mfn an pl nom REMOVE:689
-;	"он¹" prn pers p3 m an sg gen REMOVE:697
-;	"оно" prn pers p3 nt an sg gen REMOVE:697
+;	"он¹" prn pers p3 m sg gen REMOVE:697
+;	"оно" prn pers p3 nt sg gen REMOVE:697
 "<форму>"
 	"форма" n f nn sg acc
 "<,>"
@@ -1701,7 +1701,7 @@
 "<наблюдениям>"
 	"наблюдение" n nt nn pl dat
 "<он>"
-	"он¹" prn pers p3 m an sg nom
+	"он¹" prn pers p3 m sg nom
 ;	"он²" n nt nn pl prp REMOVE:434
 ;	"он²" n nt nn sg prp REMOVE:434
 ;	"он²" n nt nn pl acc REMOVE:799
@@ -2026,11 +2026,11 @@
 	"счёты" n m nn pl gen
 ;	"счёт" n m nn pl gen prb REMOVE:827
 "<его>"
-	"оно" prn pers p3 nt an sg gen
+	"оно" prn pers p3 nt sg gen
 	"его" det pos mfn an pl gen
-	"он¹" prn pers p3 m an sg gen
+	"он¹" prn pers p3 m sg gen
 	"его" det pos mfn an pl nom
-	"оно" prn pers p3 nt an sg acc
+	"оно" prn pers p3 nt sg acc
 	"он¹" prn pers p3 m sg acc
 	"его" det pos nt an sg acc
 	"его" det pos mfn aa pl acc
@@ -2260,9 +2260,9 @@
 "<покрытии>"
 	"покрытие" n nt nn sg prp
 "<им>"
-	"он¹" prn pers p3 m an sg ins
+	"он¹" prn pers p3 m sg ins
 	"они" prn pers p3 pl dat
-	"оно" prn pers p3 nt an sg ins
+	"оно" prn pers p3 nt sg ins
 "<звезды>"
 	"звезда" n f aa pl nom
 	"звезда" n f aa sg gen
@@ -2355,9 +2355,9 @@
 ;	"её" det pos mfn an pl nom REMOVE:376
 ;	"её" det pos mfn nn pl acc REMOVE:378
 ;	"её" det pos mfn aa pl acc REMOVE:378
-;	"она" prn pers p3 f an sg acc REMOVE:378
+;	"она" prn pers p3 f sg acc REMOVE:378
 ;	"её" det pos nt an sg acc REMOVE:378
-;	"она" prn pers p3 f an sg gen REMOVE:401
+;	"она" prn pers p3 f sg gen REMOVE:401
 ;	"её" det pos mfn an pl gen SELECT:616
 "<покрытия>"
 	"покрытие" n nt nn sg gen

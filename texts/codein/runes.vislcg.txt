@@ -1958,10 +1958,10 @@
 ;	"его" det pos mfn aa pl acc REMOVE:393
 ;	"его" det pos mfn an pl gen REMOVE:393
 ;	"его" det pos mfn nn pl acc REMOVE:393
-;	"оно" prn pers p3 nt an sg acc REMOVE:393
-;	"оно" prn pers p3 nt an sg gen REMOVE:393
+;	"оно" prn pers p3 nt sg acc REMOVE:393
+;	"оно" prn pers p3 nt sg gen REMOVE:393
 ;	"он¹" prn pers p3 m sg acc REMOVE:393
-;	"он¹" prn pers p3 m an sg gen REMOVE:393
+;	"он¹" prn pers p3 m sg gen REMOVE:393
 "<подлинности>"
 	"подлинность" n f nn pl acc
 	"подлинность" n f nn pl nom
@@ -2531,7 +2531,7 @@
 	"." sent
 
 "<Он>"
-	"он¹" prn pers p3 m an sg nom
+	"он¹" prn pers p3 m sg nom
 ;	"он²" n nt nn pl prp REMOVE:333
 ;	"он²" n nt nn sg prp REMOVE:333
 ;	"он²" n nt nn pl gen REMOVE:598

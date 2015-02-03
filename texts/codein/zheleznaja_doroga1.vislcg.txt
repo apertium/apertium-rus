@@ -139,7 +139,7 @@
 ;	"который" prn rel nt an sg ins REMOVE:408
 ;	"который" det itg mfn an pl dat REMOVE:697
 "<он>"
-	"он¹" prn pers p3 m an sg nom
+	"он¹" prn pers p3 m sg nom
 ;	"он²" n nt nn pl acc REMOVE:867
 ;	"он²" n nt nn pl dat REMOVE:867
 ;	"он²" n nt nn pl gen REMOVE:867
@@ -518,10 +518,10 @@
 "<его>"
 	"его" det pos m an sg ins
 	"его" det pos mfn an pl ins
-	"оно" prn pers p3 nt an sg acc
-	"оно" prn pers p3 nt an sg gen
+	"оно" prn pers p3 nt sg acc
+	"оно" prn pers p3 nt sg gen
 	"он¹" prn pers p3 m sg acc
-	"он¹" prn pers p3 m an sg gen
+	"он¹" prn pers p3 m sg gen
 ;	"его" det pos f an sg acc REMOVE:705
 ;	"его" det pos f sg dat REMOVE:705
 ;	"его" det pos f an sg gen REMOVE:705
@@ -849,8 +849,8 @@
 	"считать¹" vblex impf tv pres p3 sg pass
 	"считаться" vblex impf iv pres p3 sg
 "<её>"
-	"она" prn pers p3 f an sg gen
-	"она" prn pers p3 f an sg acc
+	"она" prn pers p3 f sg gen
+	"она" prn pers p3 f sg acc
 	"её" det pos m an sg ins
 	"её" det pos mfn an pl ins
 ;	"её" det pos f an sg prp REMOVE:456

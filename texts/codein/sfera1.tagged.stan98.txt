@@ -467,9 +467,9 @@
 	"в" pr
 "<него>"
 	"он¹" prn pers p3 m sg acc pobj @P← MAP:739
-;	"оно" prn pers p3 nt an sg acc pobj @P← MAP:739
-;	"он¹" prn pers p3 m an sg gen pobj REMOVE:387
-;	"оно" prn pers p3 nt an sg gen pobj REMOVE:387
+;	"оно" prn pers p3 nt sg acc pobj @P← MAP:739
+;	"он¹" prn pers p3 m sg gen pobj REMOVE:387
+;	"оно" prn pers p3 nt sg gen pobj REMOVE:387
 "<сферы>"
 ;	"сфера" n f nn pl acc
 ;	"сфера" n f nn pl nom
@@ -491,11 +491,11 @@
 ;	"обой" num ord mfn an pl gen
 ;	"обой" num ord mfn an pl prp
 "<его>"
-;	"оно" prn pers p3 nt an sg acc
-;	"оно" prn pers p3 nt an sg gen
+;	"оно" prn pers p3 nt sg acc
+;	"оно" prn pers p3 nt sg gen
 	"его" det pos mfn an pl gen
 ;	"он¹" prn pers p3 m sg acc
-;	"он¹" prn pers p3 m an sg gen
+;	"он¹" prn pers p3 m sg gen
 ;	"его" det pos nt an sg gen
 ;	"его" det pos f an sg acc REMOVE:688
 ;	"его" det pos f sg dat REMOVE:688
@@ -1292,7 +1292,7 @@
 ;	"он¹" prn pers p3 m sg acc
 	"его" det pos f an sg prp
 ;	"его" det pos mfn an pl prp
-;	"оно" prn pers p3 nt an sg acc
+;	"оно" prn pers p3 nt sg acc
 ;	"его" det pos m aa sg acc REMOVE:688
 ;	"его" det pos m nn sg acc REMOVE:688
 ;	"его" det pos m an sg dat REMOVE:688
@@ -1317,8 +1317,8 @@
 ;	"его" det pos mfn nn pl acc REMOVE:694
 ;	"его" det pos mfn an pl dat REMOVE:694
 ;	"его" det pos mfn an pl gen REMOVE:694
-;	"он¹" prn pers p3 m an sg gen REMOVE:387
-;	"оно" prn pers p3 nt an sg gen REMOVE:387
+;	"он¹" prn pers p3 m sg gen REMOVE:387
+;	"оно" prn pers p3 nt sg gen REMOVE:387
 "<системе>"
 	"система" n f nn sg prp
 ;	"система" n f nn sg dat REMOVE:672
@@ -1337,7 +1337,7 @@
 "<,>"
 	"," cm
 "<он>"
-	"он¹" prn pers p3 m an sg nom
+	"он¹" prn pers p3 m sg nom
 ;	"он²" n nt nn pl prp REMOVE:437
 ;	"он²" n nt nn sg prp REMOVE:437
 ;	"он²" n nt nn pl acc REMOVE:812
@@ -1508,9 +1508,9 @@
 	"вокруг" pr
 "<него>"
 ;	"он¹" prn pers p3 m sg acc pobj @P← MAP:739
-	"он¹" prn pers p3 m an sg gen pobj @P← MAP:739
-;	"оно" prn pers p3 nt an sg acc pobj @P← MAP:739
-;	"оно" prn pers p3 nt an sg gen pobj @P← MAP:739
+	"он¹" prn pers p3 m sg gen pobj @P← MAP:739
+;	"оно" prn pers p3 nt sg acc pobj @P← MAP:739
+;	"оно" prn pers p3 nt sg gen pobj @P← MAP:739
 "<сферической>"
 	"сферический" adj f an sg ins
 ;	"сферический" adj f an sg dat REMOVE:477
@@ -1615,7 +1615,7 @@
 ;	"что¹" prn rel nt an sg acc SELECT:469
 ;	"что¹" prn rel nt an sg nom SELECT:469
 "<он>"
-	"он¹" prn pers p3 m an sg nom
+	"он¹" prn pers p3 m sg nom
 ;	"он²" n nt nn pl prp REMOVE:437
 ;	"он²" n nt nn sg prp REMOVE:437
 ;	"он²" n nt nn pl acc REMOVE:812

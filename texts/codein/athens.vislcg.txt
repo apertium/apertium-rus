@@ -1197,7 +1197,7 @@
 ;	"но" n nt nn sg dat REMOVE:667
 ;	"но²" ij REMOVE:817
 "<она>"
-	"она" prn pers p3 f an sg nom
+	"она" prn pers p3 f sg nom
 "<оказалась>"
 	"оказаться" vblex perf iv past f sg
 "<морской>"
@@ -1297,8 +1297,8 @@
 	"выбрать" vblex perf iv past m sg
 	"выбрать" vblex perf tv past m sg
 "<её>"
-	"она" prn pers p3 f an sg gen
-	"она" prn pers p3 f an sg acc
+	"она" prn pers p3 f sg gen
+	"она" prn pers p3 f sg acc
 ;	"её" det pos f an sg prp REMOVE:432
 ;	"её" det pos m an sg prp REMOVE:432
 ;	"её" det pos mfn an pl prp REMOVE:432
@@ -2278,7 +2278,7 @@
 ;	"и¹" ij REMOVE:768
 ;	"и" adv REMOVE:772
 "<он>"
-	"он¹" prn pers p3 m an sg nom
+	"он¹" prn pers p3 m sg nom
 ;	"он²" n nt nn pl acc REMOVE:799
 ;	"он²" n nt nn pl dat REMOVE:799
 ;	"он²" n nt nn pl gen REMOVE:799

@@ -1247,10 +1247,10 @@
 	"привязывать" vblex impf iv inf
 	"привязывать" vblex impf tv inf
 "<его>"
-	"он¹" prn pers p3 m an sg gen
+	"он¹" prn pers p3 m sg gen
 	"он¹" prn pers p3 m sg acc
-	"оно" prn pers p3 nt an sg acc
-	"оно" prn pers p3 nt an sg gen
+	"оно" prn pers p3 nt sg acc
+	"оно" prn pers p3 nt sg gen
 ;	"его" det pos f an sg prp REMOVE:475
 ;	"его" det pos m an sg prp REMOVE:475
 ;	"его" det pos mfn an pl prp REMOVE:475
@@ -1883,14 +1883,14 @@
 	"её" det pos m an sg gen
 	"её" det pos m an sg ins
 	"её" det pos m an sg nom
-	"она" prn pers p3 f an sg gen
+	"она" prn pers p3 f sg gen
 	"её" det pos m nn sg acc
 	"её" det pos mfn aa pl acc
 	"её" det pos mfn an pl dat
 	"её" det pos mfn an pl gen
 	"её" det pos mfn an pl ins
 	"её" det pos mfn an pl nom
-	"она" prn pers p3 f an sg acc
+	"она" prn pers p3 f sg acc
 	"её" det pos mfn nn pl acc
 	"её" det pos nt an sg acc
 	"её" det pos nt an sg dat
@@ -2434,8 +2434,8 @@
 "<его>"
 	"его" det pos mfn an pl dat
 	"его" det pos m an sg dat
-	"он¹" prn pers p3 m an sg gen
-	"оно" prn pers p3 nt an sg gen
+	"он¹" prn pers p3 m sg gen
+	"оно" prn pers p3 nt sg gen
 ;	"его" det pos f an sg acc REMOVE:734
 ;	"его" det pos f an sg dat REMOVE:734
 ;	"его" det pos f an sg gen REMOVE:734
@@ -2460,7 +2460,7 @@
 ;	"его" det pos mfn an pl gen REMOVE:740
 ;	"его" det pos mfn an pl ins REMOVE:740
 ;	"его" det pos mfn an pl nom REMOVE:740
-;	"оно" prn pers p3 nt an sg acc REMOVE:859
+;	"оно" prn pers p3 nt sg acc REMOVE:859
 ;	"он¹" prn pers p3 m sg acc REMOVE:859
 "<воину>"
 	"воин" n m aa sg dat

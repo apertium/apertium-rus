@@ -86,16 +86,16 @@
 	"," cm
 "<его>"
 ;	"его" det pos f an sg acc
-;	"оно" prn pers p3 nt an sg gen
+;	"оно" prn pers p3 nt sg gen
 ;	"его" det pos f an sg gen
 ;	"его" det pos mfn aa pl acc
 ;	"его" det pos f an sg nom
 ;	"он¹" prn pers p3 m sg acc
-;	"он¹" prn pers p3 m an sg gen
+;	"он¹" prn pers p3 m sg gen
 ;	"его" det pos mfn an pl gen
 ;	"его" det pos mfn nn pl acc
 ;	"его" det pos mfn an pl nom
-;	"оно" prn pers p3 nt an sg acc
+;	"оно" prn pers p3 nt sg acc
 ;	"его" det pos f an sg prp REMOVE:477
 ;	"его" det pos m an sg prp REMOVE:477
 ;	"его" det pos mfn an pl prp REMOVE:477
@@ -1875,10 +1875,10 @@
 ;	"сравнить" vblex perf iv inf
 	"сравнить" vblex perf tv inf
 "<его>"
-;	"оно" prn pers p3 nt an sg gen
+;	"оно" prn pers p3 nt sg gen
 ;	"он¹" prn pers p3 m sg acc
-;	"он¹" prn pers p3 m an sg gen
-;	"оно" prn pers p3 nt an sg acc
+;	"он¹" prn pers p3 m sg gen
+;	"оно" prn pers p3 nt sg acc
 ;	"его" det pos f an sg prp REMOVE:475
 ;	"его" det pos m an sg prp REMOVE:475
 ;	"его" det pos mfn an pl prp REMOVE:475
@@ -2262,7 +2262,7 @@
 ;	"что¹" prn itg nt an sg acc SELECT:819
 ;	"что¹" prn itg nt an sg nom SELECT:819
 "<она>"
-	"она" prn pers p3 f an sg nom
+	"она" prn pers p3 f sg nom
 "<позволяет>"
 ;	"позволять" vblex impf iv pres p3 sg
 	"позволять" vblex impf tv pres p3 sg
@@ -2368,7 +2368,7 @@
 	"пока" cnjsub
 ;	"пока" part
 "<она>"
-	"она" prn pers p3 f an sg nom
+	"она" prn pers p3 f sg nom
 "<успешно>"
 	"успешно" adv
 ;	"успешный" adj short nt sg
@@ -2742,7 +2742,7 @@
 ;	"ли" n nt nn pl dat REMOVE:895
 ;	"ли" n nt nn sg dat REMOVE:895
 "<она>"
-	"она" prn pers p3 f an sg nom
+	"она" prn pers p3 f sg nom
 "<позитивный>"
 ;	"позитивный¹⁻²" adj m an sg nom
 	"позитивный¹⁻²" adj m nn sg acc

@@ -138,7 +138,7 @@
 	"вернуть" vblex perf iv inf
 	"вернуть" vblex perf tv inf
 "<ему>"
-	"он¹" prn pers p3 m an sg dat
+	"он¹" prn pers p3 m sg dat
 	"оно" prn pers p3 nt sg dat
 "<былое>"
 	"былое" n nt nn sg acc

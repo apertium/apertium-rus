@@ -125,11 +125,11 @@
 "<предпосылок>"
 	"предпосылка" n f nn pl gen
 "<его>"
-;	"оно" prn pers p3 nt an sg gen
+;	"оно" prn pers p3 nt sg gen
 ;	"его" det pos mfn an pl gen
-;	"он¹" prn pers p3 m an sg gen
+;	"он¹" prn pers p3 m sg gen
 ;	"его" det pos mfn an pl nom
-;	"оно" prn pers p3 nt an sg acc
+;	"оно" prn pers p3 nt sg acc
 ;	"он¹" prn pers p3 m sg acc
 ;	"его" det pos nt an sg acc
 ;	"его" det pos mfn aa pl acc
@@ -929,9 +929,9 @@
 	"изобрести" vblex perf tv pp pasv mfn an pl gen
 ;	"изобрести" vblex perf tv pp pasv mfn an pl prp
 "<им>"
-	"он¹" prn pers p3 m an sg ins
+	"он¹" prn pers p3 m sg ins
 ;	"они" prn pers p3 pl dat
-;	"оно" prn pers p3 nt an sg ins
+;	"оно" prn pers p3 nt sg ins
 "<механических>"
 ;	"механический" adj mfn aa pl acc
 	"механический" adj mfn an pl gen
@@ -1096,10 +1096,10 @@
 ;	"у²" n nt nn sg prp REMOVE:521
 ;	"у¹" ij REMOVE:885
 "<него>"
-;	"оно" prn pers p3 nt an sg gen pobj @P← MAP:791
-	"он¹" prn pers p3 m an sg gen pobj @P← MAP:791
+;	"оно" prn pers p3 nt sg gen pobj @P← MAP:791
+	"он¹" prn pers p3 m sg gen pobj @P← MAP:791
 ;	"он¹" prn pers p3 m sg acc pobj @P← MAP:791 REMOVE:403
-;	"оно" prn pers p3 nt an sg acc pobj @P← MAP:791 REMOVE:403
+;	"оно" prn pers p3 nt sg acc pobj @P← MAP:791 REMOVE:403
 "<своего>"
 ;	"свое" n nt nn sg gen
 ;	"свой" det pos m aa sg acc

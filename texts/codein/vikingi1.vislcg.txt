@@ -779,16 +779,16 @@
 ;	"его" det pos m an sg dat REMOVE:426
 ;	"его" det pos m an sg gen REMOVE:426
 ;	"его" det pos m an sg ins REMOVE:426
-;	"он¹" prn pers p3 m an sg gen REMOVE:426
+;	"он¹" prn pers p3 m sg gen REMOVE:426
 ;	"его" det pos mfn an pl dat REMOVE:426
 ;	"его" det pos mfn an pl gen REMOVE:426
 ;	"его" det pos mfn an pl ins REMOVE:426
 ;	"его" det pos nt an sg dat REMOVE:426
 ;	"его" det pos nt an sg gen REMOVE:426
 ;	"его" det pos nt an sg ins REMOVE:426
-;	"оно" prn pers p3 nt an sg gen REMOVE:426
+;	"оно" prn pers p3 nt sg gen REMOVE:426
 ;	"он¹" prn pers p3 m sg acc REMOVE:446
-;	"оно" prn pers p3 nt an sg acc REMOVE:446
+;	"оно" prn pers p3 nt sg acc REMOVE:446
 ;	"его" det pos f an sg acc REMOVE:517
 ;	"его" det pos m nn sg acc REMOVE:517
 ;	"его" det pos mfn aa pl acc REMOVE:517
@@ -2310,10 +2310,10 @@
 "<его>"
 	"его" det pos m an sg nom
 	"его" det pos mfn an pl nom
-	"оно" prn pers p3 nt an sg acc
-	"оно" prn pers p3 nt an sg gen
+	"оно" prn pers p3 nt sg acc
+	"оно" prn pers p3 nt sg gen
 	"он¹" prn pers p3 m sg acc
-	"он¹" prn pers p3 m an sg gen
+	"он¹" prn pers p3 m sg gen
 ;	"его" det pos f an sg acc REMOVE:734
 ;	"его" det pos f an sg dat REMOVE:734
 ;	"его" det pos f an sg gen REMOVE:734
@@ -2510,7 +2510,7 @@
 "<Её>"
 	"её" det pos f an sg ins
 	"её" det pos mfn an pl ins
-	"она" prn pers p3 f an sg gen
+	"она" prn pers p3 f sg gen
 ;	"её" det pos f an sg prp REMOVE:371
 ;	"её" det pos m an sg prp REMOVE:371
 ;	"её" det pos mfn an pl prp REMOVE:371
@@ -2535,7 +2535,7 @@
 ;	"её" det pos mfn an pl gen REMOVE:740
 ;	"её" det pos mfn an pl nom REMOVE:740
 ;	"её" det pos mfn nn pl acc REMOVE:740
-;	"она" prn pers p3 f an sg acc REMOVE:831
+;	"она" prn pers p3 f sg acc REMOVE:831
 "<кульминацией>"
 	"кульминация" n f nn sg ins
 "<стало>"
@@ -2652,9 +2652,9 @@
 ;	"его" det pos mfn aa pl acc REMOVE:419
 ;	"его" det pos mfn an pl dat REMOVE:419
 ;	"его" det pos mfn nn pl acc REMOVE:419
-;	"оно" prn pers p3 nt an sg acc REMOVE:419
-;	"он¹" prn pers p3 m an sg gen REMOVE:446
-;	"оно" prn pers p3 nt an sg gen REMOVE:446
+;	"оно" prn pers p3 nt sg acc REMOVE:419
+;	"он¹" prn pers p3 m sg gen REMOVE:446
+;	"оно" prn pers p3 nt sg gen REMOVE:446
 "<смерти>"
 	"смерть" n f nn pl acc
 	"смерть" n f nn pl nom
@@ -2831,7 +2831,7 @@
 	"год" n m nn sg loc
 ;	"год" n m nn sg dat REMOVE:461
 "<он>"
-	"он¹" prn pers p3 m an sg nom
+	"он¹" prn pers p3 m sg nom
 ;	"он²" n nt nn pl acc REMOVE:959
 ;	"он²" n nt nn pl dat REMOVE:959
 ;	"он²" n nt nn pl gen REMOVE:959
