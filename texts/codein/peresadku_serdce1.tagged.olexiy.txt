@@ -1022,7 +1022,8 @@
 "<как>"
 ;	"как" adv itg
 ;	"как" adv rel
-	"как" cnjcoo
+;	"как" cnjcoo
+	"как" cnjsub
 ;	"как" part
 "<более>"
 	"более" adv comp

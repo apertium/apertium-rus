@@ -2289,8 +2289,7 @@
 	"на" pr
 ;	"на" ij REMOVE:604
 "<территорию>"
-	"территория" n f nn sg prp
-;	"территория" n f nn sg acc
+	"территория" n f nn sg acc
 "<Уэльса>"
 	"Уэльс" np al m nn sg gen
 "<и>"
