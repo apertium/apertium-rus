@@ -147,6 +147,7 @@ LIST Pr/Meždu = ("между" pr) ;
 LIST Pr/Okolo = ("около" pr) ; 
 LIST Pr/Čerez = ("через" pr) ;
 LIST Pr/Protiv = ("против" pr) ;
+LIST Pr/Naprotiv = ("напротив" pr) ;
 LIST Pr/Nad = ("над" pr) ;
 LIST Pr/Bez = ("без" pr) ; 
 LIST Pr/Sredi = ("среди" pr) ;
@@ -157,6 +158,7 @@ LIST Pr/Krome = ("кроме" pr) ;
 LIST Pr/Vključaja = ("включая" pr) ; 
 LIST Pr/Soglasno = ("согласно" pr) ;
 LIST Pr/Pomimo = ("помимо" pr); 
+LIST Pr/Vnutri = ("внутри" pr) ;
 
 LIST Pr/Nado = ("<надо>"i pr) ;
 
@@ -234,7 +236,7 @@ LIST Ij/A = ("а¹" ij) ;
 LIST Ij/No = ("но²" ij) ; 
 
 LIST O = "о" ; 
-LIST Ja = "я" ; 
+LIST Ja = "я" "я¹" "я²" ; 
 LIST I = "и" ;
 LIST No = "но" ; 
 LIST Ne = "не" ; 
@@ -340,6 +342,8 @@ SET Prep/Ins = Pr/S | Pr/Nad | Pr/Pod | Pr/Meždu | Pr/Pered ;
 SET Prep/Acc = Pr/Na | Pr/V | Pr/Po | Pr/Pod | Pr/Čerez ; # complete
 
 SET Prep/Dat =  Pr/K | Pr/Soglasno | Pr/Po | Pr/Blagodarja ; 
+
+SET Prep/Gen = Pr/Protiv | Pr/Naprotiv | Pr/Vnutri ; # complete
 
 SET NBR = Sg | Pl ;
 
@@ -507,6 +511,8 @@ SECTION
 SELECT Pr (0 O) (1 Prp) ; 
 
 SELECT Pron IF (0 Ja) (-1 BOS OR CS) ; 
+
+SELECT Pron + Nom IF (0 Ja) (1* Fin + Sg1 BARRIER Fin) ;
 
 ## Heuristic operations 
 
@@ -860,6 +866,18 @@ SELECT Nom IF (0C Nom OR Acc) (-1C* Nom BARRIER NGDAIP - Nom - Acc LINK -1C* IV 
   #! В 1385 году великий князь литовский Ягайло Кревской унией обязался объединить в федеративное годударство Великое княжество Литовское и Королевство Польское в персональной унии в случав его избрания королем Польши.
 
 REMOVE Acc IF (NOT 1* TV) (NOT 0 AccAdv) (NOT -1* TV) (-1C* IV BARRIER Fin) (NOT -1* Prep/Acc BARRIER NGDAIP - Acc) ;
+
+SELECT Interr IF (0 Interr OR Rel) (-1 BOS) (1* Ques BARRIER CLB) ;
+  # Где Ваня ?
+
+SELECT Pr IF (0C Pr OR Adv) (0 Prep/Gen) (1 Gen) ;
+  # Они всегда играют вместе, напротив большого дома.
+
+REMOVE N + $$NGDAIP IF (0 A) (0 N) (1C N + $$NGDAIP) ;
+  # Ваня -- маленький мальчик шести лет.
+
+SELECT Gen IF (0C Ant) (0 Gen OR Nom) (-1 Pr/U) ;
+  # У Вани есть кошка.
 
 ###############################################################################
 # Syntax labelling rules
