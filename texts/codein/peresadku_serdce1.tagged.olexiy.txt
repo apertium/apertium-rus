@@ -379,11 +379,11 @@
 "<->"
 	"-" guio
 "<летней>"
-;	"летний" adj comp pred ng
+;	"летний" adj comp pred
 ;	"летний" adj f an sg dat
 	"летний" adj f an sg gen
 ;	"летний" adj f an sg ins
-;	"лётный" adj comp pred ng
+;	"лётный" adj comp pred
 ;;	"летний" adj f an sg prp REMOVE:437
 "<Денизы>"
 	"*Денизы"
@@ -396,7 +396,7 @@
 	"погибнуть" vblex perf iv pp actv f an sg gen
 ;	"погибнуть" vblex perf iv pp actv f an sg ins
 ;	"погибший" adj f an sg ins
-;	"погибший" adj comp pred ng
+;	"погибший" adj comp pred
 ;	"погибший" adj f an sg dat
 ;	"погибший" adj f an sg gen
 ;	"погибнуть" vblex perf iv pp actv f an sg prp REMOVE:437
@@ -513,7 +513,7 @@
 ;	"двусторонний" adj f an sg dat REMOVE:383
 ;	"двусторонний" adj f an sg ins REMOVE:383
 ;	"двусторонний" adj f an sg prp REMOVE:383
-;	"двусторонний" adj comp pred ng REMOVE:479
+;	"двусторонний" adj comp pred REMOVE:479
 "<пневмонии>"
 	"пневмония" n f nn sg gen
 ;	"пневмония" n f nn pl acc REMOVE:383
@@ -825,7 +825,7 @@
 ;	"однако" paren
 "<широко>"
 ;	"широкий" adj short nt sg
-;	"широкий" adj short nt sg ng
+;	"широкий" adj short nt sg
 	"широко" adv
 "<распространены>"
 ;	"распространить" vblex perf tv pp pasv short mfn pl
@@ -1059,7 +1059,7 @@
 	"использование" n nt nn sg acc
 ;	"использование" n nt nn sg nom
 "<верхней>"
-;	"верхний" adj comp pred ng
+;	"верхний" adj comp pred
 ;	"верхний" adj f an sg dat
 	"верхний" adj f an sg gen
 ;	"верхний" adj f an sg ins
@@ -1081,7 +1081,7 @@
 ;	"и¹" ij REMOVE:781
 ;	"и" adv REMOVE:785
 "<нижней>"
-;	"нижний" adj comp pred ng
+;	"нижний" adj comp pred
 ;	"нижний" adj f an sg dat
 	"нижний" adj f an sg gen
 ;	"нижний" adj f an sg ins

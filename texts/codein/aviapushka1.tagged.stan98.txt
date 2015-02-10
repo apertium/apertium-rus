@@ -206,7 +206,7 @@
 	"поражать" vblex impf tv pprs pasv mfn an pl gen
 ;	"поражать" vblex impf tv pprs pasv mfn an pl prp REMOVE:439
 "<целей>"
-;	"целый" adj comp pred ng
+;	"целый" adj comp pred
 	"цель" n f nn pl gen
 "<.>"
 	"." sent
@@ -286,7 +286,7 @@
 ;	"размер" n m nn pl acc
 	"размер" n m nn pl nom
 "<целей>"
-;	"целый" adj comp pred ng
+;	"целый" adj comp pred
 	"цель" n f nn pl gen
 "<уменьшают>"
 ;	"уменьшать" vblex impf iv pres p3 pl
@@ -443,7 +443,7 @@
 	"борт" n m nn sg loc
 ;	"борт" n m nn sg dat REMOVE:387
 "<целей>"
-;	"целый" adj comp pred ng
+;	"целый" adj comp pred
 	"цель" n f nn pl gen
 "<увеличивает>"
 ;	"увеличивать" vblex impf iv pres p3 sg
@@ -474,7 +474,7 @@
 	"авиационный" adj mfn an pl gen
 ;	"авиационный" adj mfn an pl prp REMOVE:439
 "<целей>"
-;	"целый" adj comp pred ng
+;	"целый" adj comp pred
 	"цель" n f nn pl gen
 "<используются>"
 	"использовать" vblex impf tv pres p3 pl pass

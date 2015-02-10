@@ -1807,7 +1807,7 @@
 ;	"низший" adj f an sg gen REMOVE:436
 ;	"низший" adj f an sg ins REMOVE:436
 ;	"низший" adj f an sg prp REMOVE:436
-;	"низший" adj comp pred ng REMOVE:521
+;	"низший" adj comp pred REMOVE:521
 "<знати>"
 	"знать¹" n f nn sg dat
 ;	"знать¹" n f nn pl acc REMOVE:436

@@ -2492,7 +2492,7 @@
 ;	"больший" adj f an sg dat REMOVE:437
 ;	"больший" adj f an sg gen REMOVE:437
 ;	"больший" adj f an sg prp REMOVE:437
-;	"больший" adj comp pred ng REMOVE:518
+;	"больший" adj comp pred REMOVE:518
 "<частью>"
 	"часть" n f nn sg ins
 ;	"частью" adv REMOVE:530
@@ -3340,7 +3340,7 @@
 "<,>"
 	"," cm
 "<последней>"
-;	"последний" adj comp pred ng
+;	"последний" adj comp pred
 ;	"последний" adj f an sg dat
 	"последний" adj f an sg gen
 ;	"последний" adj f an sg ins

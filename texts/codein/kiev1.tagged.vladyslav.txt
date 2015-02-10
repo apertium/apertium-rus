@@ -2261,7 +2261,7 @@
 	"крайний" adj f an sg dat
 ; 	"крайний" adj f an sg gen REMOVE:384
 ; 	"крайний" adj f an sg ins REMOVE:384
-; 	"крайний" adj comp pred ng REMOVE:474
+; 	"крайний" adj comp pred REMOVE:474
 "<мере>"
 	"мера" n f nn sg dat
 ;	"мера" n f nn sg prp
@@ -2348,7 +2348,7 @@
 ;	"крайний" adj f an sg dat
 ; 	"крайний" adj f an sg gen REMOVE:384
 ; 	"крайний" adj f an sg ins REMOVE:384
-; 	"крайний" adj comp pred ng REMOVE:474
+; 	"крайний" adj comp pred REMOVE:474
 "<мере>"
 ;	"мера" n f nn sg dat
 	"мера" n f nn sg prp

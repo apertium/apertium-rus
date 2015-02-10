@@ -834,7 +834,7 @@
 ;	"действовать" vblex impf iv pprs actv f an sg gen
 ;	"действовать" vblex impf iv pprs actv f an sg ins
 ;	"действующий" adj f an sg ins
-;	"действующий" adj comp pred ng
+;	"действующий" adj comp pred
 ;	"действующий" adj f an sg dat
 	"действующий" adj f an sg gen
 ;	"действовать" vblex impf iv pprs actv f an sg prp REMOVE:477

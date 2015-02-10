@@ -435,7 +435,7 @@
 	"." sent
 
 "<Движущей>"
-;	"движущий" adj comp pred ng
+;	"движущий" adj comp pred
 	"движущий" adj f an sg ins
 ;	"движущий" adj f an sg prp REMOVE:353
 ;	"движущий" adj f an sg gen REMOVE:624
@@ -673,8 +673,8 @@
 ;	"пря" n f nn pl nom
 ;	"пря" n f nn sg gen
 "<меньшей>"
-;	"маленький" adj comp pred ng
-;	"меньший" adj comp pred ng
+;	"маленький" adj comp pred
+;	"меньший" adj comp pred
 	"меньший" adj f an sg prp
 ;	"меньший" adj f an sg dat REMOVE:496
 ;	"меньший" adj f an sg gen REMOVE:496
@@ -848,7 +848,7 @@
 "<считается>"
 ;	"считать²" vblex impf tv pres p3 sg pass
 ;	"считать¹" vblex impf tv pres p3 sg pass
-	"считаться" vblex impf tv pp actv m aa sg ins
+	"считаться" vblex impf tv pp actv m an sg ins
 "<её>"
 ;	"она" prn pers p3 f sg gen
 ;	"она" prn pers p3 f sg acc

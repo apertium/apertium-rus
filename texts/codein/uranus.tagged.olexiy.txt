@@ -728,7 +728,7 @@
 ;	"превышать" vblex impf iv pres p3 sg
 	"превышать" vblex impf tv pres p3 sg
 "<2 %>"
-	"2" num percent ng
+	"2" num percent
 "<.>"
 	"." sent
 "<Вероятно>"

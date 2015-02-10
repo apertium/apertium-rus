@@ -319,7 +319,7 @@
 ;	"развитие" n nt nn pl nom
 	"развитие" n nt nn sg gen
 "<позднейшей>"
-;	"позднейший" adj comp pred ng
+;	"позднейший" adj comp pred
 ;	"позднейший" adj f an sg dat
 	"позднейший" adj f an sg gen
 ;	"позднейший" adj f an sg ins
@@ -587,7 +587,7 @@
 ;	"общий" adj f an sg dat REMOVE:378
 ;	"общий" adj f an sg ins REMOVE:378
 ;	"общий" adj f an sg prp REMOVE:378
-;	"общий" adj comp pred ng REMOVE:474
+;	"общий" adj comp pred REMOVE:474
 "<численности>"
 	"численность" n f nn sg gen
 ;	"численность" n f nn pl acc REMOVE:378

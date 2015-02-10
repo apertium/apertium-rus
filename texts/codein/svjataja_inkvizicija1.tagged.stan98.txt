@@ -217,7 +217,7 @@
 ;	"стадий" n m nn sg nom REMOVE:417
 ;	"стадий" n m nn sg acc REMOVE:419
 "<внутренней>"
-;	"внутренний" adj comp pred ng
+;	"внутренний" adj comp pred
 ;	"внутренний" adj f an sg dat
 	"внутренний" adj f an sg gen
 ;	"внутренний" adj f an sg ins

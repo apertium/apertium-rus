@@ -928,7 +928,7 @@
 	"крайний" adj f an sg dat
 ;	"крайний" adj f an sg gen REMOVE:389
 ;	"крайний" adj f an sg ins REMOVE:389
-;	"крайний" adj comp pred ng REMOVE:479
+;	"крайний" adj comp pred REMOVE:479
 "<мере>"
 	"мера" n f nn sg dat
 ;	"мера" n f nn sg prp
@@ -1087,7 +1087,7 @@
 "<времён>"
 	"время" n nt nn pl gen
 "<Древней>"
-;	"древний" adj comp pred ng
+;	"древний" adj comp pred
 ;	"древний" adj f an sg dat
 	"древний" adj f an sg gen
 ;	"древний" adj f an sg ins
@@ -1111,7 +1111,7 @@
 "<более>"
 	"более" adv comp
 "<общей>"
-;	"общий" adj comp pred ng
+;	"общий" adj comp pred
 ;	"общий" adj f an sg dat
 	"общий" adj f an sg gen
 ;	"общий" adj f an sg ins
