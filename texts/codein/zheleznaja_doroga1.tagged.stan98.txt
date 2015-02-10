@@ -807,7 +807,7 @@
 ;	"до" n nt nn sg nom REMOVE:521
 ;	"до" n nt nn sg prp REMOVE:521
 "<н. э>"
-	"н. э" abbr
+	"н. э." abbr
 "<,>"
 	"," cm
 "<а>"

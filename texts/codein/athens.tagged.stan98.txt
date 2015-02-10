@@ -513,12 +513,12 @@
 "<412>"
 	"412" num
 "<кв.>"
-	"кв" abbr
-;	"кв" abbr
+	"кв." abbr
+;	"кв." abbr
 ;		"." sent REMOVE:837
 "<км.>"
-	"км" abbr
-;	"км" abbr
+	"км." abbr
+;	"км." abbr
 ;		"." sent
 "<Эта>"
 ;	"эта" n f nn sg nom
@@ -666,12 +666,12 @@
 "<1>"
 	"1" num
 "<кв.>"
-	"кв" abbr
-;	"кв" abbr
+	"кв." abbr
+;	"кв." abbr
 ;		"." sent REMOVE:837
 "<км.>"
-	"км" abbr
-;	"км" abbr
+	"км." abbr
+;	"км." abbr
 ;		"." sent REMOVE:837
 "<приходится>"
 	"приходиться" vblex impf iv pres p3 sg

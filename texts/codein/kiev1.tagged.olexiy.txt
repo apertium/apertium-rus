@@ -401,8 +401,8 @@
 ;	"i" num ord mfn an pl gen SELECT:750
 ;	"i" num ord mfn an pl ins SELECT:750
 "<тыс.>"
-	"тыс" abbr
-;	"тыс" abbr
+	"тыс." abbr
+;	"тыс." abbr
 ;		"." sent REMOVE:837
 "<до>"
 	"до" pr
@@ -491,8 +491,8 @@
 ;	"i" num ord mfn an pl gen SELECT:750
 ;	"i" num ord mfn an pl ins SELECT:750
 "<тыс.>"
-	"тыс" abbr
-;	"тыс" abbr
+	"тыс." abbr
+;	"тыс." abbr
 ;		"." sent REMOVE:837
 "<н. э.>"
 ;	"н. э." abbr
@@ -2445,8 +2445,8 @@
 "<1132>"
 	"1132" num
 "<г.>"
-	"г" abbr
-;	"г" abbr
+	"г." abbr
+;	"г." abbr
 ;		"." sent REMOVE:837
 "<)>"
 	")" rpar

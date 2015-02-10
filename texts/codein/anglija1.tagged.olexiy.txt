@@ -2062,7 +2062,7 @@
 ;	"vi" num ord nt an sg nom SELECT:880
 ;	"vi" num ord nt sg prp SELECT:880
 "<вв.>"
-	"вв" abbr
+	"вв." abbr
 "<,>"
 	"," cm
 "<как>"

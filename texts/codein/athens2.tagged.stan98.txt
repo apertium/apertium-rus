@@ -405,7 +405,7 @@
 "<2>"
 	"2" num
 "<млн>"
-	"млн" abbr
+	"млн." abbr
 "<человек>"
 	"человек" n m aa pl gen count
 ;	"человек" n m aa sg nom
@@ -1583,7 +1583,7 @@
 "<4>"
 	"4" num
 "<млн>"
-	"млн" abbr
+	"млн." abbr
 "<человек>"
 	"человек" n m aa pl gen count
 ;	"человек" n m aa sg nom
