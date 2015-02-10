@@ -514,7 +514,7 @@
 ;	"стоять" vblex impf iv pp actv mfn an pl gen
 ;	"стоять" vblex impf iv pp actv mfn an pl prp REMOVE:477
 "<ниже>"
-	"ниже" adv
+	"низкий" adj comp pred
 ;	"ниже" cnjcoo
 ;	"низкий" adj comp pred
 "<министериалов>"

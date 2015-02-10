@@ -2427,7 +2427,7 @@
 	"везде" adv
 "<ниже>"
 ;	"ниже" cnjcoo	
-	"ниже" adv
+	"низкий" adj comp pred
 ;	"низкий" adj comp pred
 "<панцирных>"
 	"панцирный" adj mfn an pl gen
