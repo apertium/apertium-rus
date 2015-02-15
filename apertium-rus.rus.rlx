@@ -1033,7 +1033,7 @@ REMOVE Part IF (0 Kak) (NOT -1 Tak) ;
 
 SELECT DicMajusc IF (-1 Abbr OR Sem/Person) (0 Abbr) (1 Cog) ;
 
-SELECT Cog IF (1 Abbr LINK 1 Abbr) (-1 Sem/Person)
+SELECT Cog IF (1 Abbr LINK 1 Abbr) (-1 Sem/Person) ;
 
 REMOVE Interr IF (0 Kak) (NOT 1* Ques) ; 
 
@@ -1077,7 +1077,7 @@ SELECT $$NGDAIP IF (0C Roman) (1 @CNP LINK 1C Roman LINK 1 N/Vek + $$NGDAIP) ;
 # Rules dealing explicitly with subreadings 
 ###############################################################################
 
-REMOVE SUB:1 Sent IF (1 Sent)
+REMOVE SUB:1 Sent IF (1 Sent) ;
 
 REMOVE SUB:1 Sent IF (NOT 1 Majusc OR Title) ; 
 
