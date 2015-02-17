@@ -562,8 +562,8 @@
 "<,>"
 	"," cm
 "<которую>"
-	"который" det itg f an sg acc
-;	"который" prn rel f an sg acc
+;	"который" det itg f an sg acc
+	"который" prn rel f an sg acc
 "<также>"
 	"также" adv
 ;	"также" cnjcoo

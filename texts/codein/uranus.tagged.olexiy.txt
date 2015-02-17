@@ -811,7 +811,7 @@
 "<не>"
 	"не" part
 "<больше>"
-;	"больше" adv
+;	"большой" adj comp pred
 	"большой" adj comp pred
 ;	"больший" adj short nt sg prb REMOVE:827
 "<нескольких>"

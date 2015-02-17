@@ -1292,8 +1292,7 @@
 "<Константин>"
 	"Константин" np ant m sg nom
 "<Багрянородный>"
-	"Багрянородный" np cog m sg nom
-;	"багрянородный" adj m an sg nom
+	"багрянородный" adj m an sg nom
 ;	"багрянородный" adj m nn sg acc
 "<,>"
 	"," cm
@@ -1446,7 +1445,7 @@
 "<либо>"
 	"либо" cnjcoo
 "<его>"
-;	"его" det pos nt an sg ins
+	"его" det pos nt an sg ins
 ;	"он¹" prn pers p3 m sg gen
 ;	"его" det pos mfn an pl ins
 ;	"оно" prn pers p3 nt sg gen
@@ -1464,7 +1463,7 @@
 ;	"его" det pos m aa sg acc REMOVE:683
 ;	"его" det pos m nn sg acc REMOVE:683
 ;	"его" det pos m an sg dat REMOVE:683
-	"его" det pos m an sg gen REMOVE:683
+;	"его" det pos m an sg gen REMOVE:683
 ;	"его" det pos m an sg ins REMOVE:683
 ;	"его" det pos m an sg nom REMOVE:683
 ;	"его" det pos mfn an pl dat REMOVE:689
@@ -1598,8 +1597,8 @@
 ;	"а²" n nt nn sg prp REMOVE:493
 ;	"а¹" ij REMOVE:803
 "<также>"
-;	"также" adv
-	"также" cnjcoo REMOVE:606
+	"также" adv
+;	"также" cnjcoo REMOVE:606
 "<у>"
 	"у" pr
 ;	"у²" n nt nn pl acc REMOVE:493
@@ -1917,11 +1916,11 @@
 "<,>"
 	"," cm
 "<что>"
-;	"что²" cnjsub SELECT:464
+	"что²" cnjsub SELECT:464
 ;	"что¹" prn itg nt nn sg acc SELECT:464
 ;	"что¹" prn itg nt nn sg nom SELECT:464
 ;	"что¹" prn rel nt nn sg acc SELECT:464
-	"что¹" prn rel nt nn sg nom SELECT:464
+;	"что¹" prn rel nt nn sg nom SELECT:464
 "<обнаруженные>"
 	"обнаружить" vblex perf tv pp pasv mfn an pl nom
 ;	"обнаружить" vblex perf tv pp pasv mfn nn pl acc

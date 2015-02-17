@@ -1638,8 +1638,8 @@
 ;	"этот" det dem nt an sg acc
 ;	"этот" det dem nt an sg nom
 "<больше>"
-	"больше" adv
 ;	"большой" adj comp pred
+	"большой" adj comp pred
 ;	"больший" adj short nt sg prb REMOVE:827
 "<трети>"
 ;	"треть" n f nn pl acc

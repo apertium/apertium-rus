@@ -479,7 +479,7 @@
 "<оказались>"
 	"оказаться" vblex perf iv past mfn pl
 "<больше>"
-;	"больше" adv
+;	"большой" adj comp pred
 ;	"больший" adj short nt sg prb REMOVE:389
 	"большой" adj comp pred REMOVE:389
 "<человеческих>"
