@@ -87,7 +87,7 @@
 "<его>"
 ;	"его" det pos f an sg acc
 ;	"оно" prn pers p3 nt sg gen
-;	"его" det pos f an sg gen
+	"его" det pos f an sg gen
 ;	"его" det pos mfn aa pl acc
 ;	"его" det pos f an sg nom
 ;	"он¹" prn pers p3 m sg acc
@@ -103,7 +103,7 @@
 ;	"его" det pos m aa sg acc REMOVE:734
 ;	"его" det pos m nn sg acc REMOVE:734
 ;	"его" det pos m an sg dat REMOVE:734
-	"его" det pos m an sg gen REMOVE:734
+;	"его" det pos m an sg gen REMOVE:734
 ;	"его" det pos m an sg ins REMOVE:734
 ;	"его" det pos m an sg nom REMOVE:734
 ;	"его" det pos nt an sg acc REMOVE:734
