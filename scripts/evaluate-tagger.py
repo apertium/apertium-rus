@@ -306,7 +306,7 @@ for line in range(0, lines): #{
 
 	for ref_reading in ref_readings: #{
 		if ref_reading not in tst_readings: #{
-			print('FALSENEG:', ref_reading, tst_readings);
+			print('['+ str(n_line) +'] FALSENEG:', ref_reading, tst_readings);
 			n_falsenegative = n_falsenegative + 1;
 			if ref_reading not in tst_readings_rules: #{
 				continue;
