@@ -778,9 +778,9 @@
 	"не" part
 "<всякое>"
 ;	"всякий" det nt an sg acc
-;	"всякий" det nt an sg nom
+	"всякий" det nt an sg nom
 ;	"всякое" prn nt an sg acc
-	"всякое" prn nt an sg nom
+;	"всякое" prn nt an sg nom
 "<новшество>"
 ;	"новшество" n nt nn sg acc
 	"новшество" n nt nn sg nom
