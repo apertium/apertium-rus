@@ -393,9 +393,9 @@ accuracy = float(n_truepositive + n_truenegative) / (float(n_truepositive + n_fa
 
 print('');
 
-print('precision:\t', precision);
-print('recall   :\t', recall);
-print('accuracy :\t', accuracy);
+print('precision:\t', precision, '\t( true pos / all pos )');
+print('recall   :\t', recall, '\t( true pos / (true pos + false neg) )');
+print('accuracy :\t', accuracy, '\t((true pos + true neg) / (everything) )');
 
 print('');
 
