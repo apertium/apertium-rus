@@ -625,8 +625,8 @@
 ;	"а²" n nt nn sg prp REMOVE:537
 ;	"а¹" ij REMOVE:933
 "<также>"
-;	"также" adv
-	"также" cnjcoo REMOVE:654
+	"также" adv
+;	"также" cnjcoo REMOVE:654
 "<страной>"
 	"страна" n f nn sg ins
 "<с>"
