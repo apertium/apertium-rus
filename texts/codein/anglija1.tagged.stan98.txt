@@ -2598,8 +2598,8 @@
 "<,>"
 	"," cm
 "<захвативших>"
-	"захватить" vblex perf tv pp actv mfn aa pl acc
-;	"захватить" vblex perf tv pp actv mfn an pl gen
+;	"захватить" vblex perf tv pp actv mfn aa pl acc
+	"захватить" vblex perf tv pp actv mfn an pl gen
 ;	"захватить" vblex perf tv pp actv mfn an pl prp
 ;	"захватить" vblex perf iv pp actv mfn aa pl acc REMOVE:756
 ;	"захватить" vblex perf iv pp actv mfn an pl gen REMOVE:756
