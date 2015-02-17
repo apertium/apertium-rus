@@ -104,6 +104,7 @@ texts/murmansk.ana.txt -text
 texts/murmansk.log.txt -text
 texts/murmansk.raw.txt -text svneol=unset#application/octet-stream
 texts/murmansk.tok.txt -text svneol=unset#application/octet-stream
+texts/others/dva-samoubijstva.tagged.spectie.txt -text
 texts/others/rasskaz.raw.txt -text svneol=unset#application/octet-stream
 texts/others/rasskaz.tagged.spectie.txt -text
 texts/others/rasskaz.vislcg.txt -text
