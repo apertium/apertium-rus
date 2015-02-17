@@ -28,10 +28,10 @@
 	"на" pr
 ;	"на" ij REMOVE:560
 "<то>"
-	"то" cnjcoo
+;	"то" cnjcoo
 ;	"то" cnjsub
 ;	"то" prn dem nt nn sg acc
-;	"тот" det dem nt an sg acc
+	"тот" det dem nt an sg acc
 ;	"то" prn dem nt nn sg nom REMOVE:376
 ;	"тот" det dem nt an sg nom REMOVE:376
 "<время>"
@@ -91,11 +91,11 @@
 
 "<Молодой>"
 ;	"молодая" n f aa sg dat
-	"молодой" n m aa sg nom
+;	"молодой" n m aa sg nom
 ;	"молодая" n f aa sg ins
 ;	"молодой" adj m nn sg acc
 ;	"молодой" adj f an sg dat
-;	"молодой" adj m an sg nom
+	"молодой" adj m an sg nom
 ;	"молодой" adj f an sg ins
 ;	"молодая" n f aa sg prp REMOVE:333
 ;	"молодой" adj f an sg prp REMOVE:333
