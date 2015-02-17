@@ -2412,10 +2412,10 @@
 ;	"время" n nt nn sg prp REMOVE:416
 "<один>"
 ;	"один" num m nn sg acc
-;	"один" num m an sg nom
+	"один" num m an sg nom
 ;	"один" det m nn sg acc REMOVE:480
 ;	"один" det m an sg nom REMOVE:480
-	"один" prn m an sg nom 
+;	"один" prn m an sg nom 
 "<из>"
 	"из" pr
 "<семи>"
