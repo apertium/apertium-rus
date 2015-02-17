@@ -429,9 +429,8 @@
 ;	"большой" adj nt an sg acc
 	"большой" adj nt an sg nom
 "<количество>"
-;	"количество" n nt nn pl acc
-	"количество" n nt nn pl nom
-;	"количество" n nt nn sg gen
+;	"количество" n nt nn sg acc
+	"количество" n nt nn sg nom
 "<топлива>"
 ;	"топливо" n nt nn pl acc
 ;	"топливо" n nt nn pl nom
