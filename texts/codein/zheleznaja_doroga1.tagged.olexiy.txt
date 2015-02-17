@@ -673,9 +673,9 @@
 ;	"пря" n f nn pl nom
 ;	"пря" n f nn sg gen
 "<меньшей>"
-	"маленький" adj comp pred
+;	"маленький" adj comp pred
 ;	"меньший" adj comp pred
-;	"меньший" adj f an sg prp
+	"меньший" adj f an sg prp
 ;	"меньший" adj f an sg dat REMOVE:496
 ;	"меньший" adj f an sg gen REMOVE:496
 ;	"меньший" adj f an sg ins REMOVE:496

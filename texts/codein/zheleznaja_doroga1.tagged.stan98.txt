@@ -848,13 +848,13 @@
 "<считается>"
 ;	"считать²" vblex impf tv pres p3 sg pass
 ;	"считать¹" vblex impf tv pres p3 sg pass
-	"считаться" vblex impf tv pp actv m an sg ins
+	"считаться" vblex impf iv pres p3 sg
 "<её>"
 ;	"она" prn pers p3 f sg gen
 ;	"она" prn pers p3 f sg acc
-;	"её" det pos m an sg ins
+	"её" det pos m an sg ins
 ;	"её" det pos mfn an pl ins
-	"её" det pos f an sg prp REMOVE:456
+;	"её" det pos f an sg prp REMOVE:456
 ;	"её" det pos m an sg prp REMOVE:456
 ;	"её" det pos mfn an pl prp REMOVE:456
 ;	"её" det pos nt an sg prp REMOVE:456
@@ -942,13 +942,13 @@
 "<в>"
 	"в" pr
 "<XVIII>"
-	"XVIII" num SELECT:818 FIXME:000
+;	"XVIII" num SELECT:818 FIXME:000
 ;	"XVIII" num ord f an sg acc SELECT:818
 ;	"XVIII" num ord f an sg prp SELECT:818
 ;	"XVIII" num ord m aa sg acc SELECT:818
 ;	"XVIII" num ord m nn sg acc SELECT:818
 ;	"XVIII" num ord nt an sg prp SELECT:818
-;	"XVIII" num ord m an sg prp SELECT:818
+	"XVIII" num ord m an sg prp SELECT:818
 ;	"XVIII" num ord mfn aa pl acc SELECT:818
 ;	"XVIII" num ord mfn nn pl acc SELECT:818
 ;	"XVIII" num ord mfn an pl prp SELECT:818
@@ -1013,7 +1013,7 @@
 ;	"и¹" ij REMOVE:836
 ;	"и" adv REMOVE:840
 "<XIX>"
-	"XIX" num SELECT:818 FIXME:000
+;	"XIX" num SELECT:818 FIXME:000
 ;	"XIX" num ord f an sg acc SELECT:818
 ;	"XIX" num ord f sg dat SELECT:818
 ;	"XIX" num ord f an sg gen SELECT:818
@@ -1039,7 +1039,7 @@
 ;	"XIX" num ord nt an sg gen SELECT:818
 ;	"XIX" num ord nt an sg ins SELECT:818
 ;	"XIX" num ord nt an sg nom SELECT:818
-;	"XIX" num ord nt an sg prp SELECT:818
+	"XIX" num ord nt an sg prp SELECT:818
 ;	"xix" num SELECT:818
 ;	"xix" num ord f an sg acc SELECT:818
 ;	"xix" num ord f sg dat SELECT:818

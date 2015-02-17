@@ -786,8 +786,8 @@
 "<к>"
 	"к" pr
 "<которой>"
-;	"который" det itg f sg dat
-	"который" prn rel f sg dat
+;	"который" det itg f an sg dat
+	"который" prn rel f an sg dat
 ;	"который" det itg f an sg gen REMOVE:396
 ;	"который" det itg f an sg ins REMOVE:396
 ;	"который" det itg f an sg prp REMOVE:396

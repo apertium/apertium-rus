@@ -1508,9 +1508,9 @@
 "<стал>"
 	"стать²⁻³" vblex perf iv past m sg
 "<одним>"
-;	"один" num m an sg ins
+	"один" num m an sg ins
 ;	"один" num nt an sg ins
-	"один" det m an sg ins REMOVE:483
+;	"один" det m an sg ins REMOVE:483
 ;	"один" det mfn an pl dat REMOVE:483
 ;	"один" det nt an sg ins REMOVE:483
 ;	"один" num mfn an pl dat REMOVE:890

@@ -1504,8 +1504,8 @@
 "<из>"
 	"из" pr
 "<хазарского>"
-	"хазарский" adj nt an sg gen
-;	"хазарский" adj m an sg gen
+;	"хазарский" adj nt an sg gen
+	"хазарский" adj m an sg gen
 ; 	"хазарский" adj m aa sg acc REMOVE:378
 "<языка>"
 ;	"язык" n m aa sg acc

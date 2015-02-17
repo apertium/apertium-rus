@@ -828,8 +828,8 @@
 ;	"широкий" adj short nt sg
 	"широко" adv
 "<распространены>"
-;	"распространить" vblex perf tv pp pasv short mfn pl
-	"распространённый" adj short mfn pl
+	"распространить" vblex perf tv pp pasv short mfn pl
+;	"распространённый" adj short mfn pl
 "<только>"
 	"только" adv
 ;	"только" cnjcoo

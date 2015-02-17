@@ -1014,14 +1014,14 @@
 ;	"её" det pos mfn an pl gen
 ;	"её" det pos nt an sg nom
 ;	"её" det pos mfn an pl nom
-;	"её" det pos nt an sg gen
+	"её" det pos nt an sg gen
 ;	"она" prn pers p3 f sg gen
 ;	"её" det pos f an sg acc REMOVE:734
 ;	"её" det pos f an sg dat REMOVE:734
 ;	"её" det pos f an sg gen REMOVE:734
 ;	"её" det pos f an sg ins REMOVE:734
 ;	"её" det pos f an sg nom REMOVE:734
-	"её" det pos f an sg prp REMOVE:734
+;	"её" det pos f an sg prp REMOVE:734
 ;	"её" det pos m aa sg acc REMOVE:734
 ;	"её" det pos m an sg dat REMOVE:734
 ;	"её" det pos m an sg gen REMOVE:734
@@ -1101,10 +1101,10 @@
 	"сила" n f nn pl prp
 "<которых>"
 ;	"который" det itg mfn aa pl acc
-	"который" det itg mfn an pl gen
+;	"который" det itg mfn an pl gen
 ;	"который" det itg mfn an pl prp
 ;	"который" prn rel mfn aa pl acc
-;	"который" prn rel mfn an pl gen
+	"который" prn rel mfn an pl gen
 ;	"который" prn rel mfn an pl prp
 "<ещё>"
 	"ещё" adv
@@ -1249,9 +1249,9 @@
 "<,>"
 	"," cm
 "<которые>"
-;	"который" prn rel mfn an pl nom SELECT:1009
+	"который" prn rel mfn an pl nom SELECT:1009
 ;	"который" prn rel mfn nn pl acc SELECT:1009
-	"который" det itg mfn an pl nom SELECT:1009
+;	"который" det itg mfn an pl nom SELECT:1009
 ;	"который" det itg mfn nn pl acc SELECT:1009
 "<вместе>"
 	"вместе" adv
@@ -1264,7 +1264,7 @@
 	"на" pr
 ;	"на" ij REMOVE:607
 "<их>"
-;	"их¹" det pos f an sg acc @N→ SELECT:671 MAP:877
+	"их¹" det pos f an sg acc @N→ SELECT:671 MAP:877
 ;	"их¹" det pos m aa sg acc REMOVE:734
 ;	"их¹" det pos m an sg dat REMOVE:734
 ;	"их¹" det pos m an sg gen REMOVE:734
@@ -1283,7 +1283,7 @@
 ;	"их¹" det pos f an sg ins REMOVE:740
 ;	"их¹" det pos f an sg nom REMOVE:740
 ;	"их¹" det pos f an sg prp REMOVE:740
-	"их¹" det pos mfn an pl gen REMOVE:740
+;	"их¹" det pos mfn an pl gen REMOVE:740
 ;	"их¹" det pos mfn an pl ins REMOVE:740
 ;	"их¹" det pos mfn an pl nom REMOVE:740
 ;	"их¹" det pos mfn an pl prp REMOVE:740
