@@ -218,7 +218,7 @@
 ;	"V" num ord nt an sg gen SELECT:750
 ;	"V" num ord nt an sg ins SELECT:750
 ;	"V" num ord nt an sg nom SELECT:750
-;	"V" num ord nt sg prp SELECT:750
+;	"V" num ord nt an sg prp SELECT:750
 ;	"v" num SELECT:750
 ;	"v" num ord f an sg acc SELECT:750
 ;	"v" num ord f sg dat SELECT:750
@@ -245,7 +245,7 @@
 ;	"v" num ord nt an sg gen SELECT:750
 ;	"v" num ord nt an sg ins SELECT:750
 ;	"v" num ord nt an sg nom SELECT:750
-;	"v" num ord nt sg prp SELECT:750
+;	"v" num ord nt an sg prp SELECT:750
 "<век>"
 ;	"век²" adv
 ;	"век¹" n m nn sg acc
@@ -1837,7 +1837,7 @@
 ;	"I" num ord nt an sg gen SELECT:750
 ;	"I" num ord nt an sg ins SELECT:750
 ;	"I" num ord nt an sg nom SELECT:750
-;	"I" num ord nt sg prp SELECT:750
+;	"I" num ord nt an sg prp SELECT:750
 ;	"i" num SELECT:750
 ;	"i" num ord f an sg acc SELECT:750
 ;	"i" num ord f sg dat SELECT:750
@@ -1864,7 +1864,7 @@
 ;	"i" num ord nt an sg gen SELECT:750
 ;	"i" num ord nt an sg ins SELECT:750
 ;	"i" num ord nt an sg nom SELECT:750
-;	"i" num ord nt sg prp SELECT:750
+;	"i" num ord nt an sg prp SELECT:750
 "<.>"
 	"." sent
 
@@ -1998,7 +1998,7 @@
 ;	"xiii" num ord nt an sg nom REMOVE:376
 ;	"XIII" num ord f an sg acc REMOVE:389
 ;	"XIII" num ord f sg dat REMOVE:389
-;	"xiii" num ord nt sg prp REMOVE:389
+;	"xiii" num ord nt an sg prp REMOVE:389
 ;	"XIII" num ord f an sg prp REMOVE:389
 ;	"XIII" num ord m aa sg acc REMOVE:389
 ;	"XIII" num ord m nn sg acc REMOVE:389
@@ -2013,7 +2013,7 @@
 ;	"XIII" num ord nt an sg acc REMOVE:389
 ;	"XIII" num ord nt sg dat REMOVE:389
 ;	"xiii" num ord nt sg dat REMOVE:389
-;	"XIII" num ord nt sg prp REMOVE:389
+;	"XIII" num ord nt an sg prp REMOVE:389
 ;	"xiii" num ord f an sg acc REMOVE:389
 ;	"xiii" num ord f sg dat REMOVE:389
 ;	"xiii" num ord f an sg prp REMOVE:389
@@ -2076,7 +2076,7 @@
 ;	"XV" num ord nt an sg gen SELECT:750
 ;	"XV" num ord nt an sg ins SELECT:750
 ;	"XV" num ord nt an sg nom SELECT:750
-;	"XV" num ord nt sg prp SELECT:750
+;	"XV" num ord nt an sg prp SELECT:750
 ;	"xv" num SELECT:750
 ;	"xv" num ord f an sg acc SELECT:750
 ;	"xv" num ord f sg dat SELECT:750
@@ -2103,7 +2103,7 @@
 ;	"xv" num ord nt an sg gen SELECT:750
 ;	"xv" num ord nt an sg ins SELECT:750
 ;	"xv" num ord nt an sg nom SELECT:750
-;	"xv" num ord nt sg prp SELECT:750
+;	"xv" num ord nt an sg prp SELECT:750
 "<веком>"
 	"век¹" n m nn sg ins
 ;	"веко" n nt nn sg ins
@@ -2171,11 +2171,11 @@
 ;	"XIII" num ord f an sg prp REMOVE:434
 ;	"XIII" num ord m an sg prp REMOVE:434
 ;	"XIII" num ord mfn an pl prp REMOVE:434
-;	"XIII" num ord nt sg prp REMOVE:434
+;	"XIII" num ord nt an sg prp REMOVE:434
 ;	"xiii" num ord f an sg prp REMOVE:434
 ;	"xiii" num ord m an sg prp REMOVE:434
 ;	"xiii" num ord mfn an pl prp REMOVE:434
-;	"xiii" num ord nt sg prp REMOVE:434
+;	"xiii" num ord nt an sg prp REMOVE:434
 ;	"XIII" num SELECT:610
 ;	"XIII" num ord f an sg acc SELECT:610
 ;	"XIII" num ord f sg dat SELECT:610
@@ -2449,11 +2449,11 @@
 ;	"XVII" num ord f an sg prp REMOVE:434
 ;	"XVII" num ord m an sg prp REMOVE:434
 ;	"XVII" num ord mfn an pl prp REMOVE:434
-;	"XVII" num ord nt sg prp REMOVE:434
+;	"XVII" num ord nt an sg prp REMOVE:434
 ;	"xvii" num ord f an sg prp REMOVE:434
 ;	"xvii" num ord m an sg prp REMOVE:434
 ;	"xvii" num ord mfn an pl prp REMOVE:434
-;	"xvii" num ord nt sg prp REMOVE:434
+;	"xvii" num ord nt an sg prp REMOVE:434
 ;	"xvii" num ord mfn an pl nom SELECT:750
 ;	"xvii" num ord nt an sg nom SELECT:750
 ;	"xvii" num ord nt an sg acc SELECT:750
@@ -2505,7 +2505,7 @@
 ;	"XIX" num ord nt an sg gen SELECT:750 SELECT:568
 ;	"XIX" num ord nt an sg ins SELECT:750 SELECT:568
 ;	"XIX" num ord nt an sg nom SELECT:750 SELECT:568
-;	"XIX" num ord nt sg prp SELECT:750 SELECT:568
+;	"XIX" num ord nt an sg prp SELECT:750 SELECT:568
 ;	"xix" num SELECT:750
 ;	"xix" num ord f an sg acc SELECT:750
 ;	"xix" num ord f sg dat SELECT:750
@@ -2532,7 +2532,7 @@
 ;	"xix" num ord nt an sg gen SELECT:750
 ;	"xix" num ord nt an sg ins SELECT:750
 ;	"xix" num ord nt an sg nom SELECT:750
-;	"xix" num ord nt sg prp SELECT:750
+;	"xix" num ord nt an sg prp SELECT:750
 ;	"XIX" num SELECT:750 SELECT:568
 "<веков>"
 	"век¹" n m nn pl gen

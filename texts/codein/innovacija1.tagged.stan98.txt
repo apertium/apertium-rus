@@ -544,7 +544,7 @@
 ;	"XIX" num ord nt an sg gen SELECT:910
 ;	"XIX" num ord nt an sg ins SELECT:910
 ;	"XIX" num ord nt an sg nom SELECT:910
-;	"XIX" num ord nt sg prp SELECT:910
+;	"XIX" num ord nt an sg prp SELECT:910
 ;	"XIX" num ord f an sg acc REMOVE:859
 ;	"XIX" num ord m aa sg acc REMOVE:859
 ;	"XIX" num ord m nn sg acc REMOVE:859
@@ -576,7 +576,7 @@
 ;	"xix" num ord mfn an pl prp SELECT:910
 ;	"xix" num ord m an sg ins SELECT:910
 ;	"xix" num SELECT:910
-;	"xix" num ord nt sg prp SELECT:910
+;	"xix" num ord nt an sg prp SELECT:910
 ;	"xix" num ord m an sg nom SELECT:910
 ;	"xix" num ord f an sg gen SELECT:910
 ;	"xix" num ord f an sg ins SELECT:910
@@ -633,7 +633,7 @@
 ;	"XX" num ord nt an sg gen SELECT:910
 ;	"XX" num ord nt an sg ins SELECT:910
 ;	"XX" num ord nt an sg nom SELECT:910
-;	"XX" num ord nt sg prp SELECT:910
+;	"XX" num ord nt an sg prp SELECT:910
 ;	"xx" num SELECT:910
 ;	"xx" num ord f an sg acc SELECT:910
 ;	"xx" num ord f sg dat SELECT:910
@@ -660,7 +660,7 @@
 ;	"xx" num ord nt an sg gen SELECT:910
 ;	"xx" num ord nt an sg ins SELECT:910
 ;	"xx" num ord nt an sg nom SELECT:910
-;	"xx" num ord nt sg prp SELECT:910
+;	"xx" num ord nt an sg prp SELECT:910
 "<в.>"
 	"в." abbr
 "<в>"

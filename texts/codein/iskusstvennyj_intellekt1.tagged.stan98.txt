@@ -58,7 +58,7 @@
 ;	"XX" num ord nt sg dat SELECT:638
 ;	"XX" num ord nt an sg ins SELECT:638
 ;	"XX" num ord nt an sg nom SELECT:638
-;	"XX" num ord nt sg prp SELECT:638
+;	"XX" num ord nt an sg prp SELECT:638
 ;	"xx" num SELECT:638
 ;	"xx" num ord f an sg acc SELECT:638
 ;	"xx" num ord f sg dat SELECT:638
@@ -82,7 +82,7 @@
 ;	"xx" num ord nt sg dat SELECT:638
 ;	"xx" num ord nt an sg ins SELECT:638
 ;	"xx" num ord nt an sg nom SELECT:638
-;	"xx" num ord nt sg prp SELECT:638
+;	"xx" num ord nt an sg prp SELECT:638
 ;	"XX" num ord f an sg gen SELECT:638 REMOVE:550
 ;	"xx" num ord f an sg gen SELECT:638 REMOVE:550
 ;	"XX" num ord nt an sg gen SELECT:638 REMOVE:552

@@ -747,7 +747,7 @@
 ;	"VI" num ord f an sg acc REMOVE:415
 ;	"VI" num ord f an sg gen REMOVE:415
 ;	"VI" num ord f an sg ins REMOVE:415
-;	"vi" num ord nt sg prp REMOVE:415
+;	"vi" num ord nt an sg prp REMOVE:415
 ;	"VI" num ord f an sg prp REMOVE:415
 ;	"VI" num ord m aa sg acc REMOVE:415
 ;	"VI" num ord m nn sg acc REMOVE:415
@@ -764,7 +764,7 @@
 ;	"VI" num ord nt an sg acc REMOVE:415
 ;	"VI" num ord nt an sg gen REMOVE:415
 ;	"VI" num ord nt an sg ins REMOVE:415
-;	"VI" num ord nt sg prp REMOVE:415
+;	"VI" num ord nt an sg prp REMOVE:415
 ;	"vi" num ord f an sg acc REMOVE:415
 ;	"vi" num ord f an sg gen REMOVE:415
 ;	"vi" num ord f an sg ins REMOVE:415
@@ -947,7 +947,7 @@
 ;	"XVIII" num ord f an sg prp SELECT:818
 ;	"XVIII" num ord m aa sg acc SELECT:818
 ;	"XVIII" num ord m nn sg acc SELECT:818
-;	"XVIII" num ord nt sg prp SELECT:818
+;	"XVIII" num ord nt an sg prp SELECT:818
 ;	"XVIII" num ord m an sg prp SELECT:818
 ;	"XVIII" num ord mfn aa pl acc SELECT:818
 ;	"XVIII" num ord mfn nn pl acc SELECT:818
@@ -988,7 +988,7 @@
 ;	"xviii" num ord m an sg prp SELECT:818
 ;	"xviii" num ord mfn aa pl acc SELECT:818
 ;	"xviii" num ord f an sg prp SELECT:818
-;	"xviii" num ord nt sg prp SELECT:818
+;	"xviii" num ord nt an sg prp SELECT:818
 ;	"xviii" num ord m aa sg acc SELECT:818
 ;	"xviii" num SELECT:818
 ;	"xviii" num ord mfn an pl prp SELECT:818
@@ -1039,7 +1039,7 @@
 ;	"XIX" num ord nt an sg gen SELECT:818
 ;	"XIX" num ord nt an sg ins SELECT:818
 ;	"XIX" num ord nt an sg nom SELECT:818
-;	"XIX" num ord nt sg prp SELECT:818
+;	"XIX" num ord nt an sg prp SELECT:818
 ;	"xix" num SELECT:818
 ;	"xix" num ord f an sg acc SELECT:818
 ;	"xix" num ord f sg dat SELECT:818
@@ -1066,7 +1066,7 @@
 ;	"xix" num ord nt an sg gen SELECT:818
 ;	"xix" num ord nt an sg ins SELECT:818
 ;	"xix" num ord nt an sg nom SELECT:818
-;	"xix" num ord nt sg prp SELECT:818
+;	"xix" num ord nt an sg prp SELECT:818
 "<веках>"
 	"век¹" n m nn pl prp
 ;	"веко" n nt nn pl prp
