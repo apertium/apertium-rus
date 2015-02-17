@@ -481,9 +481,9 @@
 	"система" n f nn pl gen
 "<многих>"
 ;	"многие" prn mfn aa pl acc
-	"многие" prn mfn an pl gen
+;	"многие" prn mfn an pl gen
 ;	"много" num gen
-;	"многий" det mfn an pl gen
+	"многий" det mfn an pl gen
 ;	"многие" prn mfn an pl prp REMOVE:474
 ;	"многий" det mfn an pl prp REMOVE:474
 ;	"много" num prp REMOVE:474
@@ -1797,10 +1797,10 @@
 ;	"до" n nt nn sg ins REMOVE:539
 ;	"до" n nt nn sg nom REMOVE:539
 "<её>"
-;	"её" det pos m an sg gen @N→ SELECT:668 MAP:847
+	"её" det pos m an sg gen @N→ SELECT:668 MAP:847
 ;	"её" det pos f an sg acc REMOVE:731
 ;	"её" det pos f sg dat REMOVE:731
-	"её" det pos f an sg gen REMOVE:731
+;	"её" det pos f an sg gen REMOVE:731
 ;	"её" det pos f an sg ins REMOVE:731
 ;	"её" det pos f an sg nom REMOVE:731
 ;	"её" det pos f an sg prp REMOVE:731

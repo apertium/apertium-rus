@@ -482,8 +482,8 @@
 "<многих>"
 ;	"многие" prn mfn aa pl acc
 ;	"многие" prn mfn an pl gen
-	"много" num gen
-;	"многий" det mfn an pl gen
+;	"много" num gen
+	"многий" det mfn an pl gen
 ;	"многие" prn mfn an pl prp REMOVE:474
 ;	"многий" det mfn an pl prp REMOVE:474
 ;	"много" num prp REMOVE:474
