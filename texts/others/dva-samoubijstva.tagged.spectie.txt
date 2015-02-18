@@ -1038,9 +1038,9 @@
 "<этом>"
 ;	"это" prn dem nt nn sg prp SELECT:691
 ;	"этот" prn dem m aa sg prp SELECT:691
-	"этот" prn dem m an sg prp SELECT:691
+;	"этот" prn dem m an sg prp SELECT:691
 ;	"этот" prn dem nt an sg prp SELECT:691
-;	"этот" det dem m an sg prp SELECT:691
+	"этот" det dem m an sg prp SELECT:691
 ;	"этот" det dem nt an sg prp SELECT:691
 "<же>"
 ;	"же" cnjcoo
@@ -3588,7 +3588,7 @@
 	""" quot
 "<">"
 	""" quot
-"<To есть>"
+"<То есть>"
 	"то есть" cnjcoo
 "<по-русски>"
 	"по-русски" adv
@@ -3629,8 +3629,8 @@
 ;	"тот" prn dem nt an sg acc
 ;	"тот" prn dem nt an sg nom
 "<пусть>"
-?	"пусть" cnjsub
-?	"пусть" part
+;	"пусть" cnjsub
+	"пусть" part
 "<соберутся>"
 	"собраться" vblex perf iv fut p3 pl
 "<все>"
@@ -3668,7 +3668,7 @@
 "<бокалами>"
 	"бокал" n m nn pl ins
 "<Клика>"
-	"Клик" np m аа sg gen FIXME
+	"Клик" np ant m аа sg gen
 ;	"клика" n f nn sg nom
 "<.>"
 	"." sent
@@ -3741,7 +3741,7 @@
 "<вполне>"
 	"вполне" adv
 "<убедясь>"
-	"*убедясь" FIXME TODO
+	"*убедясь"
 "<,>"
 	"," cm
 "<что>"

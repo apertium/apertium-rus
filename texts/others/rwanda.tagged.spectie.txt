@@ -2,7 +2,7 @@
 	"20" num @→Adv
 
 "<лет>"
-	"год" n m nn pl gen @Num←
+	"год" n m nn pl gen count @Num←
 
 "<тому>"
 	"тот" prn dem nt an sg dat @→Adv
@@ -20,7 +20,7 @@
 	"в" pr @N←
 
 "<Руанде>"
-	"Руанда" np top f sg prp @P←
+	"Руанда" np al f nn sg prp @P←
  
 "<.>"
 	"." sent @CLB
@@ -33,7 +33,7 @@
 	"в" pr @N←
 
 "<Руанде>"
-	"Руанда" np top f sg prp @P←
+	"Руанда" np al f nn sg prp @P←
 
 "<1994>"
 	"1994" num @→N
@@ -57,7 +57,7 @@
 	"," cm @Cm
 
 "<пришедшим>"
-	"прийти" vblex perf pp actv nt an sg ins @N←
+	"прийти" vblex perf iv pp actv nt an sg ins @N←
 
 "<к>"
 	"к" pr @←ADVL
@@ -90,7 +90,7 @@
 	"и" cnjcoo @CNP
 
 "<состоящего>"
-	"состоять" vblex impf iv pprs actv nt sg gen @N←
+	"состоять" vblex impf iv pprs actv nt an sg gen @N←
 
 "<из>"
 	"из" pr @←ADVL
@@ -136,7 +136,7 @@
 	"день" n m nn pl gen @Num←
 
 "<составило>"
-	"составить" vblex perf past nt sg @+FMAINV
+	"составить" vblex perf tv past nt sg @+FMAINV
 
 "<по>"
 	"по" pr @←ADVL
@@ -150,17 +150,17 @@
 "<от>"
 	"от" pr @←ADVL
 
-"<500 000>"
+"<500.000>"
 	"500 000" num @P←
 
 "<до>"
 	"до" pr @←ADVL
 
-"<1 030 000>"
+"<1.030.000>"
 	"1 030 000" num @P←
 
 "<человек>"
-	"человек" n m aa pl gen @Num←
+	"человек" n m aa pl gen count @Num←
 
 "<,>"
 	"," cm @CVP
@@ -169,16 +169,16 @@
 	"из" pr @ADVL→
 
 "<них>"
-	"они" prn pers p3 mfn pl gen pprep @P←
+	"они" prn pers p3 pl gen pobj @P←
 
 "<примерно>"
 	"примерно" adv @ADVL→
 
 "<10 %>"
-	"10 %" num percent @OBJ→
+	"10" num percent @OBJ→
 
 "<составили>"
-	"составить" vblex perf past mfn pl @+FMAINV
+	"составить" vblex perf tv past mfn pl @+FMAINV
 
 "<хуту>"
 	"хуту" n mf aa pl nom @←SUBJ
@@ -188,13 +188,13 @@
 
 ¶
 "<Со>"
-	"с" pr @ADVL→
+	"с" pr epenth @ADVL→
 
 "<стороны>"
 	"сторона" n f nn sg gen @P←
 
 "<тутси>"
-	"тутси" n mf aa pl gen @N←
+	"тутси" n m aa pl gen @N←
 
 "<убийства>"
 	"убийство" n nt nn pl nom @SUBJ→
@@ -212,7 +212,7 @@
 	"," cm @Cm
 
 "<вероятно>"
-	"вероятно" adv @→N
+	"вероятно" paren @→N
 
 "<,>"
 	"," cm @Cm
@@ -224,7 +224,7 @@
 	"формирование" n nt nn pl ins @←ADVL
 
 "<тутси>"
-	"тутси" n mf aa pl gen @N←
+	"тутси" n m aa pl gen @N←
 
 "<.>"
 	"." sent @CLB
@@ -240,19 +240,19 @@
 	"в" pr @N←
 
 "<Руанде>"
-	"Руанда" np top f sg prp @P←
+	"Руанда" np al f nn sg prp @P←
 
 "<в>"
 	"в" pr @ADVL→
 
 "<пять>"
-	"пять" num mfn pl acc @P←
+	"пять" num acc @P←
 
 "<раз>"
 	"раз" n m nn pl gen @Num←
 
 "<превышала>"
-	"превышать" vblex impf past f sg @+FMAINV
+	"превышать" vblex impf tv past f sg @+FMAINV
 
 "<скорость>"
 	"скорость" n f nn sg acc @←OBJ
@@ -279,7 +279,7 @@
 	"год¹" n m nn pl acc @P←
 
 "<Второй>"
-	"второй" det ord f an sg gen @→N
+	"второй" num ord f an sg gen @→N
 
 "<мировой>"
 	"мировой" adj f an sg gen @→N
@@ -298,10 +298,10 @@
 	"убийство" n nt nn pl dat @ADVL→
 
 "<тутси>"
-	"тутси" n mf aa pl gen @N←
+	"тутси" n m aa pl gen @N←
 
 "<положило>"
-	"положить" vblex perf past nt sg @+FMAINV
+	"положить" vblex perf tv past nt sg @+FMAINV
 
 "<наступление>"
 	"наступление" n nt nn sg nom @←SUBJ
@@ -316,7 +316,7 @@
 	"фронт" n m nn sg gen @N←
 
 "<тутси>"
-	"тутси" n mf aa pl gen @N←
+	"тутси" n m aa pl gen @N←
 
 "<.>"
 	"." sent @CLB
@@ -329,7 +329,7 @@
 	"и" cnjcoo @CNP
 
 "<тутси>"
-	"тутси" n mf aa sg nom @SUBJ→
+	"тутси" n m aa sg nom @SUBJ→
 
 "<—>"
 	"—" guio @+FMAINV
@@ -344,22 +344,22 @@
 	"," cm @Cm
 
 "<населяющие>"
-	"населять" vblex impf tv pprs actv mfn nn pl nom @N←
+	"населять" vblex impf tv pprs actv mfn an pl nom @N←
 
 "<Руанду>"
-	"Руанда" np top f sg acc @←OBJ
+	"Руанда" np al f nn sg acc @←OBJ
 
 "<,>"
 	"," cm @CNP
 
 "<Уганду>"
-	"Уганда" np top f sg acc @←OBJ
+	"Уганда" np al f nn sg acc @←OBJ
 
 "<,>"
 	"," cm @CNP
 
 "<Бурунди>"
-	"Бурунди" np top nt sg acc @←OBJ
+	"Бурунди" np al nt nn sg acc @←OBJ
 
 "<и>"
 	"и" cnjcoo @CNP
@@ -368,7 +368,7 @@
 	"некоторый" det ind mfn nn pl acc @→N
 
 "<другие>"
-	"другой" det ind mfn nn pl acc @→N
+	"другой" det mfn nn pl acc @→N
 
 "<страны>"
 	"страна" n f nn pl acc @←OBJ
@@ -426,7 +426,7 @@
 	"около" pr @APP-N←
 
 "<1,5 %>"
-	"1,5 %" num percent @P←
+	"1,5" num percent @P←
 
 "<населения>"
 	"население" n nt nn sg gen @Num←
@@ -444,10 +444,10 @@
 	"," cm @Cm
 
 "<занимавшие>"
-	"занимать" vblex impf pp actv mfn an pl nom @N←
+	"занимать" vblex impf tv pp actv mfn an pl nom @N←
 
 "<более>"
-	"более" preadv @→A
+	"более" adv comp @→A
 
 "<высокую>"
 	"высокий" adj f an sg acc @→N
@@ -456,7 +456,7 @@
 	"ступень" n f nn sg acc
 
 "<социально>"
-	"социальный" adj cmp @CMPND
+	"социальный" adj short nt sg @CMPND
 
 "<->"
 	"-" guio @HYPH
@@ -471,16 +471,16 @@
 	"и" cnjcoo @CNP
 
 "<занимавшиеся>"
-	"заниматься" vblex impf pp actv mfn an pl nom @N←
+	"заниматься" vblex impf iv pp actv mfn an pl nom @N←
 
 "<земледелием>"
-	"земледелие" n nt sg ins @←ADVL
+	"земледелие" n nt nn sg ins @←ADVL
 
 "<,>"
 	"," cm @Cm
 
 "<появились>"
-	"появиться" vblex perf past mfn pl @+FMAINV
+	"появиться" vblex perf iv past mfn pl @+FMAINV
 
 "<здесь>"
 	"здесь" adv @←ADVL
@@ -492,7 +492,7 @@
 	"начало" n nt nn sg prp @P←
 
 "<II>"
-	"II" num roman @→N
+	"II" num ord nt an sg gen @→N
 
 "<тысячелетия>"
 	"тысячелетие" n nt nn sg gen @N←
@@ -504,7 +504,7 @@
 	";" sent @CVP
 
 "<скотоводы>"
-	"скотовод" n m pl nom @SUBJ→
+	"скотовод" n m aa pl nom @SUBJ→
 
 "<тутси>"
 	"тутси" adj mfn an pl nom @N←
@@ -513,7 +513,7 @@
 	"," cm @Cm
 
 "<пришедшие>"
-	"прийти" vblex perf pp actv mfn an pl nom @N←
+	"прийти" vblex perf iv pp actv mfn an pl nom @N←
 
 "<с>"
 	"с" pr @←ADVL
@@ -525,7 +525,7 @@
 	"в" pr @←ADVL
 
 "<XVI>"
-	"XVI" num roman @→N
+	"XVI" num ord m an sg prp @→N
 
 "<веке>"
 	"век" n m nn sg prp @P←
@@ -534,7 +534,7 @@
 	"," cm @Cm
 
 "<распространили>"
-	"распространить" vblex perf past mfn pl @+FMAINV
+	"распространить" vblex perf tv past mfn pl @+FMAINV
 
 "<свою>"
 	"свой" det pos f an sg acc @→N
@@ -558,7 +558,7 @@
 	"," cm @Cm
 
 "<создав>"
-	"создать" vblex perf pp adv @←ADVL
+	"создать" vblex perf tv pp adv @←ADVL
 
 "<свое>"
 	"свой" det pos nt an sg acc @→N
@@ -571,10 +571,10 @@
 
 ¶
 "<Тутси>"
-	"тутси" n mf aa pl nom @SUBJ→
+	"тутси" n m aa pl nom @SUBJ→
 
 "<составили>"
-	"составить" vblex perf past mfn pl @+FMAINV
+	"составить" vblex perf tv past mfn pl @+FMAINV
 
 "<правящую>"
 	"правящий" adj f an sg acc @→N
@@ -586,7 +586,7 @@
 	"," cm @CNP
 
 "<наиболее>"
-	"наиболее" adv @→A
+	"наиболее" adv comp @→A
 
 "<зажиточную>"
 	"зажиточный" adj f an sg acc @→N
@@ -601,7 +601,7 @@
 	"," cm @CNP
 
 "<обладавшую>"
-	"обладать" vblex impf pp actv f an sg acc @N←
+	"обладать" vblex impf iv pp actv f an sg acc @N←
 
 "<одновременно>"
 	"одновременно" adv @→A
@@ -626,7 +626,7 @@
 	"момент" n m nn sg acc @P←
 
 "<существовали>"
-	"существовать" vblex impf past mfn pl @+FMAINV
+	"существовать" vblex impf iv past mfn pl @+FMAINV
 
 "<также>"
 	"также" adv @←ADVL
@@ -669,7 +669,7 @@
 	"—" guio @HYPH
 
 "<использовали>"
-	"использовать" vblex dual past mfn pl @+FMAINV
+	"использовать" vblex impf tv past mfn pl @+FMAINV
 
 "<различное>"
 	"различный" adj nt an sg acc @→N
@@ -699,10 +699,10 @@
 	"который" prn rel nt an sg acc @OBJ→
 
 "<им>"
-	"они" prn pers p3 mfn pl dat @ADVL→
+	"они" prn pers p3 pl dat @ADVL→
 
 "<раздавали>"
-	"раздавать" vblex impf past mfn pl @FS-N←
+	"раздавать" vblex impf tv past mfn pl @FS-N←
 
 "<солдаты>"
 	"солдат" n m aa pl nom @←SUBJ
@@ -724,7 +724,7 @@
 	"основной" adj nt an sg prp @P←
 
 "<они>"
-	"они" prn pers p3 mfn pl nom @SUBJ→
+	"они" prn pers p3 pl nom @SUBJ→
 
 "<в>"
 	"в" pr @ADVL→
@@ -736,7 +736,7 @@
 	"оружие" n nt nn sg gen @N←
 
 "<использовали>"
-	"использовать" vblex dual past mfn pl @+FMAINV
+	"использовать" vblex impf tv past mfn pl @+FMAINV
 
 "<мачете>"
 	"мачете" n nt nn pl acc @←OBJ
@@ -782,7 +782,7 @@
 	"сначала" adv @ADVL
 
 "<отрезали>"
-	"отрезать" vblex impf past mfn pl @+FMAINV
+	"отрезать" vblex impf tv past mfn pl @+FMAINV
 
 "<своим>"
 	"свой" det pos mfn an pl dat @→N
@@ -830,7 +830,7 @@
 	"после" pr @ADVL→
 
 "<этого>"
-	"это" prn dem nt sg gen @P←
+	"это" prn dem nt nn sg gen @P←
 
 "<отрубали>"
 	"отрубать" vblex impf tv past mfn pl @+FMAINV
@@ -855,7 +855,7 @@
 	"свидетель" n m aa pl nom @SUBJ→
 
 "<рассказывали>"
-	"рассказывать" vblex impf past mfn pl @+FMAINV
+	"рассказывать" vblex impf tv past mfn pl @+FMAINV
 
 "<,>"
 	"," cm @Cm
@@ -870,7 +870,7 @@
 	"жертва" n f nn pl nom @SUBJ→
 
 "<просили>"
-	"просить" vblex impf past mfn pl @FS-ADVL
+	"просить" vblex impf tv past mfn pl @FS-ADVL
 
 "<своих>"
 	"свой" det pos mfn aa pl acc @→N
@@ -882,10 +882,10 @@
 	"и" cnjcoo @CVP
 
 "<предлагали>"
-	"предлагать" vblex impf past mfn pl @FS-ADVL
+	"предлагать" vblex impf tv past mfn pl @FS-ADVL
 
 "<им>"
-	"они" prn pers p3 mfn pl dat @←ADVL
+	"они" prn pers p3 pl dat @←ADVL
 
 "<деньги>"
 	"деньги" n f nn pl acc @←OBJ
@@ -903,7 +903,7 @@
 	"чтобы" cnjsub @CVP
 
 "<их>"
-	"они" prn pers p3 mfn pl acc @OBJ→
+	"они" prn pers p3 pl acc @OBJ→
 
 "<застрелили>"
 	"застрелить" vblex perf tv past mfn pl @FS-ADVL
@@ -915,7 +915,7 @@
 	"а" cnjcoo @CVP
 
 "<не>"
-	"не" adv @ADVL→
+	"не" part @ADVL→
 
 "<зарубили>"
 	"зарубить" vblex perf tv past mfn pl @+FMAINV
@@ -934,7 +934,7 @@
 	"случай" n m nn sg prp @P←
 
 "<затруднений>"
-	"затруднение" n nt pl gen @P←
+	"затруднение" n nt nn pl gen @P←
 
 "<на>"
 	"на" pr @ADVL→
@@ -958,13 +958,13 @@
 	"," cm @Cm
 
 "<имеющие>"
-	"иметь" vbhaver impf pprs actv mfn an pl nom @N←
+	"иметь" vblex impf tv pprs actv mfn an pl nom @N←
 
 "<более>"
-	"более" preadv @→A
+	"более" adv comp @→A
 
 "<тяжёлое>"
-	"тяжелый" adj nt an sg acc @→N
+	"тяжёлый" adj nt an sg acc @→N
 
 "<оружие>"
 	"оружие" n nt nn sg acc @←OBJ
@@ -976,7 +976,7 @@
 	"взрывать¹" vblex impf tv past mfn pl @+FMAINV
 
 "<запертые>"
-	"запереть" vblex perf pp pasv mfn nn pl acc @→N
+	"запереть" vblex perf tv pp pasv mfn nn pl acc @→N
 
 "<двери>"
 	"дверь" n f nn pl acc @←OBJ
@@ -1019,7 +1019,7 @@
 	"жертва" n f aa pl gen @N←
 
 "<совершали>"
-	"совершать" vblex impf past mfn pl @+FMAINV
+	"совершать" vblex impf tv past mfn pl @+FMAINV
 
 "<издевательства>"
 	"издевательство" n nt nn pl acc @←OBJ
@@ -1031,7 +1031,7 @@
 	"разрубать" vblex impf tv past mfn pl @+FMAINV
 
 "<их>"
-	"они" prn pers p3 mfn pl acc @←OBJ
+	"они" prn pers p3 pl acc @←OBJ
 
 "<на>"
 	"на" pr @←ADVL
@@ -1063,7 +1063,7 @@
 
 ¶
 "<Нападающие>"
-	"нападающий" n m pl nom @SUBJ→
+	"нападающий" n m aa pl nom @SUBJ→
 
 "<выжигали>"
 	"выжигать" vblex impf tv past mfn pl @+FMAINV
@@ -1081,13 +1081,13 @@
 	"где" adv rel @ADVL→
 
 "<могли>"
-	"мочь" vbmod impf iv past mfn pl @FS-N←
+	"мочь" vblex impf iv past mfn pl @FS-N←
 
 "<спрятаться>"
 	"спрятаться" vblex perf iv inf @FS-N←IMV
 
 "<их>"
-	"их" det pos @→N
+	"их" det pos mfn an pl nom @→N
 
 "<жертвы>"
 	"жертва" n f aa pl nom @←SUBJ
@@ -1142,7 +1142,7 @@
 	"," cm @Cm
 
 "<во>"
-	"в" pr @ADVL→
+	"в" pr epenth @ADVL→
 
 "<время>"
 	"время" n nt nn sg acc @P←
@@ -1163,10 +1163,10 @@
 	"250" num @P←
 
 "<тысяч>"
-	"тысяча" num f nn pl gen @Num←
+	"тысяча" n f nn pl gen @Num←
 
 "<женщин>"
-	"женщина" n f aa pl gen @Num←
+	"женщина" n f aa pl gen @N←
 
 "<.>"
 	"." sent @CLB
@@ -1185,7 +1185,7 @@
 	"правительство" n nt nn sg gen @N←
 
 "<Руанды>"
-	"Руанда" np top f sg gen @N←
+	"Руанда" np al f nn sg gen @N←
 
 "<,>"
 	"," cm @Cm
@@ -1197,16 +1197,16 @@
 	"погибший" adj mfn an pl gen @N←
 
 "<составило>"
-	"составить" vblex perf past nt sg @+FMAINV
+	"составить" vblex perf tv past nt sg @+FMAINV
 
 "<937>"
 	"937" num @←OBJ
 
 "<тысяч>"
-	"тысяча" num f nn pl gen @Num←
+	"тысяча" n f nn pl gen @Num←
 
 "<человек>"
-	"человек" n m aa pl gen @Num←
+	"человек" n m aa pl gen count @N←
 
 "<,>"
 	"," cm @Cm
@@ -1215,7 +1215,7 @@
 	"по" pr @ADVL→
 
 "<другим>"
-	"другой" det ind mfn an pl dat @→N
+	"другой" det mfn an pl dat @→N
 
 "<данным>"
 	"данные" n mfn nn pl dat @P←
@@ -1224,7 +1224,7 @@
 	"," cm @Cm
 
 "<принятым>"
-	"принять" vblex perf pp pasv mfn an pl dat @N←
+	"принять" vblex perf tv pp pasv mfn an pl dat @N←
 
 "<ООН>"
 	"ООН" np org f sg ins
@@ -1237,7 +1237,7 @@
 	"800" num
 
 "<тысяч>"
-	"тысяча" num f nn pl gen @Num←
+	"тысяча" n f nn pl gen @Num←
 
 "<.>"
 	"." sent @CLB
@@ -1247,7 +1247,7 @@
 	"в" pr @ADVL→
 
 "<целом>"
-	"целое" n m sg prp @P←
+	"целое" n nt nn sg prp @P←
 
 "<диапазон>"
 	"диапазон" n m nn sg nom @SUBJ→
@@ -1280,10 +1280,10 @@
 	"1030" num @P←
 
 "<тысяч>"
-	"тысяча" num f nn pl gen @Num←
+	"тысяча" n f nn pl gen @Num←
 
 "<человек>"
-	"человек" n m aa pl gen @Num←
+	"человек" n m aa pl gen count @N←
 
 "<.>"
 	"." sent @CLB
@@ -1293,13 +1293,13 @@
 	"мигрировать" vblex impf iv past nt sg @+FMAINV
 
 "<несколько>"
-	"несколько" num mfn pl nom @←SUBJ
+	"несколько" num nom @←SUBJ
 
 "<миллионов>"
-	"миллион" num m nn pl gen @Num←
+	"миллион" n m nn pl gen @Num←
 
 "<человек>"
-	"человек" n m aa pl gen @Num←
+	"человек" n m aa pl gen count @N←
 
 "<внутри>"
 	"внутри" pr @←ADVL
@@ -1314,16 +1314,16 @@
 	"множество" n nt nn sg nom @SUBJ→
 
 "<людей>"
-	"люди" n m aa pl gen @N←
+	"человек" n m aa pl gen @N←
 
 "<бежало>"
-	"бежать" vblex impf past nt sg @+FMAINV
+	"бежать" vblex impf iv past nt sg @+FMAINV
 
 "<за>"
 	"за" pr @←ADVL
 
 "<ее>"
-	"её" det pos @→N
+	"её" det pos f nn pl acc @→N
 
 "<границы>"
 	"граница" n f nn pl acc @P←
@@ -1332,7 +1332,7 @@
 	"," cm @Cm
 
 "<спасаясь>"
-	"спасаться" vblex impf iv pprs actv adv @←ADVL
+	"спасаться" vblex impf iv pprs adv @←ADVL
 
 "<от>"
 	"от" pr @←ADVL
@@ -1378,7 +1378,7 @@
 	"," cm @CVP
 
 "<не>"
-	"не" adv @ADVL→
+	"не" part @ADVL→
 
 "<хватало>"
 	"хватать" vblex impf tv past nt sg @+FMAINV
@@ -1409,7 +1409,7 @@
 	"с" pr @A←
 
 "<Руандой>"
-	"Руанда" np top f sg ins @P←
+	"Руанда" np al f nn sg ins @P←
 
 "<государств>"
 	"государство" n nt nn pl gen @N←
@@ -1448,7 +1448,7 @@
 	"число" n nt nn sg acc @P←
 
 "<прибывших>"
-	"прибыть" vblex perf pp actv mfn an pl gen @→N
+	"прибыть" vblex perf iv pp actv mfn an pl gen @→N
 
 "<беженцев>"
 	"беженец" n m aa pl gen @N←
@@ -1473,10 +1473,10 @@
 	"в" pr @ADVL→
 
 "<Танзании>"
-	"Танзания" np top f sg prp @P←
+	"Танзания" np al f nn sg prp @P←
 
 "<начал>"
-	"начать" vblex perf past m sg @+FMAINV
+	"начать" vblex perf tv past m sg @+FMAINV
 
 "<работу>"
 	"работа" n f nn sg acc @←OBJ
@@ -1491,7 +1491,7 @@
 	"по" pr @N←
 
 "<Руанде>"
-	"Руанда" np top f sg prp @P←
+	"Руанда" np al f nn sg prp @P←
 
 "<.>"
 	"." sent @CLB
@@ -1522,7 +1522,7 @@
 	"гражданин" n m aa pl gen @N←
 
 "<Руанды>"
-	"Руанда" np top f sg gen @N←
+	"Руанда" np al f nn sg gen @N←
 
 
 "<весной>"
@@ -1608,7 +1608,7 @@
 	"к" pr @←ADVL
 
 "<пожизненному>"
-	"пожизненный" adj sint nt an sg dat @→N
+	"пожизненный" adj nt an sg dat @→N
 
 "<заключению>"
 	"заключение" n nt nn sg dat @P←
@@ -1656,8 +1656,17 @@
 "<что>"
 	"что" cnjsub @CVP
 
-"<после того, как>"
-	"после того, как" cnjadv
+"<после>" 
+	"после" pr 
+
+"<того>"
+    "то" prn dem nt nn sg gen @P←
+
+"<,>"
+    "," cm @Cm 
+
+"<как>"
+    "как" adv rel
 
 "<6>"
 	"6" num @→N
@@ -1726,10 +1735,10 @@
 	"," cm @CVP
 
 "<следовательно>"
-	"следовательно" adv @ADVL→
+	"следовательно" cnjcoo
 
 "<несёт>"
-	"нести" vblex impf pres p3 sg
+	"нести" vblex impf tv pres p3 sg
 
 "<ответственность>"
 	"ответственность" n f nn sg acc @←OBJ
@@ -1757,10 +1766,10 @@
 	"Багосора" np cog mf sg nom @SUBJ→
 
 "<был>"
-	"быть" vblex impf iv past m sg @+FMAINV
+	"быть" vblex impf iv past m sg @+AUXV
 
 "<признан>"
-	"признанный" adj short m pl @←SPRED
+	"признать" vblex perf tv pp pasv short m sg @-FMAINV
 
 "<организатором>"
 	"организатор" n m aa sg ins @←ADVL
@@ -1800,13 +1809,13 @@
 	"генерал" n m aa sg nom @SUBJ→
 
 "<вооружённых>"
-	"вооружённый" adj sint mfn an pl gen @→N
+	"вооружённый" adj mfn an pl gen @→N
 
 "<сил>"
 	"сила" n f nn pl gen @N←
 
 "<Руанды>"
-	"Руанда" np top f sg gen @N←
+	"Руанда" np al f nn sg gen @N←
 
 "<Огюстен>"
 	"Огюстен" np ant m sg nom @→N
@@ -1824,7 +1833,7 @@
 	"к" pr @←ADVL
 
 "<тридцати>"
-	"тридцать" num mfn pl dat @→N
+	"тридцать" num dat @→N
 
 "<годам>"
 	"год¹" n m nn pl dat @P←
@@ -1864,7 +1873,7 @@
 	"," cm @Cm
 
 "<не>"
-	"не" adv @ADVL→
+	"не" part @ADVL→
 
 "<попавшими>"
 	"попасть" vblex perf pp actv mfn an pl ins @N←
@@ -1885,7 +1894,7 @@
 	"," cm @Cm
 
 "<рассматривающего>"
-	"рассматривать" vblex impf tv pprs actv m sg gen @N←
+	"рассматривать" vblex impf tv pprs actv m an sg gen @N←
 
 "<дела>"
 	"дело" n nt nn pl acc @←OBJ
@@ -1894,7 +1903,7 @@
 	"только" adv @→A
 
 "<самых>"
-	"самый" det def mfn an pl gen @→N
+	"самый" det mfn an pl gen @→N
 
 "<главных>"
 	"главный" adj mfn an pl gen @→N
@@ -1930,13 +1939,13 @@
 	"," cm @Cm
 
 "<вынесшая>"
-	"вынести" vblex perf pp actv f an sg nom
+	"вынести" vblex perf tv pp actv f an sg nom
 
 "<не>"
-	"не" adv @→Adv
+	"не" part @→Adv
 
 "<менее>"
-	"менее" adv @→Num
+	"менее" adv comp @→Num
 
 "<100>"
 	"100" num
