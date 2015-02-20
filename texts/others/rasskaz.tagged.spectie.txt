@@ -350,7 +350,7 @@
 	"с" pr
 "<детьми>"
 ;	"дитя" n nt aa pl ins
-	"ребенок" n m aa pl ins
+	"ребёнок" n m aa pl ins
 "<.>"
 	"." sent
 

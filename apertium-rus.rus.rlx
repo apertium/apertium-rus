@@ -5,6 +5,7 @@
 DELIMITERS = "<.>" "<..>" "<...>" "<!>" "<?>" "<¶>" ; 
 SOFT-DELIMITERS = "<,>" ;
 SUBREADINGS = LTR ; 
+OPTIONS += no-inline-sets no-inline-templates ;
 
 LIST BOS = (>>>) ; 
 LIST EOS = (<<<) ; 
@@ -54,7 +55,7 @@ LIST Apos = apos ;
 LIST Quot = lquot rquot quot ;
 
 LIST Comp = (comp pred) ; 
-LIST Short = short (adj pred) ; # pred
+LIST Short = short (adj m pred) (adj f pred) (adj mfn pred) (adj nt pred) ; # pred
 LIST Cmp = cmp ; 
 
 LIST PrcPast = pp ;
@@ -301,7 +302,7 @@ LIST Letters = ("же" n) ("у²" n) ("о²" n) ("и²" n) ("а²" n) ; # etc.
 
 LIST Notes = ("до" n) ; # etc.
 
-LIST InsAdv = "часом" "потом" "кругом" "рядом" ; 
+LIST InsAdv = "часом" "потом" "кругом" "рядом" "летом" "разом" ; 
 
 LIST AccAdv = "вечер" "день" "раз" "минута" "неделя" ;
 
@@ -480,7 +481,7 @@ SELECT Gen + Pl IF (0C N OR A) (-1* Pjat BARRIER (*) - Adv - Gen);
 
 REMOVE Prp IF (-1C Inf)  ; 
 
-REMOVE Prp IF (NOT -1* Pr CBARRIER Gen)  ; 
+REMOVE Prp IF (NOT -1* Pr BARRIER CLB)  ; 
 
 REMOVE Prp IF (-1C N) (NOT 0 Prop LINK -1 Sem/Person) ; 
 
@@ -530,7 +531,7 @@ REMOVE Short IF (-1C Pr) ;
 
 #REMOVE Acc IF (-1* BOS BARRIER NGDAIP - Nom) (0C Nom OR Acc) (NOT 1* TV) (NOT -1 Num LINK 1 Sem/Time OR Sem/Distance) (NOT 0 Sem/Time) (NOT 0 Sem/Distance) ; 
 
-REMOVE Acc IF (-1* BOS BARRIER Fin OR NGDAIP - Nom)  (0C Nom OR Acc) (NOT 1* TV) (NOT 0 Sem/Time) (NOT 0 Sem/Distance) ; 
+REMOVE Acc IF (-1* BOS BARRIER Fin OR NGDAIP - Nom)  (0C Nom OR Acc) (NOT 1* TV) (NOT -1* Prep/Acc) (NOT 0 Sem/Time) (NOT 0 Sem/Distance) ; 
 
 REMOVE Cmp IF (0 Cmp OR Adv) (NOT 1 Guio) ; # (NOT 1 Guio LINK 1 A) ; 
 
@@ -688,7 +689,7 @@ REMOVE Fin IF (-1C Pr);
 
 SELECT $$NGDAIP IF (0C $$NGDAIP OR Imper) (-1C $$NGDAIP LINK -1* Pr BARRIER (*) - $$NGDAIP) ;
 
-SELECT Pron IF (0C Prp) (0 Pron OR Det) (NOT 1* Prp BARRIER (*) - Adv - DetIndecl) ; 
+SELECT Pron IF (0C Prp) (0 Pron OR Det) (NOT 0 Num) (NOT 1* Prp BARRIER (*) - Adv - DetIndecl) ; 
 
 SELECT N IF (0C A OR N) (-1C A) (1C Guio) ;
 
