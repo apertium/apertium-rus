@@ -517,7 +517,7 @@ SELECT Pron + Nom IF (0 Ja) (1* Fin + Sg1 BARRIER Fin) ;
 
 ## Heuristic operations 
 
-SELECT CS IF (0 Čto) (-1 Cm LINK NOT -1 Prn/To) (NOT 1* ("?"));
+SELECT CS IF (0 Čto) (-1 Cm LINK NOT -1 Prn/To) (NOT 1* Ques);
 
 REMOVE Fem IF  (0C A) (0C Msc OR Fem) (1C N) (NOT 1 Fem);
 
@@ -772,7 +772,7 @@ REMOVE Acc IF (0C Nom OR Acc) (0 A) (-1 Short) (1C Nom) ;
 
 REMOVE Adv IF (0 Pr/Posle) (-1C N) (1 Gen) ;
 
-SELECT Pr IF (0 Pr/Pri) ((1C* Fin BARRIER NGDAIP - Prp - Gen - Adv) OR (-1C* Fin BARRIER NGDAIP - Prp - Gen - Adv));
+SELECT Pr IF (0 Pr/Pri) (0C* Fin BARRIER NGDAIP - Prp - Gen - Adv) ;
 
 REMOVE Pr IF (0 Pr/Posle OR Adv/Posle) (NOT 1* Gen) (NOT 1 Unknown) ;
 
