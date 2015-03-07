@@ -73,6 +73,7 @@ install-data-local:
 	test -d $(DESTDIR)$(apertium_rus_srcdir) || mkdir -p $(DESTDIR)$(apertium_rus_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_rus_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_rus_srcdir)
+	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_rus_srcdir)
 
 ###############################################################################
 ## Cleanup
