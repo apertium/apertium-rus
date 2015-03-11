@@ -67,7 +67,9 @@ def reading_msd(r): #{
 		#}
 		if c == '>': #{
 			tag = tag + c;
-			if tag.count(':') > 0 or tag[1] == '@': #{
+			if tag.count(':') > 0 or len(tag) < 2: #{
+				continue;
+			elif tag[1] == '@': #{
 				continue;
 			else: #{
 				msd = msd + tag;
