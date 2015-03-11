@@ -646,6 +646,8 @@ SELECT Gen IF (0 N/Vek) (0C Sg + Gen OR Pl) (-1 Roman LINK -1 TimePart) ;
 SELECT Gen IF (0 N/Vek) (0C Sg + Gen OR Pl) (-1 Roman LINK -1 Guio LINK -1 Roman LINK -1 TimePart) ;
 
 SELECT Gen IF (0 N/Vek) (0C Sg + Gen OR Pl) (-1 A + Gen LINK -1 TimePart) ;
+#for "Сорок человек"  - genitive
+SELECT Gen IF (0 Num) (1 N + Gen) ;
 
 SELECT Loc IF (-1 Pr/O) (0 N/Polku) ; 
 
