@@ -5,7 +5,7 @@
 DELIMITERS = "<.>" "<..>" "<...>" "<!>" "<?>" "<¶>" ; 
 SOFT-DELIMITERS = "<,>" ;
 SUBREADINGS = LTR ; 
-OPTIONS += no-inline-sets no-inline-templates ;
+
 
 LIST BOS = (>>>) ; 
 LIST EOS = (<<<) ; 
