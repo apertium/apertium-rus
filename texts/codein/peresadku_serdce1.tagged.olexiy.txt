@@ -1116,8 +1116,8 @@
 ;	"пря" n f nn pl nom SELECT:719
 ;	"пря" n f nn sg gen SELECT:719
 "<использование>"
-;	"использование" n nt nn sg acc
-	"использование" n nt nn sg nom REMOVE:381
+	"использование" n nt nn sg acc
+;	"использование" n nt nn sg nom REMOVE:381
 "<бикавальной>"
 	"*бикавальной"
 "<техники>"
