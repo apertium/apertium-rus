@@ -1598,8 +1598,8 @@
 ;	"во" ij SELECT:821
 ;	"во" part SELECT:821
 "<времена>"
-	"время" n nt nn pl nom
-;	"время" n nt nn pl acc REMOVE:478
+;	"время" n nt nn pl nom
+	"время" n nt nn pl acc REMOVE:478
 "<золотого>"
 ;	"золотой" adj m aa sg acc
 	"золотой" adj m an sg gen
