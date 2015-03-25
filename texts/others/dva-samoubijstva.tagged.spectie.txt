@@ -320,7 +320,7 @@
 "<из>"
 	"из" pr
 "<самых>"
-	"самый" prn mfn an pl gen
+;	"самый" prn mfn an pl gen
 	"самый" det mfn an pl gen
 ;	"самый" det mfn aa pl acc REMOVE:425
 ;	"самый" det mfn an pl prp REMOVE:425
