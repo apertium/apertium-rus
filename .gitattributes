@@ -43,6 +43,7 @@ expanded/diff-previous-vs-current.txt -text
 /modes.xml -text
 /qa.sh -text
 /rus.prob -text
+scripts/corpconv/rnc2cg.py -text
 scripts/evaluate-tagger.py -text
 test-scripts/rus.test -text
 texts/codein/anglija1.raw.txt -text svneol=unset#application/octet-stream
