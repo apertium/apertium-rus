@@ -24,9 +24,12 @@ def printRnc(corpus, stress=False):
 	#print(words)
 	print(' '.join(words))
 
-def printRncAsCg(corpus):
+def printRncAsCg(corpus, stress=False):
+	global stressMark
 	for word in corpus.findall('.//se/w'):
 		wd = ''.join(word.itertext())
+		if not stress:
+			wd = re.sub(stressMark, "", wd)
 		anas = word.findall('ana')
 		if len(anas)==1:
 			ana = anas[0].attrib
