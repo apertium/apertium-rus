@@ -3,6 +3,10 @@
 import argparse, re
 import xml.etree.ElementTree as ET
 
+from lxml.html import fromstring, parse, etree
+
+from subprocess import Popen, PIPE
+
 stressMark = '`'
 
 def parseRnc(fn):
@@ -33,12 +37,32 @@ def printRncAsCg(corpus, stress=False):
 		anas = word.findall('ana')
 		if len(anas)==1:
 			ana = anas[0].attrib
-		else: print("WARNING: more than one analysis!!!  Keeping only first for the moment")
+		else: print("FIXME: more than one analysis!!!  Keeping only first for the moment")
 		#for ana in word.findall('ana'):
 		#	print(ana.attrib)
 		print(wd, ana)
 
+def textContents(elem, stress=False):
+	htmlTree = fromstring(ET.tostring(elem))
+	output = re.sub('[\n \r]+', ' ', htmlTree.text_content()).strip()
+	if not stress:
+		output = re.sub(stressMark, "", output)
 
+	return(output)
+
+def getSentences(corpus, stress=False):
+	global stressMark
+	for se in corpus.findall('.//se'):
+		sentence = textContents(se, stress=stress)
+		yield sentence
+
+def analyseCg(corpus, stress=False):
+	for sentence in getSentences(corpus, stress=False):
+		p1 = Popen(["echo", sentence], stdout=PIPE)
+		p2 = Popen(["rusmorph.sh"], stdin=p1.stdout, stdout=PIPE)
+		p1.stdout.close()  # Allow p1 to receive a SIGPIPE if p2 exits.
+		output = p2.communicate()[0]
+		print(output.decode())
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='rnc 2 cg mangler')
@@ -46,6 +70,7 @@ if __name__ == '__main__':
 	parser.add_argument('-s', '--stress', help="preserve stress marks", action='store_true', default=False)
 	parser.add_argument('-c', '--clean', help="print clean output", action='store_true', default=False)
 	parser.add_argument('-g', '--cg', help="print raw corpus in CG format", action='store_true', default=False)
+	parser.add_argument('-a', '--analyse', help="analyse all sentences with rusmorph.sh and cache the analyses", action='store_true', default=False)
 
 	args = parser.parse_args()
 
@@ -54,4 +79,7 @@ if __name__ == '__main__':
 	if(args.clean):
 		printRnc(corpus, stress=args.stress)
 	elif(args.cg):
-		printRncAsCg(corpus)
+		printRncAsCg(corpus, stress=args.stress)
+	elif(args.analyse):
+		analyseCg(corpus, stress=args.stress)
+
