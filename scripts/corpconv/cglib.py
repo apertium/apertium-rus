@@ -2,9 +2,6 @@
 
 import re
 
-with open("testdata", "r") as datafile:
-	testdata = datafile.read()
-
 tokenRe = re.compile("^\"<(.*?)>\"$")
 parseRe = re.compile("^(;?).*\"(.*?)\" (.*)$")
 
@@ -12,6 +9,7 @@ class Sentence:
 	global tokenRe
 	global parseRe
 	tokens = []
+	sentence = ""
 
 	def __init__(self, data):
 		started = False
@@ -19,8 +17,11 @@ class Sentence:
 		for line in data.split('\n'):
 			if tokenRe.match(line):
 				if started:
-					self.tokens.append(Token(thisToken, parseLines))
+					#print(parseLines)
+					newToken = Token(thisToken, parseLines)
+					self.tokens.append(newToken)
 					parseLines = []
+					newToken = None
 				else:
 					started = True
 				thisToken = line
@@ -29,8 +30,16 @@ class Sentence:
 
 			else:
 				print(line)
-		#print(parseLines)
-	
+			#print(parseLines)
+
+		first = True
+		for token in self.tokens:
+			if not first:
+				self.sentence += " "
+			self.sentence += token.token
+			first = False
+		self.sentence = "\"%s\"" % self.sentence
+
 	def __repr__(self):
 		return self.tokens
 	
@@ -38,6 +47,7 @@ class Sentence:
 		output = ""
 		for token in self.tokens:
 			output+=str(token)+"\n"
+		output+= self.sentence+"\n"
 		return output
 
 
@@ -49,11 +59,14 @@ class Token:
 	parses = []
 
 	def __init__(self, token, parseLines):
+		self.parses = []
 		self.token = tokenRe.match(token).group(1)
 		#print(self.token)
-		print(len(parseLines))
+		#print("W", len(self.parses))
+		#print(len(parseLines))
 		for parse in parseLines:
 			self.parses.append(Parse(parse))
+		#print(self.parses)
 	
 	def __repr__(self):
 		return {self.token: self.parses}
@@ -88,5 +101,7 @@ class Parse:
 
 
 if __name__ == '__main__':
+	with open("testdata", "r") as datafile:
+		testdata = datafile.read()
 	sent = Sentence(testdata)
 	print(sent)
