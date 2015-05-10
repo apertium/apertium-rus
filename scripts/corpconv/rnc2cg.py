@@ -7,7 +7,12 @@ from lxml.html import fromstring, parse, etree
 
 from subprocess import Popen, PIPE
 
+import os
+
+import cglib
+
 stressMark = '`'
+cacheDir = ""
 
 def parseRnc(fn):
 	global stressMark
@@ -42,6 +47,32 @@ def printRncAsCg(corpus, stress=False):
 		#	print(ana.attrib)
 		print(wd, ana)
 
+def getRncWords(se, stress=False):
+	global stressMark
+	words = []
+	for word in se.findall('.//w'):
+		analyses = []
+		token = ''.join(word.itertext())
+		if not stress:
+			token = re.sub(stressMark, "", token)
+		anas = word.findall('ana')
+		for ana in anas:
+			lemma = ana.attrib['lex']
+			tags = ana.attrib['gr']
+			thisAna = {lemma: tags}
+			analyses.append(thisAna)
+		words.append({token: analyses})
+	return words
+
+
+def getRncSentences(corpus, stress=False):
+	global stressMark
+	for se in corpus.findall('.//se'):
+		sentence = textContents(se, stress=stress)
+		words = getRncWords(se, stress=stress)
+		yield (sentence, words)
+
+
 def textContents(elem, stress=False):
 	htmlTree = fromstring(ET.tostring(elem))
 	output = re.sub('[\n \r]+', ' ', htmlTree.text_content()).strip()
@@ -49,6 +80,7 @@ def textContents(elem, stress=False):
 		output = re.sub(stressMark, "", output)
 
 	return(output)
+
 
 def getSentences(corpus, stress=False):
 	global stressMark
@@ -62,7 +94,43 @@ def analyseCg(corpus, stress=False):
 		p2 = Popen(["rusmorph.sh"], stdin=p1.stdout, stdout=PIPE)
 		p1.stdout.close()  # Allow p1 to receive a SIGPIPE if p2 exits.
 		output = p2.communicate()[0]
-		print(output.decode())
+		yield output.decode()
+
+def getCorpusCg(corpus, filename, stress=False, force=False):
+	global cacheDir
+
+	# get the cache directory
+	dirname = os.path.dirname(filename)
+	cacheDir = os.path.join(dirname, '.cache')
+	if(not os.path.exists(cacheDir)):
+		os.mkdir(cacheDir)
+	
+	# make the filename for the cg file
+	(base, ext) = os.path.splitext(os.path.basename(filename))
+	cgBase = base + '.cg'
+	cgFn = os.path.join(cacheDir, cgBase)
+
+	# if no cache file, or if being forced to recache, create and fill cache
+	if (not os.path.exists(cgFn)) or force:
+		with open(cgFn, 'w') as cgFile:
+			for sentence in analyseCg(corpus, stress):
+				cgFile.write(sentence)
+	
+	# return contents of cache file as Sentences object
+	with open(cgFn, 'r') as cgFile:
+		content = cgFile.read()
+	return cglib.Sentences(content)
+		
+
+
+def compareRncCg(corpusRnc, corpusCg, stress=False):
+	global cacheDir
+	#print(corpusCg)
+
+	for (sentenceRnc, sentenceCg) in zip(getRncSentences(corpusRnc, stress=stress), corpusCg.all()):
+		sentlen = len(sentenceCg)
+		#print(len(sentenceCg))
+		
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='rnc 2 cg mangler')
@@ -71,6 +139,7 @@ if __name__ == '__main__':
 	parser.add_argument('-c', '--clean', help="print clean output", action='store_true', default=False)
 	parser.add_argument('-g', '--cg', help="print raw corpus in CG format", action='store_true', default=False)
 	parser.add_argument('-a', '--analyse', help="analyse all sentences with rusmorph.sh and cache the analyses", action='store_true', default=False)
+	parser.add_argument('-f', '--force', help="force cached cg to be regenerated", action='store_true', default=False)
 
 	args = parser.parse_args()
 
@@ -82,4 +151,7 @@ if __name__ == '__main__':
 		printRncAsCg(corpus, stress=args.stress)
 	elif(args.analyse):
 		analyseCg(corpus, stress=args.stress)
+	else:
+		corpusCg = getCorpusCg(corpus, args.corpus, force=args.force, stress=args.stress)
+		compareRncCg(corpus, corpusCg, stress=args.stress)
 
