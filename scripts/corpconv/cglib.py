@@ -117,6 +117,13 @@ class Token:
 			output += repr(parse)+"\n"
 		return output
 	
+	def tagInParses(self, tag):
+		for parse in self.parses:
+			if parse.tags is not None:
+				if tag in parse.tags:
+					return True
+		return False
+
 class Parse:
 	global tokenRe
 	global parseRe
