@@ -14,7 +14,7 @@ class Sentences:
 			newSentence = None
 			newSentence = Sentence(sentenceData)
 			self.sentences.append(newSentence)
-			print(len(self.sentences))
+			#print(len(self.sentences))
 	
 	def __repr__(self):
 		return self.sentences
@@ -40,11 +40,12 @@ class Sentence:
 	sentence = ""
 
 	def __init__(self, data):
+		self.tokens = []
 		started = False
 		parseLines = []
 		for line in data.split('\n'):
 			if tokenRe.match(line):
-				print(len(self.tokens))
+				#print(len(self.tokens))
 				if started:
 					#print(parseLines)
 					newToken = Token(thisToken, parseLines)
