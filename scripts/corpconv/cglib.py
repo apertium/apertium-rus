@@ -95,6 +95,8 @@ class Token:
 	global parseRe
 	global nullParseRe
 
+	punctuation = ["sent", "cm", "quot", "guio", "lpar", "rpar"]
+
 	token = ""
 	parses = []
 
@@ -117,6 +119,12 @@ class Token:
 			output += repr(parse)+"\n"
 		return output
 	
+	def punctInParses(self):
+		for punct in self.punctuation:
+			if self.tagInParses(punct):
+				return True
+		return False
+
 	def tagInParses(self, tag):
 		for parse in self.parses:
 			if parse.tags is not None:
