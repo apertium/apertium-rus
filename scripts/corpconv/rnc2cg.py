@@ -128,8 +128,20 @@ def compareRncCg(corpusRnc, corpusCg, stress=False):
 	#print(corpusCg)
 
 	for (sentenceRnc, sentenceCg) in zip(getRncSentences(corpusRnc, stress=stress), corpusCg.all()):
-		sentlen = len(sentenceCg)
-		#print(len(sentenceCg))
+		#sentlen = len(sentenceCg)
+		#print(len(sentenceCg), len(sentenceRnc[1]))
+		#print(sentenceCg, sentenceRnc[1])
+		cur = 0
+		for token in sentenceCg.tokens:
+			#if not token.tagInParses("sent") and not token.tagInParses("cm") and not token.tagInParses("quot") and not token.tagInParses("guio") and not token.tagInParses("lpar") and not token.tagInParses("rpar"):
+			if not token.punctInParses():
+				if cur >= len(sentenceRnc[1]):
+					print("DRAGONS")
+				else:
+					#print(token.token, sentenceRnc[1][cur])
+					if token.token in sentenceRnc[1][cur]:
+						print(token.token)
+				cur += 1
 		
 
 if __name__ == '__main__':
