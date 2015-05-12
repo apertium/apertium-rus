@@ -13,6 +13,20 @@ import cglib
 
 stressMark = '`'
 cacheDir = ""
+posMappings = {
+		'V': 'vblex', # ipf:impf, pf:perf, tran:tv, intr:iv
+		'ADV': 'adv',
+		'A': 'adj',
+		'S': 'n', # f, m, n, inan:nn
+		'S': 'np.al',
+		'S.persn': 'np.ant', # f, m
+		'A-PRO': 'prn.pos', # det.pos?
+		'S-PRO': 'prn.pers',
+		'PR': 'pr',
+		'CONJ': 'cnjcoo', # etc.
+		'INTJ': 'ij',
+		# ADV-PRO ?
+	}
 
 def parseRnc(fn):
 	global stressMark
@@ -120,28 +134,89 @@ def getCorpusCg(corpus, filename, stress=False, force=False):
 	with open(cgFn, 'r') as cgFile:
 		content = cgFile.read()
 	return cglib.Sentences(content)
+
+def writeFiltered(filename, sentences):
+
+	# make the filename for the output file
+	(base, ext) = os.path.splitext(os.path.basename(filename))
+	output = base + '.filtered'
+
+	# write it
+	with open(output, 'w') as outFile:
+		for sent in sentences:
+			outFile.write(str(sent))
+
+
+def tagsMatch(tags, search):
+	# takes tags as list of tags, search as tag string (e.g. "n.pl")
+	#print(tags, search)	
+	if tags is not None and search is not None:
+		for idx, searchTag in enumerate(search.split('.')):
+			#print(idx)
+			if searchTag != tags[idx]:
+				return False
 		
+		return True
+	else:
+		return False
 
 
 def compareRncCg(corpusRnc, corpusCg, stress=False):
 	global cacheDir
+	global posMappings
 	#print(corpusCg)
 
+	outSents = []
 	for (sentenceRnc, sentenceCg) in zip(getRncSentences(corpusRnc, stress=stress), corpusCg.all()):
 		#sentlen = len(sentenceCg)
 		#print(len(sentenceCg), len(sentenceRnc[1]))
 		#print(sentenceCg, sentenceRnc[1])
-		cur = 0
+		curW = 0
 		for token in sentenceCg.tokens:
-			#if not token.tagInParses("sent") and not token.tagInParses("cm") and not token.tagInParses("quot") and not token.tagInParses("guio") and not token.tagInParses("lpar") and not token.tagInParses("rpar"):
 			if not token.punctInParses():
-				if cur >= len(sentenceRnc[1]):
+				if curW >= len(sentenceRnc[1]):
 					print("DRAGONS")
 				else:
 					#print(token.token, sentenceRnc[1][cur])
-					if token.token in sentenceRnc[1][cur]:
-						print(token.token)
-				cur += 1
+					
+					if token.token in sentenceRnc[1][curW]:
+
+						# split Rnc tags
+						parsesRnc = sentenceRnc[1][curW][token.token]
+						parsesCg = token.parses
+						#print(token.token, parsesCg, parsesRnc)
+						curParse = 0
+						for parse in parsesRnc:
+							for lemma in parse:
+								splitTags = parse[lemma].replace('=', ',').split(',')
+								sentenceRnc[1][curW][token.token][curParse][lemma] = splitTags
+								#print(splitTags)
+							curParse += 1
+							#print(token.token, parsesCg, sentenceRnc[1][curW][token.token])
+
+					
+						if len(sentenceRnc[1][curW][token.token]) > 1:
+							print("SKIPPING: more than one filter, undefined behaviour")
+						else:
+							# check if Rnc parse in Cg parses
+							# for now just check first tag
+							firstTag = list(sentenceRnc[1][curW][token.token][0].items())[0][1][0]
+							if firstTag in posMappings:
+								for parse in parsesCg:
+									#print(parse.tags)
+									found = tagsMatch(parse.tags, posMappings[firstTag])
+									if not found:
+										parse.comment("REMOVE:"+firstTag)
+									else:
+										parse.addDecision("SELECT:"+firstTag)
+							else:
+								print(firstTag, "not in POS list!")
+
+
+				curW += 1
+		#print(str(sentenceCg))
+		outSents.append(sentenceCg)
+	return outSents
 		
 
 if __name__ == '__main__':
@@ -165,5 +240,6 @@ if __name__ == '__main__':
 		analyseCg(corpus, stress=args.stress)
 	else:
 		corpusCg = getCorpusCg(corpus, args.corpus, force=args.force, stress=args.stress)
-		compareRncCg(corpus, corpusCg, stress=args.stress)
+		sentencesCg = compareRncCg(corpus, corpusCg, stress=args.stress)
+		writeFiltered(args.corpus, sentencesCg)
 

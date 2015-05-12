@@ -78,8 +78,8 @@ class Sentence:
 	def __str__(self):
 		output = ""
 		for token in self.tokens:
-			output+=str(token)+"\n"
-		output+= self.sentence+"\n"
+			output+=str(token)#+"\n"
+		#output+= self.sentence+"\n"
 		return output
 
 	def __len__(self):
@@ -114,9 +114,9 @@ class Token:
 		return repr({self.token: repr(self.parses)})
 	
 	def __str__(self):
-		output = "=="+self.token+"\n"
+		output = "\"<{}>\"\n".format(self.token)
 		for parse in self.parses:
-			output += repr(parse)+"\n"
+			output += str(parse)+"\n"
 		return output
 	
 	def punctInParses(self):
@@ -158,18 +158,34 @@ class Parse:
 
 	def __str__(self):
 		if self.lemma != None:
-			output = self.lemma+": "
+			tagOutput = ""
+			First = True
 			for tag in self.tags:
-				output += tag+", "
-			return output
+				if not First:
+					tagOutput += " "
+				tagOutput += tag
+				First = False
+			comment = ";" if self.commented else " "
+			rules = ' '.join(self.decisions)
+			template = "{}       \"{}\" {} {}"
+			return template.format(comment, self.lemma, tagOutput, rules)
+
 		else:
 			return ""
 
-	def comment():
+	def comment(self, rule=None):
 		self.commented = True
+		if rule is not None:
+			self.decisions = []
+			self.decisions.append(rule)
 	
-	def uncomment():
+	def uncomment(self):
 		self.commented = False
+		self.decisions = []
+	
+	def addDecision(self, rule):
+		self.decisions = []
+		self.decisions.append(rule)
 
 
 if __name__ == '__main__':
