@@ -45,6 +45,7 @@ expanded/diff-previous-vs-current.txt -text
 /rus.prob -text
 scripts/corpconv/cglib.py -text
 scripts/corpconv/rnc2cg.py -text
+scripts/corpconv/rnctags.py -text
 scripts/evaluate-tagger.py -text
 test-scripts/rus.test -text
 texts/codein/anglija1.raw.txt -text svneol=unset#application/octet-stream
