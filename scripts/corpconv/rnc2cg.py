@@ -18,7 +18,7 @@ posMappings = {
 		'ADV': 'adv',
 		'A': 'adj',
 		'S': 'n', # f, m, n, inan:nn
-		'S': 'np.al',
+		#'S': 'np.al',
 		'S.persn': 'np.ant', # f, m
 		'A-PRO': 'prn.pos', # det.pos?
 		'S-PRO': 'prn.pers',
