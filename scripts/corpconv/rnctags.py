@@ -1,5 +1,78 @@
 #!/usr/bin/env python3
 
+weeDict = {
+	'V': 'vblex', # ipf:impf, pf:perf, tran:tv, intr:iv
+	'ADV': 'adv',
+	'A': 'adj',
+	'S': 'n', # f, m, n, inan:nn
+	#'S': 'np.al',
+	#'S.persn': 'np.ant', # f, m
+	'A-PRO': 'prn.pos', # det.pos?
+	'S-PRO': 'prn.pers',
+	'PR': 'pr',
+	'CONJ': 'cnjcoo', # etc.
+	'INTJ': 'ij',
+	'NUM': 'num',
+	'ANUM': 'num', # FIXME: CHECK
+	'PART': 'part', # ☹
+	'ADV-PRO': 'adv', # FIXME: CHECK
+	'PRAEDIC': 'pred',
+	'PRAEDIC-PRO': 'prn.pred',
+	'PARENTH': 'paren', # parenthetical
+	'3p': 'p3',
+	'2p': 'p2',
+	'1p': 'p1',
+	'sg': 'sg',
+	'pl': 'pl',
+	'nom': 'nom',
+	'dat': 'dat',
+	'dat2': 'dat',
+	'gen': 'gen',
+	'gen2': 'gen',
+	'acc': 'acc',
+	'acc2': 'acc',
+	'loc': 'loc',
+	'loc2': 'loc',
+	'ins': 'ins',
+	'inan': 'nn',
+	'anim': 'aa',
+	'intr': 'iv',
+	'tran': 'tv',
+	'm': 'm',
+	'n': 'nt',
+	'f': 'f',
+	'patrn': 'pat',
+	'famn': 'cog',
+	'persn': 'ant',
+	'imper': 'imp', # imperative
+	'imper2': 'imp',
+	'ipf': 'impf', # imperfective
+	'pf': 'perf',
+	'praes': 'pres',
+	'praet': 'past',
+	'fut': 'fut',
+	'inf': 'inf',
+	'ger': 'pprs', # FIXME: CHECK
+	'partcp': 'pp',
+	'brev': 'short',
+	'pass': 'pasv',
+	'comp': 'comp',
+
+	# obsc - obscene
+	# act - active
+	# indic - indicative
+	# med - reflexive - hmm
+	# comp2 - special comparative?
+	# anom - anomalous form?
+	# ciph??
+	# adnum: count?
+	# m-f - masculine/feminine
+	# zoon?
+	# distort - like anom?
+	# plen - full form adj?
+	# NONLEX - non-[Russian ]word?
+}
+
 bigDict = {
 	"A.0.f.sg.nom.plen": "",
 	"A.0.m.sg.nom.plen": "",
@@ -432,7 +505,7 @@ bigDict = {
 	"A.sg.nom.plen": "",
 	"CONJ": "",
 	"CONJ.distort": "",
-	"FIXME: more than one analysis!!!  Keeping only first for the moment": "",
+	#"FIXME: more than one analysis!!!  Keeping only first for the moment": "",
 	"INIT.abbr": "",
 	"INTJ": "",
 	"INTJ.distort": "",
@@ -2566,3 +2639,11 @@ bigDict = {
 	"V.tran.praes.sg.3p.ipf.act.indic": "",
 	"V.tran.praet.pl.ipf.act.indic": "",
 }
+
+if __name__ == '__main__':
+	allTags = set([])
+	for big in bigDict:
+		for tag in big.split('.'):
+			allTags.add(tag)
+	
+	print("tags left: " + str(allTags - set(weeDict)))
