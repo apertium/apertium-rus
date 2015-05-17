@@ -54,17 +54,19 @@ def printRncAsCg(corpus, stress=False, tags=False, uniq=False):
 		if not stress:
 			wd = re.sub(stressMark, "", wd)
 		anas = word.findall('ana')
-		if len(anas)==1:
-			ana = anas[0].attrib
-		else: print("FIXME: more than one analysis!!!  Keeping only first for the moment")
-		#for ana in word.findall('ana'):
-		#	print(ana.attrib)
-		if uniq:
-			print('.'.join(ana['gr'].replace('=', ',').split(',')))
-		elif tags:
-			print(ana['gr'])
-		else:
-			print(wd, ana)
+		#if len(anas)==1:
+		#	ana = anas[0].attrib
+		#else: print("FIXME: more than one analysis!!!  Keeping only first for the moment")
+		##for ana in word.findall('ana'):
+		##	print(ana.attrib)
+		for thisAna in anas: #word.findall('ana'):
+			ana = thisAna.attrib
+			if uniq:
+				print('.'.join(ana['gr'].replace('=', ',').split(',')))
+			elif tags:
+				print(ana['gr'])
+			else:
+				print(wd, ana)
 
 def getRncWords(se, stress=False):
 	global stressMark
