@@ -47,7 +47,7 @@ def printRnc(corpus, stress=False):
 	#print(words)
 	print(' '.join(words))
 
-def printRncAsCg(corpus, stress=False, tags=False):
+def printRncAsCg(corpus, stress=False, tags=False, uniq=False):
 	global stressMark
 	for word in corpus.findall('.//se/w'):
 		wd = ''.join(word.itertext())
@@ -59,10 +59,12 @@ def printRncAsCg(corpus, stress=False, tags=False):
 		else: print("FIXME: more than one analysis!!!  Keeping only first for the moment")
 		#for ana in word.findall('ana'):
 		#	print(ana.attrib)
-		if not tags:
-			print(wd, ana)
-		else:
+		if uniq:
+			print('.'.join(ana['gr'].replace('=', ',').split(',')))
+		elif tags:
 			print(ana['gr'])
+		else:
+			print(wd, ana)
 
 def getRncWords(se, stress=False):
 	global stressMark
@@ -229,6 +231,7 @@ if __name__ == '__main__':
 	parser.add_argument('-c', '--clean', help="print clean output", action='store_true', default=False)
 	parser.add_argument('-g', '--cg', help="print raw corpus in CG format", action='store_true', default=False)
 	parser.add_argument('-t', '--tags', help="tags only", action='store_true', default=False)
+	parser.add_argument('-u', '--uniq', help="unique tags only", action='store_true', default=False)
 	parser.add_argument('-a', '--analyse', help="analyse all sentences with rusmorph.sh and cache the analyses", action='store_true', default=False)
 	parser.add_argument('-f', '--force', help="force cached cg to be regenerated", action='store_true', default=False)
 
@@ -239,7 +242,7 @@ if __name__ == '__main__':
 	if(args.clean):
 		printRnc(corpus, stress=args.stress)
 	elif(args.cg):
-		printRncAsCg(corpus, stress=args.stress, tags=args.tags)
+		printRncAsCg(corpus, stress=args.stress, tags=args.tags, uniq=args.uniq)
 	elif(args.analyse):
 		analyseCg(corpus, stress=args.stress)
 	else:
