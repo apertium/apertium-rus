@@ -83,7 +83,12 @@ def rnc2cg(parse):
 		outParse[key] = []
 		for tag in parse[key]:
 			if tag in weeDict:
-				outParse[key].append(weeDict[tag])
+				if "." in weeDict[tag]:
+					splitTags = weeDict[tag].split(".")
+					for splitTag in splitTags:
+						outParse[key].append(splitTag)
+				else:
+					outParse[key].append(weeDict[tag])
 	
 	#print(outParse)
 	
