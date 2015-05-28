@@ -266,7 +266,7 @@ def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS"):
 										if maxKey > 0:
 											for num in remainingParses:
 												for remainingParse in remainingParses[num]:
-													print(remainingParse, parseRnc, num)
+													#print(remainingParse, parseRnc, num)
 													if num < maxKey:
 														#print(remainingParse)
 														remainingParse.comment("REMOVE:LessThanMaxTags")
