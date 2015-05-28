@@ -31,8 +31,8 @@ weeDict = {
 	'gen2': 'gen',
 	'acc': 'acc',
 	'acc2': 'acc',
-	'loc': 'loc',
-	'loc2': 'loc',
+	'loc': 'prp',
+	'loc2': 'prp',
 	'ins': 'ins',
 	'inan': 'nn',
 	'anim': 'aa',
@@ -72,6 +72,22 @@ weeDict = {
 	# plen - full form adj?
 	# NONLEX - non-[Russian ]word?
 }
+
+def rnc2cg(parse):
+	# convert each RNC tag to a CG tag
+	# exclude unconvertible tags
+	global weeDict
+
+	outParse = {}
+	for key in parse.keys():
+		outParse[key] = []
+		for tag in parse[key]:
+			if tag in weeDict:
+				outParse[key].append(weeDict[tag])
+	
+	#print(outParse)
+	
+	return outParse
 
 bigDict = {
 	"A.0.f.sg.nom.plen": "",

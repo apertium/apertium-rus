@@ -143,6 +143,7 @@ class Parse:
 	commented = False
 
 	def __init__(self, line):
+		self.decisions = []
 		#print(line)
 		if parseRe.match(line):
 			(commented, self.lemma, tags) = parseRe.match(line).groups()
@@ -176,7 +177,6 @@ class Parse:
 	def comment(self, rule=None):
 		self.commented = True
 		if rule is not None:
-			self.decisions = []
 			self.decisions.append(rule)
 	
 	def uncomment(self):
@@ -184,8 +184,13 @@ class Parse:
 		self.decisions = []
 	
 	def addDecision(self, rule):
-		self.decisions = []
 		self.decisions.append(rule)
+
+	def isSelected(self):
+		for decision in self.decisions:
+			if "SELECT" in decision:
+				return True
+		return False
 
 
 if __name__ == '__main__':

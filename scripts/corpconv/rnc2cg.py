@@ -10,6 +10,8 @@ from subprocess import Popen, PIPE
 import os
 
 import cglib
+from rnctags import weeDict as tagDict
+from rnctags import rnc2cg
 
 stressMark = '`'
 cacheDir = ""
@@ -168,7 +170,7 @@ def tagsMatch(tags, search):
 		return False
 
 
-def compareRncCg(corpusRnc, corpusCg, stress=False):
+def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS"):
 	global cacheDir
 	global posMappings
 	#print(corpusCg)
@@ -205,19 +207,72 @@ def compareRncCg(corpusRnc, corpusCg, stress=False):
 						if len(sentenceRnc[1][curW][token.token]) > 1:
 							print("SKIPPING: more than one filter, undefined behaviour")
 						else:
+
 							# check if Rnc parse in Cg parses
 							# for now just check first tag
-							firstTag = list(sentenceRnc[1][curW][token.token][0].items())[0][1][0]
-							if firstTag in posMappings:
+							if algorithm=="POS":
+								firstTag = list(sentenceRnc[1][curW][token.token][0].items())[0][1][0]
+								if firstTag in posMappings:
+									for parse in parsesCg:
+										#print(parse.tags)
+										found = tagsMatch(parse.tags, posMappings[firstTag])
+										if not found:
+											parse.comment("REMOVE:"+firstTag)
+										else:
+											parse.addDecision("SELECT:"+firstTag)
+								else:
+									print(firstTag, "not in POS list!")
+
+							# check if Rnc parse in Cg parses
+							# REMOVE analyses with no matching tags
+							# SELECT analyses where all convertible tags match
+							# otherwise SELECT analysis with most matches
+							elif algorithm=="guess":
+								rnctags = list(sentenceRnc[1][curW][token.token][0].items())[0][1]
+								rnclemma = list(sentenceRnc[1][curW][token.token][0].items())[0][0]
+								rncParse = {rnclemma: rnctags}
+								parseRnc = rnc2cg(rncParse)
+								#print(rncParse)
+								#print(parsesCg)
+								remainingParses = {}
+								exactMatched = False
 								for parse in parsesCg:
-									#print(parse.tags)
-									found = tagsMatch(parse.tags, posMappings[firstTag])
-									if not found:
-										parse.comment("REMOVE:"+firstTag)
-									else:
-										parse.addDecision("SELECT:"+firstTag)
-							else:
-								print(firstTag, "not in POS list!")
+									cglemma = parse.lemma
+									if cglemma != None:
+										#print(cglemma.strip("¹").strip("²").strip("³").strip("⁴"))
+										if cglemma.strip("¹").strip("²").strip("³").strip("⁴") != rnclemma:
+											parse.comment("REMOVE:LemmaNot_"+rnclemma)
+										else:
+											#print(parse.tags, parseRnc[lemma])
+											intersection = set(parse.tags).intersection(parseRnc[lemma])
+											numMatchingTags = len(intersection)
+											if numMatchingTags == len(parse.tags):
+												parse.addDecision("SELECT:ExactMatch")
+												exactMatched = True
+											else:
+												#thisRemainingParse = [parse, numMatchingTags]
+												if numMatchingTags not in remainingParses:
+													remainingParses[numMatchingTags] = []
+												remainingParses[numMatchingTags].append(parse)
+								if exactMatched:
+									for parse in parsesCg:
+										if not parse.isSelected():
+											parse.comment("REMOVE:NotExactMatch")
+								else:
+									if remainingParses != {}:
+										#print(remainingParses)
+										maxKey = max(remainingParses.keys())
+										#print(maxKey)
+										if maxKey > 0:
+											for num in remainingParses:
+												for remainingParse in remainingParses[num]:
+													print(remainingParse, parseRnc, num)
+													if num < maxKey:
+														#print(remainingParse)
+														remainingParse.comment("REMOVE:LessThanMaxTags")
+													elif num == maxKey:
+														remainingParse.addDecision("SELECT:MaxMatchingTags")
+
 
 
 				curW += 1
@@ -235,6 +290,7 @@ if __name__ == '__main__':
 	parser.add_argument('-t', '--tags', help="tags only", action='store_true', default=False)
 	parser.add_argument('-u', '--uniq', help="unique tags only", action='store_true', default=False)
 	parser.add_argument('-a', '--analyse', help="analyse all sentences with rusmorph.sh and cache the analyses", action='store_true', default=False)
+	parser.add_argument('-m', '--algorithm', help="algorithm to use for comparison: pos or guess", action='store', default='pos')
 	parser.add_argument('-f', '--force', help="force cached cg to be regenerated", action='store_true', default=False)
 
 	args = parser.parse_args()
@@ -249,6 +305,6 @@ if __name__ == '__main__':
 		analyseCg(corpus, stress=args.stress)
 	else:
 		corpusCg = getCorpusCg(corpus, args.corpus, force=args.force, stress=args.stress)
-		sentencesCg = compareRncCg(corpus, corpusCg, stress=args.stress)
+		sentencesCg = compareRncCg(corpus, corpusCg, stress=args.stress, algorithm=args.algorithm)
 		writeFiltered(args.corpus, sentencesCg)
 
