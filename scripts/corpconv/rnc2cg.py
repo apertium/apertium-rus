@@ -239,7 +239,7 @@ def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS"):
 								exactMatched = False
 								for parse in parsesCg:
 									cglemma = parse.lemma
-									if cglemma != None:
+									if cglemma != None and "*" not in cglemma and len(parsesCg) > 1:
 										#print(cglemma.strip("¹").strip("²").strip("³").strip("⁴"))
 										if cglemma.strip("¹").strip("²").strip("³").strip("⁴") != rnclemma:
 											parse.comment("REMOVE:LemmaNot_"+rnclemma)
