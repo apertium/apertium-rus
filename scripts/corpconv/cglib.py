@@ -20,8 +20,12 @@ class Sentences:
 		return self.sentences
 	
 	def __str__(self):
+		output = ""
 		for sentence in self.sentences:
-			print(str(sentence))
+			#print(str(sentence))
+			output += str(sentence)
+
+		return output
 	
 	#def len(self):
 	#	return len(self.sentences)
@@ -151,7 +155,10 @@ class Parse:
 			#print(self.commented)
 			self.tags = tags.split()
 		elif nullParseRe.match(line):
-			self.lemma = None
+			#print(line)
+			#self.lemma = None
+			self.lemma = "*{}".format(nullParseRe.match(line).groups()[1])
+			#print(self.lemma)
 			self.tags = None
 
 	def __repr__(self):
@@ -161,11 +168,14 @@ class Parse:
 		if self.lemma != None:
 			tagOutput = ""
 			First = True
-			for tag in self.tags:
-				if not First:
-					tagOutput += " "
-				tagOutput += tag
-				First = False
+			if self.tags != None: #len(self.tags) > 0:
+				for tag in self.tags:
+					if not First:
+						tagOutput += " "
+					tagOutput += tag
+					First = False
+			else:
+				tagOutput = ""
 			comment = ";" if self.commented else " "
 			rules = ' '.join(self.decisions)
 			template = "{}       \"{}\" {} {}"

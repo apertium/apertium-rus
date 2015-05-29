@@ -184,7 +184,7 @@ def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS"):
 		for token in sentenceCg.tokens:
 			if not token.punctInParses():
 				if curW >= len(sentenceRnc[1]):
-					print("DRAGONS")
+					print("DRAGONS", sentenceRnc[1])
 				else:
 					#print(token.token, sentenceRnc[1][cur])
 					
@@ -205,7 +205,7 @@ def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS"):
 
 					
 						if len(sentenceRnc[1][curW][token.token]) > 1:
-							print("SKIPPING: more than one filter, undefined behaviour")
+							print("SKIPPING: more than one filter, undefined behaviour", sentenceRnc[1][curW][token.token])
 						else:
 
 							# check if Rnc parse in Cg parses
@@ -232,6 +232,7 @@ def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS"):
 								rnclemma = list(sentenceRnc[1][curW][token.token][0].items())[0][0]
 								rncParse = {rnclemma: rnctags}
 								parseRnc = rnc2cg(rncParse)
+								#"<Кинзмараул>"
 								#print(rncParse)
 								#print(parsesCg)
 								remainingParses = {}
@@ -305,6 +306,7 @@ if __name__ == '__main__':
 		analyseCg(corpus, stress=args.stress)
 	else:
 		corpusCg = getCorpusCg(corpus, args.corpus, force=args.force, stress=args.stress)
+		#print(corpusCg)
 		sentencesCg = compareRncCg(corpus, corpusCg, stress=args.stress, algorithm=args.algorithm)
 		writeFiltered(args.corpus, sentencesCg)
 
