@@ -469,6 +469,10 @@ REMOVE NGDAIP - Gen - Loc IF (0 Year) (-1 Num LINK -1 Pr/V) ;
 
 SELECT Neu IF (0 Dat) (-1 Year) (1 Nazad) ; 
 
+##его<prn><pos> друг not <prn><pers>  
+
+SELECT (prn pos) IF (1 N) ;
+
 ## Safe operations in some numeral expressions
 
 SELECT Gen IF (-1 Percent) ;
