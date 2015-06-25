@@ -13,7 +13,8 @@ weeDict = {
 	'CONJ': 'cnjcoo', # etc.
 	'INTJ': 'ij',
 	'NUM': 'num',
-	'ANUM': 'num', # FIXME: CHECK
+	'ANUM': 'num.ord', # FIXME: CHECK
+	'A-NUM': 'num.ord',
 	'PART': 'part', # ☹
 	'ADV-PRO': 'adv', # FIXME: CHECK
 	'PRAEDIC': 'pred',
@@ -57,6 +58,8 @@ weeDict = {
 	'brev': 'short',
 	'pass': 'pasv',
 	'comp': 'comp',
+
+	# NUM=ciph : num
 
 	# obsc - obscene
 	# act - active

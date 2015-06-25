@@ -169,8 +169,10 @@ def tagsMatch(tags, search):
 	else:
 		return False
 
+#def addInRNCTags(corpusRnc, corpusCg):
 
-def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS"):
+
+def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS", orig=False):
 	global cacheDir
 	global posMappings
 	#print(corpusCg)
@@ -274,6 +276,18 @@ def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS"):
 													elif num == maxKey:
 														remainingParse.addDecision("SELECT:MaxMatchingTags")
 
+						if orig:
+							for RNCParse in parsesRnc:
+								lem = list(RNCParse.keys())[0]
+								tagz = RNCParse[lem]
+								tagz.append("@RNC")
+								textTagz = " ".join(tagz)
+								stuffs = (lem, textTagz)
+								#print(stuffs)
+								parseToAdd = ";  \"{}\" {}".format(stuffs[0], stuffs[1])
+								#print(parseToAdd)
+								token.addParse(parseToAdd,where=0)
+
 
 
 				curW += 1
@@ -293,6 +307,7 @@ if __name__ == '__main__':
 	parser.add_argument('-a', '--analyse', help="analyse all sentences with rusmorph.sh and cache the analyses", action='store_true', default=False)
 	parser.add_argument('-m', '--algorithm', help="algorithm to use for comparison: pos or guess", action='store', default='pos')
 	parser.add_argument('-f', '--force', help="force cached cg to be regenerated", action='store_true', default=False)
+	parser.add_argument('-o', '--original', help="add in original RNC tags with @RNC tag", action='store_true', default=False)
 
 	args = parser.parse_args()
 
@@ -307,6 +322,6 @@ if __name__ == '__main__':
 	else:
 		corpusCg = getCorpusCg(corpus, args.corpus, force=args.force, stress=args.stress)
 		#print(corpusCg)
-		sentencesCg = compareRncCg(corpus, corpusCg, stress=args.stress, algorithm=args.algorithm)
+		sentencesCg = compareRncCg(corpus, corpusCg, stress=args.stress, algorithm=args.algorithm, orig=args.original)
 		writeFiltered(args.corpus, sentencesCg)
 

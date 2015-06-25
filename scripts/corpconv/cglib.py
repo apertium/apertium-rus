@@ -135,6 +135,12 @@ class Token:
 				if tag in parse.tags:
 					return True
 		return False
+	
+	def addParse(self, newParse, where=None):
+		if where is not None:
+			self.parses.insert(where, Parse(newParse))
+		else:
+			self.parses.append(Parse(newParse))
 
 class Parse:
 	global tokenRe
