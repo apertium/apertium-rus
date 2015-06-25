@@ -172,12 +172,13 @@ def tagsMatch(tags, search):
 #def addInRNCTags(corpusRnc, corpusCg):
 
 
-def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS", orig=False):
+def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS", orig=False, info=False):
 	global cacheDir
 	global posMappings
 	#print(corpusCg)
 
 	outSents = []
+	dragons = 0
 	for (sentenceRnc, sentenceCg) in zip(getRncSentences(corpusRnc, stress=stress), corpusCg.all()):
 		#sentlen = len(sentenceCg)
 		#print(len(sentenceCg), len(sentenceRnc[1]))
@@ -187,6 +188,7 @@ def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS", orig=False)
 			if not token.punctInParses():
 				if curW >= len(sentenceRnc[1]):
 					print("DRAGONS", sentenceRnc[1])
+					dragons += 1
 				else:
 					#print(token.token, sentenceRnc[1][cur])
 					
@@ -293,6 +295,9 @@ def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS", orig=False)
 				curW += 1
 		#print(str(sentenceCg))
 		outSents.append(sentenceCg)
+	if info:
+		print("Number of sentences: {}".format(len(outSents)))
+		print("Number of sentences with tokenisation errors: {}".format(dragons))
 	return outSents
 		
 
@@ -308,6 +313,7 @@ if __name__ == '__main__':
 	parser.add_argument('-m', '--algorithm', help="algorithm to use for comparison: pos or guess", action='store', default='pos')
 	parser.add_argument('-f', '--force', help="force cached cg to be regenerated", action='store_true', default=False)
 	parser.add_argument('-o', '--original', help="add in original RNC tags with @RNC tag", action='store_true', default=False)
+	parser.add_argument('-i', '--info', help="print additional information", action='store_true', default=False)
 
 	args = parser.parse_args()
 
@@ -322,6 +328,6 @@ if __name__ == '__main__':
 	else:
 		corpusCg = getCorpusCg(corpus, args.corpus, force=args.force, stress=args.stress)
 		#print(corpusCg)
-		sentencesCg = compareRncCg(corpus, corpusCg, stress=args.stress, algorithm=args.algorithm, orig=args.original)
+		sentencesCg = compareRncCg(corpus, corpusCg, stress=args.stress, algorithm=args.algorithm, orig=args.original, info=args.info)
 		writeFiltered(args.corpus, sentencesCg)
 

@@ -7,8 +7,8 @@ weeDict = {
 	'S': 'n', # f, m, n, inan:nn
 	#'S': 'np.al',
 	#'S.persn': 'np.ant', # f, m
-	'A-PRO': 'prn.pos', # det.pos?
-	'S-PRO': 'prn.pers',
+	'A-PRO': 'det', #'prn.pos', # det.pos?
+	'S-PRO': 'prn', #.pers',
 	'PR': 'pr',
 	'CONJ': 'cnjcoo', # etc.
 	'INTJ': 'ij',
