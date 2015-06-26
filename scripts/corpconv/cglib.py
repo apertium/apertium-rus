@@ -36,6 +36,10 @@ class Sentences:
 
 	def __len__(self):
 		return len(self.sentences)
+	
+	def __iter__(self):
+		for sentence in self.sentences:
+			yield sentence
 
 class Sentence:
 	global tokenRe
@@ -93,6 +97,10 @@ class Sentence:
 		#	print(repr(token))
 		#print("=========", len(self.tokens))
 		return len(self.tokens)
+	
+	def __iter__(self):
+		for token in self.tokens:
+			yield token
 
 class Token:
 	global tokenRe
@@ -141,6 +149,10 @@ class Token:
 			self.parses.insert(where, Parse(newParse))
 		else:
 			self.parses.append(Parse(newParse))
+
+	def __iter__(self):
+		for parse in self.parses:
+			yield parse
 
 class Parse:
 	global tokenRe
