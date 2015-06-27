@@ -8,13 +8,26 @@ nullParseRe = re.compile("^(;?).*\"\*(.*?)\"$")
 
 class Sentences:
 	sentences = []
+	multiSentMatch = re.compile("\".\" sent\s*\n", re.M)
+	multiSentSplit = re.compile(".*?\".\" sent\s*\n", re.M|re.DOTALL)
 
 	def __init__(self, data):
-		for sentenceData in data.split('\n\n'):
-			newSentence = None
-			newSentence = Sentence(sentenceData)
-			self.sentences.append(newSentence)
-			#print(len(self.sentences))
+		#print(self.multiSentMatch.search(data))
+		if self.multiSentMatch.search(data) and len(data.split('\n\n'))==len([data]):
+			#for sentenceData in data.split('\" sent\n'):
+			for sentenceData in self.multiSentSplit.findall(data):
+				#print("SENTENCE SPLIT", sentenceData)
+				#sentenceData += "\" sent\n"
+				newSentence = None
+				newSentence = Sentence(sentenceData)
+				self.sentences.append(newSentence)
+				#print(len(self.sentences))
+		else:
+			for sentenceData in data.split('\n\n'):
+				newSentence = None
+				newSentence = Sentence(sentenceData)
+				self.sentences.append(newSentence)
+				#print(len(self.sentences))
 	
 	def __repr__(self):
 		return self.sentences
