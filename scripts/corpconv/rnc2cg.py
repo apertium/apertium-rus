@@ -119,7 +119,7 @@ def analyseCg(corpus, stress=False):
 		output = p2.communicate()[0]
 		yield output.decode()
 
-def getCorpusCg(corpus, filename, stress=False, force=False):
+def getCorpusCg(corpus, filename, stress=False, force=False, verbosity=0):
 	global cacheDir
 
 	# get the cache directory
@@ -142,7 +142,7 @@ def getCorpusCg(corpus, filename, stress=False, force=False):
 	# return contents of cache file as Sentences object
 	with open(cgFn, 'r') as cgFile:
 		content = cgFile.read()
-	return cglib.Sentences(content)
+	return cglib.Sentences(content, verbosity = verbosity)
 
 def writeFiltered(filename, sentences):
 
@@ -172,7 +172,7 @@ def tagsMatch(tags, search):
 #def addInRNCTags(corpusRnc, corpusCg):
 
 
-def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS", orig=False, info=False):
+def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS", orig=False, info=False, verbosity=0):
 	global cacheDir
 	global posMappings
 	#print(corpusCg)
@@ -187,7 +187,8 @@ def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS", orig=False,
 		for token in sentenceCg.tokens:
 			if not token.punctInParses():
 				if curW >= len(sentenceRnc[1]):
-					print("DRAGONS", sentenceRnc[1])
+					if verbosity>0:
+						print("DRAGONS", sentenceRnc[1])
 					dragons += 1
 				else:
 					#print(token.token, sentenceRnc[1][cur])
@@ -209,7 +210,8 @@ def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS", orig=False,
 
 					
 						if len(sentenceRnc[1][curW][token.token]) > 1:
-							print("SKIPPING: more than one filter, undefined behaviour", sentenceRnc[1][curW][token.token])
+							if verbosity > 0:
+								print("SKIPPING: more than one filter, undefined behaviour", sentenceRnc[1][curW][token.token])
 						else:
 
 							# check if Rnc parse in Cg parses
@@ -314,6 +316,7 @@ if __name__ == '__main__':
 	parser.add_argument('-f', '--force', help="force cached cg to be regenerated", action='store_true', default=False)
 	parser.add_argument('-o', '--original', help="add in original RNC tags with @RNC tag", action='store_true', default=False)
 	parser.add_argument('-i', '--info', help="print additional information", action='store_true', default=False)
+	parser.add_argument('-v', '--verbosity', help="level of verbosity (0 = none, 1-5 = all warnings)", action='store', type=int, default=0)
 
 	args = parser.parse_args()
 
@@ -326,8 +329,8 @@ if __name__ == '__main__':
 	elif(args.analyse):
 		analyseCg(corpus, stress=args.stress)
 	else:
-		corpusCg = getCorpusCg(corpus, args.corpus, force=args.force, stress=args.stress)
+		corpusCg = getCorpusCg(corpus, args.corpus, force=args.force, stress=args.stress, verbosity=args.verbosity)
 		#print(corpusCg)
-		sentencesCg = compareRncCg(corpus, corpusCg, stress=args.stress, algorithm=args.algorithm, orig=args.original, info=args.info)
+		sentencesCg = compareRncCg(corpus, corpusCg, stress=args.stress, algorithm=args.algorithm, orig=args.original, info=args.info, verbosity=args.verbosity)
 		writeFiltered(args.corpus, sentencesCg)
 

@@ -5,14 +5,17 @@ import re
 tokenRe = re.compile("^\"<(.*?)>\"$")
 parseRe = re.compile("^(;?).*\"(.*?)\" (.*)$")
 nullParseRe = re.compile("^(;?).*\"\*(.*?)\"$")
+verbosity = 0
 
 class Sentences:
+	global verbosity
 	sentences = []
 	multiSentMatch = re.compile("\".\" sent\s*\n", re.M)
 	multiSentSplit = re.compile(".*?\".\" sent\s*\n", re.M|re.DOTALL)
 
-	def __init__(self, data):
+	def __init__(self, data, verbosity=0):
 		#print(self.multiSentMatch.search(data))
+		self.verbosity = verbosity
 		if self.multiSentMatch.search(data) and len(data.split('\n\n'))==len([data]):
 			#for sentenceData in data.split('\" sent\n'):
 			for sentenceData in self.multiSentSplit.findall(data):
@@ -36,7 +39,7 @@ class Sentences:
 		output = ""
 		for sentence in self.sentences:
 			#print(str(sentence))
-			output += str(sentence)
+			output += str(sentence) + "\n\n"
 
 		return output
 	
@@ -57,6 +60,7 @@ class Sentences:
 class Sentence:
 	global tokenRe
 	global parseRe
+	global verbosity
 	tokens = []
 	sentence = ""
 
@@ -82,7 +86,8 @@ class Sentence:
 				parseLines.append(line)
 			else:
 				if line != "":
-					print(line)
+					if verbosity > 0:
+						print(line)
 			#print(parseLines)
 
 		first = True
