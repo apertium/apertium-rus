@@ -46,8 +46,8 @@ def countFullyDisambiguatedSentences(corpus):
 		totalSents += 1
 		if thisSentNumWords == thisSentFullyDisambiguatedWords:
 			totalSentsFullyDisambiguated += 1
-	print("Words: {}/{} ({} unk)".format(totalWordsFullyDisambiguated, totalWords, totalUnknownWords))
-	print("Sents: {}/{}".format(totalSentsFullyDisambiguated, totalSents))
+	print("Fully disambiguated words: {}/{} ({} unk)".format(totalWordsFullyDisambiguated, totalWords, totalUnknownWords))
+	print("Fully disambiguated sentences: {}/{}".format(totalSentsFullyDisambiguated, totalSents))
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='analyse coverage of CG files')

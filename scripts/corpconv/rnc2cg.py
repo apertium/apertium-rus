@@ -152,8 +152,10 @@ def writeFiltered(filename, sentences):
 
 	# write it
 	with open(output, 'w') as outFile:
+		add = ""
 		for sent in sentences:
-			outFile.write(str(sent))
+			outFile.write(add+str(sent))
+			add = "\n\n"
 
 
 def tagsMatch(tags, search):
