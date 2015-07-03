@@ -120,7 +120,7 @@ def analyseCg(corpus, stress=False, verbosity=0):
 			print("SHARKS: rusmorph.sh NOT FOUND")
 	for sentence in getSentences(corpus, stress=False):
 		p1 = Popen(["echo", sentence], stdout=PIPE)
-		p2 = Popen(["rusmorph.sh"], stdin=p1.stdout, stdout=PIPE)
+		p2 = Popen(["rusmorph.sh"], stdin=p1.stdout, stdout=PIPE, shell=True)
 		p1.stdout.close()  # Allow p1 to receive a SIGPIPE if p2 exits.
 		output = p2.communicate()[0]
 		yield output.decode()
