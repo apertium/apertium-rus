@@ -12,6 +12,7 @@ import os
 import cglib
 from rnctags import weeDict as tagDict
 from rnctags import rnc2cg
+from rnclib import which
 
 stressMark = '`'
 cacheDir = ""
@@ -111,7 +112,12 @@ def getSentences(corpus, stress=False):
 		sentence = textContents(se, stress=stress)
 		yield sentence
 
-def analyseCg(corpus, stress=False):
+def analyseCg(corpus, stress=False, verbosity=0):
+	if verbosity>0:
+		if which("rusmorph.sh"):
+			print("rusmorph.sh found")
+		else:
+			print("SHARKS: rusmorph.sh NOT FOUND")
 	for sentence in getSentences(corpus, stress=False):
 		p1 = Popen(["echo", sentence], stdout=PIPE)
 		p2 = Popen(["rusmorph.sh"], stdin=p1.stdout, stdout=PIPE)
@@ -136,7 +142,7 @@ def getCorpusCg(corpus, filename, stress=False, force=False, verbosity=0):
 	# if no cache file, or if being forced to recache, create and fill cache
 	if (not os.path.exists(cgFn)) or force:
 		with open(cgFn, 'w') as cgFile:
-			for sentence in analyseCg(corpus, stress):
+			for sentence in analyseCg(corpus, stress, verbosity=verbosity):
 				cgFile.write(sentence)
 	
 	# return contents of cache file as Sentences object
@@ -173,6 +179,54 @@ def tagsMatch(tags, search):
 
 #def addInRNCTags(corpusRnc, corpusCg):
 
+def guessAlxworezm(sentenceRnc, parsesCg, curW, token, lemma):
+	rnctags = list(sentenceRnc[1][curW][token.token][0].items())[0][1]
+	rnclemma = list(sentenceRnc[1][curW][token.token][0].items())[0][0]
+	rncParse = {rnclemma: rnctags}
+	parseRnc = rnc2cg(rncParse)
+	#"<Кинзмараул>"
+	#print(rncParse)
+	#print(parsesCg)
+	remainingParses = {}
+	exactMatched = False
+	for parse in parsesCg:
+		cglemma = parse.lemma
+		if cglemma != None and "*" not in cglemma and len(parsesCg) > 1:
+			#print(cglemma.strip("¹").strip("²").strip("³").strip("⁴"))
+			if cglemma.strip("¹").strip("²").strip("³").strip("⁴") != rnclemma:
+				parse.comment("REMOVE:LemmaNot_"+rnclemma)
+			else:
+				#print(parse.tags, parseRnc[lemma])
+				intersection = set(parse.tags).intersection(parseRnc[lemma])
+				numMatchingTags = len(intersection)
+				if numMatchingTags == len(parse.tags):
+					parse.addDecision("SELECT:ExactMatch")
+					exactMatched = True
+				else:
+					#thisRemainingParse = [parse, numMatchingTags]
+					if numMatchingTags not in remainingParses:
+						remainingParses[numMatchingTags] = []
+					remainingParses[numMatchingTags].append(parse)
+	if exactMatched:
+		for parse in parsesCg:
+			if not parse.isSelected():
+				parse.comment("REMOVE:NotExactMatch")
+	else:
+		if remainingParses != {}:
+			#print(remainingParses)
+			maxKey = max(remainingParses.keys())
+			#print(maxKey)
+			if maxKey > 0:
+				for num in remainingParses:
+					for remainingParse in remainingParses[num]:
+						#print(remainingParse, parseRnc, num)
+							if num < maxKey:
+								#print(remainingParse)
+								remainingParse.comment("REMOVE:LessThanMaxTags")
+							elif num == maxKey:
+								remainingParse.addDecision("SELECT:MaxMatchingTags")
+
+
 
 def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS", orig=False, info=False, verbosity=0):
 	global cacheDir
@@ -189,7 +243,7 @@ def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS", orig=False,
 		for token in sentenceCg.tokens:
 			if not token.punctInParses():
 				if curW >= len(sentenceRnc[1]):
-					if verbosity>0:
+					if verbosity>1:
 						print("DRAGONS", sentenceRnc[1])
 					dragons += 1
 				else:
@@ -212,8 +266,8 @@ def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS", orig=False,
 
 					
 						if len(sentenceRnc[1][curW][token.token]) > 1:
-							if verbosity > 0:
-								print("SKIPPING: more than one filter, undefined behaviour", sentenceRnc[1][curW][token.token])
+							if verbosity > 1:
+								print("SKIPPING: more than one filter ({}), undefined behaviour".format(len(sentenceRnc[1][curW][token.token])), sentenceRnc[1][curW][token.token])
 						else:
 
 							# check if Rnc parse in Cg parses
@@ -236,52 +290,7 @@ def compareRncCg(corpusRnc, corpusCg, stress=False, algorithm="POS", orig=False,
 							# SELECT analyses where all convertible tags match
 							# otherwise SELECT analysis with most matches
 							elif algorithm=="guess":
-								rnctags = list(sentenceRnc[1][curW][token.token][0].items())[0][1]
-								rnclemma = list(sentenceRnc[1][curW][token.token][0].items())[0][0]
-								rncParse = {rnclemma: rnctags}
-								parseRnc = rnc2cg(rncParse)
-								#"<Кинзмараул>"
-								#print(rncParse)
-								#print(parsesCg)
-								remainingParses = {}
-								exactMatched = False
-								for parse in parsesCg:
-									cglemma = parse.lemma
-									if cglemma != None and "*" not in cglemma and len(parsesCg) > 1:
-										#print(cglemma.strip("¹").strip("²").strip("³").strip("⁴"))
-										if cglemma.strip("¹").strip("²").strip("³").strip("⁴") != rnclemma:
-											parse.comment("REMOVE:LemmaNot_"+rnclemma)
-										else:
-											#print(parse.tags, parseRnc[lemma])
-											intersection = set(parse.tags).intersection(parseRnc[lemma])
-											numMatchingTags = len(intersection)
-											if numMatchingTags == len(parse.tags):
-												parse.addDecision("SELECT:ExactMatch")
-												exactMatched = True
-											else:
-												#thisRemainingParse = [parse, numMatchingTags]
-												if numMatchingTags not in remainingParses:
-													remainingParses[numMatchingTags] = []
-												remainingParses[numMatchingTags].append(parse)
-								if exactMatched:
-									for parse in parsesCg:
-										if not parse.isSelected():
-											parse.comment("REMOVE:NotExactMatch")
-								else:
-									if remainingParses != {}:
-										#print(remainingParses)
-										maxKey = max(remainingParses.keys())
-										#print(maxKey)
-										if maxKey > 0:
-											for num in remainingParses:
-												for remainingParse in remainingParses[num]:
-													#print(remainingParse, parseRnc, num)
-													if num < maxKey:
-														#print(remainingParse)
-														remainingParse.comment("REMOVE:LessThanMaxTags")
-													elif num == maxKey:
-														remainingParse.addDecision("SELECT:MaxMatchingTags")
-
+								guessAlxworezm(sentenceRnc, parsesCg, curW, token, lemma)
 						if orig:
 							for RNCParse in parsesRnc:
 								lem = list(RNCParse.keys())[0]
@@ -318,7 +327,7 @@ if __name__ == '__main__':
 	parser.add_argument('-f', '--force', help="force cached cg to be regenerated", action='store_true', default=False)
 	parser.add_argument('-o', '--original', help="add in original RNC tags with @RNC tag", action='store_true', default=False)
 	parser.add_argument('-i', '--info', help="print additional information", action='store_true', default=False)
-	parser.add_argument('-v', '--verbosity', help="level of verbosity (0 = none, 1-5 = all warnings)", action='store', type=int, default=0)
+	parser.add_argument('-v', '--verbosity', help="level of verbosity (0 = none, 1 = critial warnings only, 2-5 = all warnings)", action='store', type=int, default=0)
 
 	args = parser.parse_args()
 
