@@ -40,15 +40,15 @@ def parseRnc(fn):
 	return corpusTree
 
 def printRnc(corpus, stress=False):
-	words = []
-	for word in corpus.itertext():
-		if word.strip()!='':
-			if not stress:
-				word = re.sub(stressMark, "", word)
-			words.append(word.strip())
+	for sent in corpus.iter('se'):
+		words = []
+		for word in sent.itertext():
+			if word.strip()!='':
+				if not stress:
+					word = re.sub(stressMark, "", word)
+				words.append(word.strip())
 
-	#print(words)
-	print(' '.join(words))
+		print(' '.join(words))
 
 def printRncAsCg(corpus, stress=False, tags=False, uniq=False):
 	global stressMark
