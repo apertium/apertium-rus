@@ -27,6 +27,8 @@ LIST Pred = pred ;
 LIST Part = part ; 
 LIST Abbr = abbr ;
 
+
+
 LIST Pass = pass pasv ;  # Check
 LIST V/Pass = pass ; 
 
@@ -1118,4 +1120,9 @@ SECTION
 
 # AIDA: for "Сорок человек"  - genitive 
 SELECT Gen IF (0 Num) (1 N + Gen) ;
+
+# Balzhan : for "Президент страны" - genitive
+SELECT Gen IF (0 N + Gen) (-1 N + Nom);
+
+
 
