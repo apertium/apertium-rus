@@ -3,6 +3,7 @@
 import argparse, re
 import cglib
 #from rnclib import parseRnc, getRncSentences
+from collections import Counter, OrderedDict
 
 def countFullyDisambiguatedSentences(corpus):
 	#for tuple in getRncSentences(corpus):
@@ -12,6 +13,7 @@ def countFullyDisambiguatedSentences(corpus):
 	totalSents = 0
 	totalSentsFullyDisambiguated = 0
 	totalUnknownWords = 0
+	listUnknownWords = []
 
 	for sentence in corpus:
 		thisSentNumWords = 0
@@ -31,6 +33,9 @@ def countFullyDisambiguatedSentences(corpus):
 				else:
 					numUnanalysedWords += 1
 					totalUnknownWords += 1
+					for analysis2 in form:
+						if "@RNC" in analysis2.tags:
+							listUnknownWords.append(analysis2.simple())
 			if numRemainingAnalyses == 1:
 				fullDisam = True
 				thisSentFullyDisambiguatedWords += 1
@@ -46,13 +51,25 @@ def countFullyDisambiguatedSentences(corpus):
 		totalSents += 1
 		if thisSentNumWords == thisSentFullyDisambiguatedWords:
 			totalSentsFullyDisambiguated += 1
-	print("Fully disambiguated words: {}/{} ({} unk)".format(totalWordsFullyDisambiguated, totalWords, totalUnknownWords))
-	print("Fully disambiguated sentences: {}/{}".format(totalSentsFullyDisambiguated, totalSents))
+	toReturn = {
+		"tot": {
+			"disamwords": totalWordsFullyDisambiguated,
+			"words": totalWords,
+			"unk": totalUnknownWords,
+			"disamsents": totalSentsFullyDisambiguated,
+			"sents": totalSents,
+		},
+		"lists": {
+			"unk": listUnknownWords
+		}
+	}
+	return toReturn
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='analyse coverage of CG files')
 	parser.add_argument('corpus', help="uri to a corpus file")
 	parser.add_argument('-d', '--disambiguated', help="number of sentences and words completely disambiguated", action='store_true', default=False)
+	parser.add_argument('-u', '--unanalysed', help="print out unanalysed forms", action='store_true', default=False)
 
 	args = parser.parse_args()
 
@@ -64,4 +81,20 @@ if __name__ == '__main__':
 	corpus = cglib.Sentences(content)
 
 	if args.disambiguated:
-		countFullyDisambiguatedSentences(corpus)
+		data = countFullyDisambiguatedSentences(corpus)
+		print("Fully disambiguated words: {}/{} ({} unk)".format(data["tot"]["disamwords"], data["tot"]["words"], data["tot"]["unk"]))
+		print("Fully disambiguated sentences: {}/{}".format(data["tot"]["disamsents"], data["tot"]["sents"]))
+
+	if args.unanalysed:
+		data = countFullyDisambiguatedSentences(corpus)
+		counted = Counter(data["lists"]["unk"])
+		ordered = OrderedDict(sorted(counted.items(), reverse=True, key=lambda t: t[1]))
+		toPrint = "Unknown forms: "
+		started = False
+		#print(ordered)
+		for form in ordered:
+			if started:
+				toPrint += ", "
+			started = True
+			toPrint += "{} ({})".format(form, counted[form])
+		print(toPrint)

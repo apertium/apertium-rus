@@ -199,6 +199,11 @@ class Parse:
 
 	def __repr__(self):
 		return repr({self.lemma: self.tags})
+	
+	def simple(self):
+		tags = '.'.join(self.tags)
+		template = '"{}".{}'
+		return template.format(self.lemma, tags)
 
 	def __str__(self):
 		if self.lemma != None:
