@@ -10,7 +10,7 @@ weeDict = {
 	'A-PRO': 'det', #'prn.pos', # det.pos?
 	'S-PRO': 'prn', #.pers',
 	'PR': 'pr',
-	'CONJ': 'cnjcoo', # FIXME: 'cnjsub', etc.
+	'CONJ': ['cnjcoo', 'cnjsub'], # FIXME: 'cnjsub', etc.
 	'INTJ': 'ij',
 	'NUM': 'num',
 	'ANUM': 'num.ord', # FIXME: CHECK

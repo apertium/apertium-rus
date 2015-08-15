@@ -183,6 +183,7 @@ def guessAlxworezm(sentenceRnc, parsesCg, curW, token, lemma):
 	rnctags = list(sentenceRnc[1][curW][token.token][0].items())[0][1]
 	rnclemma = list(sentenceRnc[1][curW][token.token][0].items())[0][0]
 	rncParse = {rnclemma: rnctags}
+	#print(rncParse)
 	parseRnc = rnc2cg(rncParse)
 	#"<Кинзмараул>"
 	#print(rncParse)
@@ -197,6 +198,20 @@ def guessAlxworezm(sentenceRnc, parsesCg, curW, token, lemma):
 				parse.comment("REMOVE:LemmaNot_"+rnclemma)
 			else:
 				#print(parse.tags, parseRnc[lemma])
+				#if len(parseRnc[lemma])==1:
+				toAppend = []
+				for singleTag in parseRnc[lemma]:
+					#print(singleTag)
+					if not isinstance(singleTag, str):
+						#print("LIST")
+						toAppend += singleTag
+						parseRnc[lemma].remove(singleTag)
+				for listTag in toAppend:
+					parseRnc[lemma].append(listTag)
+				#print(parseRnc[lemma])
+						#parseRnc[lemma].del(singleTag)
+				#print(parse.tags, parseRnc[lemma])
+
 				intersection = set(parse.tags).intersection(parseRnc[lemma])
 				numMatchingTags = len(intersection)
 				if numMatchingTags == len(parse.tags):

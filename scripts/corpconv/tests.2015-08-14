@@ -1,0 +1,68 @@
+00razgovor-v-magaz005.xhtml
+Number of sentences: 204
+Number of sentences with tokenisation errors: 2
+
+00telefon003.xhtml
+Number of sentences: 67
+Number of sentences with tokenisation errors: 2
+
+06411495.xhtml
+Number of sentences: 241
+Number of sentences with tokenisation errors: 6
+
+520791.xhtml
+Number of sentences: 81
+Number of sentences with tokenisation errors: 2
+
+aif_0611_3.xhtml
+Number of sentences: 20
+Number of sentences with tokenisation errors: 0
+
+ant3_31.xhtml
+Number of sentences: 189
+Number of sentences with tokenisation errors: 0
+
+kamen.xhtml
+Number of sentences: 188
+Number of sentences with tokenisation errors: 4
+
+00razgovor-v-magaz005.filtered
+Fully disambiguated words: 1401/1517 (25 unk)
+Fully disambiguated sentences: 118/204
+Unknown forms: "Дарелл".S.famn.m.anim.sg.nom.@RNC (3), "общеинформативный".A.m.sg.acc.plen.@RNC (1), "Конрад".S.famn.m.anim.sg.nom.@RNC (1), "Гранин".S.famn.m.anim.sg.gen.@RNC (1), "Поппинс".S.famn.f.anim.sg.nom.@RNC (1), "Шевченко".S.m-f.famn.anim.0.sg.nom.@RNC (1), "СССР".S.m.inan.0.sg.loc.@RNC (1), "ВДНХ".S.f.inan.sg.acc.@RNC (1), "Илемницкий".S.famn.m.anim.sg.gen.@RNC (1), "СССР".S.m.inan.0.sg.gen.@RNC (1), "Балуев".S.famn.m.anim.sg.nom.@RNC (1), "Евтушенко".S.m.famn.anim.0.sg.gen.@RNC (1), "Волин".S.famn.m.anim.sg.nom.@RNC (1), "Сапроненко".S.m-f.famn.anim.0.sg.acc.@RNC (1), "ЦК".S.m.inan.0.sg.gen.@RNC (1), "ППС".S.inan.sg.gen.@RNC (1), "тараканище".S.m.inan.sg.nom.@RNC (1), "Тимофеев".S.famn.m.anim.sg.gen.@RNC (1), "Нахимсон".S.famn.m.anim.sg.gen.@RNC (1), "Мариус".S.persn.m.anim.sg.nom.@RNC (1), "Макаренко".S.m.famn.anim.0.sg.gen.@RNC (1), "раскладушечка".S.f.inan.pl.nom.@RNC (1), "Васин".S.famn.m.anim.sg.acc.@RNC (1)
+
+00telefon003.filtered
+Fully disambiguated words: 185/212 (2 unk)
+Fully disambiguated sentences: 50/67
+Unknown forms: "поздно".ADV.comp2.@RNC (1), "троллейбус".S.m.inan.sg.gen.@RNC (1)
+
+06411495.filtered
+Fully disambiguated words: 1920/2215 (63 unk)
+Fully disambiguated sentences: 123/241
+Unknown forms: "Камий".S.persn.f.anim.0.sg.nom.@RNC (7), "Камишка".S.persn.f.anim.sg.nom.@RNC (2), "фруска".S.f.anim.sg.nom.@RNC (2), "Камий".S.persn.f.anim.0.sg.dat.@RNC (2), "Патик".S.persn.f.anim.0.sg.nom.@RNC (2), "Кинзмараули".S.0.pl.nom.distort.@RNC (2), "light".NONLEX.@RNC (1), "Торстенсен".S.famn.m.anim.sg.nom.@RNC (1), "грузиночка".S.f.anim.sg.nom.@RNC (1), "Кайоль".S.famn.f.anim.0.sg.gen.@RNC (1), "Каквамийква".NONLEX.@RNC (1), "Бонавентура".S.persn.m.anim.sg.gen.@RNC (1), "пожалуйста".PART.distort.@RNC (1), "Камий".S.persn.f.anim.0.sg.loc.@RNC (1), "Катриша".S.persn.f.anim.sg.nom.@RNC (1), "достоевский".A.f.sg.acc.plen.@RNC (1), "Катриша".S.persn.f.anim.sg.ins.@RNC (1), "Андреа".S.persn.m.anim.0.sg.nom.@RNC (1), "матрёшка".S.f.inan.sg.nom.distort.@RNC (1), "слать".V.ipf.tran.sg.act.praes.3p.indic.@RNC (1), "Федя".S.persn.m.anim.sg.nom.@RNC (1), "Поташинская".S.famn.f.anim.sg.nom.@RNC (1), "Камий".S.persn.f.anim.0.sg.ins.@RNC (1), "Трехпрудный".S.m.inan.sg.loc.@RNC (1), "Кайоль".S.famn.f.anim.0.sg.nom.@RNC (1), "Кинзмараули".S.0.pl.nom.@RNC (1), "Розовский".S.famn.m.anim.sg.gen.@RNC (1), "Камий".S.persn.f.anim.sg.nom.@RNC (1), "камишкин".A.f.sg.acc.plen.@RNC (1), "Катрин".S.persn.f.anim.0.sg.nom.@RNC (1), "Мосприватизация".S.f.inan.sg.acc.@RNC (1), "зоквавутква".NONLEX.@RNC (1), "Кайоль".S.famn.f.anim.0.sg.dat.@RNC (1), "Поташинская".S.famn.f.anim.sg.ins.@RNC (1), "Бруно".S.persn.m.anim.0.sg.nom.@RNC (1), "зюзинский".A.m.sg.acc.inan.plen.@RNC (1), "мекваняква".NONLEX.@RNC (1), "фрус".S.m.anim.pl.ins.@RNC (1), "слеза".S.f.inan.pl.ins.anom.@RNC (1), "Кайоловна".S.patrn.f.anim.sg.nom.@RNC (1)
+
+06961000.filtered
+Fully disambiguated words: 379/973 (14 unk)
+Fully disambiguated sentences: 0/58
+Unknown forms: "Коновалов".S.famn.m.anim.pl.gen.@RNC (7), "полупарализованный".A.f.sg.ins.plen.@RNC (1), "Вячеслав".S.persn.m.anim.sg.nom.@RNC (1), "Вячеслав".S.persn.m.anim.sg.dat.@RNC (1), "Ольга".S.persn.f.anim.sg.nom.@RNC (1), "Машка".S.persn.f.anim.sg.nom.@RNC (1), "Коновалов".S.famn.m.anim.pl.nom.@RNC (1)
+
+520791.filtered
+Fully disambiguated words: 1242/1341 (32 unk)
+Fully disambiguated sentences: 39/81
+Unknown forms: "t".NONLEX.@RNC (6), "n".NONLEX.@RNC (4), "F".NONLEX.@RNC (3), "P".NONLEX.@RNC (3), "T".NONLEX.@RNC (2), "A".NONLEX.@RNC (2), "H".NONLEX.@RNC (2), "спироидный".A.m.sg.nom.plen.@RNC (2), "поддерево".S.n.inan.sg.nom.@RNC (1), "САПР".S.f.inan.0.pl.gen.@RNC (1), "параметризовать".V.ipf.tran.partcp.n.sg.gen.pass.praet.plen.@RNC (1), "параметризация".S.f.inan.sg.nom.@RNC (1), "параметризовать".V.ipf.tran.partcp.pl.pass.praet.brev.@RNC (1), "поддерево".S.n.inan.pl.nom.@RNC (1)
+
+aif_0611_3.filtered
+Fully disambiguated words: 345/389 (5 unk)
+Fully disambiguated sentences: 10/20
+Unknown forms: "пятидесятипятилетний".A.m.sg.gen.plen.@RNC (1), "Гальченко".S.m-f.famn.anim.0.sg.nom.@RNC (1), "псевдодемократ".S.m.anim.pl.nom.@RNC (1), "Гальченко".S.m-f.famn.anim.0.sg.ins.@RNC (1)
+
+ant3_31.filtered
+Fully disambiguated words: 2291/2540 (64 unk)
+Fully disambiguated sentences: 68/189
+Unknown forms: "Лагарпов".S.famn.m.anim.sg.nom.@RNC (36), "Лагарпов".S.famn.m.anim.sg.acc.@RNC (4), "Лагарпов".S.famn.m.anim.sg.gen.@RNC (3), "безмысленный".A.f.sg.brev.@RNC (3), "Лагарпов".S.famn.m.anim.sg.dat.@RNC (2), "Димка".S.persn.m.anim.sg.acc.@RNC (2), "первооткрытие".S.n.inan.sg.gen.@RNC (1), "Слаповский".S.famn.m.anim.sg.nom.@RNC (1), "крепкий".A.comp2.@RNC (1), "парашютик".S.m.inan.pl.acc.@RNC (1), "Фреди".S.persn.m.anim.0.sg.nom.@RNC (1), "Лагарпов".S.famn.m.anim.sg.ins.@RNC (1), "Димка".S.persn.m.anim.sg.gen.@RNC (1), "Димка".S.persn.m.anim.sg.nom.@RNC (1), "увлечься".V.pf.intr.med.ger.praet.@RNC (1), "подаренье".S.n.inan.sg.dat.@RNC (1)
+
+kamen.filtered
+Fully disambiguated words: 2378/2593 (18 unk)
+Fully disambiguated sentences: 79/188
+Unknown forms: "поселище".S.n.inan.sg.gen.@RNC (2), "пощекотить".V.pf.tran.pl.act.fut.1p.indic.@RNC (1), "навалиться".V.pf.intr.med.ger.praet.anom.@RNC (1), "перевалиться".V.pf.intr.med.ger.praet.@RNC (1), "едрить".V.ipf.tran.sg.act.praes.3p.indic.@RNC (1), "высокий".A.comp2.@RNC (1), "говнюк".S.m.anim.obsc.pl.nom.@RNC (1), "мелкий".A.comp2.@RNC (1), "напрячься".V.pf.intr.med.ger.praet.@RNC (1), "лага".S.f.inan.sg.ins.@RNC (1), "паникерщик".S.m.anim.pl.nom.@RNC (1), "упасть".V.pf.intr.act.ger.praet.@RNC (1), "поселище".S.n.inan.sg.ins.@RNC (1), "Василь".S.persn.m.anim.sg.nom.@RNC (1), "обреченно".ADV.@RNC (1), "толкальщик".S.m.anim.pl.gen.@RNC (1)
+

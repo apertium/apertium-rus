@@ -1,0 +1,56 @@
+00razgovor-v-magaz005.xhtml
+Number of sentences: 204
+Number of sentences with tokenisation errors: 2
+
+00telefon003.xhtml
+Number of sentences: 67
+Number of sentences with tokenisation errors: 2
+
+06411495.xhtml
+Number of sentences: 241
+Number of sentences with tokenisation errors: 6
+
+520791.xhtml
+Number of sentences: 81
+Number of sentences with tokenisation errors: 2
+
+aif_0611_3.xhtml
+Number of sentences: 20
+Number of sentences with tokenisation errors: 0
+
+ant3_31.xhtml
+Number of sentences: 189
+Number of sentences with tokenisation errors: 0
+
+00razgovor-v-magaz005.filtered
+Fully disambiguated words: 1399/1517 (25 unk)
+Fully disambiguated sentences: 116/204
+
+00telefon003.filtered
+Fully disambiguated words: 185/212 (2 unk)
+Fully disambiguated sentences: 50/67
+
+06411495.filtered
+Fully disambiguated words: 1909/2215 (63 unk)
+Fully disambiguated sentences: 120/241
+
+06961000.filtered
+Fully disambiguated words: 379/973 (14 unk)
+Fully disambiguated sentences: 0/58
+
+520791.filtered
+Fully disambiguated words: 1237/1341 (32 unk)
+Fully disambiguated sentences: 38/81
+
+aif_0611_3.filtered
+Fully disambiguated words: 348/389 (5 unk)
+Fully disambiguated sentences: 11/20
+
+ant3_31.filtered
+Fully disambiguated words: 2283/2540 (64 unk)
+Fully disambiguated sentences: 68/189
+
+kamen.filtered
+Fully disambiguated words: 2356/2593 (18 unk)
+Fully disambiguated sentences: 74/188
+
