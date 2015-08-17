@@ -71,6 +71,7 @@ if __name__ == '__main__':
 	parser.add_argument('-d', '--disambiguated', help="number of sentences and words completely disambiguated", action='store_true', default=False)
 	parser.add_argument('-u', '--unanalysed', help="print out unanalysed forms", action='store_true', default=False)
 	parser.add_argument('-a', '--ambiguous', help="print out forms with more than one RNC reading", action='store_true', default=False)
+	parser.add_argument('-c', '--count', help="use with -a to just count the number of forms with more than one RNC reading", action='store_true', default=False)
 
 	args = parser.parse_args()
 
@@ -101,14 +102,22 @@ if __name__ == '__main__':
 		print(toPrint)
 	
 	if args.ambiguous:
+		numAmbig = 0
+		totalForms = 0
 		for sentence in corpus:
 			for form in sentence:
 				RNC = 0
+				totalForms += 1
 				for analysis in form:
 					if "@RNC" in analysis.tags:
 						RNC += 1
 				if RNC > 1:
-					print(sentence.sentence)
-					print(form)
-					#print(' '.join(sentence.forms()))
+					if not args.count:
+						print(sentence.sentence)
+						print(form)
+						#print(' '.join(sentence.forms()))
+					else:
+						numAmbig += 1
+		if args.count:
+			print("{} of {} forms is RNC-ambiguous".format(numAmbig, totalForms))
 		
