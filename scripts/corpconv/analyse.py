@@ -70,6 +70,7 @@ if __name__ == '__main__':
 	parser.add_argument('corpus', help="uri to a corpus file")
 	parser.add_argument('-d', '--disambiguated', help="number of sentences and words completely disambiguated", action='store_true', default=False)
 	parser.add_argument('-u', '--unanalysed', help="print out unanalysed forms", action='store_true', default=False)
+	parser.add_argument('-a', '--ambiguous', help="print out forms with more than one RNC reading", action='store_true', default=False)
 
 	args = parser.parse_args()
 
@@ -98,3 +99,16 @@ if __name__ == '__main__':
 			started = True
 			toPrint += "{} ({})".format(form, counted[form])
 		print(toPrint)
+	
+	if args.ambiguous:
+		for sentence in corpus:
+			for form in sentence:
+				RNC = 0
+				for analysis in form:
+					if "@RNC" in analysis.tags:
+						RNC += 1
+				if RNC > 1:
+					print(sentence.sentence)
+					print(form)
+					#print(' '.join(sentence.forms()))
+		

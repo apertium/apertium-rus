@@ -119,6 +119,12 @@ class Sentence:
 	def __iter__(self):
 		for token in self.tokens:
 			yield token
+	
+	def forms(self):
+		forms = []
+		for token in self.tokens:
+			forms.append(token.token)
+		return forms
 
 class Token:
 	global tokenRe
