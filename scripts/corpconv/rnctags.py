@@ -8,9 +8,9 @@ weeDict = {
 	#'S': 'np.al',
 	#'S.persn': 'np.ant', # f, m
 	'A-PRO': ['det', 'prn', 'det.all', 'det.dem', 'prn.dem', 'det.pos',
-		'prn.pos']
+		'prn.pos'],
 	'S-PRO': ['prn', 'prn.all', 'prn.def', 'prn.dem', 'prn.ind', 'prn.itg',
-		'prn.neg', 'prn.pers', 'prn.ref', 'prn.rel']
+		'prn.neg', 'prn.pers', 'prn.ref', 'prn.rel'],
 	'PR': 'pr',
 	'CONJ': ['cnjadv', 'cnjcoo', 'cnjsub'],
 	'INTJ': 'ij',
@@ -18,7 +18,7 @@ weeDict = {
 	'ANUM': 'num.ord', 
 	'A-NUM': 'num.ord', # typo in na_ostrove.xhtml, should be ANUM 
 	'PART': 'part', # ☹
-	'ADV-PRO': ['adv', 'adv.itg', 'adv.rel']
+	'ADV-PRO': ['adv', 'adv.itg', 'adv.rel'],
 	'PRAEDIC': 'pred',
 	'PRAEDIC-PRO': 'prn.pred',
 	'PARENTH': 'paren', # parenthetical
@@ -55,7 +55,7 @@ weeDict = {
 	'praet': 'past',
 	'fut': 'fut',
 	'inf': 'inf',
-	'ger': ['pprs.adv', 'pp.adv']
+	'ger': ['pprs.adv', 'pp.adv'],
 	'partcp': 'pp',
 	'brev': 'short',
 	'pass': 'pasv',

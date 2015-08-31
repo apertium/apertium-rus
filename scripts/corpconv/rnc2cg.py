@@ -27,7 +27,7 @@ posMappings = {
 		'S-PRO': 'prn.pers',
 		'PR': 'pr',
 		'CONJ': 'cnjcoo', # etc.
-		'INTJ': 'ij',
+		'INTJ': 'ij'
 		# ADV-PRO ?
 	}
 
