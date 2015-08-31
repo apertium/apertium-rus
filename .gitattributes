@@ -46,6 +46,7 @@ expanded/diff-previous-vs-current.txt -text
 /rus.prob -text
 scripts/corpconv/analyse.py -text
 scripts/corpconv/cglib.py -text
+scripts/corpconv/rnc-gt-missing-lemmas.txt -text
 scripts/corpconv/rnc2cg.py -text
 scripts/corpconv/rnclib.py -text
 scripts/corpconv/rnctags.py -text
