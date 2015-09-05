@@ -334,13 +334,14 @@ if __name__ == '__main__':
 	parser.add_argument('corpus', help="uri to a corpus file")
 	parser.add_argument('-s', '--stress', help="preserve stress marks", action='store_true', default=False)
 	parser.add_argument('-c', '--clean', help="print clean output", action='store_true', default=False)
-	parser.add_argument('-g', '--cg', help="print raw corpus in CG format", action='store_true', default=False)
+	parser.add_argument('-d', '--debug', help="print raw corpus for debugging", action='store_true', default=False)
 	parser.add_argument('-t', '--tags', help="tags only", action='store_true', default=False)
 	parser.add_argument('-u', '--uniq', help="unique tags only", action='store_true', default=False)
 	parser.add_argument('-a', '--analyse', help="analyse all sentences with rusmorph.sh and cache the analyses", action='store_true', default=False)
 	parser.add_argument('-m', '--algorithm', help="algorithm to use for comparison: pos or guess", action='store', default='pos')
 	parser.add_argument('-f', '--force', help="force cached cg to be regenerated", action='store_true', default=False)
-	parser.add_argument('-o', '--original', help="add in original RNC tags with @RNC tag", action='store_true', default=False)
+	#parser.add_argument('-o', '--output', help="output CG file", action='store')
+	parser.add_argument('-O', '--original', help="add in original RNC tags with @RNC tag", action='store_true', default=False)
 	parser.add_argument('-i', '--info', help="print additional information", action='store_true', default=False)
 	parser.add_argument('-v', '--verbosity', help="level of verbosity (0 = none, 1 = critial warnings only, 2-5 = all warnings)", action='store', type=int, default=0)
 
@@ -350,7 +351,7 @@ if __name__ == '__main__':
 
 	if(args.clean):
 		printRnc(corpus, stress=args.stress)
-	elif(args.cg):
+	elif(args.debug):
 		printRncAsCg(corpus, stress=args.stress, tags=args.tags, uniq=args.uniq)
 	elif(args.analyse):
 		analyseCg(corpus, stress=args.stress)
