@@ -1127,5 +1127,8 @@ SECTION
 # Balzhan : for "Президент страны" - genitive
 SELECT Gen IF (0 N + Gen) (-1 N + Nom);
 
+# Aida : for "новый ученик" - noun
+SELECT A IF (0 N OR A) (1 N);
+
 
 
