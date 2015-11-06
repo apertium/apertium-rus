@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CORPUSDIR=~/q/ap/gt/ruscorpora_1M/texts
+CORPUSDIR=~/corpora/ruscorpora_1M/texts
 
 for testname in `cat tests.dat`; do
 	filename=${testname}.xhtml
