@@ -1130,5 +1130,7 @@ SELECT Gen IF (0 N + Gen) (-1 N + Nom);
 # Aida : for "новый ученик" - noun
 SELECT A IF (0 N OR A) (1 N);
 
+# Balzhan : for "в лесу" - preposition
+SELECT  Prp IF (0 N + Prp) (-1 Pr);
 
 
