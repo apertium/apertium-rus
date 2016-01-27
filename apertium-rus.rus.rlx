@@ -381,6 +381,11 @@ REMOVE Prp IF (-1 BOS) ;
 
 REMOVE Pr IF (1 EOS) ;
 
+
+# for ¨мой¨ 
+SELECT (det pos) IF (0 N);
+
+
 # for ¨моя книга¨ ¨мой дом¨ 
 SELECT (det pos) IF (1 N);
 
@@ -1122,7 +1127,7 @@ REMOVE SUB:1 Sent IF (1 Cog) ;
 SECTION
 
 # AIDA: for "Сорок человек"  - genitive 
-#SELECT Gen IF (0 Num) (1 N + Gen) ;
+SELECT Gen IF (0 Num) (1 N + Gen) ;
 
 # Balzhan : for "Президент страны" - genitive
 SELECT Gen IF (0 N + Gen) (-1 N + Nom);
