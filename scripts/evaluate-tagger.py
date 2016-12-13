@@ -397,7 +397,7 @@ print('');
 
 print('precision:\t', precision, '\t( true pos / all pos )');
 print('recall   :\t', recall, '\t( true pos / (true pos + false neg) )');
-print('accuracy :\t', accuracy, '\t((true pos + true neg) / (everything) )');
+print('accuracy :\t', accuracy, '\t( (true pos + true neg) / (everything) )');
 
 print('');
 
