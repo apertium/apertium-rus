@@ -45,6 +45,7 @@ LIST Count =  count Count ;
 #LIST Cipher =  "<[0-9]+>"r  ;
 LIST Cipher =  "[0-9]+"r  ;
 
+
 LIST Pprep =  pprep pobj Pprep ; 
 LIST Pers =  pers Pers ;
 LIST Paren =  paren Paren ; 
@@ -422,6 +423,8 @@ SELECT Gen IF (-1 Num/Neskolko) (1C* N + Gen BARRIER (*) - Gen) (0 A + Gen) ;
 REMOVE Adv/Neskolko IF (-1C Pr) (1 Gen) ; 
 
 REMOVE Nom IF (-1C Pr) ;
+
+REMOVE A IF (-1C Pr)(0 Pron OR A) ;
 
 REMOVE NGDAIP - Gen IF (-1C* Pr/Dlja OR Pr/U OR Pr/Do OR Pr/Ot OR Pr/Iz OR Pr/Iz-za OR Pr/Krome OR Pr/Protiv OR Pr/Posle OR Pr/Bez OR Pr/Sredi OR Pr/Okolo OR Pr/Pomimo CBARRIER (*) - Adv - Comp - DetIndecl) ;
 
