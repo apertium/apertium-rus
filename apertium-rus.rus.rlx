@@ -370,6 +370,8 @@ SET CLB = Rel | CS ;
 
 SECTION 
 
+SELECT Pred IF (0 Pred) ;
+
 SELECT:SV Pr IF (0 Oneletterp);
 
 SELECT:CC CC IF (0 I);
