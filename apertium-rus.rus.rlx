@@ -403,6 +403,10 @@ REMOVE Pr IF (1C Cm) ;
 
 SELECT Posle IF (-1C Cm) ;
 
+#####
+
+SELECT Pred IF (0 Pred) ;
+#####
 REMOVE Interj IF (1 SentNotExcl) ; 
   # Мне случилось говорить с одним из наших писателей о комизме в жизни, о трудности определить явление, назвать его настоящим словом.
 
