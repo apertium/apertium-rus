@@ -12,11 +12,21 @@ def readings(w, testFunc): #{
 	removed_readings = [];
 	reading = '';
 	seen = False;
+	escaped = False;
 	for c in w: #{
-		if c == '/' and seen == False: #{
+#		print('@@', c, w, escaped, seen, readings, file=sys.stderr);
+		if c == '\\': #{
+			escaped = True; 
+		#}
+		if c != '\\' and escaped: #{
+			reading = reading + c;
+			escaped = False;
+			continue;
+		#}
+		if c == '/' and seen == False and not escaped: #{
 			seen = True;
 			continue;
-		elif (c == '/' or c == '$') and seen: #{
+		elif (c == '/' or c == '$') and seen and not escaped: #{
 			if len(reading) < 1: #{
 				print('Feil: ', w ,file=sys.stderr); 
 			#}
@@ -265,6 +275,7 @@ for line in range(0, lines): #{
 		ref_pos = reading_pos(ref_readings[0]);
 		ref_func = reading_func(ref_readings[0]);
 		ref_msd = reading_msd(ref_readings[0]);
+		n_ref_readings = n_ref_readings + 1;
 	#}
 
 	if tst_w.count('/*') > 0 and skipUnknown == True: #{
@@ -273,7 +284,7 @@ for line in range(0, lines): #{
 		continue;	
 	#}
 
-	n_ref_readings = n_ref_readings + 1;
+	#n_ref_readings = n_ref_readings + 1;
 
 	#######################################################################
 
@@ -380,6 +391,12 @@ for line in range(0, lines): #{
 
 print('');
 
+print("n_ref: %d" % ( n_ref_readings ));
+print("n_src: %d" % ( n_src_readings ));
+print("n_tst: %d" % ( n_tst_readings ));
+
+print('');
+
 print('unknown  :\t', n_unknown,'(', (float(n_unknown)/float(n_ref_readings))*100.0,')');
 
 print('');
@@ -392,11 +409,14 @@ print('falseneg :\t', n_falsenegative);
 precision = float(n_truepositive) / (float(n_truepositive + n_falsepositive));
 recall = float(n_truepositive) / (float(n_truepositive + n_falsenegative));
 accuracy = float(n_truepositive + n_truenegative) / (float(n_truepositive + n_falsenegative + n_truenegative + n_falsepositive));
+fscore = 2.0 * ((precision*recall) / (precision+recall));
 
 print('');
 
 print('precision:\t', precision, '\t( true pos / all pos )');
 print('recall   :\t', recall, '\t( true pos / (true pos + false neg) )');
+print('fscore   :\t', fscore);
+
 print('accuracy :\t', accuracy, '\t( (true pos + true neg) / (everything) )');
 
 print('');
@@ -406,7 +426,11 @@ tst_ambig_rate = float(n_tst_readings)/float(n_ref_readings);
 print('tokens   :\t', n_tokens);
 print('src_ambig:\t', src_ambig_rate);
 print('tst_ambig:\t', tst_ambig_rate);
-print('resolved :\t %.2f%%' % (100.0-(tst_ambig_rate/src_ambig_rate*100.0)));
+###print('resolved :\t %.2f%%' % (100.0-(tst_ambig_rate/src_ambig_rate*100.0))); ## CHECK THIS
+xx = (n_src_readings-n_ref_readings);
+yy = (n_tst_readings-n_ref_readings);
+zz = yy/xx;
+print('resolved :\t %.2f' % ((1.0-zz)*100))
 
 print('');
 
