@@ -656,6 +656,9 @@ SELECT Rel IF (0 Prn/Komu) (-1 Cm LINK -1 Prn/Tot) ;
 
 SELECT N/Vek IF (0 N/Veko OR N/Vek) (-1 Roman LINK -1 TimePart)  ; 
 
+#select roman if в XIV веке
+SELECT Roman  IF (1 N/Veko OR N/Vek) (-1 Prep/Prp)  ; 
+
 SELECT N/Vek IF (0 N/Veko OR N/Vek) (-1 Roman LINK -1 Pr)  ; 
 
 SELECT Gen IF (0 N/Vek) (0C Sg + Gen OR Pl) (-1 Roman LINK -1 TimePart) ;
