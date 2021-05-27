@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Russian], [0.2.1], [apertium-stuff@lists.sourceforge.net], [apertium-rus], [http://wiki.apertium.org/wiki/Apertium-rus])
+AC_INIT([Apertium Russian], [0.2.1], [apertium-stuff@lists.sourceforge.net], [apertium-rus], [https://wiki.apertium.org/wiki/Apertium-rus])
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
