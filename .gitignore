@@ -13,3 +13,12 @@
 /install-sh
 /missing
 /modes
+/*.hfst
+/*.zhfst
+/.DS_Store
+/*.mode
+/*-*.prob
+/.deps
+/config.in
+/config
+/test/*-output.txt
